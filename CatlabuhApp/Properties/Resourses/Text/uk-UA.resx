@@ -1,0 +1,712 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CalculationPartNameText1" xml:space="preserve">
+    <value>Водний баланс</value>
+    <comment>Название части расчета</comment>
+  </data>
+  <data name="CalculationPartNameText2" xml:space="preserve">
+    <value>Сольовий баланс</value>
+    <comment>Название части расчета</comment>
+  </data>
+  <data name="CalculationPartNameText3" xml:space="preserve">
+    <value>Витратна частина</value>
+    <comment>Название части расчета</comment>
+  </data>
+  <data name="CalculationPartNameText4" xml:space="preserve">
+    <value>Прибуткова частина</value>
+    <comment>Название части расчета</comment>
+  </data>
+  <data name="ChartViewToolItemText1" xml:space="preserve">
+    <value>Створити нову діаграму</value>
+    <comment>Текст на элементе ChartViewUC</comment>
+  </data>
+  <data name="ChartViewToolItemText2" xml:space="preserve">
+    <value>Зберегти як зображення</value>
+    <comment>Текст на элементе ChartViewUC</comment>
+  </data>
+  <data name="ChartViewToolItemText3" xml:space="preserve">
+    <value>Відкрити в окремому вікні</value>
+    <comment>Текст на элементе ChartViewUC</comment>
+  </data>
+  <data name="ChartViewToolItemText4" xml:space="preserve">
+    <value>Назва діаграми</value>
+    <comment>Текст на элементе ChartViewUC</comment>
+  </data>
+  <data name="ChartViewToolItemText5" xml:space="preserve">
+    <value>Тип діаграми</value>
+    <comment>Текст на элементе ChartViewUC</comment>
+  </data>
+  <data name="ChartViewToolItemText6" xml:space="preserve">
+    <value>Підписи вісей</value>
+    <comment>Текст на элементе ChartViewUC</comment>
+  </data>
+  <data name="ChartViewToolItemText7" xml:space="preserve">
+    <value>Показати сітку</value>
+    <comment>Текст на элементе ChartViewUC</comment>
+  </data>
+  <data name="ComboBoxText1" xml:space="preserve">
+    <value>Вкажіть рік розрахунку:</value>
+    <comment>Подпись к выпадающему списку</comment>
+  </data>
+  <data name="ContextMenuText1" xml:space="preserve">
+    <value>Перерахувати розрахунок</value>
+    <comment>Элемент контексного меню</comment>
+  </data>
+  <data name="ContextMenuText2" xml:space="preserve">
+    <value>Зберегти зміни</value>
+    <comment>Элемент контексного меню</comment>
+  </data>
+  <data name="ContextMenuText3" xml:space="preserve">
+    <value>Видалити розрахунок</value>
+    <comment>Элемент контексного меню</comment>
+  </data>
+  <data name="CreateCalculationButtonText1" xml:space="preserve">
+    <value>Повернутися</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationButtonText2" xml:space="preserve">
+    <value>Зберегти вихідні дані</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationButtonText3" xml:space="preserve">
+    <value>Провести розрахунок</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationButtonText4" xml:space="preserve">
+    <value>Очистити поля</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationCheckText1" xml:space="preserve">
+    <value>Автоматичне заповнення</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText1" xml:space="preserve">
+    <value>Вкажіть рівні води</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText10" xml:space="preserve">
+    <value>Вкажіть визначення випаровування</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText2" xml:space="preserve">
+    <value>Вкажіть збір води на зрошування</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText3" xml:space="preserve">
+    <value>Сума опадів за місяцб по м/ст Ізмаїл</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText4" xml:space="preserve">
+    <value>Введіть випаровування м/ст Болград</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText5" xml:space="preserve">
+    <value>Введіть дефіцит вологості</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText6" xml:space="preserve">
+    <value>Графік роботи шлюзів</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText7" xml:space="preserve">
+    <value>Наповнення озера</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText8" xml:space="preserve">
+    <value>Скиди води в озеро</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationGroupText9" xml:space="preserve">
+    <value>Вкажіть об'єми за рік</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationLabelText1" xml:space="preserve">
+    <value>Вказати дані з графіка роботи шлюзів</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationLabelText2" xml:space="preserve">
+    <value>Приплив ґрунтових вод:</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationLabelText3" xml:space="preserve">
+    <value>Кінець груд. поперед. року:</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationRadioText1" xml:space="preserve">
+    <value>Дані з м/ст Болград</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationRadioText2" xml:space="preserve">
+    <value>Розрахувати</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="CreateCalculationRadioText3" xml:space="preserve">
+    <value>Вести велечини</value>
+    <comment>Текст на элементе CreateCalculationUC</comment>
+  </data>
+  <data name="MeasurementMeasures1" xml:space="preserve">
+    <value>мБС</value>
+    <comment>Еденицы измерения</comment>
+  </data>
+  <data name="MeasurementMeasures2" xml:space="preserve">
+    <value>млн. м^3</value>
+    <comment>Еденицы измерения</comment>
+  </data>
+  <data name="MeasurementMeasures3" xml:space="preserve">
+    <value>км^2</value>
+    <comment>Еденицы измерения</comment>
+  </data>
+  <data name="MeasurementMeasures4" xml:space="preserve">
+    <value>мм</value>
+    <comment>Еденицы измерения</comment>
+  </data>
+  <data name="MeasurementMeasures5" xml:space="preserve">
+    <value>гПа</value>
+    <comment>Еденицы измерения</comment>
+  </data>
+  <data name="MeasurementMeasures6" xml:space="preserve">
+    <value>кг/м^3</value>
+    <comment>Еденицы измерения</comment>
+  </data>
+  <data name="MeasurementMeasures7" xml:space="preserve">
+    <value>10^6 т.</value>
+    <comment>Еденицы измерения</comment>
+  </data>
+  <data name="MenuItemText1" xml:space="preserve">
+    <value>Створити новий розрахунок</value>
+    <comment>Название дочернего элемента меню</comment>
+  </data>
+  <data name="MenuItemText2" xml:space="preserve">
+    <value>Переглянути розрахунки</value>
+    <comment>Название дочернего элемента меню</comment>
+  </data>
+  <data name="MenuItemText3" xml:space="preserve">
+    <value>Відправити в Excel</value>
+    <comment>Название дочернего элемента меню</comment>
+  </data>
+  <data name="MenuItemText4" xml:space="preserve">
+    <value>Переглянути довідку</value>
+    <comment>Название дочернего элемента меню</comment>
+  </data>
+  <data name="MenuItemText5" xml:space="preserve">
+    <value>Про програму</value>
+    <comment>Название дочернего элемента меню</comment>
+  </data>
+  <data name="MenuText1" xml:space="preserve">
+    <value>Розрахунки</value>
+    <comment>Название элемента меню</comment>
+  </data>
+  <data name="MenuText2" xml:space="preserve">
+    <value>Діаграми</value>
+    <comment>Название элемента меню</comment>
+  </data>
+  <data name="MenuText3" xml:space="preserve">
+    <value>Налаштування</value>
+    <comment>Название элемента меню</comment>
+  </data>
+  <data name="MenuText4" xml:space="preserve">
+    <value>Помощь</value>
+    <comment>Название элемента меню</comment>
+  </data>
+  <data name="MonthText" xml:space="preserve">
+    <value>Місяць</value>
+    <comment>Месяц</comment>
+  </data>
+  <data name="MonthText1" xml:space="preserve">
+    <value>Січ.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText10" xml:space="preserve">
+    <value>Жовт.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText11" xml:space="preserve">
+    <value>Листоп.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText12" xml:space="preserve">
+    <value>Груд.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText2" xml:space="preserve">
+    <value>Лют.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText3" xml:space="preserve">
+    <value>Берез.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText4" xml:space="preserve">
+    <value>Квіт.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText5" xml:space="preserve">
+    <value>Трав.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText6" xml:space="preserve">
+    <value>Черв.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText7" xml:space="preserve">
+    <value>Лип.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText8" xml:space="preserve">
+    <value>Серп.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="MonthText9" xml:space="preserve">
+    <value>Вер.</value>
+    <comment>Название месяца</comment>
+  </data>
+  <data name="SBCPText1" xml:space="preserve">
+    <value>Мінералізація збору води на зрошування</value>
+    <comment>Подсказака столбца таблицы CБУЧ</comment>
+  </data>
+  <data name="SBCPText2" xml:space="preserve">
+    <value>Мінералізація скидів води у р. Дунай</value>
+    <comment>Подсказака столбца таблицы CБУЧ</comment>
+  </data>
+  <data name="SBCPText3" xml:space="preserve">
+    <value>Мінералізація води на підтримку рівнів  води в системі озер Лунг-Сафьян</value>
+    <comment>Подсказака столбца таблицы CБУЧ</comment>
+  </data>
+  <data name="SBCPText4" xml:space="preserve">
+    <value>Втрата солей з фільтрацією</value>
+    <comment>Подсказака столбца таблицы CБУЧ</comment>
+  </data>
+  <data name="SBCPText5" xml:space="preserve">
+    <value>Втрата солей на зрошуванні</value>
+    <comment>Подсказака столбца таблицы CБУЧ</comment>
+  </data>
+  <data name="SBCPText6" xml:space="preserve">
+    <value>Скиди води разом із солями у р. Дунай</value>
+    <comment>Подсказака столбца таблицы CБУЧ</comment>
+  </data>
+  <data name="SBCPText7" xml:space="preserve">
+    <value>Солі, що виводяться з воддою на підтримку рівнів води у системі озер Лунг-Сафьян</value>
+    <comment>Подсказака столбца таблицы CБУЧ</comment>
+  </data>
+  <data name="SBCPText8" xml:space="preserve">
+    <value>Сума витратної частини</value>
+    <comment>Подсказака столбца таблицы CБУЧ</comment>
+  </data>
+  <data name="SBPPText1" xml:space="preserve">
+    <value>Середня по озеру мінералізація на початку місяця</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText10" xml:space="preserve">
+    <value>Концентрація солей по озеру наприкінці місяця</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText11" xml:space="preserve">
+    <value>Надходження солей з опадами</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText12" xml:space="preserve">
+    <value>Надходження солей з поверхневим стоком</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText13" xml:space="preserve">
+    <value>Надходження солей з бічним припливом</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText14" xml:space="preserve">
+    <value>Надходження солей з ґрунтовими водами</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText15" xml:space="preserve">
+    <value>Надходження солей з дренажними водами</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText16" xml:space="preserve">
+    <value>Надходження солей з Дунайською водою</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText18" xml:space="preserve">
+    <value>Сума прихідної частини</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText2" xml:space="preserve">
+    <value>Середня по озеру мінералізація наприкінці місяця</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText3" xml:space="preserve">
+    <value>Мінералізація атмосферних опадів</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText4" xml:space="preserve">
+    <value>Мінералізація поверхневого стоку</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText5" xml:space="preserve">
+    <value>Мінералізація бічного припливу</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText6" xml:space="preserve">
+    <value>Мінералізація ґрунтового стоку</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText7" xml:space="preserve">
+    <value>Мінералізація дренажних вод</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText8" xml:space="preserve">
+    <value>Мінералізація Дунайської води</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="SBPPText9" xml:space="preserve">
+    <value>Концентрація солей по озеру на початку місяця</value>
+    <comment>Подсказака столбца таблицы CБПЧ</comment>
+  </data>
+  <data name="StatusText1" xml:space="preserve">
+    <value>Перегляд розрахунків</value>
+    <comment>Строка состояния</comment>
+  </data>
+  <data name="StatusText2" xml:space="preserve">
+    <value>Перегляд налаштувань розрахунку</value>
+    <comment>Строка состояния</comment>
+  </data>
+  <data name="StatusText3" xml:space="preserve">
+    <value>Перегляд графіку</value>
+    <comment>Строка состояния</comment>
+  </data>
+  <data name="StatusText4" xml:space="preserve">
+    <value>Відравка розрахунку до Excel:</value>
+    <comment>Строка состояния</comment>
+  </data>
+  <data name="TableNameText1" xml:space="preserve">
+    <value>Внутрішньорічний розподіл поверхневого стоку</value>
+    <comment>Название таблицы 3.1</comment>
+  </data>
+  <data name="TableNameText2" xml:space="preserve">
+    <value>Внутрішньорічний розподіл припливу ґрунтових вод</value>
+    <comment>Название таблицы 3.2</comment>
+  </data>
+  <data name="TitleText" xml:space="preserve">
+    <value>Водний і сольовий баланси озера Катлабух</value>
+    <comment>Загаловок основной формы</comment>
+  </data>
+  <data name="WaterLevelText1" xml:space="preserve">
+    <value>Багатоводний</value>
+    <comment>Название водности</comment>
+  </data>
+  <data name="WaterLevelText2" xml:space="preserve">
+    <value>Средньоводний</value>
+    <comment>Название водности</comment>
+  </data>
+  <data name="WaterLevelText3" xml:space="preserve">
+    <value>Маловодний</value>
+    <comment>Название водности</comment>
+  </data>
+  <data name="WaterLevelText4" xml:space="preserve">
+    <value>Дуже маловодний</value>
+    <comment>Название водности</comment>
+  </data>
+  <data name="WBCPText1" xml:space="preserve">
+    <value>Дефіцит вологості</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText10" xml:space="preserve">
+    <value>Сума витратної частини</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText11" xml:space="preserve">
+    <value>Скиди води з озера в р. Дунай</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText12" xml:space="preserve">
+    <value>Підтримка рівнів води озер Лунг-Сафьян</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText2" xml:space="preserve">
+    <value>Логарифм дефіциту вологості</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText3" xml:space="preserve">
+    <value>Логарифим випаровування</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText4" xml:space="preserve">
+    <value>Випаровування</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText5" xml:space="preserve">
+    <value>Транспірація</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText6" xml:space="preserve">
+    <value>Об'єм випаровування</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText7" xml:space="preserve">
+    <value>Об'єм транспірації</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText8" xml:space="preserve">
+    <value>Об'єм фільтрації</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBCPText9" xml:space="preserve">
+    <value>Збір води на зрошування</value>
+    <comment>Подсказака столбца таблицы ВБУЧ</comment>
+  </data>
+  <data name="WBPPText1" xml:space="preserve">
+    <value>Рівень води на початку місяця</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText10" xml:space="preserve">
+    <value>Об'єм річкового стоку</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText11" xml:space="preserve">
+    <value>Об'єм бічного припливу</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText12" xml:space="preserve">
+    <value>Об'єм припливу ґрунтових вод</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText13" xml:space="preserve">
+    <value>Об'єм надходження дренажних вод</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText14" xml:space="preserve">
+    <value>Сума прихідної частини</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText15" xml:space="preserve">
+    <value>Приплив води з р. Дунай</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText16" xml:space="preserve">
+    <value>Нев'язкі рівняння водного балансу</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText2" xml:space="preserve">
+    <value>Рівень води наприкінці місяця</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText3" xml:space="preserve">
+    <value>Середній рівень води за місяць</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText4" xml:space="preserve">
+    <value>Об'єм води в озері на початку місяця</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText5" xml:space="preserve">
+    <value>Об'єм води в озері наприкінці місяця</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText6" xml:space="preserve">
+    <value>Зміни об'єму води в озері за місяць</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText7" xml:space="preserve">
+    <value>Площа водного дзеркала</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText8" xml:space="preserve">
+    <value>Опади виміряні на м/ст Ізмаїл</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="WBPPText9" xml:space="preserve">
+    <value>Об'єм атмосферних опадів</value>
+    <comment>Подсказака столбца таблицы ВБПЧ</comment>
+  </data>
+  <data name="SetupChartButtonText1" xml:space="preserve">
+    <value>Додати</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartButtonText2" xml:space="preserve">
+    <value>Видалити</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartButtonText3" xml:space="preserve">
+    <value>Очистити</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartButtonText4" xml:space="preserve">
+    <value>Побудувати</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartButtonText5" xml:space="preserve">
+    <value>Відміна</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartComboText1" xml:space="preserve">
+    <value>Оберіть рік</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartComboText2" xml:space="preserve">
+    <value>Від</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartComboText3" xml:space="preserve">
+    <value>До</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartGroupText1" xml:space="preserve">
+    <value>Вісь</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartGroupText2" xml:space="preserve">
+    <value>Вкажіть параметри для вісі </value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartGroupText3" xml:space="preserve">
+    <value>Діаграма</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartRadioText1" xml:space="preserve">
+    <value>Роки</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartRadioText2" xml:space="preserve">
+    <value>Місяці</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartTabText1" xml:space="preserve">
+    <value>ВБПЧ</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartTabText2" xml:space="preserve">
+    <value>ВБВЧ</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartTabText3" xml:space="preserve">
+    <value>СБПЧ</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartTabText4" xml:space="preserve">
+    <value>СБВЧ</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartTabText5" xml:space="preserve">
+    <value>Вказати рік</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+  <data name="SetupChartTabText6" xml:space="preserve">
+    <value>Вказати діапазон</value>
+    <comment>Текст на элементе SetupChartForm</comment>
+  </data>
+</root>
