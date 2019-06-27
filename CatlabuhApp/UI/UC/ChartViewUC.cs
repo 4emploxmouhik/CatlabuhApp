@@ -7,20 +7,50 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CatlabuhApp.Data.Access;
+using System.Windows.Forms.DataVisualization.Charting;
+using CatlabuhApp.UI.Forms;
 
 namespace CatlabuhApp.UI.UC
 {
-    public partial class ChartViewUC : UserControl
+    public partial class ChartViewUC : UserControl, IDataViewUC
     {
-        public ChartViewUC()
-        {
-            InitializeComponent();
-
+        public IDataAccess DataAccess { get; set; }
+        public bool SeparateMode {
+            set
+            {
+                createNewChart.Visible = !value;
+                openInSeparateWindow.Visible = !value;
+                toolStripSeparator1.Visible = !value;
+            }
+        }
+        public Chart Chart {
+            get
+            {
+                return chart;
+            }
+            set
+            {
+                chart = value;
+            }
         }
 
-        private void ChartViewUC_Load(object sender, EventArgs e)
+        public ChartViewUC()
         {
+            Dock = DockStyle.Fill;
 
+            InitializeComponent();
+        }
+
+        public ChartViewUC(IDataAccess dataAccess) : this()
+        {
+            DataAccess = dataAccess;
+        }
+
+        private void openInSeparateWindow_Click(object sender, EventArgs e)
+        {
+            ShowChartForm separteWindow = new ShowChartForm() { Text = chart.Titles[0].Text, Chart = chart };
+            separteWindow.Show();
         }
     }
 }

@@ -344,6 +344,16 @@ namespace CatlabuhApp.Data
             return $"SELECT * FROM Years ORDER BY Name_year { (isOrderByDefault ? "ASC" : "DESC") }";
         }
 
+        /// <summary>
+        ///  Формирует и возвращает список лет таблицы Years
+        /// </summary>
+        /// <param name="isOrderByDefault">Если истина, то сортировка по умолчанию(возрастанию), иначе - по убыванию</param>
+        /// <returns>Строка-представление</returns>
+        public static string GetYearsList(bool isOrderByDefault)
+        {
+            return $"SELECT Name_year FROM Years ORDER BY Name_year { (isOrderByDefault ? "ASC" : "DESC") }";
+        }
+
         #endregion
         #region Запросы для таблицы Years
 

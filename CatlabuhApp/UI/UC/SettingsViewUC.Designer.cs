@@ -1,6 +1,6 @@
 ﻿namespace CatlabuhApp.UI.UC
 {
-    partial class SettingsUC
+    partial class SettingsViewUC
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -28,18 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // SettingsUC
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(173, 167);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(526, 108);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "SETTINGS";
+            // 
+            // SettingsViewUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "SettingsUC";
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.label1);
+            this.Name = "SettingsViewUC";
             this.Size = new System.Drawing.Size(884, 515);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace CatlabuhApp.UI.UC
 {
-    partial class CreateCalculationUC
+    partial class CalculationCreateUC
     {
         /// <summary> 
         /// Обязательная переменная конструктора.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateCalculationUC));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CalculationCreateUC));
             this.groupHBoxes = new System.Windows.Forms.GroupBox();
             this.autoFilingBox = new System.Windows.Forms.CheckBox();
             this.h2Label11 = new System.Windows.Forms.Label();
@@ -80,7 +80,37 @@
             this.h2Box1 = new System.Windows.Forms.TextBox();
             this.h2Box0 = new System.Windows.Forms.TextBox();
             this.groupPBoxes = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.pBox0 = new System.Windows.Forms.TextBox();
+            this.pBox8 = new System.Windows.Forms.TextBox();
+            this.pBox9 = new System.Windows.Forms.TextBox();
+            this.pBox7 = new System.Windows.Forms.TextBox();
+            this.pBox10 = new System.Windows.Forms.TextBox();
+            this.pBox6 = new System.Windows.Forms.TextBox();
+            this.pBox11 = new System.Windows.Forms.TextBox();
+            this.pBox5 = new System.Windows.Forms.TextBox();
+            this.pBox4 = new System.Windows.Forms.TextBox();
+            this.pBox1 = new System.Windows.Forms.TextBox();
+            this.pBox3 = new System.Windows.Forms.TextBox();
+            this.pBox2 = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
             this.sumPBox = new System.Windows.Forms.TextBox();
             this.procPBox = new System.Windows.Forms.TextBox();
@@ -97,18 +127,6 @@
             this.pLabel2 = new System.Windows.Forms.Label();
             this.pLabel1 = new System.Windows.Forms.Label();
             this.pLabel0 = new System.Windows.Forms.Label();
-            this.pBox11 = new System.Windows.Forms.TextBox();
-            this.pBox10 = new System.Windows.Forms.TextBox();
-            this.pBox9 = new System.Windows.Forms.TextBox();
-            this.pBox8 = new System.Windows.Forms.TextBox();
-            this.pBox7 = new System.Windows.Forms.TextBox();
-            this.pBox6 = new System.Windows.Forms.TextBox();
-            this.pBox5 = new System.Windows.Forms.TextBox();
-            this.pBox4 = new System.Windows.Forms.TextBox();
-            this.pBox3 = new System.Windows.Forms.TextBox();
-            this.pBox2 = new System.Windows.Forms.TextBox();
-            this.pBox1 = new System.Windows.Forms.TextBox();
-            this.pBox0 = new System.Windows.Forms.TextBox();
             this.groupVzBoxes = new System.Windows.Forms.GroupBox();
             this.vzLabel11 = new System.Windows.Forms.Label();
             this.vzLabel10 = new System.Windows.Forms.Label();
@@ -135,9 +153,6 @@
             this.vzBox1 = new System.Windows.Forms.TextBox();
             this.vzBox0 = new System.Windows.Forms.TextBox();
             this.groupDorEBoxes = new System.Windows.Forms.GroupBox();
-            this.chooseECalculationGrouup = new System.Windows.Forms.GroupBox();
-            this.calculateE = new System.Windows.Forms.RadioButton();
-            this.setValuesE = new System.Windows.Forms.RadioButton();
             this.dorELabel7 = new System.Windows.Forms.Label();
             this.dorELabel11 = new System.Windows.Forms.Label();
             this.dorELabel10 = new System.Windows.Forms.Label();
@@ -162,7 +177,38 @@
             this.dorEBox2 = new System.Windows.Forms.TextBox();
             this.dorEBox1 = new System.Windows.Forms.TextBox();
             this.dorEBox0 = new System.Windows.Forms.TextBox();
+            this.chooseECalculationGrouup = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.calculateE = new System.Windows.Forms.RadioButton();
+            this.setValuesE = new System.Windows.Forms.RadioButton();
             this.groupVDBoxes = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.vdMonthMinusBox11 = new System.Windows.Forms.CheckBox();
             this.vdMinusBox11 = new System.Windows.Forms.TextBox();
@@ -188,6 +234,31 @@
             this.vdMinusBox1 = new System.Windows.Forms.TextBox();
             this.vdMonthMinusBox0 = new System.Windows.Forms.CheckBox();
             this.vdMinusBox0 = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.checkBox17 = new System.Windows.Forms.CheckBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.checkBox18 = new System.Windows.Forms.CheckBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.checkBox19 = new System.Windows.Forms.CheckBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.checkBox20 = new System.Windows.Forms.CheckBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.checkBox21 = new System.Windows.Forms.CheckBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.checkBox22 = new System.Windows.Forms.CheckBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.checkBox23 = new System.Windows.Forms.CheckBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.checkBox24 = new System.Windows.Forms.CheckBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.vdMonthPlusBox11 = new System.Windows.Forms.CheckBox();
             this.vdPlusBox11 = new System.Windows.Forms.TextBox();
@@ -228,14 +299,13 @@
             this.vdLabel2 = new System.Windows.Forms.Label();
             this.vdLabel1 = new System.Windows.Forms.Label();
             this.vdLabel0 = new System.Windows.Forms.Label();
-            this.sumVrBox = new System.Windows.Forms.TextBox();
-            this.sumVrLabel = new System.Windows.Forms.Label();
+            this.checkBox25 = new System.Windows.Forms.CheckBox();
+            this.sumVgBox = new System.Windows.Forms.TextBox();
+            this.sumVgLabel = new System.Windows.Forms.Label();
             this.groupSumVrBox = new System.Windows.Forms.GroupBox();
             this.s1Box = new System.Windows.Forms.TextBox();
             this.s1Label = new System.Windows.Forms.Label();
             this.groupS1Box = new System.Windows.Forms.GroupBox();
-            this.back = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.saveInputData = new System.Windows.Forms.ToolStripButton();
             this.toCalculate = new System.Windows.Forms.ToolStripButton();
             this.clearFields = new System.Windows.Forms.ToolStripButton();
@@ -243,17 +313,18 @@
             this.yearsBoxLabel = new System.Windows.Forms.ToolStripLabel();
             this.yearsBox = new System.Windows.Forms.ToolStripComboBox();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.chooseEnterVD = new System.Windows.Forms.ToolStripButton();
             this.groupHBoxes.SuspendLayout();
             this.groupPBoxes.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupVzBoxes.SuspendLayout();
             this.groupDorEBoxes.SuspendLayout();
             this.chooseECalculationGrouup.SuspendLayout();
             this.groupVDBoxes.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.groupBox10.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.chooseVDCalcualtionGroup.SuspendLayout();
             this.groupSumVrBox.SuspendLayout();
@@ -263,6 +334,7 @@
             // 
             // groupHBoxes
             // 
+            resources.ApplyResources(this.groupHBoxes, "groupHBoxes");
             this.groupHBoxes.Controls.Add(this.autoFilingBox);
             this.groupHBoxes.Controls.Add(this.h2Label11);
             this.groupHBoxes.Controls.Add(this.h2Label10);
@@ -312,412 +384,261 @@
             this.groupHBoxes.Controls.Add(this.h2Box2);
             this.groupHBoxes.Controls.Add(this.h2Box1);
             this.groupHBoxes.Controls.Add(this.h2Box0);
-            this.groupHBoxes.Location = new System.Drawing.Point(18, 33);
             this.groupHBoxes.Name = "groupHBoxes";
-            this.groupHBoxes.Size = new System.Drawing.Size(239, 386);
-            this.groupHBoxes.TabIndex = 1;
             this.groupHBoxes.TabStop = false;
-            this.groupHBoxes.Text = "groupBox1";
             // 
             // autoFilingBox
             // 
-            this.autoFilingBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.autoFilingBox.AutoSize = true;
-            this.autoFilingBox.Location = new System.Drawing.Point(153, 363);
+            resources.ApplyResources(this.autoFilingBox, "autoFilingBox");
             this.autoFilingBox.Name = "autoFilingBox";
-            this.autoFilingBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.autoFilingBox.Size = new System.Drawing.Size(80, 17);
-            this.autoFilingBox.TabIndex = 47;
             this.autoFilingBox.TabStop = false;
-            this.autoFilingBox.Text = "checkBox1";
             this.autoFilingBox.UseVisualStyleBackColor = true;
             // 
             // h2Label11
             // 
-            this.h2Label11.AutoSize = true;
-            this.h2Label11.Location = new System.Drawing.Point(137, 330);
+            resources.ApplyResources(this.h2Label11, "h2Label11");
             this.h2Label11.Name = "h2Label11";
-            this.h2Label11.Size = new System.Drawing.Size(41, 13);
-            this.h2Label11.TabIndex = 46;
-            this.h2Label11.Text = "label13";
             // 
             // h2Label10
             // 
-            this.h2Label10.AutoSize = true;
-            this.h2Label10.Location = new System.Drawing.Point(137, 304);
+            resources.ApplyResources(this.h2Label10, "h2Label10");
             this.h2Label10.Name = "h2Label10";
-            this.h2Label10.Size = new System.Drawing.Size(41, 13);
-            this.h2Label10.TabIndex = 45;
-            this.h2Label10.Text = "label14";
             // 
             // h2Label9
             // 
-            this.h2Label9.AutoSize = true;
-            this.h2Label9.Location = new System.Drawing.Point(137, 278);
+            resources.ApplyResources(this.h2Label9, "h2Label9");
             this.h2Label9.Name = "h2Label9";
-            this.h2Label9.Size = new System.Drawing.Size(41, 13);
-            this.h2Label9.TabIndex = 44;
-            this.h2Label9.Text = "label15";
             // 
             // h2Label8
             // 
-            this.h2Label8.AutoSize = true;
-            this.h2Label8.Location = new System.Drawing.Point(137, 252);
+            resources.ApplyResources(this.h2Label8, "h2Label8");
             this.h2Label8.Name = "h2Label8";
-            this.h2Label8.Size = new System.Drawing.Size(41, 13);
-            this.h2Label8.TabIndex = 43;
-            this.h2Label8.Text = "label16";
             // 
             // h2Label7
             // 
-            this.h2Label7.AutoSize = true;
-            this.h2Label7.Location = new System.Drawing.Point(137, 226);
+            resources.ApplyResources(this.h2Label7, "h2Label7");
             this.h2Label7.Name = "h2Label7";
-            this.h2Label7.Size = new System.Drawing.Size(41, 13);
-            this.h2Label7.TabIndex = 42;
-            this.h2Label7.Text = "label17";
             // 
             // h2Label6
             // 
-            this.h2Label6.AutoSize = true;
-            this.h2Label6.Location = new System.Drawing.Point(137, 200);
+            resources.ApplyResources(this.h2Label6, "h2Label6");
             this.h2Label6.Name = "h2Label6";
-            this.h2Label6.Size = new System.Drawing.Size(41, 13);
-            this.h2Label6.TabIndex = 41;
-            this.h2Label6.Text = "label18";
             // 
             // h2Label5
             // 
-            this.h2Label5.AutoSize = true;
-            this.h2Label5.Location = new System.Drawing.Point(137, 174);
+            resources.ApplyResources(this.h2Label5, "h2Label5");
             this.h2Label5.Name = "h2Label5";
-            this.h2Label5.Size = new System.Drawing.Size(41, 13);
-            this.h2Label5.TabIndex = 40;
-            this.h2Label5.Text = "label19";
             // 
             // h2Label4
             // 
-            this.h2Label4.AutoSize = true;
-            this.h2Label4.Location = new System.Drawing.Point(137, 148);
+            resources.ApplyResources(this.h2Label4, "h2Label4");
             this.h2Label4.Name = "h2Label4";
-            this.h2Label4.Size = new System.Drawing.Size(41, 13);
-            this.h2Label4.TabIndex = 39;
-            this.h2Label4.Text = "label20";
             // 
             // h2Label3
             // 
-            this.h2Label3.AutoSize = true;
-            this.h2Label3.Location = new System.Drawing.Point(137, 122);
+            resources.ApplyResources(this.h2Label3, "h2Label3");
             this.h2Label3.Name = "h2Label3";
-            this.h2Label3.Size = new System.Drawing.Size(41, 13);
-            this.h2Label3.TabIndex = 38;
-            this.h2Label3.Text = "label21";
             // 
             // h2Label2
             // 
-            this.h2Label2.AutoSize = true;
-            this.h2Label2.Location = new System.Drawing.Point(137, 96);
+            resources.ApplyResources(this.h2Label2, "h2Label2");
             this.h2Label2.Name = "h2Label2";
-            this.h2Label2.Size = new System.Drawing.Size(41, 13);
-            this.h2Label2.TabIndex = 37;
-            this.h2Label2.Text = "label22";
             // 
             // h2Label1
             // 
-            this.h2Label1.AutoSize = true;
-            this.h2Label1.Location = new System.Drawing.Point(137, 70);
+            resources.ApplyResources(this.h2Label1, "h2Label1");
             this.h2Label1.Name = "h2Label1";
-            this.h2Label1.Size = new System.Drawing.Size(41, 13);
-            this.h2Label1.TabIndex = 36;
-            this.h2Label1.Text = "label23";
             // 
             // h2Label0
             // 
-            this.h2Label0.AutoSize = true;
-            this.h2Label0.Location = new System.Drawing.Point(137, 44);
+            resources.ApplyResources(this.h2Label0, "h2Label0");
             this.h2Label0.Name = "h2Label0";
-            this.h2Label0.Size = new System.Drawing.Size(41, 13);
-            this.h2Label0.TabIndex = 35;
-            this.h2Label0.Text = "label24";
             // 
             // h1Label11
             // 
-            this.h1Label11.AutoSize = true;
-            this.h1Label11.Location = new System.Drawing.Point(22, 330);
+            resources.ApplyResources(this.h1Label11, "h1Label11");
             this.h1Label11.Name = "h1Label11";
-            this.h1Label11.Size = new System.Drawing.Size(35, 13);
-            this.h1Label11.TabIndex = 34;
-            this.h1Label11.Text = "label9";
             // 
             // h1Label10
             // 
-            this.h1Label10.AutoSize = true;
-            this.h1Label10.Location = new System.Drawing.Point(16, 304);
+            resources.ApplyResources(this.h1Label10, "h1Label10");
             this.h1Label10.Name = "h1Label10";
-            this.h1Label10.Size = new System.Drawing.Size(41, 13);
-            this.h1Label10.TabIndex = 33;
-            this.h1Label10.Text = "label10";
             // 
             // h1Label9
             // 
-            this.h1Label9.AutoSize = true;
-            this.h1Label9.Location = new System.Drawing.Point(16, 278);
+            resources.ApplyResources(this.h1Label9, "h1Label9");
             this.h1Label9.Name = "h1Label9";
-            this.h1Label9.Size = new System.Drawing.Size(41, 13);
-            this.h1Label9.TabIndex = 32;
-            this.h1Label9.Text = "label11";
             // 
             // h1Label8
             // 
-            this.h1Label8.AutoSize = true;
-            this.h1Label8.Location = new System.Drawing.Point(16, 252);
+            resources.ApplyResources(this.h1Label8, "h1Label8");
             this.h1Label8.Name = "h1Label8";
-            this.h1Label8.Size = new System.Drawing.Size(41, 13);
-            this.h1Label8.TabIndex = 31;
-            this.h1Label8.Text = "label12";
             // 
             // h1Label7
             // 
-            this.h1Label7.AutoSize = true;
-            this.h1Label7.Location = new System.Drawing.Point(22, 226);
+            resources.ApplyResources(this.h1Label7, "h1Label7");
             this.h1Label7.Name = "h1Label7";
-            this.h1Label7.Size = new System.Drawing.Size(35, 13);
-            this.h1Label7.TabIndex = 30;
-            this.h1Label7.Text = "label5";
             // 
             // h1Label6
             // 
-            this.h1Label6.AutoSize = true;
-            this.h1Label6.Location = new System.Drawing.Point(22, 200);
+            resources.ApplyResources(this.h1Label6, "h1Label6");
             this.h1Label6.Name = "h1Label6";
-            this.h1Label6.Size = new System.Drawing.Size(35, 13);
-            this.h1Label6.TabIndex = 29;
-            this.h1Label6.Text = "label6";
             // 
             // h1Label5
             // 
-            this.h1Label5.AutoSize = true;
-            this.h1Label5.Location = new System.Drawing.Point(22, 174);
+            resources.ApplyResources(this.h1Label5, "h1Label5");
             this.h1Label5.Name = "h1Label5";
-            this.h1Label5.Size = new System.Drawing.Size(35, 13);
-            this.h1Label5.TabIndex = 28;
-            this.h1Label5.Text = "label7";
             // 
             // h1Label4
             // 
-            this.h1Label4.AutoSize = true;
-            this.h1Label4.Location = new System.Drawing.Point(22, 148);
+            resources.ApplyResources(this.h1Label4, "h1Label4");
             this.h1Label4.Name = "h1Label4";
-            this.h1Label4.Size = new System.Drawing.Size(35, 13);
-            this.h1Label4.TabIndex = 27;
-            this.h1Label4.Text = "label8";
             // 
             // h1Label3
             // 
-            this.h1Label3.AutoSize = true;
-            this.h1Label3.Location = new System.Drawing.Point(22, 122);
+            resources.ApplyResources(this.h1Label3, "h1Label3");
             this.h1Label3.Name = "h1Label3";
-            this.h1Label3.Size = new System.Drawing.Size(35, 13);
-            this.h1Label3.TabIndex = 26;
-            this.h1Label3.Text = "label3";
             // 
             // h1Label2
             // 
-            this.h1Label2.AutoSize = true;
-            this.h1Label2.Location = new System.Drawing.Point(22, 96);
+            resources.ApplyResources(this.h1Label2, "h1Label2");
             this.h1Label2.Name = "h1Label2";
-            this.h1Label2.Size = new System.Drawing.Size(35, 13);
-            this.h1Label2.TabIndex = 25;
-            this.h1Label2.Text = "label4";
             // 
             // h1Label1
             // 
-            this.h1Label1.AutoSize = true;
-            this.h1Label1.Location = new System.Drawing.Point(22, 70);
+            resources.ApplyResources(this.h1Label1, "h1Label1");
             this.h1Label1.Name = "h1Label1";
-            this.h1Label1.Size = new System.Drawing.Size(35, 13);
-            this.h1Label1.TabIndex = 24;
-            this.h1Label1.Text = "label2";
             // 
             // h1Label0
             // 
-            this.h1Label0.AutoSize = true;
-            this.h1Label0.Location = new System.Drawing.Point(22, 44);
+            resources.ApplyResources(this.h1Label0, "h1Label0");
             this.h1Label0.Name = "h1Label0";
-            this.h1Label0.Size = new System.Drawing.Size(35, 13);
-            this.h1Label0.TabIndex = 2;
-            this.h1Label0.Text = "label1";
             // 
             // h1Box11
             // 
-            this.h1Box11.Location = new System.Drawing.Point(63, 327);
+            resources.ApplyResources(this.h1Box11, "h1Box11");
             this.h1Box11.Name = "h1Box11";
-            this.h1Box11.Size = new System.Drawing.Size(45, 20);
-            this.h1Box11.TabIndex = 12;
             // 
             // h1Box10
             // 
-            this.h1Box10.Location = new System.Drawing.Point(63, 301);
+            resources.ApplyResources(this.h1Box10, "h1Box10");
             this.h1Box10.Name = "h1Box10";
-            this.h1Box10.Size = new System.Drawing.Size(45, 20);
-            this.h1Box10.TabIndex = 11;
             // 
             // h1Box9
             // 
-            this.h1Box9.Location = new System.Drawing.Point(63, 275);
+            resources.ApplyResources(this.h1Box9, "h1Box9");
             this.h1Box9.Name = "h1Box9";
-            this.h1Box9.Size = new System.Drawing.Size(45, 20);
-            this.h1Box9.TabIndex = 10;
             // 
             // h1Box8
             // 
-            this.h1Box8.Location = new System.Drawing.Point(63, 249);
+            resources.ApplyResources(this.h1Box8, "h1Box8");
             this.h1Box8.Name = "h1Box8";
-            this.h1Box8.Size = new System.Drawing.Size(45, 20);
-            this.h1Box8.TabIndex = 9;
             // 
             // h1Box7
             // 
-            this.h1Box7.Location = new System.Drawing.Point(63, 223);
+            resources.ApplyResources(this.h1Box7, "h1Box7");
             this.h1Box7.Name = "h1Box7";
-            this.h1Box7.Size = new System.Drawing.Size(45, 20);
-            this.h1Box7.TabIndex = 8;
             // 
             // h1Box6
             // 
-            this.h1Box6.Location = new System.Drawing.Point(63, 197);
+            resources.ApplyResources(this.h1Box6, "h1Box6");
             this.h1Box6.Name = "h1Box6";
-            this.h1Box6.Size = new System.Drawing.Size(45, 20);
-            this.h1Box6.TabIndex = 7;
             // 
             // h1Box5
             // 
-            this.h1Box5.Location = new System.Drawing.Point(63, 171);
+            resources.ApplyResources(this.h1Box5, "h1Box5");
             this.h1Box5.Name = "h1Box5";
-            this.h1Box5.Size = new System.Drawing.Size(45, 20);
-            this.h1Box5.TabIndex = 6;
             // 
             // h1Box4
             // 
-            this.h1Box4.Location = new System.Drawing.Point(63, 145);
+            resources.ApplyResources(this.h1Box4, "h1Box4");
             this.h1Box4.Name = "h1Box4";
-            this.h1Box4.Size = new System.Drawing.Size(45, 20);
-            this.h1Box4.TabIndex = 5;
             // 
             // h1Box3
             // 
-            this.h1Box3.Location = new System.Drawing.Point(63, 119);
+            resources.ApplyResources(this.h1Box3, "h1Box3");
             this.h1Box3.Name = "h1Box3";
-            this.h1Box3.Size = new System.Drawing.Size(45, 20);
-            this.h1Box3.TabIndex = 4;
             // 
             // h1Box2
             // 
-            this.h1Box2.Location = new System.Drawing.Point(63, 93);
+            resources.ApplyResources(this.h1Box2, "h1Box2");
             this.h1Box2.Name = "h1Box2";
-            this.h1Box2.Size = new System.Drawing.Size(45, 20);
-            this.h1Box2.TabIndex = 3;
             // 
             // h1Box1
             // 
-            this.h1Box1.Location = new System.Drawing.Point(63, 67);
+            resources.ApplyResources(this.h1Box1, "h1Box1");
             this.h1Box1.Name = "h1Box1";
-            this.h1Box1.Size = new System.Drawing.Size(45, 20);
-            this.h1Box1.TabIndex = 2;
             // 
             // h1Box0
             // 
-            this.h1Box0.Location = new System.Drawing.Point(63, 41);
+            resources.ApplyResources(this.h1Box0, "h1Box0");
             this.h1Box0.Name = "h1Box0";
-            this.h1Box0.Size = new System.Drawing.Size(45, 20);
-            this.h1Box0.TabIndex = 1;
             // 
             // h2Box11
             // 
-            this.h2Box11.Location = new System.Drawing.Point(184, 327);
+            resources.ApplyResources(this.h2Box11, "h2Box11");
             this.h2Box11.Name = "h2Box11";
-            this.h2Box11.Size = new System.Drawing.Size(45, 20);
-            this.h2Box11.TabIndex = 24;
             // 
             // h2Box10
             // 
-            this.h2Box10.Location = new System.Drawing.Point(184, 301);
+            resources.ApplyResources(this.h2Box10, "h2Box10");
             this.h2Box10.Name = "h2Box10";
-            this.h2Box10.Size = new System.Drawing.Size(45, 20);
-            this.h2Box10.TabIndex = 23;
             // 
             // h2Box9
             // 
-            this.h2Box9.Location = new System.Drawing.Point(184, 275);
+            resources.ApplyResources(this.h2Box9, "h2Box9");
             this.h2Box9.Name = "h2Box9";
-            this.h2Box9.Size = new System.Drawing.Size(45, 20);
-            this.h2Box9.TabIndex = 22;
             // 
             // h2Box8
             // 
-            this.h2Box8.Location = new System.Drawing.Point(184, 249);
+            resources.ApplyResources(this.h2Box8, "h2Box8");
             this.h2Box8.Name = "h2Box8";
-            this.h2Box8.Size = new System.Drawing.Size(45, 20);
-            this.h2Box8.TabIndex = 21;
             // 
             // h2Box7
             // 
-            this.h2Box7.Location = new System.Drawing.Point(184, 223);
+            resources.ApplyResources(this.h2Box7, "h2Box7");
             this.h2Box7.Name = "h2Box7";
-            this.h2Box7.Size = new System.Drawing.Size(45, 20);
-            this.h2Box7.TabIndex = 20;
             // 
             // h2Box6
             // 
-            this.h2Box6.Location = new System.Drawing.Point(184, 197);
+            resources.ApplyResources(this.h2Box6, "h2Box6");
             this.h2Box6.Name = "h2Box6";
-            this.h2Box6.Size = new System.Drawing.Size(45, 20);
-            this.h2Box6.TabIndex = 19;
             // 
             // h2Box5
             // 
-            this.h2Box5.Location = new System.Drawing.Point(184, 171);
+            resources.ApplyResources(this.h2Box5, "h2Box5");
             this.h2Box5.Name = "h2Box5";
-            this.h2Box5.Size = new System.Drawing.Size(45, 20);
-            this.h2Box5.TabIndex = 18;
             // 
             // h2Box4
             // 
-            this.h2Box4.Location = new System.Drawing.Point(184, 145);
+            resources.ApplyResources(this.h2Box4, "h2Box4");
             this.h2Box4.Name = "h2Box4";
-            this.h2Box4.Size = new System.Drawing.Size(45, 20);
-            this.h2Box4.TabIndex = 17;
             // 
             // h2Box3
             // 
-            this.h2Box3.Location = new System.Drawing.Point(184, 119);
+            resources.ApplyResources(this.h2Box3, "h2Box3");
             this.h2Box3.Name = "h2Box3";
-            this.h2Box3.Size = new System.Drawing.Size(45, 20);
-            this.h2Box3.TabIndex = 16;
             // 
             // h2Box2
             // 
-            this.h2Box2.Location = new System.Drawing.Point(184, 93);
+            resources.ApplyResources(this.h2Box2, "h2Box2");
             this.h2Box2.Name = "h2Box2";
-            this.h2Box2.Size = new System.Drawing.Size(45, 20);
-            this.h2Box2.TabIndex = 15;
             // 
             // h2Box1
             // 
-            this.h2Box1.Location = new System.Drawing.Point(184, 67);
+            resources.ApplyResources(this.h2Box1, "h2Box1");
             this.h2Box1.Name = "h2Box1";
-            this.h2Box1.Size = new System.Drawing.Size(45, 20);
-            this.h2Box1.TabIndex = 14;
             // 
             // h2Box0
             // 
-            this.h2Box0.Location = new System.Drawing.Point(184, 41);
+            resources.ApplyResources(this.h2Box0, "h2Box0");
             this.h2Box0.Name = "h2Box0";
-            this.h2Box0.Size = new System.Drawing.Size(45, 20);
-            this.h2Box0.TabIndex = 13;
             // 
             // groupPBoxes
             // 
+            resources.ApplyResources(this.groupPBoxes, "groupPBoxes");
+            this.groupPBoxes.Controls.Add(this.groupBox4);
+            this.groupPBoxes.Controls.Add(this.groupBox3);
             this.groupPBoxes.Controls.Add(this.groupBox8);
             this.groupPBoxes.Controls.Add(this.pLabel11);
             this.groupPBoxes.Controls.Add(this.pLabel10);
@@ -731,268 +652,290 @@
             this.groupPBoxes.Controls.Add(this.pLabel2);
             this.groupPBoxes.Controls.Add(this.pLabel1);
             this.groupPBoxes.Controls.Add(this.pLabel0);
-            this.groupPBoxes.Controls.Add(this.pBox11);
-            this.groupPBoxes.Controls.Add(this.pBox10);
-            this.groupPBoxes.Controls.Add(this.pBox9);
-            this.groupPBoxes.Controls.Add(this.pBox8);
-            this.groupPBoxes.Controls.Add(this.pBox7);
-            this.groupPBoxes.Controls.Add(this.pBox6);
-            this.groupPBoxes.Controls.Add(this.pBox5);
-            this.groupPBoxes.Controls.Add(this.pBox4);
-            this.groupPBoxes.Controls.Add(this.pBox3);
-            this.groupPBoxes.Controls.Add(this.pBox2);
-            this.groupPBoxes.Controls.Add(this.pBox1);
-            this.groupPBoxes.Controls.Add(this.pBox0);
-            this.groupPBoxes.Location = new System.Drawing.Point(393, 33);
             this.groupPBoxes.Name = "groupPBoxes";
-            this.groupPBoxes.Size = new System.Drawing.Size(124, 465);
-            this.groupPBoxes.TabIndex = 2;
             this.groupPBoxes.TabStop = false;
-            this.groupPBoxes.Text = "groupBox2";
+            // 
+            // groupBox4
+            // 
+            resources.ApplyResources(this.groupBox4, "groupBox4");
+            this.groupBox4.Controls.Add(this.pBox0);
+            this.groupBox4.Controls.Add(this.pBox8);
+            this.groupBox4.Controls.Add(this.pBox9);
+            this.groupBox4.Controls.Add(this.pBox7);
+            this.groupBox4.Controls.Add(this.pBox10);
+            this.groupBox4.Controls.Add(this.pBox6);
+            this.groupBox4.Controls.Add(this.pBox11);
+            this.groupBox4.Controls.Add(this.pBox5);
+            this.groupBox4.Controls.Add(this.pBox4);
+            this.groupBox4.Controls.Add(this.pBox1);
+            this.groupBox4.Controls.Add(this.pBox3);
+            this.groupBox4.Controls.Add(this.pBox2);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.TabStop = false;
+            // 
+            // pBox0
+            // 
+            resources.ApplyResources(this.pBox0, "pBox0");
+            this.pBox0.Name = "pBox0";
+            // 
+            // pBox8
+            // 
+            resources.ApplyResources(this.pBox8, "pBox8");
+            this.pBox8.Name = "pBox8";
+            // 
+            // pBox9
+            // 
+            resources.ApplyResources(this.pBox9, "pBox9");
+            this.pBox9.Name = "pBox9";
+            // 
+            // pBox7
+            // 
+            resources.ApplyResources(this.pBox7, "pBox7");
+            this.pBox7.Name = "pBox7";
+            // 
+            // pBox10
+            // 
+            resources.ApplyResources(this.pBox10, "pBox10");
+            this.pBox10.Name = "pBox10";
+            // 
+            // pBox6
+            // 
+            resources.ApplyResources(this.pBox6, "pBox6");
+            this.pBox6.Name = "pBox6";
+            // 
+            // pBox11
+            // 
+            resources.ApplyResources(this.pBox11, "pBox11");
+            this.pBox11.Name = "pBox11";
+            // 
+            // pBox5
+            // 
+            resources.ApplyResources(this.pBox5, "pBox5");
+            this.pBox5.Name = "pBox5";
+            // 
+            // pBox4
+            // 
+            resources.ApplyResources(this.pBox4, "pBox4");
+            this.pBox4.Name = "pBox4";
+            // 
+            // pBox1
+            // 
+            resources.ApplyResources(this.pBox1, "pBox1");
+            this.pBox1.Name = "pBox1";
+            // 
+            // pBox3
+            // 
+            resources.ApplyResources(this.pBox3, "pBox3");
+            this.pBox3.Name = "pBox3";
+            // 
+            // pBox2
+            // 
+            resources.ApplyResources(this.pBox2, "pBox2");
+            this.pBox2.Name = "pBox2";
+            // 
+            // groupBox3
+            // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Controls.Add(this.textBox25);
+            this.groupBox3.Controls.Add(this.textBox26);
+            this.groupBox3.Controls.Add(this.textBox27);
+            this.groupBox3.Controls.Add(this.textBox28);
+            this.groupBox3.Controls.Add(this.textBox29);
+            this.groupBox3.Controls.Add(this.textBox30);
+            this.groupBox3.Controls.Add(this.textBox31);
+            this.groupBox3.Controls.Add(this.textBox32);
+            this.groupBox3.Controls.Add(this.textBox33);
+            this.groupBox3.Controls.Add(this.textBox34);
+            this.groupBox3.Controls.Add(this.textBox35);
+            this.groupBox3.Controls.Add(this.textBox36);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
+            // 
+            // textBox25
+            // 
+            resources.ApplyResources(this.textBox25, "textBox25");
+            this.textBox25.Name = "textBox25";
+            // 
+            // textBox26
+            // 
+            resources.ApplyResources(this.textBox26, "textBox26");
+            this.textBox26.Name = "textBox26";
+            // 
+            // textBox27
+            // 
+            resources.ApplyResources(this.textBox27, "textBox27");
+            this.textBox27.Name = "textBox27";
+            // 
+            // textBox28
+            // 
+            resources.ApplyResources(this.textBox28, "textBox28");
+            this.textBox28.Name = "textBox28";
+            // 
+            // textBox29
+            // 
+            resources.ApplyResources(this.textBox29, "textBox29");
+            this.textBox29.Name = "textBox29";
+            // 
+            // textBox30
+            // 
+            resources.ApplyResources(this.textBox30, "textBox30");
+            this.textBox30.Name = "textBox30";
+            // 
+            // textBox31
+            // 
+            resources.ApplyResources(this.textBox31, "textBox31");
+            this.textBox31.Name = "textBox31";
+            // 
+            // textBox32
+            // 
+            resources.ApplyResources(this.textBox32, "textBox32");
+            this.textBox32.Name = "textBox32";
+            // 
+            // textBox33
+            // 
+            resources.ApplyResources(this.textBox33, "textBox33");
+            this.textBox33.Name = "textBox33";
+            // 
+            // textBox34
+            // 
+            resources.ApplyResources(this.textBox34, "textBox34");
+            this.textBox34.Name = "textBox34";
+            // 
+            // textBox35
+            // 
+            resources.ApplyResources(this.textBox35, "textBox35");
+            this.textBox35.Name = "textBox35";
+            // 
+            // textBox36
+            // 
+            resources.ApplyResources(this.textBox36, "textBox36");
+            this.textBox36.Name = "textBox36";
             // 
             // groupBox8
             // 
+            resources.ApplyResources(this.groupBox8, "groupBox8");
+            this.groupBox8.Controls.Add(this.label3);
+            this.groupBox8.Controls.Add(this.textBox37);
+            this.groupBox8.Controls.Add(this.textBox38);
+            this.groupBox8.Controls.Add(this.label4);
             this.groupBox8.Controls.Add(this.label85);
             this.groupBox8.Controls.Add(this.sumPBox);
             this.groupBox8.Controls.Add(this.procPBox);
             this.groupBox8.Controls.Add(this.label86);
-            this.groupBox8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox8.Location = new System.Drawing.Point(3, 386);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(118, 76);
-            this.groupBox8.TabIndex = 75;
             this.groupBox8.TabStop = false;
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // textBox37
+            // 
+            resources.ApplyResources(this.textBox37, "textBox37");
+            this.textBox37.Name = "textBox37";
+            this.textBox37.ReadOnly = true;
+            this.textBox37.TabStop = false;
+            // 
+            // textBox38
+            // 
+            resources.ApplyResources(this.textBox38, "textBox38");
+            this.textBox38.Name = "textBox38";
+            this.textBox38.ReadOnly = true;
+            this.textBox38.TabStop = false;
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
             // 
             // label85
             // 
-            this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(24, 53);
+            resources.ApplyResources(this.label85, "label85");
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(21, 13);
-            this.label85.TabIndex = 74;
-            this.label85.Text = "p%";
             // 
             // sumPBox
             // 
-            this.sumPBox.Location = new System.Drawing.Point(51, 26);
+            resources.ApplyResources(this.sumPBox, "sumPBox");
             this.sumPBox.Name = "sumPBox";
             this.sumPBox.ReadOnly = true;
-            this.sumPBox.Size = new System.Drawing.Size(45, 20);
-            this.sumPBox.TabIndex = 71;
             this.sumPBox.TabStop = false;
             // 
             // procPBox
             // 
-            this.procPBox.Location = new System.Drawing.Point(51, 50);
+            resources.ApplyResources(this.procPBox, "procPBox");
             this.procPBox.Name = "procPBox";
             this.procPBox.ReadOnly = true;
-            this.procPBox.Size = new System.Drawing.Size(45, 20);
-            this.procPBox.TabIndex = 72;
             this.procPBox.TabStop = false;
             // 
             // label86
             // 
-            this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(23, 29);
+            resources.ApplyResources(this.label86, "label86");
             this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(22, 13);
-            this.label86.TabIndex = 73;
-            this.label86.Text = "∑P";
             // 
             // pLabel11
             // 
-            this.pLabel11.AutoSize = true;
-            this.pLabel11.Location = new System.Drawing.Point(23, 330);
+            resources.ApplyResources(this.pLabel11, "pLabel11");
             this.pLabel11.Name = "pLabel11";
-            this.pLabel11.Size = new System.Drawing.Size(41, 13);
-            this.pLabel11.TabIndex = 70;
-            this.pLabel11.Text = "label25";
             // 
             // pLabel10
             // 
-            this.pLabel10.AutoSize = true;
-            this.pLabel10.Location = new System.Drawing.Point(23, 304);
+            resources.ApplyResources(this.pLabel10, "pLabel10");
             this.pLabel10.Name = "pLabel10";
-            this.pLabel10.Size = new System.Drawing.Size(41, 13);
-            this.pLabel10.TabIndex = 69;
-            this.pLabel10.Text = "label26";
             // 
             // pLabel9
             // 
-            this.pLabel9.AutoSize = true;
-            this.pLabel9.Location = new System.Drawing.Point(23, 278);
+            resources.ApplyResources(this.pLabel9, "pLabel9");
             this.pLabel9.Name = "pLabel9";
-            this.pLabel9.Size = new System.Drawing.Size(41, 13);
-            this.pLabel9.TabIndex = 68;
-            this.pLabel9.Text = "label27";
             // 
             // pLabel8
             // 
-            this.pLabel8.AutoSize = true;
-            this.pLabel8.Location = new System.Drawing.Point(23, 252);
+            resources.ApplyResources(this.pLabel8, "pLabel8");
             this.pLabel8.Name = "pLabel8";
-            this.pLabel8.Size = new System.Drawing.Size(41, 13);
-            this.pLabel8.TabIndex = 67;
-            this.pLabel8.Text = "label28";
             // 
             // pLabel7
             // 
-            this.pLabel7.AutoSize = true;
-            this.pLabel7.Location = new System.Drawing.Point(23, 226);
+            resources.ApplyResources(this.pLabel7, "pLabel7");
             this.pLabel7.Name = "pLabel7";
-            this.pLabel7.Size = new System.Drawing.Size(41, 13);
-            this.pLabel7.TabIndex = 66;
-            this.pLabel7.Text = "label29";
             // 
             // pLabel6
             // 
-            this.pLabel6.AutoSize = true;
-            this.pLabel6.Location = new System.Drawing.Point(23, 200);
+            resources.ApplyResources(this.pLabel6, "pLabel6");
             this.pLabel6.Name = "pLabel6";
-            this.pLabel6.Size = new System.Drawing.Size(41, 13);
-            this.pLabel6.TabIndex = 65;
-            this.pLabel6.Text = "label30";
             // 
             // pLabel5
             // 
-            this.pLabel5.AutoSize = true;
-            this.pLabel5.Location = new System.Drawing.Point(23, 174);
+            resources.ApplyResources(this.pLabel5, "pLabel5");
             this.pLabel5.Name = "pLabel5";
-            this.pLabel5.Size = new System.Drawing.Size(41, 13);
-            this.pLabel5.TabIndex = 64;
-            this.pLabel5.Text = "label31";
             // 
             // pLabel4
             // 
-            this.pLabel4.AutoSize = true;
-            this.pLabel4.Location = new System.Drawing.Point(23, 148);
+            resources.ApplyResources(this.pLabel4, "pLabel4");
             this.pLabel4.Name = "pLabel4";
-            this.pLabel4.Size = new System.Drawing.Size(41, 13);
-            this.pLabel4.TabIndex = 63;
-            this.pLabel4.Text = "label32";
             // 
             // pLabel3
             // 
-            this.pLabel3.AutoSize = true;
-            this.pLabel3.Location = new System.Drawing.Point(23, 122);
+            resources.ApplyResources(this.pLabel3, "pLabel3");
             this.pLabel3.Name = "pLabel3";
-            this.pLabel3.Size = new System.Drawing.Size(41, 13);
-            this.pLabel3.TabIndex = 62;
-            this.pLabel3.Text = "label33";
             // 
             // pLabel2
             // 
-            this.pLabel2.AutoSize = true;
-            this.pLabel2.Location = new System.Drawing.Point(23, 96);
+            resources.ApplyResources(this.pLabel2, "pLabel2");
             this.pLabel2.Name = "pLabel2";
-            this.pLabel2.Size = new System.Drawing.Size(41, 13);
-            this.pLabel2.TabIndex = 61;
-            this.pLabel2.Text = "label34";
             // 
             // pLabel1
             // 
-            this.pLabel1.AutoSize = true;
-            this.pLabel1.Location = new System.Drawing.Point(23, 70);
+            resources.ApplyResources(this.pLabel1, "pLabel1");
             this.pLabel1.Name = "pLabel1";
-            this.pLabel1.Size = new System.Drawing.Size(41, 13);
-            this.pLabel1.TabIndex = 60;
-            this.pLabel1.Text = "label35";
             // 
             // pLabel0
             // 
-            this.pLabel0.AutoSize = true;
-            this.pLabel0.Location = new System.Drawing.Point(23, 44);
+            resources.ApplyResources(this.pLabel0, "pLabel0");
             this.pLabel0.Name = "pLabel0";
-            this.pLabel0.Size = new System.Drawing.Size(41, 13);
-            this.pLabel0.TabIndex = 59;
-            this.pLabel0.Text = "label36";
-            // 
-            // pBox11
-            // 
-            this.pBox11.Location = new System.Drawing.Point(70, 327);
-            this.pBox11.Name = "pBox11";
-            this.pBox11.Size = new System.Drawing.Size(45, 20);
-            this.pBox11.TabIndex = 48;
-            // 
-            // pBox10
-            // 
-            this.pBox10.Location = new System.Drawing.Point(70, 301);
-            this.pBox10.Name = "pBox10";
-            this.pBox10.Size = new System.Drawing.Size(45, 20);
-            this.pBox10.TabIndex = 47;
-            // 
-            // pBox9
-            // 
-            this.pBox9.Location = new System.Drawing.Point(70, 275);
-            this.pBox9.Name = "pBox9";
-            this.pBox9.Size = new System.Drawing.Size(45, 20);
-            this.pBox9.TabIndex = 46;
-            // 
-            // pBox8
-            // 
-            this.pBox8.Location = new System.Drawing.Point(70, 249);
-            this.pBox8.Name = "pBox8";
-            this.pBox8.Size = new System.Drawing.Size(45, 20);
-            this.pBox8.TabIndex = 45;
-            // 
-            // pBox7
-            // 
-            this.pBox7.Location = new System.Drawing.Point(70, 223);
-            this.pBox7.Name = "pBox7";
-            this.pBox7.Size = new System.Drawing.Size(45, 20);
-            this.pBox7.TabIndex = 44;
-            // 
-            // pBox6
-            // 
-            this.pBox6.Location = new System.Drawing.Point(70, 197);
-            this.pBox6.Name = "pBox6";
-            this.pBox6.Size = new System.Drawing.Size(45, 20);
-            this.pBox6.TabIndex = 43;
-            // 
-            // pBox5
-            // 
-            this.pBox5.Location = new System.Drawing.Point(70, 171);
-            this.pBox5.Name = "pBox5";
-            this.pBox5.Size = new System.Drawing.Size(45, 20);
-            this.pBox5.TabIndex = 42;
-            // 
-            // pBox4
-            // 
-            this.pBox4.Location = new System.Drawing.Point(70, 145);
-            this.pBox4.Name = "pBox4";
-            this.pBox4.Size = new System.Drawing.Size(45, 20);
-            this.pBox4.TabIndex = 41;
-            // 
-            // pBox3
-            // 
-            this.pBox3.Location = new System.Drawing.Point(70, 119);
-            this.pBox3.Name = "pBox3";
-            this.pBox3.Size = new System.Drawing.Size(45, 20);
-            this.pBox3.TabIndex = 40;
-            // 
-            // pBox2
-            // 
-            this.pBox2.Location = new System.Drawing.Point(70, 93);
-            this.pBox2.Name = "pBox2";
-            this.pBox2.Size = new System.Drawing.Size(45, 20);
-            this.pBox2.TabIndex = 39;
-            // 
-            // pBox1
-            // 
-            this.pBox1.Location = new System.Drawing.Point(70, 67);
-            this.pBox1.Name = "pBox1";
-            this.pBox1.Size = new System.Drawing.Size(45, 20);
-            this.pBox1.TabIndex = 38;
-            // 
-            // pBox0
-            // 
-            this.pBox0.Location = new System.Drawing.Point(70, 41);
-            this.pBox0.Name = "pBox0";
-            this.pBox0.Size = new System.Drawing.Size(45, 20);
-            this.pBox0.TabIndex = 37;
             // 
             // groupVzBoxes
             // 
+            resources.ApplyResources(this.groupVzBoxes, "groupVzBoxes");
             this.groupVzBoxes.Controls.Add(this.vzLabel11);
             this.groupVzBoxes.Controls.Add(this.vzLabel10);
             this.groupVzBoxes.Controls.Add(this.vzLabel9);
@@ -1017,208 +960,132 @@
             this.groupVzBoxes.Controls.Add(this.vzBox2);
             this.groupVzBoxes.Controls.Add(this.vzBox1);
             this.groupVzBoxes.Controls.Add(this.vzBox0);
-            this.groupVzBoxes.Location = new System.Drawing.Point(263, 33);
             this.groupVzBoxes.Name = "groupVzBoxes";
-            this.groupVzBoxes.Size = new System.Drawing.Size(124, 386);
-            this.groupVzBoxes.TabIndex = 71;
             this.groupVzBoxes.TabStop = false;
-            this.groupVzBoxes.Text = "groupBox3";
             // 
             // vzLabel11
             // 
-            this.vzLabel11.AutoSize = true;
-            this.vzLabel11.Location = new System.Drawing.Point(23, 330);
+            resources.ApplyResources(this.vzLabel11, "vzLabel11");
             this.vzLabel11.Name = "vzLabel11";
-            this.vzLabel11.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel11.TabIndex = 70;
-            this.vzLabel11.Text = "label37";
             // 
             // vzLabel10
             // 
-            this.vzLabel10.AutoSize = true;
-            this.vzLabel10.Location = new System.Drawing.Point(23, 304);
+            resources.ApplyResources(this.vzLabel10, "vzLabel10");
             this.vzLabel10.Name = "vzLabel10";
-            this.vzLabel10.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel10.TabIndex = 69;
-            this.vzLabel10.Text = "label38";
             // 
             // vzLabel9
             // 
-            this.vzLabel9.AutoSize = true;
-            this.vzLabel9.Location = new System.Drawing.Point(23, 278);
+            resources.ApplyResources(this.vzLabel9, "vzLabel9");
             this.vzLabel9.Name = "vzLabel9";
-            this.vzLabel9.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel9.TabIndex = 68;
-            this.vzLabel9.Text = "label39";
             // 
             // vzLabel8
             // 
-            this.vzLabel8.AutoSize = true;
-            this.vzLabel8.Location = new System.Drawing.Point(23, 252);
+            resources.ApplyResources(this.vzLabel8, "vzLabel8");
             this.vzLabel8.Name = "vzLabel8";
-            this.vzLabel8.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel8.TabIndex = 67;
-            this.vzLabel8.Text = "label40";
             // 
             // vzLabel7
             // 
-            this.vzLabel7.AutoSize = true;
-            this.vzLabel7.Location = new System.Drawing.Point(23, 226);
+            resources.ApplyResources(this.vzLabel7, "vzLabel7");
             this.vzLabel7.Name = "vzLabel7";
-            this.vzLabel7.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel7.TabIndex = 66;
-            this.vzLabel7.Text = "label41";
             // 
             // vzLabel6
             // 
-            this.vzLabel6.AutoSize = true;
-            this.vzLabel6.Location = new System.Drawing.Point(23, 200);
+            resources.ApplyResources(this.vzLabel6, "vzLabel6");
             this.vzLabel6.Name = "vzLabel6";
-            this.vzLabel6.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel6.TabIndex = 65;
-            this.vzLabel6.Text = "label42";
             // 
             // vzLabel5
             // 
-            this.vzLabel5.AutoSize = true;
-            this.vzLabel5.Location = new System.Drawing.Point(23, 174);
+            resources.ApplyResources(this.vzLabel5, "vzLabel5");
             this.vzLabel5.Name = "vzLabel5";
-            this.vzLabel5.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel5.TabIndex = 64;
-            this.vzLabel5.Text = "label43";
             // 
             // vzLabel4
             // 
-            this.vzLabel4.AutoSize = true;
-            this.vzLabel4.Location = new System.Drawing.Point(23, 148);
+            resources.ApplyResources(this.vzLabel4, "vzLabel4");
             this.vzLabel4.Name = "vzLabel4";
-            this.vzLabel4.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel4.TabIndex = 63;
-            this.vzLabel4.Text = "label44";
             // 
             // vzLabel3
             // 
-            this.vzLabel3.AutoSize = true;
-            this.vzLabel3.Location = new System.Drawing.Point(23, 122);
+            resources.ApplyResources(this.vzLabel3, "vzLabel3");
             this.vzLabel3.Name = "vzLabel3";
-            this.vzLabel3.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel3.TabIndex = 62;
-            this.vzLabel3.Text = "label45";
             // 
             // vzLabel2
             // 
-            this.vzLabel2.AutoSize = true;
-            this.vzLabel2.Location = new System.Drawing.Point(23, 96);
+            resources.ApplyResources(this.vzLabel2, "vzLabel2");
             this.vzLabel2.Name = "vzLabel2";
-            this.vzLabel2.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel2.TabIndex = 61;
-            this.vzLabel2.Text = "label46";
             // 
             // vzLabel1
             // 
-            this.vzLabel1.AutoSize = true;
-            this.vzLabel1.Location = new System.Drawing.Point(23, 70);
+            resources.ApplyResources(this.vzLabel1, "vzLabel1");
             this.vzLabel1.Name = "vzLabel1";
-            this.vzLabel1.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel1.TabIndex = 60;
-            this.vzLabel1.Text = "label47";
             // 
             // vzLabel0
             // 
-            this.vzLabel0.AutoSize = true;
-            this.vzLabel0.Location = new System.Drawing.Point(23, 44);
+            resources.ApplyResources(this.vzLabel0, "vzLabel0");
             this.vzLabel0.Name = "vzLabel0";
-            this.vzLabel0.Size = new System.Drawing.Size(41, 13);
-            this.vzLabel0.TabIndex = 59;
-            this.vzLabel0.Text = "label48";
             // 
             // vzBox11
             // 
-            this.vzBox11.Location = new System.Drawing.Point(70, 327);
+            resources.ApplyResources(this.vzBox11, "vzBox11");
             this.vzBox11.Name = "vzBox11";
-            this.vzBox11.Size = new System.Drawing.Size(45, 20);
-            this.vzBox11.TabIndex = 36;
             // 
             // vzBox10
             // 
-            this.vzBox10.Location = new System.Drawing.Point(70, 301);
+            resources.ApplyResources(this.vzBox10, "vzBox10");
             this.vzBox10.Name = "vzBox10";
-            this.vzBox10.Size = new System.Drawing.Size(45, 20);
-            this.vzBox10.TabIndex = 35;
             // 
             // vzBox9
             // 
-            this.vzBox9.Location = new System.Drawing.Point(70, 275);
+            resources.ApplyResources(this.vzBox9, "vzBox9");
             this.vzBox9.Name = "vzBox9";
-            this.vzBox9.Size = new System.Drawing.Size(45, 20);
-            this.vzBox9.TabIndex = 34;
             // 
             // vzBox8
             // 
-            this.vzBox8.Location = new System.Drawing.Point(70, 249);
+            resources.ApplyResources(this.vzBox8, "vzBox8");
             this.vzBox8.Name = "vzBox8";
-            this.vzBox8.Size = new System.Drawing.Size(45, 20);
-            this.vzBox8.TabIndex = 33;
             // 
             // vzBox7
             // 
-            this.vzBox7.Location = new System.Drawing.Point(70, 223);
+            resources.ApplyResources(this.vzBox7, "vzBox7");
             this.vzBox7.Name = "vzBox7";
-            this.vzBox7.Size = new System.Drawing.Size(45, 20);
-            this.vzBox7.TabIndex = 32;
             // 
             // vzBox6
             // 
-            this.vzBox6.Location = new System.Drawing.Point(70, 197);
+            resources.ApplyResources(this.vzBox6, "vzBox6");
             this.vzBox6.Name = "vzBox6";
-            this.vzBox6.Size = new System.Drawing.Size(45, 20);
-            this.vzBox6.TabIndex = 31;
             // 
             // vzBox5
             // 
-            this.vzBox5.Location = new System.Drawing.Point(70, 171);
+            resources.ApplyResources(this.vzBox5, "vzBox5");
             this.vzBox5.Name = "vzBox5";
-            this.vzBox5.Size = new System.Drawing.Size(45, 20);
-            this.vzBox5.TabIndex = 30;
             // 
             // vzBox4
             // 
-            this.vzBox4.Location = new System.Drawing.Point(70, 145);
+            resources.ApplyResources(this.vzBox4, "vzBox4");
             this.vzBox4.Name = "vzBox4";
-            this.vzBox4.Size = new System.Drawing.Size(45, 20);
-            this.vzBox4.TabIndex = 29;
             // 
             // vzBox3
             // 
-            this.vzBox3.Location = new System.Drawing.Point(70, 119);
+            resources.ApplyResources(this.vzBox3, "vzBox3");
             this.vzBox3.Name = "vzBox3";
-            this.vzBox3.Size = new System.Drawing.Size(45, 20);
-            this.vzBox3.TabIndex = 28;
             // 
             // vzBox2
             // 
-            this.vzBox2.Location = new System.Drawing.Point(70, 93);
+            resources.ApplyResources(this.vzBox2, "vzBox2");
             this.vzBox2.Name = "vzBox2";
-            this.vzBox2.Size = new System.Drawing.Size(45, 20);
-            this.vzBox2.TabIndex = 27;
             // 
             // vzBox1
             // 
-            this.vzBox1.Location = new System.Drawing.Point(70, 67);
+            resources.ApplyResources(this.vzBox1, "vzBox1");
             this.vzBox1.Name = "vzBox1";
-            this.vzBox1.Size = new System.Drawing.Size(45, 20);
-            this.vzBox1.TabIndex = 26;
             // 
             // vzBox0
             // 
-            this.vzBox0.Location = new System.Drawing.Point(70, 41);
+            resources.ApplyResources(this.vzBox0, "vzBox0");
             this.vzBox0.Name = "vzBox0";
-            this.vzBox0.Size = new System.Drawing.Size(45, 20);
-            this.vzBox0.TabIndex = 25;
             // 
             // groupDorEBoxes
             // 
-            this.groupDorEBoxes.Controls.Add(this.chooseECalculationGrouup);
+            resources.ApplyResources(this.groupDorEBoxes, "groupDorEBoxes");
             this.groupDorEBoxes.Controls.Add(this.dorELabel7);
             this.groupDorEBoxes.Controls.Add(this.dorELabel11);
             this.groupDorEBoxes.Controls.Add(this.dorELabel10);
@@ -1243,242 +1110,167 @@
             this.groupDorEBoxes.Controls.Add(this.dorEBox2);
             this.groupDorEBoxes.Controls.Add(this.dorEBox1);
             this.groupDorEBoxes.Controls.Add(this.dorEBox0);
-            this.groupDorEBoxes.Location = new System.Drawing.Point(523, 33);
             this.groupDorEBoxes.Name = "groupDorEBoxes";
-            this.groupDorEBoxes.Size = new System.Drawing.Size(124, 465);
-            this.groupDorEBoxes.TabIndex = 71;
             this.groupDorEBoxes.TabStop = false;
-            this.groupDorEBoxes.Text = "groupBox4";
+            // 
+            // dorELabel7
+            // 
+            resources.ApplyResources(this.dorELabel7, "dorELabel7");
+            this.dorELabel7.Name = "dorELabel7";
+            // 
+            // dorELabel11
+            // 
+            resources.ApplyResources(this.dorELabel11, "dorELabel11");
+            this.dorELabel11.Name = "dorELabel11";
+            // 
+            // dorELabel10
+            // 
+            resources.ApplyResources(this.dorELabel10, "dorELabel10");
+            this.dorELabel10.Name = "dorELabel10";
+            // 
+            // dorELabel9
+            // 
+            resources.ApplyResources(this.dorELabel9, "dorELabel9");
+            this.dorELabel9.Name = "dorELabel9";
+            // 
+            // dorELabel8
+            // 
+            resources.ApplyResources(this.dorELabel8, "dorELabel8");
+            this.dorELabel8.Name = "dorELabel8";
+            // 
+            // dorELabel6
+            // 
+            resources.ApplyResources(this.dorELabel6, "dorELabel6");
+            this.dorELabel6.Name = "dorELabel6";
+            // 
+            // dorELabel5
+            // 
+            resources.ApplyResources(this.dorELabel5, "dorELabel5");
+            this.dorELabel5.Name = "dorELabel5";
+            // 
+            // dorELabel4
+            // 
+            resources.ApplyResources(this.dorELabel4, "dorELabel4");
+            this.dorELabel4.Name = "dorELabel4";
+            // 
+            // dorELabel3
+            // 
+            resources.ApplyResources(this.dorELabel3, "dorELabel3");
+            this.dorELabel3.Name = "dorELabel3";
+            // 
+            // dorELabel2
+            // 
+            resources.ApplyResources(this.dorELabel2, "dorELabel2");
+            this.dorELabel2.Name = "dorELabel2";
+            // 
+            // dorELabel1
+            // 
+            resources.ApplyResources(this.dorELabel1, "dorELabel1");
+            this.dorELabel1.Name = "dorELabel1";
+            // 
+            // dorELabel0
+            // 
+            resources.ApplyResources(this.dorELabel0, "dorELabel0");
+            this.dorELabel0.Name = "dorELabel0";
+            // 
+            // dorEBox11
+            // 
+            resources.ApplyResources(this.dorEBox11, "dorEBox11");
+            this.dorEBox11.Name = "dorEBox11";
+            // 
+            // dorEBox10
+            // 
+            resources.ApplyResources(this.dorEBox10, "dorEBox10");
+            this.dorEBox10.Name = "dorEBox10";
+            // 
+            // dorEBox9
+            // 
+            resources.ApplyResources(this.dorEBox9, "dorEBox9");
+            this.dorEBox9.Name = "dorEBox9";
+            // 
+            // dorEBox8
+            // 
+            resources.ApplyResources(this.dorEBox8, "dorEBox8");
+            this.dorEBox8.Name = "dorEBox8";
+            // 
+            // dorEBox7
+            // 
+            resources.ApplyResources(this.dorEBox7, "dorEBox7");
+            this.dorEBox7.Name = "dorEBox7";
+            // 
+            // dorEBox6
+            // 
+            resources.ApplyResources(this.dorEBox6, "dorEBox6");
+            this.dorEBox6.Name = "dorEBox6";
+            // 
+            // dorEBox5
+            // 
+            resources.ApplyResources(this.dorEBox5, "dorEBox5");
+            this.dorEBox5.Name = "dorEBox5";
+            // 
+            // dorEBox4
+            // 
+            resources.ApplyResources(this.dorEBox4, "dorEBox4");
+            this.dorEBox4.Name = "dorEBox4";
+            // 
+            // dorEBox3
+            // 
+            resources.ApplyResources(this.dorEBox3, "dorEBox3");
+            this.dorEBox3.Name = "dorEBox3";
+            // 
+            // dorEBox2
+            // 
+            resources.ApplyResources(this.dorEBox2, "dorEBox2");
+            this.dorEBox2.Name = "dorEBox2";
+            // 
+            // dorEBox1
+            // 
+            resources.ApplyResources(this.dorEBox1, "dorEBox1");
+            this.dorEBox1.Name = "dorEBox1";
+            // 
+            // dorEBox0
+            // 
+            resources.ApplyResources(this.dorEBox0, "dorEBox0");
+            this.dorEBox0.Name = "dorEBox0";
             // 
             // chooseECalculationGrouup
             // 
+            resources.ApplyResources(this.chooseECalculationGrouup, "chooseECalculationGrouup");
+            this.chooseECalculationGrouup.Controls.Add(this.radioButton1);
             this.chooseECalculationGrouup.Controls.Add(this.calculateE);
             this.chooseECalculationGrouup.Controls.Add(this.setValuesE);
-            this.chooseECalculationGrouup.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.chooseECalculationGrouup.Location = new System.Drawing.Point(3, 386);
             this.chooseECalculationGrouup.Name = "chooseECalculationGrouup";
-            this.chooseECalculationGrouup.Size = new System.Drawing.Size(118, 76);
-            this.chooseECalculationGrouup.TabIndex = 74;
             this.chooseECalculationGrouup.TabStop = false;
-            this.chooseECalculationGrouup.Text = "groupBox7";
+            // 
+            // radioButton1
+            // 
+            resources.ApplyResources(this.radioButton1, "radioButton1");
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.TabStop = true;
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // calculateE
             // 
-            this.calculateE.AutoSize = true;
-            this.calculateE.Location = new System.Drawing.Point(6, 51);
+            resources.ApplyResources(this.calculateE, "calculateE");
             this.calculateE.Name = "calculateE";
-            this.calculateE.Size = new System.Drawing.Size(85, 17);
-            this.calculateE.TabIndex = 62;
             this.calculateE.TabStop = true;
-            this.calculateE.Text = "radioButton2";
             this.calculateE.UseVisualStyleBackColor = true;
             // 
             // setValuesE
             // 
-            this.setValuesE.AutoSize = true;
-            this.setValuesE.Location = new System.Drawing.Point(6, 27);
+            resources.ApplyResources(this.setValuesE, "setValuesE");
             this.setValuesE.Name = "setValuesE";
-            this.setValuesE.Size = new System.Drawing.Size(85, 17);
-            this.setValuesE.TabIndex = 61;
             this.setValuesE.TabStop = true;
-            this.setValuesE.Text = "radioButton1";
             this.setValuesE.UseVisualStyleBackColor = true;
-            // 
-            // dorELabel7
-            // 
-            this.dorELabel7.AutoSize = true;
-            this.dorELabel7.Location = new System.Drawing.Point(23, 227);
-            this.dorELabel7.Name = "dorELabel7";
-            this.dorELabel7.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel7.TabIndex = 70;
-            this.dorELabel7.Text = "label49";
-            // 
-            // dorELabel11
-            // 
-            this.dorELabel11.AutoSize = true;
-            this.dorELabel11.Location = new System.Drawing.Point(23, 330);
-            this.dorELabel11.Name = "dorELabel11";
-            this.dorELabel11.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel11.TabIndex = 69;
-            this.dorELabel11.Text = "label50";
-            // 
-            // dorELabel10
-            // 
-            this.dorELabel10.AutoSize = true;
-            this.dorELabel10.Location = new System.Drawing.Point(23, 304);
-            this.dorELabel10.Name = "dorELabel10";
-            this.dorELabel10.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel10.TabIndex = 68;
-            this.dorELabel10.Text = "label51";
-            // 
-            // dorELabel9
-            // 
-            this.dorELabel9.AutoSize = true;
-            this.dorELabel9.Location = new System.Drawing.Point(23, 278);
-            this.dorELabel9.Name = "dorELabel9";
-            this.dorELabel9.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel9.TabIndex = 67;
-            this.dorELabel9.Text = "label52";
-            // 
-            // dorELabel8
-            // 
-            this.dorELabel8.AutoSize = true;
-            this.dorELabel8.Location = new System.Drawing.Point(23, 252);
-            this.dorELabel8.Name = "dorELabel8";
-            this.dorELabel8.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel8.TabIndex = 66;
-            this.dorELabel8.Text = "label53";
-            // 
-            // dorELabel6
-            // 
-            this.dorELabel6.AutoSize = true;
-            this.dorELabel6.Location = new System.Drawing.Point(23, 200);
-            this.dorELabel6.Name = "dorELabel6";
-            this.dorELabel6.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel6.TabIndex = 65;
-            this.dorELabel6.Text = "label54";
-            // 
-            // dorELabel5
-            // 
-            this.dorELabel5.AutoSize = true;
-            this.dorELabel5.Location = new System.Drawing.Point(23, 174);
-            this.dorELabel5.Name = "dorELabel5";
-            this.dorELabel5.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel5.TabIndex = 64;
-            this.dorELabel5.Text = "label55";
-            // 
-            // dorELabel4
-            // 
-            this.dorELabel4.AutoSize = true;
-            this.dorELabel4.Location = new System.Drawing.Point(23, 148);
-            this.dorELabel4.Name = "dorELabel4";
-            this.dorELabel4.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel4.TabIndex = 63;
-            this.dorELabel4.Text = "label56";
-            // 
-            // dorELabel3
-            // 
-            this.dorELabel3.AutoSize = true;
-            this.dorELabel3.Location = new System.Drawing.Point(23, 122);
-            this.dorELabel3.Name = "dorELabel3";
-            this.dorELabel3.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel3.TabIndex = 62;
-            this.dorELabel3.Text = "label57";
-            // 
-            // dorELabel2
-            // 
-            this.dorELabel2.AutoSize = true;
-            this.dorELabel2.Location = new System.Drawing.Point(23, 96);
-            this.dorELabel2.Name = "dorELabel2";
-            this.dorELabel2.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel2.TabIndex = 61;
-            this.dorELabel2.Text = "label58";
-            // 
-            // dorELabel1
-            // 
-            this.dorELabel1.AutoSize = true;
-            this.dorELabel1.Location = new System.Drawing.Point(23, 70);
-            this.dorELabel1.Name = "dorELabel1";
-            this.dorELabel1.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel1.TabIndex = 60;
-            this.dorELabel1.Text = "label59";
-            // 
-            // dorELabel0
-            // 
-            this.dorELabel0.AutoSize = true;
-            this.dorELabel0.Location = new System.Drawing.Point(23, 44);
-            this.dorELabel0.Name = "dorELabel0";
-            this.dorELabel0.Size = new System.Drawing.Size(41, 13);
-            this.dorELabel0.TabIndex = 59;
-            this.dorELabel0.Text = "label60";
-            // 
-            // dorEBox11
-            // 
-            this.dorEBox11.Location = new System.Drawing.Point(70, 327);
-            this.dorEBox11.Name = "dorEBox11";
-            this.dorEBox11.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox11.TabIndex = 60;
-            // 
-            // dorEBox10
-            // 
-            this.dorEBox10.Location = new System.Drawing.Point(70, 301);
-            this.dorEBox10.Name = "dorEBox10";
-            this.dorEBox10.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox10.TabIndex = 59;
-            // 
-            // dorEBox9
-            // 
-            this.dorEBox9.Location = new System.Drawing.Point(70, 275);
-            this.dorEBox9.Name = "dorEBox9";
-            this.dorEBox9.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox9.TabIndex = 58;
-            // 
-            // dorEBox8
-            // 
-            this.dorEBox8.Location = new System.Drawing.Point(70, 249);
-            this.dorEBox8.Name = "dorEBox8";
-            this.dorEBox8.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox8.TabIndex = 57;
-            // 
-            // dorEBox7
-            // 
-            this.dorEBox7.Location = new System.Drawing.Point(70, 223);
-            this.dorEBox7.Name = "dorEBox7";
-            this.dorEBox7.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox7.TabIndex = 56;
-            // 
-            // dorEBox6
-            // 
-            this.dorEBox6.Location = new System.Drawing.Point(70, 197);
-            this.dorEBox6.Name = "dorEBox6";
-            this.dorEBox6.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox6.TabIndex = 55;
-            // 
-            // dorEBox5
-            // 
-            this.dorEBox5.Location = new System.Drawing.Point(70, 171);
-            this.dorEBox5.Name = "dorEBox5";
-            this.dorEBox5.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox5.TabIndex = 54;
-            // 
-            // dorEBox4
-            // 
-            this.dorEBox4.Location = new System.Drawing.Point(70, 145);
-            this.dorEBox4.Name = "dorEBox4";
-            this.dorEBox4.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox4.TabIndex = 53;
-            // 
-            // dorEBox3
-            // 
-            this.dorEBox3.Location = new System.Drawing.Point(70, 119);
-            this.dorEBox3.Name = "dorEBox3";
-            this.dorEBox3.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox3.TabIndex = 52;
-            // 
-            // dorEBox2
-            // 
-            this.dorEBox2.Location = new System.Drawing.Point(70, 93);
-            this.dorEBox2.Name = "dorEBox2";
-            this.dorEBox2.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox2.TabIndex = 51;
-            // 
-            // dorEBox1
-            // 
-            this.dorEBox1.Location = new System.Drawing.Point(70, 67);
-            this.dorEBox1.Name = "dorEBox1";
-            this.dorEBox1.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox1.TabIndex = 50;
-            // 
-            // dorEBox0
-            // 
-            this.dorEBox0.Location = new System.Drawing.Point(70, 41);
-            this.dorEBox0.Name = "dorEBox0";
-            this.dorEBox0.Size = new System.Drawing.Size(45, 20);
-            this.dorEBox0.TabIndex = 49;
             // 
             // groupVDBoxes
             // 
+            resources.ApplyResources(this.groupVDBoxes, "groupVDBoxes");
+            this.groupVDBoxes.Controls.Add(this.label2);
+            this.groupVDBoxes.Controls.Add(this.label1);
+            this.groupVDBoxes.Controls.Add(this.groupBox1);
             this.groupVDBoxes.Controls.Add(this.groupBox10);
+            this.groupVDBoxes.Controls.Add(this.groupBox2);
             this.groupVDBoxes.Controls.Add(this.groupBox9);
             this.groupVDBoxes.Controls.Add(this.chooseVDCalcualtionGroup);
             this.groupVDBoxes.Controls.Add(this.vdLabel11);
@@ -1493,16 +1285,184 @@
             this.groupVDBoxes.Controls.Add(this.vdLabel2);
             this.groupVDBoxes.Controls.Add(this.vdLabel1);
             this.groupVDBoxes.Controls.Add(this.vdLabel0);
-            this.groupVDBoxes.Enabled = false;
-            this.groupVDBoxes.Location = new System.Drawing.Point(653, 33);
             this.groupVDBoxes.Name = "groupVDBoxes";
-            this.groupVDBoxes.Size = new System.Drawing.Size(216, 465);
-            this.groupVDBoxes.TabIndex = 73;
             this.groupVDBoxes.TabStop = false;
-            this.groupVDBoxes.Text = "groupBox6";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // groupBox1
+            // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.checkBox2);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.checkBox3);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.checkBox4);
+            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.checkBox5);
+            this.groupBox1.Controls.Add(this.textBox5);
+            this.groupBox1.Controls.Add(this.checkBox6);
+            this.groupBox1.Controls.Add(this.textBox6);
+            this.groupBox1.Controls.Add(this.checkBox7);
+            this.groupBox1.Controls.Add(this.textBox7);
+            this.groupBox1.Controls.Add(this.checkBox8);
+            this.groupBox1.Controls.Add(this.textBox8);
+            this.groupBox1.Controls.Add(this.checkBox9);
+            this.groupBox1.Controls.Add(this.textBox9);
+            this.groupBox1.Controls.Add(this.checkBox10);
+            this.groupBox1.Controls.Add(this.textBox10);
+            this.groupBox1.Controls.Add(this.checkBox11);
+            this.groupBox1.Controls.Add(this.textBox11);
+            this.groupBox1.Controls.Add(this.checkBox12);
+            this.groupBox1.Controls.Add(this.textBox12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // checkBox1
+            // 
+            resources.ApplyResources(this.checkBox1, "checkBox1");
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
+            // checkBox2
+            // 
+            resources.ApplyResources(this.checkBox2, "checkBox2");
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            // 
+            // checkBox3
+            // 
+            resources.ApplyResources(this.checkBox3, "checkBox3");
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            resources.ApplyResources(this.textBox3, "textBox3");
+            this.textBox3.Name = "textBox3";
+            // 
+            // checkBox4
+            // 
+            resources.ApplyResources(this.checkBox4, "checkBox4");
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // textBox4
+            // 
+            resources.ApplyResources(this.textBox4, "textBox4");
+            this.textBox4.Name = "textBox4";
+            // 
+            // checkBox5
+            // 
+            resources.ApplyResources(this.checkBox5, "checkBox5");
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            resources.ApplyResources(this.textBox5, "textBox5");
+            this.textBox5.Name = "textBox5";
+            // 
+            // checkBox6
+            // 
+            resources.ApplyResources(this.checkBox6, "checkBox6");
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // textBox6
+            // 
+            resources.ApplyResources(this.textBox6, "textBox6");
+            this.textBox6.Name = "textBox6";
+            // 
+            // checkBox7
+            // 
+            resources.ApplyResources(this.checkBox7, "checkBox7");
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // textBox7
+            // 
+            resources.ApplyResources(this.textBox7, "textBox7");
+            this.textBox7.Name = "textBox7";
+            // 
+            // checkBox8
+            // 
+            resources.ApplyResources(this.checkBox8, "checkBox8");
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // textBox8
+            // 
+            resources.ApplyResources(this.textBox8, "textBox8");
+            this.textBox8.Name = "textBox8";
+            // 
+            // checkBox9
+            // 
+            resources.ApplyResources(this.checkBox9, "checkBox9");
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // textBox9
+            // 
+            resources.ApplyResources(this.textBox9, "textBox9");
+            this.textBox9.Name = "textBox9";
+            // 
+            // checkBox10
+            // 
+            resources.ApplyResources(this.checkBox10, "checkBox10");
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // textBox10
+            // 
+            resources.ApplyResources(this.textBox10, "textBox10");
+            this.textBox10.Name = "textBox10";
+            // 
+            // checkBox11
+            // 
+            resources.ApplyResources(this.checkBox11, "checkBox11");
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // textBox11
+            // 
+            resources.ApplyResources(this.textBox11, "textBox11");
+            this.textBox11.Name = "textBox11";
+            // 
+            // checkBox12
+            // 
+            resources.ApplyResources(this.checkBox12, "checkBox12");
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // textBox12
+            // 
+            resources.ApplyResources(this.textBox12, "textBox12");
+            this.textBox12.Name = "textBox12";
             // 
             // groupBox10
             // 
+            resources.ApplyResources(this.groupBox10, "groupBox10");
             this.groupBox10.Controls.Add(this.vdMonthMinusBox11);
             this.groupBox10.Controls.Add(this.vdMinusBox11);
             this.groupBox10.Controls.Add(this.vdMonthMinusBox10);
@@ -1527,219 +1487,306 @@
             this.groupBox10.Controls.Add(this.vdMinusBox1);
             this.groupBox10.Controls.Add(this.vdMonthMinusBox0);
             this.groupBox10.Controls.Add(this.vdMinusBox0);
-            this.groupBox10.Location = new System.Drawing.Point(137, 19);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(76, 367);
-            this.groupBox10.TabIndex = 97;
             this.groupBox10.TabStop = false;
-            this.groupBox10.Text = "groupBox10";
             // 
             // vdMonthMinusBox11
             // 
-            this.vdMonthMinusBox11.AutoSize = true;
-            this.vdMonthMinusBox11.Location = new System.Drawing.Point(30, 337);
+            resources.ApplyResources(this.vdMonthMinusBox11, "vdMonthMinusBox11");
             this.vdMonthMinusBox11.Name = "vdMonthMinusBox11";
-            this.vdMonthMinusBox11.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox11.TabIndex = 96;
             this.vdMonthMinusBox11.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox11.Visible = false;
             // 
             // vdMinusBox11
             // 
-            this.vdMinusBox11.Location = new System.Drawing.Point(15, 334);
+            resources.ApplyResources(this.vdMinusBox11, "vdMinusBox11");
             this.vdMinusBox11.Name = "vdMinusBox11";
-            this.vdMinusBox11.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox11.TabIndex = 88;
             // 
             // vdMonthMinusBox10
             // 
-            this.vdMonthMinusBox10.AutoSize = true;
-            this.vdMonthMinusBox10.Location = new System.Drawing.Point(30, 311);
+            resources.ApplyResources(this.vdMonthMinusBox10, "vdMonthMinusBox10");
             this.vdMonthMinusBox10.Name = "vdMonthMinusBox10";
-            this.vdMonthMinusBox10.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox10.TabIndex = 94;
             this.vdMonthMinusBox10.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox10.Visible = false;
             // 
             // vdMinusBox10
             // 
-            this.vdMinusBox10.Location = new System.Drawing.Point(15, 308);
+            resources.ApplyResources(this.vdMinusBox10, "vdMinusBox10");
             this.vdMinusBox10.Name = "vdMinusBox10";
-            this.vdMinusBox10.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox10.TabIndex = 87;
             // 
             // vdMonthMinusBox9
             // 
-            this.vdMonthMinusBox9.AutoSize = true;
-            this.vdMonthMinusBox9.Location = new System.Drawing.Point(30, 285);
+            resources.ApplyResources(this.vdMonthMinusBox9, "vdMonthMinusBox9");
             this.vdMonthMinusBox9.Name = "vdMonthMinusBox9";
-            this.vdMonthMinusBox9.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox9.TabIndex = 92;
             this.vdMonthMinusBox9.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox9.Visible = false;
             // 
             // vdMinusBox9
             // 
-            this.vdMinusBox9.Location = new System.Drawing.Point(15, 282);
+            resources.ApplyResources(this.vdMinusBox9, "vdMinusBox9");
             this.vdMinusBox9.Name = "vdMinusBox9";
-            this.vdMinusBox9.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox9.TabIndex = 86;
             // 
             // vdMonthMinusBox8
             // 
-            this.vdMonthMinusBox8.AutoSize = true;
-            this.vdMonthMinusBox8.Location = new System.Drawing.Point(30, 259);
+            resources.ApplyResources(this.vdMonthMinusBox8, "vdMonthMinusBox8");
             this.vdMonthMinusBox8.Name = "vdMonthMinusBox8";
-            this.vdMonthMinusBox8.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox8.TabIndex = 90;
             this.vdMonthMinusBox8.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox8.Visible = false;
             // 
             // vdMinusBox8
             // 
-            this.vdMinusBox8.Location = new System.Drawing.Point(15, 256);
+            resources.ApplyResources(this.vdMinusBox8, "vdMinusBox8");
             this.vdMinusBox8.Name = "vdMinusBox8";
-            this.vdMinusBox8.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox8.TabIndex = 85;
             // 
             // vdMonthMinusBox7
             // 
-            this.vdMonthMinusBox7.AutoSize = true;
-            this.vdMonthMinusBox7.Location = new System.Drawing.Point(30, 233);
+            resources.ApplyResources(this.vdMonthMinusBox7, "vdMonthMinusBox7");
             this.vdMonthMinusBox7.Name = "vdMonthMinusBox7";
-            this.vdMonthMinusBox7.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox7.TabIndex = 88;
             this.vdMonthMinusBox7.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox7.Visible = false;
             // 
             // vdMinusBox7
             // 
-            this.vdMinusBox7.Location = new System.Drawing.Point(15, 230);
+            resources.ApplyResources(this.vdMinusBox7, "vdMinusBox7");
             this.vdMinusBox7.Name = "vdMinusBox7";
-            this.vdMinusBox7.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox7.TabIndex = 84;
             // 
             // vdMonthMinusBox6
             // 
-            this.vdMonthMinusBox6.AutoSize = true;
-            this.vdMonthMinusBox6.Location = new System.Drawing.Point(30, 207);
+            resources.ApplyResources(this.vdMonthMinusBox6, "vdMonthMinusBox6");
             this.vdMonthMinusBox6.Name = "vdMonthMinusBox6";
-            this.vdMonthMinusBox6.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox6.TabIndex = 86;
             this.vdMonthMinusBox6.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox6.Visible = false;
             // 
             // vdMinusBox6
             // 
-            this.vdMinusBox6.Location = new System.Drawing.Point(15, 204);
+            resources.ApplyResources(this.vdMinusBox6, "vdMinusBox6");
             this.vdMinusBox6.Name = "vdMinusBox6";
-            this.vdMinusBox6.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox6.TabIndex = 83;
             // 
             // vdMonthMinusBox5
             // 
-            this.vdMonthMinusBox5.AutoSize = true;
-            this.vdMonthMinusBox5.Location = new System.Drawing.Point(30, 181);
+            resources.ApplyResources(this.vdMonthMinusBox5, "vdMonthMinusBox5");
             this.vdMonthMinusBox5.Name = "vdMonthMinusBox5";
-            this.vdMonthMinusBox5.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox5.TabIndex = 84;
             this.vdMonthMinusBox5.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox5.Visible = false;
             // 
             // vdMinusBox5
             // 
-            this.vdMinusBox5.Location = new System.Drawing.Point(15, 178);
+            resources.ApplyResources(this.vdMinusBox5, "vdMinusBox5");
             this.vdMinusBox5.Name = "vdMinusBox5";
-            this.vdMinusBox5.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox5.TabIndex = 82;
             // 
             // vdMonthMinusBox4
             // 
-            this.vdMonthMinusBox4.AutoSize = true;
-            this.vdMonthMinusBox4.Location = new System.Drawing.Point(30, 155);
+            resources.ApplyResources(this.vdMonthMinusBox4, "vdMonthMinusBox4");
             this.vdMonthMinusBox4.Name = "vdMonthMinusBox4";
-            this.vdMonthMinusBox4.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox4.TabIndex = 82;
             this.vdMonthMinusBox4.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox4.Visible = false;
             // 
             // vdMinusBox4
             // 
-            this.vdMinusBox4.Location = new System.Drawing.Point(15, 152);
+            resources.ApplyResources(this.vdMinusBox4, "vdMinusBox4");
             this.vdMinusBox4.Name = "vdMinusBox4";
-            this.vdMinusBox4.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox4.TabIndex = 81;
             // 
             // vdMonthMinusBox3
             // 
-            this.vdMonthMinusBox3.AutoSize = true;
-            this.vdMonthMinusBox3.Location = new System.Drawing.Point(30, 129);
+            resources.ApplyResources(this.vdMonthMinusBox3, "vdMonthMinusBox3");
             this.vdMonthMinusBox3.Name = "vdMonthMinusBox3";
-            this.vdMonthMinusBox3.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox3.TabIndex = 80;
             this.vdMonthMinusBox3.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox3.Visible = false;
             // 
             // vdMinusBox3
             // 
-            this.vdMinusBox3.Location = new System.Drawing.Point(15, 126);
+            resources.ApplyResources(this.vdMinusBox3, "vdMinusBox3");
             this.vdMinusBox3.Name = "vdMinusBox3";
-            this.vdMinusBox3.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox3.TabIndex = 80;
             // 
             // vdMonthMinusBox2
             // 
-            this.vdMonthMinusBox2.AutoSize = true;
-            this.vdMonthMinusBox2.Location = new System.Drawing.Point(30, 103);
+            resources.ApplyResources(this.vdMonthMinusBox2, "vdMonthMinusBox2");
             this.vdMonthMinusBox2.Name = "vdMonthMinusBox2";
-            this.vdMonthMinusBox2.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox2.TabIndex = 78;
             this.vdMonthMinusBox2.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox2.Visible = false;
             // 
             // vdMinusBox2
             // 
-            this.vdMinusBox2.Location = new System.Drawing.Point(15, 100);
+            resources.ApplyResources(this.vdMinusBox2, "vdMinusBox2");
             this.vdMinusBox2.Name = "vdMinusBox2";
-            this.vdMinusBox2.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox2.TabIndex = 79;
             // 
             // vdMonthMinusBox1
             // 
-            this.vdMonthMinusBox1.AutoSize = true;
-            this.vdMonthMinusBox1.Location = new System.Drawing.Point(30, 77);
+            resources.ApplyResources(this.vdMonthMinusBox1, "vdMonthMinusBox1");
             this.vdMonthMinusBox1.Name = "vdMonthMinusBox1";
-            this.vdMonthMinusBox1.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox1.TabIndex = 76;
             this.vdMonthMinusBox1.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox1.Visible = false;
             // 
             // vdMinusBox1
             // 
-            this.vdMinusBox1.Location = new System.Drawing.Point(15, 74);
+            resources.ApplyResources(this.vdMinusBox1, "vdMinusBox1");
             this.vdMinusBox1.Name = "vdMinusBox1";
-            this.vdMinusBox1.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox1.TabIndex = 78;
             // 
             // vdMonthMinusBox0
             // 
-            this.vdMonthMinusBox0.AutoSize = true;
-            this.vdMonthMinusBox0.Location = new System.Drawing.Point(30, 51);
+            resources.ApplyResources(this.vdMonthMinusBox0, "vdMonthMinusBox0");
             this.vdMonthMinusBox0.Name = "vdMonthMinusBox0";
-            this.vdMonthMinusBox0.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthMinusBox0.TabIndex = 74;
             this.vdMonthMinusBox0.UseVisualStyleBackColor = true;
-            this.vdMonthMinusBox0.Visible = false;
             // 
             // vdMinusBox0
             // 
-            this.vdMinusBox0.Location = new System.Drawing.Point(15, 48);
+            resources.ApplyResources(this.vdMinusBox0, "vdMinusBox0");
             this.vdMinusBox0.Name = "vdMinusBox0";
-            this.vdMinusBox0.Size = new System.Drawing.Size(45, 20);
-            this.vdMinusBox0.TabIndex = 77;
+            // 
+            // groupBox2
+            // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Controls.Add(this.checkBox13);
+            this.groupBox2.Controls.Add(this.textBox13);
+            this.groupBox2.Controls.Add(this.checkBox14);
+            this.groupBox2.Controls.Add(this.textBox14);
+            this.groupBox2.Controls.Add(this.checkBox15);
+            this.groupBox2.Controls.Add(this.textBox15);
+            this.groupBox2.Controls.Add(this.checkBox16);
+            this.groupBox2.Controls.Add(this.textBox16);
+            this.groupBox2.Controls.Add(this.checkBox17);
+            this.groupBox2.Controls.Add(this.textBox17);
+            this.groupBox2.Controls.Add(this.checkBox18);
+            this.groupBox2.Controls.Add(this.textBox18);
+            this.groupBox2.Controls.Add(this.checkBox19);
+            this.groupBox2.Controls.Add(this.textBox19);
+            this.groupBox2.Controls.Add(this.checkBox20);
+            this.groupBox2.Controls.Add(this.textBox20);
+            this.groupBox2.Controls.Add(this.checkBox21);
+            this.groupBox2.Controls.Add(this.textBox21);
+            this.groupBox2.Controls.Add(this.checkBox22);
+            this.groupBox2.Controls.Add(this.textBox22);
+            this.groupBox2.Controls.Add(this.checkBox23);
+            this.groupBox2.Controls.Add(this.textBox23);
+            this.groupBox2.Controls.Add(this.checkBox24);
+            this.groupBox2.Controls.Add(this.textBox24);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
+            // 
+            // checkBox13
+            // 
+            resources.ApplyResources(this.checkBox13, "checkBox13");
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // textBox13
+            // 
+            resources.ApplyResources(this.textBox13, "textBox13");
+            this.textBox13.Name = "textBox13";
+            // 
+            // checkBox14
+            // 
+            resources.ApplyResources(this.checkBox14, "checkBox14");
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
+            // textBox14
+            // 
+            resources.ApplyResources(this.textBox14, "textBox14");
+            this.textBox14.Name = "textBox14";
+            // 
+            // checkBox15
+            // 
+            resources.ApplyResources(this.checkBox15, "checkBox15");
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.UseVisualStyleBackColor = true;
+            // 
+            // textBox15
+            // 
+            resources.ApplyResources(this.textBox15, "textBox15");
+            this.textBox15.Name = "textBox15";
+            // 
+            // checkBox16
+            // 
+            resources.ApplyResources(this.checkBox16, "checkBox16");
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // textBox16
+            // 
+            resources.ApplyResources(this.textBox16, "textBox16");
+            this.textBox16.Name = "textBox16";
+            // 
+            // checkBox17
+            // 
+            resources.ApplyResources(this.checkBox17, "checkBox17");
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.UseVisualStyleBackColor = true;
+            // 
+            // textBox17
+            // 
+            resources.ApplyResources(this.textBox17, "textBox17");
+            this.textBox17.Name = "textBox17";
+            // 
+            // checkBox18
+            // 
+            resources.ApplyResources(this.checkBox18, "checkBox18");
+            this.checkBox18.Name = "checkBox18";
+            this.checkBox18.UseVisualStyleBackColor = true;
+            // 
+            // textBox18
+            // 
+            resources.ApplyResources(this.textBox18, "textBox18");
+            this.textBox18.Name = "textBox18";
+            // 
+            // checkBox19
+            // 
+            resources.ApplyResources(this.checkBox19, "checkBox19");
+            this.checkBox19.Name = "checkBox19";
+            this.checkBox19.UseVisualStyleBackColor = true;
+            // 
+            // textBox19
+            // 
+            resources.ApplyResources(this.textBox19, "textBox19");
+            this.textBox19.Name = "textBox19";
+            // 
+            // checkBox20
+            // 
+            resources.ApplyResources(this.checkBox20, "checkBox20");
+            this.checkBox20.Name = "checkBox20";
+            this.checkBox20.UseVisualStyleBackColor = true;
+            // 
+            // textBox20
+            // 
+            resources.ApplyResources(this.textBox20, "textBox20");
+            this.textBox20.Name = "textBox20";
+            // 
+            // checkBox21
+            // 
+            resources.ApplyResources(this.checkBox21, "checkBox21");
+            this.checkBox21.Name = "checkBox21";
+            this.checkBox21.UseVisualStyleBackColor = true;
+            // 
+            // textBox21
+            // 
+            resources.ApplyResources(this.textBox21, "textBox21");
+            this.textBox21.Name = "textBox21";
+            // 
+            // checkBox22
+            // 
+            resources.ApplyResources(this.checkBox22, "checkBox22");
+            this.checkBox22.Name = "checkBox22";
+            this.checkBox22.UseVisualStyleBackColor = true;
+            // 
+            // textBox22
+            // 
+            resources.ApplyResources(this.textBox22, "textBox22");
+            this.textBox22.Name = "textBox22";
+            // 
+            // checkBox23
+            // 
+            resources.ApplyResources(this.checkBox23, "checkBox23");
+            this.checkBox23.Name = "checkBox23";
+            this.checkBox23.UseVisualStyleBackColor = true;
+            // 
+            // textBox23
+            // 
+            resources.ApplyResources(this.textBox23, "textBox23");
+            this.textBox23.Name = "textBox23";
+            // 
+            // checkBox24
+            // 
+            resources.ApplyResources(this.checkBox24, "checkBox24");
+            this.checkBox24.Name = "checkBox24";
+            this.checkBox24.UseVisualStyleBackColor = true;
+            // 
+            // textBox24
+            // 
+            resources.ApplyResources(this.textBox24, "textBox24");
+            this.textBox24.Name = "textBox24";
             // 
             // groupBox9
             // 
+            resources.ApplyResources(this.groupBox9, "groupBox9");
             this.groupBox9.Controls.Add(this.vdMonthPlusBox11);
             this.groupBox9.Controls.Add(this.vdPlusBox11);
             this.groupBox9.Controls.Add(this.vdMonthPlusBox10);
@@ -1764,511 +1811,314 @@
             this.groupBox9.Controls.Add(this.vdPlusBox1);
             this.groupBox9.Controls.Add(this.vdMonthPlusBox0);
             this.groupBox9.Controls.Add(this.vdPlusBox0);
-            this.groupBox9.Location = new System.Drawing.Point(62, 19);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(76, 367);
-            this.groupBox9.TabIndex = 76;
             this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "groupBox9";
             // 
             // vdMonthPlusBox11
             // 
-            this.vdMonthPlusBox11.AutoSize = true;
-            this.vdMonthPlusBox11.Location = new System.Drawing.Point(31, 337);
+            resources.ApplyResources(this.vdMonthPlusBox11, "vdMonthPlusBox11");
             this.vdMonthPlusBox11.Name = "vdMonthPlusBox11";
-            this.vdMonthPlusBox11.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox11.TabIndex = 96;
             this.vdMonthPlusBox11.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox11.Visible = false;
             // 
             // vdPlusBox11
             // 
-            this.vdPlusBox11.Location = new System.Drawing.Point(16, 334);
+            resources.ApplyResources(this.vdPlusBox11, "vdPlusBox11");
             this.vdPlusBox11.Name = "vdPlusBox11";
-            this.vdPlusBox11.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox11.TabIndex = 76;
             // 
             // vdMonthPlusBox10
             // 
-            this.vdMonthPlusBox10.AutoSize = true;
-            this.vdMonthPlusBox10.Location = new System.Drawing.Point(31, 311);
+            resources.ApplyResources(this.vdMonthPlusBox10, "vdMonthPlusBox10");
             this.vdMonthPlusBox10.Name = "vdMonthPlusBox10";
-            this.vdMonthPlusBox10.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox10.TabIndex = 94;
             this.vdMonthPlusBox10.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox10.Visible = false;
             // 
             // vdPlusBox10
             // 
-            this.vdPlusBox10.Location = new System.Drawing.Point(16, 308);
+            resources.ApplyResources(this.vdPlusBox10, "vdPlusBox10");
             this.vdPlusBox10.Name = "vdPlusBox10";
-            this.vdPlusBox10.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox10.TabIndex = 75;
             // 
             // vdMonthPlusBox9
             // 
-            this.vdMonthPlusBox9.AutoSize = true;
-            this.vdMonthPlusBox9.Location = new System.Drawing.Point(31, 285);
+            resources.ApplyResources(this.vdMonthPlusBox9, "vdMonthPlusBox9");
             this.vdMonthPlusBox9.Name = "vdMonthPlusBox9";
-            this.vdMonthPlusBox9.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox9.TabIndex = 92;
             this.vdMonthPlusBox9.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox9.Visible = false;
             // 
             // vdPlusBox9
             // 
-            this.vdPlusBox9.Location = new System.Drawing.Point(16, 282);
+            resources.ApplyResources(this.vdPlusBox9, "vdPlusBox9");
             this.vdPlusBox9.Name = "vdPlusBox9";
-            this.vdPlusBox9.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox9.TabIndex = 74;
             // 
             // vdMonthPlusBox8
             // 
-            this.vdMonthPlusBox8.AutoSize = true;
-            this.vdMonthPlusBox8.Location = new System.Drawing.Point(31, 259);
+            resources.ApplyResources(this.vdMonthPlusBox8, "vdMonthPlusBox8");
             this.vdMonthPlusBox8.Name = "vdMonthPlusBox8";
-            this.vdMonthPlusBox8.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox8.TabIndex = 90;
             this.vdMonthPlusBox8.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox8.Visible = false;
             // 
             // vdPlusBox8
             // 
-            this.vdPlusBox8.Location = new System.Drawing.Point(16, 256);
+            resources.ApplyResources(this.vdPlusBox8, "vdPlusBox8");
             this.vdPlusBox8.Name = "vdPlusBox8";
-            this.vdPlusBox8.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox8.TabIndex = 73;
             // 
             // vdMonthPlusBox7
             // 
-            this.vdMonthPlusBox7.AutoSize = true;
-            this.vdMonthPlusBox7.Location = new System.Drawing.Point(31, 233);
+            resources.ApplyResources(this.vdMonthPlusBox7, "vdMonthPlusBox7");
             this.vdMonthPlusBox7.Name = "vdMonthPlusBox7";
-            this.vdMonthPlusBox7.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox7.TabIndex = 88;
             this.vdMonthPlusBox7.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox7.Visible = false;
             // 
             // vdPlusBox7
             // 
-            this.vdPlusBox7.Location = new System.Drawing.Point(16, 230);
+            resources.ApplyResources(this.vdPlusBox7, "vdPlusBox7");
             this.vdPlusBox7.Name = "vdPlusBox7";
-            this.vdPlusBox7.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox7.TabIndex = 72;
             // 
             // vdMonthPlusBox6
             // 
-            this.vdMonthPlusBox6.AutoSize = true;
-            this.vdMonthPlusBox6.Location = new System.Drawing.Point(31, 207);
+            resources.ApplyResources(this.vdMonthPlusBox6, "vdMonthPlusBox6");
             this.vdMonthPlusBox6.Name = "vdMonthPlusBox6";
-            this.vdMonthPlusBox6.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox6.TabIndex = 86;
             this.vdMonthPlusBox6.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox6.Visible = false;
             // 
             // vdPlusBox6
             // 
-            this.vdPlusBox6.Location = new System.Drawing.Point(16, 204);
+            resources.ApplyResources(this.vdPlusBox6, "vdPlusBox6");
             this.vdPlusBox6.Name = "vdPlusBox6";
-            this.vdPlusBox6.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox6.TabIndex = 71;
             // 
             // vdMonthPlusBox5
             // 
-            this.vdMonthPlusBox5.AutoSize = true;
-            this.vdMonthPlusBox5.Location = new System.Drawing.Point(31, 181);
+            resources.ApplyResources(this.vdMonthPlusBox5, "vdMonthPlusBox5");
             this.vdMonthPlusBox5.Name = "vdMonthPlusBox5";
-            this.vdMonthPlusBox5.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox5.TabIndex = 84;
             this.vdMonthPlusBox5.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox5.Visible = false;
             // 
             // vdPlusBox5
             // 
-            this.vdPlusBox5.Location = new System.Drawing.Point(16, 178);
+            resources.ApplyResources(this.vdPlusBox5, "vdPlusBox5");
             this.vdPlusBox5.Name = "vdPlusBox5";
-            this.vdPlusBox5.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox5.TabIndex = 70;
             // 
             // vdMonthPlusBox4
             // 
-            this.vdMonthPlusBox4.AutoSize = true;
-            this.vdMonthPlusBox4.Location = new System.Drawing.Point(31, 155);
+            resources.ApplyResources(this.vdMonthPlusBox4, "vdMonthPlusBox4");
             this.vdMonthPlusBox4.Name = "vdMonthPlusBox4";
-            this.vdMonthPlusBox4.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox4.TabIndex = 82;
             this.vdMonthPlusBox4.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox4.Visible = false;
             // 
             // vdPlusBox4
             // 
-            this.vdPlusBox4.Location = new System.Drawing.Point(16, 152);
+            resources.ApplyResources(this.vdPlusBox4, "vdPlusBox4");
             this.vdPlusBox4.Name = "vdPlusBox4";
-            this.vdPlusBox4.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox4.TabIndex = 69;
             // 
             // vdMonthPlusBox3
             // 
-            this.vdMonthPlusBox3.AutoSize = true;
-            this.vdMonthPlusBox3.Location = new System.Drawing.Point(31, 129);
+            resources.ApplyResources(this.vdMonthPlusBox3, "vdMonthPlusBox3");
             this.vdMonthPlusBox3.Name = "vdMonthPlusBox3";
-            this.vdMonthPlusBox3.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox3.TabIndex = 80;
             this.vdMonthPlusBox3.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox3.Visible = false;
             // 
             // vdPlusBox3
             // 
-            this.vdPlusBox3.Location = new System.Drawing.Point(16, 126);
+            resources.ApplyResources(this.vdPlusBox3, "vdPlusBox3");
             this.vdPlusBox3.Name = "vdPlusBox3";
-            this.vdPlusBox3.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox3.TabIndex = 68;
             // 
             // vdMonthPlusBox2
             // 
-            this.vdMonthPlusBox2.AutoSize = true;
-            this.vdMonthPlusBox2.Location = new System.Drawing.Point(31, 103);
+            resources.ApplyResources(this.vdMonthPlusBox2, "vdMonthPlusBox2");
             this.vdMonthPlusBox2.Name = "vdMonthPlusBox2";
-            this.vdMonthPlusBox2.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox2.TabIndex = 78;
             this.vdMonthPlusBox2.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox2.Visible = false;
             // 
             // vdPlusBox2
             // 
-            this.vdPlusBox2.Location = new System.Drawing.Point(16, 100);
+            resources.ApplyResources(this.vdPlusBox2, "vdPlusBox2");
             this.vdPlusBox2.Name = "vdPlusBox2";
-            this.vdPlusBox2.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox2.TabIndex = 67;
             // 
             // vdMonthPlusBox1
             // 
-            this.vdMonthPlusBox1.AutoSize = true;
-            this.vdMonthPlusBox1.Location = new System.Drawing.Point(31, 77);
+            resources.ApplyResources(this.vdMonthPlusBox1, "vdMonthPlusBox1");
             this.vdMonthPlusBox1.Name = "vdMonthPlusBox1";
-            this.vdMonthPlusBox1.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox1.TabIndex = 76;
             this.vdMonthPlusBox1.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox1.Visible = false;
             // 
             // vdPlusBox1
             // 
-            this.vdPlusBox1.Location = new System.Drawing.Point(16, 74);
+            resources.ApplyResources(this.vdPlusBox1, "vdPlusBox1");
             this.vdPlusBox1.Name = "vdPlusBox1";
-            this.vdPlusBox1.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox1.TabIndex = 66;
             // 
             // vdMonthPlusBox0
             // 
-            this.vdMonthPlusBox0.AutoSize = true;
-            this.vdMonthPlusBox0.Location = new System.Drawing.Point(31, 51);
+            resources.ApplyResources(this.vdMonthPlusBox0, "vdMonthPlusBox0");
             this.vdMonthPlusBox0.Name = "vdMonthPlusBox0";
-            this.vdMonthPlusBox0.Size = new System.Drawing.Size(15, 14);
-            this.vdMonthPlusBox0.TabIndex = 74;
             this.vdMonthPlusBox0.UseVisualStyleBackColor = true;
-            this.vdMonthPlusBox0.Visible = false;
             // 
             // vdPlusBox0
             // 
-            this.vdPlusBox0.Location = new System.Drawing.Point(16, 48);
+            resources.ApplyResources(this.vdPlusBox0, "vdPlusBox0");
             this.vdPlusBox0.Name = "vdPlusBox0";
-            this.vdPlusBox0.Size = new System.Drawing.Size(45, 20);
-            this.vdPlusBox0.TabIndex = 65;
             // 
             // chooseVDCalcualtionGroup
             // 
+            resources.ApplyResources(this.chooseVDCalcualtionGroup, "chooseVDCalcualtionGroup");
             this.chooseVDCalcualtionGroup.Controls.Add(this.radioButton3);
             this.chooseVDCalcualtionGroup.Controls.Add(this.setValuesVD);
-            this.chooseVDCalcualtionGroup.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.chooseVDCalcualtionGroup.Location = new System.Drawing.Point(3, 386);
             this.chooseVDCalcualtionGroup.Name = "chooseVDCalcualtionGroup";
-            this.chooseVDCalcualtionGroup.Size = new System.Drawing.Size(210, 76);
-            this.chooseVDCalcualtionGroup.TabIndex = 75;
             this.chooseVDCalcualtionGroup.TabStop = false;
-            this.chooseVDCalcualtionGroup.Text = "groupBox5";
             // 
             // radioButton3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(6, 51);
+            resources.ApplyResources(this.radioButton3, "radioButton3");
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(85, 17);
-            this.radioButton3.TabIndex = 64;
-            this.radioButton3.Text = "radioButton3";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // setValuesVD
             // 
-            this.setValuesVD.AutoSize = true;
+            resources.ApplyResources(this.setValuesVD, "setValuesVD");
             this.setValuesVD.Checked = true;
-            this.setValuesVD.Location = new System.Drawing.Point(6, 27);
             this.setValuesVD.Name = "setValuesVD";
-            this.setValuesVD.Size = new System.Drawing.Size(85, 17);
-            this.setValuesVD.TabIndex = 63;
             this.setValuesVD.TabStop = true;
-            this.setValuesVD.Text = "radioButton4";
             this.setValuesVD.UseVisualStyleBackColor = true;
             // 
             // vdLabel11
             // 
-            this.vdLabel11.AutoSize = true;
-            this.vdLabel11.Location = new System.Drawing.Point(15, 356);
+            resources.ApplyResources(this.vdLabel11, "vdLabel11");
             this.vdLabel11.Name = "vdLabel11";
-            this.vdLabel11.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel11.TabIndex = 70;
-            this.vdLabel11.Text = "label73";
             // 
             // vdLabel10
             // 
-            this.vdLabel10.AutoSize = true;
-            this.vdLabel10.Location = new System.Drawing.Point(15, 330);
+            resources.ApplyResources(this.vdLabel10, "vdLabel10");
             this.vdLabel10.Name = "vdLabel10";
-            this.vdLabel10.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel10.TabIndex = 69;
-            this.vdLabel10.Text = "label74";
             // 
             // vdLabel9
             // 
-            this.vdLabel9.AutoSize = true;
-            this.vdLabel9.Location = new System.Drawing.Point(15, 304);
+            resources.ApplyResources(this.vdLabel9, "vdLabel9");
             this.vdLabel9.Name = "vdLabel9";
-            this.vdLabel9.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel9.TabIndex = 68;
-            this.vdLabel9.Text = "label75";
             // 
             // vdLabel8
             // 
-            this.vdLabel8.AutoSize = true;
-            this.vdLabel8.Location = new System.Drawing.Point(15, 278);
+            resources.ApplyResources(this.vdLabel8, "vdLabel8");
             this.vdLabel8.Name = "vdLabel8";
-            this.vdLabel8.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel8.TabIndex = 67;
-            this.vdLabel8.Text = "label76";
             // 
             // vdLabel7
             // 
-            this.vdLabel7.AutoSize = true;
-            this.vdLabel7.Location = new System.Drawing.Point(15, 252);
+            resources.ApplyResources(this.vdLabel7, "vdLabel7");
             this.vdLabel7.Name = "vdLabel7";
-            this.vdLabel7.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel7.TabIndex = 66;
-            this.vdLabel7.Text = "label77";
             // 
             // vdLabel6
             // 
-            this.vdLabel6.AutoSize = true;
-            this.vdLabel6.Location = new System.Drawing.Point(15, 226);
+            resources.ApplyResources(this.vdLabel6, "vdLabel6");
             this.vdLabel6.Name = "vdLabel6";
-            this.vdLabel6.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel6.TabIndex = 65;
-            this.vdLabel6.Text = "label78";
             // 
             // vdLabel5
             // 
-            this.vdLabel5.AutoSize = true;
-            this.vdLabel5.Location = new System.Drawing.Point(15, 200);
+            resources.ApplyResources(this.vdLabel5, "vdLabel5");
             this.vdLabel5.Name = "vdLabel5";
-            this.vdLabel5.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel5.TabIndex = 64;
-            this.vdLabel5.Text = "label79";
             // 
             // vdLabel4
             // 
-            this.vdLabel4.AutoSize = true;
-            this.vdLabel4.Location = new System.Drawing.Point(15, 174);
+            resources.ApplyResources(this.vdLabel4, "vdLabel4");
             this.vdLabel4.Name = "vdLabel4";
-            this.vdLabel4.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel4.TabIndex = 63;
-            this.vdLabel4.Text = "label80";
             // 
             // vdLabel3
             // 
-            this.vdLabel3.AutoSize = true;
-            this.vdLabel3.Location = new System.Drawing.Point(15, 148);
+            resources.ApplyResources(this.vdLabel3, "vdLabel3");
             this.vdLabel3.Name = "vdLabel3";
-            this.vdLabel3.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel3.TabIndex = 62;
-            this.vdLabel3.Text = "label81";
             // 
             // vdLabel2
             // 
-            this.vdLabel2.AutoSize = true;
-            this.vdLabel2.Location = new System.Drawing.Point(15, 122);
+            resources.ApplyResources(this.vdLabel2, "vdLabel2");
             this.vdLabel2.Name = "vdLabel2";
-            this.vdLabel2.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel2.TabIndex = 61;
-            this.vdLabel2.Text = "label82";
             // 
             // vdLabel1
             // 
-            this.vdLabel1.AutoSize = true;
-            this.vdLabel1.Location = new System.Drawing.Point(15, 96);
+            resources.ApplyResources(this.vdLabel1, "vdLabel1");
             this.vdLabel1.Name = "vdLabel1";
-            this.vdLabel1.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel1.TabIndex = 60;
-            this.vdLabel1.Text = "label83";
             // 
             // vdLabel0
             // 
-            this.vdLabel0.AutoSize = true;
-            this.vdLabel0.Location = new System.Drawing.Point(15, 70);
+            resources.ApplyResources(this.vdLabel0, "vdLabel0");
             this.vdLabel0.Name = "vdLabel0";
-            this.vdLabel0.Size = new System.Drawing.Size(41, 13);
-            this.vdLabel0.TabIndex = 59;
-            this.vdLabel0.Text = "label84";
             // 
-            // sumVrBox
+            // checkBox25
             // 
-            this.sumVrBox.Location = new System.Drawing.Point(122, 43);
-            this.sumVrBox.Name = "sumVrBox";
-            this.sumVrBox.Size = new System.Drawing.Size(45, 20);
-            this.sumVrBox.TabIndex = 89;
+            resources.ApplyResources(this.checkBox25, "checkBox25");
+            this.checkBox25.Name = "checkBox25";
+            this.checkBox25.UseVisualStyleBackColor = true;
             // 
-            // sumVrLabel
+            // sumVgBox
             // 
-            this.sumVrLabel.AutoSize = true;
-            this.sumVrLabel.Location = new System.Drawing.Point(75, 46);
-            this.sumVrLabel.Name = "sumVrLabel";
-            this.sumVrLabel.Size = new System.Drawing.Size(41, 13);
-            this.sumVrLabel.TabIndex = 77;
-            this.sumVrLabel.Text = "label61";
+            resources.ApplyResources(this.sumVgBox, "sumVgBox");
+            this.sumVgBox.Name = "sumVgBox";
+            // 
+            // sumVgLabel
+            // 
+            resources.ApplyResources(this.sumVgLabel, "sumVgLabel");
+            this.sumVgLabel.Name = "sumVgLabel";
             // 
             // groupSumVrBox
             // 
-            this.groupSumVrBox.Controls.Add(this.sumVrLabel);
-            this.groupSumVrBox.Controls.Add(this.sumVrBox);
-            this.groupSumVrBox.Location = new System.Drawing.Point(18, 426);
+            resources.ApplyResources(this.groupSumVrBox, "groupSumVrBox");
+            this.groupSumVrBox.Controls.Add(this.sumVgLabel);
+            this.groupSumVrBox.Controls.Add(this.sumVgBox);
             this.groupSumVrBox.Name = "groupSumVrBox";
-            this.groupSumVrBox.Size = new System.Drawing.Size(180, 72);
-            this.groupSumVrBox.TabIndex = 74;
             this.groupSumVrBox.TabStop = false;
-            this.groupSumVrBox.Text = "groupBox11";
             // 
             // s1Box
             // 
-            this.s1Box.Location = new System.Drawing.Point(123, 39);
+            resources.ApplyResources(this.s1Box, "s1Box");
             this.s1Box.Name = "s1Box";
-            this.s1Box.Size = new System.Drawing.Size(45, 20);
-            this.s1Box.TabIndex = 90;
             // 
             // s1Label
             // 
-            this.s1Label.AutoSize = true;
-            this.s1Label.Location = new System.Drawing.Point(76, 42);
+            resources.ApplyResources(this.s1Label, "s1Label");
             this.s1Label.Name = "s1Label";
-            this.s1Label.Size = new System.Drawing.Size(41, 13);
-            this.s1Label.TabIndex = 77;
-            this.s1Label.Text = "label62";
             // 
             // groupS1Box
             // 
+            resources.ApplyResources(this.groupS1Box, "groupS1Box");
             this.groupS1Box.Controls.Add(this.s1Label);
             this.groupS1Box.Controls.Add(this.s1Box);
-            this.groupS1Box.Location = new System.Drawing.Point(204, 426);
             this.groupS1Box.Name = "groupS1Box";
-            this.groupS1Box.Size = new System.Drawing.Size(183, 72);
-            this.groupS1Box.TabIndex = 78;
             this.groupS1Box.TabStop = false;
-            this.groupS1Box.Text = "groupBox12";
-            // 
-            // back
-            // 
-            this.back.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.back.Image = ((System.Drawing.Image)(resources.GetObject("back.Image")));
-            this.back.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.back.Name = "back";
-            this.back.Size = new System.Drawing.Size(23, 22);
-            this.back.Text = "back";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // saveInputData
             // 
-            this.saveInputData.Image = ((System.Drawing.Image)(resources.GetObject("saveInputData.Image")));
-            this.saveInputData.ImageTransparentColor = System.Drawing.Color.Magenta;
+            resources.ApplyResources(this.saveInputData, "saveInputData");
             this.saveInputData.Name = "saveInputData";
-            this.saveInputData.Size = new System.Drawing.Size(102, 22);
-            this.saveInputData.Text = "saveInputData";
             // 
             // toCalculate
             // 
-            this.toCalculate.Image = ((System.Drawing.Image)(resources.GetObject("toCalculate.Image")));
-            this.toCalculate.ImageTransparentColor = System.Drawing.Color.Magenta;
+            resources.ApplyResources(this.toCalculate, "toCalculate");
             this.toCalculate.Name = "toCalculate";
-            this.toCalculate.Size = new System.Drawing.Size(87, 22);
-            this.toCalculate.Text = "toCalculate";
             // 
             // clearFields
             // 
-            this.clearFields.Image = ((System.Drawing.Image)(resources.GetObject("clearFields.Image")));
-            this.clearFields.ImageTransparentColor = System.Drawing.Color.Magenta;
+            resources.ApplyResources(this.clearFields, "clearFields");
             this.clearFields.Name = "clearFields";
-            this.clearFields.Size = new System.Drawing.Size(82, 22);
-            this.clearFields.Text = "clearFields";
             // 
             // toolStripSeparator2
             // 
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // yearsBoxLabel
             // 
+            resources.ApplyResources(this.yearsBoxLabel, "yearsBoxLabel");
             this.yearsBoxLabel.Name = "yearsBoxLabel";
-            this.yearsBoxLabel.Size = new System.Drawing.Size(81, 22);
-            this.yearsBoxLabel.Text = "yearsBoxLabel";
             // 
             // yearsBox
             // 
+            resources.ApplyResources(this.yearsBox, "yearsBox");
             this.yearsBox.Name = "yearsBox";
-            this.yearsBox.Size = new System.Drawing.Size(75, 25);
             // 
             // toolStrip
             // 
+            resources.ApplyResources(this.toolStrip, "toolStrip");
             this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.back,
-            this.toolStripSeparator1,
             this.saveInputData,
             this.toCalculate,
             this.clearFields,
             this.toolStripSeparator2,
             this.yearsBoxLabel,
-            this.yearsBox,
-            this.toolStripSeparator3,
-            this.toolStripLabel1,
-            this.chooseEnterVD});
-            this.toolStrip.Location = new System.Drawing.Point(0, 0);
+            this.yearsBox});
             this.toolStrip.Name = "toolStrip";
-            this.toolStrip.Size = new System.Drawing.Size(884, 25);
-            this.toolStrip.TabIndex = 0;
-            this.toolStrip.Text = "toolStrip";
             // 
-            // toolStripSeparator3
+            // CalculationCreateUC
             // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripLabel1
-            // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(115, 22);
-            this.toolStripLabel1.Text = "chooseEnterVDLabel";
-            // 
-            // chooseEnterVD
-            // 
-            this.chooseEnterVD.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.chooseEnterVD.Image = ((System.Drawing.Image)(resources.GetObject("chooseEnterVD.Image")));
-            this.chooseEnterVD.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.chooseEnterVD.Name = "chooseEnterVD";
-            this.chooseEnterVD.Size = new System.Drawing.Size(23, 22);
-            this.chooseEnterVD.Text = "toolStripButton1";
-            // 
-            // CreateCalculationUC
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.checkBox25);
+            this.Controls.Add(this.chooseECalculationGrouup);
             this.Controls.Add(this.toolStrip);
             this.Controls.Add(this.groupS1Box);
             this.Controls.Add(this.groupSumVrBox);
@@ -2278,13 +2128,15 @@
             this.Controls.Add(this.groupPBoxes);
             this.Controls.Add(this.groupHBoxes);
             this.DoubleBuffered = true;
-            this.MinimumSize = new System.Drawing.Size(784, 515);
-            this.Name = "CreateCalculationUC";
-            this.Size = new System.Drawing.Size(884, 515);
+            this.Name = "CalculationCreateUC";
             this.groupHBoxes.ResumeLayout(false);
             this.groupHBoxes.PerformLayout();
             this.groupPBoxes.ResumeLayout(false);
             this.groupPBoxes.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.groupVzBoxes.ResumeLayout(false);
@@ -2295,8 +2147,12 @@
             this.chooseECalculationGrouup.PerformLayout();
             this.groupVDBoxes.ResumeLayout(false);
             this.groupVDBoxes.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBox9.ResumeLayout(false);
             this.groupBox9.PerformLayout();
             this.chooseVDCalcualtionGroup.ResumeLayout(false);
@@ -2508,8 +2364,8 @@
         private System.Windows.Forms.TextBox vdPlusBox2;
         private System.Windows.Forms.CheckBox vdMonthPlusBox1;
         private System.Windows.Forms.TextBox vdPlusBox1;
-        private System.Windows.Forms.TextBox sumVrBox;
-        private System.Windows.Forms.Label sumVrLabel;
+        private System.Windows.Forms.TextBox sumVgBox;
+        private System.Windows.Forms.Label sumVgLabel;
         private System.Windows.Forms.GroupBox groupSumVrBox;
         private System.Windows.Forms.TextBox s1Box;
         private System.Windows.Forms.Label s1Label;
@@ -2518,8 +2374,6 @@
         private System.Windows.Forms.Label vzLabel7;
         private System.Windows.Forms.Label pLabel0;
         private System.Windows.Forms.Label pLabel10;
-        private System.Windows.Forms.ToolStripButton back;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton saveInputData;
         private System.Windows.Forms.ToolStripButton toCalculate;
         private System.Windows.Forms.ToolStripButton clearFields;
@@ -2527,8 +2381,77 @@
         private System.Windows.Forms.ToolStripLabel yearsBoxLabel;
         private System.Windows.Forms.ToolStripComboBox yearsBox;
         private System.Windows.Forms.ToolStrip toolStrip;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
-        private System.Windows.Forms.ToolStripButton chooseEnterVD;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.CheckBox checkBox11;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.CheckBox checkBox15;
+        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.CheckBox checkBox17;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.CheckBox checkBox18;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.CheckBox checkBox19;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.CheckBox checkBox20;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.CheckBox checkBox21;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.CheckBox checkBox22;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.CheckBox checkBox23;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.CheckBox checkBox24;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox37;
+        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.CheckBox checkBox25;
     }
 }

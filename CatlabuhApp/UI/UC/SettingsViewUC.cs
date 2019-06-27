@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.UC
 {
-    public partial class SettingsUC : UserControl
+    public partial class SettingsViewUC : UserControl
     {
-        public SettingsUC()
+        public SettingsViewUC()
         {
             InitializeComponent();
         }

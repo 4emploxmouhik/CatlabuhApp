@@ -81,12 +81,15 @@ namespace CatlabuhApp.Data.Access
                 }
 
                 T[,] output = new T[columns.Length, rowsCount];
+                List<T> row;
 
                 for (int i = 0; i < columns.Length; i++)
                 {
+                    row = GetColumnData<T>($"SELECT {columns[i]} FROM {table}");
+
                     for (int j = 0; j < rowsCount; j++)
                     {
-                        output[i, j] = GetCellData<T>($"SELECT {columns[i]} FROM {table}");
+                        output[i, j] = row[i];
                     }
                 }
 
@@ -101,20 +104,19 @@ namespace CatlabuhApp.Data.Access
         /// <param name="comboBox">ComboBox, который надо заполнить</param>
         /// <param name="displayMember">Название отображаемого значения</param>
         /// <param name="valueMember">Название фактического значения</param>
-        public void FillComboBox(string sql, out ComboBox comboBox, string displayMember, string valueMember)
+        public ComboBox FillComboBox(string sql, ComboBox comboBox, string displayMember, string valueMember)
         {
             using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString()))
             {
                 SQLiteDataAdapter adapter = new SQLiteDataAdapter(sql, (SQLiteConnection)cnn);
                 DataTable dt = new DataTable();
-                ComboBox output = new ComboBox();
-
                 adapter.Fill(dt);
-                output.DataSource = dt;
-                output.DisplayMember = displayMember;
-                output.ValueMember = valueMember;
 
-                comboBox = output;
+                comboBox.DataSource = dt;
+                comboBox.DisplayMember = displayMember;
+                comboBox.ValueMember = valueMember;
+
+                return comboBox;
             }
         }
 

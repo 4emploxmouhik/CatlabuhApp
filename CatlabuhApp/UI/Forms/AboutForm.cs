@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.Forms
@@ -14,12 +9,20 @@ namespace CatlabuhApp.UI.Forms
         public AboutForm()
         {
             InitializeComponent();
-            this.Text = String.Format("О программе {0}", AssemblyTitle);
-            this.labelProductName.Text = AssemblyProduct;
-            this.labelVersion.Text = String.Format("Версия {0}", AssemblyVersion);
-            this.labelCopyright.Text = AssemblyCopyright;
-            this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
+
+            Text = AssemblyTitle;                          // О программе ...
+            labelProductName.Text = AssemblyProduct;
+            labelVersion.Text = AssemblyVersion;           // Версия ...
+            labelCopyright.Text = AssemblyCopyright;
+            labelCompanyName.Text = AssemblyCompany;
+            textBoxDescription.Text = AssemblyDescription;
+
+            okButton.Click += Ok_Click;
+        }
+
+        private void Ok_Click(object sender, EventArgs e)
+        {
+            Close();
         }
 
         #region Методы доступа к атрибутам сборки

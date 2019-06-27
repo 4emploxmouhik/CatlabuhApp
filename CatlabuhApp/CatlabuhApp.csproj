@@ -70,26 +70,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Resourses\Text\ru-RU.Designer.cs">
-      <DependentUpon>ru-RU.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Properties\Resourses\Text\en-US.Designer.cs">
-      <DependentUpon>en-US.resx</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Properties\Resourses\Text\uk-UA.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>uk-UA.resx</DependentUpon>
-    </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="UI\Forms\AboutForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\Forms\AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Forms\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Forms\ExportCalculationToExcelForm.cs">
       <SubType>Form</SubType>
@@ -121,6 +113,12 @@
     <Compile Include="UI\Forms\SetupChartForm.Designer.cs">
       <DependentUpon>SetupChartForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Forms\ShowChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Forms\ShowChartForm.Designer.cs">
+      <DependentUpon>ShowChartForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\UC\CalculationSettingsUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -133,11 +131,11 @@
     <Compile Include="UI\UC\CalculationViewUC.Designer.cs">
       <DependentUpon>CalculationViewUC.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\UC\CreateCalculationUC.cs">
+    <Compile Include="UI\UC\CalculationCreateUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\UC\CreateCalculationUC.Designer.cs">
-      <DependentUpon>CreateCalculationUC.cs</DependentUpon>
+    <Compile Include="UI\UC\CalculationCreateUC.Designer.cs">
+      <DependentUpon>CalculationCreateUC.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\UC\ChartViewUC.cs">
       <SubType>UserControl</SubType>
@@ -145,30 +143,23 @@
     <Compile Include="UI\UC\ChartViewUC.Designer.cs">
       <DependentUpon>ChartViewUC.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\UC\SettingsUC.cs">
+    <Compile Include="UI\UC\IDataViewUC.cs" />
+    <Compile Include="UI\UC\SettingsViewUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI\UC\SettingsUC.Designer.cs">
-      <DependentUpon>SettingsUC.cs</DependentUpon>
+    <Compile Include="UI\UC\SettingsViewUC.Designer.cs">
+      <DependentUpon>SettingsViewUC.cs</DependentUpon>
     </Compile>
+    <None Include="Resources\Катлабух фото.png" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resourses\Text\ru-RU.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ru-RU.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resourses\Text\en-US.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>en-US.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Resourses\Text\uk-UA.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>uk-UA.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\AboutForm.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Forms\BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\ExportCalculationToExcelForm.resx">
       <DependentUpon>ExportCalculationToExcelForm.cs</DependentUpon>
@@ -179,27 +170,48 @@
     <EmbeddedResource Include="UI\Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Forms\MainForm.uk-UA.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\MessageForm.resx">
       <DependentUpon>MessageForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\SetupChartForm.resx">
       <DependentUpon>SetupChartForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Forms\ShowChartForm.resx">
+      <DependentUpon>ShowChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UC\CalculationCreateUC.uk-UA.resx">
+      <DependentUpon>CalculationCreateUC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\UC\CalculationSettingsUC.resx">
+      <DependentUpon>CalculationSettingsUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UC\CalculationSettingsUC.uk-UA.resx">
       <DependentUpon>CalculationSettingsUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UC\CalculationViewUC.resx">
       <DependentUpon>CalculationViewUC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\UC\CreateCalculationUC.resx">
-      <DependentUpon>CreateCalculationUC.cs</DependentUpon>
+    <EmbeddedResource Include="UI\UC\CalculationCreateUC.resx">
+      <DependentUpon>CalculationCreateUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UC\CalculationViewUC.uk-UA.resx">
+      <DependentUpon>CalculationViewUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\UC\ChartViewUC.resx">
       <DependentUpon>ChartViewUC.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\UC\SettingsUC.resx">
-      <DependentUpon>SettingsUC.cs</DependentUpon>
+    <EmbeddedResource Include="UI\UC\ChartViewUC.uk-UA.resx">
+      <DependentUpon>ChartViewUC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\UC\SettingsViewUC.resx">
+      <DependentUpon>SettingsViewUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="db\CatlabuhDB.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -214,10 +226,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\Resourses\Images\Icons\" />
-    <Folder Include="Properties\Resourses\Images\Screensaver\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -28,170 +28,154 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
-            this.calculationsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.createCalculationMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.calcuationSetupSettings = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.caluclations = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewCalculations = new System.Windows.Forms.ToolStripMenuItem();
+            this.createNewCalculation = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.viewCalculationsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exportToExcelCurrentCalculationMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.chartsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.settingsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewCalculationSettings = new System.Windows.Forms.ToolStripMenuItem();
+            this.charts = new System.Windows.Forms.ToolStripMenuItem();
+            this.createNewChart = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.exit = new System.Windows.Forms.ToolStripMenuItem();
+            this.settings = new System.Windows.Forms.ToolStripMenuItem();
             this.helpMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewHelpMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.viewAboutMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.statusStrip = new System.Windows.Forms.StatusStrip();
-            this.statusLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.progressBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.viewAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.contentPanel = new System.Windows.Forms.Panel();
             this.menuStrip.SuspendLayout();
-            this.statusStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip
             // 
+            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.calculationsMenuItem,
-            this.chartsMenuItem,
-            this.settingsMenuItem,
+            this.fileMenuItem,
+            this.settings,
             this.helpMenuItem});
-            this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(884, 24);
-            this.menuStrip.TabIndex = 0;
-            this.menuStrip.Text = "menuStrip1";
             // 
-            // calculationsMenuItem
+            // fileMenuItem
             // 
-            this.calculationsMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.createCalculationMenuItem,
+            resources.ApplyResources(this.fileMenuItem, "fileMenuItem");
+            this.fileMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.caluclations,
+            this.charts,
+            this.toolStripSeparator3,
+            this.exit});
+            this.fileMenuItem.Name = "fileMenuItem";
+            // 
+            // caluclations
+            // 
+            resources.ApplyResources(this.caluclations, "caluclations");
+            this.caluclations.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.viewCalculations,
+            this.createNewCalculation,
             this.toolStripSeparator2,
-            this.viewCalculationsMenuItem,
-            this.exportToExcelCurrentCalculationMenuItem});
-            this.calculationsMenuItem.Name = "calculationsMenuItem";
-            this.calculationsMenuItem.Size = new System.Drawing.Size(77, 20);
-            this.calculationsMenuItem.Text = "calculation";
+            this.viewCalculationSettings});
+            this.caluclations.Name = "caluclations";
             // 
-            // createCalculationMenuItem
+            // viewCalculations
             // 
-            this.createCalculationMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.calcuationSetupSettings});
-            this.createCalculationMenuItem.Name = "createCalculationMenuItem";
-            this.createCalculationMenuItem.Size = new System.Drawing.Size(246, 22);
-            this.createCalculationMenuItem.Text = "createCalculation";
+            resources.ApplyResources(this.viewCalculations, "viewCalculations");
+            this.viewCalculations.Name = "viewCalculations";
+            this.viewCalculations.Click += new System.EventHandler(this.MenuItem_Click);
             // 
-            // calcuationSetupSettings
+            // createNewCalculation
             // 
-            this.calcuationSetupSettings.Name = "calcuationSetupSettings";
-            this.calcuationSetupSettings.Size = new System.Drawing.Size(201, 22);
-            this.calcuationSetupSettings.Text = "calcuationSetupSettings";
+            resources.ApplyResources(this.createNewCalculation, "createNewCalculation");
+            this.createNewCalculation.Name = "createNewCalculation";
+            this.createNewCalculation.Click += new System.EventHandler(this.MenuItem_Click);
             // 
             // toolStripSeparator2
             // 
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(243, 6);
             // 
-            // viewCalculationsMenuItem
+            // viewCalculationSettings
             // 
-            this.viewCalculationsMenuItem.Name = "viewCalculationsMenuItem";
-            this.viewCalculationsMenuItem.Size = new System.Drawing.Size(246, 22);
-            this.viewCalculationsMenuItem.Text = "viewCalculations";
+            resources.ApplyResources(this.viewCalculationSettings, "viewCalculationSettings");
+            this.viewCalculationSettings.Name = "viewCalculationSettings";
+            this.viewCalculationSettings.Click += new System.EventHandler(this.MenuItem_Click);
             // 
-            // exportToExcelCurrentCalculationMenuItem
+            // charts
             // 
-            this.exportToExcelCurrentCalculationMenuItem.Name = "exportToExcelCurrentCalculationMenuItem";
-            this.exportToExcelCurrentCalculationMenuItem.Size = new System.Drawing.Size(246, 22);
-            this.exportToExcelCurrentCalculationMenuItem.Text = "exportToExcelCurrentCalculation";
+            resources.ApplyResources(this.charts, "charts");
+            this.charts.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.createNewChart});
+            this.charts.Name = "charts";
             // 
-            // chartsMenuItem
+            // createNewChart
             // 
-            this.chartsMenuItem.Name = "chartsMenuItem";
-            this.chartsMenuItem.Size = new System.Drawing.Size(51, 20);
-            this.chartsMenuItem.Text = "charts";
+            resources.ApplyResources(this.createNewChart, "createNewChart");
+            this.createNewChart.Name = "createNewChart";
+            this.createNewChart.Click += new System.EventHandler(this.MenuItem_Click);
             // 
-            // settingsMenuItem
+            // toolStripSeparator3
             // 
-            this.settingsMenuItem.Name = "settingsMenuItem";
-            this.settingsMenuItem.Size = new System.Drawing.Size(60, 20);
-            this.settingsMenuItem.Text = "settings";
+            resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            // 
+            // exit
+            // 
+            resources.ApplyResources(this.exit, "exit");
+            this.exit.Name = "exit";
+            this.exit.Click += new System.EventHandler(this.MenuItem_Click);
+            // 
+            // settings
+            // 
+            resources.ApplyResources(this.settings, "settings");
+            this.settings.Name = "settings";
+            this.settings.Click += new System.EventHandler(this.MenuItem_Click);
             // 
             // helpMenuItem
             // 
+            resources.ApplyResources(this.helpMenuItem, "helpMenuItem");
             this.helpMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.viewHelpMenuItem,
+            this.viewHelp,
             this.toolStripSeparator1,
-            this.viewAboutMenuItem});
+            this.viewAbout});
             this.helpMenuItem.Name = "helpMenuItem";
-            this.helpMenuItem.Size = new System.Drawing.Size(42, 20);
-            this.helpMenuItem.Text = "help";
             // 
-            // viewHelpMenuItem
+            // viewHelp
             // 
-            this.viewHelpMenuItem.Name = "viewHelpMenuItem";
-            this.viewHelpMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.viewHelpMenuItem.Text = "viewHelp";
+            resources.ApplyResources(this.viewHelp, "viewHelp");
+            this.viewHelp.Name = "viewHelp";
+            this.viewHelp.Click += new System.EventHandler(this.MenuItem_Click);
             // 
             // toolStripSeparator1
             // 
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(128, 6);
             // 
-            // viewAboutMenuItem
+            // viewAbout
             // 
-            this.viewAboutMenuItem.Name = "viewAboutMenuItem";
-            this.viewAboutMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.viewAboutMenuItem.Text = "viewAbout";
-            // 
-            // statusStrip
-            // 
-            this.statusStrip.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.statusLabel,
-            this.progressBar});
-            this.statusStrip.Location = new System.Drawing.Point(0, 539);
-            this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Size = new System.Drawing.Size(884, 22);
-            this.statusStrip.TabIndex = 1;
-            this.statusStrip.Text = "statusStrip1";
-            // 
-            // statusLabel
-            // 
-            this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(66, 17);
-            this.statusLabel.Text = "statusLabel";
-            // 
-            // progressBar
-            // 
-            this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(150, 16);
-            this.progressBar.Visible = false;
+            resources.ApplyResources(this.viewAbout, "viewAbout");
+            this.viewAbout.Name = "viewAbout";
+            this.viewAbout.Click += new System.EventHandler(this.MenuItem_Click);
             // 
             // contentPanel
             // 
-            this.contentPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.contentPanel.Location = new System.Drawing.Point(0, 24);
+            resources.ApplyResources(this.contentPanel, "contentPanel");
+            this.contentPanel.BackColor = System.Drawing.Color.Transparent;
             this.contentPanel.Name = "contentPanel";
-            this.contentPanel.Size = new System.Drawing.Size(884, 515);
-            this.contentPanel.TabIndex = 2;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 561);
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.contentPanel);
-            this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.menuStrip);
+            this.DoubleBuffered = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MainForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MainFrom";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
-            this.statusStrip.ResumeLayout(false);
-            this.statusStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,21 +184,21 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip;
-        private System.Windows.Forms.ToolStripMenuItem chartsMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem settingsMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem settings;
         private System.Windows.Forms.ToolStripMenuItem helpMenuItem;
-        private System.Windows.Forms.StatusStrip statusStrip;
         private System.Windows.Forms.Panel contentPanel;
-        private System.Windows.Forms.ToolStripMenuItem calculationsMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem createCalculationMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem viewCalculationsMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exportToExcelCurrentCalculationMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem viewHelpMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem viewAboutMenuItem;
-        private System.Windows.Forms.ToolStripStatusLabel statusLabel;
-        private System.Windows.Forms.ToolStripProgressBar progressBar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem viewHelp;
+        private System.Windows.Forms.ToolStripMenuItem viewAbout;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem calcuationSetupSettings;
+        private System.Windows.Forms.ToolStripMenuItem fileMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem caluclations;
+        private System.Windows.Forms.ToolStripMenuItem createNewCalculation;
+        private System.Windows.Forms.ToolStripMenuItem viewCalculations;
+        private System.Windows.Forms.ToolStripMenuItem charts;
+        private System.Windows.Forms.ToolStripMenuItem createNewChart;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
+        private System.Windows.Forms.ToolStripMenuItem exit;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripMenuItem viewCalculationSettings;
     }
 }
