@@ -1,8 +1,9 @@
-﻿using System.Windows.Forms.DataVisualization.Charting;
+﻿using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace CatlabuhApp.UI.Forms
 {
-    public partial class ShowChartForm : BaseForm
+    public partial class ShowChartForm : Form, IBaseView
     {
         public Chart Chart
         {
@@ -12,10 +13,16 @@ namespace CatlabuhApp.UI.Forms
             }
         }
 
-        public ShowChartForm() : base()
+        public ShowChartForm()
         {
+            GetCultureInfo();
             InitializeComponent();
             chartViewUC.SeparateMode = true;
+        }
+
+        public void GetCultureInfo()
+        {
+            new BaseView().GetCultureInfo();
         }
     }
 }

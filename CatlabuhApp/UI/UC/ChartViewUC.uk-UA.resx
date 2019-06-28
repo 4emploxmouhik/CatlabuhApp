@@ -201,13 +201,13 @@
 </value>
   </data>
   <data name="openInSeparateWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 22</value>
+    <value>156, 22</value>
   </data>
   <data name="openInSeparateWindow.Text" xml:space="preserve">
-    <value>Відкрати в окремому вікні</value>
+    <value>Відкрити в окремому вікні</value>
   </data>
   <data name="mainToolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>608, 25</value>
+    <value>609, 25</value>
   </data>
   <data name="chartToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
@@ -246,7 +246,7 @@
     <value>Стиль макера:</value>
   </data>
   <data name="chartToolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>611, 0</value>
+    <value>613, 0</value>
   </data>
   <data name="chartToolStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>409, 25</value>
@@ -276,19 +276,13 @@
     <value>Назва вісей</value>
   </data>
   <data name="axisToolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1020, 0</value>
+    <value>1025, 0</value>
   </data>
   <data name="axisToolStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 25</value>
   </data>
   <data name="gridToolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>None</value>
-  </data>
-  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 6</value>
-  </data>
-  <data name="showGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
   </data>
   <data name="showGrid.Text" xml:space="preserve">
     <value>Відображати сітку</value>
@@ -315,7 +309,7 @@
     <value>Сітка</value>
   </data>
   <data name="gridToolStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1115, 0</value>
+    <value>1121, 0</value>
   </data>
   <data name="gridToolStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 25</value>

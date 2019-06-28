@@ -359,6 +359,7 @@
             // 
             resources.ApplyResources(this.exportToExcel, "exportToExcel");
             this.exportToExcel.Name = "exportToExcel";
+            this.exportToExcel.Click += new System.EventHandler(this.ExportToExcel_Click);
             // 
             // toolStripSeparator2
             // 

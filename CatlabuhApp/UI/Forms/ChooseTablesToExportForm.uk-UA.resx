@@ -117,84 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="viewCalculations.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
-  </data>
-  <data name="viewCalculations.Text" xml:space="preserve">
-    <value>Перегляд розрахунків</value>
-  </data>
-  <data name="createNewCalculation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
-  </data>
-  <data name="createNewCalculation.Text" xml:space="preserve">
-    <value>Новий розрахунок</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 6</value>
-  </data>
-  <data name="viewCalculationSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 22</value>
-  </data>
-  <data name="viewCalculationSettings.Text" xml:space="preserve">
-    <value>Налаштування розрахунку</value>
-  </data>
-  <data name="caluclations.Text" xml:space="preserve">
-    <value>Розрахунки</value>
-  </data>
-  <data name="charts.Text" xml:space="preserve">
-    <value>Діаграми</value>
-  </data>
-  <data name="exit.Text" xml:space="preserve">
-    <value>Вихід</value>
-  </data>
-  <data name="fileMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="fileMenuItem.Text" xml:space="preserve">
-    <value>Файл</value>
-  </data>
-  <data name="settings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 20</value>
-  </data>
-  <data name="settings.Text" xml:space="preserve">
-    <value>Налаштування</value>
-  </data>
-  <data name="viewHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
-  </data>
-  <data name="viewHelp.Text" xml:space="preserve">
-    <value>Переглянути довідку</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>185, 6</value>
-  </data>
-  <data name="viewAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 22</value>
-  </data>
-  <data name="viewAbout.Text" xml:space="preserve">
-    <value>Про програму</value>
-  </data>
-  <data name="helpMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
-  </data>
-  <data name="helpMenuItem.Text" xml:space="preserve">
-    <value>Довідка</value>
-  </data>
-  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1260, 24</value>
-  </data>
-  <data name="contentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1260, 755</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
+  <data name="checkBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1260, 779</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Прибуткова частина</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>Витратна частина</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 340</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 29</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Експортувати</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 340</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Відміна</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Водний баланс</value>
+  </data>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="checkBox3.Text" xml:space="preserve">
+    <value>Прибуткова частина</value>
+  </data>
+  <data name="checkBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="checkBox4.Text" xml:space="preserve">
+    <value>Витратна частина</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Сольовий баланс</value>
+  </data>
+  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 16</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Розрахунки водного і сольвого балансів озера Катлабух</value>
+    <value>Вибір таблиць до експорту у Excel</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value>Оберіть таблиці, які потрібно експортувати до Excel</value>
   </data>
 </root>

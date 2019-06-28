@@ -47,10 +47,24 @@ namespace CatlabuhApp.UI.UC
             DataAccess = dataAccess;
         }
 
-        private void openInSeparateWindow_Click(object sender, EventArgs e)
+        private void MainToolItem_Click(object sender, EventArgs e)
         {
-            ShowChartForm separteWindow = new ShowChartForm() { Text = chart.Titles[0].Text, Chart = chart };
-            separteWindow.Show();
+            ToolStripButton button = (ToolStripButton)sender;
+
+            switch (button.Name)
+            {
+                case "createNewChart":
+                    new SetupChartForm().ShowDialog();
+                    break;
+                case "exportToExcel":
+                    break;
+                case "saveAsImage":
+                    break;
+                case "openInSeparateWindow":
+                    ShowChartForm separteWindow = new ShowChartForm() { Text = chart.Titles[0].Text, Chart = chart };
+                    separteWindow.Show();
+                    break;
+            }
         }
     }
 }

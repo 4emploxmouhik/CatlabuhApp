@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.Forms
 {
-    public partial class MainForm : BaseForm
+    public partial class MainForm : Form, IBaseView
     {
         public Control Content
         {
@@ -38,8 +38,11 @@ namespace CatlabuhApp.UI.Forms
         private ChartViewUC chartView;
         private SettingsViewUC settingsView;
 
-        public MainForm() : base()
+        public MainForm()
         {
+            GetCultureInfo();
+            InitializeComponent();
+
             DataAccess = new SQLiteDataAccess();
 
             calculationView = new CalculationViewUC(DataAccess);
@@ -47,8 +50,11 @@ namespace CatlabuhApp.UI.Forms
             calculationSettings = new CalculationSettingsUC(DataAccess);
             chartView = new ChartViewUC(DataAccess);
             settingsView = new SettingsViewUC();
+        }
 
-            InitializeComponent();
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            Content = calculationView;
         }
 
         private void MenuItem_Click(object sender, EventArgs e)
@@ -66,7 +72,7 @@ namespace CatlabuhApp.UI.Forms
                 case "viewCalculationSettings":
                     Content = calculationSettings;
                     break;
-                case "createNewChart":
+                case "charts":
                     Content = chartView;
                     break;
                 case "settings":
@@ -87,5 +93,9 @@ namespace CatlabuhApp.UI.Forms
             contentPanel.BackColor = BackColor;
         }
 
+        public void GetCultureInfo()
+        {
+            new BaseView().GetCultureInfo();
+        }
     }
 }

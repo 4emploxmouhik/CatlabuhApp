@@ -1,14 +1,8 @@
 ﻿using CatlabuhApp.Data;
 using CatlabuhApp.Data.Access;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using CatlabuhApp.UI.Forms;
 
 namespace CatlabuhApp.UI.UC
 {
@@ -61,5 +55,9 @@ namespace CatlabuhApp.UI.UC
             #endregion
         }
 
+        private void ExportToExcel_Click(object sender, EventArgs e)
+        {
+            new ChooseTablesToExportForm().ShowDialog();
+        }
     }
 }

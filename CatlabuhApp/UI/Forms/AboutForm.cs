@@ -4,18 +4,19 @@ using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.Forms
 {
-    partial class AboutForm : Form
+    partial class AboutForm : Form, IBaseView
     {
         public AboutForm()
         {
+            GetCultureInfo();
             InitializeComponent();
 
-            Text = AssemblyTitle;                          // О программе ...
+            Text += AssemblyTitle;
             labelProductName.Text = AssemblyProduct;
-            labelVersion.Text = AssemblyVersion;           // Версия ...
+            labelVersion.Text += AssemblyVersion;
             labelCopyright.Text = AssemblyCopyright;
-            labelCompanyName.Text = AssemblyCompany;
-            textBoxDescription.Text = AssemblyDescription;
+            labelCompanyName.Text += AssemblyCompany;
+            //textBoxDescription.Text += AssemblyDescription;
 
             okButton.Click += Ok_Click;
         }
@@ -23,6 +24,11 @@ namespace CatlabuhApp.UI.Forms
         private void Ok_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        public void GetCultureInfo()
+        {
+            new BaseView().GetCultureInfo();
         }
 
         #region Методы доступа к атрибутам сборки

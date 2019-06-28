@@ -37,7 +37,6 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.viewCalculationSettings = new System.Windows.Forms.ToolStripMenuItem();
             this.charts = new System.Windows.Forms.ToolStripMenuItem();
-            this.createNewChart = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.exit = new System.Windows.Forms.ToolStripMenuItem();
             this.settings = new System.Windows.Forms.ToolStripMenuItem();
@@ -105,15 +104,8 @@
             // charts
             // 
             resources.ApplyResources(this.charts, "charts");
-            this.charts.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.createNewChart});
             this.charts.Name = "charts";
-            // 
-            // createNewChart
-            // 
-            resources.ApplyResources(this.createNewChart, "createNewChart");
-            this.createNewChart.Name = "createNewChart";
-            this.createNewChart.Click += new System.EventHandler(this.MenuItem_Click);
+            this.charts.Click += new System.EventHandler(this.MenuItem_Click);
             // 
             // toolStripSeparator3
             // 
@@ -195,7 +187,6 @@
         private System.Windows.Forms.ToolStripMenuItem createNewCalculation;
         private System.Windows.Forms.ToolStripMenuItem viewCalculations;
         private System.Windows.Forms.ToolStripMenuItem charts;
-        private System.Windows.Forms.ToolStripMenuItem createNewChart;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem exit;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;

@@ -8,7 +8,7 @@ namespace CatlabuhApp.UI.Forms
     /// <summary>
     /// Форма первоначальной настройки параметров графика
     /// </summary>
-    public partial class SetupChartForm : Form
+    public partial class SetupChartForm : Form, IBaseView
     {
         private List<CheckBox> yItemsCheckBoxes = new List<CheckBox>();
         private List<Panel> colorPanels = new List<Panel>();
@@ -24,6 +24,7 @@ namespace CatlabuhApp.UI.Forms
         /// </summary>
         public SetupChartForm()
         {
+            GetCultureInfo();
             InitializeComponent();
 
             yItemsCheckBoxes.AddRange(new CheckBox[]
@@ -66,7 +67,7 @@ namespace CatlabuhApp.UI.Forms
                 return;
             }
 
-            for (int i = 0; i < 5; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
+            for (int i = 0; i < 5; i++)   { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
             for (int i = 11; i < 14; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
             for (int i = 20; i < 30; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
             for (int i = 37; i < 41; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
@@ -106,7 +107,7 @@ namespace CatlabuhApp.UI.Forms
                     procRadio.Enabled = true;
                     procRadio.Checked = true;
 
-                    for (int i = 0; i < 5; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
+                    for (int i = 0; i < 5; i++)   { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
                     for (int i = 11; i < 14; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
                     for (int i = 20; i < 30; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
                     for (int i = 37; i < 41; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
@@ -118,7 +119,7 @@ namespace CatlabuhApp.UI.Forms
 
                     XAxisItems.Clear();
                     XAxisItems = new SortedSet<string>();
-                    XAxisItemsBox.Width = 376;
+                    XAxisItemsBox.Width = YAxisItemsBox.Width;
                     XAxisItemsBox.Clear();
                     getAll.Checked = false;
                     break;
@@ -132,14 +133,14 @@ namespace CatlabuhApp.UI.Forms
                     procRadio.Checked = false;
                     checkBox15.Enabled = true;
 
-                    for (int i = 0; i < 5; i++) yItemsCheckBoxes[i].Enabled = true;
+                    for (int i = 0; i < 5; i++)   yItemsCheckBoxes[i].Enabled = true;
                     for (int i = 11; i < 14; i++) yItemsCheckBoxes[i].Enabled = true;
                     for (int i = 20; i < 30; i++) yItemsCheckBoxes[i].Enabled = true;
                     for (int i = 37; i < 41; i++) yItemsCheckBoxes[i].Enabled = true;
 
                     XAxisItems.Clear();
                     XAxisItems = new HashSet<string>();
-                    XAxisItemsBox.Width = 311;
+                    XAxisItemsBox.Width = YAxisItemsBox.Width - yearTextBox.Width - (yearTextBox.Margin.Left * 2);
                     getAll.Checked = true;
                     break;
                 case "∑":
@@ -461,7 +462,12 @@ namespace CatlabuhApp.UI.Forms
 
         private void SetupGraphForm_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            //new HelpForm().Show();
+            new HelpForm().Show();
+        }
+
+        public void GetCultureInfo()
+        {
+            new BaseView().GetCultureInfo();
         }
     }
 }

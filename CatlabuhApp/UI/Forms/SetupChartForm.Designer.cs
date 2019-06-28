@@ -204,207 +204,154 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.yearsPanel);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.groupBox3);
+            this.groupBox1.Controls.Add(this.yearsPanel);
             this.groupBox1.Controls.Add(this.monthPanel);
-            this.groupBox1.Location = new System.Drawing.Point(9, 10);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(199, 313);
-            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Ось X";
+            this.toolTip.SetToolTip(this.groupBox1, resources.GetString("groupBox1.ToolTip"));
             // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.monthRadio);
             this.groupBox3.Controls.Add(this.yearsRadio);
-            this.groupBox3.Location = new System.Drawing.Point(11, 17);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(176, 43);
-            this.groupBox3.TabIndex = 128;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Вкажіть парамери для вісі X";
+            this.toolTip.SetToolTip(this.groupBox3, resources.GetString("groupBox3.ToolTip"));
             // 
             // monthRadio
             // 
-            this.monthRadio.AutoSize = true;
-            this.monthRadio.Location = new System.Drawing.Point(90, 19);
-            this.monthRadio.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.monthRadio, "monthRadio");
             this.monthRadio.Name = "monthRadio";
-            this.monthRadio.Size = new System.Drawing.Size(56, 17);
-            this.monthRadio.TabIndex = 0;
             this.monthRadio.Tag = "months";
-            this.monthRadio.Text = "Місяці";
+            this.toolTip.SetToolTip(this.monthRadio, resources.GetString("monthRadio.ToolTip"));
             this.monthRadio.UseVisualStyleBackColor = true;
             this.monthRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
             // yearsRadio
             // 
-            this.yearsRadio.AutoSize = true;
+            resources.ApplyResources(this.yearsRadio, "yearsRadio");
             this.yearsRadio.Checked = true;
-            this.yearsRadio.Location = new System.Drawing.Point(15, 17);
-            this.yearsRadio.Margin = new System.Windows.Forms.Padding(4, 2, 2, 2);
             this.yearsRadio.Name = "yearsRadio";
-            this.yearsRadio.Size = new System.Drawing.Size(50, 17);
-            this.yearsRadio.TabIndex = 1;
             this.yearsRadio.TabStop = true;
             this.yearsRadio.Tag = "years";
-            this.yearsRadio.Text = "Роки";
+            this.toolTip.SetToolTip(this.yearsRadio, resources.GetString("yearsRadio.ToolTip"));
             this.yearsRadio.UseVisualStyleBackColor = true;
             this.yearsRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
             // yearsPanel
             // 
+            resources.ApplyResources(this.yearsPanel, "yearsPanel");
             this.yearsPanel.Controls.Add(this.tabControl2);
             this.yearsPanel.Controls.Add(this.yearsList);
             this.yearsPanel.Controls.Add(this.add);
             this.yearsPanel.Controls.Add(this.delete);
-            this.yearsPanel.Location = new System.Drawing.Point(11, 65);
-            this.yearsPanel.Margin = new System.Windows.Forms.Padding(2);
             this.yearsPanel.Name = "yearsPanel";
-            this.yearsPanel.Size = new System.Drawing.Size(176, 233);
-            this.yearsPanel.TabIndex = 146;
+            this.toolTip.SetToolTip(this.yearsPanel, resources.GetString("yearsPanel.ToolTip"));
             // 
             // tabControl2
             // 
+            resources.ApplyResources(this.tabControl2, "tabControl2");
             this.tabControl2.Controls.Add(this.tabPage5);
             this.tabControl2.Controls.Add(this.tabPage6);
-            this.tabControl2.Location = new System.Drawing.Point(0, 0);
-            this.tabControl2.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(176, 65);
-            this.tabControl2.TabIndex = 123;
             this.tabControl2.Tag = "";
+            this.toolTip.SetToolTip(this.tabControl2, resources.GetString("tabControl2.ToolTip"));
             // 
             // tabPage5
             // 
+            resources.ApplyResources(this.tabPage5, "tabPage5");
             this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage5.Controls.Add(this.label6);
             this.tabPage5.Controls.Add(this.yearsComboBox_2);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage5.Size = new System.Drawing.Size(168, 39);
-            this.tabPage5.TabIndex = 0;
             this.tabPage5.Tag = "chooseYear";
-            this.tabPage5.Text = "Вказати рік";
+            this.toolTip.SetToolTip(this.tabPage5, resources.GetString("tabPage5.ToolTip"));
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 14);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 13);
-            this.label6.TabIndex = 146;
-            this.label6.Text = "Оберіть рік";
+            this.toolTip.SetToolTip(this.label6, resources.GetString("label6.ToolTip"));
             // 
             // yearsComboBox_2
             // 
+            resources.ApplyResources(this.yearsComboBox_2, "yearsComboBox_2");
             this.yearsComboBox_2.FormattingEnabled = true;
-            this.yearsComboBox_2.Location = new System.Drawing.Point(92, 11);
-            this.yearsComboBox_2.Margin = new System.Windows.Forms.Padding(9, 2, 2, 2);
             this.yearsComboBox_2.Name = "yearsComboBox_2";
-            this.yearsComboBox_2.Size = new System.Drawing.Size(59, 21);
-            this.yearsComboBox_2.TabIndex = 145;
+            this.toolTip.SetToolTip(this.yearsComboBox_2, resources.GetString("yearsComboBox_2.ToolTip"));
             this.yearsComboBox_2.Enter += new System.EventHandler(this.ComboBox_Enter);
             // 
             // tabPage6
             // 
+            resources.ApplyResources(this.tabPage6, "tabPage6");
             this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage6.Controls.Add(this.yearToCombBox);
             this.tabPage6.Controls.Add(this.label5);
             this.tabPage6.Controls.Add(this.yearFromComboBox);
             this.tabPage6.Controls.Add(this.label1);
-            this.tabPage6.Location = new System.Drawing.Point(4, 22);
-            this.tabPage6.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage6.Size = new System.Drawing.Size(168, 39);
-            this.tabPage6.TabIndex = 1;
             this.tabPage6.Tag = "chooseRange";
-            this.tabPage6.Text = "Вказати діапазон";
+            this.toolTip.SetToolTip(this.tabPage6, resources.GetString("tabPage6.ToolTip"));
             // 
             // yearToCombBox
             // 
+            resources.ApplyResources(this.yearToCombBox, "yearToCombBox");
             this.yearToCombBox.FormattingEnabled = true;
-            this.yearToCombBox.Location = new System.Drawing.Point(112, 11);
-            this.yearToCombBox.Margin = new System.Windows.Forms.Padding(2);
             this.yearToCombBox.Name = "yearToCombBox";
-            this.yearToCombBox.Size = new System.Drawing.Size(50, 21);
-            this.yearToCombBox.TabIndex = 122;
+            this.toolTip.SetToolTip(this.yearToCombBox, resources.GetString("yearToCombBox.ToolTip"));
             this.yearToCombBox.Enter += new System.EventHandler(this.ComboBox_Enter);
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(86, 14);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(25, 13);
-            this.label5.TabIndex = 121;
-            this.label5.Text = "До:";
+            this.toolTip.SetToolTip(this.label5, resources.GetString("label5.ToolTip"));
             // 
             // yearFromComboBox
             // 
+            resources.ApplyResources(this.yearFromComboBox, "yearFromComboBox");
             this.yearFromComboBox.FormattingEnabled = true;
-            this.yearFromComboBox.Location = new System.Drawing.Point(32, 11);
-            this.yearFromComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.yearFromComboBox.Name = "yearFromComboBox";
-            this.yearFromComboBox.Size = new System.Drawing.Size(50, 21);
-            this.yearFromComboBox.TabIndex = 120;
+            this.toolTip.SetToolTip(this.yearFromComboBox, resources.GetString("yearFromComboBox.ToolTip"));
             this.yearFromComboBox.Enter += new System.EventHandler(this.ComboBox_Enter);
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(4, 14);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 13);
-            this.label1.TabIndex = 119;
-            this.label1.Text = "Від:";
+            this.toolTip.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
             // 
             // yearsList
             // 
+            resources.ApplyResources(this.yearsList, "yearsList");
             this.yearsList.BackColor = System.Drawing.SystemColors.Window;
             this.yearsList.FormattingEnabled = true;
-            this.yearsList.Location = new System.Drawing.Point(0, 100);
-            this.yearsList.Margin = new System.Windows.Forms.Padding(2);
             this.yearsList.Name = "yearsList";
-            this.yearsList.Size = new System.Drawing.Size(177, 134);
-            this.yearsList.TabIndex = 1;
+            this.toolTip.SetToolTip(this.yearsList, resources.GetString("yearsList.ToolTip"));
             // 
             // add
             // 
-            this.add.Location = new System.Drawing.Point(0, 69);
-            this.add.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.add, "add");
             this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(86, 25);
-            this.add.TabIndex = 128;
-            this.add.Text = "Додати";
+            this.toolTip.SetToolTip(this.add, resources.GetString("add.ToolTip"));
             this.add.UseVisualStyleBackColor = true;
             this.add.Click += new System.EventHandler(this.Add_Click);
             // 
             // delete
             // 
-            this.delete.Location = new System.Drawing.Point(90, 69);
-            this.delete.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.delete, "delete");
             this.delete.Name = "delete";
-            this.delete.Size = new System.Drawing.Size(86, 25);
-            this.delete.TabIndex = 129;
-            this.delete.Text = "Видалити";
+            this.toolTip.SetToolTip(this.delete, resources.GetString("delete.ToolTip"));
             this.delete.UseVisualStyleBackColor = true;
             this.delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // monthPanel
             // 
+            resources.ApplyResources(this.monthPanel, "monthPanel");
             this.monthPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.monthPanel.Controls.Add(this.label2);
             this.monthPanel.Controls.Add(this.getAll);
@@ -421,318 +368,218 @@
             this.monthPanel.Controls.Add(this.march);
             this.monthPanel.Controls.Add(this.february);
             this.monthPanel.Controls.Add(this.january);
-            this.monthPanel.Location = new System.Drawing.Point(11, 65);
-            this.monthPanel.Margin = new System.Windows.Forms.Padding(2);
             this.monthPanel.Name = "monthPanel";
-            this.monthPanel.Size = new System.Drawing.Size(177, 234);
-            this.monthPanel.TabIndex = 0;
-            this.monthPanel.Visible = false;
+            this.toolTip.SetToolTip(this.monthPanel, resources.GetString("monthPanel.ToolTip"));
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 13);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
-            this.label2.TabIndex = 144;
-            this.label2.Text = "Оберіть рік";
+            this.toolTip.SetToolTip(this.label2, resources.GetString("label2.ToolTip"));
             // 
             // getAll
             // 
-            this.getAll.AutoSize = true;
-            this.getAll.Location = new System.Drawing.Point(44, 188);
-            this.getAll.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.getAll, "getAll");
             this.getAll.Name = "getAll";
-            this.getAll.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.getAll.Size = new System.Drawing.Size(80, 17);
-            this.getAll.TabIndex = 14;
-            this.getAll.Text = "Обрати всі";
+            this.toolTip.SetToolTip(this.getAll, resources.GetString("getAll.ToolTip"));
             this.getAll.UseVisualStyleBackColor = true;
             this.getAll.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // yearsComboBox_1
             // 
+            resources.ApplyResources(this.yearsComboBox_1, "yearsComboBox_1");
             this.yearsComboBox_1.FormattingEnabled = true;
-            this.yearsComboBox_1.Location = new System.Drawing.Point(98, 10);
-            this.yearsComboBox_1.Margin = new System.Windows.Forms.Padding(9, 2, 2, 2);
             this.yearsComboBox_1.Name = "yearsComboBox_1";
-            this.yearsComboBox_1.Size = new System.Drawing.Size(59, 21);
-            this.yearsComboBox_1.TabIndex = 127;
+            this.toolTip.SetToolTip(this.yearsComboBox_1, resources.GetString("yearsComboBox_1.ToolTip"));
             this.yearsComboBox_1.SelectedIndexChanged += new System.EventHandler(this.ComboBox_SelectedIndexChange);
             this.yearsComboBox_1.Enter += new System.EventHandler(this.ComboBox_Enter);
             // 
             // december
             // 
-            this.december.AutoSize = true;
-            this.december.Location = new System.Drawing.Point(106, 154);
-            this.december.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.december, "december");
             this.december.Name = "december";
-            this.december.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.december.Size = new System.Drawing.Size(52, 17);
-            this.december.TabIndex = 13;
             this.december.Tag = "Груд.";
-            this.december.Text = ".Груд";
+            this.toolTip.SetToolTip(this.december, resources.GetString("december.ToolTip"));
             this.december.UseVisualStyleBackColor = true;
             this.december.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // november
             // 
-            this.november.AutoSize = true;
-            this.november.Location = new System.Drawing.Point(94, 132);
-            this.november.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.november, "november");
             this.november.Name = "november";
-            this.november.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.november.Size = new System.Drawing.Size(66, 17);
-            this.november.TabIndex = 12;
             this.november.Tag = "Листоп.";
-            this.november.Text = ".Листоп";
+            this.toolTip.SetToolTip(this.november, resources.GetString("november.ToolTip"));
             this.november.UseVisualStyleBackColor = true;
             this.november.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // october
             // 
-            this.october.AutoSize = true;
-            this.october.Location = new System.Drawing.Point(103, 111);
-            this.october.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.october, "october");
             this.october.Name = "october";
-            this.october.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.october.Size = new System.Drawing.Size(57, 17);
-            this.october.TabIndex = 11;
             this.october.Tag = "Жовт.";
-            this.october.Text = ".Жовт";
+            this.toolTip.SetToolTip(this.october, resources.GetString("october.ToolTip"));
             this.october.UseVisualStyleBackColor = true;
             this.october.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // september
             // 
-            this.september.AutoSize = true;
-            this.september.Location = new System.Drawing.Point(111, 90);
-            this.september.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.september, "september");
             this.september.Name = "september";
-            this.september.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.september.Size = new System.Drawing.Size(48, 17);
-            this.september.TabIndex = 10;
             this.september.Tag = "Вер.";
-            this.september.Text = ".Вер";
+            this.toolTip.SetToolTip(this.september, resources.GetString("september.ToolTip"));
             this.september.UseVisualStyleBackColor = true;
             this.september.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // august
             // 
-            this.august.AutoSize = true;
-            this.august.Location = new System.Drawing.Point(105, 69);
-            this.august.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.august, "august");
             this.august.Name = "august";
-            this.august.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.august.Size = new System.Drawing.Size(54, 17);
-            this.august.TabIndex = 9;
             this.august.Tag = "Серп.";
-            this.august.Text = ".Серп";
+            this.toolTip.SetToolTip(this.august, resources.GetString("august.ToolTip"));
             this.august.UseVisualStyleBackColor = true;
             this.august.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // july
             // 
-            this.july.AutoSize = true;
-            this.july.Location = new System.Drawing.Point(111, 48);
-            this.july.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.july, "july");
             this.july.Name = "july";
-            this.july.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.july.Size = new System.Drawing.Size(49, 17);
-            this.july.TabIndex = 8;
             this.july.Tag = "Лип.";
-            this.july.Text = ".Лип";
+            this.toolTip.SetToolTip(this.july, resources.GetString("july.ToolTip"));
             this.july.UseVisualStyleBackColor = true;
             this.july.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // june
             // 
-            this.june.AutoSize = true;
-            this.june.Location = new System.Drawing.Point(23, 154);
-            this.june.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.june, "june");
             this.june.Name = "june";
-            this.june.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.june.Size = new System.Drawing.Size(55, 17);
-            this.june.TabIndex = 7;
             this.june.Tag = "Черв.";
-            this.june.Text = ".Черв";
+            this.toolTip.SetToolTip(this.june, resources.GetString("june.ToolTip"));
             this.june.UseVisualStyleBackColor = true;
             this.june.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // may
             // 
-            this.may.AutoSize = true;
-            this.may.Location = new System.Drawing.Point(23, 132);
-            this.may.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.may, "may");
             this.may.Name = "may";
-            this.may.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.may.Size = new System.Drawing.Size(54, 17);
-            this.may.TabIndex = 6;
             this.may.Tag = "Трав.";
-            this.may.Text = ".Трав";
+            this.toolTip.SetToolTip(this.may, resources.GetString("may.ToolTip"));
             this.may.UseVisualStyleBackColor = true;
             this.may.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // april
             // 
-            this.april.AutoSize = true;
-            this.april.Location = new System.Drawing.Point(28, 111);
-            this.april.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.april, "april");
             this.april.Name = "april";
-            this.april.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.april.Size = new System.Drawing.Size(49, 17);
-            this.april.TabIndex = 5;
             this.april.Tag = "Квіт.";
-            this.april.Text = ".Квіт";
+            this.toolTip.SetToolTip(this.april, resources.GetString("april.ToolTip"));
             this.april.UseVisualStyleBackColor = true;
             this.april.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // march
             // 
-            this.march.AutoSize = true;
-            this.march.Location = new System.Drawing.Point(17, 90);
-            this.march.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.march, "march");
             this.march.Name = "march";
-            this.march.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.march.Size = new System.Drawing.Size(60, 17);
-            this.march.TabIndex = 4;
             this.march.Tag = "Берез.";
-            this.march.Text = ".Берез";
+            this.toolTip.SetToolTip(this.march, resources.GetString("march.ToolTip"));
             this.march.UseVisualStyleBackColor = true;
             this.march.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // february
             // 
-            this.february.AutoSize = true;
-            this.february.Location = new System.Drawing.Point(28, 69);
-            this.february.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.february, "february");
             this.february.Name = "february";
-            this.february.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.february.Size = new System.Drawing.Size(50, 17);
-            this.february.TabIndex = 3;
             this.february.Tag = "Лют.";
-            this.february.Text = ".Лют";
+            this.toolTip.SetToolTip(this.february, resources.GetString("february.ToolTip"));
             this.february.UseVisualStyleBackColor = true;
             this.february.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // january
             // 
-            this.january.AutoSize = true;
-            this.january.Location = new System.Drawing.Point(33, 48);
-            this.january.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.january, "january");
             this.january.Name = "january";
-            this.january.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.january.Size = new System.Drawing.Size(43, 17);
-            this.january.TabIndex = 2;
             this.january.Tag = "Січ.";
-            this.january.Text = ".Січ";
+            this.toolTip.SetToolTip(this.january, resources.GetString("january.ToolTip"));
             this.january.UseVisualStyleBackColor = true;
             this.january.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
             // cancel
             // 
-            this.cancel.Location = new System.Drawing.Point(9, 406);
+            resources.ApplyResources(this.cancel, "cancel");
             this.cancel.Name = "cancel";
-            this.cancel.Size = new System.Drawing.Size(76, 28);
-            this.cancel.TabIndex = 116;
             this.cancel.TabStop = false;
-            this.cancel.Text = "Відміна";
+            this.toolTip.SetToolTip(this.cancel, resources.GetString("cancel.ToolTip"));
             this.cancel.UseVisualStyleBackColor = true;
             this.cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // buildAGraph
             // 
-            this.buildAGraph.Location = new System.Drawing.Point(322, 406);
+            resources.ApplyResources(this.buildAGraph, "buildAGraph");
             this.buildAGraph.Name = "buildAGraph";
-            this.buildAGraph.Size = new System.Drawing.Size(89, 28);
-            this.buildAGraph.TabIndex = 117;
             this.buildAGraph.TabStop = false;
-            this.buildAGraph.Text = "Побудувати";
+            this.toolTip.SetToolTip(this.buildAGraph, resources.GetString("buildAGraph.ToolTip"));
             this.buildAGraph.UseVisualStyleBackColor = true;
             this.buildAGraph.Click += new System.EventHandler(this.BuildAGraph_Click);
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.groupBox9);
             this.groupBox2.Controls.Add(this.tabControl1);
-            this.groupBox2.Location = new System.Drawing.Point(216, 10);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(195, 313);
-            this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Ось Y";
+            this.toolTip.SetToolTip(this.groupBox2, resources.GetString("groupBox2.ToolTip"));
             // 
             // groupBox9
             // 
+            resources.ApplyResources(this.groupBox9, "groupBox9");
             this.groupBox9.Controls.Add(this.procRadio);
             this.groupBox9.Controls.Add(this.sumRadio);
-            this.groupBox9.Location = new System.Drawing.Point(11, 17);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox9.Size = new System.Drawing.Size(173, 35);
-            this.groupBox9.TabIndex = 144;
             this.groupBox9.TabStop = false;
-            this.groupBox9.Text = "Вкажіть параметри для вісі Y";
+            this.toolTip.SetToolTip(this.groupBox9, resources.GetString("groupBox9.ToolTip"));
             // 
             // procRadio
             // 
-            this.procRadio.AutoSize = true;
-            this.procRadio.Location = new System.Drawing.Point(94, 14);
-            this.procRadio.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.procRadio, "procRadio");
             this.procRadio.Name = "procRadio";
-            this.procRadio.Size = new System.Drawing.Size(33, 17);
-            this.procRadio.TabIndex = 119;
             this.procRadio.Tag = "%";
-            this.procRadio.Text = "%";
+            this.toolTip.SetToolTip(this.procRadio, resources.GetString("procRadio.ToolTip"));
             this.procRadio.UseVisualStyleBackColor = true;
             this.procRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
             // sumRadio
             // 
-            this.sumRadio.AutoSize = true;
+            resources.ApplyResources(this.sumRadio, "sumRadio");
             this.sumRadio.Checked = true;
-            this.sumRadio.Location = new System.Drawing.Point(43, 14);
-            this.sumRadio.Margin = new System.Windows.Forms.Padding(4, 2, 2, 2);
             this.sumRadio.Name = "sumRadio";
-            this.sumRadio.Size = new System.Drawing.Size(33, 17);
-            this.sumRadio.TabIndex = 120;
             this.sumRadio.TabStop = true;
             this.sumRadio.Tag = "∑";
-            this.sumRadio.Text = "∑";
+            this.toolTip.SetToolTip(this.sumRadio, resources.GetString("sumRadio.ToolTip"));
             this.sumRadio.UseVisualStyleBackColor = true;
             this.sumRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
             // tabControl1
             // 
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(11, 60);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(176, 242);
-            this.tabControl1.TabIndex = 143;
+            this.toolTip.SetToolTip(this.tabControl1, resources.GetString("tabControl1.ToolTip"));
             // 
             // tabPage1
             // 
+            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage1.Controls.Add(this.groupBox4);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage1.Size = new System.Drawing.Size(168, 216);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "ВБПЧ";
+            this.toolTip.SetToolTip(this.tabPage1, resources.GetString("tabPage1.ToolTip"));
             // 
             // groupBox4
             // 
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Controls.Add(this.panel12);
             this.groupBox4.Controls.Add(this.panel11);
             this.groupBox4.Controls.Add(this.panel10);
@@ -757,341 +604,237 @@
             this.groupBox4.Controls.Add(this.checkBox5);
             this.groupBox4.Controls.Add(this.checkBox3);
             this.groupBox4.Controls.Add(this.checkBox4);
-            this.groupBox4.Location = new System.Drawing.Point(3, 5);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(163, 209);
-            this.groupBox4.TabIndex = 129;
             this.groupBox4.TabStop = false;
-            this.toolTip.SetToolTip(this.groupBox4, "Водний баланс прибуткова частина");
+            this.toolTip.SetToolTip(this.groupBox4, resources.GetString("groupBox4.ToolTip"));
             // 
             // panel12
             // 
+            resources.ApplyResources(this.panel12, "panel12");
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel12.Location = new System.Drawing.Point(135, 125);
-            this.panel12.Margin = new System.Windows.Forms.Padding(2);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(16, 17);
-            this.panel12.TabIndex = 138;
             this.panel12.Tag = "dlt_Vni";
+            this.toolTip.SetToolTip(this.panel12, resources.GetString("panel12.ToolTip"));
             this.panel12.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel11
             // 
+            resources.ApplyResources(this.panel11, "panel11");
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel11.Location = new System.Drawing.Point(135, 104);
-            this.panel11.Margin = new System.Windows.Forms.Padding(2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(16, 17);
-            this.panel11.TabIndex = 138;
             this.panel11.Tag = "EP";
+            this.toolTip.SetToolTip(this.panel11, resources.GetString("panel11.ToolTip"));
             this.panel11.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel10
             // 
+            resources.ApplyResources(this.panel10, "panel10");
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel10.Location = new System.Drawing.Point(135, 83);
-            this.panel10.Margin = new System.Windows.Forms.Padding(2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(16, 17);
-            this.panel10.TabIndex = 138;
             this.panel10.Tag = "Vdr";
+            this.toolTip.SetToolTip(this.panel10, resources.GetString("panel10.ToolTip"));
             this.panel10.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel9
             // 
+            resources.ApplyResources(this.panel9, "panel9");
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel9.Location = new System.Drawing.Point(135, 62);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(16, 17);
-            this.panel9.TabIndex = 138;
             this.panel9.Tag = "Vg";
+            this.toolTip.SetToolTip(this.panel9, resources.GetString("panel9.ToolTip"));
             this.panel9.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel8
             // 
+            resources.ApplyResources(this.panel8, "panel8");
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel8.Location = new System.Drawing.Point(135, 41);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(16, 17);
-            this.panel8.TabIndex = 138;
             this.panel8.Tag = "Vb";
+            this.toolTip.SetToolTip(this.panel8, resources.GetString("panel8.ToolTip"));
             this.panel8.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel7
             // 
+            resources.ApplyResources(this.panel7, "panel7");
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel7.Location = new System.Drawing.Point(135, 20);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(16, 17);
-            this.panel7.TabIndex = 139;
             this.panel7.Tag = "Vr";
+            this.toolTip.SetToolTip(this.panel7, resources.GetString("panel7.ToolTip"));
             this.panel7.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel6
             // 
+            resources.ApplyResources(this.panel6, "panel6");
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel6.Location = new System.Drawing.Point(59, 125);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(16, 17);
-            this.panel6.TabIndex = 138;
             this.panel6.Tag = "Vp";
+            this.toolTip.SetToolTip(this.panel6, resources.GetString("panel6.ToolTip"));
             this.panel6.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel5
             // 
+            resources.ApplyResources(this.panel5, "panel5");
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel5.Location = new System.Drawing.Point(59, 104);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(16, 17);
-            this.panel5.TabIndex = 138;
             this.panel5.Tag = "F";
+            this.toolTip.SetToolTip(this.panel5, resources.GetString("panel5.ToolTip"));
             this.panel5.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel4
             // 
+            resources.ApplyResources(this.panel4, "panel4");
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.Location = new System.Drawing.Point(59, 83);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(16, 17);
-            this.panel4.TabIndex = 138;
             this.panel4.Tag = "dlt_W";
+            this.toolTip.SetToolTip(this.panel4, resources.GetString("panel4.ToolTip"));
             this.panel4.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel3
             // 
+            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Location = new System.Drawing.Point(59, 62);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(16, 17);
-            this.panel3.TabIndex = 138;
             this.panel3.Tag = "W2";
+            this.toolTip.SetToolTip(this.panel3, resources.GetString("panel3.ToolTip"));
             this.panel3.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel2
             // 
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Location = new System.Drawing.Point(59, 41);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(16, 17);
-            this.panel2.TabIndex = 138;
             this.panel2.Tag = "W1";
+            this.toolTip.SetToolTip(this.panel2, resources.GetString("panel2.ToolTip"));
             this.panel2.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Location = new System.Drawing.Point(59, 20);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(16, 17);
-            this.panel1.TabIndex = 137;
             this.panel1.Tag = "avr_H";
+            this.toolTip.SetToolTip(this.panel1, resources.GetString("panel1.ToolTip"));
             this.panel1.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // checkBox7
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(88, 20);
-            this.checkBox7.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox7, "checkBox7");
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox7.Size = new System.Drawing.Size(36, 17);
-            this.checkBox7.TabIndex = 131;
             this.checkBox7.Tag = "Vr";
-            this.checkBox7.Text = "Vr";
-            this.toolTip.SetToolTip(this.checkBox7, "Об\'єм річкового стоку, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox7, resources.GetString("checkBox7.ToolTip"));
             this.checkBox7.UseVisualStyleBackColor = true;
             this.checkBox7.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox12
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(88, 125);
-            this.checkBox12.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox12, "checkBox12");
             this.checkBox12.Name = "checkBox12";
-            this.checkBox12.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox12.Size = new System.Drawing.Size(48, 17);
-            this.checkBox12.TabIndex = 136;
             this.checkBox12.Tag = "dlt_Vni";
-            this.checkBox12.Text = "∆Vні";
-            this.toolTip.SetToolTip(this.checkBox12, "Нев\'язкі рівняння водного балансу, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox12, resources.GetString("checkBox12.ToolTip"));
             this.checkBox12.UseVisualStyleBackColor = true;
             this.checkBox12.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox8
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(88, 41);
-            this.checkBox8.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox8, "checkBox8");
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox8.Size = new System.Drawing.Size(39, 17);
-            this.checkBox8.TabIndex = 132;
             this.checkBox8.Tag = "Vb";
-            this.checkBox8.Text = "Vb";
-            this.toolTip.SetToolTip(this.checkBox8, "Об\'єм бічного припливу, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox8, resources.GetString("checkBox8.ToolTip"));
             this.checkBox8.UseVisualStyleBackColor = true;
             this.checkBox8.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox11
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(88, 104);
-            this.checkBox11.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox11, "checkBox11");
             this.checkBox11.Name = "checkBox11";
-            this.checkBox11.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox11.Size = new System.Drawing.Size(41, 17);
-            this.checkBox11.TabIndex = 135;
             this.checkBox11.Tag = "EP";
-            this.checkBox11.Text = "∑P";
-            this.toolTip.SetToolTip(this.checkBox11, "Сума прихідної частини");
+            this.toolTip.SetToolTip(this.checkBox11, resources.GetString("checkBox11.ToolTip"));
             this.checkBox11.UseVisualStyleBackColor = true;
             this.checkBox11.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox9
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(88, 62);
-            this.checkBox9.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox9, "checkBox9");
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox9.Size = new System.Drawing.Size(39, 17);
-            this.checkBox9.TabIndex = 133;
             this.checkBox9.Tag = "Vg";
-            this.checkBox9.Text = "Vg";
-            this.toolTip.SetToolTip(this.checkBox9, "Об\'єм припливу ґрунтових вод, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox9, resources.GetString("checkBox9.ToolTip"));
             this.checkBox9.UseVisualStyleBackColor = true;
             this.checkBox9.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox10
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(88, 83);
-            this.checkBox10.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox10, "checkBox10");
             this.checkBox10.Name = "checkBox10";
-            this.checkBox10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox10.Size = new System.Drawing.Size(42, 17);
-            this.checkBox10.TabIndex = 134;
             this.checkBox10.Tag = "Vdr";
-            this.checkBox10.Text = "Vdr";
-            this.toolTip.SetToolTip(this.checkBox10, "Об\'єм надходження дренажних вод, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox10, resources.GetString("checkBox10.ToolTip"));
             this.checkBox10.UseVisualStyleBackColor = true;
             this.checkBox10.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(11, 20);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox1, "checkBox1");
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox1.Size = new System.Drawing.Size(52, 17);
-            this.checkBox1.TabIndex = 121;
             this.checkBox1.Tag = "avr_H";
-            this.checkBox1.Text = "H ср.";
-            this.toolTip.SetToolTip(this.checkBox1, "Середній рівень води за місяць, мБС");
+            this.toolTip.SetToolTip(this.checkBox1, resources.GetString("checkBox1.ToolTip"));
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox6
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(11, 125);
-            this.checkBox6.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox6, "checkBox6");
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox6.Size = new System.Drawing.Size(39, 17);
-            this.checkBox6.TabIndex = 130;
             this.checkBox6.Tag = "Vp";
-            this.checkBox6.Text = "Vp";
-            this.toolTip.SetToolTip(this.checkBox6, "Об\'єм атмосферних опадів, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox6, resources.GetString("checkBox6.ToolTip"));
             this.checkBox6.UseVisualStyleBackColor = true;
             this.checkBox6.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(11, 41);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox2, "checkBox2");
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox2.Size = new System.Drawing.Size(43, 17);
-            this.checkBox2.TabIndex = 123;
             this.checkBox2.Tag = "W1";
-            this.checkBox2.Text = "W1";
-            this.toolTip.SetToolTip(this.checkBox2, "Об\'єм води в озері на початку місяця, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox2, resources.GetString("checkBox2.ToolTip"));
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox5
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(11, 104);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox5, "checkBox5");
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox5.Size = new System.Drawing.Size(32, 17);
-            this.checkBox5.TabIndex = 129;
             this.checkBox5.Tag = "F";
-            this.checkBox5.Text = "F";
-            this.toolTip.SetToolTip(this.checkBox5, "Площа водного дзеркала, км^2");
+            this.toolTip.SetToolTip(this.checkBox5, resources.GetString("checkBox5.ToolTip"));
             this.checkBox5.UseVisualStyleBackColor = true;
             this.checkBox5.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox3
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(11, 62);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox3, "checkBox3");
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox3.Size = new System.Drawing.Size(43, 17);
-            this.checkBox3.TabIndex = 125;
             this.checkBox3.Tag = "W2";
-            this.checkBox3.Text = "W2";
-            this.toolTip.SetToolTip(this.checkBox3, "Об\'єм води в озері наприкінці місяця, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox3, resources.GetString("checkBox3.ToolTip"));
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox4
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(11, 83);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox4, "checkBox4");
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox4.Size = new System.Drawing.Size(44, 17);
-            this.checkBox4.TabIndex = 127;
             this.checkBox4.Tag = "dlt_W";
-            this.checkBox4.Text = "∆W";
-            this.toolTip.SetToolTip(this.checkBox4, "Зміни об\'єму води в озері за місяць, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox4, resources.GetString("checkBox4.ToolTip"));
             this.checkBox4.UseVisualStyleBackColor = true;
             this.checkBox4.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // tabPage2
             // 
+            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Controls.Add(this.groupBox5);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage2.Size = new System.Drawing.Size(168, 216);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "ВБВЧ";
+            this.toolTip.SetToolTip(this.tabPage2, resources.GetString("tabPage2.ToolTip"));
             // 
             // groupBox5
             // 
+            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Controls.Add(this.panel20);
             this.groupBox5.Controls.Add(this.panel19);
             this.groupBox5.Controls.Add(this.panel18);
@@ -1108,237 +851,165 @@
             this.groupBox5.Controls.Add(this.checkBox17);
             this.groupBox5.Controls.Add(this.checkBox15);
             this.groupBox5.Controls.Add(this.checkBox16);
-            this.groupBox5.Location = new System.Drawing.Point(3, 5);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox5.Size = new System.Drawing.Size(163, 209);
-            this.groupBox5.TabIndex = 141;
             this.groupBox5.TabStop = false;
-            this.toolTip.SetToolTip(this.groupBox5, "Водний баланс витратна частина");
+            this.toolTip.SetToolTip(this.groupBox5, resources.GetString("groupBox5.ToolTip"));
             // 
             // panel20
             // 
+            resources.ApplyResources(this.panel20, "panel20");
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel20.Location = new System.Drawing.Point(133, 83);
-            this.panel20.Margin = new System.Windows.Forms.Padding(2);
             this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(16, 17);
-            this.panel20.TabIndex = 139;
             this.panel20.Tag = "Voz";
+            this.toolTip.SetToolTip(this.panel20, resources.GetString("panel20.ToolTip"));
             this.panel20.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel19
             // 
+            resources.ApplyResources(this.panel19, "panel19");
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel19.Location = new System.Drawing.Point(133, 62);
-            this.panel19.Margin = new System.Windows.Forms.Padding(2);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(16, 17);
-            this.panel19.TabIndex = 138;
             this.panel19.Tag = "ER";
+            this.toolTip.SetToolTip(this.panel19, resources.GetString("panel19.ToolTip"));
             this.panel19.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel18
             // 
+            resources.ApplyResources(this.panel18, "panel18");
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel18.Location = new System.Drawing.Point(133, 41);
-            this.panel18.Margin = new System.Windows.Forms.Padding(2);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(16, 17);
-            this.panel18.TabIndex = 139;
             this.panel18.Tag = "Vf";
+            this.toolTip.SetToolTip(this.panel18, resources.GetString("panel18.ToolTip"));
             this.panel18.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel17
             // 
+            resources.ApplyResources(this.panel17, "panel17");
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel17.Location = new System.Drawing.Point(133, 20);
-            this.panel17.Margin = new System.Windows.Forms.Padding(2);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(16, 17);
-            this.panel17.TabIndex = 139;
             this.panel17.Tag = "Vtr";
+            this.toolTip.SetToolTip(this.panel17, resources.GetString("panel17.ToolTip"));
             this.panel17.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel16
             // 
+            resources.ApplyResources(this.panel16, "panel16");
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel16.Location = new System.Drawing.Point(56, 83);
-            this.panel16.Margin = new System.Windows.Forms.Padding(2);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(16, 17);
-            this.panel16.TabIndex = 138;
             this.panel16.Tag = "VE";
+            this.toolTip.SetToolTip(this.panel16, resources.GetString("panel16.ToolTip"));
             this.panel16.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel15
             // 
+            resources.ApplyResources(this.panel15, "panel15");
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel15.Location = new System.Drawing.Point(56, 62);
-            this.panel15.Margin = new System.Windows.Forms.Padding(2);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(16, 17);
-            this.panel15.TabIndex = 138;
             this.panel15.Tag = "Etr";
+            this.toolTip.SetToolTip(this.panel15, resources.GetString("panel15.ToolTip"));
             this.panel15.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel14
             // 
+            resources.ApplyResources(this.panel14, "panel14");
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel14.Location = new System.Drawing.Point(56, 41);
-            this.panel14.Margin = new System.Windows.Forms.Padding(2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(16, 17);
-            this.panel14.TabIndex = 138;
             this.panel14.Tag = "lgE";
+            this.toolTip.SetToolTip(this.panel14, resources.GetString("panel14.ToolTip"));
             this.panel14.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel13
             // 
+            resources.ApplyResources(this.panel13, "panel13");
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel13.Location = new System.Drawing.Point(56, 20);
-            this.panel13.Margin = new System.Windows.Forms.Padding(2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(16, 17);
-            this.panel13.TabIndex = 138;
             this.panel13.Tag = "lgd";
+            this.toolTip.SetToolTip(this.panel13, resources.GetString("panel13.ToolTip"));
             this.panel13.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // checkBox19
             // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(88, 62);
-            this.checkBox19.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox19, "checkBox19");
             this.checkBox19.Name = "checkBox19";
-            this.checkBox19.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox19.Size = new System.Drawing.Size(42, 17);
-            this.checkBox19.TabIndex = 131;
             this.checkBox19.Tag = "ER";
-            this.checkBox19.Text = "∑R";
-            this.toolTip.SetToolTip(this.checkBox19, "Сума витратної частини");
+            this.toolTip.SetToolTip(this.checkBox19, resources.GetString("checkBox19.ToolTip"));
             this.checkBox19.UseVisualStyleBackColor = true;
             this.checkBox19.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox20
             // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Location = new System.Drawing.Point(88, 83);
-            this.checkBox20.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox20, "checkBox20");
             this.checkBox20.Name = "checkBox20";
-            this.checkBox20.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox20.Size = new System.Drawing.Size(44, 17);
-            this.checkBox20.TabIndex = 132;
             this.checkBox20.Tag = "Voz";
-            this.checkBox20.Text = "Voz";
-            this.toolTip.SetToolTip(this.checkBox20, "Підтримка рівнів води озер Лунг-Сафьян, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox20, resources.GetString("checkBox20.ToolTip"));
             this.checkBox20.UseVisualStyleBackColor = true;
             this.checkBox20.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox13
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(11, 20);
-            this.checkBox13.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox13, "checkBox13");
             this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(46, 17);
-            this.checkBox13.TabIndex = 121;
             this.checkBox13.Tag = "lgd";
-            this.checkBox13.Text = "lg(d)";
-            this.toolTip.SetToolTip(this.checkBox13, "Логарифм дефіциту вологості");
+            this.toolTip.SetToolTip(this.checkBox13, resources.GetString("checkBox13.ToolTip"));
             this.checkBox13.UseVisualStyleBackColor = true;
             this.checkBox13.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox18
             // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(88, 41);
-            this.checkBox18.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox18, "checkBox18");
             this.checkBox18.Name = "checkBox18";
-            this.checkBox18.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox18.Size = new System.Drawing.Size(36, 17);
-            this.checkBox18.TabIndex = 130;
             this.checkBox18.Tag = "Vf";
-            this.checkBox18.Text = "Vf";
-            this.toolTip.SetToolTip(this.checkBox18, "Об\'єм фільтрації, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox18, resources.GetString("checkBox18.ToolTip"));
             this.checkBox18.UseVisualStyleBackColor = true;
             this.checkBox18.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox14
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(11, 41);
-            this.checkBox14.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox14, "checkBox14");
             this.checkBox14.Name = "checkBox14";
-            this.checkBox14.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox14.Size = new System.Drawing.Size(47, 17);
-            this.checkBox14.TabIndex = 123;
             this.checkBox14.Tag = "lgE";
-            this.checkBox14.Text = "lg(E)";
-            this.toolTip.SetToolTip(this.checkBox14, "Логарифим випаровування");
+            this.toolTip.SetToolTip(this.checkBox14, resources.GetString("checkBox14.ToolTip"));
             this.checkBox14.UseVisualStyleBackColor = true;
             this.checkBox14.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox17
             // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(88, 20);
-            this.checkBox17.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox17, "checkBox17");
             this.checkBox17.Name = "checkBox17";
-            this.checkBox17.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox17.Size = new System.Drawing.Size(39, 17);
-            this.checkBox17.TabIndex = 129;
             this.checkBox17.Tag = "Vtr";
-            this.checkBox17.Text = "Vtr";
-            this.toolTip.SetToolTip(this.checkBox17, "Об\'єм транспірації, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox17, resources.GetString("checkBox17.ToolTip"));
             this.checkBox17.UseVisualStyleBackColor = true;
             this.checkBox17.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox15
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(11, 62);
-            this.checkBox15.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox15, "checkBox15");
             this.checkBox15.Name = "checkBox15";
-            this.checkBox15.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox15.Size = new System.Drawing.Size(39, 17);
-            this.checkBox15.TabIndex = 125;
             this.checkBox15.Tag = "Etr";
-            this.checkBox15.Text = "Etr";
-            this.toolTip.SetToolTip(this.checkBox15, "Транспірація, мм");
+            this.toolTip.SetToolTip(this.checkBox15, resources.GetString("checkBox15.ToolTip"));
             this.checkBox15.UseVisualStyleBackColor = true;
             this.checkBox15.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox16
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(11, 83);
-            this.checkBox16.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox16, "checkBox16");
             this.checkBox16.Name = "checkBox16";
-            this.checkBox16.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox16.Size = new System.Drawing.Size(40, 17);
-            this.checkBox16.TabIndex = 127;
             this.checkBox16.Tag = "VE";
-            this.checkBox16.Text = "VE";
-            this.toolTip.SetToolTip(this.checkBox16, "Об\'єм випаровування, млн. м^3");
+            this.toolTip.SetToolTip(this.checkBox16, resources.GetString("checkBox16.ToolTip"));
             this.checkBox16.UseVisualStyleBackColor = true;
             this.checkBox16.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // tabPage3
             // 
+            resources.ApplyResources(this.tabPage3, "tabPage3");
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage3.Controls.Add(this.groupBox6);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage3.Size = new System.Drawing.Size(168, 216);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "СБПЧ";
-            this.tabPage3.ToolTipText = "Сольовий баланс прибуткова частина";
+            this.toolTip.SetToolTip(this.tabPage3, resources.GetString("tabPage3.ToolTip"));
             // 
             // groupBox6
             // 
+            resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Controls.Add(this.panel37);
             this.groupBox6.Controls.Add(this.panel36);
             this.groupBox6.Controls.Add(this.panel35);
@@ -1373,468 +1044,327 @@
             this.groupBox6.Controls.Add(this.checkBox25);
             this.groupBox6.Controls.Add(this.checkBox23);
             this.groupBox6.Controls.Add(this.checkBox24);
-            this.groupBox6.Location = new System.Drawing.Point(3, 5);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox6.Size = new System.Drawing.Size(163, 213);
-            this.groupBox6.TabIndex = 141;
             this.groupBox6.TabStop = false;
-            this.toolTip.SetToolTip(this.groupBox6, "Сольовий баланс прибуткова частина");
+            this.toolTip.SetToolTip(this.groupBox6, resources.GetString("groupBox6.ToolTip"));
             // 
             // panel37
             // 
+            resources.ApplyResources(this.panel37, "panel37");
             this.panel37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel37.Location = new System.Drawing.Point(135, 167);
-            this.panel37.Margin = new System.Windows.Forms.Padding(2);
             this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(16, 17);
-            this.panel37.TabIndex = 139;
             this.panel37.Tag = "EpCi_plus";
+            this.toolTip.SetToolTip(this.panel37, resources.GetString("panel37.ToolTip"));
             this.panel37.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel36
             // 
+            resources.ApplyResources(this.panel36, "panel36");
             this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel36.Location = new System.Drawing.Point(135, 146);
-            this.panel36.Margin = new System.Windows.Forms.Padding(2);
             this.panel36.Name = "panel36";
-            this.panel36.Size = new System.Drawing.Size(16, 17);
-            this.panel36.TabIndex = 139;
             this.panel36.Tag = "CD_plus";
+            this.toolTip.SetToolTip(this.panel36, resources.GetString("panel36.ToolTip"));
             this.panel36.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel35
             // 
+            resources.ApplyResources(this.panel35, "panel35");
             this.panel35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel35.Location = new System.Drawing.Point(135, 125);
-            this.panel35.Margin = new System.Windows.Forms.Padding(2);
             this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(16, 17);
-            this.panel35.TabIndex = 139;
             this.panel35.Tag = "Cdr";
+            this.toolTip.SetToolTip(this.panel35, resources.GetString("panel35.ToolTip"));
             this.panel35.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel34
             // 
+            resources.ApplyResources(this.panel34, "panel34");
             this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel34.Location = new System.Drawing.Point(135, 104);
-            this.panel34.Margin = new System.Windows.Forms.Padding(2);
             this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(16, 17);
-            this.panel34.TabIndex = 139;
             this.panel34.Tag = "Cg";
+            this.toolTip.SetToolTip(this.panel34, resources.GetString("panel34.ToolTip"));
             this.panel34.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel33
             // 
+            resources.ApplyResources(this.panel33, "panel33");
             this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel33.Location = new System.Drawing.Point(135, 83);
-            this.panel33.Margin = new System.Windows.Forms.Padding(2);
             this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(16, 17);
-            this.panel33.TabIndex = 139;
             this.panel33.Tag = "Cb";
+            this.toolTip.SetToolTip(this.panel33, resources.GetString("panel33.ToolTip"));
             this.panel33.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel32
             // 
+            resources.ApplyResources(this.panel32, "panel32");
             this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel32.Location = new System.Drawing.Point(135, 62);
-            this.panel32.Margin = new System.Windows.Forms.Padding(2);
             this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(16, 17);
-            this.panel32.TabIndex = 152;
             this.panel32.Tag = "Cr";
+            this.toolTip.SetToolTip(this.panel32, resources.GetString("panel32.ToolTip"));
             this.panel32.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel31
             // 
+            resources.ApplyResources(this.panel31, "panel31");
             this.panel31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel31.Location = new System.Drawing.Point(135, 41);
-            this.panel31.Margin = new System.Windows.Forms.Padding(2);
             this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(16, 17);
-            this.panel31.TabIndex = 139;
             this.panel31.Tag = "Cp";
+            this.toolTip.SetToolTip(this.panel31, resources.GetString("panel31.ToolTip"));
             this.panel31.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel30
             // 
+            resources.ApplyResources(this.panel30, "panel30");
             this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel30.Location = new System.Drawing.Point(135, 20);
-            this.panel30.Margin = new System.Windows.Forms.Padding(2);
             this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(16, 17);
-            this.panel30.TabIndex = 151;
             this.panel30.Tag = "C2";
+            this.toolTip.SetToolTip(this.panel30, resources.GetString("panel30.ToolTip"));
             this.panel30.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel29
             // 
+            resources.ApplyResources(this.panel29, "panel29");
             this.panel29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel29.Location = new System.Drawing.Point(52, 188);
-            this.panel29.Margin = new System.Windows.Forms.Padding(2);
             this.panel29.Name = "panel29";
-            this.panel29.Size = new System.Drawing.Size(16, 17);
-            this.panel29.TabIndex = 139;
             this.panel29.Tag = "C1";
+            this.toolTip.SetToolTip(this.panel29, resources.GetString("panel29.ToolTip"));
             this.panel29.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel28
             // 
+            resources.ApplyResources(this.panel28, "panel28");
             this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel28.Location = new System.Drawing.Point(52, 167);
-            this.panel28.Margin = new System.Windows.Forms.Padding(2);
             this.panel28.Name = "panel28";
-            this.panel28.Size = new System.Drawing.Size(16, 17);
-            this.panel28.TabIndex = 150;
             this.panel28.Tag = "SD_plus";
+            this.toolTip.SetToolTip(this.panel28, resources.GetString("panel28.ToolTip"));
             this.panel28.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel27
             // 
+            resources.ApplyResources(this.panel27, "panel27");
             this.panel27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel27.Location = new System.Drawing.Point(52, 146);
-            this.panel27.Margin = new System.Windows.Forms.Padding(2);
             this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(16, 17);
-            this.panel27.TabIndex = 149;
             this.panel27.Tag = "Sdr";
+            this.toolTip.SetToolTip(this.panel27, resources.GetString("panel27.ToolTip"));
             this.panel27.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel26
             // 
+            resources.ApplyResources(this.panel26, "panel26");
             this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel26.Location = new System.Drawing.Point(52, 125);
-            this.panel26.Margin = new System.Windows.Forms.Padding(2);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(16, 17);
-            this.panel26.TabIndex = 148;
             this.panel26.Tag = "Sg";
+            this.toolTip.SetToolTip(this.panel26, resources.GetString("panel26.ToolTip"));
             this.panel26.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel25
             // 
+            resources.ApplyResources(this.panel25, "panel25");
             this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel25.Location = new System.Drawing.Point(52, 104);
-            this.panel25.Margin = new System.Windows.Forms.Padding(2);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(16, 17);
-            this.panel25.TabIndex = 139;
             this.panel25.Tag = "Sb";
+            this.toolTip.SetToolTip(this.panel25, resources.GetString("panel25.ToolTip"));
             this.panel25.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel24
             // 
+            resources.ApplyResources(this.panel24, "panel24");
             this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel24.Location = new System.Drawing.Point(52, 83);
-            this.panel24.Margin = new System.Windows.Forms.Padding(2);
             this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(16, 17);
-            this.panel24.TabIndex = 147;
             this.panel24.Tag = "Sr";
+            this.toolTip.SetToolTip(this.panel24, resources.GetString("panel24.ToolTip"));
             this.panel24.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel23
             // 
+            resources.ApplyResources(this.panel23, "panel23");
             this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel23.Location = new System.Drawing.Point(52, 62);
-            this.panel23.Margin = new System.Windows.Forms.Padding(2);
             this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(16, 17);
-            this.panel23.TabIndex = 146;
             this.panel23.Tag = "Sp";
+            this.toolTip.SetToolTip(this.panel23, resources.GetString("panel23.ToolTip"));
             this.panel23.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel22
             // 
+            resources.ApplyResources(this.panel22, "panel22");
             this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel22.Location = new System.Drawing.Point(52, 41);
-            this.panel22.Margin = new System.Windows.Forms.Padding(2);
             this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(16, 17);
-            this.panel22.TabIndex = 139;
             this.panel22.Tag = "S2";
+            this.toolTip.SetToolTip(this.panel22, resources.GetString("panel22.ToolTip"));
             this.panel22.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel21
             // 
+            resources.ApplyResources(this.panel21, "panel21");
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel21.Location = new System.Drawing.Point(52, 20);
-            this.panel21.Margin = new System.Windows.Forms.Padding(2);
             this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(16, 17);
-            this.panel21.TabIndex = 145;
             this.panel21.Tag = "S1";
+            this.toolTip.SetToolTip(this.panel21, resources.GetString("panel21.ToolTip"));
             this.panel21.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // checkBox28
             // 
-            this.checkBox28.AutoSize = true;
-            this.checkBox28.Location = new System.Drawing.Point(11, 167);
-            this.checkBox28.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox28, "checkBox28");
             this.checkBox28.Name = "checkBox28";
-            this.checkBox28.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox28.Size = new System.Drawing.Size(47, 17);
-            this.checkBox28.TabIndex = 143;
             this.checkBox28.Tag = "SD_plus";
-            this.checkBox28.Text = "SD+";
-            this.toolTip.SetToolTip(this.checkBox28, "Мінералізація Дунайської води, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox28, resources.GetString("checkBox28.ToolTip"));
             this.checkBox28.UseVisualStyleBackColor = true;
             this.checkBox28.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox37
             // 
-            this.checkBox37.AutoSize = true;
-            this.checkBox37.Location = new System.Drawing.Point(88, 167);
-            this.checkBox37.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox37, "checkBox37");
             this.checkBox37.Name = "checkBox37";
-            this.checkBox37.Size = new System.Drawing.Size(49, 17);
-            this.checkBox37.TabIndex = 144;
             this.checkBox37.Tag = "EpCi_plus";
-            this.checkBox37.Text = "∑pCi";
-            this.toolTip.SetToolTip(this.checkBox37, "Сума прихідної частини");
+            this.toolTip.SetToolTip(this.checkBox37, resources.GetString("checkBox37.ToolTip"));
             this.checkBox37.UseVisualStyleBackColor = true;
             this.checkBox37.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox36
             // 
-            this.checkBox36.AutoSize = true;
-            this.checkBox36.Location = new System.Drawing.Point(88, 146);
-            this.checkBox36.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox36, "checkBox36");
             this.checkBox36.Name = "checkBox36";
-            this.checkBox36.Size = new System.Drawing.Size(47, 17);
-            this.checkBox36.TabIndex = 142;
             this.checkBox36.Tag = "CD_plus";
-            this.checkBox36.Text = "CD+";
-            this.toolTip.SetToolTip(this.checkBox36, "Надходження солей з Дунайською водою, 10^6 т.");
+            this.toolTip.SetToolTip(this.checkBox36, resources.GetString("checkBox36.ToolTip"));
             this.checkBox36.UseVisualStyleBackColor = true;
             this.checkBox36.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox35
             // 
-            this.checkBox35.AutoSize = true;
-            this.checkBox35.Location = new System.Drawing.Point(88, 125);
-            this.checkBox35.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox35, "checkBox35");
             this.checkBox35.Name = "checkBox35";
-            this.checkBox35.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox35.Size = new System.Drawing.Size(42, 17);
-            this.checkBox35.TabIndex = 141;
             this.checkBox35.Tag = "Cdr";
-            this.checkBox35.Text = "Cdr";
-            this.toolTip.SetToolTip(this.checkBox35, "Надходження солей з дренажними водами, 10^6 т.");
+            this.toolTip.SetToolTip(this.checkBox35, resources.GetString("checkBox35.ToolTip"));
             this.checkBox35.UseVisualStyleBackColor = true;
             this.checkBox35.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox34
             // 
-            this.checkBox34.AutoSize = true;
-            this.checkBox34.Location = new System.Drawing.Point(88, 104);
-            this.checkBox34.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox34, "checkBox34");
             this.checkBox34.Name = "checkBox34";
-            this.checkBox34.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox34.Size = new System.Drawing.Size(39, 17);
-            this.checkBox34.TabIndex = 140;
             this.checkBox34.Tag = "Cg";
-            this.checkBox34.Text = "Cg";
-            this.toolTip.SetToolTip(this.checkBox34, "Надходження солей з ґрунтовими водами, 10^6 т.");
+            this.toolTip.SetToolTip(this.checkBox34, resources.GetString("checkBox34.ToolTip"));
             this.checkBox34.UseVisualStyleBackColor = true;
             this.checkBox34.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox27
             // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Location = new System.Drawing.Point(11, 146);
-            this.checkBox27.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox27, "checkBox27");
             this.checkBox27.Name = "checkBox27";
-            this.checkBox27.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox27.Size = new System.Drawing.Size(42, 17);
-            this.checkBox27.TabIndex = 131;
             this.checkBox27.Tag = "Sdr";
-            this.checkBox27.Text = "Sdr";
-            this.toolTip.SetToolTip(this.checkBox27, "Мінералізація дренажних вод, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox27, resources.GetString("checkBox27.ToolTip"));
             this.checkBox27.UseVisualStyleBackColor = true;
             this.checkBox27.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox33
             // 
-            this.checkBox33.AutoSize = true;
-            this.checkBox33.Location = new System.Drawing.Point(88, 83);
-            this.checkBox33.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox33, "checkBox33");
             this.checkBox33.Name = "checkBox33";
-            this.checkBox33.Size = new System.Drawing.Size(39, 17);
-            this.checkBox33.TabIndex = 136;
             this.checkBox33.Tag = "Cb";
-            this.checkBox33.Text = "Cb";
-            this.toolTip.SetToolTip(this.checkBox33, "Надходження солей з бічним припливом, 10^6 т.");
+            this.toolTip.SetToolTip(this.checkBox33, resources.GetString("checkBox33.ToolTip"));
             this.checkBox33.UseVisualStyleBackColor = true;
             this.checkBox33.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox29
             // 
-            this.checkBox29.AutoSize = true;
-            this.checkBox29.Location = new System.Drawing.Point(11, 188);
-            this.checkBox29.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox29, "checkBox29");
             this.checkBox29.Name = "checkBox29";
-            this.checkBox29.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox29.Size = new System.Drawing.Size(39, 17);
-            this.checkBox29.TabIndex = 132;
             this.checkBox29.Tag = "C1";
-            this.checkBox29.Text = "C1";
-            this.toolTip.SetToolTip(this.checkBox29, "Концентрація солей по озеру на початку місяця, 10^6 т.");
+            this.toolTip.SetToolTip(this.checkBox29, resources.GetString("checkBox29.ToolTip"));
             this.checkBox29.UseVisualStyleBackColor = true;
             this.checkBox29.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox32
             // 
-            this.checkBox32.AutoSize = true;
-            this.checkBox32.Location = new System.Drawing.Point(88, 62);
-            this.checkBox32.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox32, "checkBox32");
             this.checkBox32.Name = "checkBox32";
-            this.checkBox32.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox32.Size = new System.Drawing.Size(36, 17);
-            this.checkBox32.TabIndex = 135;
             this.checkBox32.Tag = "Cr";
-            this.checkBox32.Text = "Cr";
-            this.toolTip.SetToolTip(this.checkBox32, "Надходження солей з поверхневим стоком, 10^6 т.");
+            this.toolTip.SetToolTip(this.checkBox32, resources.GetString("checkBox32.ToolTip"));
             this.checkBox32.UseVisualStyleBackColor = true;
             this.checkBox32.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox30
             // 
-            this.checkBox30.AutoSize = true;
-            this.checkBox30.Location = new System.Drawing.Point(88, 20);
-            this.checkBox30.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox30, "checkBox30");
             this.checkBox30.Name = "checkBox30";
-            this.checkBox30.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox30.Size = new System.Drawing.Size(39, 17);
-            this.checkBox30.TabIndex = 133;
             this.checkBox30.Tag = "C2";
-            this.checkBox30.Text = "C2";
-            this.toolTip.SetToolTip(this.checkBox30, "Концентрація солей по озеру наприкінці місяця, 10^6 т.");
+            this.toolTip.SetToolTip(this.checkBox30, resources.GetString("checkBox30.ToolTip"));
             this.checkBox30.UseVisualStyleBackColor = true;
             this.checkBox30.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox31
             // 
-            this.checkBox31.AutoSize = true;
-            this.checkBox31.Location = new System.Drawing.Point(88, 41);
-            this.checkBox31.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox31, "checkBox31");
             this.checkBox31.Name = "checkBox31";
-            this.checkBox31.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox31.Size = new System.Drawing.Size(39, 17);
-            this.checkBox31.TabIndex = 134;
             this.checkBox31.Tag = "Cp";
-            this.checkBox31.Text = "Cp";
-            this.toolTip.SetToolTip(this.checkBox31, "Надходження солей з опадами, 10^6 т.");
+            this.toolTip.SetToolTip(this.checkBox31, resources.GetString("checkBox31.ToolTip"));
             this.checkBox31.UseVisualStyleBackColor = true;
             this.checkBox31.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox21
             // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Location = new System.Drawing.Point(11, 20);
-            this.checkBox21.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox21, "checkBox21");
             this.checkBox21.Name = "checkBox21";
-            this.checkBox21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox21.Size = new System.Drawing.Size(39, 17);
-            this.checkBox21.TabIndex = 121;
             this.checkBox21.Tag = "S1";
-            this.checkBox21.Text = "S1";
-            this.toolTip.SetToolTip(this.checkBox21, "Середня по озеру мінералізація на початку місяця, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox21, resources.GetString("checkBox21.ToolTip"));
             this.checkBox21.UseVisualStyleBackColor = true;
             this.checkBox21.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox26
             // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Location = new System.Drawing.Point(11, 125);
-            this.checkBox26.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox26, "checkBox26");
             this.checkBox26.Name = "checkBox26";
-            this.checkBox26.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox26.Size = new System.Drawing.Size(39, 17);
-            this.checkBox26.TabIndex = 130;
             this.checkBox26.Tag = "Sg";
-            this.checkBox26.Text = "Sg";
-            this.toolTip.SetToolTip(this.checkBox26, "Мінералізація ґрунтового стоку, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox26, resources.GetString("checkBox26.ToolTip"));
             this.checkBox26.UseVisualStyleBackColor = true;
             this.checkBox26.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox22
             // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Location = new System.Drawing.Point(11, 41);
-            this.checkBox22.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox22, "checkBox22");
             this.checkBox22.Name = "checkBox22";
-            this.checkBox22.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox22.Size = new System.Drawing.Size(39, 17);
-            this.checkBox22.TabIndex = 123;
             this.checkBox22.Tag = "S2";
-            this.checkBox22.Text = "S2";
-            this.toolTip.SetToolTip(this.checkBox22, "Середня по озеру мінералізація наприкінці місяця, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox22, resources.GetString("checkBox22.ToolTip"));
             this.checkBox22.UseVisualStyleBackColor = true;
             this.checkBox22.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox25
             // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Location = new System.Drawing.Point(11, 104);
-            this.checkBox25.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox25, "checkBox25");
             this.checkBox25.Name = "checkBox25";
-            this.checkBox25.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox25.Size = new System.Drawing.Size(39, 17);
-            this.checkBox25.TabIndex = 129;
             this.checkBox25.Tag = "Sb";
-            this.checkBox25.Text = "Sb";
-            this.toolTip.SetToolTip(this.checkBox25, "Мінералізація бічного припливу, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox25, resources.GetString("checkBox25.ToolTip"));
             this.checkBox25.UseVisualStyleBackColor = true;
             this.checkBox25.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox23
             // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Location = new System.Drawing.Point(11, 62);
-            this.checkBox23.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox23, "checkBox23");
             this.checkBox23.Name = "checkBox23";
-            this.checkBox23.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox23.Size = new System.Drawing.Size(39, 17);
-            this.checkBox23.TabIndex = 125;
             this.checkBox23.Tag = "Sp";
-            this.checkBox23.Text = "Sp";
-            this.toolTip.SetToolTip(this.checkBox23, "Мінералізація атмосферних опадів, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox23, resources.GetString("checkBox23.ToolTip"));
             this.checkBox23.UseVisualStyleBackColor = true;
             this.checkBox23.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox24
             // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Location = new System.Drawing.Point(11, 83);
-            this.checkBox24.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox24, "checkBox24");
             this.checkBox24.Name = "checkBox24";
-            this.checkBox24.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox24.Size = new System.Drawing.Size(36, 17);
-            this.checkBox24.TabIndex = 127;
             this.checkBox24.Tag = "Sr";
-            this.checkBox24.Text = "Sr";
-            this.toolTip.SetToolTip(this.checkBox24, "Мінералізація поверхневого стоку, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox24, resources.GetString("checkBox24.ToolTip"));
             this.checkBox24.UseVisualStyleBackColor = true;
             this.checkBox24.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // tabPage4
             // 
+            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage4.Controls.Add(this.groupBox7);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage4.Size = new System.Drawing.Size(168, 216);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "СБВЧ";
+            this.toolTip.SetToolTip(this.tabPage4, resources.GetString("tabPage4.ToolTip"));
             // 
             // groupBox7
             // 
+            resources.ApplyResources(this.groupBox7, "groupBox7");
             this.groupBox7.Controls.Add(this.panel46);
             this.groupBox7.Controls.Add(this.panel45);
             this.groupBox7.Controls.Add(this.panel44);
@@ -1853,288 +1383,201 @@
             this.groupBox7.Controls.Add(this.checkBox42);
             this.groupBox7.Controls.Add(this.checkBox40);
             this.groupBox7.Controls.Add(this.checkBox41);
-            this.groupBox7.Location = new System.Drawing.Point(3, 5);
-            this.groupBox7.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox7.Size = new System.Drawing.Size(163, 209);
-            this.groupBox7.TabIndex = 142;
             this.groupBox7.TabStop = false;
-            this.toolTip.SetToolTip(this.groupBox7, "Сольвий баланс витратна частина");
+            this.toolTip.SetToolTip(this.groupBox7, resources.GetString("groupBox7.ToolTip"));
             // 
             // panel46
             // 
+            resources.ApplyResources(this.panel46, "panel46");
             this.panel46.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel46.Location = new System.Drawing.Point(135, 83);
-            this.panel46.Margin = new System.Windows.Forms.Padding(2);
             this.panel46.Name = "panel46";
-            this.panel46.Size = new System.Drawing.Size(16, 17);
-            this.panel46.TabIndex = 139;
             this.panel46.Tag = "EpCi_minus";
+            this.toolTip.SetToolTip(this.panel46, resources.GetString("panel46.ToolTip"));
             this.panel46.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel45
             // 
+            resources.ApplyResources(this.panel45, "panel45");
             this.panel45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel45.Location = new System.Drawing.Point(135, 62);
-            this.panel45.Margin = new System.Windows.Forms.Padding(2);
             this.panel45.Name = "panel45";
-            this.panel45.Size = new System.Drawing.Size(16, 17);
-            this.panel45.TabIndex = 139;
             this.panel45.Tag = "Coz";
+            this.toolTip.SetToolTip(this.panel45, resources.GetString("panel45.ToolTip"));
             this.panel45.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel44
             // 
+            resources.ApplyResources(this.panel44, "panel44");
             this.panel44.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel44.Location = new System.Drawing.Point(135, 41);
-            this.panel44.Margin = new System.Windows.Forms.Padding(2);
             this.panel44.Name = "panel44";
-            this.panel44.Size = new System.Drawing.Size(16, 17);
-            this.panel44.TabIndex = 139;
             this.panel44.Tag = "CD_minus";
+            this.toolTip.SetToolTip(this.panel44, resources.GetString("panel44.ToolTip"));
             this.panel44.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel43
             // 
+            resources.ApplyResources(this.panel43, "panel43");
             this.panel43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel43.Location = new System.Drawing.Point(135, 20);
-            this.panel43.Margin = new System.Windows.Forms.Padding(2);
             this.panel43.Name = "panel43";
-            this.panel43.Size = new System.Drawing.Size(16, 17);
-            this.panel43.TabIndex = 149;
             this.panel43.Tag = "Cz";
+            this.toolTip.SetToolTip(this.panel43, resources.GetString("panel43.ToolTip"));
             this.panel43.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel42
             // 
+            resources.ApplyResources(this.panel42, "panel42");
             this.panel42.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel42.Location = new System.Drawing.Point(53, 104);
-            this.panel42.Margin = new System.Windows.Forms.Padding(2);
             this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(16, 17);
-            this.panel42.TabIndex = 148;
             this.panel42.Tag = "Cf";
+            this.toolTip.SetToolTip(this.panel42, resources.GetString("panel42.ToolTip"));
             this.panel42.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel41
             // 
+            resources.ApplyResources(this.panel41, "panel41");
             this.panel41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel41.Location = new System.Drawing.Point(53, 83);
-            this.panel41.Margin = new System.Windows.Forms.Padding(2);
             this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(16, 17);
-            this.panel41.TabIndex = 139;
             this.panel41.Tag = "Soz";
+            this.toolTip.SetToolTip(this.panel41, resources.GetString("panel41.ToolTip"));
             this.panel41.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel40
             // 
+            resources.ApplyResources(this.panel40, "panel40");
             this.panel40.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel40.Location = new System.Drawing.Point(53, 62);
-            this.panel40.Margin = new System.Windows.Forms.Padding(2);
             this.panel40.Name = "panel40";
-            this.panel40.Size = new System.Drawing.Size(16, 17);
-            this.panel40.TabIndex = 139;
             this.panel40.Tag = "SD_minus";
+            this.toolTip.SetToolTip(this.panel40, resources.GetString("panel40.ToolTip"));
             this.panel40.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel39
             // 
+            resources.ApplyResources(this.panel39, "panel39");
             this.panel39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel39.Location = new System.Drawing.Point(53, 41);
-            this.panel39.Margin = new System.Windows.Forms.Padding(2);
             this.panel39.Name = "panel39";
-            this.panel39.Size = new System.Drawing.Size(16, 17);
-            this.panel39.TabIndex = 139;
             this.panel39.Tag = "Sz";
+            this.toolTip.SetToolTip(this.panel39, resources.GetString("panel39.ToolTip"));
             this.panel39.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // panel38
             // 
+            resources.ApplyResources(this.panel38, "panel38");
             this.panel38.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel38.Location = new System.Drawing.Point(53, 20);
-            this.panel38.Margin = new System.Windows.Forms.Padding(2);
             this.panel38.Name = "panel38";
-            this.panel38.Size = new System.Drawing.Size(16, 17);
-            this.panel38.TabIndex = 147;
             this.panel38.Tag = "Sf";
+            this.toolTip.SetToolTip(this.panel38, resources.GetString("panel38.ToolTip"));
             this.panel38.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // checkBox46
             // 
-            this.checkBox46.AutoSize = true;
-            this.checkBox46.Location = new System.Drawing.Point(88, 83);
-            this.checkBox46.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox46, "checkBox46");
             this.checkBox46.Name = "checkBox46";
-            this.checkBox46.Size = new System.Drawing.Size(49, 17);
-            this.checkBox46.TabIndex = 146;
             this.checkBox46.Tag = "EpCi_minus";
-            this.checkBox46.Text = "∑pCi";
-            this.toolTip.SetToolTip(this.checkBox46, "Сума витратної частини");
+            this.toolTip.SetToolTip(this.checkBox46, resources.GetString("checkBox46.ToolTip"));
             this.checkBox46.UseVisualStyleBackColor = true;
             this.checkBox46.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox44
             // 
-            this.checkBox44.AutoSize = true;
-            this.checkBox44.Location = new System.Drawing.Point(88, 41);
-            this.checkBox44.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox44, "checkBox44");
             this.checkBox44.Name = "checkBox44";
-            this.checkBox44.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox44.Size = new System.Drawing.Size(44, 17);
-            this.checkBox44.TabIndex = 131;
             this.checkBox44.Tag = "CD_minus";
-            this.checkBox44.Text = "CD-";
-            this.toolTip.SetToolTip(this.checkBox44, "Скиди води разом із солями у р. Дунай, 10^6 т. ");
+            this.toolTip.SetToolTip(this.checkBox44, resources.GetString("checkBox44.ToolTip"));
             this.checkBox44.UseVisualStyleBackColor = true;
             this.checkBox44.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox45
             // 
-            this.checkBox45.AutoSize = true;
-            this.checkBox45.Location = new System.Drawing.Point(88, 62);
-            this.checkBox45.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox45, "checkBox45");
             this.checkBox45.Name = "checkBox45";
-            this.checkBox45.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox45.Size = new System.Drawing.Size(44, 17);
-            this.checkBox45.TabIndex = 132;
             this.checkBox45.Tag = "Coz";
-            this.checkBox45.Text = "Coz";
-            this.toolTip.SetToolTip(this.checkBox45, "Солі, що виводяться з воддою на підтримку рівнів води у системі озер Лунг-Сафьян," +
-        " 10^6 т. ");
+            this.toolTip.SetToolTip(this.checkBox45, resources.GetString("checkBox45.ToolTip"));
             this.checkBox45.UseVisualStyleBackColor = true;
             this.checkBox45.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox38
             // 
-            this.checkBox38.AutoSize = true;
-            this.checkBox38.Location = new System.Drawing.Point(11, 20);
-            this.checkBox38.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox38, "checkBox38");
             this.checkBox38.Name = "checkBox38";
-            this.checkBox38.Size = new System.Drawing.Size(36, 17);
-            this.checkBox38.TabIndex = 121;
             this.checkBox38.Tag = "Sf";
-            this.checkBox38.Text = "Sf";
-            this.toolTip.SetToolTip(this.checkBox38, "Мінералізація фільтрації, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox38, resources.GetString("checkBox38.ToolTip"));
             this.checkBox38.UseVisualStyleBackColor = true;
             this.checkBox38.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox43
             // 
-            this.checkBox43.AutoSize = true;
-            this.checkBox43.Location = new System.Drawing.Point(88, 20);
-            this.checkBox43.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox43, "checkBox43");
             this.checkBox43.Name = "checkBox43";
-            this.checkBox43.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox43.Size = new System.Drawing.Size(38, 17);
-            this.checkBox43.TabIndex = 130;
             this.checkBox43.Tag = "Cz";
-            this.checkBox43.Text = "Cz";
-            this.toolTip.SetToolTip(this.checkBox43, "Втрата солей на зрошуванні, 10^6 т. ");
+            this.toolTip.SetToolTip(this.checkBox43, resources.GetString("checkBox43.ToolTip"));
             this.checkBox43.UseVisualStyleBackColor = true;
             this.checkBox43.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox39
             // 
-            this.checkBox39.AutoSize = true;
-            this.checkBox39.Location = new System.Drawing.Point(11, 41);
-            this.checkBox39.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox39, "checkBox39");
             this.checkBox39.Name = "checkBox39";
-            this.checkBox39.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox39.Size = new System.Drawing.Size(38, 17);
-            this.checkBox39.TabIndex = 123;
             this.checkBox39.Tag = "Sz";
-            this.checkBox39.Text = "Sz";
-            this.toolTip.SetToolTip(this.checkBox39, "Мінералізація збору води на зрошування, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox39, resources.GetString("checkBox39.ToolTip"));
             this.checkBox39.UseVisualStyleBackColor = true;
             this.checkBox39.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox42
             // 
-            this.checkBox42.AutoSize = true;
-            this.checkBox42.Location = new System.Drawing.Point(11, 104);
-            this.checkBox42.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox42, "checkBox42");
             this.checkBox42.Name = "checkBox42";
-            this.checkBox42.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox42.Size = new System.Drawing.Size(36, 17);
-            this.checkBox42.TabIndex = 129;
             this.checkBox42.Tag = "Cf";
-            this.checkBox42.Text = "Cf";
-            this.toolTip.SetToolTip(this.checkBox42, "Втрата солей з фільтрацією, 10^6 т. ");
+            this.toolTip.SetToolTip(this.checkBox42, resources.GetString("checkBox42.ToolTip"));
             this.checkBox42.UseVisualStyleBackColor = true;
             this.checkBox42.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox40
             // 
-            this.checkBox40.AutoSize = true;
-            this.checkBox40.Location = new System.Drawing.Point(11, 62);
-            this.checkBox40.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox40, "checkBox40");
             this.checkBox40.Name = "checkBox40";
-            this.checkBox40.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox40.Size = new System.Drawing.Size(44, 17);
-            this.checkBox40.TabIndex = 125;
             this.checkBox40.Tag = "SD_minus";
-            this.checkBox40.Text = "SD-";
-            this.toolTip.SetToolTip(this.checkBox40, "Мінералізація скидів води у р. Дунай, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox40, resources.GetString("checkBox40.ToolTip"));
             this.checkBox40.UseVisualStyleBackColor = true;
             this.checkBox40.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // checkBox41
             // 
-            this.checkBox41.AutoSize = true;
-            this.checkBox41.Location = new System.Drawing.Point(11, 83);
-            this.checkBox41.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.checkBox41, "checkBox41");
             this.checkBox41.Name = "checkBox41";
-            this.checkBox41.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.checkBox41.Size = new System.Drawing.Size(44, 17);
-            this.checkBox41.TabIndex = 127;
             this.checkBox41.Tag = "Soz";
-            this.checkBox41.Text = "Soz";
-            this.toolTip.SetToolTip(this.checkBox41, "Мінералізація води на підтримку рівнів  води в системі озер Лунг-Сафьян, кг/м^3");
+            this.toolTip.SetToolTip(this.checkBox41, resources.GetString("checkBox41.ToolTip"));
             this.checkBox41.UseVisualStyleBackColor = true;
             this.checkBox41.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // XAxisItemsBox
             // 
-            this.XAxisItemsBox.Location = new System.Drawing.Point(56, 17);
-            this.XAxisItemsBox.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.XAxisItemsBox, "XAxisItemsBox");
             this.XAxisItemsBox.Name = "XAxisItemsBox";
             this.XAxisItemsBox.ReadOnly = true;
-            this.XAxisItemsBox.Size = new System.Drawing.Size(269, 20);
-            this.XAxisItemsBox.TabIndex = 0;
+            this.toolTip.SetToolTip(this.XAxisItemsBox, resources.GetString("XAxisItemsBox.ToolTip"));
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(11, 20);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 13);
-            this.label3.TabIndex = 144;
-            this.label3.Text = "Вісь X:";
+            this.toolTip.SetToolTip(this.label3, resources.GetString("label3.ToolTip"));
             // 
             // YAxisItemsBox
             // 
-            this.YAxisItemsBox.Location = new System.Drawing.Point(56, 43);
-            this.YAxisItemsBox.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.YAxisItemsBox, "YAxisItemsBox");
             this.YAxisItemsBox.Name = "YAxisItemsBox";
             this.YAxisItemsBox.ReadOnly = true;
-            this.YAxisItemsBox.Size = new System.Drawing.Size(269, 20);
-            this.YAxisItemsBox.TabIndex = 1;
+            this.toolTip.SetToolTip(this.YAxisItemsBox, resources.GetString("YAxisItemsBox.ToolTip"));
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 46);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 13);
-            this.label4.TabIndex = 145;
-            this.label4.Text = "Вісь Y:";
+            this.toolTip.SetToolTip(this.label4, resources.GetString("label4.ToolTip"));
             // 
             // groupBox8
             // 
+            resources.ApplyResources(this.groupBox8, "groupBox8");
             this.groupBox8.Controls.Add(this.XAxisItemsBox);
             this.groupBox8.Controls.Add(this.yearLabel);
             this.groupBox8.Controls.Add(this.clearOy);
@@ -2143,76 +1586,55 @@
             this.groupBox8.Controls.Add(this.label4);
             this.groupBox8.Controls.Add(this.YAxisItemsBox);
             this.groupBox8.Controls.Add(this.label3);
-            this.groupBox8.Location = new System.Drawing.Point(9, 327);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox8.Size = new System.Drawing.Size(402, 73);
-            this.groupBox8.TabIndex = 118;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Грфік";
+            this.toolTip.SetToolTip(this.groupBox8, resources.GetString("groupBox8.ToolTip"));
             // 
             // yearLabel
             // 
-            this.yearLabel.AutoSize = true;
-            this.yearLabel.Location = new System.Drawing.Point(264, 20);
-            this.yearLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            resources.ApplyResources(this.yearLabel, "yearLabel");
             this.yearLabel.Name = "yearLabel";
-            this.yearLabel.Size = new System.Drawing.Size(25, 13);
-            this.yearLabel.TabIndex = 120;
-            this.yearLabel.Text = "Рік:";
-            this.yearLabel.Visible = false;
+            this.toolTip.SetToolTip(this.yearLabel, resources.GetString("yearLabel.ToolTip"));
             // 
             // clearOy
             // 
-            this.clearOy.Location = new System.Drawing.Point(329, 42);
-            this.clearOy.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.clearOy, "clearOy");
             this.clearOy.Name = "clearOy";
-            this.clearOy.Size = new System.Drawing.Size(69, 20);
-            this.clearOy.TabIndex = 147;
             this.clearOy.Tag = "YAxis";
-            this.clearOy.Text = "Очистити";
+            this.toolTip.SetToolTip(this.clearOy, resources.GetString("clearOy.ToolTip"));
             this.clearOy.UseVisualStyleBackColor = true;
             this.clearOy.Click += new System.EventHandler(this.Clear_Click);
             // 
             // yearTextBox
             // 
-            this.yearTextBox.Location = new System.Drawing.Point(283, 17);
-            this.yearTextBox.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.yearTextBox, "yearTextBox");
             this.yearTextBox.Name = "yearTextBox";
             this.yearTextBox.ReadOnly = true;
-            this.yearTextBox.Size = new System.Drawing.Size(42, 20);
-            this.yearTextBox.TabIndex = 119;
-            this.yearTextBox.Visible = false;
+            this.toolTip.SetToolTip(this.yearTextBox, resources.GetString("yearTextBox.ToolTip"));
             // 
             // clearOx
             // 
-            this.clearOx.Location = new System.Drawing.Point(329, 16);
-            this.clearOx.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.clearOx, "clearOx");
             this.clearOx.Name = "clearOx";
-            this.clearOx.Size = new System.Drawing.Size(69, 20);
-            this.clearOx.TabIndex = 146;
             this.clearOx.Tag = "XAxis";
-            this.clearOx.Text = "Очистити";
+            this.toolTip.SetToolTip(this.clearOx, resources.GetString("clearOx.ToolTip"));
             this.clearOx.UseVisualStyleBackColor = true;
             this.clearOx.Click += new System.EventHandler(this.Clear_Click);
             // 
             // SetupChartForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 443);
             this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.buildAGraph);
             this.Controls.Add(this.cancel);
             this.Controls.Add(this.groupBox1);
             this.HelpButton = true;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "SetupChartForm";
-            this.Text = "Налаштування графіку";
+            this.toolTip.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.HelpButtonClicked += new System.ComponentModel.CancelEventHandler(this.SetupGraphForm_HelpButtonClicked);
             this.Load += new System.EventHandler(this.SetupGraphForm_Load);
             this.groupBox1.ResumeLayout(false);

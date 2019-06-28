@@ -41,16 +41,14 @@
             System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.toolStripContainer = new System.Windows.Forms.ToolStripContainer();
             this.chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.mainToolStrip = new System.Windows.Forms.ToolStrip();
-            this.createNewChart = new System.Windows.Forms.ToolStripButton();
-            this.exportToExcel = new System.Windows.Forms.ToolStripButton();
-            this.saveAsImage = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.openInSeparateWindow = new System.Windows.Forms.ToolStripButton();
             this.gridToolStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.showGrid = new System.Windows.Forms.ToolStripMenuItem();
+            this.axisToolStrip = new System.Windows.Forms.ToolStrip();
+            this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
+            this.xAxisNameBox = new System.Windows.Forms.ToolStripTextBox();
+            this.yAxisNameBox = new System.Windows.Forms.ToolStripTextBox();
             this.chartToolStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripSplitButton3 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
@@ -60,18 +58,20 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripComboBox2 = new System.Windows.Forms.ToolStripComboBox();
-            this.axisToolStrip = new System.Windows.Forms.ToolStrip();
-            this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
-            this.xAxisNameBox = new System.Windows.Forms.ToolStripTextBox();
-            this.yAxisNameBox = new System.Windows.Forms.ToolStripTextBox();
+            this.mainToolStrip = new System.Windows.Forms.ToolStrip();
+            this.createNewChart = new System.Windows.Forms.ToolStripButton();
+            this.exportToExcel = new System.Windows.Forms.ToolStripButton();
+            this.saveAsImage = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.openInSeparateWindow = new System.Windows.Forms.ToolStripButton();
             this.toolStripContainer.ContentPanel.SuspendLayout();
             this.toolStripContainer.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart)).BeginInit();
-            this.mainToolStrip.SuspendLayout();
             this.gridToolStrip.SuspendLayout();
-            this.chartToolStrip.SuspendLayout();
             this.axisToolStrip.SuspendLayout();
+            this.chartToolStrip.SuspendLayout();
+            this.mainToolStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStripContainer
@@ -131,45 +131,6 @@
             title1.Name = "Title";
             this.chart.Titles.Add(title1);
             // 
-            // mainToolStrip
-            // 
-            resources.ApplyResources(this.mainToolStrip, "mainToolStrip");
-            this.mainToolStrip.GripMargin = new System.Windows.Forms.Padding(0);
-            this.mainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.createNewChart,
-            this.exportToExcel,
-            this.saveAsImage,
-            this.toolStripSeparator1,
-            this.openInSeparateWindow});
-            this.mainToolStrip.Name = "mainToolStrip";
-            // 
-            // createNewChart
-            // 
-            resources.ApplyResources(this.createNewChart, "createNewChart");
-            this.createNewChart.Name = "createNewChart";
-            // 
-            // exportToExcel
-            // 
-            resources.ApplyResources(this.exportToExcel, "exportToExcel");
-            this.exportToExcel.Name = "exportToExcel";
-            // 
-            // saveAsImage
-            // 
-            resources.ApplyResources(this.saveAsImage, "saveAsImage");
-            this.saveAsImage.Name = "saveAsImage";
-            // 
-            // toolStripSeparator1
-            // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            // 
-            // openInSeparateWindow
-            // 
-            resources.ApplyResources(this.openInSeparateWindow, "openInSeparateWindow");
-            this.openInSeparateWindow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.openInSeparateWindow.Name = "openInSeparateWindow";
-            this.openInSeparateWindow.Click += new System.EventHandler(this.openInSeparateWindow_Click);
-            // 
             // gridToolStrip
             // 
             resources.ApplyResources(this.gridToolStrip, "gridToolStrip");
@@ -198,6 +159,35 @@
             this.showGrid.Checked = true;
             this.showGrid.CheckState = System.Windows.Forms.CheckState.Checked;
             this.showGrid.Name = "showGrid";
+            // 
+            // axisToolStrip
+            // 
+            resources.ApplyResources(this.axisToolStrip, "axisToolStrip");
+            this.axisToolStrip.GripMargin = new System.Windows.Forms.Padding(0);
+            this.axisToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripSplitButton2});
+            this.axisToolStrip.Name = "axisToolStrip";
+            // 
+            // toolStripSplitButton2
+            // 
+            resources.ApplyResources(this.toolStripSplitButton2, "toolStripSplitButton2");
+            this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripSplitButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.xAxisNameBox,
+            this.yAxisNameBox});
+            this.toolStripSplitButton2.Name = "toolStripSplitButton2";
+            // 
+            // xAxisNameBox
+            // 
+            resources.ApplyResources(this.xAxisNameBox, "xAxisNameBox");
+            this.xAxisNameBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.xAxisNameBox.Name = "xAxisNameBox";
+            // 
+            // yAxisNameBox
+            // 
+            resources.ApplyResources(this.yAxisNameBox, "yAxisNameBox");
+            this.yAxisNameBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.yAxisNameBox.Name = "yAxisNameBox";
             // 
             // chartToolStrip
             // 
@@ -265,34 +255,47 @@
             resources.ApplyResources(this.toolStripComboBox2, "toolStripComboBox2");
             this.toolStripComboBox2.Name = "toolStripComboBox2";
             // 
-            // axisToolStrip
+            // mainToolStrip
             // 
-            resources.ApplyResources(this.axisToolStrip, "axisToolStrip");
-            this.axisToolStrip.GripMargin = new System.Windows.Forms.Padding(0);
-            this.axisToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripSplitButton2});
-            this.axisToolStrip.Name = "axisToolStrip";
+            resources.ApplyResources(this.mainToolStrip, "mainToolStrip");
+            this.mainToolStrip.GripMargin = new System.Windows.Forms.Padding(0);
+            this.mainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.createNewChart,
+            this.exportToExcel,
+            this.saveAsImage,
+            this.toolStripSeparator1,
+            this.openInSeparateWindow});
+            this.mainToolStrip.Name = "mainToolStrip";
             // 
-            // toolStripSplitButton2
+            // createNewChart
             // 
-            resources.ApplyResources(this.toolStripSplitButton2, "toolStripSplitButton2");
-            this.toolStripSplitButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripSplitButton2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.xAxisNameBox,
-            this.yAxisNameBox});
-            this.toolStripSplitButton2.Name = "toolStripSplitButton2";
+            resources.ApplyResources(this.createNewChart, "createNewChart");
+            this.createNewChart.Name = "createNewChart";
+            this.createNewChart.Click += new System.EventHandler(this.MainToolItem_Click);
             // 
-            // xAxisNameBox
+            // exportToExcel
             // 
-            resources.ApplyResources(this.xAxisNameBox, "xAxisNameBox");
-            this.xAxisNameBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.xAxisNameBox.Name = "xAxisNameBox";
+            resources.ApplyResources(this.exportToExcel, "exportToExcel");
+            this.exportToExcel.Name = "exportToExcel";
+            this.exportToExcel.Click += new System.EventHandler(this.MainToolItem_Click);
             // 
-            // yAxisNameBox
+            // saveAsImage
             // 
-            resources.ApplyResources(this.yAxisNameBox, "yAxisNameBox");
-            this.yAxisNameBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.yAxisNameBox.Name = "yAxisNameBox";
+            resources.ApplyResources(this.saveAsImage, "saveAsImage");
+            this.saveAsImage.Name = "saveAsImage";
+            this.saveAsImage.Click += new System.EventHandler(this.MainToolItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            // 
+            // openInSeparateWindow
+            // 
+            resources.ApplyResources(this.openInSeparateWindow, "openInSeparateWindow");
+            this.openInSeparateWindow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.openInSeparateWindow.Name = "openInSeparateWindow";
+            this.openInSeparateWindow.Click += new System.EventHandler(this.MainToolItem_Click);
             // 
             // ChartViewUC
             // 
@@ -307,14 +310,14 @@
             this.toolStripContainer.ResumeLayout(false);
             this.toolStripContainer.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart)).EndInit();
-            this.mainToolStrip.ResumeLayout(false);
-            this.mainToolStrip.PerformLayout();
             this.gridToolStrip.ResumeLayout(false);
             this.gridToolStrip.PerformLayout();
-            this.chartToolStrip.ResumeLayout(false);
-            this.chartToolStrip.PerformLayout();
             this.axisToolStrip.ResumeLayout(false);
             this.axisToolStrip.PerformLayout();
+            this.chartToolStrip.ResumeLayout(false);
+            this.chartToolStrip.PerformLayout();
+            this.mainToolStrip.ResumeLayout(false);
+            this.mainToolStrip.PerformLayout();
             this.ResumeLayout(false);
 
         }

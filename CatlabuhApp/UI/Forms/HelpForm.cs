@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.Forms
 {
-    public partial class HelpForm : Form
+    public partial class HelpForm : Form, IBaseView
     {
         public HelpForm()
         {
+            GetCultureInfo();
             InitializeComponent();
+        }
+
+        public void GetCultureInfo()
+        {
+            new BaseView().GetCultureInfo();
         }
     }
 }
