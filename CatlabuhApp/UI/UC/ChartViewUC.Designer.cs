@@ -49,6 +49,12 @@
             this.toolStripSplitButton2 = new System.Windows.Forms.ToolStripSplitButton();
             this.xAxisNameBox = new System.Windows.Forms.ToolStripTextBox();
             this.yAxisNameBox = new System.Windows.Forms.ToolStripTextBox();
+            this.mainToolStrip = new System.Windows.Forms.ToolStrip();
+            this.createNewChart = new System.Windows.Forms.ToolStripButton();
+            this.exportToExcel = new System.Windows.Forms.ToolStripButton();
+            this.saveAsImage = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.openInSeparateWindow = new System.Windows.Forms.ToolStripButton();
             this.chartToolStrip = new System.Windows.Forms.ToolStrip();
             this.toolStripSplitButton3 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
@@ -58,20 +64,14 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripComboBox2 = new System.Windows.Forms.ToolStripComboBox();
-            this.mainToolStrip = new System.Windows.Forms.ToolStrip();
-            this.createNewChart = new System.Windows.Forms.ToolStripButton();
-            this.exportToExcel = new System.Windows.Forms.ToolStripButton();
-            this.saveAsImage = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.openInSeparateWindow = new System.Windows.Forms.ToolStripButton();
             this.toolStripContainer.ContentPanel.SuspendLayout();
             this.toolStripContainer.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart)).BeginInit();
             this.gridToolStrip.SuspendLayout();
             this.axisToolStrip.SuspendLayout();
-            this.chartToolStrip.SuspendLayout();
             this.mainToolStrip.SuspendLayout();
+            this.chartToolStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // toolStripContainer
@@ -103,8 +103,8 @@
             // 
             resources.ApplyResources(this.toolStripContainer.TopToolStripPanel, "toolStripContainer.TopToolStripPanel");
             this.toolStripContainer.TopToolStripPanel.Controls.Add(this.mainToolStrip);
-            this.toolStripContainer.TopToolStripPanel.Controls.Add(this.chartToolStrip);
             this.toolStripContainer.TopToolStripPanel.Controls.Add(this.axisToolStrip);
+            this.toolStripContainer.TopToolStripPanel.Controls.Add(this.chartToolStrip);
             this.toolStripContainer.TopToolStripPanel.Controls.Add(this.gridToolStrip);
             // 
             // chart
@@ -189,6 +189,51 @@
             this.yAxisNameBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.yAxisNameBox.Name = "yAxisNameBox";
             // 
+            // mainToolStrip
+            // 
+            resources.ApplyResources(this.mainToolStrip, "mainToolStrip");
+            this.mainToolStrip.GripMargin = new System.Windows.Forms.Padding(0);
+            this.mainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.createNewChart,
+            this.exportToExcel,
+            this.saveAsImage,
+            this.toolStripSeparator1,
+            this.openInSeparateWindow});
+            this.mainToolStrip.Name = "mainToolStrip";
+            // 
+            // createNewChart
+            // 
+            resources.ApplyResources(this.createNewChart, "createNewChart");
+            this.createNewChart.Image = global::CatlabuhApp.Properties.Resources.create_chart_16x16;
+            this.createNewChart.Name = "createNewChart";
+            this.createNewChart.Click += new System.EventHandler(this.MainToolItem_Click);
+            // 
+            // exportToExcel
+            // 
+            resources.ApplyResources(this.exportToExcel, "exportToExcel");
+            this.exportToExcel.Image = global::CatlabuhApp.Properties.Resources.export_to_excel_16x16;
+            this.exportToExcel.Name = "exportToExcel";
+            this.exportToExcel.Click += new System.EventHandler(this.MainToolItem_Click);
+            // 
+            // saveAsImage
+            // 
+            resources.ApplyResources(this.saveAsImage, "saveAsImage");
+            this.saveAsImage.Image = global::CatlabuhApp.Properties.Resources.save_as_image_16x16;
+            this.saveAsImage.Name = "saveAsImage";
+            this.saveAsImage.Click += new System.EventHandler(this.MainToolItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            // 
+            // openInSeparateWindow
+            // 
+            resources.ApplyResources(this.openInSeparateWindow, "openInSeparateWindow");
+            this.openInSeparateWindow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.openInSeparateWindow.Name = "openInSeparateWindow";
+            this.openInSeparateWindow.Click += new System.EventHandler(this.MainToolItem_Click);
+            // 
             // chartToolStrip
             // 
             resources.ApplyResources(this.chartToolStrip, "chartToolStrip");
@@ -255,48 +300,6 @@
             resources.ApplyResources(this.toolStripComboBox2, "toolStripComboBox2");
             this.toolStripComboBox2.Name = "toolStripComboBox2";
             // 
-            // mainToolStrip
-            // 
-            resources.ApplyResources(this.mainToolStrip, "mainToolStrip");
-            this.mainToolStrip.GripMargin = new System.Windows.Forms.Padding(0);
-            this.mainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.createNewChart,
-            this.exportToExcel,
-            this.saveAsImage,
-            this.toolStripSeparator1,
-            this.openInSeparateWindow});
-            this.mainToolStrip.Name = "mainToolStrip";
-            // 
-            // createNewChart
-            // 
-            resources.ApplyResources(this.createNewChart, "createNewChart");
-            this.createNewChart.Name = "createNewChart";
-            this.createNewChart.Click += new System.EventHandler(this.MainToolItem_Click);
-            // 
-            // exportToExcel
-            // 
-            resources.ApplyResources(this.exportToExcel, "exportToExcel");
-            this.exportToExcel.Name = "exportToExcel";
-            this.exportToExcel.Click += new System.EventHandler(this.MainToolItem_Click);
-            // 
-            // saveAsImage
-            // 
-            resources.ApplyResources(this.saveAsImage, "saveAsImage");
-            this.saveAsImage.Name = "saveAsImage";
-            this.saveAsImage.Click += new System.EventHandler(this.MainToolItem_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            // 
-            // openInSeparateWindow
-            // 
-            resources.ApplyResources(this.openInSeparateWindow, "openInSeparateWindow");
-            this.openInSeparateWindow.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.openInSeparateWindow.Name = "openInSeparateWindow";
-            this.openInSeparateWindow.Click += new System.EventHandler(this.MainToolItem_Click);
-            // 
             // ChartViewUC
             // 
             resources.ApplyResources(this, "$this");
@@ -314,10 +317,10 @@
             this.gridToolStrip.PerformLayout();
             this.axisToolStrip.ResumeLayout(false);
             this.axisToolStrip.PerformLayout();
-            this.chartToolStrip.ResumeLayout(false);
-            this.chartToolStrip.PerformLayout();
             this.mainToolStrip.ResumeLayout(false);
             this.mainToolStrip.PerformLayout();
+            this.chartToolStrip.ResumeLayout(false);
+            this.chartToolStrip.PerformLayout();
             this.ResumeLayout(false);
 
         }

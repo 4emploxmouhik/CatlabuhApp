@@ -32,19 +32,19 @@
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.caluclations = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewCalculations = new System.Windows.Forms.ToolStripMenuItem();
-            this.createNewCalculation = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.viewCalculationSettings = new System.Windows.Forms.ToolStripMenuItem();
             this.charts = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.exit = new System.Windows.Forms.ToolStripMenuItem();
             this.settings = new System.Windows.Forms.ToolStripMenuItem();
             this.helpMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.viewHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.viewAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.contentPanel = new System.Windows.Forms.Panel();
+            this.viewCalculations = new System.Windows.Forms.ToolStripMenuItem();
+            this.createNewCalculation = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewCalculationSettings = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewHelp = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,28 +78,10 @@
             this.viewCalculationSettings});
             this.caluclations.Name = "caluclations";
             // 
-            // viewCalculations
-            // 
-            resources.ApplyResources(this.viewCalculations, "viewCalculations");
-            this.viewCalculations.Name = "viewCalculations";
-            this.viewCalculations.Click += new System.EventHandler(this.MenuItem_Click);
-            // 
-            // createNewCalculation
-            // 
-            resources.ApplyResources(this.createNewCalculation, "createNewCalculation");
-            this.createNewCalculation.Name = "createNewCalculation";
-            this.createNewCalculation.Click += new System.EventHandler(this.MenuItem_Click);
-            // 
             // toolStripSeparator2
             // 
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            // 
-            // viewCalculationSettings
-            // 
-            resources.ApplyResources(this.viewCalculationSettings, "viewCalculationSettings");
-            this.viewCalculationSettings.Name = "viewCalculationSettings";
-            this.viewCalculationSettings.Click += new System.EventHandler(this.MenuItem_Click);
             // 
             // charts
             // 
@@ -133,28 +115,51 @@
             this.viewAbout});
             this.helpMenuItem.Name = "helpMenuItem";
             // 
-            // viewHelp
-            // 
-            resources.ApplyResources(this.viewHelp, "viewHelp");
-            this.viewHelp.Name = "viewHelp";
-            this.viewHelp.Click += new System.EventHandler(this.MenuItem_Click);
-            // 
             // toolStripSeparator1
             // 
             resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            // 
-            // viewAbout
-            // 
-            resources.ApplyResources(this.viewAbout, "viewAbout");
-            this.viewAbout.Name = "viewAbout";
-            this.viewAbout.Click += new System.EventHandler(this.MenuItem_Click);
             // 
             // contentPanel
             // 
             resources.ApplyResources(this.contentPanel, "contentPanel");
             this.contentPanel.BackColor = System.Drawing.Color.Transparent;
             this.contentPanel.Name = "contentPanel";
+            // 
+            // viewCalculations
+            // 
+            resources.ApplyResources(this.viewCalculations, "viewCalculations");
+            this.viewCalculations.Image = global::CatlabuhApp.Properties.Resources.view_calculation_16x16;
+            this.viewCalculations.Name = "viewCalculations";
+            this.viewCalculations.Click += new System.EventHandler(this.MenuItem_Click);
+            // 
+            // createNewCalculation
+            // 
+            resources.ApplyResources(this.createNewCalculation, "createNewCalculation");
+            this.createNewCalculation.Image = global::CatlabuhApp.Properties.Resources.create_calcuation_16x16;
+            this.createNewCalculation.Name = "createNewCalculation";
+            this.createNewCalculation.Click += new System.EventHandler(this.MenuItem_Click);
+            // 
+            // viewCalculationSettings
+            // 
+            resources.ApplyResources(this.viewCalculationSettings, "viewCalculationSettings");
+            this.viewCalculationSettings.Image = global::CatlabuhApp.Properties.Resources.calculation_settings_16x16;
+            this.viewCalculationSettings.Name = "viewCalculationSettings";
+            this.viewCalculationSettings.Click += new System.EventHandler(this.MenuItem_Click);
+            // 
+            // viewHelp
+            // 
+            resources.ApplyResources(this.viewHelp, "viewHelp");
+            this.viewHelp.Image = global::CatlabuhApp.Properties.Resources.question_16x16;
+            this.viewHelp.Name = "viewHelp";
+            this.viewHelp.Click += new System.EventHandler(this.MenuItem_Click);
+            // 
+            // viewAbout
+            // 
+            resources.ApplyResources(this.viewAbout, "viewAbout");
+            this.viewAbout.Image = global::CatlabuhApp.Properties.Resources.question_16x16;
+            this.viewAbout.Name = "viewAbout";
+            this.viewAbout.Click += new System.EventHandler(this.MenuItem_Click);
             // 
             // MainForm
             // 

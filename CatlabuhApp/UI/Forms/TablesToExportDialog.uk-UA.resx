@@ -117,7 +117,66 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="imageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="checkBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="checkBox1.Text" xml:space="preserve">
+    <value>Прибуткова частина</value>
+  </data>
+  <data name="checkBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="checkBox2.Text" xml:space="preserve">
+    <value>Витратна частина</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>253, 340</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 29</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Експортувати</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 340</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Відміна</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Водний баланс</value>
+  </data>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="checkBox3.Text" xml:space="preserve">
+    <value>Прибуткова частина</value>
+  </data>
+  <data name="checkBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="checkBox4.Text" xml:space="preserve">
+    <value>Витратна частина</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Сольовий баланс</value>
+  </data>
+  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 16</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Вибір таблиць до експорту у Excel</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value>Оберіть таблиці, які потрібно експортувати до Excel</value>
+  </data>
 </root>

@@ -20,8 +20,9 @@ namespace CatlabuhApp.UI.Forms
                     return;
                 }
 
-                Height = Height - (contentPanel.Height - value.Height);
-                                             
+                //Height = Height - (contentPanel.Height - value.Height);
+                value.Dock = DockStyle.Fill;
+
                 if (contentPanel.Controls.Count > 0)
                 {
                     contentPanel.Controls.RemoveAt(0);
@@ -42,6 +43,7 @@ namespace CatlabuhApp.UI.Forms
         {
             GetCultureInfo();
             InitializeComponent();
+            contentPanel.Dock = DockStyle.Fill;
 
             DataAccess = new SQLiteDataAccess();
 
@@ -50,13 +52,10 @@ namespace CatlabuhApp.UI.Forms
             calculationSettings = new CalculationSettingsUC(DataAccess);
             chartView = new ChartViewUC(DataAccess);
             settingsView = new SettingsViewUC();
-        }
 
-        private void MainForm_Load(object sender, EventArgs e)
-        {
             Content = calculationView;
         }
-
+        
         private void MenuItem_Click(object sender, EventArgs e)
         {
             ToolStripMenuItem menuItem = (ToolStripMenuItem)sender;

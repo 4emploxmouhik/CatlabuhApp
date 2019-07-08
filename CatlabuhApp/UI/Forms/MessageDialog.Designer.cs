@@ -1,6 +1,6 @@
 ﻿namespace CatlabuhApp.UI.Forms
 {
-    partial class MessageForm
+    partial class MessageDialog
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MessageDialog));
             this.iconBox = new System.Windows.Forms.PictureBox();
             this.buttonTable = new System.Windows.Forms.TableLayoutPanel();
             this.messageBox = new System.Windows.Forms.TextBox();
@@ -77,9 +78,12 @@
             // 
             // imageList
             // 
-            this.imageList.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList.ImageSize = new System.Drawing.Size(64, 64);
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
             this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "icons8-высокая-важность-96.png");
+            this.imageList.Images.SetKeyName(1, "icons8-ок-96.png");
+            this.imageList.Images.SetKeyName(2, "icons8-отмена-96.png");
+            this.imageList.Images.SetKeyName(3, "icons8-помощь-96.png");
             // 
             // panel1
             // 
@@ -90,7 +94,7 @@
             this.panel1.Size = new System.Drawing.Size(354, 28);
             this.panel1.TabIndex = 4;
             // 
-            // MessageForm
+            // MessageDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -98,12 +102,14 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.messageBox);
             this.Controls.Add(this.iconBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "MessageForm";
+            this.Name = "MessageDialog";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.Text = "MessageForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "MessageDialog";
             ((System.ComponentModel.ISupportInitialize)(this.iconBox)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);

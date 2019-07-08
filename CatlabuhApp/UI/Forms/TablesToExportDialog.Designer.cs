@@ -1,6 +1,6 @@
 ﻿namespace CatlabuhApp.UI.Forms
 {
-    partial class ChooseTablesToExportForm
+    partial class TablesToExportDialog
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChooseTablesToExportForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablesToExportDialog));
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -150,7 +150,7 @@
             this.progressBar.Name = "progressBar";
             this.toolTip.SetToolTip(this.progressBar, resources.GetString("progressBar.ToolTip"));
             // 
-            // ChooseTablesToExportForm
+            // TablesToExportDialog
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -159,9 +159,12 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "ChooseTablesToExportForm";
+            this.Name = "TablesToExportDialog";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.toolTip.SetToolTip(this, resources.GetString("$this.ToolTip"));
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

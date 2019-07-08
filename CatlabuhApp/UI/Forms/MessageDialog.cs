@@ -2,13 +2,13 @@
 
 namespace CatlabuhApp.UI.Forms
 {
-    public partial class MessageForm : Form, IBaseView
+    public partial class MessageDialog : Form, IBaseView
     {
         private Button OK = new Button() { Name = "OK", Dock = DockStyle.Fill, Text = "Ok"};
         private Button Cancel = new Button();
         private Button Yes = new Button();
         private Button No = new Button();
-        public enum MessageIcon { Alert, Cross, Ok, Question }
+        public enum MessageIcon { Alert, Cross, OK, Question }
 
         private string Message {
             set
@@ -36,7 +36,7 @@ namespace CatlabuhApp.UI.Forms
                     case MessageIcon.Cross:
                         iconBox.Image = imageList.Images[1];
                         break;
-                    case MessageIcon.Ok:
+                    case MessageIcon.OK:
                         iconBox.Image = imageList.Images[2];
                         break;
                     case MessageIcon.Question:
@@ -46,13 +46,13 @@ namespace CatlabuhApp.UI.Forms
             }
         }
 
-        public MessageForm()
+        public MessageDialog()
         {
             GetCultureInfo();
             InitializeComponent();
         }
 
-        public MessageForm(string title, string message, MessageIcon icon) : this()
+        public MessageDialog(string title, string message, MessageIcon icon) : this()
         {
             Title = title;
             Message = message;

@@ -93,17 +93,17 @@
     <Compile Include="UI\Forms\AboutForm.Designer.cs">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Forms\ChooseTablesToExportForm.cs">
+    <Compile Include="UI\Forms\GatewayScheduleForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Forms\ChooseTablesToExportForm.Designer.cs">
-      <DependentUpon>ChooseTablesToExportForm.cs</DependentUpon>
+    <Compile Include="UI\Forms\GatewayScheduleForm.Designer.cs">
+      <DependentUpon>GatewayScheduleForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Forms\ExportCalculationToExcelForm.cs">
+    <Compile Include="UI\Forms\TablesToExportDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Forms\ExportCalculationToExcelForm.Designer.cs">
-      <DependentUpon>ExportCalculationToExcelForm.cs</DependentUpon>
+    <Compile Include="UI\Forms\TablesToExportDialog.Designer.cs">
+      <DependentUpon>TablesToExportDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Forms\HelpForm.cs">
       <SubType>Form</SubType>
@@ -117,11 +117,11 @@
     <Compile Include="UI\Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Forms\MessageForm.cs">
+    <Compile Include="UI\Forms\MessageDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\Forms\MessageForm.Designer.cs">
-      <DependentUpon>MessageForm.cs</DependentUpon>
+    <Compile Include="UI\Forms\MessageDialog.Designer.cs">
+      <DependentUpon>MessageDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\Forms\SetupChartForm.cs">
       <SubType>Form</SubType>
@@ -167,31 +167,87 @@
     <Compile Include="UI\UC\SettingsViewUC.Designer.cs">
       <DependentUpon>SettingsViewUC.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\UC\GatewaySheduleUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UC\GatewaySheduleUC.Designer.cs">
+      <DependentUpon>GatewaySheduleUC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\UC\GatewaySheduleUC.resx">
+      <DependentUpon>GatewaySheduleUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="db\Version 2.0\CatlabuhDB.db" />
+    <None Include="Resources\icon_red_64х64.png" />
+    <None Include="Resources\icon_red_32х32.png" />
+    <None Include="Resources\icon_green_64х64.png" />
+    <None Include="Resources\icon_green_32х32.png" />
+    <None Include="Resources\icon_blue_64х64.png" />
+    <None Include="Resources\icon_blue_32х32.png" />
+    <None Include="Resources\sea_bottom_98х253.png" />
+    <None Include="Resources\success_64x64.png" />
+    <None Include="Resources\save_64x64.png" />
+    <None Include="Resources\recalculate_64x64.png" />
+    <None Include="Resources\question_64x64.png" />
+    <None Include="Resources\delete_64x64.png" />
+    <None Include="Resources\cross_64x64.png" />
+    <None Include="Resources\clear_64x64.png" />
+    <None Include="Resources\alert_64x64.png" />
+    <None Include="Resources\view_calculations_32x32.png" />
+    <None Include="Resources\view_calculation_32x32.png" />
+    <None Include="Resources\save_calculation_32x32.png" />
+    <None Include="Resources\save_as_image_32x32.png" />
+    <None Include="Resources\recalculate_calcualtion_32x32.png" />
+    <None Include="Resources\grid_32x32.png" />
+    <None Include="Resources\export_to_excel_32x32.png" />
+    <None Include="Resources\create_chart_32x32.png" />
+    <None Include="Resources\create_calculation_32x32.png" />
+    <None Include="Resources\calculation_settings_32x32.png" />
+    <None Include="Resources\view_calculations_16x16.png" />
+    <None Include="Resources\view_calculation_16x16.png" />
+    <None Include="Resources\success_16x16.png" />
+    <None Include="Resources\save_calculation.png" />
+    <None Include="Resources\save_as_image_16x16.png" />
+    <None Include="Resources\save_16x16.png" />
+    <None Include="Resources\recalculate_calculation_16x16.png" />
+    <None Include="Resources\recalculate_16x16.png" />
+    <None Include="Resources\question_16x16.png" />
+    <None Include="Resources\grid_16x16.png" />
+    <None Include="Resources\export_to_excel_16x16.png" />
+    <None Include="Resources\delete_16x16.png" />
+    <None Include="Resources\cross_16x16.png" />
+    <None Include="Resources\create_chart_16x16.png" />
+    <None Include="Resources\create_calcuation_16x16.png" />
+    <None Include="Resources\clear_16x16.png" />
+    <None Include="Resources\calculation_settings_16x16.png" />
+    <None Include="Resources\alert_16x16.png" />
     <EmbeddedResource Include="UI\Forms\AboutForm.uk-UA.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Forms\ChooseTablesToExportForm.resx">
-      <DependentUpon>ChooseTablesToExportForm.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Forms\GatewayScheduleForm.resx">
+      <DependentUpon>GatewayScheduleForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Forms\ChooseTablesToExportForm.uk-UA.resx">
-      <DependentUpon>ChooseTablesToExportForm.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Forms\TablesToExportDialog.resx">
+      <DependentUpon>TablesToExportDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Forms\TablesToExportDialog.uk-UA.resx">
+      <DependentUpon>TablesToExportDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\SetupChartForm.uk-UA.resx">
       <DependentUpon>SetupChartForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\UC\GatewaySheduleUC.uk-UA.resx">
+      <DependentUpon>GatewaySheduleUC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\UC\SettingsViewUC.uk-UA.resx">
       <DependentUpon>SettingsViewUC.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Resources\Катлабух фото.png" />
+    <None Include="Resources\screensaver.png" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\AboutForm.resx">
       <DependentUpon>AboutForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI\Forms\ExportCalculationToExcelForm.resx">
-      <DependentUpon>ExportCalculationToExcelForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\HelpForm.resx">
       <DependentUpon>HelpForm.cs</DependentUpon>
@@ -202,8 +258,8 @@
     <EmbeddedResource Include="UI\Forms\MainForm.uk-UA.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Forms\MessageForm.resx">
-      <DependentUpon>MessageForm.cs</DependentUpon>
+    <EmbeddedResource Include="UI\Forms\MessageDialog.resx">
+      <DependentUpon>MessageDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Forms\SetupChartForm.resx">
       <DependentUpon>SetupChartForm.cs</DependentUpon>
@@ -267,6 +323,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

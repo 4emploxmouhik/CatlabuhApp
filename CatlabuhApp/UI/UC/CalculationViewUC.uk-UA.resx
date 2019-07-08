@@ -118,7 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="waterBalnceConsumableGrid.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="recalculateMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="recalculateMenuItem.Text" xml:space="preserve">
+    <value>Перерахувати</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 6</value>
+  </data>
+  <data name="saveMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="saveMenuItem.Text" xml:space="preserve">
+    <value>Зберегти зміни</value>
+  </data>
+  <data name="deleteMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 22</value>
+  </data>
+  <data name="deleteMenuItem.Text" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 76</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="WBCGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WBCGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>1240, 329</value>
   </data>
   <data name="consumableWBGroup.Size" type="System.Drawing.Size, System.Drawing">
@@ -127,7 +155,10 @@
   <data name="consumableWBGroup.Text" xml:space="preserve">
     <value>Складові витратної частини</value>
   </data>
-  <data name="waterBalanceProfitGrid.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="WBPGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="WBPGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>1240, 331</value>
   </data>
   <data name="profitWBGroup.Size" type="System.Drawing.Size, System.Drawing">
@@ -142,7 +173,10 @@
   <data name="waterBalancePage.Text" xml:space="preserve">
     <value>Водний баланс</value>
   </data>
-  <data name="saltBalanceConsumableGrid.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="SBCGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SBCGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>1240, 329</value>
   </data>
   <data name="consumableSBGroup.Size" type="System.Drawing.Size, System.Drawing">
@@ -151,7 +185,10 @@
   <data name="consumableSBGroup.Text" xml:space="preserve">
     <value>Складові витратної частини</value>
   </data>
-  <data name="saltBalanceProfitGrid.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="SBPGrid.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="SBPGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>1240, 331</value>
   </data>
   <data name="profitSBGroup.Size" type="System.Drawing.Size, System.Drawing">
@@ -169,7 +206,31 @@
   <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
     <value>1260, 730</value>
   </data>
-  <data name="exportToExcel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="yearsBoxLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="yearsBoxLabel.Text" xml:space="preserve">
+    <value>Оберіть рік розрахунку:</value>
+  </data>
+  <data name="toolStripLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 22</value>
+  </data>
+  <data name="toolStripLabel1.Text" xml:space="preserve">
+    <value>Річний стік:</value>
+  </data>
+  <data name="toolStripLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 22</value>
+  </data>
+  <data name="toolStripLabel2.Text" xml:space="preserve">
+    <value>м^3/с, або </value>
+  </data>
+  <data name="toolStripLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 22</value>
+  </data>
+  <data name="toolStripLabel3.Text" xml:space="preserve">
+    <value>млн. м^3</value>
+  </data>
+  <data name="showGatewayShedule.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
@@ -184,26 +245,20 @@
         TgDQASA1MVpwzwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="showGatewayShedule.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="showGatewayShedule.Text" xml:space="preserve">
+    <value>Показати диспетчерський графік роботи шлюзів</value>
+  </data>
+  <data name="exportToExcel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
   <data name="exportToExcel.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 22</value>
   </data>
   <data name="exportToExcel.Text" xml:space="preserve">
     <value>Експортувати до Excel</value>
-  </data>
-  <data name="yearsBoxLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 22</value>
-  </data>
-  <data name="yearsBoxLabel.Text" xml:space="preserve">
-    <value>Оберіть рік розрахунку:</value>
-  </data>
-  <data name="toolStripLabel1.Text" xml:space="preserve">
-    <value>Річний стік:</value>
-  </data>
-  <data name="toolStripLabel2.Text" xml:space="preserve">
-    <value>м^3/с, або </value>
-  </data>
-  <data name="toolStripLabel3.Text" xml:space="preserve">
-    <value>млн. м^3</value>
   </data>
   <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>1260, 25</value>

@@ -313,7 +313,7 @@ namespace CatlabuhApp.Data.Models
         // Коєффициенты для для расчета W(1/2) 1, W(1/2) 2, Vb, Vdr, Vtr, Vf, sum(Etr), Sp, Sr, Sb, Sg, Sdr, SD_plus
         private readonly double[] coefficients;
         #endregion
-
+        #region Конструкторы
         /// <summary>
         /// Иниализирует новый экземпляр класса Calculation
         /// </summary>
@@ -413,6 +413,7 @@ namespace CatlabuhApp.Data.Models
             this.VD_minus = VD_minus;
         }
 
+        #endregion
         #region Методы расчета годового расчета озера Катлабух
 
         /// <summary>

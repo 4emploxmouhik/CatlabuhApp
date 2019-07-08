@@ -10,10 +10,11 @@ using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.Forms
 {
-    public partial class ExportCalculationToExcelForm : Form, IBaseView
+    public partial class TablesToExportDialog : Form, IBaseView
     {
-        public ExportCalculationToExcelForm()
+        public TablesToExportDialog()
         {
+            GetCultureInfo();
             InitializeComponent();
         }
 

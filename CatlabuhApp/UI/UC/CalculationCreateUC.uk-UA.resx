@@ -117,6 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="autoFilingBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="autoFilingBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>108, 377</value>
@@ -127,6 +131,9 @@
   <data name="autoFilingBox.Text" xml:space="preserve">
     <value>Автоматичне заповнення</value>
   </data>
+  <data name="h2Label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h2Label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 330</value>
   </data>
@@ -135,6 +142,9 @@
   </data>
   <data name="h2Label11.Text" xml:space="preserve">
     <value>/ 31 Груд.</value>
+  </data>
+  <data name="h2Label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h2Label10.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 304</value>
@@ -145,6 +155,9 @@
   <data name="h2Label10.Text" xml:space="preserve">
     <value>/ 30 Листоп.</value>
   </data>
+  <data name="h2Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h2Label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 278</value>
   </data>
@@ -153,6 +166,9 @@
   </data>
   <data name="h2Label9.Text" xml:space="preserve">
     <value>/ 31 Жовт.</value>
+  </data>
+  <data name="h2Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h2Label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 252</value>
@@ -163,6 +179,9 @@
   <data name="h2Label8.Text" xml:space="preserve">
     <value>/ 30 Вер.</value>
   </data>
+  <data name="h2Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h2Label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 226</value>
   </data>
@@ -171,6 +190,9 @@
   </data>
   <data name="h2Label7.Text" xml:space="preserve">
     <value>/ 31 Серп.</value>
+  </data>
+  <data name="h2Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h2Label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 200</value>
@@ -181,6 +203,9 @@
   <data name="h2Label6.Text" xml:space="preserve">
     <value>/ 31 Лип.</value>
   </data>
+  <data name="h2Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h2Label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 174</value>
   </data>
@@ -189,6 +214,9 @@
   </data>
   <data name="h2Label5.Text" xml:space="preserve">
     <value>/ 30 Черв.</value>
+  </data>
+  <data name="h2Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h2Label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 148</value>
@@ -199,6 +227,9 @@
   <data name="h2Label4.Text" xml:space="preserve">
     <value>/ 31 Трав.</value>
   </data>
+  <data name="h2Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h2Label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 122</value>
   </data>
@@ -207,6 +238,9 @@
   </data>
   <data name="h2Label3.Text" xml:space="preserve">
     <value>/ 30 Квіт.</value>
+  </data>
+  <data name="h2Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h2Label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 96</value>
@@ -217,6 +251,9 @@
   <data name="h2Label2.Text" xml:space="preserve">
     <value>/ 31 Берез.</value>
   </data>
+  <data name="h2Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h2Label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 70</value>
   </data>
@@ -225,6 +262,9 @@
   </data>
   <data name="h2Label1.Text" xml:space="preserve">
     <value>/ 28(29) Лют.</value>
+  </data>
+  <data name="h2Label0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h2Label0.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 44</value>
@@ -235,6 +275,9 @@
   <data name="h2Label0.Text" xml:space="preserve">
     <value>/ 31 Січ.</value>
   </data>
+  <data name="h1Label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h1Label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 330</value>
   </data>
@@ -243,6 +286,9 @@
   </data>
   <data name="h1Label11.Text" xml:space="preserve">
     <value>01 Груд.</value>
+  </data>
+  <data name="h1Label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h1Label10.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 304</value>
@@ -253,6 +299,9 @@
   <data name="h1Label10.Text" xml:space="preserve">
     <value>01 Лситоп.</value>
   </data>
+  <data name="h1Label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h1Label9.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 278</value>
   </data>
@@ -261,6 +310,9 @@
   </data>
   <data name="h1Label9.Text" xml:space="preserve">
     <value>01 Жовт.</value>
+  </data>
+  <data name="h1Label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h1Label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 252</value>
@@ -271,6 +323,9 @@
   <data name="h1Label8.Text" xml:space="preserve">
     <value>01 Вер.</value>
   </data>
+  <data name="h1Label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h1Label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 226</value>
   </data>
@@ -279,6 +334,9 @@
   </data>
   <data name="h1Label7.Text" xml:space="preserve">
     <value>01 Серп.</value>
+  </data>
+  <data name="h1Label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h1Label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 200</value>
@@ -289,6 +347,9 @@
   <data name="h1Label6.Text" xml:space="preserve">
     <value>01 Лип.</value>
   </data>
+  <data name="h1Label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h1Label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 174</value>
   </data>
@@ -297,6 +358,9 @@
   </data>
   <data name="h1Label5.Text" xml:space="preserve">
     <value>01 Черв.</value>
+  </data>
+  <data name="h1Label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h1Label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 149</value>
@@ -307,6 +371,9 @@
   <data name="h1Label4.Text" xml:space="preserve">
     <value>01 Трав.</value>
   </data>
+  <data name="h1Label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h1Label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 122</value>
   </data>
@@ -315,6 +382,9 @@
   </data>
   <data name="h1Label3.Text" xml:space="preserve">
     <value>01 Квіт.</value>
+  </data>
+  <data name="h1Label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h1Label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 96</value>
@@ -325,6 +395,9 @@
   <data name="h1Label2.Text" xml:space="preserve">
     <value>01 Берез.</value>
   </data>
+  <data name="h1Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="h1Label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 70</value>
   </data>
@@ -333,6 +406,9 @@
   </data>
   <data name="h1Label1.Text" xml:space="preserve">
     <value>01 Лют.</value>
+  </data>
+  <data name="h1Label0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="h1Label0.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 44</value>
@@ -418,6 +494,9 @@
   <data name="groupHBoxes.Text" xml:space="preserve">
     <value>Введіть рівні води в озері Катлабух, мБС</value>
   </data>
+  <data name="groupPBoxes.Text" xml:space="preserve">
+    <value>Сума опадів за місяць, мм</value>
+  </data>
   <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>67, 39</value>
   </data>
@@ -430,7 +509,6 @@
   <data name="groupBox3.Text" xml:space="preserve">
     <value>по м/ст Болград</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -473,6 +551,9 @@
   <data name="label4.Text" xml:space="preserve">
     <value>∑P</value>
   </data>
+  <data name="label85.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label85.Location" type="System.Drawing.Point, System.Drawing">
     <value>54, 46</value>
   </data>
@@ -482,8 +563,14 @@
   <data name="procPBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>79, 43</value>
   </data>
+  <data name="label86.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label86.Location" type="System.Drawing.Point, System.Drawing">
     <value>53, 22</value>
+  </data>
+  <data name="pLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pLabel11.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 376</value>
@@ -494,6 +581,9 @@
   <data name="pLabel11.Text" xml:space="preserve">
     <value>Груд.</value>
   </data>
+  <data name="pLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="pLabel10.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 350</value>
   </data>
@@ -502,6 +592,9 @@
   </data>
   <data name="pLabel10.Text" xml:space="preserve">
     <value>Листоп.</value>
+  </data>
+  <data name="pLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pLabel9.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 324</value>
@@ -512,6 +605,9 @@
   <data name="pLabel9.Text" xml:space="preserve">
     <value>Жовт.</value>
   </data>
+  <data name="pLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="pLabel8.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 298</value>
   </data>
@@ -520,6 +616,9 @@
   </data>
   <data name="pLabel8.Text" xml:space="preserve">
     <value>Вер.</value>
+  </data>
+  <data name="pLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pLabel7.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 272</value>
@@ -530,6 +629,9 @@
   <data name="pLabel7.Text" xml:space="preserve">
     <value>Серп.</value>
   </data>
+  <data name="pLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="pLabel6.Location" type="System.Drawing.Point, System.Drawing">
     <value>29, 247</value>
   </data>
@@ -538,6 +640,9 @@
   </data>
   <data name="pLabel6.Text" xml:space="preserve">
     <value>Лип.</value>
+  </data>
+  <data name="pLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pLabel5.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 220</value>
@@ -548,6 +653,9 @@
   <data name="pLabel5.Text" xml:space="preserve">
     <value>Черв.</value>
   </data>
+  <data name="pLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="pLabel4.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 194</value>
   </data>
@@ -556,6 +664,9 @@
   </data>
   <data name="pLabel4.Text" xml:space="preserve">
     <value>Трав.</value>
+  </data>
+  <data name="pLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pLabel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>29, 168</value>
@@ -566,11 +677,17 @@
   <data name="pLabel3.Text" xml:space="preserve">
     <value>Квіт.</value>
   </data>
+  <data name="pLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="pLabel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 142</value>
   </data>
   <data name="pLabel2.Text" xml:space="preserve">
     <value>Берез.</value>
+  </data>
+  <data name="pLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>28, 116</value>
@@ -581,6 +698,9 @@
   <data name="pLabel1.Text" xml:space="preserve">
     <value>Лют.</value>
   </data>
+  <data name="pLabel0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="pLabel0.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 90</value>
   </data>
@@ -590,8 +710,11 @@
   <data name="pLabel0.Text" xml:space="preserve">
     <value>Січ.</value>
   </data>
-  <data name="groupPBoxes.Text" xml:space="preserve">
-    <value>Сума опадів за місяць, мм</value>
+  <data name="groupVzBoxes.Text" xml:space="preserve">
+    <value>Вкажіть забір води на зрошування, млн. м^3</value>
+  </data>
+  <data name="vzLabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="vzLabel11.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 330</value>
@@ -602,6 +725,9 @@
   <data name="vzLabel11.Text" xml:space="preserve">
     <value>Груд.</value>
   </data>
+  <data name="vzLabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="vzLabel10.Location" type="System.Drawing.Point, System.Drawing">
     <value>29, 304</value>
   </data>
@@ -610,6 +736,9 @@
   </data>
   <data name="vzLabel10.Text" xml:space="preserve">
     <value>Листоп.</value>
+  </data>
+  <data name="vzLabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="vzLabel9.Location" type="System.Drawing.Point, System.Drawing">
     <value>38, 278</value>
@@ -620,6 +749,9 @@
   <data name="vzLabel9.Text" xml:space="preserve">
     <value>Жовт.</value>
   </data>
+  <data name="vzLabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="vzLabel8.Location" type="System.Drawing.Point, System.Drawing">
     <value>47, 252</value>
   </data>
@@ -628,6 +760,9 @@
   </data>
   <data name="vzLabel8.Text" xml:space="preserve">
     <value>Вер.</value>
+  </data>
+  <data name="vzLabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="vzLabel7.Location" type="System.Drawing.Point, System.Drawing">
     <value>41, 226</value>
@@ -638,6 +773,9 @@
   <data name="vzLabel7.Text" xml:space="preserve">
     <value>Серп.</value>
   </data>
+  <data name="vzLabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="vzLabel6.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 200</value>
   </data>
@@ -646,6 +784,9 @@
   </data>
   <data name="vzLabel6.Text" xml:space="preserve">
     <value>Лип.</value>
+  </data>
+  <data name="vzLabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="vzLabel5.Location" type="System.Drawing.Point, System.Drawing">
     <value>40, 174</value>
@@ -656,6 +797,9 @@
   <data name="vzLabel5.Text" xml:space="preserve">
     <value>Черв.</value>
   </data>
+  <data name="vzLabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="vzLabel4.Location" type="System.Drawing.Point, System.Drawing">
     <value>41, 148</value>
   </data>
@@ -664,6 +808,9 @@
   </data>
   <data name="vzLabel4.Text" xml:space="preserve">
     <value>Трав.</value>
+  </data>
+  <data name="vzLabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="vzLabel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 122</value>
@@ -674,11 +821,17 @@
   <data name="vzLabel3.Text" xml:space="preserve">
     <value>Квіт.</value>
   </data>
+  <data name="vzLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="vzLabel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 96</value>
   </data>
   <data name="vzLabel2.Text" xml:space="preserve">
     <value>Берез.</value>
+  </data>
+  <data name="vzLabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="vzLabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 72</value>
@@ -688,6 +841,9 @@
   </data>
   <data name="vzLabel1.Text" xml:space="preserve">
     <value>Лют.</value>
+  </data>
+  <data name="vzLabel0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="vzLabel0.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 44</value>
@@ -734,8 +890,11 @@
   <data name="vzBox0.Location" type="System.Drawing.Point, System.Drawing">
     <value>84, 41</value>
   </data>
-  <data name="groupVzBoxes.Text" xml:space="preserve">
-    <value>Вкажіть забір води на зрошування, млн. м^3</value>
+  <data name="groupDorEBoxes.Text" xml:space="preserve">
+    <value>Введіть </value>
+  </data>
+  <data name="dorELabel7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="dorELabel7.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 226</value>
@@ -746,6 +905,9 @@
   <data name="dorELabel7.Text" xml:space="preserve">
     <value>Серп.</value>
   </data>
+  <data name="dorELabel11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="dorELabel11.Location" type="System.Drawing.Point, System.Drawing">
     <value>29, 330</value>
   </data>
@@ -754,6 +916,9 @@
   </data>
   <data name="dorELabel11.Text" xml:space="preserve">
     <value>Груд.</value>
+  </data>
+  <data name="dorELabel10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="dorELabel10.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 304</value>
@@ -764,6 +929,9 @@
   <data name="dorELabel10.Text" xml:space="preserve">
     <value>Листоп.</value>
   </data>
+  <data name="dorELabel9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="dorELabel9.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 278</value>
   </data>
@@ -772,6 +940,9 @@
   </data>
   <data name="dorELabel9.Text" xml:space="preserve">
     <value>Жовт.</value>
+  </data>
+  <data name="dorELabel8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="dorELabel8.Location" type="System.Drawing.Point, System.Drawing">
     <value>33, 252</value>
@@ -782,6 +953,9 @@
   <data name="dorELabel8.Text" xml:space="preserve">
     <value>Вер.</value>
   </data>
+  <data name="dorELabel6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="dorELabel6.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 200</value>
   </data>
@@ -790,6 +964,9 @@
   </data>
   <data name="dorELabel6.Text" xml:space="preserve">
     <value>Лип.</value>
+  </data>
+  <data name="dorELabel5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="dorELabel5.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 174</value>
@@ -800,6 +977,9 @@
   <data name="dorELabel5.Text" xml:space="preserve">
     <value>Черв.</value>
   </data>
+  <data name="dorELabel4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="dorELabel4.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 148</value>
   </data>
@@ -808,6 +988,9 @@
   </data>
   <data name="dorELabel4.Text" xml:space="preserve">
     <value>Трав.</value>
+  </data>
+  <data name="dorELabel3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="dorELabel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 122</value>
@@ -818,11 +1001,17 @@
   <data name="dorELabel3.Text" xml:space="preserve">
     <value>Квіт.</value>
   </data>
+  <data name="dorELabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="dorELabel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 96</value>
   </data>
   <data name="dorELabel2.Text" xml:space="preserve">
     <value>Берез.</value>
+  </data>
+  <data name="dorELabel1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="dorELabel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 70</value>
@@ -833,6 +1022,9 @@
   <data name="dorELabel1.Text" xml:space="preserve">
     <value>Лют.</value>
   </data>
+  <data name="dorELabel0.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="dorELabel0.Location" type="System.Drawing.Point, System.Drawing">
     <value>38, 44</value>
   </data>
@@ -842,8 +1034,11 @@
   <data name="dorELabel0.Text" xml:space="preserve">
     <value>Січ.</value>
   </data>
-  <data name="groupDorEBoxes.Text" xml:space="preserve">
-    <value>Введіть </value>
+  <data name="chooseECalculationGrouup.Text" xml:space="preserve">
+    <value>Вкажіть метод визначення випаровування</value>
+  </data>
+  <data name="radioButton1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="radioButton1.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 66</value>
@@ -856,6 +1051,9 @@
 моделью приземного 
 шару SLEB</value>
   </data>
+  <data name="calculateE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="calculateE.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 115</value>
   </data>
@@ -866,6 +1064,9 @@
     <value>Розрахувати за 
 дефіцитом вологості</value>
   </data>
+  <data name="setValuesE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="setValuesE.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 42</value>
   </data>
@@ -875,488 +1076,14 @@
   <data name="setValuesE.Text" xml:space="preserve">
     <value>Дані по м/ст Болград</value>
   </data>
-  <data name="chooseECalculationGrouup.Text" xml:space="preserve">
-    <value>Вкажіть метод визначення випаровування</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>232, 16</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 13</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Шлюз 2</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 16</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 13</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Шлюз 1</value>
-  </data>
-  <data name="checkBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 337</value>
-  </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 334</value>
-  </data>
-  <data name="checkBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 311</value>
-  </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 308</value>
-  </data>
-  <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 285</value>
-  </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 282</value>
-  </data>
-  <data name="checkBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 259</value>
-  </data>
-  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 256</value>
-  </data>
-  <data name="checkBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 233</value>
-  </data>
-  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 230</value>
-  </data>
-  <data name="checkBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 207</value>
-  </data>
-  <data name="textBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 204</value>
-  </data>
-  <data name="checkBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 181</value>
-  </data>
-  <data name="textBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 178</value>
-  </data>
-  <data name="checkBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 155</value>
-  </data>
-  <data name="textBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 152</value>
-  </data>
-  <data name="checkBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 129</value>
-  </data>
-  <data name="textBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 126</value>
-  </data>
-  <data name="checkBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 103</value>
-  </data>
-  <data name="textBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 100</value>
-  </data>
-  <data name="checkBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 77</value>
-  </data>
-  <data name="textBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 74</value>
-  </data>
-  <data name="checkBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 51</value>
-  </data>
-  <data name="textBox12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 48</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>322, 35</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 367</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Скиди води з озера</value>
-  </data>
-  <data name="vdMonthMinusBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 337</value>
-  </data>
-  <data name="vdMinusBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 334</value>
-  </data>
-  <data name="vdMonthMinusBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 311</value>
-  </data>
-  <data name="vdMinusBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 308</value>
-  </data>
-  <data name="vdMonthMinusBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 285</value>
-  </data>
-  <data name="vdMinusBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 282</value>
-  </data>
-  <data name="vdMonthMinusBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 259</value>
-  </data>
-  <data name="vdMinusBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 256</value>
-  </data>
-  <data name="vdMonthMinusBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 233</value>
-  </data>
-  <data name="vdMinusBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 230</value>
-  </data>
-  <data name="vdMonthMinusBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 207</value>
-  </data>
-  <data name="vdMinusBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 204</value>
-  </data>
-  <data name="vdMonthMinusBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 181</value>
-  </data>
-  <data name="vdMinusBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 178</value>
-  </data>
-  <data name="vdMonthMinusBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 155</value>
-  </data>
-  <data name="vdMinusBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 152</value>
-  </data>
-  <data name="vdMonthMinusBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 129</value>
-  </data>
-  <data name="vdMinusBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 126</value>
-  </data>
-  <data name="vdMonthMinusBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 103</value>
-  </data>
-  <data name="vdMinusBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 100</value>
-  </data>
-  <data name="vdMonthMinusBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 77</value>
-  </data>
-  <data name="vdMinusBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 74</value>
-  </data>
-  <data name="vdMonthMinusBox0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 51</value>
-  </data>
-  <data name="vdMinusBox0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 48</value>
-  </data>
-  <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 35</value>
-  </data>
-  <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 367</value>
-  </data>
-  <data name="groupBox10.Text" xml:space="preserve">
-    <value>Скиди води з озера</value>
-  </data>
-  <data name="checkBox13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 337</value>
-  </data>
-  <data name="textBox13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 334</value>
-  </data>
-  <data name="checkBox14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 311</value>
-  </data>
-  <data name="textBox14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 308</value>
-  </data>
-  <data name="checkBox15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 285</value>
-  </data>
-  <data name="textBox15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 282</value>
-  </data>
-  <data name="checkBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 259</value>
-  </data>
-  <data name="textBox16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 256</value>
-  </data>
-  <data name="checkBox17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 233</value>
-  </data>
-  <data name="textBox17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 230</value>
-  </data>
-  <data name="checkBox18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 207</value>
-  </data>
-  <data name="textBox18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 204</value>
-  </data>
-  <data name="checkBox19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 181</value>
-  </data>
-  <data name="textBox19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 178</value>
-  </data>
-  <data name="checkBox20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 155</value>
-  </data>
-  <data name="textBox20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 152</value>
-  </data>
-  <data name="checkBox21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 129</value>
-  </data>
-  <data name="textBox21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 126</value>
-  </data>
-  <data name="checkBox22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 103</value>
-  </data>
-  <data name="textBox22.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 100</value>
-  </data>
-  <data name="checkBox23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 77</value>
-  </data>
-  <data name="textBox23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 74</value>
-  </data>
-  <data name="checkBox24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 51</value>
-  </data>
-  <data name="textBox24.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 48</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 35</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 367</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Наповнення озера</value>
-  </data>
-  <data name="vdMonthPlusBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 337</value>
-  </data>
-  <data name="vdPlusBox11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 334</value>
-  </data>
-  <data name="vdMonthPlusBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 311</value>
-  </data>
-  <data name="vdPlusBox10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 308</value>
-  </data>
-  <data name="vdMonthPlusBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 285</value>
-  </data>
-  <data name="vdPlusBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 282</value>
-  </data>
-  <data name="vdMonthPlusBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 259</value>
-  </data>
-  <data name="vdPlusBox8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 256</value>
-  </data>
-  <data name="vdMonthPlusBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 233</value>
-  </data>
-  <data name="vdPlusBox7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 230</value>
-  </data>
-  <data name="vdMonthPlusBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 207</value>
-  </data>
-  <data name="vdPlusBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 204</value>
-  </data>
-  <data name="vdMonthPlusBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 181</value>
-  </data>
-  <data name="vdPlusBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 178</value>
-  </data>
-  <data name="vdMonthPlusBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 155</value>
-  </data>
-  <data name="vdPlusBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 152</value>
-  </data>
-  <data name="vdMonthPlusBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 129</value>
-  </data>
-  <data name="vdPlusBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 126</value>
-  </data>
-  <data name="vdMonthPlusBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 103</value>
-  </data>
-  <data name="vdPlusBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 100</value>
-  </data>
-  <data name="vdMonthPlusBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 77</value>
-  </data>
-  <data name="vdPlusBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 74</value>
-  </data>
-  <data name="vdMonthPlusBox0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 51</value>
-  </data>
-  <data name="vdPlusBox0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 48</value>
-  </data>
-  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>62, 35</value>
-  </data>
-  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 367</value>
-  </data>
-  <data name="groupBox9.Text" xml:space="preserve">
-    <value>Наповнення озера</value>
-  </data>
-  <data name="radioButton3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 17</value>
-  </data>
-  <data name="radioButton3.Text" xml:space="preserve">
-    <value>Розрахувати</value>
-  </data>
-  <data name="setValuesVD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 17</value>
-  </data>
-  <data name="setValuesVD.Text" xml:space="preserve">
-    <value>Ввести величини</value>
-  </data>
-  <data name="chooseVDCalcualtionGroup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 413</value>
-  </data>
-  <data name="chooseVDCalcualtionGroup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>407, 83</value>
-  </data>
-  <data name="chooseVDCalcualtionGroup.Text" xml:space="preserve">
-    <value>Визначення об'ємів</value>
-  </data>
-  <data name="vdLabel11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 372</value>
-  </data>
-  <data name="vdLabel11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 13</value>
-  </data>
-  <data name="vdLabel11.Text" xml:space="preserve">
-    <value>Груд.</value>
-  </data>
-  <data name="vdLabel10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 346</value>
-  </data>
-  <data name="vdLabel10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 13</value>
-  </data>
-  <data name="vdLabel10.Text" xml:space="preserve">
-    <value>Листоп.</value>
-  </data>
-  <data name="vdLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 320</value>
-  </data>
-  <data name="vdLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 13</value>
-  </data>
-  <data name="vdLabel9.Text" xml:space="preserve">
-    <value>Жовт.</value>
-  </data>
-  <data name="vdLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 294</value>
-  </data>
-  <data name="vdLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 13</value>
-  </data>
-  <data name="vdLabel8.Text" xml:space="preserve">
-    <value>Вер.</value>
-  </data>
-  <data name="vdLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 268</value>
-  </data>
-  <data name="vdLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
-  </data>
-  <data name="vdLabel7.Text" xml:space="preserve">
-    <value>Серп.</value>
-  </data>
-  <data name="vdLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 242</value>
-  </data>
-  <data name="vdLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
-  </data>
-  <data name="vdLabel6.Text" xml:space="preserve">
-    <value>Лип.</value>
-  </data>
-  <data name="vdLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 216</value>
-  </data>
-  <data name="vdLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 13</value>
-  </data>
-  <data name="vdLabel5.Text" xml:space="preserve">
-    <value>Черв.</value>
-  </data>
-  <data name="vdLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 190</value>
-  </data>
-  <data name="vdLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 13</value>
-  </data>
-  <data name="vdLabel4.Text" xml:space="preserve">
-    <value>Трав.</value>
-  </data>
-  <data name="vdLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 164</value>
-  </data>
-  <data name="vdLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
-  </data>
-  <data name="vdLabel3.Text" xml:space="preserve">
-    <value>Квіт.</value>
-  </data>
-  <data name="vdLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 138</value>
-  </data>
-  <data name="vdLabel2.Text" xml:space="preserve">
-    <value>Берез.</value>
-  </data>
-  <data name="vdLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 112</value>
-  </data>
-  <data name="vdLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>31, 13</value>
-  </data>
-  <data name="vdLabel1.Text" xml:space="preserve">
-    <value>Лют.</value>
-  </data>
-  <data name="vdLabel0.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 86</value>
-  </data>
-  <data name="vdLabel0.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 13</value>
-  </data>
-  <data name="vdLabel0.Text" xml:space="preserve">
-    <value>Січ.</value>
-  </data>
-  <data name="checkBox25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 17</value>
-  </data>
-  <data name="checkBox25.Text" xml:space="preserve">
-    <value>Диспетчерський графік роботи шлюзів</value>
-  </data>
   <data name="sumVgBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 51</value>
   </data>
   <data name="sumVgBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 3, 4, 3</value>
+  </data>
+  <data name="sumVgLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="sumVgLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 54</value>
@@ -1376,6 +1103,9 @@
   <data name="s1Box.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 51</value>
   </data>
+  <data name="s1Label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="s1Label.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 54</value>
   </data>
@@ -1388,20 +1118,20 @@
   <data name="groupS1Box.Text" xml:space="preserve">
     <value>Вкажіть середнью мінералізацію, кг/м^3</value>
   </data>
-  <data name="saveInputData.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
-</value>
+  <data name="yearsBoxLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="yearsBoxLabel.Text" xml:space="preserve">
+    <value>Вкажіть рік розрахунку:</value>
+  </data>
+  <data name="checkBox25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 17</value>
+  </data>
+  <data name="checkBox25.Text" xml:space="preserve">
+    <value>Диспетчерський графік роботи шлюзів</value>
   </data>
   <data name="saveInputData.Size" type="System.Drawing.Size, System.Drawing">
     <value>142, 22</value>
@@ -1409,41 +1139,11 @@
   <data name="saveInputData.Text" xml:space="preserve">
     <value>Зберегти вихідні дані</value>
   </data>
-  <data name="toCalculate.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="toCalculate.Size" type="System.Drawing.Size, System.Drawing">
     <value>146, 22</value>
   </data>
   <data name="toCalculate.Text" xml:space="preserve">
     <value>Провести розрахунок</value>
-  </data>
-  <data name="clearFields.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
-</value>
   </data>
   <data name="clearFields.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 22</value>
@@ -1451,10 +1151,10 @@
   <data name="clearFields.Text" xml:space="preserve">
     <value>Очистити поля</value>
   </data>
-  <data name="yearsBoxLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 570</value>
   </data>
-  <data name="yearsBoxLabel.Text" xml:space="preserve">
-    <value>Вкажіть рік розрахунку:</value>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1260, 755</value>
   </data>
 </root>
