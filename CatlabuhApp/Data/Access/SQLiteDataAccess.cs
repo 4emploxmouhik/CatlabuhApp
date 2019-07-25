@@ -81,7 +81,7 @@ namespace CatlabuhApp.Data.Access
                 }
 
                 T[,] output = new T[columns.Length, rowsCount];
-                List<T> row;
+                List<T> row = new List<T>();
 
                 for (int i = 0; i < columns.Length; i++)
                 {
@@ -89,7 +89,7 @@ namespace CatlabuhApp.Data.Access
 
                     for (int j = 0; j < rowsCount; j++)
                     {
-                        output[i, j] = row[i];
+                        output[i, j] = row[j];
                     }
                 }
 

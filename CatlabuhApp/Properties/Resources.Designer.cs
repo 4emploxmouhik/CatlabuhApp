@@ -223,9 +223,9 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap grid_16x16 {
+        internal static System.Drawing.Bitmap grid_140x90 {
             get {
-                object obj = ResourceManager.GetObject("grid_16x16", resourceCulture);
+                object obj = ResourceManager.GetObject("grid_140x90", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap grid_32x32 {
+        internal static System.Drawing.Bitmap icon_16x16 {
             get {
-                object obj = ResourceManager.GetObject("grid_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("icon_16x16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,59 +243,29 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icon_blue_32х32 {
+        internal static System.Drawing.Bitmap icon_32x32 {
             get {
-                object obj = ResourceManager.GetObject("icon_blue_32х32", resourceCulture);
+                object obj = ResourceManager.GetObject("icon_32x32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon icon_32x321 {
+            get {
+                object obj = ResourceManager.GetObject("icon_32x321", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icon_blue_64х64 {
+        internal static System.Drawing.Bitmap icon_64x64 {
             get {
-                object obj = ResourceManager.GetObject("icon_blue_64х64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_green_32х32 {
-            get {
-                object obj = ResourceManager.GetObject("icon_green_32х32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_green_64х64 {
-            get {
-                object obj = ResourceManager.GetObject("icon_green_64х64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_red_32х32 {
-            get {
-                object obj = ResourceManager.GetObject("icon_red_32х32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_red_64х64 {
-            get {
-                object obj = ResourceManager.GetObject("icon_red_64х64", resourceCulture);
+                object obj = ResourceManager.GetObject("icon_64x64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
