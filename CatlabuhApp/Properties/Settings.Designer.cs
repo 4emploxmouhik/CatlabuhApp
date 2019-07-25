@@ -34,5 +34,17 @@ namespace CatlabuhApp.Properties {
                 this["Language"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Default")]
+        public string CalculationsDirectoryPath {
+            get {
+                return ((string)(this["CalculationsDirectoryPath"]));
+            }
+            set {
+                this["CalculationsDirectoryPath"] = value;
+            }
+        }
     }
 }
