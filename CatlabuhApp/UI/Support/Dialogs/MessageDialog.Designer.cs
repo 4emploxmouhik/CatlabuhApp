@@ -68,11 +68,11 @@
             // 
             this.messageBox.BackColor = System.Drawing.SystemColors.Control;
             this.messageBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.messageBox.Location = new System.Drawing.Point(92, 21);
+            this.messageBox.Location = new System.Drawing.Point(92, 13);
             this.messageBox.Multiline = true;
             this.messageBox.Name = "messageBox";
             this.messageBox.ReadOnly = true;
-            this.messageBox.Size = new System.Drawing.Size(225, 43);
+            this.messageBox.Size = new System.Drawing.Size(225, 51);
             this.messageBox.TabIndex = 3;
             this.messageBox.TabStop = false;
             this.messageBox.Text = "Message";
@@ -103,7 +103,7 @@
             this.Controls.Add(this.iconBox);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.messageBox);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

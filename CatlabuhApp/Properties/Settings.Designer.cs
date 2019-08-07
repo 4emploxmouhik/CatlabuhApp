@@ -25,7 +25,7 @@ namespace CatlabuhApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("uk-UA")]
+        [global::System.Configuration.DefaultSettingValueAttribute("en-US")]
         public string Language {
             get {
                 return ((string)(this["Language"]));
@@ -44,6 +44,30 @@ namespace CatlabuhApp.Properties {
             }
             set {
                 this["CalculationsDirectoryPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\wilkis\\Desktop\\Graph\\")]
+        public string ChartsImagesDirectoryPath {
+            get {
+                return ((string)(this["ChartsImagesDirectoryPath"]));
+            }
+            set {
+                this["ChartsImagesDirectoryPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\wilkis\\Desktop\\Graph\\")]
+        public string ChartsExcelFilesDirectoryPath {
+            get {
+                return ((string)(this["ChartsExcelFilesDirectoryPath"]));
+            }
+            set {
+                this["ChartsExcelFilesDirectoryPath"] = value;
             }
         }
     }

@@ -11,6 +11,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
         public RecalculateDialog()
         {
+            Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent();
             DialogResult = DialogResult.Cancel;
         }

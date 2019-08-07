@@ -3,10 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="Language" Type="System.String" Scope="User">
-      <Value Profile="(Default)">uk-UA</Value>
+      <Value Profile="(Default)">en-US</Value>
     </Setting>
     <Setting Name="CalculationsDirectoryPath" Type="System.String" Scope="User">
       <Value Profile="(Default)">Default</Value>
+    </Setting>
+    <Setting Name="ChartsImagesDirectoryPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\wilkis\Desktop\Graph\</Value>
+    </Setting>
+    <Setting Name="ChartsExcelFilesDirectoryPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\wilkis\Desktop\Graph\</Value>
     </Setting>
   </Settings>
 </SettingsFile>

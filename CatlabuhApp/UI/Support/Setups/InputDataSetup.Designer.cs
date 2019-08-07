@@ -317,6 +317,7 @@
             // 
             resources.ApplyResources(this.autoFilling, "autoFilling");
             this.autoFilling.Name = "autoFilling";
+            this.autoFilling.TabStop = false;
             this.autoFilling.UseVisualStyleBackColor = true;
             this.autoFilling.CheckedChanged += new System.EventHandler(this.AutoFilling_CheckedChanged);
             // 
@@ -333,6 +334,7 @@
             resources.ApplyResources(this.h2Box0, "h2Box0");
             this.h2Box0.Name = "h2Box0";
             this.h2Box0.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box0.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box0.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box0.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -351,6 +353,7 @@
             resources.ApplyResources(this.h2Box10, "h2Box10");
             this.h2Box10.Name = "h2Box10";
             this.h2Box10.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box10.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box10.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -369,6 +372,7 @@
             resources.ApplyResources(this.h2Box1, "h2Box1");
             this.h2Box1.Name = "h2Box1";
             this.h2Box1.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box1.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box1.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -377,6 +381,7 @@
             resources.ApplyResources(this.h2Box9, "h2Box9");
             this.h2Box9.Name = "h2Box9";
             this.h2Box9.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box9.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box9.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -395,6 +400,7 @@
             resources.ApplyResources(this.h2Box2, "h2Box2");
             this.h2Box2.Name = "h2Box2";
             this.h2Box2.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box2.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box2.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -403,6 +409,7 @@
             resources.ApplyResources(this.h2Box8, "h2Box8");
             this.h2Box8.Name = "h2Box8";
             this.h2Box8.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box8.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box8.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -421,6 +428,7 @@
             resources.ApplyResources(this.h2Box3, "h2Box3");
             this.h2Box3.Name = "h2Box3";
             this.h2Box3.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box3.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box3.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -429,6 +437,7 @@
             resources.ApplyResources(this.h2Box7, "h2Box7");
             this.h2Box7.Name = "h2Box7";
             this.h2Box7.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box7.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box7.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -447,6 +456,7 @@
             resources.ApplyResources(this.h2Box4, "h2Box4");
             this.h2Box4.Name = "h2Box4";
             this.h2Box4.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box4.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box4.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -455,6 +465,7 @@
             resources.ApplyResources(this.h2Box6, "h2Box6");
             this.h2Box6.Name = "h2Box6";
             this.h2Box6.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box6.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box6.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -473,6 +484,7 @@
             resources.ApplyResources(this.h2Box5, "h2Box5");
             this.h2Box5.Name = "h2Box5";
             this.h2Box5.Click += new System.EventHandler(this.TextBox_Click);
+            this.h2Box5.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h2Box5.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h2Box5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -481,6 +493,7 @@
             resources.ApplyResources(this.h1Box11, "h1Box11");
             this.h1Box11.Name = "h1Box11";
             this.h1Box11.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box11.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box11.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -507,6 +520,7 @@
             resources.ApplyResources(this.h1Box10, "h1Box10");
             this.h1Box10.Name = "h1Box10";
             this.h1Box10.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box10.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box10.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -525,6 +539,7 @@
             resources.ApplyResources(this.h1Box1, "h1Box1");
             this.h1Box1.Name = "h1Box1";
             this.h1Box1.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box1.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box1.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -533,6 +548,7 @@
             resources.ApplyResources(this.h1Box9, "h1Box9");
             this.h1Box9.Name = "h1Box9";
             this.h1Box9.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box9.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box9.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -551,6 +567,7 @@
             resources.ApplyResources(this.h1Box2, "h1Box2");
             this.h1Box2.Name = "h1Box2";
             this.h1Box2.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box2.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box2.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -559,6 +576,7 @@
             resources.ApplyResources(this.h1Box8, "h1Box8");
             this.h1Box8.Name = "h1Box8";
             this.h1Box8.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box8.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box8.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -577,6 +595,7 @@
             resources.ApplyResources(this.h1Box3, "h1Box3");
             this.h1Box3.Name = "h1Box3";
             this.h1Box3.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box3.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box3.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -585,6 +604,7 @@
             resources.ApplyResources(this.h1Box7, "h1Box7");
             this.h1Box7.Name = "h1Box7";
             this.h1Box7.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box7.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box7.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -603,6 +623,7 @@
             resources.ApplyResources(this.h1Box4, "h1Box4");
             this.h1Box4.Name = "h1Box4";
             this.h1Box4.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box4.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box4.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -611,6 +632,7 @@
             resources.ApplyResources(this.h1Box6, "h1Box6");
             this.h1Box6.Name = "h1Box6";
             this.h1Box6.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box6.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box6.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -629,6 +651,7 @@
             resources.ApplyResources(this.h1Box5, "h1Box5");
             this.h1Box5.Name = "h1Box5";
             this.h1Box5.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box5.TextChanged += new System.EventHandler(this.HBoxes_TextChanged);
             this.h1Box5.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
@@ -1131,7 +1154,6 @@
             resources.ApplyResources(this.enterData, "enterData");
             this.enterData.Checked = true;
             this.enterData.Name = "enterData";
-            this.enterData.TabStop = true;
             this.enterData.UseVisualStyleBackColor = true;
             this.enterData.CheckedChanged += new System.EventHandler(this.ChoiceMethod_CheckedChanged);
             // 

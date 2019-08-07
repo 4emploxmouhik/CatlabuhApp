@@ -95,9 +95,13 @@ namespace CatlabuhApp.Data.Models
         private readonly double[] k2 = new double[6];   // Коэффициенты для расчета lgE,
         private readonly double[] k3 = new double[6];   // от 4 до 10 месяца.
 
-        public OutputData(IDataAccess access)
+        public OutputData(IDataAccess dataAccess)
         {
-            DataAccess = access ?? throw new System.ArgumentNullException(nameof(access));
+            DataAccess = dataAccess ?? throw new System.ArgumentNullException(nameof(dataAccess));
+        }
+
+        public OutputData(IDataAccess dataAccess, InputData inputData) : this(dataAccess)
+        {
             coefficients = DataAccess.GetColumnData<double>($"SELECT CoefficientValue FROM Coefficients").ToArray();
 
             for (int i = 13, j = 0, k = 0; i < 25; i++)
@@ -114,14 +118,11 @@ namespace CatlabuhApp.Data.Models
                     k++;
                 }
             }
-        }
 
-        public OutputData(IDataAccess access, InputData inputData) : this(access)
-        {
             this.inputData = inputData ?? throw new System.ArgumentNullException(nameof(inputData));
         }
 
-        public OutputData(IDataAccess access, InputData inputData, GatewaySchedule gs) : this(access, inputData)
+        public OutputData(IDataAccess dataAccess, InputData inputData, GatewaySchedule gs) : this(dataAccess, inputData)
         {
             this.gs = gs ?? throw new System.ArgumentNullException(nameof(gs));
         }
@@ -218,7 +219,7 @@ namespace CatlabuhApp.Data.Models
                 {
                     sql += "INSERT INTO OutputData(avr_H, W1, W2, dlt_W, F, Vp, Vr, Vb, Vg, Vdr, EP, dlt_Vni, lgd, lgE, Etr, VE, Vtr, Vf, " +
                         "ER, S1, S2, Sp, Sr, Sb, Sg, Sdr, SD_plus, Soz_plus, C1, C2, Cp, Cr, Cb, Cg, Cdr, CD_plus, Coz_plus, EpCi_plus, Sf, " +
-                        "Sz, SD_minus, Soz_minus, Cf, Cz, CD_minus, Coz_minus, MonthID, YearName) " +
+                        "Sz, SD_minus, Soz_minus, Cf, Cz, CD_minus, Coz_minus, EpCi_minus, MonthID, YearName) " +
                         $"VALUES ({avrH[i]}, {w1[i]}, {w2[i]}, {dltW[i]}, {f[i]}, {vp[i]}, {vr[i]}, {vb[i]}, {vg[i]}, {vdr[i]}, {ep[i]}, {dltVni[i]}, " +
                         $"{lgD[i]}, {lgE[i]}, {etr[i]}, {ve[i]}, {vtr[i]}, {vf[i]}, {er[i]}, {s1[i]}, {s2[i]}, {sp[i]}, {sr[i]}, {sb[i]}, {sg[i]}, " +
                         $"{sdr[i]}, {sdPlus[i]}, {sozPlus[i]}, {c1[i]}, {c2[i]}, {cp[i]}, {cr[i]}, {cb[i]}, {cg[i]}, {cdr[i]}, {cdPlus[i]}, {cozPlus[i]}, " +
@@ -246,11 +247,11 @@ namespace CatlabuhApp.Data.Models
 
                     if (inputData != null)
                     {
-                        sql += $"UPDATE InputData SET P = {sumsOfWBP[0]}, E = {sumsOfWBC[0]}, Vz = {sumsOfWBC[5]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
+                        sql += $"UPDATE InputData SET PIsmail = {sumsOfWBP[0]}, E = {sumsOfWBC[0]}, Vz = {sumsOfWBC[5]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
                     }
                     if (gs != null)
                     {
-                        sql += $"UPDATE GatewySchedule SET VD_plus = {sumsOfWBP[6]}, VD_minus = {sumsOfWBC[5]}, Voz_plus = {sumsOfWBP[7]}, " +
+                        sql += $"UPDATE GatewaySchedule SET VD_plus = {sumsOfWBP[6]}, VD_minus = {sumsOfWBC[5]}, Voz_plus = {sumsOfWBP[7]}, " +
                             $"Voz_minus = {sumsOfWBC[6]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
                     }
                 }
@@ -281,6 +282,18 @@ namespace CatlabuhApp.Data.Models
 
             DataAccess.Execute(sql);
             return IDs = DataAccess.GetColumnData<int>($"SELECT OutputDataID FROM OutputData WHERE YearName = {YearOfCalculation}").ToArray();
+        }
+
+        public void SaveEmpty()
+        {
+            string sql = "";
+
+            for (int i = 1; i <= 14; i++)
+            {
+                sql += $"INSERT INTO OutputData(MonthID, YearName) VALUES({i}, {YearOfCalculation});\n";
+            }
+
+            DataAccess.Execute(sql);
         }
 
         public void Update()
@@ -319,11 +332,11 @@ namespace CatlabuhApp.Data.Models
 
                     if (inputData != null)
                     {
-                        sql += $"UPDATE InputData SET P = {sumsOfWBP[0]}, E = {sumsOfWBC[0]}, Vz = {sumsOfWBC[5]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
+                        sql += $"UPDATE InputData SET PIsmail = {sumsOfWBP[0]}, E = {sumsOfWBC[0]}, Vz = {sumsOfWBC[5]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
                     }
                     if (gs != null)
                     {
-                        sql += $"UPDATE GatewySchedule SET VD_plus = {sumsOfWBP[6]}, VD_minus = {sumsOfWBC[5]}, Voz_plus = {sumsOfWBP[7]}, " +
+                        sql += $"UPDATE GatewaySchedule SET VD_plus = {sumsOfWBP[6]}, VD_minus = {sumsOfWBC[5]}, Voz_plus = {sumsOfWBP[7]}, " +
                             $"Voz_minus = {sumsOfWBC[6]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
                     }
                 }

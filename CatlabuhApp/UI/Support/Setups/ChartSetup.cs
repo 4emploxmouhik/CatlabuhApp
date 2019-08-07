@@ -1,15 +1,25 @@
-﻿using System;
+﻿using CatlabuhApp.Data.Access;
+using CatlabuhApp.UI.Support.Dialogs;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.Support.Setups
 {
-    /// <summary>
-    /// Форма первоначальной настройки параметров графика
-    /// </summary>
     public partial class ChartSetup : Form
     {
+        public IDataAccess DataAccess { get; private set; }
+
+        public string[] ItemsOfXAxis { get; private set; }
+        public string[] ItemsOfYAxis { get; private set; }
+        public string[] LegendItemsNames { get; private set; }
+        public Color[] ColorsOfYAxisItems { get; private set; }
+        public string YearOfCalculation { get => yearTextBox.Text; }
+        public bool IsProcentItems { get => isProcentItems; }
+        public bool IsChartForMonths { get => monthRadio.Checked; }
+
+
         private List<CheckBox> yItemsCheckBoxes = new List<CheckBox>();
         private List<Panel> colorPanels = new List<Panel>();
         private List<YAxisItem> YAxisItems = new List<YAxisItem>();
@@ -19,40 +29,58 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private bool isProcentItems = false;
 
-        /// <summary>
-        /// Инициализирует объект класса SetupGraphForm
-        /// </summary>
         public ChartSetup()
         {
+            Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent();
 
             yItemsCheckBoxes.AddRange(new CheckBox[]
             {
                 checkBox1, checkBox2, checkBox3, checkBox4, checkBox5, checkBox6, checkBox7, checkBox8, checkBox9, checkBox10,
                 checkBox11, checkBox12, checkBox13, checkBox14, checkBox15, checkBox16, checkBox17, checkBox18, checkBox19,
-                checkBox20, checkBox21, checkBox22, checkBox23, checkBox24, checkBox25, checkBox26, checkBox27, checkBox28,
-                checkBox29, checkBox30, checkBox31, checkBox32, checkBox33, checkBox34, checkBox35, checkBox36, checkBox37,
-                checkBox38, checkBox39, checkBox40, checkBox41, checkBox42, checkBox43, checkBox44, checkBox45, checkBox46
+                checkBox21, checkBox22, checkBox23, checkBox24, checkBox25, checkBox26, checkBox27, checkBox28, checkBox47,
+                checkBox29, checkBox30, checkBox31, checkBox32, checkBox33, checkBox34, checkBox35, checkBox36, checkBox48,
+                checkBox37, checkBox38, checkBox39, checkBox40, checkBox41, checkBox42, checkBox43, checkBox44, checkBox45,
+                checkBox46
             });
             colorPanels.AddRange(new Panel[]
             {
                 panel1, panel2, panel3, panel4, panel5, panel6, panel7, panel8, panel9, panel10,
                 panel11, panel12, panel13, panel14, panel15, panel16, panel17, panel18, panel19,
-                panel20, panel21, panel22, panel23, panel24, panel25, panel26, panel27, panel28, 
-                panel29, panel30, panel31, panel32, panel33, panel34, panel35, panel36, panel37,  
-                panel38, panel39, panel40, panel41, panel42, panel43, panel44, panel45, panel46
+                panel21, panel22, panel23, panel24, panel25, panel26, panel27, panel28, panel47,
+                panel29, panel30, panel31, panel32, panel33, panel34, panel35, panel36, panel48,
+                panel37, panel38, panel39, panel40, panel41, panel42, panel43, panel44, panel45,
+                panel46
             });
             monthsBoxes.AddRange(new CheckBox[] {
                 january, february, march, april, may, june, july, august, september, october, november, december
             });
+
+            DialogResult = DialogResult.None;
         }
         
+        public ChartSetup(IDataAccess dataAccess) : this()
+        {
+            DataAccess = dataAccess;
+        }
+
         private void SetupGraphForm_Load(object sender, EventArgs e)
         {
             //yearsComboBox_1 = SQLiteDataAccess.ViewYears(yearsComboBox_1, "DESC");
             //yearsComboBox_2 = SQLiteDataAccess.ViewYears(yearsComboBox_2, "DESC");
             //yearFromComboBox = SQLiteDataAccess.ViewYears(yearFromComboBox, "ASC");
             //yearToCombBox = SQLiteDataAccess.ViewYears(yearToCombBox, "DESC");
+
+            List<string> years = DataAccess.GetColumnData<string>("SELECT YearName FROM YearsOfCalculations ORDER BY YearName DESC");
+
+
+            yearsComboBox_1.Items.AddRange(years.ToArray());
+            yearsComboBox_2.Items.AddRange(years.ToArray());
+            yearToCombBox.Items.AddRange(years.ToArray());
+
+            years.Reverse();
+
+            yearFromComboBox.Items.AddRange(years.ToArray());
 
             try
             {
@@ -105,6 +133,8 @@ namespace CatlabuhApp.UI.Support.Setups
                     sumRadio.Enabled = true;
                     procRadio.Enabled = true;
                     procRadio.Checked = true;
+                    yearLabel.Visible = false;
+                    yearTextBox.Visible = false;
 
                     for (int i = 0; i < 5; i++)   { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
                     for (int i = 11; i < 14; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
@@ -113,8 +143,10 @@ namespace CatlabuhApp.UI.Support.Setups
 
                     YAxisItemsBox.Clear();
 
-                    foreach (YAxisItem entry in YAxisItems)
+                    foreach (var entry in YAxisItems)
+                    {
                         YAxisItemsBox.Text += entry.Name + " ";
+                    }
 
                     XAxisItems.Clear();
                     XAxisItems = new SortedSet<string>();
@@ -124,13 +156,14 @@ namespace CatlabuhApp.UI.Support.Setups
                     break;
                 case "months":
                     yearsPanel.Visible = false;
-                    yearTextBox.Visible = true;
                     monthPanel.Visible = true;
                     sumRadio.Enabled = false;
                     procRadio.Enabled = false;
                     sumRadio.Checked = false;
                     procRadio.Checked = false;
                     checkBox15.Enabled = true;
+                    yearLabel.Visible = true;
+                    yearTextBox.Visible = true;
 
                     for (int i = 0; i < 5; i++)   yItemsCheckBoxes[i].Enabled = true;
                     for (int i = 11; i < 14; i++) yItemsCheckBoxes[i].Enabled = true;
@@ -139,7 +172,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
                     XAxisItems.Clear();
                     XAxisItems = new HashSet<string>();
-                    XAxisItemsBox.Width = YAxisItemsBox.Width - yearTextBox.Width - (yearTextBox.Margin.Left * 2);
+                    XAxisItemsBox.Width = YAxisItemsBox.Width - yearLabel.Width - yearTextBox.Width - (yearTextBox.Margin.Left * 2);
                     getAll.Checked = true;
                     break;
                 case "∑":
@@ -150,7 +183,7 @@ namespace CatlabuhApp.UI.Support.Setups
                     checkBox15.Enabled = false;
                     checkBox15.Checked = false;
 
-                    foreach (YAxisItem entry in YAxisItems)
+                    foreach (var entry in YAxisItems)
                     {
                         if (entry.Tag.Equals(checkBox15.Tag))
                         {
@@ -161,8 +194,10 @@ namespace CatlabuhApp.UI.Support.Setups
 
                     YAxisItemsBox.Clear();
 
-                    foreach (YAxisItem entry in YAxisItems)
+                    foreach (var entry in YAxisItems)
+                    {
                         YAxisItemsBox.Text += entry.Name + " ";
+                    }
 
                     isProcentItems = true;
                     break;
@@ -183,7 +218,7 @@ namespace CatlabuhApp.UI.Support.Setups
                 {
                     getAll.CheckState = CheckState.Indeterminate;
 
-                    foreach (CheckBox entry in monthsBoxes)
+                    foreach (var entry in monthsBoxes)
                     {
                         XAxisItems.Add(entry.Tag.ToString());
                         entry.CheckState = CheckState.Checked;
@@ -196,18 +231,23 @@ namespace CatlabuhApp.UI.Support.Setups
                     XAxisItems.Clear();
                     getAll.CheckState = CheckState.Unchecked;
 
-                    foreach (CheckBox entry in monthsBoxes)
+                    foreach (var entry in monthsBoxes)
+                    {
                         entry.CheckState = CheckState.Unchecked;
-
+                    }
                     isGetAll = true;
                 }
             }
             else
             {
                 if (checkBox.Checked)
+                {
                     XAxisItems.Add(checkBox.Tag.ToString());
+                }
                 else
+                {
                     XAxisItems.Remove(checkBox.Tag.ToString());
+                }
             }
 
             XAxisItemsBox.Clear();
@@ -220,8 +260,10 @@ namespace CatlabuhApp.UI.Support.Setups
         {
             SortedSet<string> yearsSet = new SortedSet<string>();
 
-            foreach (int entry in rangeYears)
+            foreach (var entry in rangeYears)
+            {
                 yearsSet.Add(entry.ToString());
+            }
 
             return yearsSet;
         }
@@ -251,7 +293,8 @@ namespace CatlabuhApp.UI.Support.Setups
                         string yearFrom = yearFromComboBox.SelectedItem.ToString();
                         string yearTo = yearToCombBox.SelectedItem.ToString();
 
-                        //XAxisItems = AddRangeYears(SQLiteDataAccess.GetYears(yearFrom, yearTo));
+                        XAxisItems = AddRangeYears(DataAccess.GetColumnData<int>($"SELECT YearName FROM YearsOfCalculations " +
+                            $"WHERE {yearFrom} <= YearName AND YearName <= {yearTo} ORDER BY YearName ASC"));
                         break;
                 }
 
@@ -262,7 +305,7 @@ namespace CatlabuhApp.UI.Support.Setups
             }
             catch (NullReferenceException)
             {
-                //MessageBox.Show("Вкажіть рік/роки розрахунку.", "Невірне значення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageDialog.Show(MessageDialog.AlertTitle2, MessageDialog.AlertText1, MessageDialog.Icon.Alert);
             }
         }
 
@@ -319,7 +362,7 @@ namespace CatlabuhApp.UI.Support.Setups
             CheckBox checkBox = (CheckBox)sender;
             Panel colorPanel = null;
 
-            foreach (Panel entry in colorPanels)
+            foreach (var entry in colorPanels)
             {
                 if (checkBox.Tag.Equals(entry.Tag))
                 {
@@ -330,13 +373,17 @@ namespace CatlabuhApp.UI.Support.Setups
 
             if (checkBox.Checked)
             {
-                YAxisItems.Add(new YAxisItem() { Name = checkBox.Text, Tag = checkBox.Tag.ToString(), ColorPanel = colorPanel });
+                YAxisItems.Add(new YAxisItem() {
+                    Name = checkBox.Text,
+                    Tag = checkBox.Tag.ToString(),
+                    ColorPanel = colorPanel
+                });
             }
             else
             {
                 colorPanel.BackColor = BackColor;
 
-                foreach (YAxisItem entry in YAxisItems)
+                foreach (var entry in YAxisItems)
                 {
                     if (entry.Tag.Equals(checkBox.Tag))
                     {
@@ -348,8 +395,10 @@ namespace CatlabuhApp.UI.Support.Setups
 
             YAxisItemsBox.Clear();
 
-            foreach (YAxisItem entry in YAxisItems)
+            foreach (var entry in YAxisItems)
+            {
                 YAxisItemsBox.Text += entry.Name + " ";
+            }
         }
 
         private class YAxisItem
@@ -398,6 +447,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private void Cancel_Click(object sender, EventArgs e)
         {
+            DialogResult = DialogResult.Cancel;
             Close();
         }
 
@@ -405,63 +455,52 @@ namespace CatlabuhApp.UI.Support.Setups
         {
             if (XAxisItems.Count > 1 && YAxisItems.Count > 0)
             {
-                try
+                string[] itemsOfXAxis = new string[XAxisItems.Count];
+                string[] itemsOfYAxis = new string[YAxisItems.Count];
+                string[] legendItemsNames = new string[YAxisItems.Count];
+                Color[] colorsOfYAxisItems = new Color[YAxisItems.Count];
+
+                int i = 0;
+
+                foreach (var entry in XAxisItems)
                 {
-                    string[] itemsOfXAxis = new string[XAxisItems.Count];
-                    string[] itemsOfYAxis = new string[YAxisItems.Count];
-                    string[] legendItemsNames = new string[YAxisItems.Count];
-                    Color[] colorsOfYAxis = new Color[YAxisItems.Count];
+                    itemsOfXAxis[i] = entry;
+                    i++;
 
-                    int i = 0;
-
-                    foreach (string entry in XAxisItems)
-                    {
-                        itemsOfXAxis[i] = entry;
-                        i++;
-
-                        if (i == XAxisItems.Count) break;
-                    }
-
-                    for (i = 0; i < itemsOfYAxis.Length; i++)
-                    {
-                        itemsOfYAxis[i] = YAxisItems[i].Tag;
-                        legendItemsNames[i] = YAxisItems[i].Name;
-
-                        if (YAxisItems[i].ColorPanel.BackColor != BackColor)
-                            colorsOfYAxis[i] = YAxisItems[i].ColorPanel.BackColor;
-                        else
-                            colorsOfYAxis[i] = Color.Black;
-                    }
-
-                    //if (monthRadio.Checked)
-                    //    new ShowGraphForm(itemsOfXAxis, itemsOfYAxis, legendItemsNames, colorsOfYAxis, yearTextBox.Text).Show();
-
-                    //if (yearsRadio.Checked)
-                    //    new ShowGraphForm(itemsOfXAxis, itemsOfYAxis, colorsOfYAxis, isProcentItems).Show();
+                    if (i == XAxisItems.Count) break;
                 }
-                catch (NullReferenceException)
+
+                for (i = 0; i < itemsOfYAxis.Length; i++)
                 {
-                    //MessageBox.Show(
-                    //"Бракує даних для побудови графіку.",
-                    //"Немає даних",
-                    //MessageBoxButtons.OK,
-                    //MessageBoxIcon.Error);
+                    itemsOfYAxis[i] = YAxisItems[i].Tag;
+                    legendItemsNames[i] = YAxisItems[i].Name;
+
+                    if (YAxisItems[i].ColorPanel.BackColor != BackColor)
+                    {
+                        colorsOfYAxisItems[i] = YAxisItems[i].ColorPanel.BackColor;
+                    }
+                    else
+                    {
+                        colorsOfYAxisItems[i] = Color.Black;
+                    }
                 }
-                catch (ObjectDisposedException) { }
+
+                ItemsOfXAxis = itemsOfXAxis;
+                ItemsOfYAxis = itemsOfYAxis;
+                LegendItemsNames = legendItemsNames;
+                ColorsOfYAxisItems = colorsOfYAxisItems;
+
+                DialogResult = DialogResult.OK;
             }
             else
             {
-                //MessageBox.Show(
-                //   "Недостатньо даних для побудови графіку.\nПеревірте, чи додано хоча б одне значення для осі Y і два значення для осі Х.",
-                //   "Невірні данні",
-                //   MessageBoxButtons.OK,
-                //   MessageBoxIcon.Error);
+                MessageDialog.Show(MessageDialog.AlertTitle2, MessageDialog.AlertText6, MessageDialog.Icon.Alert);
             }
         }
 
         private void SetupGraphForm_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            
+            // TOOD: вызов справки.
         }
 
     }

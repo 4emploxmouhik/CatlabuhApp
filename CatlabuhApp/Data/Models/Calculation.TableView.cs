@@ -70,6 +70,41 @@ namespace CatlabuhApp.Data.Models
 
             return DataAccess.GetTableView(sql);
         }
-        
+
+        public static string[] GetDBColumnsName(PartOfCalculation part)
+        {
+            string[] columnsDBNames = null;
+            
+            switch (part)
+            {
+                case PartOfCalculation.WaterBalanceProfit:
+                    columnsDBNames = new string[]
+                    {
+                        "H1", "H2", "avr_H", "W1", "W2", "dlt_W", "F", "P", "Vp", "Vr", "Vb", "Vg", "Vdr", "EP", "VD_plus", "Voz_plus", "dlt_Vni"
+                    };
+                    break;
+                case PartOfCalculation.WaterBalanceConsumable:
+                    columnsDBNames = new string[]
+                    {
+                        "d", "lgd", "lgE", "E", "Etr", "VE", "Vtr", "Vf", "Vz", "ER", "VD_minus", "Voz_minus"
+                    };
+                    break;
+                case PartOfCalculation.SaltBalanceProfit:
+                    columnsDBNames = new string[]
+                    {
+                        "W1", "W2", "Vp", "Vr", "Vb", "Vg", "Vdr", "VD_plus", "Voz_plus", "S1", "S2", "Sp", "Sr", "Sb",
+                        "Sg", "Sdr", "SD_plus", "Soz_plus", "C1", "C2", "Cp", "Cr", "Cb", "Cg", "Cdr", "CD_plus", "Coz_plus", "EpCi_plus"
+                    };
+                    break;
+                case PartOfCalculation.SaltBalanceConsumable:
+                    columnsDBNames = new string[]
+                    {
+                        "VE", "Vtr", "Vf", "Vz", "VD_minus", "Voz_minus", "Sf", "Sz", "SD_minus", "Soz_minus", "Cf", "Cz", "CD_minus", "Coz_minus", "EpCi_minus"
+                    };
+                    break;
+            }
+
+            return columnsDBNames;
+        }
     }
 }

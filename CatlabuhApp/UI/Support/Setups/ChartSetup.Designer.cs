@@ -31,9 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChartSetup));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.monthRadio = new System.Windows.Forms.RadioButton();
-            this.yearsRadio = new System.Windows.Forms.RadioButton();
             this.monthPanel = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.getAll = new System.Windows.Forms.CheckBox();
@@ -50,6 +47,9 @@
             this.march = new System.Windows.Forms.CheckBox();
             this.february = new System.Windows.Forms.CheckBox();
             this.january = new System.Windows.Forms.CheckBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.monthRadio = new System.Windows.Forms.RadioButton();
+            this.yearsRadio = new System.Windows.Forms.RadioButton();
             this.yearsPanel = new System.Windows.Forms.Panel();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
@@ -71,105 +71,104 @@
             this.sumRadio = new System.Windows.Forms.RadioButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.panel20 = new System.Windows.Forms.Panel();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.checkBox18 = new System.Windows.Forms.CheckBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.panel37 = new System.Windows.Forms.Panel();
-            this.panel36 = new System.Windows.Forms.Panel();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.panel28 = new System.Windows.Forms.Panel();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.checkBox28 = new System.Windows.Forms.CheckBox();
-            this.checkBox37 = new System.Windows.Forms.CheckBox();
-            this.checkBox36 = new System.Windows.Forms.CheckBox();
-            this.checkBox35 = new System.Windows.Forms.CheckBox();
-            this.checkBox34 = new System.Windows.Forms.CheckBox();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
-            this.checkBox33 = new System.Windows.Forms.CheckBox();
-            this.checkBox29 = new System.Windows.Forms.CheckBox();
-            this.checkBox32 = new System.Windows.Forms.CheckBox();
-            this.checkBox30 = new System.Windows.Forms.CheckBox();
-            this.checkBox31 = new System.Windows.Forms.CheckBox();
+            this.sbppPanel = new System.Windows.Forms.Panel();
+            this.panel48 = new System.Windows.Forms.Panel();
+            this.checkBox48 = new System.Windows.Forms.CheckBox();
+            this.panel47 = new System.Windows.Forms.Panel();
             this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
+            this.checkBox47 = new System.Windows.Forms.CheckBox();
+            this.checkBox28 = new System.Windows.Forms.CheckBox();
+            this.panel37 = new System.Windows.Forms.Panel();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.checkBox37 = new System.Windows.Forms.CheckBox();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.panel22 = new System.Windows.Forms.Panel();
             this.checkBox24 = new System.Windows.Forms.CheckBox();
+            this.checkBox36 = new System.Windows.Forms.CheckBox();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.checkBox23 = new System.Windows.Forms.CheckBox();
+            this.checkBox35 = new System.Windows.Forms.CheckBox();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.checkBox25 = new System.Windows.Forms.CheckBox();
+            this.checkBox34 = new System.Windows.Forms.CheckBox();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.checkBox22 = new System.Windows.Forms.CheckBox();
+            this.checkBox27 = new System.Windows.Forms.CheckBox();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.checkBox26 = new System.Windows.Forms.CheckBox();
+            this.checkBox33 = new System.Windows.Forms.CheckBox();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.checkBox31 = new System.Windows.Forms.CheckBox();
+            this.checkBox29 = new System.Windows.Forms.CheckBox();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.checkBox30 = new System.Windows.Forms.CheckBox();
+            this.checkBox32 = new System.Windows.Forms.CheckBox();
+            this.panel29 = new System.Windows.Forms.Panel();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.panel46 = new System.Windows.Forms.Panel();
+            this.checkBox38 = new System.Windows.Forms.CheckBox();
             this.panel45 = new System.Windows.Forms.Panel();
+            this.checkBox41 = new System.Windows.Forms.CheckBox();
             this.panel44 = new System.Windows.Forms.Panel();
+            this.checkBox40 = new System.Windows.Forms.CheckBox();
             this.panel43 = new System.Windows.Forms.Panel();
+            this.checkBox42 = new System.Windows.Forms.CheckBox();
             this.panel42 = new System.Windows.Forms.Panel();
+            this.checkBox39 = new System.Windows.Forms.CheckBox();
             this.panel41 = new System.Windows.Forms.Panel();
+            this.checkBox43 = new System.Windows.Forms.CheckBox();
             this.panel40 = new System.Windows.Forms.Panel();
+            this.checkBox45 = new System.Windows.Forms.CheckBox();
             this.panel39 = new System.Windows.Forms.Panel();
+            this.checkBox44 = new System.Windows.Forms.CheckBox();
             this.panel38 = new System.Windows.Forms.Panel();
             this.checkBox46 = new System.Windows.Forms.CheckBox();
-            this.checkBox44 = new System.Windows.Forms.CheckBox();
-            this.checkBox45 = new System.Windows.Forms.CheckBox();
-            this.checkBox38 = new System.Windows.Forms.CheckBox();
-            this.checkBox43 = new System.Windows.Forms.CheckBox();
-            this.checkBox39 = new System.Windows.Forms.CheckBox();
-            this.checkBox42 = new System.Windows.Forms.CheckBox();
-            this.checkBox40 = new System.Windows.Forms.CheckBox();
-            this.checkBox41 = new System.Windows.Forms.CheckBox();
             this.XAxisItemsBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.YAxisItemsBox = new System.Windows.Forms.TextBox();
@@ -182,8 +181,8 @@
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.colorDialog = new System.Windows.Forms.ColorDialog();
             this.groupBox1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.monthPanel.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.yearsPanel.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -192,50 +191,21 @@
             this.groupBox9.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.groupBox5.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.groupBox6.SuspendLayout();
+            this.sbppPanel.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.monthPanel);
+            this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.yearsPanel);
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.monthRadio);
-            this.groupBox3.Controls.Add(this.yearsRadio);
-            resources.ApplyResources(this.groupBox3, "groupBox3");
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.TabStop = false;
-            // 
-            // monthRadio
-            // 
-            resources.ApplyResources(this.monthRadio, "monthRadio");
-            this.monthRadio.Name = "monthRadio";
-            this.monthRadio.Tag = "months";
-            this.monthRadio.UseVisualStyleBackColor = true;
-            this.monthRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
-            // 
-            // yearsRadio
-            // 
-            resources.ApplyResources(this.yearsRadio, "yearsRadio");
-            this.yearsRadio.Checked = true;
-            this.yearsRadio.Name = "yearsRadio";
-            this.yearsRadio.TabStop = true;
-            this.yearsRadio.Tag = "years";
-            this.yearsRadio.UseVisualStyleBackColor = true;
-            this.yearsRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
             // monthPanel
             // 
@@ -373,6 +343,32 @@
             this.january.Tag = "Січ.";
             this.january.UseVisualStyleBackColor = true;
             this.january.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.monthRadio);
+            this.groupBox3.Controls.Add(this.yearsRadio);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
+            // 
+            // monthRadio
+            // 
+            resources.ApplyResources(this.monthRadio, "monthRadio");
+            this.monthRadio.Name = "monthRadio";
+            this.monthRadio.Tag = "months";
+            this.monthRadio.UseVisualStyleBackColor = true;
+            this.monthRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
+            // 
+            // yearsRadio
+            // 
+            resources.ApplyResources(this.yearsRadio, "yearsRadio");
+            this.yearsRadio.Checked = true;
+            this.yearsRadio.Name = "yearsRadio";
+            this.yearsRadio.TabStop = true;
+            this.yearsRadio.Tag = "years";
+            this.yearsRadio.UseVisualStyleBackColor = true;
+            this.yearsRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
             // yearsPanel
             // 
@@ -532,40 +528,33 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage1.Controls.Add(this.groupBox4);
+            this.tabPage1.Controls.Add(this.panel12);
+            this.tabPage1.Controls.Add(this.checkBox1);
+            this.tabPage1.Controls.Add(this.panel11);
+            this.tabPage1.Controls.Add(this.checkBox4);
+            this.tabPage1.Controls.Add(this.panel10);
+            this.tabPage1.Controls.Add(this.checkBox3);
+            this.tabPage1.Controls.Add(this.panel9);
+            this.tabPage1.Controls.Add(this.checkBox5);
+            this.tabPage1.Controls.Add(this.panel8);
+            this.tabPage1.Controls.Add(this.checkBox2);
+            this.tabPage1.Controls.Add(this.panel7);
+            this.tabPage1.Controls.Add(this.checkBox6);
+            this.tabPage1.Controls.Add(this.panel6);
+            this.tabPage1.Controls.Add(this.checkBox10);
+            this.tabPage1.Controls.Add(this.panel5);
+            this.tabPage1.Controls.Add(this.checkBox9);
+            this.tabPage1.Controls.Add(this.panel4);
+            this.tabPage1.Controls.Add(this.checkBox11);
+            this.tabPage1.Controls.Add(this.panel3);
+            this.tabPage1.Controls.Add(this.checkBox8);
+            this.tabPage1.Controls.Add(this.panel2);
+            this.tabPage1.Controls.Add(this.checkBox12);
+            this.tabPage1.Controls.Add(this.panel1);
+            this.tabPage1.Controls.Add(this.checkBox7);
             resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.panel12);
-            this.groupBox4.Controls.Add(this.panel11);
-            this.groupBox4.Controls.Add(this.panel10);
-            this.groupBox4.Controls.Add(this.panel9);
-            this.groupBox4.Controls.Add(this.panel8);
-            this.groupBox4.Controls.Add(this.panel7);
-            this.groupBox4.Controls.Add(this.panel6);
-            this.groupBox4.Controls.Add(this.panel5);
-            this.groupBox4.Controls.Add(this.panel4);
-            this.groupBox4.Controls.Add(this.panel3);
-            this.groupBox4.Controls.Add(this.panel2);
-            this.groupBox4.Controls.Add(this.panel1);
-            this.groupBox4.Controls.Add(this.checkBox7);
-            this.groupBox4.Controls.Add(this.checkBox12);
-            this.groupBox4.Controls.Add(this.checkBox8);
-            this.groupBox4.Controls.Add(this.checkBox11);
-            this.groupBox4.Controls.Add(this.checkBox9);
-            this.groupBox4.Controls.Add(this.checkBox10);
-            this.groupBox4.Controls.Add(this.checkBox1);
-            this.groupBox4.Controls.Add(this.checkBox6);
-            this.groupBox4.Controls.Add(this.checkBox2);
-            this.groupBox4.Controls.Add(this.checkBox5);
-            this.groupBox4.Controls.Add(this.checkBox3);
-            this.groupBox4.Controls.Add(this.checkBox4);
-            resources.ApplyResources(this.groupBox4, "groupBox4");
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.TabStop = false;
-            this.toolTip.SetToolTip(this.groupBox4, resources.GetString("groupBox4.ToolTip"));
+            this.toolTip.SetToolTip(this.tabPage1, resources.GetString("tabPage1.ToolTip"));
             // 
             // panel12
             // 
@@ -575,6 +564,15 @@
             this.panel12.Tag = "dlt_Vni";
             this.panel12.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox1
+            // 
+            resources.ApplyResources(this.checkBox1, "checkBox1");
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Tag = "avr_H";
+            this.toolTip.SetToolTip(this.checkBox1, resources.GetString("checkBox1.ToolTip"));
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -582,6 +580,15 @@
             this.panel11.Name = "panel11";
             this.panel11.Tag = "EP";
             this.panel11.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox4
+            // 
+            resources.ApplyResources(this.checkBox4, "checkBox4");
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Tag = "dlt_W";
+            this.toolTip.SetToolTip(this.checkBox4, resources.GetString("checkBox4.ToolTip"));
+            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel10
             // 
@@ -591,6 +598,15 @@
             this.panel10.Tag = "Vdr";
             this.panel10.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox3
+            // 
+            resources.ApplyResources(this.checkBox3, "checkBox3");
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Tag = "W2";
+            this.toolTip.SetToolTip(this.checkBox3, resources.GetString("checkBox3.ToolTip"));
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -598,6 +614,15 @@
             this.panel9.Name = "panel9";
             this.panel9.Tag = "Vg";
             this.panel9.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox5
+            // 
+            resources.ApplyResources(this.checkBox5, "checkBox5");
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Tag = "F";
+            this.toolTip.SetToolTip(this.checkBox5, resources.GetString("checkBox5.ToolTip"));
+            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel8
             // 
@@ -607,6 +632,15 @@
             this.panel8.Tag = "Vb";
             this.panel8.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox2
+            // 
+            resources.ApplyResources(this.checkBox2, "checkBox2");
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Tag = "W1";
+            this.toolTip.SetToolTip(this.checkBox2, resources.GetString("checkBox2.ToolTip"));
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -614,6 +648,15 @@
             this.panel7.Name = "panel7";
             this.panel7.Tag = "Vr";
             this.panel7.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox6
+            // 
+            resources.ApplyResources(this.checkBox6, "checkBox6");
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Tag = "Vp";
+            this.toolTip.SetToolTip(this.checkBox6, resources.GetString("checkBox6.ToolTip"));
+            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel6
             // 
@@ -623,6 +666,15 @@
             this.panel6.Tag = "Vp";
             this.panel6.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox10
+            // 
+            resources.ApplyResources(this.checkBox10, "checkBox10");
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Tag = "Vdr";
+            this.toolTip.SetToolTip(this.checkBox10, resources.GetString("checkBox10.ToolTip"));
+            this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBox10.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -630,6 +682,15 @@
             this.panel5.Name = "panel5";
             this.panel5.Tag = "F";
             this.panel5.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox9
+            // 
+            resources.ApplyResources(this.checkBox9, "checkBox9");
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Tag = "Vg";
+            this.toolTip.SetToolTip(this.checkBox9, resources.GetString("checkBox9.ToolTip"));
+            this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox9.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel4
             // 
@@ -639,6 +700,15 @@
             this.panel4.Tag = "dlt_W";
             this.panel4.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox11
+            // 
+            resources.ApplyResources(this.checkBox11, "checkBox11");
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Tag = "EP";
+            this.toolTip.SetToolTip(this.checkBox11, resources.GetString("checkBox11.ToolTip"));
+            this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBox11.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -647,6 +717,15 @@
             this.panel3.Tag = "W2";
             this.panel3.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox8
+            // 
+            resources.ApplyResources(this.checkBox8, "checkBox8");
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Tag = "Vb";
+            this.toolTip.SetToolTip(this.checkBox8, resources.GetString("checkBox8.ToolTip"));
+            this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -654,6 +733,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Tag = "W1";
             this.panel2.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox12
+            // 
+            resources.ApplyResources(this.checkBox12, "checkBox12");
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Tag = "dlt_Vni";
+            this.toolTip.SetToolTip(this.checkBox12, resources.GetString("checkBox12.ToolTip"));
+            this.checkBox12.UseVisualStyleBackColor = true;
+            this.checkBox12.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel1
             // 
@@ -672,142 +760,35 @@
             this.checkBox7.UseVisualStyleBackColor = true;
             this.checkBox7.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
-            // checkBox12
-            // 
-            resources.ApplyResources(this.checkBox12, "checkBox12");
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Tag = "dlt_Vni";
-            this.toolTip.SetToolTip(this.checkBox12, resources.GetString("checkBox12.ToolTip"));
-            this.checkBox12.UseVisualStyleBackColor = true;
-            this.checkBox12.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox8
-            // 
-            resources.ApplyResources(this.checkBox8, "checkBox8");
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Tag = "Vb";
-            this.toolTip.SetToolTip(this.checkBox8, resources.GetString("checkBox8.ToolTip"));
-            this.checkBox8.UseVisualStyleBackColor = true;
-            this.checkBox8.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox11
-            // 
-            resources.ApplyResources(this.checkBox11, "checkBox11");
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Tag = "EP";
-            this.toolTip.SetToolTip(this.checkBox11, resources.GetString("checkBox11.ToolTip"));
-            this.checkBox11.UseVisualStyleBackColor = true;
-            this.checkBox11.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox9
-            // 
-            resources.ApplyResources(this.checkBox9, "checkBox9");
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Tag = "Vg";
-            this.toolTip.SetToolTip(this.checkBox9, resources.GetString("checkBox9.ToolTip"));
-            this.checkBox9.UseVisualStyleBackColor = true;
-            this.checkBox9.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox10
-            // 
-            resources.ApplyResources(this.checkBox10, "checkBox10");
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Tag = "Vdr";
-            this.toolTip.SetToolTip(this.checkBox10, resources.GetString("checkBox10.ToolTip"));
-            this.checkBox10.UseVisualStyleBackColor = true;
-            this.checkBox10.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox1
-            // 
-            resources.ApplyResources(this.checkBox1, "checkBox1");
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.checkBox1, resources.GetString("checkBox1.ToolTip"));
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox6
-            // 
-            resources.ApplyResources(this.checkBox6, "checkBox6");
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Tag = "Vp";
-            this.toolTip.SetToolTip(this.checkBox6, resources.GetString("checkBox6.ToolTip"));
-            this.checkBox6.UseVisualStyleBackColor = true;
-            this.checkBox6.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox2
-            // 
-            resources.ApplyResources(this.checkBox2, "checkBox2");
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Tag = "W1";
-            this.toolTip.SetToolTip(this.checkBox2, resources.GetString("checkBox2.ToolTip"));
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox5
-            // 
-            resources.ApplyResources(this.checkBox5, "checkBox5");
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Tag = "F";
-            this.toolTip.SetToolTip(this.checkBox5, resources.GetString("checkBox5.ToolTip"));
-            this.checkBox5.UseVisualStyleBackColor = true;
-            this.checkBox5.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox3
-            // 
-            resources.ApplyResources(this.checkBox3, "checkBox3");
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Tag = "W2";
-            this.toolTip.SetToolTip(this.checkBox3, resources.GetString("checkBox3.ToolTip"));
-            this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox4
-            // 
-            resources.ApplyResources(this.checkBox4, "checkBox4");
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Tag = "dlt_W";
-            this.toolTip.SetToolTip(this.checkBox4, resources.GetString("checkBox4.ToolTip"));
-            this.checkBox4.UseVisualStyleBackColor = true;
-            this.checkBox4.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage2.Controls.Add(this.groupBox5);
+            this.tabPage2.Controls.Add(this.checkBox13);
+            this.tabPage2.Controls.Add(this.panel19);
+            this.tabPage2.Controls.Add(this.checkBox16);
+            this.tabPage2.Controls.Add(this.panel18);
+            this.tabPage2.Controls.Add(this.checkBox15);
+            this.tabPage2.Controls.Add(this.panel17);
+            this.tabPage2.Controls.Add(this.checkBox17);
+            this.tabPage2.Controls.Add(this.panel16);
+            this.tabPage2.Controls.Add(this.checkBox14);
+            this.tabPage2.Controls.Add(this.panel15);
+            this.tabPage2.Controls.Add(this.checkBox18);
+            this.tabPage2.Controls.Add(this.panel14);
+            this.tabPage2.Controls.Add(this.panel13);
+            this.tabPage2.Controls.Add(this.checkBox19);
             resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
+            this.toolTip.SetToolTip(this.tabPage2, resources.GetString("tabPage2.ToolTip"));
             // 
-            // groupBox5
+            // checkBox13
             // 
-            this.groupBox5.Controls.Add(this.panel20);
-            this.groupBox5.Controls.Add(this.panel19);
-            this.groupBox5.Controls.Add(this.panel18);
-            this.groupBox5.Controls.Add(this.panel17);
-            this.groupBox5.Controls.Add(this.panel16);
-            this.groupBox5.Controls.Add(this.panel15);
-            this.groupBox5.Controls.Add(this.panel14);
-            this.groupBox5.Controls.Add(this.panel13);
-            this.groupBox5.Controls.Add(this.checkBox19);
-            this.groupBox5.Controls.Add(this.checkBox20);
-            this.groupBox5.Controls.Add(this.checkBox13);
-            this.groupBox5.Controls.Add(this.checkBox18);
-            this.groupBox5.Controls.Add(this.checkBox14);
-            this.groupBox5.Controls.Add(this.checkBox17);
-            this.groupBox5.Controls.Add(this.checkBox15);
-            this.groupBox5.Controls.Add(this.checkBox16);
-            resources.ApplyResources(this.groupBox5, "groupBox5");
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.TabStop = false;
-            this.toolTip.SetToolTip(this.groupBox5, resources.GetString("groupBox5.ToolTip"));
-            // 
-            // panel20
-            // 
-            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel20, "panel20");
-            this.panel20.Name = "panel20";
-            this.panel20.Tag = "Voz";
-            this.panel20.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            resources.ApplyResources(this.checkBox13, "checkBox13");
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Tag = "lgd";
+            this.toolTip.SetToolTip(this.checkBox13, resources.GetString("checkBox13.ToolTip"));
+            this.checkBox13.UseVisualStyleBackColor = true;
+            this.checkBox13.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel19
             // 
@@ -817,6 +798,15 @@
             this.panel19.Tag = "ER";
             this.panel19.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox16
+            // 
+            resources.ApplyResources(this.checkBox16, "checkBox16");
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Tag = "VE";
+            this.toolTip.SetToolTip(this.checkBox16, resources.GetString("checkBox16.ToolTip"));
+            this.checkBox16.UseVisualStyleBackColor = true;
+            this.checkBox16.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel18
             // 
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -824,6 +814,15 @@
             this.panel18.Name = "panel18";
             this.panel18.Tag = "Vf";
             this.panel18.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox15
+            // 
+            resources.ApplyResources(this.checkBox15, "checkBox15");
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Tag = "Etr";
+            this.toolTip.SetToolTip(this.checkBox15, resources.GetString("checkBox15.ToolTip"));
+            this.checkBox15.UseVisualStyleBackColor = true;
+            this.checkBox15.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel17
             // 
@@ -833,6 +832,15 @@
             this.panel17.Tag = "Vtr";
             this.panel17.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox17
+            // 
+            resources.ApplyResources(this.checkBox17, "checkBox17");
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.Tag = "Vtr";
+            this.toolTip.SetToolTip(this.checkBox17, resources.GetString("checkBox17.ToolTip"));
+            this.checkBox17.UseVisualStyleBackColor = true;
+            this.checkBox17.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel16
             // 
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -841,6 +849,15 @@
             this.panel16.Tag = "VE";
             this.panel16.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox14
+            // 
+            resources.ApplyResources(this.checkBox14, "checkBox14");
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Tag = "lgE";
+            this.toolTip.SetToolTip(this.checkBox14, resources.GetString("checkBox14.ToolTip"));
+            this.checkBox14.UseVisualStyleBackColor = true;
+            this.checkBox14.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel15
             // 
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -848,6 +865,15 @@
             this.panel15.Name = "panel15";
             this.panel15.Tag = "Etr";
             this.panel15.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox18
+            // 
+            resources.ApplyResources(this.checkBox18, "checkBox18");
+            this.checkBox18.Name = "checkBox18";
+            this.checkBox18.Tag = "Vf";
+            this.toolTip.SetToolTip(this.checkBox18, resources.GetString("checkBox18.ToolTip"));
+            this.checkBox18.UseVisualStyleBackColor = true;
+            this.checkBox18.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel14
             // 
@@ -874,351 +900,81 @@
             this.checkBox19.UseVisualStyleBackColor = true;
             this.checkBox19.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
-            // checkBox20
-            // 
-            resources.ApplyResources(this.checkBox20, "checkBox20");
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Tag = "Voz";
-            this.toolTip.SetToolTip(this.checkBox20, resources.GetString("checkBox20.ToolTip"));
-            this.checkBox20.UseVisualStyleBackColor = true;
-            this.checkBox20.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox13
-            // 
-            resources.ApplyResources(this.checkBox13, "checkBox13");
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Tag = "lgd";
-            this.toolTip.SetToolTip(this.checkBox13, resources.GetString("checkBox13.ToolTip"));
-            this.checkBox13.UseVisualStyleBackColor = true;
-            this.checkBox13.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox18
-            // 
-            resources.ApplyResources(this.checkBox18, "checkBox18");
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Tag = "Vf";
-            this.toolTip.SetToolTip(this.checkBox18, resources.GetString("checkBox18.ToolTip"));
-            this.checkBox18.UseVisualStyleBackColor = true;
-            this.checkBox18.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox14
-            // 
-            resources.ApplyResources(this.checkBox14, "checkBox14");
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Tag = "lgE";
-            this.toolTip.SetToolTip(this.checkBox14, resources.GetString("checkBox14.ToolTip"));
-            this.checkBox14.UseVisualStyleBackColor = true;
-            this.checkBox14.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox17
-            // 
-            resources.ApplyResources(this.checkBox17, "checkBox17");
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Tag = "Vtr";
-            this.toolTip.SetToolTip(this.checkBox17, resources.GetString("checkBox17.ToolTip"));
-            this.checkBox17.UseVisualStyleBackColor = true;
-            this.checkBox17.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox15
-            // 
-            resources.ApplyResources(this.checkBox15, "checkBox15");
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Tag = "Etr";
-            this.toolTip.SetToolTip(this.checkBox15, resources.GetString("checkBox15.ToolTip"));
-            this.checkBox15.UseVisualStyleBackColor = true;
-            this.checkBox15.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox16
-            // 
-            resources.ApplyResources(this.checkBox16, "checkBox16");
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Tag = "VE";
-            this.toolTip.SetToolTip(this.checkBox16, resources.GetString("checkBox16.ToolTip"));
-            this.checkBox16.UseVisualStyleBackColor = true;
-            this.checkBox16.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage3.Controls.Add(this.groupBox6);
             resources.ApplyResources(this.tabPage3, "tabPage3");
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.sbppPanel);
             this.tabPage3.Name = "tabPage3";
             // 
-            // groupBox6
+            // sbppPanel
             // 
-            this.groupBox6.Controls.Add(this.panel37);
-            this.groupBox6.Controls.Add(this.panel36);
-            this.groupBox6.Controls.Add(this.panel35);
-            this.groupBox6.Controls.Add(this.panel34);
-            this.groupBox6.Controls.Add(this.panel33);
-            this.groupBox6.Controls.Add(this.panel32);
-            this.groupBox6.Controls.Add(this.panel31);
-            this.groupBox6.Controls.Add(this.panel30);
-            this.groupBox6.Controls.Add(this.panel29);
-            this.groupBox6.Controls.Add(this.panel28);
-            this.groupBox6.Controls.Add(this.panel27);
-            this.groupBox6.Controls.Add(this.panel26);
-            this.groupBox6.Controls.Add(this.panel25);
-            this.groupBox6.Controls.Add(this.panel24);
-            this.groupBox6.Controls.Add(this.panel23);
-            this.groupBox6.Controls.Add(this.panel22);
-            this.groupBox6.Controls.Add(this.panel21);
-            this.groupBox6.Controls.Add(this.checkBox28);
-            this.groupBox6.Controls.Add(this.checkBox37);
-            this.groupBox6.Controls.Add(this.checkBox36);
-            this.groupBox6.Controls.Add(this.checkBox35);
-            this.groupBox6.Controls.Add(this.checkBox34);
-            this.groupBox6.Controls.Add(this.checkBox27);
-            this.groupBox6.Controls.Add(this.checkBox33);
-            this.groupBox6.Controls.Add(this.checkBox29);
-            this.groupBox6.Controls.Add(this.checkBox32);
-            this.groupBox6.Controls.Add(this.checkBox30);
-            this.groupBox6.Controls.Add(this.checkBox31);
-            this.groupBox6.Controls.Add(this.checkBox21);
-            this.groupBox6.Controls.Add(this.checkBox26);
-            this.groupBox6.Controls.Add(this.checkBox22);
-            this.groupBox6.Controls.Add(this.checkBox25);
-            this.groupBox6.Controls.Add(this.checkBox23);
-            this.groupBox6.Controls.Add(this.checkBox24);
-            resources.ApplyResources(this.groupBox6, "groupBox6");
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.TabStop = false;
-            this.toolTip.SetToolTip(this.groupBox6, resources.GetString("groupBox6.ToolTip"));
+            this.sbppPanel.Controls.Add(this.panel48);
+            this.sbppPanel.Controls.Add(this.checkBox48);
+            this.sbppPanel.Controls.Add(this.panel47);
+            this.sbppPanel.Controls.Add(this.checkBox21);
+            this.sbppPanel.Controls.Add(this.checkBox47);
+            this.sbppPanel.Controls.Add(this.checkBox28);
+            this.sbppPanel.Controls.Add(this.panel37);
+            this.sbppPanel.Controls.Add(this.panel21);
+            this.sbppPanel.Controls.Add(this.checkBox37);
+            this.sbppPanel.Controls.Add(this.panel36);
+            this.sbppPanel.Controls.Add(this.panel22);
+            this.sbppPanel.Controls.Add(this.checkBox24);
+            this.sbppPanel.Controls.Add(this.checkBox36);
+            this.sbppPanel.Controls.Add(this.panel35);
+            this.sbppPanel.Controls.Add(this.panel23);
+            this.sbppPanel.Controls.Add(this.checkBox23);
+            this.sbppPanel.Controls.Add(this.checkBox35);
+            this.sbppPanel.Controls.Add(this.panel34);
+            this.sbppPanel.Controls.Add(this.panel24);
+            this.sbppPanel.Controls.Add(this.checkBox25);
+            this.sbppPanel.Controls.Add(this.checkBox34);
+            this.sbppPanel.Controls.Add(this.panel33);
+            this.sbppPanel.Controls.Add(this.panel25);
+            this.sbppPanel.Controls.Add(this.checkBox22);
+            this.sbppPanel.Controls.Add(this.checkBox27);
+            this.sbppPanel.Controls.Add(this.panel32);
+            this.sbppPanel.Controls.Add(this.panel26);
+            this.sbppPanel.Controls.Add(this.checkBox26);
+            this.sbppPanel.Controls.Add(this.checkBox33);
+            this.sbppPanel.Controls.Add(this.panel31);
+            this.sbppPanel.Controls.Add(this.panel27);
+            this.sbppPanel.Controls.Add(this.checkBox31);
+            this.sbppPanel.Controls.Add(this.checkBox29);
+            this.sbppPanel.Controls.Add(this.panel30);
+            this.sbppPanel.Controls.Add(this.panel28);
+            this.sbppPanel.Controls.Add(this.checkBox30);
+            this.sbppPanel.Controls.Add(this.checkBox32);
+            this.sbppPanel.Controls.Add(this.panel29);
+            resources.ApplyResources(this.sbppPanel, "sbppPanel");
+            this.sbppPanel.Name = "sbppPanel";
+            this.toolTip.SetToolTip(this.sbppPanel, resources.GetString("sbppPanel.ToolTip"));
             // 
-            // panel37
+            // panel48
             // 
-            this.panel37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel37, "panel37");
-            this.panel37.Name = "panel37";
-            this.panel37.Tag = "EpCi_plus";
-            this.panel37.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            this.panel48.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel48, "panel48");
+            this.panel48.Name = "panel48";
+            this.panel48.Tag = "Coz_plus";
+            this.panel48.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
-            // panel36
+            // checkBox48
             // 
-            this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel36, "panel36");
-            this.panel36.Name = "panel36";
-            this.panel36.Tag = "CD_plus";
-            this.panel36.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            resources.ApplyResources(this.checkBox48, "checkBox48");
+            this.checkBox48.Name = "checkBox48";
+            this.checkBox48.Tag = "Coz_plus";
+            this.toolTip.SetToolTip(this.checkBox48, resources.GetString("checkBox48.ToolTip"));
+            this.checkBox48.UseVisualStyleBackColor = true;
+            this.checkBox48.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
-            // panel35
+            // panel47
             // 
-            this.panel35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel35, "panel35");
-            this.panel35.Name = "panel35";
-            this.panel35.Tag = "Cdr";
-            this.panel35.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel34
-            // 
-            this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel34, "panel34");
-            this.panel34.Name = "panel34";
-            this.panel34.Tag = "Cg";
-            this.panel34.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel33
-            // 
-            this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel33, "panel33");
-            this.panel33.Name = "panel33";
-            this.panel33.Tag = "Cb";
-            this.panel33.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel32
-            // 
-            this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel32, "panel32");
-            this.panel32.Name = "panel32";
-            this.panel32.Tag = "Cr";
-            this.panel32.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel31
-            // 
-            this.panel31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel31, "panel31");
-            this.panel31.Name = "panel31";
-            this.panel31.Tag = "Cp";
-            this.panel31.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel30
-            // 
-            this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel30, "panel30");
-            this.panel30.Name = "panel30";
-            this.panel30.Tag = "C2";
-            this.panel30.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel29
-            // 
-            this.panel29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel29, "panel29");
-            this.panel29.Name = "panel29";
-            this.panel29.Tag = "C1";
-            this.panel29.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel28
-            // 
-            this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel28, "panel28");
-            this.panel28.Name = "panel28";
-            this.panel28.Tag = "SD_plus";
-            this.panel28.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel27
-            // 
-            this.panel27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel27, "panel27");
-            this.panel27.Name = "panel27";
-            this.panel27.Tag = "Sdr";
-            this.panel27.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel26
-            // 
-            this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel26, "panel26");
-            this.panel26.Name = "panel26";
-            this.panel26.Tag = "Sg";
-            this.panel26.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel25
-            // 
-            this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel25, "panel25");
-            this.panel25.Name = "panel25";
-            this.panel25.Tag = "Sb";
-            this.panel25.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel24
-            // 
-            this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel24, "panel24");
-            this.panel24.Name = "panel24";
-            this.panel24.Tag = "Sr";
-            this.panel24.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel23
-            // 
-            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel23, "panel23");
-            this.panel23.Name = "panel23";
-            this.panel23.Tag = "Sp";
-            this.panel23.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel22
-            // 
-            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel22, "panel22");
-            this.panel22.Name = "panel22";
-            this.panel22.Tag = "S2";
-            this.panel22.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // panel21
-            // 
-            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.panel21, "panel21");
-            this.panel21.Name = "panel21";
-            this.panel21.Tag = "S1";
-            this.panel21.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
-            // 
-            // checkBox28
-            // 
-            resources.ApplyResources(this.checkBox28, "checkBox28");
-            this.checkBox28.Name = "checkBox28";
-            this.checkBox28.Tag = "SD_plus";
-            this.toolTip.SetToolTip(this.checkBox28, resources.GetString("checkBox28.ToolTip"));
-            this.checkBox28.UseVisualStyleBackColor = true;
-            this.checkBox28.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox37
-            // 
-            resources.ApplyResources(this.checkBox37, "checkBox37");
-            this.checkBox37.Name = "checkBox37";
-            this.checkBox37.Tag = "EpCi_plus";
-            this.toolTip.SetToolTip(this.checkBox37, resources.GetString("checkBox37.ToolTip"));
-            this.checkBox37.UseVisualStyleBackColor = true;
-            this.checkBox37.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox36
-            // 
-            resources.ApplyResources(this.checkBox36, "checkBox36");
-            this.checkBox36.Name = "checkBox36";
-            this.checkBox36.Tag = "CD_plus";
-            this.toolTip.SetToolTip(this.checkBox36, resources.GetString("checkBox36.ToolTip"));
-            this.checkBox36.UseVisualStyleBackColor = true;
-            this.checkBox36.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox35
-            // 
-            resources.ApplyResources(this.checkBox35, "checkBox35");
-            this.checkBox35.Name = "checkBox35";
-            this.checkBox35.Tag = "Cdr";
-            this.toolTip.SetToolTip(this.checkBox35, resources.GetString("checkBox35.ToolTip"));
-            this.checkBox35.UseVisualStyleBackColor = true;
-            this.checkBox35.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox34
-            // 
-            resources.ApplyResources(this.checkBox34, "checkBox34");
-            this.checkBox34.Name = "checkBox34";
-            this.checkBox34.Tag = "Cg";
-            this.toolTip.SetToolTip(this.checkBox34, resources.GetString("checkBox34.ToolTip"));
-            this.checkBox34.UseVisualStyleBackColor = true;
-            this.checkBox34.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox27
-            // 
-            resources.ApplyResources(this.checkBox27, "checkBox27");
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Tag = "Sdr";
-            this.toolTip.SetToolTip(this.checkBox27, resources.GetString("checkBox27.ToolTip"));
-            this.checkBox27.UseVisualStyleBackColor = true;
-            this.checkBox27.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox33
-            // 
-            resources.ApplyResources(this.checkBox33, "checkBox33");
-            this.checkBox33.Name = "checkBox33";
-            this.checkBox33.Tag = "Cb";
-            this.toolTip.SetToolTip(this.checkBox33, resources.GetString("checkBox33.ToolTip"));
-            this.checkBox33.UseVisualStyleBackColor = true;
-            this.checkBox33.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox29
-            // 
-            resources.ApplyResources(this.checkBox29, "checkBox29");
-            this.checkBox29.Name = "checkBox29";
-            this.checkBox29.Tag = "C1";
-            this.toolTip.SetToolTip(this.checkBox29, resources.GetString("checkBox29.ToolTip"));
-            this.checkBox29.UseVisualStyleBackColor = true;
-            this.checkBox29.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox32
-            // 
-            resources.ApplyResources(this.checkBox32, "checkBox32");
-            this.checkBox32.Name = "checkBox32";
-            this.checkBox32.Tag = "Cr";
-            this.toolTip.SetToolTip(this.checkBox32, resources.GetString("checkBox32.ToolTip"));
-            this.checkBox32.UseVisualStyleBackColor = true;
-            this.checkBox32.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox30
-            // 
-            resources.ApplyResources(this.checkBox30, "checkBox30");
-            this.checkBox30.Name = "checkBox30";
-            this.checkBox30.Tag = "C2";
-            this.toolTip.SetToolTip(this.checkBox30, resources.GetString("checkBox30.ToolTip"));
-            this.checkBox30.UseVisualStyleBackColor = true;
-            this.checkBox30.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox31
-            // 
-            resources.ApplyResources(this.checkBox31, "checkBox31");
-            this.checkBox31.Name = "checkBox31";
-            this.checkBox31.Tag = "Cp";
-            this.toolTip.SetToolTip(this.checkBox31, resources.GetString("checkBox31.ToolTip"));
-            this.checkBox31.UseVisualStyleBackColor = true;
-            this.checkBox31.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            this.panel47.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel47, "panel47");
+            this.panel47.Name = "panel47";
+            this.panel47.Tag = "Soz_plus";
+            this.panel47.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // checkBox21
             // 
@@ -1229,41 +985,64 @@
             this.checkBox21.UseVisualStyleBackColor = true;
             this.checkBox21.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
-            // checkBox26
+            // checkBox47
             // 
-            resources.ApplyResources(this.checkBox26, "checkBox26");
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Tag = "Sg";
-            this.toolTip.SetToolTip(this.checkBox26, resources.GetString("checkBox26.ToolTip"));
-            this.checkBox26.UseVisualStyleBackColor = true;
-            this.checkBox26.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            resources.ApplyResources(this.checkBox47, "checkBox47");
+            this.checkBox47.Name = "checkBox47";
+            this.checkBox47.Tag = "Soz_plus";
+            this.toolTip.SetToolTip(this.checkBox47, resources.GetString("checkBox47.ToolTip"));
+            this.checkBox47.UseVisualStyleBackColor = true;
+            this.checkBox47.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
-            // checkBox22
+            // checkBox28
             // 
-            resources.ApplyResources(this.checkBox22, "checkBox22");
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Tag = "S2";
-            this.toolTip.SetToolTip(this.checkBox22, resources.GetString("checkBox22.ToolTip"));
-            this.checkBox22.UseVisualStyleBackColor = true;
-            this.checkBox22.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            resources.ApplyResources(this.checkBox28, "checkBox28");
+            this.checkBox28.Name = "checkBox28";
+            this.checkBox28.Tag = "SD_plus";
+            this.toolTip.SetToolTip(this.checkBox28, resources.GetString("checkBox28.ToolTip"));
+            this.checkBox28.UseVisualStyleBackColor = true;
+            this.checkBox28.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
-            // checkBox25
+            // panel37
             // 
-            resources.ApplyResources(this.checkBox25, "checkBox25");
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Tag = "Sb";
-            this.toolTip.SetToolTip(this.checkBox25, resources.GetString("checkBox25.ToolTip"));
-            this.checkBox25.UseVisualStyleBackColor = true;
-            this.checkBox25.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            this.panel37.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel37, "panel37");
+            this.panel37.Name = "panel37";
+            this.panel37.Tag = "EpCi_plus";
+            this.panel37.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
-            // checkBox23
+            // panel21
             // 
-            resources.ApplyResources(this.checkBox23, "checkBox23");
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Tag = "Sp";
-            this.toolTip.SetToolTip(this.checkBox23, resources.GetString("checkBox23.ToolTip"));
-            this.checkBox23.UseVisualStyleBackColor = true;
-            this.checkBox23.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel21, "panel21");
+            this.panel21.Name = "panel21";
+            this.panel21.Tag = "S1";
+            this.panel21.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox37
+            // 
+            resources.ApplyResources(this.checkBox37, "checkBox37");
+            this.checkBox37.Name = "checkBox37";
+            this.checkBox37.Tag = "EpCi_plus";
+            this.toolTip.SetToolTip(this.checkBox37, resources.GetString("checkBox37.ToolTip"));
+            this.checkBox37.UseVisualStyleBackColor = true;
+            this.checkBox37.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // panel36
+            // 
+            this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel36, "panel36");
+            this.panel36.Name = "panel36";
+            this.panel36.Tag = "CD_plus";
+            this.panel36.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // panel22
+            // 
+            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel22, "panel22");
+            this.panel22.Name = "panel22";
+            this.panel22.Tag = "S2";
+            this.panel22.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // checkBox24
             // 
@@ -1274,37 +1053,251 @@
             this.checkBox24.UseVisualStyleBackColor = true;
             this.checkBox24.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
+            // checkBox36
+            // 
+            resources.ApplyResources(this.checkBox36, "checkBox36");
+            this.checkBox36.Name = "checkBox36";
+            this.checkBox36.Tag = "CD_plus";
+            this.toolTip.SetToolTip(this.checkBox36, resources.GetString("checkBox36.ToolTip"));
+            this.checkBox36.UseVisualStyleBackColor = true;
+            this.checkBox36.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // panel35
+            // 
+            this.panel35.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel35, "panel35");
+            this.panel35.Name = "panel35";
+            this.panel35.Tag = "Cdr";
+            this.panel35.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // panel23
+            // 
+            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel23, "panel23");
+            this.panel23.Name = "panel23";
+            this.panel23.Tag = "Sp";
+            this.panel23.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox23
+            // 
+            resources.ApplyResources(this.checkBox23, "checkBox23");
+            this.checkBox23.Name = "checkBox23";
+            this.checkBox23.Tag = "Sp";
+            this.toolTip.SetToolTip(this.checkBox23, resources.GetString("checkBox23.ToolTip"));
+            this.checkBox23.UseVisualStyleBackColor = true;
+            this.checkBox23.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // checkBox35
+            // 
+            resources.ApplyResources(this.checkBox35, "checkBox35");
+            this.checkBox35.Name = "checkBox35";
+            this.checkBox35.Tag = "Cdr";
+            this.toolTip.SetToolTip(this.checkBox35, resources.GetString("checkBox35.ToolTip"));
+            this.checkBox35.UseVisualStyleBackColor = true;
+            this.checkBox35.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // panel34
+            // 
+            this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel34, "panel34");
+            this.panel34.Name = "panel34";
+            this.panel34.Tag = "Cg";
+            this.panel34.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // panel24
+            // 
+            this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel24, "panel24");
+            this.panel24.Name = "panel24";
+            this.panel24.Tag = "Sr";
+            this.panel24.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox25
+            // 
+            resources.ApplyResources(this.checkBox25, "checkBox25");
+            this.checkBox25.Name = "checkBox25";
+            this.checkBox25.Tag = "Sb";
+            this.toolTip.SetToolTip(this.checkBox25, resources.GetString("checkBox25.ToolTip"));
+            this.checkBox25.UseVisualStyleBackColor = true;
+            this.checkBox25.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // checkBox34
+            // 
+            resources.ApplyResources(this.checkBox34, "checkBox34");
+            this.checkBox34.Name = "checkBox34";
+            this.checkBox34.Tag = "Cg";
+            this.toolTip.SetToolTip(this.checkBox34, resources.GetString("checkBox34.ToolTip"));
+            this.checkBox34.UseVisualStyleBackColor = true;
+            this.checkBox34.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // panel33
+            // 
+            this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel33, "panel33");
+            this.panel33.Name = "panel33";
+            this.panel33.Tag = "Cb";
+            this.panel33.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // panel25
+            // 
+            this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel25, "panel25");
+            this.panel25.Name = "panel25";
+            this.panel25.Tag = "Sb";
+            this.panel25.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox22
+            // 
+            resources.ApplyResources(this.checkBox22, "checkBox22");
+            this.checkBox22.Name = "checkBox22";
+            this.checkBox22.Tag = "S2";
+            this.toolTip.SetToolTip(this.checkBox22, resources.GetString("checkBox22.ToolTip"));
+            this.checkBox22.UseVisualStyleBackColor = true;
+            this.checkBox22.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // checkBox27
+            // 
+            resources.ApplyResources(this.checkBox27, "checkBox27");
+            this.checkBox27.Name = "checkBox27";
+            this.checkBox27.Tag = "Sdr";
+            this.toolTip.SetToolTip(this.checkBox27, resources.GetString("checkBox27.ToolTip"));
+            this.checkBox27.UseVisualStyleBackColor = true;
+            this.checkBox27.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // panel32
+            // 
+            this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel32, "panel32");
+            this.panel32.Name = "panel32";
+            this.panel32.Tag = "Cr";
+            this.panel32.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // panel26
+            // 
+            this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel26, "panel26");
+            this.panel26.Name = "panel26";
+            this.panel26.Tag = "Sg";
+            this.panel26.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox26
+            // 
+            resources.ApplyResources(this.checkBox26, "checkBox26");
+            this.checkBox26.Name = "checkBox26";
+            this.checkBox26.Tag = "Sg";
+            this.toolTip.SetToolTip(this.checkBox26, resources.GetString("checkBox26.ToolTip"));
+            this.checkBox26.UseVisualStyleBackColor = true;
+            this.checkBox26.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // checkBox33
+            // 
+            resources.ApplyResources(this.checkBox33, "checkBox33");
+            this.checkBox33.Name = "checkBox33";
+            this.checkBox33.Tag = "Cb";
+            this.toolTip.SetToolTip(this.checkBox33, resources.GetString("checkBox33.ToolTip"));
+            this.checkBox33.UseVisualStyleBackColor = true;
+            this.checkBox33.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // panel31
+            // 
+            this.panel31.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel31, "panel31");
+            this.panel31.Name = "panel31";
+            this.panel31.Tag = "Cp";
+            this.panel31.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // panel27
+            // 
+            this.panel27.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel27, "panel27");
+            this.panel27.Name = "panel27";
+            this.panel27.Tag = "Sdr";
+            this.panel27.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox31
+            // 
+            resources.ApplyResources(this.checkBox31, "checkBox31");
+            this.checkBox31.Name = "checkBox31";
+            this.checkBox31.Tag = "Cp";
+            this.toolTip.SetToolTip(this.checkBox31, resources.GetString("checkBox31.ToolTip"));
+            this.checkBox31.UseVisualStyleBackColor = true;
+            this.checkBox31.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // checkBox29
+            // 
+            resources.ApplyResources(this.checkBox29, "checkBox29");
+            this.checkBox29.Name = "checkBox29";
+            this.checkBox29.Tag = "C1";
+            this.toolTip.SetToolTip(this.checkBox29, resources.GetString("checkBox29.ToolTip"));
+            this.checkBox29.UseVisualStyleBackColor = true;
+            this.checkBox29.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // panel30
+            // 
+            this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel30, "panel30");
+            this.panel30.Name = "panel30";
+            this.panel30.Tag = "C2";
+            this.panel30.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // panel28
+            // 
+            this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel28, "panel28");
+            this.panel28.Name = "panel28";
+            this.panel28.Tag = "SD_plus";
+            this.panel28.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox30
+            // 
+            resources.ApplyResources(this.checkBox30, "checkBox30");
+            this.checkBox30.Name = "checkBox30";
+            this.checkBox30.Tag = "C2";
+            this.toolTip.SetToolTip(this.checkBox30, resources.GetString("checkBox30.ToolTip"));
+            this.checkBox30.UseVisualStyleBackColor = true;
+            this.checkBox30.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // checkBox32
+            // 
+            resources.ApplyResources(this.checkBox32, "checkBox32");
+            this.checkBox32.Name = "checkBox32";
+            this.checkBox32.Tag = "Cr";
+            this.toolTip.SetToolTip(this.checkBox32, resources.GetString("checkBox32.ToolTip"));
+            this.checkBox32.UseVisualStyleBackColor = true;
+            this.checkBox32.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
+            // panel29
+            // 
+            this.panel29.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.panel29, "panel29");
+            this.panel29.Name = "panel29";
+            this.panel29.Tag = "C1";
+            this.panel29.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
-            this.tabPage4.Controls.Add(this.groupBox7);
+            this.tabPage4.Controls.Add(this.panel46);
+            this.tabPage4.Controls.Add(this.checkBox38);
+            this.tabPage4.Controls.Add(this.panel45);
+            this.tabPage4.Controls.Add(this.checkBox41);
+            this.tabPage4.Controls.Add(this.panel44);
+            this.tabPage4.Controls.Add(this.checkBox40);
+            this.tabPage4.Controls.Add(this.panel43);
+            this.tabPage4.Controls.Add(this.checkBox42);
+            this.tabPage4.Controls.Add(this.panel42);
+            this.tabPage4.Controls.Add(this.checkBox39);
+            this.tabPage4.Controls.Add(this.panel41);
+            this.tabPage4.Controls.Add(this.checkBox43);
+            this.tabPage4.Controls.Add(this.panel40);
+            this.tabPage4.Controls.Add(this.checkBox45);
+            this.tabPage4.Controls.Add(this.panel39);
+            this.tabPage4.Controls.Add(this.checkBox44);
+            this.tabPage4.Controls.Add(this.panel38);
+            this.tabPage4.Controls.Add(this.checkBox46);
             resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Name = "tabPage4";
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.panel46);
-            this.groupBox7.Controls.Add(this.panel45);
-            this.groupBox7.Controls.Add(this.panel44);
-            this.groupBox7.Controls.Add(this.panel43);
-            this.groupBox7.Controls.Add(this.panel42);
-            this.groupBox7.Controls.Add(this.panel41);
-            this.groupBox7.Controls.Add(this.panel40);
-            this.groupBox7.Controls.Add(this.panel39);
-            this.groupBox7.Controls.Add(this.panel38);
-            this.groupBox7.Controls.Add(this.checkBox46);
-            this.groupBox7.Controls.Add(this.checkBox44);
-            this.groupBox7.Controls.Add(this.checkBox45);
-            this.groupBox7.Controls.Add(this.checkBox38);
-            this.groupBox7.Controls.Add(this.checkBox43);
-            this.groupBox7.Controls.Add(this.checkBox39);
-            this.groupBox7.Controls.Add(this.checkBox42);
-            this.groupBox7.Controls.Add(this.checkBox40);
-            this.groupBox7.Controls.Add(this.checkBox41);
-            resources.ApplyResources(this.groupBox7, "groupBox7");
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.TabStop = false;
-            this.toolTip.SetToolTip(this.groupBox7, resources.GetString("groupBox7.ToolTip"));
+            this.toolTip.SetToolTip(this.tabPage4, resources.GetString("tabPage4.ToolTip"));
             // 
             // panel46
             // 
@@ -1314,13 +1307,31 @@
             this.panel46.Tag = "EpCi_minus";
             this.panel46.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox38
+            // 
+            resources.ApplyResources(this.checkBox38, "checkBox38");
+            this.checkBox38.Name = "checkBox38";
+            this.checkBox38.Tag = "Sf";
+            this.toolTip.SetToolTip(this.checkBox38, resources.GetString("checkBox38.ToolTip"));
+            this.checkBox38.UseVisualStyleBackColor = true;
+            this.checkBox38.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel45
             // 
             this.panel45.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.panel45, "panel45");
             this.panel45.Name = "panel45";
-            this.panel45.Tag = "Coz";
+            this.panel45.Tag = "Coz_minus";
             this.panel45.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox41
+            // 
+            resources.ApplyResources(this.checkBox41, "checkBox41");
+            this.checkBox41.Name = "checkBox41";
+            this.checkBox41.Tag = "Soz_minus";
+            this.toolTip.SetToolTip(this.checkBox41, resources.GetString("checkBox41.ToolTip"));
+            this.checkBox41.UseVisualStyleBackColor = true;
+            this.checkBox41.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel44
             // 
@@ -1330,6 +1341,15 @@
             this.panel44.Tag = "CD_minus";
             this.panel44.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox40
+            // 
+            resources.ApplyResources(this.checkBox40, "checkBox40");
+            this.checkBox40.Name = "checkBox40";
+            this.checkBox40.Tag = "SD_minus";
+            this.toolTip.SetToolTip(this.checkBox40, resources.GetString("checkBox40.ToolTip"));
+            this.checkBox40.UseVisualStyleBackColor = true;
+            this.checkBox40.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel43
             // 
             this.panel43.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -1337,6 +1357,15 @@
             this.panel43.Name = "panel43";
             this.panel43.Tag = "Cz";
             this.panel43.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox42
+            // 
+            resources.ApplyResources(this.checkBox42, "checkBox42");
+            this.checkBox42.Name = "checkBox42";
+            this.checkBox42.Tag = "Cf";
+            this.toolTip.SetToolTip(this.checkBox42, resources.GetString("checkBox42.ToolTip"));
+            this.checkBox42.UseVisualStyleBackColor = true;
+            this.checkBox42.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel42
             // 
@@ -1346,13 +1375,31 @@
             this.panel42.Tag = "Cf";
             this.panel42.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox39
+            // 
+            resources.ApplyResources(this.checkBox39, "checkBox39");
+            this.checkBox39.Name = "checkBox39";
+            this.checkBox39.Tag = "Sz";
+            this.toolTip.SetToolTip(this.checkBox39, resources.GetString("checkBox39.ToolTip"));
+            this.checkBox39.UseVisualStyleBackColor = true;
+            this.checkBox39.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel41
             // 
             this.panel41.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.panel41, "panel41");
             this.panel41.Name = "panel41";
-            this.panel41.Tag = "Soz";
+            this.panel41.Tag = "Soz_minus";
             this.panel41.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox43
+            // 
+            resources.ApplyResources(this.checkBox43, "checkBox43");
+            this.checkBox43.Name = "checkBox43";
+            this.checkBox43.Tag = "Cz";
+            this.toolTip.SetToolTip(this.checkBox43, resources.GetString("checkBox43.ToolTip"));
+            this.checkBox43.UseVisualStyleBackColor = true;
+            this.checkBox43.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel40
             // 
@@ -1362,6 +1409,15 @@
             this.panel40.Tag = "SD_minus";
             this.panel40.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
+            // checkBox45
+            // 
+            resources.ApplyResources(this.checkBox45, "checkBox45");
+            this.checkBox45.Name = "checkBox45";
+            this.checkBox45.Tag = "Coz_minus";
+            this.toolTip.SetToolTip(this.checkBox45, resources.GetString("checkBox45.ToolTip"));
+            this.checkBox45.UseVisualStyleBackColor = true;
+            this.checkBox45.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
+            // 
             // panel39
             // 
             this.panel39.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -1369,6 +1425,15 @@
             this.panel39.Name = "panel39";
             this.panel39.Tag = "Sz";
             this.panel39.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
+            // 
+            // checkBox44
+            // 
+            resources.ApplyResources(this.checkBox44, "checkBox44");
+            this.checkBox44.Name = "checkBox44";
+            this.checkBox44.Tag = "CD_minus";
+            this.toolTip.SetToolTip(this.checkBox44, resources.GetString("checkBox44.ToolTip"));
+            this.checkBox44.UseVisualStyleBackColor = true;
+            this.checkBox44.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // panel38
             // 
@@ -1386,78 +1451,6 @@
             this.toolTip.SetToolTip(this.checkBox46, resources.GetString("checkBox46.ToolTip"));
             this.checkBox46.UseVisualStyleBackColor = true;
             this.checkBox46.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox44
-            // 
-            resources.ApplyResources(this.checkBox44, "checkBox44");
-            this.checkBox44.Name = "checkBox44";
-            this.checkBox44.Tag = "CD_minus";
-            this.toolTip.SetToolTip(this.checkBox44, resources.GetString("checkBox44.ToolTip"));
-            this.checkBox44.UseVisualStyleBackColor = true;
-            this.checkBox44.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox45
-            // 
-            resources.ApplyResources(this.checkBox45, "checkBox45");
-            this.checkBox45.Name = "checkBox45";
-            this.checkBox45.Tag = "Coz";
-            this.toolTip.SetToolTip(this.checkBox45, resources.GetString("checkBox45.ToolTip"));
-            this.checkBox45.UseVisualStyleBackColor = true;
-            this.checkBox45.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox38
-            // 
-            resources.ApplyResources(this.checkBox38, "checkBox38");
-            this.checkBox38.Name = "checkBox38";
-            this.checkBox38.Tag = "Sf";
-            this.toolTip.SetToolTip(this.checkBox38, resources.GetString("checkBox38.ToolTip"));
-            this.checkBox38.UseVisualStyleBackColor = true;
-            this.checkBox38.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox43
-            // 
-            resources.ApplyResources(this.checkBox43, "checkBox43");
-            this.checkBox43.Name = "checkBox43";
-            this.checkBox43.Tag = "Cz";
-            this.toolTip.SetToolTip(this.checkBox43, resources.GetString("checkBox43.ToolTip"));
-            this.checkBox43.UseVisualStyleBackColor = true;
-            this.checkBox43.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox39
-            // 
-            resources.ApplyResources(this.checkBox39, "checkBox39");
-            this.checkBox39.Name = "checkBox39";
-            this.checkBox39.Tag = "Sz";
-            this.toolTip.SetToolTip(this.checkBox39, resources.GetString("checkBox39.ToolTip"));
-            this.checkBox39.UseVisualStyleBackColor = true;
-            this.checkBox39.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox42
-            // 
-            resources.ApplyResources(this.checkBox42, "checkBox42");
-            this.checkBox42.Name = "checkBox42";
-            this.checkBox42.Tag = "Cf";
-            this.toolTip.SetToolTip(this.checkBox42, resources.GetString("checkBox42.ToolTip"));
-            this.checkBox42.UseVisualStyleBackColor = true;
-            this.checkBox42.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox40
-            // 
-            resources.ApplyResources(this.checkBox40, "checkBox40");
-            this.checkBox40.Name = "checkBox40";
-            this.checkBox40.Tag = "SD_minus";
-            this.toolTip.SetToolTip(this.checkBox40, resources.GetString("checkBox40.ToolTip"));
-            this.checkBox40.UseVisualStyleBackColor = true;
-            this.checkBox40.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
-            // 
-            // checkBox41
-            // 
-            resources.ApplyResources(this.checkBox41, "checkBox41");
-            this.checkBox41.Name = "checkBox41";
-            this.checkBox41.Tag = "Soz";
-            this.toolTip.SetToolTip(this.checkBox41, resources.GetString("checkBox41.ToolTip"));
-            this.checkBox41.UseVisualStyleBackColor = true;
-            this.checkBox41.CheckedChanged += new System.EventHandler(this.YItemCheckBox_CheckedChanged);
             // 
             // XAxisItemsBox
             // 
@@ -1483,7 +1476,6 @@
             // 
             // groupBox8
             // 
-            this.groupBox8.Controls.Add(this.XAxisItemsBox);
             this.groupBox8.Controls.Add(this.yearLabel);
             this.groupBox8.Controls.Add(this.clearOy);
             this.groupBox8.Controls.Add(this.yearTextBox);
@@ -1491,6 +1483,7 @@
             this.groupBox8.Controls.Add(this.label4);
             this.groupBox8.Controls.Add(this.YAxisItemsBox);
             this.groupBox8.Controls.Add(this.label3);
+            this.groupBox8.Controls.Add(this.XAxisItemsBox);
             resources.ApplyResources(this.groupBox8, "groupBox8");
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.TabStop = false;
@@ -1531,6 +1524,7 @@
             this.Controls.Add(this.buildAGraph);
             this.Controls.Add(this.cancel);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.HelpButton = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -1538,10 +1532,10 @@
             this.HelpButtonClicked += new System.ComponentModel.CancelEventHandler(this.SetupGraphForm_HelpButtonClicked);
             this.Load += new System.EventHandler(this.SetupGraphForm_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.monthPanel.ResumeLayout(false);
             this.monthPanel.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.yearsPanel.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);
@@ -1553,17 +1547,14 @@
             this.groupBox9.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
+            this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
+            this.sbppPanel.ResumeLayout(false);
+            this.sbppPanel.PerformLayout();
             this.tabPage4.ResumeLayout(false);
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
+            this.tabPage4.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
             this.ResumeLayout(false);
@@ -1594,15 +1585,12 @@
         private System.Windows.Forms.CheckBox april;
         private System.Windows.Forms.CheckBox march;
         private System.Windows.Forms.CheckBox getAll;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.CheckBox checkBox20;
         private System.Windows.Forms.CheckBox checkBox13;
         private System.Windows.Forms.CheckBox checkBox18;
         private System.Windows.Forms.CheckBox checkBox14;
         private System.Windows.Forms.CheckBox checkBox17;
         private System.Windows.Forms.CheckBox checkBox15;
         private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.CheckBox checkBox28;
         private System.Windows.Forms.CheckBox checkBox37;
         private System.Windows.Forms.CheckBox checkBox35;
@@ -1640,7 +1628,6 @@
         private System.Windows.Forms.Button clearOx;
         private System.Windows.Forms.Label yearLabel;
         private System.Windows.Forms.TextBox yearTextBox;
-        private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox12;
         private System.Windows.Forms.CheckBox checkBox8;
@@ -1653,7 +1640,6 @@
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.CheckBox checkBox46;
         private System.Windows.Forms.CheckBox checkBox44;
         private System.Windows.Forms.CheckBox checkBox45;
@@ -1682,7 +1668,6 @@
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.Panel panel37;
         private System.Windows.Forms.Panel panel36;
         private System.Windows.Forms.Panel panel35;
@@ -1723,5 +1708,10 @@
         private System.Windows.Forms.ListBox yearsList;
         private System.Windows.Forms.Button add;
         private System.Windows.Forms.Button delete;
+        private System.Windows.Forms.Panel sbppPanel;
+        private System.Windows.Forms.Panel panel48;
+        private System.Windows.Forms.CheckBox checkBox48;
+        private System.Windows.Forms.Panel panel47;
+        private System.Windows.Forms.CheckBox checkBox47;
     }
 }

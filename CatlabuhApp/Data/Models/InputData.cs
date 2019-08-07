@@ -43,7 +43,7 @@ namespace CatlabuhApp.Data.Models
             D  = GetColumnData(D, "D");
             E  = GetColumnData(E, "E");
 
-            S1InJanury = DataAccess.GetCellData<double>($"SELECT S1 FROM OtherData WHERE YearName = {YearOfCalculation}");
+            S1InJanury = DataAccess.GetCellData<double>($"SELECT S1InJanuary FROM OtherData WHERE YearName = {YearOfCalculation}");
             SumVg = DataAccess.GetCellData<double>($"SELECT CoefficientValue FROM Coefficients WHERE CoefficientID = 36");
 
             IDs = DataAccess.GetColumnData<int>($"SELECT InputDataID FROM InputData WHERE YearName = {YearOfCalculation}").ToArray();
@@ -53,7 +53,7 @@ namespace CatlabuhApp.Data.Models
         {
             try
             {
-                someArray = DataAccess.GetColumnData<double>($"SELECT {columnName} FROM InputData WHERE YearName = {YearOfCalculation}").ToArray();
+                someArray = DataAccess.GetColumnData<double>($"SELECT {columnName} FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
             }
             catch (System.NullReferenceException ex)
             {
@@ -94,7 +94,7 @@ namespace CatlabuhApp.Data.Models
             {
                 if (i < 12)
                 {
-                    sql += $"INSERT INTO InputData(H1, H2, PIsmail, PBolgrad Vz, {(IsCalculateE ? "d" : "E")}, MonthID, YearName) " +
+                    sql += $"INSERT INTO InputData(H1, H2, PIsmail, PBolgrad, Vz, {(IsCalculateE ? "d" : "E")}, MonthID, YearName) " +
                         $"VALUES({H1[i]}, {H2[i]}, {PIsmail[i]}, {PBolgrad[i]}, {Vz[i]}, {(IsCalculateE ? D[i] : E[i])}, {i + 1}, {YearOfCalculation});\n";
                 }
                 else
@@ -118,7 +118,7 @@ namespace CatlabuhApp.Data.Models
 
             for (int i = 0; i < 12; i++)
             {
-                sql += $"UPDATE InputData SET H1 = {H1[i]}, H2 = {H2[i]}, PIsmail = {PIsmail[i]}, PBolgrad[{i}] = {PBolgrad[i]}, Vz = {Vz[i]}, " +
+                sql += $"UPDATE InputData SET H1 = {H1[i]}, H2 = {H2[i]}, PIsmail = {PIsmail[i]}, PBolgrad = {PBolgrad[i]}, Vz = {Vz[i]}, " +
                     $"d = {D[i]}, E = {E[i]} WHERE YearName = {YearOfCalculation} AND MonthID = {i + 1};\n";
             }
 

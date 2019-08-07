@@ -34,16 +34,22 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
         public TablesToExportDialog()
         {
+            Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent();
 
             path = (Properties.Settings.Default.CalculationsDirectoryPath == "Default") ?  Directory.GetCurrentDirectory() + "\\Calculations in Excel\\" : path;
         }
 
-        public TablesToExportDialog(DataGridView[] dataGridViews, string[] tablesNames, string yearOfCalculation) : this()
+        public TablesToExportDialog(DataGridView[] dataGridViews, string yearOfCalculation) : this()
         {
             this.dataGridViews = dataGridViews;
-            this.tablesNames = tablesNames;
             this.yearOfCalculation = yearOfCalculation;
+
+            tablesNames = new string[]
+            {
+                $"{wbGroup.Text} {wbpCheck.Text}", $"{wbGroup.Text} {wbcCheck.Text}",
+                $"{sbGroup.Text} {sbpCheck.Text}", $"{sbGroup.Text} {sbcCheck.Text}",
+            };
         }
 
         #region Обработчики кнопок
@@ -67,24 +73,19 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
                 for (int i = 0; i < chosenGridViews.Length; i++)
                 {
-                    maximumValue += chosenGridViews[i].ColumnCount - 2;
-                    maximumValue += chosenGridViews[i].RowCount * (chosenGridViews[i].ColumnCount - 2);
+                    maximumValue += chosenGridViews[i].ColumnCount - 5;
+                    maximumValue += chosenGridViews[i].RowCount * (chosenGridViews[i].ColumnCount - 5);
                 }
 
                 progressBar.Minimum = 0;
-                progressBar.Maximum = maximumValue;
+                progressBar.Maximum = maximumValue + 1;
                 progressBar.Value = 0;
 
                 #endregion
 
                 timer.Start();
 
-                var creationResult = CreateExcelFileAsync(chosenGridViews, chosenTablesNames);
-                Excel.Workbook workbook = creationResult.Result;
-
-                SaveExcelFile(workbook, path, fileName);
-
-                // TODO: сообщить об успехе.
+                CreateExcelFileAsync(chosenGridViews, chosenTablesNames, fileName);
             }
             catch (Exception ex)
             {
@@ -93,11 +94,6 @@ namespace CatlabuhApp.UI.Support.Dialogs
                     sw.WriteLine($"\n{DateTime.Now.ToString("dd MMMM yyyy | HH:mm:ss")}\n{ex.Message}\n{ex.StackTrace}\n\n");
                     sw.Close();
                 }
-            }
-            finally
-            {
-                back.Enabled = true;
-                export.Enabled = true;
             }
         }
 
@@ -109,7 +105,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
             if (IsWBChecked && IsSBChecked)
             {
-                fileName = $"{wbGroup.Text} and {sbGroup.Text} for 2000 year.xslx"; 
+                fileName = $"{wbGroup.Text} and {sbGroup.Text} for {yearOfCalculation} year.xlsx"; 
             }
             else if (IsWBChecked)
             {
@@ -129,15 +125,15 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
             if (c1.Checked && c2.Checked)
             {
-                fileName = $"{group.Text} for 2000 year.xlsx";
+                fileName = $"{group.Text} for {yearOfCalculation} year.xlsx";
             }
             else if (c1.Checked)
             {
-                fileName = $"{group.Text} {c1.Text} for 2000 year.xlsx";
+                fileName = $"{group.Text} {c1.Text} for {yearOfCalculation} year.xlsx";
             }
             else if (c2.Checked)
             {
-                fileName = $"{group.Text} {c2.Text} for 2000 year.xlsx";
+                fileName = $"{group.Text} {c2.Text} for {yearOfCalculation} year.xlsx";
             }
 
             return fileName;
@@ -229,8 +225,8 @@ namespace CatlabuhApp.UI.Support.Dialogs
             }
         }
 
-        #region Создание и сохранение Excel файла 
-        private Excel.Workbook CreateExcelFile(DataGridView[] chosenGridViews, string[] chosenTablesNames)
+        #region Создание Excel файла 
+        private void CreateExcelFile(DataGridView[] chosenGridViews, string[] chosenTablesNames, string fileName)
         {
             progress = 0;
 
@@ -248,7 +244,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
             for (int i = 0, step = 3; i < chosenGridViews.Length; i++, step += 20)
             {
-                for (int j = 1; j < chosenGridViews[i].ColumnCount - 1; j++)
+                for (int j = 1; j < chosenGridViews[i].ColumnCount - 4; j++)
                 {
                     if (chosenGridViews[i].Columns[j - 1].HeaderText.Equals("lg(d)") || chosenGridViews[i].Columns[j - 1].HeaderText.Equals("lg(E)"))
                     {
@@ -267,7 +263,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
                 for (int j = 0; j < chosenGridViews[i].RowCount; j++)
                 {
-                    for (int k = 0; k < chosenGridViews[i].ColumnCount - 2; k++)
+                    for (int k = 0; k < chosenGridViews[i].ColumnCount - 5; k++)
                     {
                         worksheet.Cells[j + step + 1, k + 1] = chosenGridViews[i].Rows[j].Cells[k].Value;
                         worksheet.Cells[j + step + 1, k + 1].Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
@@ -278,30 +274,47 @@ namespace CatlabuhApp.UI.Support.Dialogs
                 }
             }
 
-            app.AlertBeforeOverwriting = false;
-            app.Visible = true;
-
-            return workbook;
-        }
-
-        private async Task<Excel.Workbook> CreateExcelFileAsync(DataGridView[] chosenGridViews, string[] chosenTablesNames)
-        {
-            return await Task.Run(() => CreateExcelFile(chosenGridViews, chosenTablesNames));
-        }
-        
-        private void SaveExcelFile(Excel.Workbook workbook, string path, string fileName)
-        {
             if (File.Exists(path + fileName))
             {
-                File.Delete(path + fileName);
-                workbook.SaveAs(path + fileName);
+                MessageDialog md = new MessageDialog(MessageDialog.QuestionTitle, MessageDialog.QuestionText4, MessageDialog.Icon.Question);
+
+                if (md.DialogResult == DialogResult.Yes)
+                {
+                SaveFile:
+                    try
+                    {
+                        File.Delete(path + fileName);
+                        workbook.SaveAs(path + fileName);
+                    }
+                    catch (IOException)
+                    {
+                        md = new MessageDialog(MessageDialog.AlertTitle1, MessageDialog.AlertText5, MessageDialog.Icon.Alert);
+
+                        if (md.DialogResult == DialogResult.OK)
+                        {
+                            goto SaveFile;
+                        }
+                    }
+                }
             }
             else
             {
                 workbook.SaveAs(path + fileName);
             }
+
+            progress++;
+
+            app.AlertBeforeOverwriting = false;
+            app.Visible = true;
         }
 
+        private async Task CreateExcelFileAsync(DataGridView[] chosenGridViews, string[] chosenTablesNames, string fileName)
+        {
+            await Task.Run(() => CreateExcelFile(chosenGridViews, chosenTablesNames, fileName));
+            
+            MessageDialog.Show(MessageDialog.SuccessTitle, MessageDialog.SuccessText5, MessageDialog.Icon.OK); 
+        }
+        
         #endregion
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -314,7 +327,13 @@ namespace CatlabuhApp.UI.Support.Dialogs
             else
             {
                 timer.Stop();
-                Close();
+
+                progress = 0;
+                progressBar.Value = progress;
+                progressBar.Update();
+
+                back.Enabled = true;
+                export.Enabled = true;
             }
         }
 

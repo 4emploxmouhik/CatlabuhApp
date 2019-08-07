@@ -11,7 +11,6 @@ namespace CatlabuhApp.Data.Models
 
         private InputData inputData;
         private OutputData outputData;
-        //private OtherData otherData;
         private GatewaySchedule gatewaySchedule;
 
         public bool IsEnterGatewaySchedule { get; set; }
@@ -64,23 +63,39 @@ namespace CatlabuhApp.Data.Models
 
         public void Delete()
         {
-            DataAccess.Execute($"DELETE FROM InputData WHERE YearName = {YearOfCalculation}" +
-                $"DELETE FROM GatewaySchedule WHERE YearName = {YearOfCalculation}" +
-                $"DELETE FROM OutputData WHERE YearName = {YearOfCalculation}" +
-                $"DELETE FROM YearsOfCalculartions WHERE YearName = {YearOfCalculation}");
+            DataAccess.Execute($"DELETE FROM InputData WHERE YearName = {YearOfCalculation};\n" +
+                $"DELETE FROM GatewaySchedule WHERE YearName = {YearOfCalculation};\n" +
+                $"DELETE FROM OutputData WHERE YearName = {YearOfCalculation};\n" +
+                $"DELETE FROM OtherData WHERE YearName = {YearOfCalculation};\n" +
+                $"DELETE FROM YearsOfCalculations WHERE YearName = {YearOfCalculation};");
         }
 
-        public void Save()
+        public void Save(bool isOutputDataEmpty)
         {
-            DataAccess.Execute($"INSERT INTO YearsOfCaculations(YearName) VALUES({YearOfCalculation})");
+            DataAccess.Execute($"INSERT INTO YearsOfCalculations(YearName) VALUES({YearOfCalculation});");
             inputData.Save();
 
             if (IsEnterGatewaySchedule)
             {
                 gatewaySchedule.Save();
             }
+            else
+            {
+                gatewaySchedule = new GatewaySchedule(DataAccess)
+                {
+                    YearOfCalculation = this.YearOfCalculation
+                };
+                gatewaySchedule.SaveEmpty();
+            }
 
-            outputData.Save();
+            if (!isOutputDataEmpty)
+            {
+                outputData.Save();
+            }
+            else
+            {
+                outputData.SaveEmpty();
+            }
         }
 
         public void Update()

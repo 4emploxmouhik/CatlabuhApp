@@ -51,10 +51,10 @@ namespace CatlabuhApp.Data.Models
         {
             YearOfCalculation = yearOfCalculation ?? throw new System.ArgumentNullException(nameof(yearOfCalculation));
 
-            VD_plus   = DataAccess.GetColumnData<double>($"SELECT VD_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
-            VD_minus  = DataAccess.GetColumnData<double>($"SELECT VD_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
-            Voz_plus  = DataAccess.GetColumnData<double>($"SELECT Voz_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
-            Voz_minus = DataAccess.GetColumnData<double>($"SELECT Voz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
+            VD_plus   = GetColumnData(VD_plus, "VD_plus");
+            VD_minus  = GetColumnData(VD_minus, "VD_minus");
+            Voz_plus  = GetColumnData(Voz_plus, "Voz_plus");
+            Voz_minus = GetColumnData(Voz_minus, "Voz_minus");
 
             GatewayOpenVD_plus   = DataAccess.GetColumnData<string>($"SELECT GatewayOpenVD_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
             GatewayCloseVD_plus  = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVD_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
@@ -67,6 +67,23 @@ namespace CatlabuhApp.Data.Models
             GatewayCloseVoz_minus = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
 
             IDs = DataAccess.GetColumnData<int>($"SELECT GatewayScheduleID FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
+        }
+
+        private double[] GetColumnData(double[] someArray, string columnName)
+        {
+            try
+            {
+                someArray = DataAccess.GetColumnData<double>($"SELECT {columnName} FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
+            }
+            catch (System.NullReferenceException ex)
+            {
+                for (int i = 0; i < 12; i++)
+                {
+                    someArray[i] = 0;
+                }
+            }
+
+            return someArray;
         }
 
         public override string ToString()
@@ -101,11 +118,11 @@ namespace CatlabuhApp.Data.Models
             {
                 if (i < 12)
                 {
-                    sql += "INSERT INTO GatewaySchedule(VD_plus, VD_minus, Voz_plus, Voz_minus, GatewayOpenVD, GatewayCloseVD, GatewayOpenVoz, " +
-                        $"GatewayCloseVoz, MonthID, YearName) VALUES({VD_plus[i]}, {VD_minus[i]}, {Voz_plus[i]}, {Voz_minus[i]}, " +
-                        $"{GatewayOpenVD_plus[i]}, {GatewayCloseVD_plus[i]}, {GatewayOpenVD_minus[i]}, {GatewayCloseVD_minus[i]}," +
-                        $" {GatewayOpenVoz_plus[i]}, {GatewayCloseVoz_plus[i]}, {GatewayOpenVoz_minus[i]}, {GatewayCloseVoz_minus[i]}, " +
-                        $"{i + 1}, {YearOfCalculation});\n";
+                    sql += "INSERT INTO GatewaySchedule(VD_plus, VD_minus, Voz_plus, Voz_minus, GatewayOpenVD_plus, GatewayCloseVD_plus, GatewayOpenVD_minus, GatewayCloseVD_minus, " +
+                        "GatewayOpenVoz_plus, GatewayCloseVoz_plus, GatewayOpenVoz_minus, GatewayCloseVoz_minus, MonthID, YearName) " +
+                        $"VALUES({VD_plus[i]}, {VD_minus[i]}, {Voz_plus[i]}, {Voz_minus[i]}, {GatewayOpenVD_plus[i]}, {GatewayCloseVD_plus[i]}, " +
+                        $"{GatewayOpenVD_minus[i]}, {GatewayCloseVD_minus[i]}, {GatewayOpenVoz_plus[i]}, {GatewayCloseVoz_plus[i]}, {GatewayOpenVoz_minus[i]}, " +
+                        $"{GatewayCloseVoz_minus[i]}, {i + 1}, {YearOfCalculation});\n";
                 }
                 else
                 {
@@ -121,6 +138,18 @@ namespace CatlabuhApp.Data.Models
             return IDs = DataAccess.GetColumnData<int>($"SELECT GatewayScheduleID FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
         }
 
+        public void SaveEmpty()
+        {
+            string sql = "";
+
+            for (int i = 1; i <= 14; i++)
+            {
+                sql += $"INSERT INTO GatewaySchedule(MonthID, YearName) VALUES ({i}, {YearOfCalculation});\n";
+            }
+
+            DataAccess.Execute(sql);
+        }
+
         public void Update()
         {
             string sql = "";
@@ -133,7 +162,7 @@ namespace CatlabuhApp.Data.Models
                     case ChoiceItems.Dates:   goto Date;
                     default:
                     Volume:
-                        sql += $"UPDATE GatewaySchedule SET VD_plus = {VD_plus[i]}, VD_minus = {Voz_minus}, Voz_plus = {Voz_plus[i]}, " +
+                        sql += $"UPDATE GatewaySchedule SET VD_plus = {VD_plus[i]}, VD_minus = {VD_minus[i]}, Voz_plus = {Voz_plus[i]}, " +
                             $"Voz_minus = {Voz_minus[i]} WHERE YearName = {YearOfCalculation} AND MonthID = {i + 1};\n";
 
                         if (ItemsToUpdate != ChoiceItems.All)
@@ -144,7 +173,7 @@ namespace CatlabuhApp.Data.Models
                     Date:
                         sql += $"UPDATE GatewaySchedule SET GatewayOpenVD_plus = {GatewayOpenVD_plus[i]}, GatewayCloseVD_plus = {GatewayCloseVD_plus[i]}, " +
                             $"GatewayOpenVD_minus = { GatewayOpenVD_minus[i]}, GatewayCloseVD_minus = { GatewayCloseVD_minus[i]}, " +
-                            $"GatewayOpenVoz_plus = {GatewayOpenVoz_plus[i]}, GatewayCloseVoz_plus = {GatewayCloseVoz_plus[i]} " +
+                            $"GatewayOpenVoz_plus = {GatewayOpenVoz_plus[i]}, GatewayCloseVoz_plus = {GatewayCloseVoz_plus[i]}, " +
                             $"GatewayOpenVoz_minus = {GatewayOpenVoz_minus[i]}, GatewayCloseVoz_minus = {GatewayCloseVoz_minus[i]} " +
                             $"WHERE YearName = {YearOfCalculation} " +
                             $"AND MonthID = {i + 1};\n";
@@ -155,7 +184,7 @@ namespace CatlabuhApp.Data.Models
             sql = sql.Replace(",", ".");
             sql = sql.Replace(". ", ", ");
             sql = sql.Replace(" ,", " NULL,");
-            sql = sql.Replace(" WHERE", "NULL WHERE");
+            sql = sql.Replace("  WHERE", "NULL WHERE");
 
             DataAccess.Execute(sql);
         }

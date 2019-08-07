@@ -1,5 +1,7 @@
 ﻿using CatlabuhApp.Data.Access;
 using CatlabuhApp.Data.Models;
+using CatlabuhApp.UI.Main.Views;
+using CatlabuhApp.UI.Support.Dialogs;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -12,6 +14,8 @@ namespace CatlabuhApp.UI.Support.Setups
         private GatewayScheduleSetup gsSetup;
 
         public bool IsShown { get; private set; } = false;
+
+        private CalculationView parent;
 
         #region Списки текстовых полей
         private List<TextBox> H1Boxes = new List<TextBox>();
@@ -30,6 +34,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
         public InputDataSetup()
         {
+            Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent();
 
             H1Boxes.AddRange(new TextBox[] {
@@ -54,10 +59,15 @@ namespace CatlabuhApp.UI.Support.Setups
             gsSetup = new GatewayScheduleSetup();
         }
 
-        public InputDataSetup(IDataAccess dataAccess) : this()
+        public InputDataSetup(CalculationView parent) : this()
+        {
+            this.parent = parent;
+        }
+
+        public InputDataSetup(IDataAccess dataAccess, CalculationView parent) : this(parent)
         {
             DataAccess = dataAccess;
-            yearsBox.Items.AddRange(DataAccess.GetColumnData<string>("SELECT YearName FROM YearsOfCalculations").ToArray());
+            yearsBox.Items.AddRange(DataAccess.GetColumnData<string>("SELECT YearName FROM YearsOfCalculations ORDER BY YearName DESC").ToArray());
         }
 
         private InputData FillInputData()
@@ -118,32 +128,32 @@ namespace CatlabuhApp.UI.Support.Setups
             }
             if (YearOfCalculation == null)
             {
-                // TODO: кинуть сообщение пользователю, что год расчета не выбран
+                MessageDialog.Show(MessageDialog.AlertTitle1, MessageDialog.AlertText1, MessageDialog.Icon.Alert);
             }
             else
             {
-                List<string[]> inputDatas = new List<string[]>()
+                List<double[]> inputDatas = new List<double[]>()
                 {
-                    DataAccess.GetColumnData<string>($"SELECT H1 FROM InputData WHERE {YearOfCalculation}").ToArray(),
-                    DataAccess.GetColumnData<string>($"SELECT H2 FROM InputData WHERE {YearOfCalculation}").ToArray(),
-                    DataAccess.GetColumnData<string>($"SELECT Vz FROM InputData WHERE {YearOfCalculation}").ToArray(),
-                    DataAccess.GetColumnData<string>($"SELECT PIsmail FROM InputData WHERE {YearOfCalculation}").ToArray(),
-                    DataAccess.GetColumnData<string>($"SELECT PBolgrad FROM InputData WHERE {YearOfCalculation}").ToArray(),
-                    DataAccess.GetColumnData<string>($"SELECT {(isCalculateE ? "d" : "E")} FROM InputData WHERE {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<double>($"SELECT H1 FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                    DataAccess.GetColumnData<double>($"SELECT H2 FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                    DataAccess.GetColumnData<double>($"SELECT Vz FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                    DataAccess.GetColumnData<double>($"SELECT PIsmail FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                    DataAccess.GetColumnData<double>($"SELECT PBolgrad FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                    DataAccess.GetColumnData<double>($"SELECT {(isCalculateE ? "d" : "E")} FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
                 };
 
                 for (int i = 0; i < 12; i++)
                 {
-                    H1Boxes[i].Text = inputDatas[0][i];
-                    H2Boxes[i].Text = inputDatas[1][i];
-                    VzBoxes[i].Text = inputDatas[2][i];
-                    PIsmailBoxes[i].Text = inputDatas[3][i];
-                    PBolgradBoxes[i].Text = inputDatas[4][i];
-                    DorEBoxes[i].Text = inputDatas[5][i];
+                    H1Boxes[i].Text = inputDatas[0][i].ToString();
+                    H2Boxes[i].Text = inputDatas[1][i].ToString();
+                    VzBoxes[i].Text = inputDatas[2][i].ToString();
+                    PIsmailBoxes[i].Text = inputDatas[3][i].ToString();
+                    PBolgradBoxes[i].Text = inputDatas[4][i].ToString();
+                    DorEBoxes[i].Text = inputDatas[5][i].ToString();
                 }
 
-                s1InJanuaryBox.Text = DataAccess.GetCellData<string>($"SELECT S1InJanuary FROM OtherData WHERE YearName = {YearOfCalculation}");
-                sumVgBox.Text = DataAccess.GetCellData<string>($"SELECT CoefficientValue FROM Coefficients WHERE CoefficientID = 36");
+                s1InJanuaryBox.Text = DataAccess.GetCellData<double>($"SELECT S1InJanuary FROM OtherData WHERE YearName = {YearOfCalculation}").ToString();
+                sumVgBox.Text = DataAccess.GetCellData<double>($"SELECT CoefficientValue FROM Coefficients WHERE CoefficientID = 36").ToString();
             }
         }
 
@@ -174,13 +184,36 @@ namespace CatlabuhApp.UI.Support.Setups
         {
             if (showGatewaySchedule.Checked)
             {
+                Console.WriteLine(YearOfCalculation);
+
                 gsSetup = new GatewayScheduleSetup(DataAccess)
                 {
-                    YearOfCalculation = this.YearOfCalculation,
+                    YearOfCalculation = this.YearOfCalculation, 
                     IsGatewayScheduleEnter = true
                 };
-                gsSetup.LoadScheduleData();
-                gsSetup.Show();
+
+                try
+                {
+                    Calculation calc = new Calculation(DataAccess) { YearOfCalculation = this.YearOfCalculation };
+
+                    if (calc.IsExist)
+                    {
+                        gsSetup.LoadScheduleData();
+                    }
+                    else
+                    {
+                        gsSetup.ClearFields();
+                    }
+
+                    gsSetup.Show(); 
+                }
+                catch (ArgumentNullException)
+                {
+                    gsSetup.IsGatewayScheduleEnter = false;
+                    showGatewaySchedule.Checked = false;
+
+                    MessageDialog.Show(MessageDialog.AlertTitle1, MessageDialog.AlertText1, MessageDialog.Icon.Alert);
+                }
             }
             else
             {
@@ -220,60 +253,25 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private void RunCalculate_Click(object sender, EventArgs e)
         {
-            if (YearOfCalculation.Length == 0)
+            if (YearOfCalculation == null || YearOfCalculation.Length == 0)
             {
-                // TODO: Сообщить пользователя о том, что год не выбран
+                MessageDialog.Show(MessageDialog.AlertTitle1, MessageDialog.AlertText1, MessageDialog.Icon.Alert); 
             }
             else
             {
-                Calculation calc = !showGatewaySchedule.Checked ? new Calculation(DataAccess, FillInputData()) :
-                    new Calculation(DataAccess, FillInputData(), gsSetup.FillGatewaySchedule());
-
-                calc.Calculate();
-
-                if (!calc.IsExist)
-                {
-                    calc.Save();
-                }
-                else
-                {
-                    calc.Update();
-                }
-
-                // TODO: Сообщить об успешно выполненом расчете и его сохранении
+                RunCalculateAsync();
             }
         }
 
         private void SaveInputData_Click(object sender, EventArgs e)
         {
-            if (YearOfCalculation.Length == 0)
+            if (YearOfCalculation == null || YearOfCalculation.Length == 0)
             {
-                // TODO: Сообщить пользователя о том, что год не выбран
+                MessageDialog.Show(MessageDialog.AlertTitle1, MessageDialog.AlertText1, MessageDialog.Icon.Alert);
             }
             else
             {
-                Calculation calc = new Calculation(DataAccess, FillInputData());
-
-                if (!calc.IsExist)
-                {
-                    calc.Save();
-
-                    if (showGatewaySchedule.Checked)
-                    {
-                        gsSetup.FillGatewaySchedule().Save();
-                    }
-                }
-                else
-                {
-                    FillInputData().Update();
-
-                    if (showGatewaySchedule.Checked)
-                    {
-                        gsSetup.FillGatewaySchedule().Update();
-                    }
-                }
-
-                // TODO: Сообщить об успешном сохранении
+                SaveInputDataAsync();
             }
         }
 
@@ -291,10 +289,37 @@ namespace CatlabuhApp.UI.Support.Setups
         private void YearsBox_TextChanged(object sender, EventArgs e)
         {
             YearOfCalculation = yearsBox.Text;
+
+            if (showGatewaySchedule.Checked)
+            {
+                gsSetup.YearOfCalculation = YearOfCalculation;
+            }
         }
 
         #endregion
-        #region Общие обработичик для текстовых полей
+        #region Обработичики текстовых полей
+        private void HBoxes_TextChanged(object sender, EventArgs e)
+        {
+            TextBox textBox = (TextBox)sender;
+            int i = 0;
+
+            while (autoFilling.Checked)
+            {
+                if (textBox.Name == H1Boxes[i].Name)
+                {
+                    H2Boxes[i - 1].Text = textBox.Text;
+                    break;
+                }
+                if (textBox.Name == H2Boxes[i].Name)
+                {
+                    H1Boxes[i + 1].Text = textBox.Text;
+                    break;
+                }
+
+                i++;
+            }
+        }
+
         private void TextBox_Click(object sender, EventArgs e)
         {
             ((TextBox)sender).Select(0, ((TextBox)sender).Text.Length);
@@ -349,5 +374,6 @@ namespace CatlabuhApp.UI.Support.Setups
         {
             IsShown = false;
         }
+
     }
 }
