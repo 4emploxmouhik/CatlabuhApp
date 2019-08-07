@@ -3091,7 +3091,7 @@
     <value>87, 20</value>
   </data>
   <data name="enterData.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>100</value>
   </data>
   <data name="enterData.Text" xml:space="preserve">
     <value>Enter data</value>
@@ -3733,7 +3733,7 @@
     <value>170, 20</value>
   </data>
   <data name="enterDeficit.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>300</value>
   </data>
   <data name="enterDeficit.Text" xml:space="preserve">
     <value>Enter evaporation deficit</value>
@@ -3763,7 +3763,7 @@
     <value>142, 20</value>
   </data>
   <data name="enterDataBySLEB.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>200</value>
   </data>
   <data name="enterDataBySLEB.Text" xml:space="preserve">
     <value>Enter data by SLEB</value>
@@ -4096,9 +4096,6 @@ gateways work schedule?</value>
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 4, 5, 4</value>

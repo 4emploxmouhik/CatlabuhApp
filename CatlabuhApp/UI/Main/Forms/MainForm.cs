@@ -2,13 +2,6 @@
 using CatlabuhApp.UI.Main.Views;
 using CatlabuhApp.UI.Support.Dialogs;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.Main.Forms
@@ -42,16 +35,27 @@ namespace CatlabuhApp.UI.Main.Forms
 
         private CalculationView calcView;
         private ChartView chartView;
+        private SettingsView settingsView;
 
         public MainForm()
         {
+            GetCultureInfo();
             InitializeComponent();
-
+            
             DataAccess = new SQLiteDataAccess();
 
             calcView = new CalculationView(DataAccess) { Dock = DockStyle.Fill };
-            chartView = new ChartView() { Dock = DockStyle.Fill };
+            chartView = new ChartView(DataAccess) { Dock = DockStyle.Fill };
+            settingsView = new SettingsView() { Parent = this, Dock = DockStyle.Fill };
+        }
 
+        public static void GetCultureInfo()
+        {
+            if (!string.IsNullOrEmpty(Properties.Settings.Default.Language))
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.Language);
+                System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.Language);
+            }
         }
 
         private void Calculations_Click(object sender, EventArgs e)
@@ -59,21 +63,36 @@ namespace CatlabuhApp.UI.Main.Forms
             Content = calcView;
         }
 
-        private void Exit_Click(object sender, EventArgs e)
-        {
-            // TODO: Сделать проверку, есть ли не сохраненные данные
-
-            Application.Exit();
-        }
-
         private void Charts_Click(object sender, EventArgs e)
         {
             Content = chartView;
         }
 
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            if (!calcView.IsDataSaved)
+            {
+                MessageDialog md = new MessageDialog(MessageDialog.QuestionTitle, MessageDialog.QuestionText2, MessageDialog.Icon.Question);
+
+                if (md.DialogResult == DialogResult.Yes)
+                {
+                    calcView.SaveData();
+                }
+                if (md.DialogResult == DialogResult.No)
+                {
+                    Application.Exit();
+                }
+            }
+            else
+            {
+                Application.Exit();
+            }
+        }
+
         private void Settings_Click(object sender, EventArgs e)
         {
-
+            Content = settingsView;
+            settingsView.Update();
         }
 
         private void ViewAbout_Click(object sender, EventArgs e)
@@ -86,14 +105,5 @@ namespace CatlabuhApp.UI.Main.Forms
 
         }
 
-
-
-
-
-
-        private void MainForm_SizeChanged(object sender, EventArgs e)
-        {
-            Console.WriteLine($"Size = {Size.ToString()} ContentSize = {contentPanel.Size.ToString()}");
-        }
     }
 }

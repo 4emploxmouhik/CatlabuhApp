@@ -4,7 +4,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
 {
     public partial class MessageDialog : Form
     {
-        private Button OK = new Button() { Dock = DockStyle.Fill, Text = "OK" };
+        private Button OK = new Button() { Name = "ok", Dock = DockStyle.Fill, Text = "OK" };
         private Button Cancel = new Button() { Name = "cancel", Dock = DockStyle.Fill, Text = "Cancel" };
         private Button Yes = new Button() { Name = "yes", Dock = DockStyle.Fill, Text = "Yes" };
         private Button No = new Button() { Name = "no", Dock = DockStyle.Fill, Text = "No"};
@@ -58,7 +58,8 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
         public MessageDialog()
         {
-            InitializeComponent();
+            Main.Forms.MainForm.GetCultureInfo();
+            InitializeComponent(); 
         }
 
         public MessageDialog(string title, string message, Icon icon) : this()
@@ -82,7 +83,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
             switch (button.Name)
             {
-                case "OK": DialogResult = DialogResult.OK; break;
+                case "ok": DialogResult = DialogResult.OK; break;
                 case "cancel": DialogResult = DialogResult.Cancel; break;
                 case "yes": DialogResult = DialogResult.Yes; break;
                 case "no": DialogResult = DialogResult.No; break;

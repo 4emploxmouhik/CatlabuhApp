@@ -695,6 +695,7 @@
             resources.ApplyResources(this.yearsBox, "yearsBox");
             this.yearsBox.Name = "yearsBox";
             this.yearsBox.SelectedIndexChanged += new System.EventHandler(this.YearsBox_SelectedIndexChanged);
+            this.yearsBox.TextChanged += new System.EventHandler(this.YearsBox_TextChanged);
             // 
             // minimizeBoxBtn
             // 

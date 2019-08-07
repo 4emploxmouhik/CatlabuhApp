@@ -1,5 +1,7 @@
 ﻿using CatlabuhApp.Data.Access;
 using CatlabuhApp.Data.Models;
+using CatlabuhApp.UI.Main.Views;
+using CatlabuhApp.UI.Support.Dialogs;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -9,9 +11,8 @@ namespace CatlabuhApp.UI.Support.Setups
     public partial class GatewayScheduleSetup : Form
     {
         public IDataAccess DataAccess { get; private set; }
-        public Form ParentForm { get; set; }
-
         public bool IsShown { get; private set; } = false;
+        private CalculationView parent = null;
 
         #region Списки текстовых полей
         // Объемов
@@ -138,6 +139,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
         public GatewayScheduleSetup()
         {
+            Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent();
 
             VDGDPlusBoxes.AddRange(new TextBox[] {
@@ -178,7 +180,13 @@ namespace CatlabuhApp.UI.Support.Setups
         public GatewayScheduleSetup(IDataAccess dataAccess) : this()
         {
             DataAccess = dataAccess;
-            yearsBox.Items.AddRange(DataAccess.GetColumnData<string>("SELECT YearName FROM YearsOfCalculations").ToArray());
+            yearsBox.Items.AddRange(DataAccess.GetColumnData<string>("SELECT YearName FROM YearsOfCalculations ORDER BY YearName DESC").ToArray());
+            yearsBox.Text = yearsBox.Items[0].ToString();
+        }
+
+        public GatewayScheduleSetup(IDataAccess dataAccess, CalculationView parent) : this(dataAccess)
+        {
+            this.parent = parent;
         }
 
         public void ClearFields()
@@ -255,46 +263,44 @@ namespace CatlabuhApp.UI.Support.Setups
 
         public void LoadScheduleData()
         {
-            if (DataAccess == null)
+            if (YearOfCalculation == null || YearOfCalculation.Length == 0)
             {
-                throw new ArgumentNullException("DataAccess is null.");
+                throw new ArgumentNullException();
             }
-            if (YearOfCalculation == null)
+            else if (DataAccess.GetCellData<int>($"SELECT count(YearName) FROM GatewaySchedule WHERE YearName = {YearOfCalculation}") != 0)
             {
-                // TODO: кинуть сообщение пользователю, что год расчета не выбран
+                List<string[]> volumes = new List<string[]>()
+                {
+                    DataAccess.GetColumnData<string>($"SELECT VD_plus   FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT VD_minus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT Voz_plus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT Voz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray()
+                };
+                List<string[]> dates = new List<string[]>()
+                {
+                    DataAccess.GetColumnData<string>($"SELECT GatewayOpenVD_plus    FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT GatewayCloseVD_plus   FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT GatewayOpenVD_minus   FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT GatewayCloseVD_minus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT GatewayOpenVoz_plus   FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_plus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT GatewayOpenVoz_minus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
+                    DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray()
+                };
+
+                for (int i = 0; i < 12; i++)
+                {
+                    VD_plusBoxes[i].Text = volumes[0][i];
+                    VD_minusBoxes[i].Text = volumes[1][i];
+                    Voz_plusBoxes[i].Text = volumes[2][i];
+                    Voz_minusBoxes[i].Text = volumes[3][i];
+                }
+
+                FillingDatesBoxes(VDGDPlusBoxes, dates[0], dates[1]);
+                FillingDatesBoxes(VDGDMinusBoxes, dates[2], dates[3]);
+                FillingDatesBoxes(VozGDPlusBoxes, dates[4], dates[5]);
+                FillingDatesBoxes(VozGDMinusBoxes, dates[6], dates[7]);
             }
-
-            List<string[]> volumes = new List<string[]>()
-            {
-                DataAccess.GetColumnData<string>($"SELECT VD_plus   FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT VD_minus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT Voz_plus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT Voz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray()
-            };
-            List<string[]> dates = new List<string[]>()
-            {
-                DataAccess.GetColumnData<string>($"SELECT GatewayOpenVD_plus    FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT GatewayCloseVD_plus   FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT GatewayOpenVD_minus   FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT GatewayCloseVD_minus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT GatewayOpenVoz_plus   FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_plus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT GatewayOpenVoz_minus  FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray(),
-                DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray()
-            };
-
-            for (int i = 0; i < 12; i++)
-            {
-                VD_plusBoxes[i].Text   = volumes[0][i];
-                VD_minusBoxes[i].Text  = volumes[1][i];
-                Voz_plusBoxes[i].Text  = volumes[2][i];
-                Voz_minusBoxes[i].Text = volumes[3][i];
-            }
-
-            FillingDatesBoxes(VDGDPlusBoxes,   dates[0], dates[1]);
-            FillingDatesBoxes(VDGDMinusBoxes,  dates[2], dates[3]);
-            FillingDatesBoxes(VozGDPlusBoxes,  dates[4], dates[5]);
-            FillingDatesBoxes(VozGDMinusBoxes, dates[6], dates[7]);
         }
 
         #endregion
@@ -421,15 +427,14 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private void SaveScheduleData_Click(object sender, EventArgs e)
         {
-            if (YearOfCalculation.Length == 0)
+            if (YearOfCalculation == null || YearOfCalculation.Length == 0)
             {
-                // TODO: Сообщить пользователя о том, что год не выбран
+                MessageDialog.Show(MessageDialog.AlertTitle1, MessageDialog.AlertText1, MessageDialog.Icon.Alert);
             }
             else
             {
-                FillGatewaySchedule().Update();
-
-                // TODO: Сообщить об успешном сохранении
+                Cursor = Cursors.AppStarting;
+                SaveScheduleAsync();
             }
         }
 
@@ -489,31 +494,22 @@ namespace CatlabuhApp.UI.Support.Setups
 
         #endregion
 
-        public new void Show()
-        {
-            IsShown = true;
-            base.Show();
-
-            Console.WriteLine("GatewayScheduleSetup is SHOW");
-        }
-
-
-
         private void GatewayScheduleSetup_FormClosing(object sender, FormClosingEventArgs e)
         {
             IsShown = false;
-            
+
             if (IsGatewayScheduleEnter)
             {
                 e.Cancel = true;
                 this.Hide();
-
-                Console.WriteLine("GatewayScheduleSetup is HIDE");
-            }
-            else
-            {
-                Console.WriteLine("GatewayScheduleSetup is CLOSE");
             }
         }
+
+        public new void Show()
+        {
+            IsShown = true;
+            base.Show();
+        }
+
     }
 }
