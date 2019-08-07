@@ -241,6 +241,15 @@
     <EmbeddedResource Include="UI\Support\Dialogs\ChartStyleDialog.resx">
       <DependentUpon>ChartStyleDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Dialogs\ChartStyleDialog.ru-RU.resx">
+      <DependentUpon>ChartStyleDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Dialogs\ChartStyleDialog.uk-UA.resx">
+      <DependentUpon>ChartStyleDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Dialogs\ChartStyleDialog.uk.resx">
+      <DependentUpon>ChartStyleDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Support\Dialogs\MessageDialog.resx">
       <DependentUpon>MessageDialog.cs</DependentUpon>
     </EmbeddedResource>

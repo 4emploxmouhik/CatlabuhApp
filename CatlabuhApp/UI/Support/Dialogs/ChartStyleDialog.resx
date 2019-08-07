@@ -877,7 +877,7 @@
     <value>Dot</value>
   </data>
   <data name="yAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 57</value>
+    <value>229, 56</value>
   </data>
   <data name="yAxisMinorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 24</value>
@@ -937,7 +937,7 @@
     <value>Dot</value>
   </data>
   <data name="yAxisMajorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 27</value>
+    <value>229, 26</value>
   </data>
   <data name="yAxisMajorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 24</value>
@@ -967,7 +967,7 @@
     <value>NoControl</value>
   </data>
   <data name="showYAxisMinorGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 55</value>
+    <value>18, 58</value>
   </data>
   <data name="showYAxisMinorGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 20</value>
@@ -1000,7 +1000,7 @@
     <value>NoControl</value>
   </data>
   <data name="showYAxisMajorGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 29</value>
+    <value>17, 28</value>
   </data>
   <data name="showYAxisMajorGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 20</value>
@@ -1090,7 +1090,7 @@
     <value>Dot</value>
   </data>
   <data name="xAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 57</value>
+    <value>229, 56</value>
   </data>
   <data name="xAxisMinorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 24</value>
@@ -1150,7 +1150,7 @@
     <value>NoControl</value>
   </data>
   <data name="showXAxisMinorGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 55</value>
+    <value>18, 58</value>
   </data>
   <data name="showXAxisMinorGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 20</value>
@@ -1183,7 +1183,7 @@
     <value>Dot</value>
   </data>
   <data name="xAxisMajorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 27</value>
+    <value>229, 26</value>
   </data>
   <data name="xAxisMajorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 24</value>
@@ -1213,7 +1213,7 @@
     <value>NoControl</value>
   </data>
   <data name="showXAxisMajorGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 29</value>
+    <value>17, 28</value>
   </data>
   <data name="showXAxisMajorGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 20</value>
@@ -1346,39 +1346,6 @@
   </data>
   <data name="&gt;&gt;gridPage.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="seriesGridView.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="seriesGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="seriesGridView.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="seriesGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="seriesGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="seriesGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>606, 295</value>
-  </data>
-  <data name="seriesGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;seriesGridView.Name" xml:space="preserve">
-    <value>seriesGridView</value>
-  </data>
-  <data name="&gt;&gt;seriesGridView.Type" xml:space="preserve">
-    <value>CatlabuhApp.UI.Main.UC.SeriesGridView, CatlabuhApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;seriesGridView.Parent" xml:space="preserve">
-    <value>seriesPage</value>
-  </data>
-  <data name="&gt;&gt;seriesGridView.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="seriesPage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
@@ -1613,7 +1580,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Chart style dialog</value>
+    <value>Hello world</value>
   </data>
   <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
     <value>colorDialog</value>
