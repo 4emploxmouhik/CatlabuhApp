@@ -9,7 +9,7 @@ namespace CatlabuhApp.UI.Support.Setups
     {
         private async Task RunCalculateAsync()
         {
-            Cursor = Cursors.AppStarting;
+            Cursor = Cursors.WaitCursor;
             runCalculate.Enabled = false;
 
             await Task.Run(() => RunCalculate());
@@ -40,7 +40,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private async Task SaveInputDataAsync()
         {
-            Cursor = Cursors.AppStarting;
+            Cursor = Cursors.WaitCursor;
             saveInputData.Enabled = false;
 
             await Task.Run(() => SaveInputData());

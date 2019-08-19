@@ -2,6 +2,7 @@
 using CatlabuhApp.Data.Models;
 using CatlabuhApp.UI.Support.Dialogs;
 using CatlabuhApp.UI.Support.Setups;
+using CatlabuhAppSupportHelp.UI.Help;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +12,7 @@ namespace CatlabuhApp.UI.Main.Views
 {
     public partial class CalculationView : UserControl
     {
-        private ComponentResourceManager res = new ComponentResourceManager(typeof(CalculationView));
+        private ComponentResourceManager res = new ComponentResourceManager(typeof(Properties.Resources));
         public static IDataAccess DataAccess { get; private set; }
 
         private GatewayScheduleSetup gsSetup;
@@ -131,30 +132,50 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void Recalculate_Click(object sender, EventArgs e)
         {
-            MessageDialog md = new MessageDialog(MessageDialog.QuestionTitle, MessageDialog.QuestionText3, MessageDialog.Icon.Question);
+            MessageDialog md;
+
+            md = new MessageDialog(MessageDialog.QuestionTitle, MessageDialog.QuestionText3, MessageDialog.Icon.Question);
 
             if (md.DialogResult == DialogResult.Yes)
             {
                 if (YearOfCalculation == null || YearOfCalculation.Length == 0)
                 {
                     MessageDialog.Show(MessageDialog.AlertTitle1, MessageDialog.AlertText1, MessageDialog.Icon.Alert);
+                    goto Exit;
                 }
-                else
+                else if (cellsToChange.Count > 0)
                 {
-                    RecalculateAsync();
+                    md = new MessageDialog(MessageDialog.QuestionTitle, MessageDialog.QuestionText2, MessageDialog.Icon.Question);
+
+                    switch (md.DialogResult)
+                    {
+                        case DialogResult.Yes:
+                            SaveData();
+                            MessageDialog.Show(MessageDialog.SuccessTitle, MessageDialog.SuccessText3, MessageDialog.Icon.OK);
+                            goto case DialogResult.No;
+                        case DialogResult.No:
+                            goto Recalculate;
+                        case DialogResult.Cancel:
+                            goto Exit;
+                    }
                 }
+            Recalculate:
+                RecalculateAsync();
             }
+        Exit:;
         }
 
         private void Save_Click(object sender, EventArgs e)
         {
-            Cursor = Cursors.AppStarting;
             SaveData();
-            Cursor = Cursors.Default;
             MessageDialog.Show(MessageDialog.SuccessTitle, MessageDialog.SuccessText3, MessageDialog.Icon.OK);
         }
 
         #endregion
-       
+
+        private void CalculationView_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            new HelpForm("viewCalcText", "createCalcText", "recalculateText", "saveChangesText", "deleteCalcText", "exportCalcText").Show();
+        }
     }
 }

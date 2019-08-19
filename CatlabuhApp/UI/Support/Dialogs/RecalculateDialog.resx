@@ -133,7 +133,7 @@
     <value>153, 20</value>
   </data>
   <data name="byDeficit.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="byDeficit.Text" xml:space="preserve">
     <value>By moisture deficit (d)</value>
@@ -187,7 +187,7 @@
     <value>227, 91</value>
   </data>
   <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>0</value>
   </data>
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Choose calculation of evaporation</value>
@@ -217,7 +217,7 @@
     <value>79, 20</value>
   </data>
   <data name="gsByDates.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>2</value>
   </data>
   <data name="gsByDates.Text" xml:space="preserve">
     <value>By dates</value>
@@ -247,7 +247,7 @@
     <value>72, 20</value>
   </data>
   <data name="gsByData.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>1</value>
   </data>
   <data name="gsByData.Text" xml:space="preserve">
     <value>By data</value>
@@ -274,7 +274,7 @@
     <value>206, 70</value>
   </data>
   <data name="choiceGSCalculation.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>2</value>
   </data>
   <data name="choiceGSCalculation.Text" xml:space="preserve">
     <value>Choose calculation of gateway schedule</value>
@@ -332,7 +332,7 @@ gateways work schedule?</value>
     <value>227, 161</value>
   </data>
   <data name="gsGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>1</value>
   </data>
   <data name="gsGroupBox.Text" xml:space="preserve">
     <value>Gateaway Schedule</value>
@@ -359,7 +359,7 @@ gateways work schedule?</value>
     <value>75, 26</value>
   </data>
   <data name="cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>3</value>
   </data>
   <data name="cancel.Text" xml:space="preserve">
     <value>Cancel</value>
@@ -386,7 +386,7 @@ gateways work schedule?</value>
     <value>109, 26</value>
   </data>
   <data name="runCalculate.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>2</value>
   </data>
   <data name="runCalculate.Text" xml:space="preserve">
     <value>Run calcualtion</value>
@@ -417,78 +417,26 @@ gateways work schedule?</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
-        AAC/SgCvy1oP/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89f
-        Ff/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89f
-        Ff/LWg//v0oAr8dVCv//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/HVQr/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/bbyT/z18V/9NkGv/7mE7//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/zjkT/95NJ//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/845E/79LAP+/SwD/v0sA/+N5L///nlT//55U//+eVP//nlT//55U//+eVP//nlT/12of/79L
-        AP+/SwD/33Qq//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+eVP//nlT//55U//+eVP//nlT//55U/9tv
-        JP+/SwD/v0sA/79LAP/HVQr//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79LAP/fdCr//55U//+eVP//nlT//55U//+e
-        VP/nfjT/v0sA/79LAP+/SwD/v0sA/+N5L///nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89f
-        Ff//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/990Kv//nlT//55U//+e
-        VP//nlT/5340/79LAP+/SwD/v0sA/79LAP/fdCr//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+e
-        VP//nlT//55U/+uEOf+/SwD/v0sA/79LAP+/SwD/02Qa//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79L
-        AP/fdCr//55U//+eVP/zjkT/w1AF/79LAP+/SwD/v0sA/8taD//7mE7//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79L
-        AP+/SwD/v0sA/990Kv//nlT/95NJ/8NQBf+/SwD/v0sA/79LAP/DUAX/+5hO//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/viT//v0sA/79LAP+/SwD/33Qq//+eVP/viT//v0sA/79LAP+/SwD/w1AF//OORP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U/++JP/+/SwD/v0sA/79LAP/fdCr//55U//+eVP/DUAX/v0sA/8NQBf/zjkT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/990Kv//nlT//55U//OORP/fdCr/64Q5//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/89f
-        Ff/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79LAP/DUAX/845E//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/79L
-        AP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79L
-        AP+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++J
-        P/+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/74k//79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/02Qa/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79LAP/fdCr/845E/8NQBf+/SwD/v0sA/79L
-        AP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89f
-        Ff//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/990Kv//nlT/845E/8NQ
-        Bf+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+e
-        VP//nlT/845E/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79L
-        AP/fdCr//55U//+eVP//nlT/845E/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79L
-        AP+/SwD/v0sA/990Kv//nlT//55U//+eVP//nlT/845E/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/viT//v0sA/79LAP+/SwD/33Qq//+eVP//nlT//55U//+eVP//nlT/845E/8NQBf+/SwD/v0sA/79L
-        AP/HVQr//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//eTSf+/SwD/v0sA/79LAP/nfjT//55U//+eVP//nlT//55U//+eVP//nlT/845E/8NQ
-        Bf+/SwD/v0sA/8dVCv//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/9NkGv+/SwD/w1AF//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/74k//79LAP+/SwD/43kv//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/9Nk
-        Gv/DUAX/64Q5//eTSf//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//eT
-        Sf/rhDn/w1AF/79LAI+/SwC/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79L
-        AP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79L
-        AP+/SwD/v0sA/79LAL+/SwCPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AABMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwCqVQADnWQWgp5lFaqeZRWqnmUVqp5lFaqeZRWqnmUVqp5lFaqeZRWqnGUWgapV
+        AANMcEcATHBHAExwRwBMcEcAnGcVSKZ5OP+8qo//pnk4/7univ+xkGH/sZBh/7univ+fci7/o5Bq/59y
+        Lv+eZRZHTHBHAExwRwBMcEcATHBHAJxmFVWmeTj/vKqP/6Z5OP+7por/sZBh/7GQYf+7p4r/n3Iu/6OQ
+        av+fci7/nGYVVUxwRwBMcEcATHBHAExwRwCcZhVVpnk4/7yqj/+meTj/u6eK/7GQYf+xkGH/u6eK/59y
+        Lv+jkGr/n3Iu/5xmFVVMcEcATHBHAExwRwBMcEcAnGYVVaZ5OP+8qo//pnk4/7umiv+xkGH/sZBh/7un
+        iv+fci7/o5Bq/59yLv+cZhVVTHBHAExwRwBMcEcATHBHAJxmFVWmeTj/vKqP/6Z5OP+7p4r/sZBh/7GQ
+        Yf+7p4r/n3Iu/6OQav+fci7/nGYVVUxwRwBMcEcATHBHAExwRwCcZhVVpnk4/7yqj/+meTj/u6aK/7GQ
+        Yf+xkGH/u6eK/59yLv+jkGr/n3Iu/5xmFVVMcEcATHBHAExwRwBMcEcAnGYVVaZ5OP+8qo//pnk4/7un
+        iv+xkGH/sZBh/7univ+HZEL/T2Gw/4dkQv+cZhVVTHBHAExwRwBMcEcATHBHAJxmFVWmeTj/vKqP/6Z5
+        OP+7por/sZBh/7GQYf+7p4r/h2RC/09hsP+HZEL/nGYVVUxwRwBMcEcATHBHAExwRwCKWQ9khVUL44VV
+        C+OFVQvjhVUL44VVC+OFVQvjhVUL44VVC+OFVQvjhVUL44pZD2RMcEcATHBHAExwRwBMcEcAe1EJVYto
+        Gf+xo0b/saNG/7GjRv+xo0b/saNG/7GjRv+xo0b/saNG/4toGf97UQlVTHBHAExwRwBMcEcATHBHAHtR
+        CVWXeif/zMxl/8zMZf/MzGX/zMxl/8zMZf+0r1r/tK9a/5uST/+Xeif/e1EJVUxwRwBMcEcATHBHAExw
+        RwB8UQdIi2gZ/7GjRv+xo0b/saNG/7GjRv+xo0b/saNG/7GjRv+xo0b/i2gZ/35TB0dMcEcATHBHAExw
+        RwBMcEcAVVUAA31SCIN9UQiqfVEIqn1RCKp9UQiqfVEIqn1RCKp9UQiqfVEIqn1SCINVVQADTHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcA//8AAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMAD
+        AADAAwAA//8AAA==
 </value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">

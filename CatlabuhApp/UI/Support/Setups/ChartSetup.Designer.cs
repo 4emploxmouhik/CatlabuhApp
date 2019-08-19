@@ -31,6 +31,9 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChartSetup));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.monthRadio = new System.Windows.Forms.RadioButton();
+            this.yearsRadio = new System.Windows.Forms.RadioButton();
             this.monthPanel = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.getAll = new System.Windows.Forms.CheckBox();
@@ -47,9 +50,6 @@
             this.march = new System.Windows.Forms.CheckBox();
             this.february = new System.Windows.Forms.CheckBox();
             this.january = new System.Windows.Forms.CheckBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.monthRadio = new System.Windows.Forms.RadioButton();
-            this.yearsRadio = new System.Windows.Forms.RadioButton();
             this.yearsPanel = new System.Windows.Forms.Panel();
             this.tabControl2 = new System.Windows.Forms.TabControl();
             this.tabPage5 = new System.Windows.Forms.TabPage();
@@ -181,8 +181,8 @@
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.colorDialog = new System.Windows.Forms.ColorDialog();
             this.groupBox1.SuspendLayout();
-            this.monthPanel.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.monthPanel.SuspendLayout();
             this.yearsPanel.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tabPage5.SuspendLayout();
@@ -200,12 +200,38 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.monthPanel);
             this.groupBox1.Controls.Add(this.groupBox3);
+            this.groupBox1.Controls.Add(this.monthPanel);
             this.groupBox1.Controls.Add(this.yearsPanel);
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.monthRadio);
+            this.groupBox3.Controls.Add(this.yearsRadio);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
+            // 
+            // monthRadio
+            // 
+            resources.ApplyResources(this.monthRadio, "monthRadio");
+            this.monthRadio.Name = "monthRadio";
+            this.monthRadio.Tag = "months";
+            this.monthRadio.UseVisualStyleBackColor = true;
+            this.monthRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
+            // 
+            // yearsRadio
+            // 
+            resources.ApplyResources(this.yearsRadio, "yearsRadio");
+            this.yearsRadio.Checked = true;
+            this.yearsRadio.Name = "yearsRadio";
+            this.yearsRadio.TabStop = true;
+            this.yearsRadio.Tag = "years";
+            this.yearsRadio.UseVisualStyleBackColor = true;
+            this.yearsRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
             // monthPanel
             // 
@@ -246,13 +272,12 @@
             resources.ApplyResources(this.yearsComboBox_1, "yearsComboBox_1");
             this.yearsComboBox_1.Name = "yearsComboBox_1";
             this.yearsComboBox_1.SelectedIndexChanged += new System.EventHandler(this.ComboBox_SelectedIndexChange);
-            this.yearsComboBox_1.Enter += new System.EventHandler(this.ComboBox_Enter);
             // 
             // december
             // 
             resources.ApplyResources(this.december, "december");
             this.december.Name = "december";
-            this.december.Tag = "Груд.";
+            this.december.Tag = "12";
             this.december.UseVisualStyleBackColor = true;
             this.december.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -260,7 +285,7 @@
             // 
             resources.ApplyResources(this.november, "november");
             this.november.Name = "november";
-            this.november.Tag = "Листоп.";
+            this.november.Tag = "11";
             this.november.UseVisualStyleBackColor = true;
             this.november.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -268,7 +293,7 @@
             // 
             resources.ApplyResources(this.october, "october");
             this.october.Name = "october";
-            this.october.Tag = "Жовт.";
+            this.october.Tag = "10";
             this.october.UseVisualStyleBackColor = true;
             this.october.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -276,7 +301,7 @@
             // 
             resources.ApplyResources(this.september, "september");
             this.september.Name = "september";
-            this.september.Tag = "Вер.";
+            this.september.Tag = "9";
             this.september.UseVisualStyleBackColor = true;
             this.september.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -284,7 +309,7 @@
             // 
             resources.ApplyResources(this.august, "august");
             this.august.Name = "august";
-            this.august.Tag = "Серп.";
+            this.august.Tag = "8";
             this.august.UseVisualStyleBackColor = true;
             this.august.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -292,7 +317,7 @@
             // 
             resources.ApplyResources(this.july, "july");
             this.july.Name = "july";
-            this.july.Tag = "Лип.";
+            this.july.Tag = "7";
             this.july.UseVisualStyleBackColor = true;
             this.july.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -300,7 +325,7 @@
             // 
             resources.ApplyResources(this.june, "june");
             this.june.Name = "june";
-            this.june.Tag = "Черв.";
+            this.june.Tag = "6";
             this.june.UseVisualStyleBackColor = true;
             this.june.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -308,7 +333,7 @@
             // 
             resources.ApplyResources(this.may, "may");
             this.may.Name = "may";
-            this.may.Tag = "Трав.";
+            this.may.Tag = "5";
             this.may.UseVisualStyleBackColor = true;
             this.may.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -316,7 +341,7 @@
             // 
             resources.ApplyResources(this.april, "april");
             this.april.Name = "april";
-            this.april.Tag = "Квіт.";
+            this.april.Tag = "4";
             this.april.UseVisualStyleBackColor = true;
             this.april.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -324,7 +349,7 @@
             // 
             resources.ApplyResources(this.march, "march");
             this.march.Name = "march";
-            this.march.Tag = "Берез.";
+            this.march.Tag = "3";
             this.march.UseVisualStyleBackColor = true;
             this.march.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -332,7 +357,7 @@
             // 
             resources.ApplyResources(this.february, "february");
             this.february.Name = "february";
-            this.february.Tag = "Лют.";
+            this.february.Tag = "2";
             this.february.UseVisualStyleBackColor = true;
             this.february.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
             // 
@@ -340,35 +365,9 @@
             // 
             resources.ApplyResources(this.january, "january");
             this.january.Name = "january";
-            this.january.Tag = "Січ.";
+            this.january.Tag = "1";
             this.january.UseVisualStyleBackColor = true;
             this.january.CheckedChanged += new System.EventHandler(this.XItemCheckBox_CheckedChanged);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.monthRadio);
-            this.groupBox3.Controls.Add(this.yearsRadio);
-            resources.ApplyResources(this.groupBox3, "groupBox3");
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.TabStop = false;
-            // 
-            // monthRadio
-            // 
-            resources.ApplyResources(this.monthRadio, "monthRadio");
-            this.monthRadio.Name = "monthRadio";
-            this.monthRadio.Tag = "months";
-            this.monthRadio.UseVisualStyleBackColor = true;
-            this.monthRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
-            // 
-            // yearsRadio
-            // 
-            resources.ApplyResources(this.yearsRadio, "yearsRadio");
-            this.yearsRadio.Checked = true;
-            this.yearsRadio.Name = "yearsRadio";
-            this.yearsRadio.TabStop = true;
-            this.yearsRadio.Tag = "years";
-            this.yearsRadio.UseVisualStyleBackColor = true;
-            this.yearsRadio.CheckedChanged += new System.EventHandler(this.RadioButton_CheckedChanged);
             // 
             // yearsPanel
             // 
@@ -407,7 +406,6 @@
             this.yearsComboBox_2.FormattingEnabled = true;
             resources.ApplyResources(this.yearsComboBox_2, "yearsComboBox_2");
             this.yearsComboBox_2.Name = "yearsComboBox_2";
-            this.yearsComboBox_2.Enter += new System.EventHandler(this.ComboBox_Enter);
             // 
             // tabPage6
             // 
@@ -425,7 +423,6 @@
             this.yearToCombBox.FormattingEnabled = true;
             resources.ApplyResources(this.yearToCombBox, "yearToCombBox");
             this.yearToCombBox.Name = "yearToCombBox";
-            this.yearToCombBox.Enter += new System.EventHandler(this.ComboBox_Enter);
             // 
             // label5
             // 
@@ -437,7 +434,6 @@
             this.yearFromComboBox.FormattingEnabled = true;
             resources.ApplyResources(this.yearFromComboBox, "yearFromComboBox");
             this.yearFromComboBox.Name = "yearFromComboBox";
-            this.yearFromComboBox.Enter += new System.EventHandler(this.ComboBox_Enter);
             // 
             // label1
             // 
@@ -1532,10 +1528,10 @@
             this.HelpButtonClicked += new System.ComponentModel.CancelEventHandler(this.SetupGraphForm_HelpButtonClicked);
             this.Load += new System.EventHandler(this.SetupGraphForm_Load);
             this.groupBox1.ResumeLayout(false);
-            this.monthPanel.ResumeLayout(false);
-            this.monthPanel.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.monthPanel.ResumeLayout(false);
+            this.monthPanel.PerformLayout();
             this.yearsPanel.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.tabPage5.ResumeLayout(false);

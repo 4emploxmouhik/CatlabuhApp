@@ -2,6 +2,7 @@
 using CatlabuhApp.Data.Models;
 using CatlabuhApp.UI.Main.Views;
 using CatlabuhApp.UI.Support.Dialogs;
+using CatlabuhAppSupportHelp.UI.Help;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -433,7 +434,7 @@ namespace CatlabuhApp.UI.Support.Setups
             }
             else
             {
-                Cursor = Cursors.AppStarting;
+                Cursor = Cursors.WaitCursor;
                 SaveScheduleAsync();
             }
         }
@@ -484,12 +485,12 @@ namespace CatlabuhApp.UI.Support.Setups
         #region Вызов справки
         private void GatewayScheduleSetup_HelpRequested(object sender, HelpEventArgs hlpevent)
         {
-            // TODO: Вызвать окно справки
+            new HelpForm("gatewayScheduleText", "clearFieldsText").Show();
         }
 
         private void HelpButton_Click(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            // TODO: Вызвать окно справки
+            new HelpForm("gatewayScheduleText", "clearFieldsText").Show();
         }
 
         #endregion

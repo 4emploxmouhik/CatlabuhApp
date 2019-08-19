@@ -117,143 +117,629 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="avr_HDescription_EN" xml:space="preserve">
+    <value>Average water level per month, mBS</value>
+  </data>
+  <data name="avr_HDescription_RU" xml:space="preserve">
+    <value>Средний уровень воды за месяц, мБС</value>
+  </data>
+  <data name="avr_HDescription_UA" xml:space="preserve">
+    <value>Середній рівень води за місяць, мБС</value>
+  </data>
+  <data name="C1Description_EN" xml:space="preserve">
+    <value>Salt concentration at the lake at the beginning of the month, 10^6 t.</value>
+  </data>
+  <data name="C1Description_RU" xml:space="preserve">
+    <value>Концентрация солей по озеру в начале месяца, 10^6 т.</value>
+  </data>
+  <data name="C1Description_UA" xml:space="preserve">
+    <value>Концентрація солей по озеру на початку місяця, 10^6 т.</value>
+  </data>
+  <data name="C2Description_EN" xml:space="preserve">
+    <value>Salt concentration at the lake at the beginning of the month, 10^6 t.</value>
+  </data>
+  <data name="C2Description_RU" xml:space="preserve">
+    <value>Концентрация солей по озеру в начале месяца, 10^6 т.</value>
+  </data>
+  <data name="C2Description_UA" xml:space="preserve">
+    <value>Концентрація солей по озеру на початку місяця, 10^6 т.</value>
+  </data>
+  <data name="CbDescription_EN" xml:space="preserve">
+    <value>Supply of salts with lateral inflow, 10^6 t.</value>
+  </data>
+  <data name="CbDescription_RU" xml:space="preserve">
+    <value>Поступление солей с боковым притоком, 10^6 т.</value>
+  </data>
+  <data name="CbDescription_UA" xml:space="preserve">
+    <value>Надходження солей з бічним припливом, 10^6 т.</value>
+  </data>
+  <data name="CdrDescription_EN" xml:space="preserve">
+    <value>Reception of salts with drainage waters, 10^6 t.</value>
+  </data>
+  <data name="CdrDescription_RU" xml:space="preserve">
+    <value>Поступление солей с дренажными водами, 10^6 т.</value>
+  </data>
+  <data name="CdrDescription_UA" xml:space="preserve">
+    <value>Надходження солей з дренажними водами, 10^6 т.</value>
+  </data>
+  <data name="CD_minusDescription_EN" xml:space="preserve">
+    <value>Discharges of water along with salts into the Danube River, 10^6 t.</value>
+  </data>
+  <data name="CD_minusDescription_RU" xml:space="preserve">
+    <value>Сбросы воды вместе с солями в р. Дунай, 10^6 т.</value>
+  </data>
+  <data name="CD_minusDescription_UA" xml:space="preserve">
+    <value>Скиди води разом із солями у р. Дунай, 10^6 т.</value>
+  </data>
+  <data name="CD_plusDescription_EN" xml:space="preserve">
+    <value>Supply of salts with Danube water, 10^6 t.</value>
+  </data>
+  <data name="CD_plusDescription_RU" xml:space="preserve">
+    <value>Поступление солей с Дунайской водой, 10^6 т.</value>
+  </data>
+  <data name="CD_plusDescription_UA" xml:space="preserve">
+    <value>Надходження солей з Дунайською водою, 10^6 т.</value>
+  </data>
+  <data name="CfDescription_EN" xml:space="preserve">
+    <value>Loss of salts with filtration, 10^6 t.</value>
+  </data>
+  <data name="CfDescription_RU" xml:space="preserve">
+    <value>Потеря солей с фильтрацией, 10^6 т.</value>
+  </data>
+  <data name="CfDescription_UA" xml:space="preserve">
+    <value>Втрата солей з фільтрацією, 10^6 т.</value>
+  </data>
+  <data name="CgDescription_EN" xml:space="preserve">
+    <value>Supply of groundwater salts, 10^6 t.</value>
+  </data>
+  <data name="CgDescription_RU" xml:space="preserve">
+    <value>Поступление солей с грунтовыми водами, 10^6 т.</value>
+  </data>
+  <data name="CgDescription_UA" xml:space="preserve">
+    <value>Надходження солей з ґрунтовими водами, 10^6 т.</value>
+  </data>
+  <data name="Coz_minusDescription_EN" xml:space="preserve">
+    <value>Salts that are excreted with water to support water levels in the Lung-Safian Lake System, 10^6 t.</value>
+  </data>
+  <data name="Coz_minusDescription_RU" xml:space="preserve">
+    <value>Соли, которык выводятся с водой на поддержку уровней воды в системе озер Лунг-Сафьян, 10^6 т.</value>
+  </data>
+  <data name="Coz_minusDescription_UA" xml:space="preserve">
+    <value>Солі, що виводяться з водою на підтримку рівнів води у системі озер Лунг-Сафьян, 10^6 т.</value>
+  </data>
+  <data name="Coz_plusDescription_EN" xml:space="preserve">
+    <value>Salt inflow from the Lung-Safian lake system, 10^6 t.</value>
+  </data>
+  <data name="Coz_plusDescription_RU" xml:space="preserve">
+    <value>Поступление солей из системы озер Лунг-Сафьян, 10^6 т.</value>
+  </data>
+  <data name="Coz_plusDescription_UA" xml:space="preserve">
+    <value>Надходження солей з системи озер  Лунг-Сафьян, 10^6 т.</value>
+  </data>
+  <data name="CpDescription_EN" xml:space="preserve">
+    <value>Receipt of salts with sediment, 10^6 t.</value>
+  </data>
+  <data name="CpDescription_RU" xml:space="preserve">
+    <value>Поступление солей с осадками, 10^6 т.</value>
+  </data>
+  <data name="CpDescription_UA" xml:space="preserve">
+    <value>Надходження солей з опадами, 10^6 т.</value>
+  </data>
+  <data name="CrDescription_EN" xml:space="preserve">
+    <value>Supply of salts with surface runoff, 10^6 t.</value>
+  </data>
+  <data name="CrDescription_RU" xml:space="preserve">
+    <value>Поступление солей с поверхностным стоком, 10^6 т.</value>
+  </data>
+  <data name="CrDescription_UA" xml:space="preserve">
+    <value>Надходження солей з поверхневим стоком, 10^6 т.</value>
+  </data>
+  <data name="CzDescription_EN" xml:space="preserve">
+    <value>Loss of salts on irrigation, 10^6 t.</value>
+  </data>
+  <data name="CzDescription_RU" xml:space="preserve">
+    <value>Потеря солей на орошении, 10^6 т.</value>
+  </data>
+  <data name="CzDescription_UA" xml:space="preserve">
+    <value>Втрата солей на зрошуванні, 10^6 т.</value>
+  </data>
+  <data name="dDescription_EN" xml:space="preserve">
+    <value>Humidity deficiency, hPa</value>
+  </data>
+  <data name="dDescription_RU" xml:space="preserve">
+    <value>Дефицит влажности, гПа</value>
+  </data>
+  <data name="dDescription_UA" xml:space="preserve">
+    <value>Дефіцит влогості, гПа</value>
+  </data>
+  <data name="dlt_VniDescription_EN" xml:space="preserve">
+    <value>Inviscid equations of water balance, million m^3</value>
+  </data>
+  <data name="dlt_VniDescription_RU" xml:space="preserve">
+    <value>Невязкие уравнения водного баланса, млн. м^3</value>
+  </data>
+  <data name="dlt_VniDescription_UA" xml:space="preserve">
+    <value>Нев'язкі рівняння водного балансу, млн м^3</value>
+  </data>
+  <data name="dlt_WDescription_EN" xml:space="preserve">
+    <value>Changes in the volume of water in the lake per month, million m^3</value>
+  </data>
+  <data name="dlt_WDescription_RU" xml:space="preserve">
+    <value>Изменения объемов воды в озере за месяц, млн. м^3</value>
+  </data>
+  <data name="dlt_WDescription_UA" xml:space="preserve">
+    <value>Зміни об'ємів води в озері за місяць, млн м^3</value>
+  </data>
+  <data name="EDescription_EN" xml:space="preserve">
+    <value>Evaporation, mm</value>
+  </data>
+  <data name="EDescription_RU" xml:space="preserve">
+    <value>Испарения, мм</value>
+  </data>
+  <data name="EDescription_UA" xml:space="preserve">
+    <value>Випаровування, мм</value>
+  </data>
+  <data name="EpCi_minusDescription_EN" xml:space="preserve">
+    <value>The sum of the consumable part, 10^6 t.</value>
+  </data>
+  <data name="EpCi_minusDescription_RU" xml:space="preserve">
+    <value>Сумма расходной части, 10^6 т.</value>
+  </data>
+  <data name="EpCi_minusDescription_UA" xml:space="preserve">
+    <value>Сума прихідної частини, 10^6 т.</value>
+  </data>
+  <data name="EpCi_plusDescription_EN" xml:space="preserve">
+    <value>The sum of the revenue part, 10^6 t.</value>
+  </data>
+  <data name="EpCi_plusDescription_RU" xml:space="preserve">
+    <value>Сумма приходной части, 10^6 т.</value>
+  </data>
+  <data name="EpCi_plusDescription_UA" xml:space="preserve">
+    <value>Сума прихідної частини, 10^6 т.</value>
+  </data>
+  <data name="EPDescription_EN" xml:space="preserve">
+    <value>The sum of the revenue part, million m^3</value>
+  </data>
+  <data name="EPDescription_RU" xml:space="preserve">
+    <value>Сумма приходной части, млн. м^3</value>
+  </data>
+  <data name="EPDescription_UA" xml:space="preserve">
+    <value>Сума прихідної частини, млн м^3</value>
+  </data>
+  <data name="ERDescription_EN" xml:space="preserve">
+    <value>The sum of the consumable part, million m^3</value>
+  </data>
+  <data name="ERDescription_RU" xml:space="preserve">
+    <value>Сумма расходной части, млн. м^3</value>
+  </data>
+  <data name="ERDescription_UA" xml:space="preserve">
+    <value>Сума витратної частини, млн м^3</value>
+  </data>
+  <data name="EtrDescription_EN" xml:space="preserve">
+    <value>Transpiration, mm</value>
+  </data>
+  <data name="EtrDescription_RU" xml:space="preserve">
+    <value>Транспирация, мм</value>
+  </data>
+  <data name="EtrDescription_UA" xml:space="preserve">
+    <value>Транспірація, мм</value>
+  </data>
+  <data name="FDescription_EN" xml:space="preserve">
+    <value>Water mirror area, km^2</value>
+  </data>
+  <data name="FDescription_RU" xml:space="preserve">
+    <value>Площадь водного зеркала, км^2</value>
+  </data>
+  <data name="FDescription_UA" xml:space="preserve">
+    <value>Площа водного дзеркала, км^2</value>
+  </data>
+  <data name="H1Description_EN" xml:space="preserve">
+    <value>Water level at the beginning of the month, mBS</value>
+  </data>
+  <data name="H1Description_RU" xml:space="preserve">
+    <value>Уровень воды в начале месяца, мБС</value>
+  </data>
+  <data name="H1Description_UA" xml:space="preserve">
+    <value>Рівень води на початку місяця, мБС</value>
+  </data>
+  <data name="H2Description_EN" xml:space="preserve">
+    <value>Water level at the end of the month, mBS</value>
+  </data>
+  <data name="H2Description_RU" xml:space="preserve">
+    <value>Уровень воды в конце месяца, мБС</value>
+  </data>
+  <data name="H2Description_UA" xml:space="preserve">
+    <value>Рівень води наприкінці місяця, мБС</value>
+  </data>
+  <data name="lgdDescription_EN" xml:space="preserve">
+    <value>Humidity deficit logarithm</value>
+  </data>
+  <data name="lgdDescription_RU" xml:space="preserve">
+    <value>Логарифм дефицита влажности</value>
+  </data>
+  <data name="lgdDescription_UA" xml:space="preserve">
+    <value>Логарифм дефіциту вологості</value>
+  </data>
+  <data name="lgEDescription_EN" xml:space="preserve">
+    <value>Evaporation logarithm</value>
+  </data>
+  <data name="lgEDescription_RU" xml:space="preserve">
+    <value>Логарифм испарения</value>
+  </data>
+  <data name="lgEDescription_UA" xml:space="preserve">
+    <value>Логарифм випаровування</value>
+  </data>
+  <data name="PBolgradDescription_EN" xml:space="preserve">
+    <value>Precipitation measured on m/st Bolgrad, mm</value>
+  </data>
+  <data name="PBolgradDescription_RU" xml:space="preserve">
+    <value>Осадки измеренные на м/ст Болград, мм</value>
+  </data>
+  <data name="PBolgradDescription_UA" xml:space="preserve">
+    <value>Опади виміряні на м/ст Болград, мм</value>
+  </data>
+  <data name="PIsmailDescription_EN" xml:space="preserve">
+    <value>Precipitation measured on m/st Izmail, mm</value>
+  </data>
+  <data name="PIsmailDescription_RU" xml:space="preserve">
+    <value>Осадки измеренные на м/ст Измаил, мм</value>
+  </data>
+  <data name="PIsmailDescription_UA" xml:space="preserve">
+    <value>Опади виміряні на м/ст Ізмаїл, мм</value>
+  </data>
+  <data name="S1Description_EN" xml:space="preserve">
+    <value>The average lake mineralization at the beginning of the month, kg/m^3</value>
+  </data>
+  <data name="S1Description_RU" xml:space="preserve">
+    <value>Средняя по озеру минерализация в начале месяца, кг/м^3</value>
+  </data>
+  <data name="S1Description_UA" xml:space="preserve">
+    <value>Середня по озеру мінералізація на початку місяця, кг/м^3</value>
+  </data>
+  <data name="S2Description_EN" xml:space="preserve">
+    <value>Average lake mineralization at the end of the month, kg/m^3</value>
+  </data>
+  <data name="S2Description_RU" xml:space="preserve">
+    <value>Средняя по озеру минерализация в конце месяца, кг/м^3</value>
+  </data>
+  <data name="S2Description_UA" xml:space="preserve">
+    <value>Середня по озеру мінералізація наприкінці місяця, кг/м^3</value>
+  </data>
+  <data name="SbDescription_EN" xml:space="preserve">
+    <value>Mineralization of lateral runoff, kg/m^3</value>
+  </data>
+  <data name="SbDescription_RU" xml:space="preserve">
+    <value>Минерализация бокового стока, кг/м^3</value>
+  </data>
+  <data name="SbDescription_UA" xml:space="preserve">
+    <value>Мінералізація бічного стоку, кг/м^3</value>
+  </data>
+  <data name="SdrDescription_EN" xml:space="preserve">
+    <value>Drainage mineralization, kg/m^3</value>
+  </data>
+  <data name="SdrDescription_RU" xml:space="preserve">
+    <value>Минерализация дренажных вод, кг/м^3</value>
+  </data>
+  <data name="SdrDescription_UA" xml:space="preserve">
+    <value>Мінералізація дренажних вод, кг/м^3</value>
+  </data>
+  <data name="SD_minusDescription_EN" xml:space="preserve">
+    <value>Mineralization of water discharges into the Danube River, kg/m^3</value>
+  </data>
+  <data name="SD_minusDescription_RU" xml:space="preserve">
+    <value>Минерализация сбросов воды в р. Дунай, кг/м^3</value>
+  </data>
+  <data name="SD_minusDescription_UA" xml:space="preserve">
+    <value>Мінералізація скидів води у р. Дунай, кг/м^3</value>
+  </data>
+  <data name="SD_plusDescription_EN" xml:space="preserve">
+    <value>Mineralization of Danube water, kg/m^3</value>
+  </data>
+  <data name="SD_plusDescription_RU" xml:space="preserve">
+    <value>Минерализация Дунайской воды, кг/м^3</value>
+  </data>
+  <data name="SD_plusDescription_UA" xml:space="preserve">
+    <value>Мінералізація Дунайської води, кг/м^3</value>
+  </data>
+  <data name="SfDescription_EN" xml:space="preserve">
+    <value>Filtration mineralization, kg/m^3</value>
+  </data>
+  <data name="SfDescription_RU" xml:space="preserve">
+    <value>Минерализация фильтрации, кг/м^3</value>
+  </data>
+  <data name="SfDescription_UA" xml:space="preserve">
+    <value>Мінералізація фільтрації, кг/м^3</value>
+  </data>
+  <data name="SgDescription_EN" xml:space="preserve">
+    <value>Mineralization of soil runoff, kg/m^3</value>
+  </data>
+  <data name="SgDescription_RU" xml:space="preserve">
+    <value>Минерализация грунтового стока, кг/м^3</value>
+  </data>
+  <data name="SgDescription_UA" xml:space="preserve">
+    <value>Мінералізація ґрунтового стоку, кг/м^3</value>
+  </data>
+  <data name="Soz_minusDescription_EN" xml:space="preserve">
+    <value>Water mineralization in support of water levels in the Lung-Safian lake system, kg/m^3</value>
+  </data>
+  <data name="Soz_minusDescription_RU" xml:space="preserve">
+    <value>Минерализация воды в поддержку уровней воды в системе озер Лунг-Сафьян, кг/м^3</value>
+  </data>
+  <data name="Soz_minusDescription_UA" xml:space="preserve">
+    <value>Мінералізація води на підтримку рівнів води в системі озер Лунг-Сафьян, кг/м^3</value>
+  </data>
+  <data name="Soz_plusDescription_EN" xml:space="preserve">
+    <value>Water mineralization to support water levels in the Lung-Safian Lake System, kg/m^3</value>
+  </data>
+  <data name="Soz_plusDescription_RU" xml:space="preserve">
+    <value>Минерализация воды на поддержку уровней воды в системе озер Лунг-Сафьян, кг/м^3</value>
+  </data>
+  <data name="Soz_plusDescription_UA" xml:space="preserve">
+    <value>Мінералізація води на підтримку рівнів води в системі озер Лунг-Сафьян, кг/м^3</value>
+  </data>
+  <data name="SpDescription_EN" xml:space="preserve">
+    <value>Precipitation mineralization, kg/m^3</value>
+  </data>
+  <data name="SpDescription_RU" xml:space="preserve">
+    <value>Минерализация атмосферных осадков, кг/м^3</value>
+  </data>
+  <data name="SpDescription_UA" xml:space="preserve">
+    <value>Мінералізація атмосферних опадів, кг/м^3</value>
+  </data>
+  <data name="SrDescription_EN" xml:space="preserve">
+    <value>Mineralization of surface runoff, kg/m^3</value>
+  </data>
+  <data name="SrDescription_RU" xml:space="preserve">
+    <value>Минерализация поверхностного стока, кг/м^3</value>
+  </data>
+  <data name="SrDescription_UA" xml:space="preserve">
+    <value>Мінералізація поверхневого стоку, кг/м^3</value>
+  </data>
+  <data name="SzDescription_EN" xml:space="preserve">
+    <value>Mineralization of water harvesting for irrigation, kg/m^3</value>
+  </data>
+  <data name="SzDescription_RU" xml:space="preserve">
+    <value>Минерализация сбора воды на орошение, кг/м^3</value>
+  </data>
+  <data name="SzDescription_UA" xml:space="preserve">
+    <value>Мінералізація збору води на зрошування, кг/м^3</value>
+  </data>
+  <data name="VbDescription_EN" xml:space="preserve">
+    <value>Volume of lateral tide, million m^3</value>
+  </data>
+  <data name="VbDescription_RU" xml:space="preserve">
+    <value>Объем бокового прилива, млн. м^3</value>
+  </data>
+  <data name="VbDescription_UA" xml:space="preserve">
+    <value>Об'єм бічного припливу, млн м^3</value>
+  </data>
+  <data name="VdrDescription_EN" xml:space="preserve">
+    <value>Drainage inflow volume, million m^3</value>
+  </data>
+  <data name="VdrDescription_RU" xml:space="preserve">
+    <value>Объем поступления дренажных вод, млн. м^3</value>
+  </data>
+  <data name="VdrDescription_UA" xml:space="preserve">
+    <value>Об'єм надходження дренажних вод, млн м^3</value>
+  </data>
+  <data name="VD_minusDescription_EN" xml:space="preserve">
+    <value>Water discharges from the lake into the Danube River, million m^3</value>
+  </data>
+  <data name="VD_minusDescription_RU" xml:space="preserve">
+    <value>Сбросы воды из озера в р. Дунай, млн. м^3</value>
+  </data>
+  <data name="VD_minusDescription_UA" xml:space="preserve">
+    <value>Скиди води з озера в р. Дунай, млн м^3</value>
+  </data>
+  <data name="VD_plusDescription_EN" xml:space="preserve">
+    <value>Water inflow from the Danube River, million m^3</value>
+  </data>
+  <data name="VD_plusDescription_RU" xml:space="preserve">
+    <value>Приток воды из р. Дунай, млн. м^3</value>
+  </data>
+  <data name="VD_plusDescription_UA" xml:space="preserve">
+    <value>Приплив води з р. Дунай, млн м^3</value>
+  </data>
+  <data name="VEDescription_EN" xml:space="preserve">
+    <value>Evaporation volume, million m^3</value>
+  </data>
+  <data name="VEDescription_RU" xml:space="preserve">
+    <value>Объем испарения, млн. м^3</value>
+  </data>
+  <data name="VEDescription_UA" xml:space="preserve">
+    <value>Об'єм випаровування, млн м^3</value>
+  </data>
+  <data name="VfDescription_EN" xml:space="preserve">
+    <value>Filtration volume, million m^3</value>
+  </data>
+  <data name="VfDescription_RU" xml:space="preserve">
+    <value>Объем фильтрациии, млн. м^3</value>
+  </data>
+  <data name="VfDescription_UA" xml:space="preserve">
+    <value>Об'єм фільтраціїї, млн м^3</value>
+  </data>
+  <data name="VgDescription_EN" xml:space="preserve">
+    <value>Groundwater inflow volume, million m^3</value>
+  </data>
+  <data name="VgDescription_RU" xml:space="preserve">
+    <value>Объем притока грунтовых вод, млн. м^3</value>
+  </data>
+  <data name="VgDescription_UA" xml:space="preserve">
+    <value>Об'єм припливу ґрунтових вод, млн м^3</value>
+  </data>
+  <data name="Voz_minusDescription_EN" xml:space="preserve">
+    <value>Support for the water levels of the Lung-Safyan Lakes, million m^3</value>
+  </data>
+  <data name="Voz_minusDescription_RU" xml:space="preserve">
+    <value>Поддержка уровней воды озер Лунг-Сафьян, млн. м^3</value>
+  </data>
+  <data name="Voz_minusDescription_UA" xml:space="preserve">
+    <value>Підримка рівнів води озер Лунг-Сафьян, млн м^3</value>
+  </data>
+  <data name="Voz_plusDescription_EN" xml:space="preserve">
+    <value>Support for the water levels of the Lung-Safyan Lakes, million m^3</value>
+  </data>
+  <data name="Voz_plusDescription_RU" xml:space="preserve">
+    <value>Поддержка уровней воды озер Лунг-Сафьян, млн. м^3</value>
+  </data>
+  <data name="Voz_plusDescription_UA" xml:space="preserve">
+    <value>Підрімка рівнів води озер Лунг-Сафьян, млн м^3</value>
+  </data>
+  <data name="VpDescription_EN" xml:space="preserve">
+    <value>Precipitation volume, million m^3</value>
+  </data>
+  <data name="VpDescription_RU" xml:space="preserve">
+    <value>Объем осадков, млн. м^3</value>
+  </data>
+  <data name="VpDescription_UA" xml:space="preserve">
+    <value>Об'єм атмосферних опадів, млн м^3</value>
+  </data>
+  <data name="VrDescription_EN" xml:space="preserve">
+    <value>River runoff volume, million m^3</value>
+  </data>
+  <data name="VrDescription_RU" xml:space="preserve">
+    <value>Объем речного стока, млн. м^3</value>
+  </data>
+  <data name="VrDescription_UA" xml:space="preserve">
+    <value>Об'єм річкового стоку, млн м^3</value>
+  </data>
+  <data name="VtrDescription_EN" xml:space="preserve">
+    <value>Transpiration volume, million m^3</value>
+  </data>
+  <data name="VtrDescription_RU" xml:space="preserve">
+    <value>Объем транспирации, млн. м^3</value>
+  </data>
+  <data name="VtrDescription_UA" xml:space="preserve">
+    <value>Об'єм транспірації, млн м^3</value>
+  </data>
+  <data name="VzDescription_EN" xml:space="preserve">
+    <value>Irrigation water collection, million m^3</value>
+  </data>
+  <data name="VzDescription_RU" xml:space="preserve">
+    <value>Сбор воды на орошение, млн. м^3</value>
+  </data>
+  <data name="VzDescription_UA" xml:space="preserve">
+    <value>Збір води на зрошування, млн м^3</value>
+  </data>
+  <data name="W1Description_EN" xml:space="preserve">
+    <value>The volume of water in the lake at the beginning of the month, million m^3</value>
+  </data>
+  <data name="W1Description_RU" xml:space="preserve">
+    <value>Объем воды в озере в начале месяца, млн. м^3</value>
+  </data>
+  <data name="W1Description_UA" xml:space="preserve">
+    <value>Об'єм води в озері на початку місяця, млн м^3</value>
+  </data>
+  <data name="W2Description_EN" xml:space="preserve">
+    <value>The volume of water in the lake at the end of the month, million m^3</value>
+  </data>
+  <data name="W2Description_RU" xml:space="preserve">
+    <value>Объем воды в озере в конце месяца, млн. м^3</value>
+  </data>
+  <data name="W2Description_UA" xml:space="preserve">
+    <value>Об'єм води в озері наприкінці місяця, млн м^3</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="icon_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\icon_32x32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="add_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="alert_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\alert_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="alert_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alert-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="alert_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\alert_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ask_question_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ask-question-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calculation_settings_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\calculation_settings_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="books_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\books-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calculation_settings_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\calculation_settings_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="book_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clear_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\clear_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="broom_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\broom-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="clear_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\clear_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bucket_of_paint_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bucket-of-paint-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="create_calcuation_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\create_calcuation_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calculator_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="create_calculation_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\create_calculation_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="chart_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chart-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="create_chart_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\create_chart_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="create_chart_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\create_chart_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="error_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cross_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\cross_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exit_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cross_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\cross_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="formula_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formula-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="delete_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\delete_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="great_britain_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\great-britain-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="delete_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\delete_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="grid_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grid-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="export_to_excel_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\export_to_excel_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="help_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="export_to_excel_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\export_to_excel_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="home_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grid_140x90" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\grid_140x90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="info_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grid_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\grid_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="microsoft_excel_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\microsoft-excel-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grid_16x161" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\grid_16x161.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="open_book_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open-book-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grid_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\grid_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="picture_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="grid_32x321" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\grid_32x321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="question_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\question-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\icon_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="russia_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\russia-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_32x321" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\icon_32x32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="save_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_32x322" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\icon_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="settings_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\settings-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icon_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\icon_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="success_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\success-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="question_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\question_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="toolbox_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\toolbox-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="question_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\question_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ukraine_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ukraine-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="recalculate_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\recalculate_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bucket_of_paint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bucket-of-paint.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="recalculate_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\recalculate_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CatlabuhApp_icon_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CatlabuhApp-icon-1.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="recalculate_calcualtion_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\recalculate_calcualtion_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="microsoft_excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\microsoft-excel.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="recalculate_calculation_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\recalculate_calculation_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calculator_161" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calculator-16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="save_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\save_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="app_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\app-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="save_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\save_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="save_as_image_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\save_as_image_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="save_as_image_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\save_as_image_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="save_calculation" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\save_calculation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="save_calculation_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\save_calculation_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="screensaver" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\screensaver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sea_bottom_98х253" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\sea_bottom_98х253.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="success_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\success_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="success_64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\success_64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="view_calculations_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\view_calculations_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="view_calculations_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\view_calculations_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="view_calculation_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\view_calculation_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="view_calculation_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\view_calculation_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="screensaver_UA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Катлабух фото.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

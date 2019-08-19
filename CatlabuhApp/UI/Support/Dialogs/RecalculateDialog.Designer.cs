@@ -129,7 +129,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "RecalculateDialog";
-            this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.RecalculateDialog_HelpRequested);
             this.groupBox6.ResumeLayout(false);

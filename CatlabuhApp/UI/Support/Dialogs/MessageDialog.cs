@@ -5,9 +5,9 @@ namespace CatlabuhApp.UI.Support.Dialogs
     public partial class MessageDialog : Form
     {
         private Button OK = new Button() { Name = "ok", Dock = DockStyle.Fill, Text = "OK" };
-        private Button Cancel = new Button() { Name = "cancel", Dock = DockStyle.Fill, Text = "Cancel" };
-        private Button Yes = new Button() { Name = "yes", Dock = DockStyle.Fill, Text = "Yes" };
-        private Button No = new Button() { Name = "no", Dock = DockStyle.Fill, Text = "No"};
+        private Button Cancel = new Button() { Name = "cancel", Dock = DockStyle.Fill };
+        private Button Yes = new Button() { Name = "yes", Dock = DockStyle.Fill };
+        private Button No = new Button() { Name = "no", Dock = DockStyle.Fill };
 
         public enum Icon { Alert, Cross, OK, Question }
 
@@ -35,7 +35,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
                         });
                         break;
                     case Icon.Cross:
-                        iconBox.Image = imageList.Images[2];
+                        iconBox.Image = imageList.Images[3];
                         buttonTable.Controls.AddRange(new Control[] {
                             new Control(), new Control(), OK
                         });
@@ -47,7 +47,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
                         });
                         break;
                     case Icon.Question:
-                        iconBox.Image = imageList.Images[3];
+                        iconBox.Image = imageList.Images[2];
                         buttonTable.Controls.AddRange(new Control[] {
                             Yes, No, Cancel
                         });
@@ -60,6 +60,25 @@ namespace CatlabuhApp.UI.Support.Dialogs
         {
             Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent(); 
+
+            switch (Properties.Settings.Default.Language)
+            {
+                case "en-US":
+                    Cancel.Text = "Cancel";
+                    Yes.Text = "Yes";
+                    No.Text = "No";
+                    break;
+                case "uk-UA":
+                    Cancel.Text = "Відміна";
+                    Yes.Text = "Так";
+                    No.Text = "Ні";
+                    break;
+                case "ru-RU":
+                    Cancel.Text = "Отмена";
+                    Yes.Text = "Да";
+                    No.Text = "Нет";
+                    break;
+            }
         }
 
         public MessageDialog(string title, string message, Icon icon) : this()

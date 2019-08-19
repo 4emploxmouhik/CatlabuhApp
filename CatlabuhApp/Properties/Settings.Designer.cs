@@ -70,5 +70,17 @@ namespace CatlabuhApp.Properties {
                 this["ChartsExcelFilesDirectoryPath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\wilkis\\Desktop\\CatlabuhDB_mkII\\CatlabuhDB_v2.3.db")]
+        public string DBPath {
+            get {
+                return ((string)(this["DBPath"]));
+            }
+            set {
+                this["DBPath"] = value;
+            }
+        }
     }
 }

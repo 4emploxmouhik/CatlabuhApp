@@ -1,6 +1,7 @@
 ﻿using CatlabuhApp.Data.Access;
 using CatlabuhApp.UI.Support.Dialogs;
 using CatlabuhApp.UI.Support.Setups;
+using CatlabuhAppSupportHelp.UI.Help;
 using System;
 using System.IO;
 using System.Windows.Forms;
@@ -51,69 +52,92 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void ChartStyle_Click(object sender, EventArgs e)
         {
-            csd.ShowDialog();
-
-            if (csd.DialogResult == DialogResult.OK)
+            if (chart.Series.Count == 0)
             {
-                chart.Titles[0].Text = csd.ChartTitle.Text;
-                chart.Titles[0].Font = csd.ChartTitle.Font;
-                chart.ChartAreas[0].AxisX.Title = csd.XAxisTitle.Text;
-                chart.ChartAreas[0].AxisX.TitleFont = csd.XAxisTitle.Font;
-                chart.ChartAreas[0].AxisY.Title = csd.YAxisTitle.Text;
-                chart.ChartAreas[0].AxisY.TitleFont = csd.YAxisTitle.Font;
+                MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText6, MessageDialog.Icon.Cross);
+            }
+            else
+            {
+                csd.ShowDialog();
 
-                chart.ChartAreas[0].AxisX.MajorGrid.Enabled = csd.IsShowXAxisMajorGrid;
-                chart.ChartAreas[0].AxisX.MinorGrid.Enabled = csd.IsShowXAxisMinorGrid;
-                chart.ChartAreas[0].AxisY.MajorGrid.Enabled = csd.IsShowYAxisMajorGrid;
-                chart.ChartAreas[0].AxisY.MinorGrid.Enabled = csd.IsShowYAxisMinorGrid;
-                chart.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = csd.XAxisMajorGridLineDashStyle;
-                chart.ChartAreas[0].AxisX.MinorGrid.LineDashStyle = csd.XAxisMinorGridLineDashStyle;
-                chart.ChartAreas[0].AxisY.MajorGrid.LineDashStyle = csd.YAxisMajorGridLineDashStyle;
-                chart.ChartAreas[0].AxisY.MinorGrid.LineDashStyle = csd.YAxisMinorGridLineDashStyle;
-
-                for (int i = 0; i < chart.Series.Count; i++)
+                if (csd.DialogResult == DialogResult.OK)
                 {
-                    chart.Series[i] = csd.Series[i];
+                    chart.Titles[0].Text = csd.ChartTitle.Text;
+                    chart.Titles[0].Font = csd.ChartTitle.Font;
+                    chart.ChartAreas[0].AxisX.Title = csd.XAxisTitle.Text;
+                    chart.ChartAreas[0].AxisX.TitleFont = csd.XAxisTitle.Font;
+                    chart.ChartAreas[0].AxisY.Title = csd.YAxisTitle.Text;
+                    chart.ChartAreas[0].AxisY.TitleFont = csd.YAxisTitle.Font;
+
+                    chart.ChartAreas[0].AxisX.MajorGrid.Enabled = csd.IsShowXAxisMajorGrid;
+                    chart.ChartAreas[0].AxisX.MinorGrid.Enabled = csd.IsShowXAxisMinorGrid;
+                    chart.ChartAreas[0].AxisY.MajorGrid.Enabled = csd.IsShowYAxisMajorGrid;
+                    chart.ChartAreas[0].AxisY.MinorGrid.Enabled = csd.IsShowYAxisMinorGrid;
+                    chart.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = csd.XAxisMajorGridLineDashStyle;
+                    chart.ChartAreas[0].AxisX.MinorGrid.LineDashStyle = csd.XAxisMinorGridLineDashStyle;
+                    chart.ChartAreas[0].AxisY.MajorGrid.LineDashStyle = csd.YAxisMajorGridLineDashStyle;
+                    chart.ChartAreas[0].AxisY.MinorGrid.LineDashStyle = csd.YAxisMinorGridLineDashStyle;
+
+                    for (int i = 0; i < chart.Series.Count; i++)
+                    {
+                        chart.Series[i] = csd.Series[i];
+                    }
                 }
             }
         }
 
         private void SaveAsImage_Click(object sender, EventArgs e)
         {
-            if (chart.Titles[0].Text == null || chart.Titles[0].Text.Length == 0)
+            if (chart.Series.Count == 0)
             {
-                chart.SaveImage(Properties.Settings.Default.ChartsImagesDirectoryPath + 
-                    $"Chart for {DateTime.Now.ToString().Replace(":", "-")}.png", ChartImageFormat.Png);
+                MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText6, MessageDialog.Icon.Cross);
             }
             else
             {
-                if (File.Exists(Properties.Settings.Default.ChartsImagesDirectoryPath + $"{chart.Titles[0].Text}.png"))
+                if (chart.Titles[0].Text == null || chart.Titles[0].Text.Length == 0)
                 {
-                    MessageDialog md = new MessageDialog(MessageDialog.QuestionTitle, MessageDialog.QuestionText4, MessageDialog.Icon.Question);
-
-                    if (md.DialogResult == DialogResult.Yes)
-                    {
-                        goto Save;
-                    }
-                    else
-                    {
-                        goto Exit;
-                    }
+                    chart.SaveImage(Properties.Settings.Default.ChartsImagesDirectoryPath +
+                        $"Chart for {DateTime.Now.ToString().Replace(":", "-").Replace("/", ".")}.png", ChartImageFormat.Png);
+                    MessageDialog.Show(MessageDialog.SuccessTitle, MessageDialog.SuccessText7, MessageDialog.Icon.OK);
                 }
                 else
                 {
-                    goto Save;
-                }
+                    if (File.Exists(Properties.Settings.Default.ChartsImagesDirectoryPath + $"{chart.Titles[0].Text}.png"))
+                    {
+                        MessageDialog md = new MessageDialog(MessageDialog.QuestionTitle, MessageDialog.QuestionText4, MessageDialog.Icon.Question);
 
-            Save:
-                chart.SaveImage(Properties.Settings.Default.ChartsImagesDirectoryPath + $"{chart.Titles[0].Text}.png", ChartImageFormat.Png);
-            Exit:;
+                        if (md.DialogResult == DialogResult.Yes)
+                        {
+                            goto Save;
+                        }
+                        else
+                        {
+                            goto Exit;
+                        }
+                    }
+                    else
+                    {
+                        goto Save;
+                    }
+
+                Save:
+                    chart.SaveImage(Properties.Settings.Default.ChartsImagesDirectoryPath + $"{chart.Titles[0].Text}.png", ChartImageFormat.Png);
+                    MessageDialog.Show(MessageDialog.SuccessTitle, MessageDialog.SuccessText7, MessageDialog.Icon.OK);
+                Exit:;
+                }
             }
         }
 
         private void ExportToExcel_Click(object sender, EventArgs e)
         {
-            ExportToExcelAsync();
+            if (chart.Series.Count == 0)
+            {
+                MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText6, MessageDialog.Icon.Cross);
+            }
+            else
+            {
+                ExportToExcelAsync();
+            }
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -121,7 +145,6 @@ namespace CatlabuhApp.UI.Main.Views
             if (progressBar.Value != progressBar.Maximum)
             {
                 progressBar.Value = progress;
-                //progressBar.Update();
             }
             else
             {
@@ -129,9 +152,13 @@ namespace CatlabuhApp.UI.Main.Views
 
                 progress = 0;
                 progressBar.Value = progress;
-                //progressBar.Update();
             }
 
+        }
+
+        private void ChartView_HelpRequested(object sender, HelpEventArgs hlpevent)
+        {
+            new HelpForm("createChartText", "chartSetupText", "viewChartText", "styleChartText", "saveChartText", "exportChartText").Show();
         }
     }
 }

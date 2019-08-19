@@ -14,42 +14,59 @@ namespace CatlabuhApp.UI.Main.Views
 
             if (rd.DialogResult == DialogResult.OK)
             {
-                Cursor = Cursors.AppStarting;
+                Cursor = Cursors.WaitCursor;
                 recalculate.Enabled = false;
 
-                await Task.Run(() => Recalculate(rd));
+                if (await Task.Run(() => Recalculate(rd)))
+                {
+                    MessageDialog.Show(MessageDialog.SuccessTitle, MessageDialog.SuccessText1, MessageDialog.Icon.OK);
+                    RefreshDGV();
+                }
 
                 recalculate.Enabled = true;
                 Cursor = Cursors.Default;
-                MessageDialog.Show(MessageDialog.SuccessTitle, MessageDialog.SuccessText1, MessageDialog.Icon.OK);
-                RefreshDGV();
             }
         }
 
-        private void Recalculate(RecalculateDialog rd)
+        private bool Recalculate(RecalculateDialog rd)
         {
-            Calculation calc = null;
-            InputData inputData = new InputData(DataAccess, YearOfCalculation)
+            try
             {
-                IsCalculateE = rd.IsCalculateE
-            };
-
-            if (!rd.IsEnterGatewaySchedule)
-            {
-                calc = new Calculation(DataAccess, inputData);
-            }
-            else
-            {
-                GatewaySchedule gs = new GatewaySchedule(DataAccess, YearOfCalculation)
+                Calculation calc = null;
+                InputData inputData = new InputData(DataAccess, YearOfCalculation)
                 {
-                    IsEnterGatewaySchedule = rd.IsEnterGatewaySchedule,
-                    IsCalculateGS = rd.IsCalculateGS
+                    IsCalculateE = rd.IsCalculateE
                 };
-                calc = new Calculation(DataAccess, inputData, gs);
-            }
 
-            calc.Calculate();
-            calc.Update();
+                if (!rd.IsEnterGatewaySchedule)
+                {
+                    calc = new Calculation(DataAccess, inputData);
+                }
+                else
+                {
+                    GatewaySchedule gs = new GatewaySchedule(DataAccess, YearOfCalculation)
+                    {
+                        IsEnterGatewaySchedule = rd.IsEnterGatewaySchedule,
+                        IsCalculateGS = rd.IsCalculateGS
+                    };
+                    calc = new Calculation(DataAccess, inputData, gs);
+                }
+
+                calc.Calculate();
+                calc.Update();
+
+                return true;
+            }
+            catch (System.NullReferenceException)
+            {
+                MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText6, MessageDialog.Icon.Cross);
+                return false;
+            }
+            catch (System.Data.SQLite.SQLiteException)
+            {
+                MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText6, MessageDialog.Icon.Cross);
+                return false;
+            }
         }
     }
 }

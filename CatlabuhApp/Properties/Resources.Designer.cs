@@ -63,9 +63,9 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap alert_16x16 {
+        internal static System.Drawing.Bitmap add_16 {
             get {
-                object obj = ResourceManager.GetObject("alert_16x16", resourceCulture);
+                object obj = ResourceManager.GetObject("add_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap alert_64x64 {
+        internal static System.Drawing.Bitmap alert_64 {
             get {
-                object obj = ResourceManager.GetObject("alert_64x64", resourceCulture);
+                object obj = ResourceManager.GetObject("alert_64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap calculation_settings_16x16 {
+        internal static System.Drawing.Bitmap app_icon {
             get {
-                object obj = ResourceManager.GetObject("calculation_settings_16x16", resourceCulture);
+                object obj = ResourceManager.GetObject("app_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,46 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap calculation_settings_32x32 {
+        internal static System.Drawing.Bitmap ask_question_16 {
             get {
-                object obj = ResourceManager.GetObject("calculation_settings_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("ask_question_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Average water level per month, mBS.
+        /// </summary>
+        internal static string avr_HDescription_EN {
+            get {
+                return ResourceManager.GetString("avr_HDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Средний уровень воды за месяц, мБС.
+        /// </summary>
+        internal static string avr_HDescription_RU {
+            get {
+                return ResourceManager.GetString("avr_HDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Середній рівень води за місяць, мБС.
+        /// </summary>
+        internal static string avr_HDescription_UA {
+            get {
+                return ResourceManager.GetString("avr_HDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_16 {
+            get {
+                object obj = ResourceManager.GetObject("book_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +140,9 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clear_16x16 {
+        internal static System.Drawing.Bitmap books_16 {
             get {
-                object obj = ResourceManager.GetObject("clear_16x16", resourceCulture);
+                object obj = ResourceManager.GetObject("books_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,169 +150,9 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap clear_64x64 {
+        internal static System.Drawing.Bitmap broom_16 {
             get {
-                object obj = ResourceManager.GetObject("clear_64x64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap create_calcuation_16x16 {
-            get {
-                object obj = ResourceManager.GetObject("create_calcuation_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap create_calculation_32x32 {
-            get {
-                object obj = ResourceManager.GetObject("create_calculation_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap create_chart_16x16 {
-            get {
-                object obj = ResourceManager.GetObject("create_chart_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap create_chart_32x32 {
-            get {
-                object obj = ResourceManager.GetObject("create_chart_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cross_16x16 {
-            get {
-                object obj = ResourceManager.GetObject("cross_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cross_64x64 {
-            get {
-                object obj = ResourceManager.GetObject("cross_64x64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap delete_16x16 {
-            get {
-                object obj = ResourceManager.GetObject("delete_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap delete_64x64 {
-            get {
-                object obj = ResourceManager.GetObject("delete_64x64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap export_to_excel_16x16 {
-            get {
-                object obj = ResourceManager.GetObject("export_to_excel_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap export_to_excel_32x32 {
-            get {
-                object obj = ResourceManager.GetObject("export_to_excel_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap grid_140x90 {
-            get {
-                object obj = ResourceManager.GetObject("grid_140x90", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap grid_16x16 {
-            get {
-                object obj = ResourceManager.GetObject("grid_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap grid_16x161 {
-            get {
-                object obj = ResourceManager.GetObject("grid_16x161", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap grid_32x32 {
-            get {
-                object obj = ResourceManager.GetObject("grid_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap grid_32x321 {
-            get {
-                object obj = ResourceManager.GetObject("grid_32x321", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap icon_16x16 {
-            get {
-                object obj = ResourceManager.GetObject("icon_16x16", resourceCulture);
+                object obj = ResourceManager.GetObject("broom_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +160,93 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
         /// </summary>
-        internal static System.Drawing.Icon icon_32x32 {
+        internal static System.Drawing.Icon bucket_of_paint {
             get {
-                object obj = ResourceManager.GetObject("icon_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("bucket_of_paint", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bucket_of_paint_16 {
+            get {
+                object obj = ResourceManager.GetObject("bucket_of_paint_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Salt concentration at the lake at the beginning of the month, 10^6 t..
+        /// </summary>
+        internal static string C1Description_EN {
+            get {
+                return ResourceManager.GetString("C1Description_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Концентрация солей по озеру в начале месяца, 10^6 т..
+        /// </summary>
+        internal static string C1Description_RU {
+            get {
+                return ResourceManager.GetString("C1Description_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Концентрація солей по озеру на початку місяця, 10^6 т..
+        /// </summary>
+        internal static string C1Description_UA {
+            get {
+                return ResourceManager.GetString("C1Description_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Salt concentration at the lake at the beginning of the month, 10^6 t..
+        /// </summary>
+        internal static string C2Description_EN {
+            get {
+                return ResourceManager.GetString("C2Description_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Концентрация солей по озеру в начале месяца, 10^6 т..
+        /// </summary>
+        internal static string C2Description_RU {
+            get {
+                return ResourceManager.GetString("C2Description_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Концентрація солей по озеру на початку місяця, 10^6 т..
+        /// </summary>
+        internal static string C2Description_UA {
+            get {
+                return ResourceManager.GetString("C2Description_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap calculator_16 {
+            get {
+                object obj = ResourceManager.GetObject("calculator_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon calculator_161 {
+            get {
+                object obj = ResourceManager.GetObject("calculator_161", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -293,9 +254,794 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
         /// </summary>
-        internal static System.Drawing.Icon icon_32x321 {
+        internal static System.Drawing.Icon CatlabuhApp_icon_1 {
             get {
-                object obj = ResourceManager.GetObject("icon_32x321", resourceCulture);
+                object obj = ResourceManager.GetObject("CatlabuhApp_icon_1", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Supply of salts with lateral inflow, 10^6 t..
+        /// </summary>
+        internal static string CbDescription_EN {
+            get {
+                return ResourceManager.GetString("CbDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поступление солей с боковым притоком, 10^6 т..
+        /// </summary>
+        internal static string CbDescription_RU {
+            get {
+                return ResourceManager.GetString("CbDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Надходження солей з бічним припливом, 10^6 т..
+        /// </summary>
+        internal static string CbDescription_UA {
+            get {
+                return ResourceManager.GetString("CbDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Discharges of water along with salts into the Danube River, 10^6 t..
+        /// </summary>
+        internal static string CD_minusDescription_EN {
+            get {
+                return ResourceManager.GetString("CD_minusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сбросы воды вместе с солями в р. Дунай, 10^6 т..
+        /// </summary>
+        internal static string CD_minusDescription_RU {
+            get {
+                return ResourceManager.GetString("CD_minusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Скиди води разом із солями у р. Дунай, 10^6 т..
+        /// </summary>
+        internal static string CD_minusDescription_UA {
+            get {
+                return ResourceManager.GetString("CD_minusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Supply of salts with Danube water, 10^6 t..
+        /// </summary>
+        internal static string CD_plusDescription_EN {
+            get {
+                return ResourceManager.GetString("CD_plusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поступление солей с Дунайской водой, 10^6 т..
+        /// </summary>
+        internal static string CD_plusDescription_RU {
+            get {
+                return ResourceManager.GetString("CD_plusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Надходження солей з Дунайською водою, 10^6 т..
+        /// </summary>
+        internal static string CD_plusDescription_UA {
+            get {
+                return ResourceManager.GetString("CD_plusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Reception of salts with drainage waters, 10^6 t..
+        /// </summary>
+        internal static string CdrDescription_EN {
+            get {
+                return ResourceManager.GetString("CdrDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поступление солей с дренажными водами, 10^6 т..
+        /// </summary>
+        internal static string CdrDescription_RU {
+            get {
+                return ResourceManager.GetString("CdrDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Надходження солей з дренажними водами, 10^6 т..
+        /// </summary>
+        internal static string CdrDescription_UA {
+            get {
+                return ResourceManager.GetString("CdrDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Loss of salts with filtration, 10^6 t..
+        /// </summary>
+        internal static string CfDescription_EN {
+            get {
+                return ResourceManager.GetString("CfDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Потеря солей с фильтрацией, 10^6 т..
+        /// </summary>
+        internal static string CfDescription_RU {
+            get {
+                return ResourceManager.GetString("CfDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Втрата солей з фільтрацією, 10^6 т..
+        /// </summary>
+        internal static string CfDescription_UA {
+            get {
+                return ResourceManager.GetString("CfDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Supply of groundwater salts, 10^6 t..
+        /// </summary>
+        internal static string CgDescription_EN {
+            get {
+                return ResourceManager.GetString("CgDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поступление солей с грунтовыми водами, 10^6 т..
+        /// </summary>
+        internal static string CgDescription_RU {
+            get {
+                return ResourceManager.GetString("CgDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Надходження солей з ґрунтовими водами, 10^6 т..
+        /// </summary>
+        internal static string CgDescription_UA {
+            get {
+                return ResourceManager.GetString("CgDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap chart_16 {
+            get {
+                object obj = ResourceManager.GetObject("chart_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Salts that are excreted with water to support water levels in the Lung-Safian Lake System, 10^6 t..
+        /// </summary>
+        internal static string Coz_minusDescription_EN {
+            get {
+                return ResourceManager.GetString("Coz_minusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Соли, которык выводятся с водой на поддержку уровней воды в системе озер Лунг-Сафьян, 10^6 т..
+        /// </summary>
+        internal static string Coz_minusDescription_RU {
+            get {
+                return ResourceManager.GetString("Coz_minusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Солі, що виводяться з водою на підтримку рівнів води у системі озер Лунг-Сафьян, 10^6 т..
+        /// </summary>
+        internal static string Coz_minusDescription_UA {
+            get {
+                return ResourceManager.GetString("Coz_minusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Salt inflow from the Lung-Safian lake system, 10^6 t..
+        /// </summary>
+        internal static string Coz_plusDescription_EN {
+            get {
+                return ResourceManager.GetString("Coz_plusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поступление солей из системы озер Лунг-Сафьян, 10^6 т..
+        /// </summary>
+        internal static string Coz_plusDescription_RU {
+            get {
+                return ResourceManager.GetString("Coz_plusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Надходження солей з системи озер  Лунг-Сафьян, 10^6 т..
+        /// </summary>
+        internal static string Coz_plusDescription_UA {
+            get {
+                return ResourceManager.GetString("Coz_plusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Receipt of salts with sediment, 10^6 t..
+        /// </summary>
+        internal static string CpDescription_EN {
+            get {
+                return ResourceManager.GetString("CpDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поступление солей с осадками, 10^6 т..
+        /// </summary>
+        internal static string CpDescription_RU {
+            get {
+                return ResourceManager.GetString("CpDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Надходження солей з опадами, 10^6 т..
+        /// </summary>
+        internal static string CpDescription_UA {
+            get {
+                return ResourceManager.GetString("CpDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Supply of salts with surface runoff, 10^6 t..
+        /// </summary>
+        internal static string CrDescription_EN {
+            get {
+                return ResourceManager.GetString("CrDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поступление солей с поверхностным стоком, 10^6 т..
+        /// </summary>
+        internal static string CrDescription_RU {
+            get {
+                return ResourceManager.GetString("CrDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Надходження солей з поверхневим стоком, 10^6 т..
+        /// </summary>
+        internal static string CrDescription_UA {
+            get {
+                return ResourceManager.GetString("CrDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Loss of salts on irrigation, 10^6 t..
+        /// </summary>
+        internal static string CzDescription_EN {
+            get {
+                return ResourceManager.GetString("CzDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Потеря солей на орошении, 10^6 т..
+        /// </summary>
+        internal static string CzDescription_RU {
+            get {
+                return ResourceManager.GetString("CzDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Втрата солей на зрошуванні, 10^6 т..
+        /// </summary>
+        internal static string CzDescription_UA {
+            get {
+                return ResourceManager.GetString("CzDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Humidity deficiency, hPa.
+        /// </summary>
+        internal static string dDescription_EN {
+            get {
+                return ResourceManager.GetString("dDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Дефицит влажности, гПа.
+        /// </summary>
+        internal static string dDescription_RU {
+            get {
+                return ResourceManager.GetString("dDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Дефіцит влогості, гПа.
+        /// </summary>
+        internal static string dDescription_UA {
+            get {
+                return ResourceManager.GetString("dDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delete_16 {
+            get {
+                object obj = ResourceManager.GetObject("delete_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Inviscid equations of water balance, million m^3.
+        /// </summary>
+        internal static string dlt_VniDescription_EN {
+            get {
+                return ResourceManager.GetString("dlt_VniDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Невязкие уравнения водного баланса, млн. м^3.
+        /// </summary>
+        internal static string dlt_VniDescription_RU {
+            get {
+                return ResourceManager.GetString("dlt_VniDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Нев&apos;язкі рівняння водного балансу, млн м^3.
+        /// </summary>
+        internal static string dlt_VniDescription_UA {
+            get {
+                return ResourceManager.GetString("dlt_VniDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Changes in the volume of water in the lake per month, million m^3.
+        /// </summary>
+        internal static string dlt_WDescription_EN {
+            get {
+                return ResourceManager.GetString("dlt_WDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Изменения объемов воды в озере за месяц, млн. м^3.
+        /// </summary>
+        internal static string dlt_WDescription_RU {
+            get {
+                return ResourceManager.GetString("dlt_WDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Зміни об&apos;ємів води в озері за місяць, млн м^3.
+        /// </summary>
+        internal static string dlt_WDescription_UA {
+            get {
+                return ResourceManager.GetString("dlt_WDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Evaporation, mm.
+        /// </summary>
+        internal static string EDescription_EN {
+            get {
+                return ResourceManager.GetString("EDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Испарения, мм.
+        /// </summary>
+        internal static string EDescription_RU {
+            get {
+                return ResourceManager.GetString("EDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Випаровування, мм.
+        /// </summary>
+        internal static string EDescription_UA {
+            get {
+                return ResourceManager.GetString("EDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The sum of the consumable part, 10^6 t..
+        /// </summary>
+        internal static string EpCi_minusDescription_EN {
+            get {
+                return ResourceManager.GetString("EpCi_minusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сумма расходной части, 10^6 т..
+        /// </summary>
+        internal static string EpCi_minusDescription_RU {
+            get {
+                return ResourceManager.GetString("EpCi_minusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сума прихідної частини, 10^6 т..
+        /// </summary>
+        internal static string EpCi_minusDescription_UA {
+            get {
+                return ResourceManager.GetString("EpCi_minusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The sum of the revenue part, 10^6 t..
+        /// </summary>
+        internal static string EpCi_plusDescription_EN {
+            get {
+                return ResourceManager.GetString("EpCi_plusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сумма приходной части, 10^6 т..
+        /// </summary>
+        internal static string EpCi_plusDescription_RU {
+            get {
+                return ResourceManager.GetString("EpCi_plusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сума прихідної частини, 10^6 т..
+        /// </summary>
+        internal static string EpCi_plusDescription_UA {
+            get {
+                return ResourceManager.GetString("EpCi_plusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The sum of the revenue part, million m^3.
+        /// </summary>
+        internal static string EPDescription_EN {
+            get {
+                return ResourceManager.GetString("EPDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сумма приходной части, млн. м^3.
+        /// </summary>
+        internal static string EPDescription_RU {
+            get {
+                return ResourceManager.GetString("EPDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сума прихідної частини, млн м^3.
+        /// </summary>
+        internal static string EPDescription_UA {
+            get {
+                return ResourceManager.GetString("EPDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The sum of the consumable part, million m^3.
+        /// </summary>
+        internal static string ERDescription_EN {
+            get {
+                return ResourceManager.GetString("ERDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сумма расходной части, млн. м^3.
+        /// </summary>
+        internal static string ERDescription_RU {
+            get {
+                return ResourceManager.GetString("ERDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сума витратної частини, млн м^3.
+        /// </summary>
+        internal static string ERDescription_UA {
+            get {
+                return ResourceManager.GetString("ERDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap error_64 {
+            get {
+                object obj = ResourceManager.GetObject("error_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Transpiration, mm.
+        /// </summary>
+        internal static string EtrDescription_EN {
+            get {
+                return ResourceManager.GetString("EtrDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Транспирация, мм.
+        /// </summary>
+        internal static string EtrDescription_RU {
+            get {
+                return ResourceManager.GetString("EtrDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Транспірація, мм.
+        /// </summary>
+        internal static string EtrDescription_UA {
+            get {
+                return ResourceManager.GetString("EtrDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exit_16 {
+            get {
+                object obj = ResourceManager.GetObject("exit_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Water mirror area, km^2.
+        /// </summary>
+        internal static string FDescription_EN {
+            get {
+                return ResourceManager.GetString("FDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Площадь водного зеркала, км^2.
+        /// </summary>
+        internal static string FDescription_RU {
+            get {
+                return ResourceManager.GetString("FDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Площа водного дзеркала, км^2.
+        /// </summary>
+        internal static string FDescription_UA {
+            get {
+                return ResourceManager.GetString("FDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap formula_16 {
+            get {
+                object obj = ResourceManager.GetObject("formula_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap great_britain_16 {
+            get {
+                object obj = ResourceManager.GetObject("great_britain_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grid_16 {
+            get {
+                object obj = ResourceManager.GetObject("grid_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Water level at the beginning of the month, mBS.
+        /// </summary>
+        internal static string H1Description_EN {
+            get {
+                return ResourceManager.GetString("H1Description_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Уровень воды в начале месяца, мБС.
+        /// </summary>
+        internal static string H1Description_RU {
+            get {
+                return ResourceManager.GetString("H1Description_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Рівень води на початку місяця, мБС.
+        /// </summary>
+        internal static string H1Description_UA {
+            get {
+                return ResourceManager.GetString("H1Description_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Water level at the end of the month, mBS.
+        /// </summary>
+        internal static string H2Description_EN {
+            get {
+                return ResourceManager.GetString("H2Description_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Уровень воды в конце месяца, мБС.
+        /// </summary>
+        internal static string H2Description_RU {
+            get {
+                return ResourceManager.GetString("H2Description_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Рівень води наприкінці місяця, мБС.
+        /// </summary>
+        internal static string H2Description_UA {
+            get {
+                return ResourceManager.GetString("H2Description_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap help_16 {
+            get {
+                object obj = ResourceManager.GetObject("help_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home_16 {
+            get {
+                object obj = ResourceManager.GetObject("home_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap info_16 {
+            get {
+                object obj = ResourceManager.GetObject("info_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Humidity deficit logarithm.
+        /// </summary>
+        internal static string lgdDescription_EN {
+            get {
+                return ResourceManager.GetString("lgdDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Логарифм дефицита влажности.
+        /// </summary>
+        internal static string lgdDescription_RU {
+            get {
+                return ResourceManager.GetString("lgdDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Логарифм дефіциту вологості.
+        /// </summary>
+        internal static string lgdDescription_UA {
+            get {
+                return ResourceManager.GetString("lgdDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Evaporation logarithm.
+        /// </summary>
+        internal static string lgEDescription_EN {
+            get {
+                return ResourceManager.GetString("lgEDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Логарифм испарения.
+        /// </summary>
+        internal static string lgEDescription_RU {
+            get {
+                return ResourceManager.GetString("lgEDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Логарифм випаровування.
+        /// </summary>
+        internal static string lgEDescription_UA {
+            get {
+                return ResourceManager.GetString("lgEDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Icon, аналогичного (Значок).
+        /// </summary>
+        internal static System.Drawing.Icon microsoft_excel {
+            get {
+                object obj = ResourceManager.GetObject("microsoft_excel", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }
@@ -303,9 +1049,9 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icon_32x322 {
+        internal static System.Drawing.Bitmap microsoft_excel_16 {
             get {
-                object obj = ResourceManager.GetObject("icon_32x322", resourceCulture);
+                object obj = ResourceManager.GetObject("microsoft_excel_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +1059,83 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap icon_64x64 {
+        internal static System.Drawing.Bitmap open_book_16 {
             get {
-                object obj = ResourceManager.GetObject("icon_64x64", resourceCulture);
+                object obj = ResourceManager.GetObject("open_book_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Precipitation measured on m/st Bolgrad, mm.
+        /// </summary>
+        internal static string PBolgradDescription_EN {
+            get {
+                return ResourceManager.GetString("PBolgradDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Осадки измеренные на м/ст Болград, мм.
+        /// </summary>
+        internal static string PBolgradDescription_RU {
+            get {
+                return ResourceManager.GetString("PBolgradDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Опади виміряні на м/ст Болград, мм.
+        /// </summary>
+        internal static string PBolgradDescription_UA {
+            get {
+                return ResourceManager.GetString("PBolgradDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap picture_16 {
+            get {
+                object obj = ResourceManager.GetObject("picture_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Precipitation measured on m/st Izmail, mm.
+        /// </summary>
+        internal static string PIsmailDescription_EN {
+            get {
+                return ResourceManager.GetString("PIsmailDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Осадки измеренные на м/ст Измаил, мм.
+        /// </summary>
+        internal static string PIsmailDescription_RU {
+            get {
+                return ResourceManager.GetString("PIsmailDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Опади виміряні на м/ст Ізмаїл, мм.
+        /// </summary>
+        internal static string PIsmailDescription_UA {
+            get {
+                return ResourceManager.GetString("PIsmailDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap question_64 {
+            get {
+                object obj = ResourceManager.GetObject("question_64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +1143,410 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap question_16x16 {
+        internal static System.Drawing.Bitmap russia_16 {
             get {
-                object obj = ResourceManager.GetObject("question_16x16", resourceCulture);
+                object obj = ResourceManager.GetObject("russia_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The average lake mineralization at the beginning of the month, kg/m^3.
+        /// </summary>
+        internal static string S1Description_EN {
+            get {
+                return ResourceManager.GetString("S1Description_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Средняя по озеру минерализация в начале месяца, кг/м^3.
+        /// </summary>
+        internal static string S1Description_RU {
+            get {
+                return ResourceManager.GetString("S1Description_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Середня по озеру мінералізація на початку місяця, кг/м^3.
+        /// </summary>
+        internal static string S1Description_UA {
+            get {
+                return ResourceManager.GetString("S1Description_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Average lake mineralization at the end of the month, kg/m^3.
+        /// </summary>
+        internal static string S2Description_EN {
+            get {
+                return ResourceManager.GetString("S2Description_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Средняя по озеру минерализация в конце месяца, кг/м^3.
+        /// </summary>
+        internal static string S2Description_RU {
+            get {
+                return ResourceManager.GetString("S2Description_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Середня по озеру мінералізація наприкінці місяця, кг/м^3.
+        /// </summary>
+        internal static string S2Description_UA {
+            get {
+                return ResourceManager.GetString("S2Description_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save_16 {
+            get {
+                object obj = ResourceManager.GetObject("save_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Mineralization of lateral runoff, kg/m^3.
+        /// </summary>
+        internal static string SbDescription_EN {
+            get {
+                return ResourceManager.GetString("SbDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация бокового стока, кг/м^3.
+        /// </summary>
+        internal static string SbDescription_RU {
+            get {
+                return ResourceManager.GetString("SbDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація бічного стоку, кг/м^3.
+        /// </summary>
+        internal static string SbDescription_UA {
+            get {
+                return ResourceManager.GetString("SbDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap screensaver_UA {
+            get {
+                object obj = ResourceManager.GetObject("screensaver_UA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Mineralization of water discharges into the Danube River, kg/m^3.
+        /// </summary>
+        internal static string SD_minusDescription_EN {
+            get {
+                return ResourceManager.GetString("SD_minusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация сбросов воды в р. Дунай, кг/м^3.
+        /// </summary>
+        internal static string SD_minusDescription_RU {
+            get {
+                return ResourceManager.GetString("SD_minusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація скидів води у р. Дунай, кг/м^3.
+        /// </summary>
+        internal static string SD_minusDescription_UA {
+            get {
+                return ResourceManager.GetString("SD_minusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Mineralization of Danube water, kg/m^3.
+        /// </summary>
+        internal static string SD_plusDescription_EN {
+            get {
+                return ResourceManager.GetString("SD_plusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация Дунайской воды, кг/м^3.
+        /// </summary>
+        internal static string SD_plusDescription_RU {
+            get {
+                return ResourceManager.GetString("SD_plusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація Дунайської води, кг/м^3.
+        /// </summary>
+        internal static string SD_plusDescription_UA {
+            get {
+                return ResourceManager.GetString("SD_plusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Drainage mineralization, kg/m^3.
+        /// </summary>
+        internal static string SdrDescription_EN {
+            get {
+                return ResourceManager.GetString("SdrDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация дренажных вод, кг/м^3.
+        /// </summary>
+        internal static string SdrDescription_RU {
+            get {
+                return ResourceManager.GetString("SdrDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація дренажних вод, кг/м^3.
+        /// </summary>
+        internal static string SdrDescription_UA {
+            get {
+                return ResourceManager.GetString("SdrDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings_16 {
+            get {
+                object obj = ResourceManager.GetObject("settings_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Filtration mineralization, kg/m^3.
+        /// </summary>
+        internal static string SfDescription_EN {
+            get {
+                return ResourceManager.GetString("SfDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация фильтрации, кг/м^3.
+        /// </summary>
+        internal static string SfDescription_RU {
+            get {
+                return ResourceManager.GetString("SfDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація фільтрації, кг/м^3.
+        /// </summary>
+        internal static string SfDescription_UA {
+            get {
+                return ResourceManager.GetString("SfDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Mineralization of soil runoff, kg/m^3.
+        /// </summary>
+        internal static string SgDescription_EN {
+            get {
+                return ResourceManager.GetString("SgDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация грунтового стока, кг/м^3.
+        /// </summary>
+        internal static string SgDescription_RU {
+            get {
+                return ResourceManager.GetString("SgDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація ґрунтового стоку, кг/м^3.
+        /// </summary>
+        internal static string SgDescription_UA {
+            get {
+                return ResourceManager.GetString("SgDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Water mineralization in support of water levels in the Lung-Safian lake system, kg/m^3.
+        /// </summary>
+        internal static string Soz_minusDescription_EN {
+            get {
+                return ResourceManager.GetString("Soz_minusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация воды в поддержку уровней воды в системе озер Лунг-Сафьян, кг/м^3.
+        /// </summary>
+        internal static string Soz_minusDescription_RU {
+            get {
+                return ResourceManager.GetString("Soz_minusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація води на підтримку рівнів води в системі озер Лунг-Сафьян, кг/м^3.
+        /// </summary>
+        internal static string Soz_minusDescription_UA {
+            get {
+                return ResourceManager.GetString("Soz_minusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Water mineralization to support water levels in the Lung-Safian Lake System, kg/m^3.
+        /// </summary>
+        internal static string Soz_plusDescription_EN {
+            get {
+                return ResourceManager.GetString("Soz_plusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация воды на поддержку уровней воды в системе озер Лунг-Сафьян, кг/м^3.
+        /// </summary>
+        internal static string Soz_plusDescription_RU {
+            get {
+                return ResourceManager.GetString("Soz_plusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація води на підтримку рівнів води в системі озер Лунг-Сафьян, кг/м^3.
+        /// </summary>
+        internal static string Soz_plusDescription_UA {
+            get {
+                return ResourceManager.GetString("Soz_plusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Precipitation mineralization, kg/m^3.
+        /// </summary>
+        internal static string SpDescription_EN {
+            get {
+                return ResourceManager.GetString("SpDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация атмосферных осадков, кг/м^3.
+        /// </summary>
+        internal static string SpDescription_RU {
+            get {
+                return ResourceManager.GetString("SpDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація атмосферних опадів, кг/м^3.
+        /// </summary>
+        internal static string SpDescription_UA {
+            get {
+                return ResourceManager.GetString("SpDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Mineralization of surface runoff, kg/m^3.
+        /// </summary>
+        internal static string SrDescription_EN {
+            get {
+                return ResourceManager.GetString("SrDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация поверхностного стока, кг/м^3.
+        /// </summary>
+        internal static string SrDescription_RU {
+            get {
+                return ResourceManager.GetString("SrDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація поверхневого стоку, кг/м^3.
+        /// </summary>
+        internal static string SrDescription_UA {
+            get {
+                return ResourceManager.GetString("SrDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap success_64 {
+            get {
+                object obj = ResourceManager.GetObject("success_64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Mineralization of water harvesting for irrigation, kg/m^3.
+        /// </summary>
+        internal static string SzDescription_EN {
+            get {
+                return ResourceManager.GetString("SzDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Минерализация сбора воды на орошение, кг/м^3.
+        /// </summary>
+        internal static string SzDescription_RU {
+            get {
+                return ResourceManager.GetString("SzDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Мінералізація збору води на зрошування, кг/м^3.
+        /// </summary>
+        internal static string SzDescription_UA {
+            get {
+                return ResourceManager.GetString("SzDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toolbox_16 {
+            get {
+                object obj = ResourceManager.GetObject("toolbox_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,190 +1554,415 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap question_64x64 {
+        internal static System.Drawing.Bitmap ukraine_16 {
             get {
-                object obj = ResourceManager.GetObject("question_64x64", resourceCulture);
+                object obj = ResourceManager.GetObject("ukraine_16", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Volume of lateral tide, million m^3.
         /// </summary>
-        internal static System.Drawing.Bitmap recalculate_16x16 {
+        internal static string VbDescription_EN {
             get {
-                object obj = ResourceManager.GetObject("recalculate_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VbDescription_EN", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Объем бокового прилива, млн. м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap recalculate_64x64 {
+        internal static string VbDescription_RU {
             get {
-                object obj = ResourceManager.GetObject("recalculate_64x64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VbDescription_RU", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Об&apos;єм бічного припливу, млн м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap recalculate_calcualtion_32x32 {
+        internal static string VbDescription_UA {
             get {
-                object obj = ResourceManager.GetObject("recalculate_calcualtion_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VbDescription_UA", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Water discharges from the lake into the Danube River, million m^3.
         /// </summary>
-        internal static System.Drawing.Bitmap recalculate_calculation_16x16 {
+        internal static string VD_minusDescription_EN {
             get {
-                object obj = ResourceManager.GetObject("recalculate_calculation_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VD_minusDescription_EN", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Сбросы воды из озера в р. Дунай, млн. м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap save_16x16 {
+        internal static string VD_minusDescription_RU {
             get {
-                object obj = ResourceManager.GetObject("save_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VD_minusDescription_RU", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Скиди води з озера в р. Дунай, млн м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap save_64x64 {
+        internal static string VD_minusDescription_UA {
             get {
-                object obj = ResourceManager.GetObject("save_64x64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VD_minusDescription_UA", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Water inflow from the Danube River, million m^3.
         /// </summary>
-        internal static System.Drawing.Bitmap save_as_image_16x16 {
+        internal static string VD_plusDescription_EN {
             get {
-                object obj = ResourceManager.GetObject("save_as_image_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VD_plusDescription_EN", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Приток воды из р. Дунай, млн. м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap save_as_image_32x32 {
+        internal static string VD_plusDescription_RU {
             get {
-                object obj = ResourceManager.GetObject("save_as_image_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VD_plusDescription_RU", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Приплив води з р. Дунай, млн м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap save_calculation {
+        internal static string VD_plusDescription_UA {
             get {
-                object obj = ResourceManager.GetObject("save_calculation", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VD_plusDescription_UA", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Drainage inflow volume, million m^3.
         /// </summary>
-        internal static System.Drawing.Bitmap save_calculation_32x32 {
+        internal static string VdrDescription_EN {
             get {
-                object obj = ResourceManager.GetObject("save_calculation_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VdrDescription_EN", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Объем поступления дренажных вод, млн. м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap screensaver {
+        internal static string VdrDescription_RU {
             get {
-                object obj = ResourceManager.GetObject("screensaver", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VdrDescription_RU", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Об&apos;єм надходження дренажних вод, млн м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap sea_bottom_98х253 {
+        internal static string VdrDescription_UA {
             get {
-                object obj = ResourceManager.GetObject("sea_bottom_98х253", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VdrDescription_UA", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Evaporation volume, million m^3.
         /// </summary>
-        internal static System.Drawing.Bitmap success_16x16 {
+        internal static string VEDescription_EN {
             get {
-                object obj = ResourceManager.GetObject("success_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VEDescription_EN", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Объем испарения, млн. м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap success_64x64 {
+        internal static string VEDescription_RU {
             get {
-                object obj = ResourceManager.GetObject("success_64x64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VEDescription_RU", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Об&apos;єм випаровування, млн м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap view_calculation_16x16 {
+        internal static string VEDescription_UA {
             get {
-                object obj = ResourceManager.GetObject("view_calculation_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VEDescription_UA", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Filtration volume, million m^3.
         /// </summary>
-        internal static System.Drawing.Bitmap view_calculation_32x32 {
+        internal static string VfDescription_EN {
             get {
-                object obj = ResourceManager.GetObject("view_calculation_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VfDescription_EN", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Объем фильтрациии, млн. м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap view_calculations_16x16 {
+        internal static string VfDescription_RU {
             get {
-                object obj = ResourceManager.GetObject("view_calculations_16x16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VfDescription_RU", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Об&apos;єм фільтраціїї, млн м^3.
         /// </summary>
-        internal static System.Drawing.Bitmap view_calculations_32x32 {
+        internal static string VfDescription_UA {
             get {
-                object obj = ResourceManager.GetObject("view_calculations_32x32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("VfDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Groundwater inflow volume, million m^3.
+        /// </summary>
+        internal static string VgDescription_EN {
+            get {
+                return ResourceManager.GetString("VgDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Объем притока грунтовых вод, млн. м^3.
+        /// </summary>
+        internal static string VgDescription_RU {
+            get {
+                return ResourceManager.GetString("VgDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Об&apos;єм припливу ґрунтових вод, млн м^3.
+        /// </summary>
+        internal static string VgDescription_UA {
+            get {
+                return ResourceManager.GetString("VgDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Support for the water levels of the Lung-Safyan Lakes, million m^3.
+        /// </summary>
+        internal static string Voz_minusDescription_EN {
+            get {
+                return ResourceManager.GetString("Voz_minusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поддержка уровней воды озер Лунг-Сафьян, млн. м^3.
+        /// </summary>
+        internal static string Voz_minusDescription_RU {
+            get {
+                return ResourceManager.GetString("Voz_minusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Підримка рівнів води озер Лунг-Сафьян, млн м^3.
+        /// </summary>
+        internal static string Voz_minusDescription_UA {
+            get {
+                return ResourceManager.GetString("Voz_minusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Support for the water levels of the Lung-Safyan Lakes, million m^3.
+        /// </summary>
+        internal static string Voz_plusDescription_EN {
+            get {
+                return ResourceManager.GetString("Voz_plusDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Поддержка уровней воды озер Лунг-Сафьян, млн. м^3.
+        /// </summary>
+        internal static string Voz_plusDescription_RU {
+            get {
+                return ResourceManager.GetString("Voz_plusDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Підрімка рівнів води озер Лунг-Сафьян, млн м^3.
+        /// </summary>
+        internal static string Voz_plusDescription_UA {
+            get {
+                return ResourceManager.GetString("Voz_plusDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Precipitation volume, million m^3.
+        /// </summary>
+        internal static string VpDescription_EN {
+            get {
+                return ResourceManager.GetString("VpDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Объем осадков, млн. м^3.
+        /// </summary>
+        internal static string VpDescription_RU {
+            get {
+                return ResourceManager.GetString("VpDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Об&apos;єм атмосферних опадів, млн м^3.
+        /// </summary>
+        internal static string VpDescription_UA {
+            get {
+                return ResourceManager.GetString("VpDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на River runoff volume, million m^3.
+        /// </summary>
+        internal static string VrDescription_EN {
+            get {
+                return ResourceManager.GetString("VrDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Объем речного стока, млн. м^3.
+        /// </summary>
+        internal static string VrDescription_RU {
+            get {
+                return ResourceManager.GetString("VrDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Об&apos;єм річкового стоку, млн м^3.
+        /// </summary>
+        internal static string VrDescription_UA {
+            get {
+                return ResourceManager.GetString("VrDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Transpiration volume, million m^3.
+        /// </summary>
+        internal static string VtrDescription_EN {
+            get {
+                return ResourceManager.GetString("VtrDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Объем транспирации, млн. м^3.
+        /// </summary>
+        internal static string VtrDescription_RU {
+            get {
+                return ResourceManager.GetString("VtrDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Об&apos;єм транспірації, млн м^3.
+        /// </summary>
+        internal static string VtrDescription_UA {
+            get {
+                return ResourceManager.GetString("VtrDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Irrigation water collection, million m^3.
+        /// </summary>
+        internal static string VzDescription_EN {
+            get {
+                return ResourceManager.GetString("VzDescription_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Сбор воды на орошение, млн. м^3.
+        /// </summary>
+        internal static string VzDescription_RU {
+            get {
+                return ResourceManager.GetString("VzDescription_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Збір води на зрошування, млн м^3.
+        /// </summary>
+        internal static string VzDescription_UA {
+            get {
+                return ResourceManager.GetString("VzDescription_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The volume of water in the lake at the beginning of the month, million m^3.
+        /// </summary>
+        internal static string W1Description_EN {
+            get {
+                return ResourceManager.GetString("W1Description_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Объем воды в озере в начале месяца, млн. м^3.
+        /// </summary>
+        internal static string W1Description_RU {
+            get {
+                return ResourceManager.GetString("W1Description_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Об&apos;єм води в озері на початку місяця, млн м^3.
+        /// </summary>
+        internal static string W1Description_UA {
+            get {
+                return ResourceManager.GetString("W1Description_UA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на The volume of water in the lake at the end of the month, million m^3.
+        /// </summary>
+        internal static string W2Description_EN {
+            get {
+                return ResourceManager.GetString("W2Description_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Объем воды в озере в конце месяца, млн. м^3.
+        /// </summary>
+        internal static string W2Description_RU {
+            get {
+                return ResourceManager.GetString("W2Description_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Об&apos;єм води в озері наприкінці місяця, млн м^3.
+        /// </summary>
+        internal static string W2Description_UA {
+            get {
+                return ResourceManager.GetString("W2Description_UA", resourceCulture);
             }
         }
     }

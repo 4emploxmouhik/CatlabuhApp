@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="monthRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 23</value>
+  </data>
+  <data name="monthRadio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 20</value>
+  </data>
+  <data name="monthRadio.Text" xml:space="preserve">
+    <value>Месяцы</value>
+  </data>
+  <data name="yearsRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 23</value>
+  </data>
+  <data name="yearsRadio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="yearsRadio.Text" xml:space="preserve">
+    <value>Года</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Укажите параметры для оси X</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 15</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Выберите год</value>
+  </data>
+  <data name="getAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 231</value>
+  </data>
+  <data name="getAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 20</value>
+  </data>
+  <data name="getAll.Text" xml:space="preserve">
+    <value>Выбрать всё</value>
+  </data>
+  <data name="december.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 190</value>
+  </data>
+  <data name="december.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="december.Text" xml:space="preserve">
+    <value>Дек.</value>
+  </data>
+  <data name="november.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 162</value>
+  </data>
+  <data name="november.Text" xml:space="preserve">
+    <value>Ноя.</value>
+  </data>
+  <data name="october.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="october.Text" xml:space="preserve">
+    <value>Окт,</value>
+  </data>
+  <data name="september.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 111</value>
+  </data>
+  <data name="september.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="september.Text" xml:space="preserve">
+    <value>Сен.</value>
+  </data>
+  <data name="august.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 85</value>
+  </data>
+  <data name="august.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="august.Text" xml:space="preserve">
+    <value>Авг.</value>
+  </data>
+  <data name="july.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 59</value>
+  </data>
+  <data name="july.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="july.Text" xml:space="preserve">
+    <value>Июл.</value>
+  </data>
+  <data name="june.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 190</value>
+  </data>
+  <data name="june.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="june.Text" xml:space="preserve">
+    <value>Июн.</value>
+  </data>
+  <data name="may.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 162</value>
+  </data>
+  <data name="may.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="may.Text" xml:space="preserve">
+    <value>Май</value>
+  </data>
+  <data name="april.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="april.Text" xml:space="preserve">
+    <value>Апр.</value>
+  </data>
+  <data name="march.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="march.Text" xml:space="preserve">
+    <value>Мар.</value>
+  </data>
+  <data name="february.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 85</value>
+  </data>
+  <data name="february.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="february.Text" xml:space="preserve">
+    <value>Фев.</value>
+  </data>
+  <data name="january.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="january.Text" xml:space="preserve">
+    <value>Янв.</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Выберите год</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Указать год</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>До:</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 17</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>От:</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Указать диапазон</value>
+  </data>
+  <data name="add.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="delete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Ось X</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="buildAGraph.Text" xml:space="preserve">
+    <value>Построить</value>
+  </data>
+  <data name="procRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 23</value>
+  </data>
+  <data name="sumRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 23</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Укажите параметры для оси Y</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>ВБПЧ</value>
+  </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value>Водный баланс приходная часть</value>
+  </data>
+  <data name="checkBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 19</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>ВБРЧ</value>
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value>Водный баланс расходная часть</value>
+  </data>
+  <data name="sbppPanel.ToolTip" xml:space="preserve">
+    <value>Солевой баланс приходная часть</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>СБПЧ</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>СБРЧ</value>
+  </data>
+  <data name="tabPage4.ToolTip" xml:space="preserve">
+    <value>Солевой баланс расходная часть</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Ось Y</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Ось Х:</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Ось Y:</value>
+  </data>
+  <data name="yearLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 24</value>
+  </data>
+  <data name="yearLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 16</value>
+  </data>
+  <data name="yearLabel.Text" xml:space="preserve">
+    <value>Год:</value>
+  </data>
+  <data name="clearOy.Text" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="clearOx.Text" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Диаграмма</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAAAAAAAAAAAAAAAAAAAA
+        AABMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwD//wAB3JgzbduY
+        NNnbmDT+25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP7bmDTZ25k0a///AAFMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwDamTNu25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uZNGtMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDPa25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9yY
+        NNhMcEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT+25g0/9uYNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2FL
+        NP/bmDT/25g0/9uYNP5McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9uUjT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/YUs0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/alA0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25SNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP/RkjT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/dVg0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2BKNP+YbjT/2ZY0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9GSNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP+vfDT/2Zc0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/JjTT/alE0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/699
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/2Zc0/6R1NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/blI0/5Vs
+        NP/BhzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/sX00/4lkNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/k2o0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/JjTT/d1g0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP94WTT/2JY0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9KSNP9wVDT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2NMNP/IjDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/2ZY0/35d
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/6h4NP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/alzT/jGY0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/gmA0/9qXNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP+fcjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9lTjT/z480/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/7WANP9fSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP+peDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/yIs0/2VONP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/31dNP/alzT/25g0/9uYNP/bmDT/25g0/9uYNP/TkjT/cFQ0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Ykw0/8iMNP/bmDT/25g0/9uYNP/bmDT/25g0/9mXNP+AXjT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/nHE0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/5lu
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9tUjT/1pU0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/tYA0/19KNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP+1gDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/IjDT/ZU00/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/1JM0/9KT
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9eVNP91WDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/5BpNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/k2w0/6Z3NP/IjDT/25g0/9uYNP/bmDT/s380/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9jTDT/yY00/9uYNP/bmDT/zY80/2hQ
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/e1s0/9qY
+        NP/bmDT/25g0/7qENP9gSjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/6V2NP/bmDT/25g0/9uYNP+hdDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/2NMNP/JjTT/25g0/9uYNP/alzT/iGM0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP96WzT/2Zc0/9uYNP/bmDT/1ZQ0/3NX
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/o3U0/9uY
+        NP/bmDT/25g0/8iMNP9lTjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/YUs0/8aLNP/bmDT/25g0/9uYNP+1gDT/X0o0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/3laNP/ZlzT/25g0/9uYNP/bmDT/m280/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+iczT/25g0/9uYNP/bmDT/2pg0/4Jg
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9hSzT/xoo0/9uY
+        NP/bmDT/25g0/9KTNP9vVDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/dFc0/5tv
+        NP/CiTT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/sH00/4NgM/9gSjT/Xkk0/15JNP9eSTT/Xkk0/2dO
+        NP+QaTT/w4k0/9uYNP/bmDT/25g0/9uYNP/MjjT/oXQ0/3tbNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP+yfjT/2pc0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/HjDT/alE0/15J
+        NP9eSTT/iGM0/9SUNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP++hjT/Y0s0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP/RkjT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/dVg0/15JNP9eSTT/oHI0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/Z040/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9uUjT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25TNP9uUzT/YUs0/15JNP9eSTT/Zk80/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25TNP9uUzT/X0k0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT+25g0/9uYNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2FL
+        NP/bmDT/25g0/9uYNP5McEcATHBHAExwRwBMcEcATHBHAExwRwDbmTTb25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNNlMcEcATHBHAExwRwBMcEcATHBHAExwRwDbmTRw25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9yYM21McEcATHBHAExwRwBMcEcATHBHAExw
+        RwD//wAB2pg1b9uYM9rbmDT+25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP7bmDPa3Jgzbf//AAFMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwD///////8AAP///////wAA////////
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAAD///////8AAP///////wAA////////
+        AAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Настройка диаграммы</value>
+  </data>
+</root>

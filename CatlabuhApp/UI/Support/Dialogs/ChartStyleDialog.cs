@@ -102,6 +102,21 @@ namespace CatlabuhApp.UI.Support.Dialogs
             }
         }
 
+        public void SetStartAxisTitles(string xAxisTitle, string yAxisTitle)
+        {
+            if (string.IsNullOrEmpty(xAxisTitle))
+            {
+                throw new ArgumentException("message", nameof(xAxisTitle));
+            }
+            if (string.IsNullOrEmpty(yAxisTitle))
+            {
+                throw new ArgumentException("message", nameof(yAxisTitle));
+            }
+
+            xAxisTitleBox.Text = xAxisTitle;
+            yAxisTitleBox.Text = yAxisTitle;
+        }
+
         private FontStyle GetFontStyle(RadioButton r, RadioButton b, RadioButton i, RadioButton u)
         {
             if (r.Checked) { return FontStyle.Regular; }
@@ -154,12 +169,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
         {
             if (!BarChartTypeCheck())
             {
-                MessageDialog.Show(MessageDialog.ErrorTitle, "No, no, no, ...", MessageDialog.Icon.Cross);
-                
-                /* 
-                 * Оси области диаграммы - в области диаграммы содержатся несовместимые типы диаграмм. 
-                 * Например, линейчатые диаграммы и гистограммы не могут находиться в одной и той же области.
-                 */
+                MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText7, MessageDialog.Icon.Cross);
             }
             else
             {

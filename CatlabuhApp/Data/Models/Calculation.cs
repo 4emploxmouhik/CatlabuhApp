@@ -95,6 +95,10 @@ namespace CatlabuhApp.Data.Models
             else
             {
                 outputData.SaveEmpty();
+
+                string sql = $"UPDATE OutputData SET S1 = {inputData.S1InJanury} WHERE YearName = {YearOfCalculation} AND MonthID = 1;\n" +
+                    $"UPDATE OutputData SET Vg = {inputData.SumVg} WHERE YearName = {YearOfCalculation} AND MonthID = 13;";
+                DataAccess.Execute(sql.Replace(",", "."));
             }
         }
 

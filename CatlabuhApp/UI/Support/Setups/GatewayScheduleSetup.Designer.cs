@@ -629,14 +629,14 @@
             // 
             // saveScheduleData
             // 
-            this.saveScheduleData.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.saveScheduleData.Image = global::CatlabuhApp.Properties.Resources.save_16;
             resources.ApplyResources(this.saveScheduleData, "saveScheduleData");
             this.saveScheduleData.Name = "saveScheduleData";
             this.saveScheduleData.Click += new System.EventHandler(this.SaveScheduleData_Click);
             // 
             // clearFields
             // 
-            this.clearFields.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.clearFields.Image = global::CatlabuhApp.Properties.Resources.broom_16;
             resources.ApplyResources(this.clearFields, "clearFields");
             this.clearFields.Name = "clearFields";
             this.clearFields.Click += new System.EventHandler(this.ClearFields_Click);
@@ -648,11 +648,11 @@
             // 
             // tools
             // 
-            this.tools.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.tools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.methodOfCalculationToolStripMenuItem,
             this.toolStripSeparator3,
             this.yearOfCalculationToolStripMenuItem});
+            this.tools.Image = global::CatlabuhApp.Properties.Resources.toolbox_16;
             resources.ApplyResources(this.tools, "tools");
             this.tools.Name = "tools";
             // 
@@ -661,6 +661,7 @@
             this.methodOfCalculationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.byDates,
             this.byData});
+            this.methodOfCalculationToolStripMenuItem.Image = global::CatlabuhApp.Properties.Resources.formula_16;
             this.methodOfCalculationToolStripMenuItem.Name = "methodOfCalculationToolStripMenuItem";
             resources.ApplyResources(this.methodOfCalculationToolStripMenuItem, "methodOfCalculationToolStripMenuItem");
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CatlabuhAppSupportHelp.UI.Help;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -37,7 +38,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
             Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent();
 
-            path = (Properties.Settings.Default.CalculationsDirectoryPath == "Default") ?  Directory.GetCurrentDirectory() + "\\Calculations in Excel\\" : path;
+            path = Properties.Settings.Default.CalculationsDirectoryPath;
         }
 
         public TablesToExportDialog(DataGridView[] dataGridViews, string yearOfCalculation) : this()
@@ -340,10 +341,11 @@ namespace CatlabuhApp.UI.Support.Dialogs
         #region Вызов справки
         private void TablesToExportDialog_HelpRequested(object sender, HelpEventArgs hlpevent)
         {
-            // TODO: вызвать окно справки.
+            new HelpForm("exportCalcText").Show();
         }
 
         #endregion
 
+    
     }
 }

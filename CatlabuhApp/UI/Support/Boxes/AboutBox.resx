@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBoxDescription.Text" xml:space="preserve">
+    <value>The program is designed to perform and store calculations of water and salt balances of Lake Katlabukh.</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tableLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 238</value>
+  </data>
+  <data name="okButton.Text" xml:space="preserve">
+    <value>ОК</value>
+  </data>
+  <data name="labelProductName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tableLayoutPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBoxDescription.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="okButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="logoPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        A/tT0wFK0HW2AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="labelCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 21</value>
+  </data>
+  <data name="textBoxDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;labelCompanyName.Name" xml:space="preserve">
+    <value>labelCompanyName</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;labelProductName.Name" xml:space="preserve">
+    <value>labelProductName</value>
+  </data>
+  <data name="labelProductName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 0, 4, 0</value>
+  </data>
+  <data name="labelCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 46</value>
+  </data>
+  <data name="tableLayoutPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tableLayoutPanel.RowCount" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="logoPictureBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.Name" xml:space="preserve">
+    <value>textBoxDescription</value>
+  </data>
+  <data name="okButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;logoPictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelCopyright.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="logoPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 230</value>
+  </data>
+  <data name="logoPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;logoPictureBox.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;labelCompanyName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxDescription.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>324, 260</value>
+  </data>
+  <data name="&gt;&gt;labelVersion.Name" xml:space="preserve">
+    <value>labelVersion</value>
+  </data>
+  <data name="labelVersion.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="&gt;&gt;labelProductName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="textBoxDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 94</value>
+  </data>
+  <data name="labelProductName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelCompanyName.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="okButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 30</value>
+  </data>
+  <data name="&gt;&gt;okButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelCopyright.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="okButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 204</value>
+  </data>
+  <data name="&gt;&gt;labelCompanyName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.Name" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="&gt;&gt;okButton.Name" xml:space="preserve">
+    <value>okButton</value>
+  </data>
+  <data name="logoPictureBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;labelCompanyName.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="labelProductName.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelVersion.Text" xml:space="preserve">
+    <value>Version: </value>
+  </data>
+  <data name="labelVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="labelVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 21</value>
+  </data>
+  <data name="&gt;&gt;okButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBoxDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 102</value>
+  </data>
+  <data name="labelProductName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="textBoxDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="labelCopyright.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelProductName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 0</value>
+  </data>
+  <data name="labelVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 23</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAAAAAAAAAAAAAAAAAAAA
+        AABMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwD//wAB3JgzbduY
+        NNnbmDT+25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP7bmDTZ25k0a///AAFMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwDamTNu25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uZNGtMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDPa25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9yY
+        NNhMcEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT+25g0/9uYNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2FL
+        NP/bmDT/25g0/9uYNP5McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9uUjT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/YUs0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/alA0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25SNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP/RkjT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/dVg0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2BKNP+YbjT/2ZY0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9GSNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP+vfDT/2Zc0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/JjTT/alE0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/699
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/2Zc0/6R1NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/blI0/5Vs
+        NP/BhzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/sX00/4lkNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/k2o0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/JjTT/d1g0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP94WTT/2JY0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9KSNP9wVDT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2NMNP/IjDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/2ZY0/35d
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/6h4NP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/alzT/jGY0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/gmA0/9qXNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP+fcjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9lTjT/z480/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/7WANP9fSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP+peDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/yIs0/2VONP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/31dNP/alzT/25g0/9uYNP/bmDT/25g0/9uYNP/TkjT/cFQ0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Ykw0/8iMNP/bmDT/25g0/9uYNP/bmDT/25g0/9mXNP+AXjT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/nHE0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/5lu
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9tUjT/1pU0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/tYA0/19KNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP+1gDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/IjDT/ZU00/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/1JM0/9KT
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9eVNP91WDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/5BpNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/k2w0/6Z3NP/IjDT/25g0/9uYNP/bmDT/s380/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9jTDT/yY00/9uYNP/bmDT/zY80/2hQ
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/e1s0/9qY
+        NP/bmDT/25g0/7qENP9gSjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/6V2NP/bmDT/25g0/9uYNP+hdDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/2NMNP/JjTT/25g0/9uYNP/alzT/iGM0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP96WzT/2Zc0/9uYNP/bmDT/1ZQ0/3NX
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/o3U0/9uY
+        NP/bmDT/25g0/8iMNP9lTjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/YUs0/8aLNP/bmDT/25g0/9uYNP+1gDT/X0o0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/3laNP/ZlzT/25g0/9uYNP/bmDT/m280/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+iczT/25g0/9uYNP/bmDT/2pg0/4Jg
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9hSzT/xoo0/9uY
+        NP/bmDT/25g0/9KTNP9vVDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/dFc0/5tv
+        NP/CiTT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/sH00/4NgM/9gSjT/Xkk0/15JNP9eSTT/Xkk0/2dO
+        NP+QaTT/w4k0/9uYNP/bmDT/25g0/9uYNP/MjjT/oXQ0/3tbNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP+yfjT/2pc0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/HjDT/alE0/15J
+        NP9eSTT/iGM0/9SUNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP++hjT/Y0s0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP/RkjT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/dVg0/15JNP9eSTT/oHI0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/Z040/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9uUjT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25TNP9uUzT/YUs0/15JNP9eSTT/Zk80/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25TNP9uUzT/X0k0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT+25g0/9uYNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2FL
+        NP/bmDT/25g0/9uYNP5McEcATHBHAExwRwBMcEcATHBHAExwRwDbmTTb25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNNlMcEcATHBHAExwRwBMcEcATHBHAExwRwDbmTRw25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9yYM21McEcATHBHAExwRwBMcEcATHBHAExw
+        RwD//wAB2pg1b9uYM9rbmDT+25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP7bmDPa3Jgzbf//AAFMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwD///////8AAP///////wAA////////
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAAD///////8AAP///////wAA////////
+        AAA=
+</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tableLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelProductName.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="&gt;&gt;labelProductName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AboutBox</value>
+  </data>
+  <data name="&gt;&gt;logoPictureBox.Name" xml:space="preserve">
+    <value>logoPictureBox</value>
+  </data>
+  <data name="&gt;&gt;labelProductName.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="tableLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="logoPictureBox" Row="0" RowSpan="6" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelProductName" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelVersion" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelCopyright" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelCompanyName" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="textBoxDescription" Row="4" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="okButton" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,28,39117,Percent,71,60883" /&gt;&lt;Rows Styles="Percent,10,Percent,10,Percent,10,Percent,12,5,Percent,43,05556,Percent,14,06844,Absolute,20,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="labelCompanyName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="logoPictureBox.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="tableLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 11</value>
+  </data>
+  <data name="labelCompanyName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 69</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelCompanyName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 21</value>
+  </data>
+  <data name="logoPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 11, 12, 11</value>
+  </data>
+  <data name="labelVersion.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>About </value>
+  </data>
+  <data name="&gt;&gt;logoPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelVersion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labelCompanyName.Text" xml:space="preserve">
+    <value>Creator: </value>
+  </data>
+  <data name="&gt;&gt;okButton.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="labelCompanyName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelCopyright.Name" xml:space="preserve">
+    <value>labelCopyright</value>
+  </data>
+  <data name="labelCopyright.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;textBoxDescription.Parent" xml:space="preserve">
+    <value>tableLayoutPanel</value>
+  </data>
+  <data name="labelCompanyName.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 21</value>
+  </data>
+  <data name="labelCompanyName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 0, 4, 0</value>
+  </data>
+  <data name="okButton.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="textBoxDescription.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>uk-UA</value>
+  </metadata>
+</root>

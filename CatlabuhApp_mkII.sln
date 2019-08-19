@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatlabuhApp", "CatlabuhApp\CatlabuhApp.csproj", "{69763E7A-0937-49A6-AF66-4E2A42EF845A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppConfigurationChanger", "AppConfigurationChanger\AppConfigurationChanger.csproj", "{62921179-65B7-45AF-A116-1C223F93C8D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{69763E7A-0937-49A6-AF66-4E2A42EF845A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69763E7A-0937-49A6-AF66-4E2A42EF845A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69763E7A-0937-49A6-AF66-4E2A42EF845A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62921179-65B7-45AF-A116-1C223F93C8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62921179-65B7-45AF-A116-1C223F93C8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62921179-65B7-45AF-A116-1C223F93C8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62921179-65B7-45AF-A116-1C223F93C8D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

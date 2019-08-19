@@ -135,6 +135,12 @@ namespace CatlabuhApp.Data.Models
             waterLevelPercent = this.waterLevelPercent;
         }
 
+        public void GetWaterLevel(out WaterLevel waterLevel, out int waterLevelPercent)
+        {
+            waterLevel = this.waterLevel;
+            waterLevelPercent = this.waterLevelPercent;
+        }
+        
         public override string ToString()
         {
             string output = "\nOutputData:";
@@ -251,8 +257,8 @@ namespace CatlabuhApp.Data.Models
                     }
                     if (gs != null)
                     {
-                        sql += $"UPDATE GatewaySchedule SET VD_plus = {sumsOfWBP[6]}, VD_minus = {sumsOfWBC[5]}, Voz_plus = {sumsOfWBP[7]}, " +
-                            $"Voz_minus = {sumsOfWBC[6]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
+                        sql += $"UPDATE GatewaySchedule SET VD_plus = {sumsOfWBP[7]}, VD_minus = {sumsOfWBC[7]}, Voz_plus = {sumsOfWBP[8]}, " +
+                            $"Voz_minus = {sumsOfWBC[8]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
                     }
                 }
                 else
@@ -314,7 +320,7 @@ namespace CatlabuhApp.Data.Models
 
                     if (inputData != null && inputData.IsCalculateE)
                     {
-                        sql += $"UPDATE InputData SET E = {inputData.E[i]} WHERE MonthID = {i + 1}, YearName = {YearOfCalculation};\t";
+                        sql += $"UPDATE InputData SET E = {inputData.E[i]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\t";
                     }
                     if (gs != null && gs.IsCalculateGS)
                     {
@@ -336,8 +342,8 @@ namespace CatlabuhApp.Data.Models
                     }
                     if (gs != null)
                     {
-                        sql += $"UPDATE GatewaySchedule SET VD_plus = {sumsOfWBP[6]}, VD_minus = {sumsOfWBC[5]}, Voz_plus = {sumsOfWBP[7]}, " +
-                            $"Voz_minus = {sumsOfWBC[6]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
+                        sql += $"UPDATE GatewaySchedule SET VD_plus = {sumsOfWBP[7]}, VD_minus = {sumsOfWBC[7]}, Voz_plus = {sumsOfWBP[8]}, " +
+                            $"Voz_minus = {sumsOfWBC[8]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
                     }
                 }
                 else
