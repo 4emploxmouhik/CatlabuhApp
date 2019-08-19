@@ -72,7 +72,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.showGrid = new System.Windows.Forms.CheckBox();
             this.seriesPage = new System.Windows.Forms.TabPage();
-            this.seriesGridView = new CatlabuhApp.UI.Main.UC.SeriesGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cancel = new System.Windows.Forms.Button();
             this.apply = new System.Windows.Forms.Button();
@@ -88,7 +87,6 @@
             this.gridPage.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.seriesPage.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -370,6 +368,7 @@
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // showXAxisMinorGrid
             // 
@@ -401,6 +400,7 @@
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // showGrid
             // 
@@ -414,14 +414,8 @@
             // seriesPage
             // 
             this.seriesPage.BackColor = System.Drawing.SystemColors.Control;
-            this.seriesPage.Controls.Add(this.seriesGridView);
             resources.ApplyResources(this.seriesPage, "seriesPage");
             this.seriesPage.Name = "seriesPage";
-            // 
-            // seriesGridView
-            // 
-            resources.ApplyResources(this.seriesGridView, "seriesGridView");
-            this.seriesGridView.Name = "seriesGridView";
             // 
             // panel1
             // 
@@ -471,7 +465,6 @@
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.seriesPage.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -526,6 +519,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ColorDialog colorDialog;
         private System.Windows.Forms.TabPage seriesPage;
-        private Main.UC.SeriesGridView seriesGridView;
+        //private Main.UC.SeriesGridView seriesGridView;
     }
 }
