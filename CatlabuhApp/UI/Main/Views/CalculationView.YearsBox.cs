@@ -18,6 +18,8 @@ namespace CatlabuhApp.UI.Main.Views
             calc.YearOfCalculation = YearOfCalculation;
             UpdateDataSource();
             HighlightInputCellColor();
+
+            UpdateWaterLevel();
         }
 
         private void YearsBox_TextChanged(object sender, EventArgs e)

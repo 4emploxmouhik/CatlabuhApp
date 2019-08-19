@@ -4,6 +4,47 @@ namespace CatlabuhApp.Data.Models
 {
     partial class OutputData
     {
+        public void GetWaterLevel(double sumP)
+        {
+            double[] xp = DataAccess.GetColumnData<double>("SELECT Xp FROM GammaDistribution").ToArray();
+            int recordID = 0;
+
+            if (sumP > xp[0])
+            {
+                recordID = 1;
+            }
+            else if (sumP < xp[xp.Length - 1])
+            {
+                recordID = xp.Length;
+            }
+            else
+            {
+                for (int i = 0; i < xp.Length; i++)
+                {
+                    if (sumP > xp[i])
+                    {
+                        recordID = i;
+                        break;
+                    }
+                }
+            }
+
+            waterLevelPercent = DataAccess.GetCellData<int>($"SELECT Percent FROM GammaDistribution WHERE PointID = {recordID}");
+
+            if (waterLevelPercent <= 33)
+            {
+                waterLevel = WaterLevel.High;
+            }
+            else if (33 < waterLevelPercent && waterLevelPercent <= 66)
+            {
+                waterLevel = WaterLevel.Average;
+            }
+            else
+            {
+                waterLevel = WaterLevel.Low;
+            }
+        }
+
         private double CalculateSumVr(double sumP)
         {
             double[] xp = DataAccess.GetColumnData<double>("SELECT Xp FROM GammaDistribution").ToArray();
@@ -30,7 +71,6 @@ namespace CatlabuhApp.Data.Models
             }
 
             double kp = DataAccess.GetCellData<double>($"SELECT kp FROM GammaDistribution WHERE PointID = {recordID}");
-            waterLevelPercent = DataAccess.GetCellData<int>($"SELECT Percent FROM GammaDistribution WHERE PointID = {recordID}");
 
             return (((coefficients[31] * coefficients[32]) / 1000) * kp * coefficients[33] * coefficients[34]) / 1000000;
         }
@@ -112,11 +152,11 @@ namespace CatlabuhApp.Data.Models
                     }
                 }
 
-                sumsOfWBP[7] += gs.VD_plus[i];
-                sumsOfWBP[8] += gs.Voz_plus[i];
+                sumsOfWBP[7] += gs.VD_plus[i];      // VD_plus
+                sumsOfWBP[8] += gs.Voz_plus[i];     // Voz_plus 
 
-                sumsOfWBC[7] += gs.VD_minus[i];
-                sumsOfWBC[8] += gs.Voz_minus[i];
+                sumsOfWBC[7] += gs.VD_minus[i];     // VD_minus
+                sumsOfWBC[8] += gs.Voz_minus[i];    // Voz_minus
             }
         }
 
@@ -377,6 +417,11 @@ namespace CatlabuhApp.Data.Models
                 gs.VD_minus[i] = Math.Round(gs.VD_minus[i], 2);
                 gs.Voz_plus[i] = Math.Round(gs.Voz_plus[i], 2);
                 gs.Voz_minus[i] = Math.Round(gs.Voz_minus[i], 2);
+
+                if (inputData.IsCalculateE)
+                {
+                    inputData.E[i] = Math.Round(inputData.E[i], 2);
+                }
             }
         }
 
@@ -388,11 +433,17 @@ namespace CatlabuhApp.Data.Models
             // Запишем в массив минирализации на начало месяца переданное значение 
             s1[0] = inputData.S1InJanury;
 
+            double sumPBolgrad = 0;
+
             // Узнаем сумму осадков, чтобы определить водность
-            foreach (double entry in inputData.PIsmail)
+            for (int i = 0; i < 12; i++)
             {
-                sumsOfWBP[0] += entry;  // P
+                sumsOfWBP[0] += inputData.PIsmail[i];  // PIsmail
+                sumPBolgrad += inputData.PBolgrad[i];
             }
+
+            // Определим водность года
+            GetWaterLevel(sumPBolgrad);
 
             // Рассчетаем суммарное Vr
             sumsOfWBP[2] = CalculateSumVr(sumsOfWBP[0]);    // Vr

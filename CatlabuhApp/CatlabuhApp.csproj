@@ -52,7 +52,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Resources\Images\icon_32x32.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\CatlabuhApp-icon-1.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Dapper, Version=1.60.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -69,6 +69,9 @@
       <HintPath>..\packages\System.Data.SQLite.Core.1.0.111.0\lib\net46\System.Data.SQLite.dll</HintPath>
     </Reference>
     <Reference Include="System.Design" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -82,6 +85,7 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatlabuhAppDBException.cs" />
     <Compile Include="Data\Access\IDataAccess.cs" />
     <Compile Include="Data\Models\Calculation.cs" />
     <Compile Include="Data\Models\Calculation.IComponent.cs" />
@@ -97,6 +101,17 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Help\HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Help\HelpForm.designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Help\HelpText.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HelpText.resx</DependentUpon>
     </Compile>
     <Compile Include="UI\Main\Forms\MainForm.cs">
       <SubType>Form</SubType>
@@ -134,20 +149,27 @@
     <Compile Include="UI\Main\Views\ChartView.Designer.cs">
       <DependentUpon>ChartView.cs</DependentUpon>
     </Compile>
+    <Compile Include="UI\Main\Views\SettingsView.CalculationSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="UI\Main\Views\SettingsView.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UI\Main\Views\SettingsView.Designer.cs">
       <DependentUpon>SettingsView.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Support\Boxes\AboutBox.cs" />
+    <Compile Include="UI\Support\Boxes\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Support\Boxes\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\Support\Dialogs\ChartStyleDialog.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UI\Support\Dialogs\ChartStyleDialog.Designer.cs">
       <DependentUpon>ChartStyleDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\Support\Boxes\HelpBox.cs" />
     <Compile Include="UI\Support\Dialogs\MessageDialog.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -193,6 +215,19 @@
     <Compile Include="UI\Support\Setups\GatewayScheduleSetup.Designer.cs">
       <DependentUpon>GatewayScheduleSetup.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UI\Help\HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Help\HelpForm.ru-RU.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Help\HelpForm.uk-UA.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Help\HelpText.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>HelpText.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Main\Forms\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +273,15 @@
     <EmbeddedResource Include="UI\Main\Views\SettingsView.uk-UA.resx">
       <DependentUpon>SettingsView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Boxes\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Boxes\AboutBox.ru-RU.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Boxes\AboutBox.uk-UA.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Support\Dialogs\ChartStyleDialog.resx">
       <DependentUpon>ChartStyleDialog.cs</DependentUpon>
     </EmbeddedResource>
@@ -247,20 +291,35 @@
     <EmbeddedResource Include="UI\Support\Dialogs\ChartStyleDialog.uk-UA.resx">
       <DependentUpon>ChartStyleDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\Support\Dialogs\ChartStyleDialog.uk.resx">
-      <DependentUpon>ChartStyleDialog.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\Support\Dialogs\MessageDialog.resx">
       <DependentUpon>MessageDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Support\Dialogs\RecalculateDialog.resx">
       <DependentUpon>RecalculateDialog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Dialogs\RecalculateDialog.ru-RU.resx">
+      <DependentUpon>RecalculateDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Dialogs\RecalculateDialog.uk-UA.resx">
+      <DependentUpon>RecalculateDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\Support\Dialogs\TablesToExportDialog.resx">
+      <DependentUpon>TablesToExportDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Dialogs\TablesToExportDialog.ru-RU.resx">
       <DependentUpon>TablesToExportDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Support\Dialogs\TablesToExportDialog.uk-UA.resx">
       <DependentUpon>TablesToExportDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Setups\ChartSetup.ru-RU.resx">
+      <DependentUpon>ChartSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Setups\GatewayScheduleSetup.ru-RU.resx">
+      <DependentUpon>GatewayScheduleSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Setups\GatewayScheduleSetup.uk-UA.resx">
+      <DependentUpon>GatewayScheduleSetup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\Support\Setups\InputDataSetup.resx">
       <DependentUpon>InputDataSetup.cs</DependentUpon>
@@ -274,54 +333,16 @@
     <EmbeddedResource Include="UI\Support\Setups\GatewayScheduleSetup.resx">
       <DependentUpon>GatewayScheduleSetup.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Resources\Images\icon_32x32.ico" />
-    <None Include="Resources\Images\icon_64x64.png" />
-    <None Include="Resources\Images\icon_32x32.png" />
-    <None Include="Resources\Images\icon_16x16.png" />
-    <None Include="Resources\Images\grid_140x90.png" />
-    <None Include="Resources\Images\grid_32x321.png" />
-    <None Include="Resources\Images\grid_16x161.png" />
-    <None Include="Resources\Images\sea_bottom_98х253.png" />
-    <None Include="Resources\Images\success_64x64.png" />
-    <None Include="Resources\Images\save_64x64.png" />
-    <None Include="Resources\Images\recalculate_64x64.png" />
-    <None Include="Resources\Images\question_64x64.png" />
-    <None Include="Resources\Images\delete_64x64.png" />
-    <None Include="Resources\Images\cross_64x64.png" />
-    <None Include="Resources\Images\clear_64x64.png" />
-    <None Include="Resources\Images\alert_64x64.png" />
-    <None Include="Resources\Images\view_calculations_32x32.png" />
-    <None Include="Resources\Images\view_calculation_32x32.png" />
-    <None Include="Resources\Images\save_calculation_32x32.png" />
-    <None Include="Resources\Images\save_as_image_32x32.png" />
-    <None Include="Resources\Images\recalculate_calcualtion_32x32.png" />
-    <None Include="Resources\Images\grid_32x32.png" />
-    <None Include="Resources\Images\export_to_excel_32x32.png" />
-    <None Include="Resources\Images\create_chart_32x32.png" />
-    <None Include="Resources\Images\create_calculation_32x32.png" />
-    <None Include="Resources\Images\calculation_settings_32x32.png" />
-    <None Include="Resources\Images\view_calculations_16x16.png" />
-    <None Include="Resources\Images\view_calculation_16x16.png" />
-    <None Include="Resources\Images\success_16x16.png" />
-    <None Include="Resources\Images\save_calculation.png" />
-    <None Include="Resources\Images\save_as_image_16x16.png" />
-    <None Include="Resources\Images\save_16x16.png" />
-    <None Include="Resources\Images\recalculate_calculation_16x16.png" />
-    <None Include="Resources\Images\recalculate_16x16.png" />
-    <None Include="Resources\Images\question_16x16.png" />
-    <None Include="Resources\Images\grid_16x16.png" />
-    <None Include="Resources\Images\export_to_excel_16x16.png" />
-    <None Include="Resources\Images\delete_16x16.png" />
-    <None Include="Resources\Images\cross_16x16.png" />
-    <None Include="Resources\Images\create_chart_16x16.png" />
-    <None Include="Resources\Images\create_calcuation_16x16.png" />
-    <None Include="Resources\Images\clear_16x16.png" />
-    <None Include="Resources\Images\calculation_settings_16x16.png" />
-    <None Include="Resources\Images\alert_16x16.png" />
-    <None Include="Resources\Images\screensaver.png" />
+    <EmbeddedResource Include="UI\Support\Setups\InputDataSetup.ru-RU.resx">
+      <DependentUpon>InputDataSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Support\Setups\InputDataSetup.uk-UA.resx">
+      <DependentUpon>InputDataSetup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -352,7 +373,189 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\add-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ask-question-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bucket-of-paint-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\formula-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\great-britain-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\microsoft-excel-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-book-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\russia-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toolbox-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ukraine-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\success-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\books-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broom-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CatlabuhApp-icon-1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CatlabuhApp-icon-2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator-16.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\app-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartStyleDiaog-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartStyleDiaog-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartStyleDiaog-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingsView-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingsView-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainForm-MenuStrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalculationView-ToolStrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InputDataSetup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GatewayScheduleSetup-ToolStrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecalculateDialog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartView-ToolStrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartSetup-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalculationView-ContextMenuStrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalculationView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Катлабух фото.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalculationView1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalculationView-ContextMenuStrip1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CalculationView-ToolStrip1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartSetup-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartStyleDiaog-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartStyleDiaog-21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartStyleDiaog-31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChartView-ToolStrip1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GatewayScheduleSetup-ToolStrip1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InputDataSetup1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainForm-MenuStrip1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RecalculateDialog1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingsView-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SettingsView-21.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

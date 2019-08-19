@@ -76,6 +76,7 @@
             this.cancel = new System.Windows.Forms.Button();
             this.apply = new System.Windows.Forms.Button();
             this.colorDialog = new System.Windows.Forms.ColorDialog();
+            this.seriesGridView = new Main.UC.SeriesGridView();
             this.tabControl.SuspendLayout();
             this.genralPage.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -92,23 +93,24 @@
             // 
             // tabControl
             // 
+            resources.ApplyResources(this.tabControl, "tabControl");
             this.tabControl.Controls.Add(this.genralPage);
             this.tabControl.Controls.Add(this.gridPage);
             this.tabControl.Controls.Add(this.seriesPage);
-            resources.ApplyResources(this.tabControl, "tabControl");
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
             // 
             // genralPage
             // 
+            resources.ApplyResources(this.genralPage, "genralPage");
             this.genralPage.BackColor = System.Drawing.SystemColors.Control;
             this.genralPage.Controls.Add(this.groupBox2);
             this.genralPage.Controls.Add(this.groupBox1);
-            resources.ApplyResources(this.genralPage, "genralPage");
             this.genralPage.Name = "genralPage";
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.regularChoice1);
             this.groupBox2.Controls.Add(this.underlineChoice1);
             this.groupBox2.Controls.Add(this.italicChoice1);
@@ -116,7 +118,6 @@
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.chartTitleBox);
             this.groupBox2.Controls.Add(this.textSize1);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -165,6 +166,7 @@
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.panel2);
             this.groupBox1.Controls.Add(this.regularChoice2);
             this.groupBox1.Controls.Add(this.label2);
@@ -173,12 +175,12 @@
             this.groupBox1.Controls.Add(this.italicChoice2);
             this.groupBox1.Controls.Add(this.boldChoice2);
             this.groupBox1.Controls.Add(this.textSize2);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // panel2
             // 
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Controls.Add(this.regularChoice3);
             this.panel2.Controls.Add(this.yAxisTitleBox);
             this.panel2.Controls.Add(this.textSize3);
@@ -186,7 +188,6 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.boldChoice3);
             this.panel2.Controls.Add(this.italicChoice3);
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // regularChoice3
@@ -277,22 +278,22 @@
             // 
             // gridPage
             // 
+            resources.ApplyResources(this.gridPage, "gridPage");
             this.gridPage.BackColor = System.Drawing.SystemColors.Control;
             this.gridPage.Controls.Add(this.groupBox4);
             this.gridPage.Controls.Add(this.groupBox3);
             this.gridPage.Controls.Add(this.showGrid);
-            resources.ApplyResources(this.gridPage, "gridPage");
             this.gridPage.Name = "gridPage";
             // 
             // groupBox4
             // 
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Controls.Add(this.yAxisMinorGridStyle);
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.yAxisMajorGridStyle);
             this.groupBox4.Controls.Add(this.showYAxisMinorGrid);
             this.groupBox4.Controls.Add(this.showYAxisMajorGrid);
             this.groupBox4.Controls.Add(this.label8);
-            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
             // 
@@ -313,12 +314,12 @@
             // 
             // yAxisMajorGridStyle
             // 
+            resources.ApplyResources(this.yAxisMajorGridStyle, "yAxisMajorGridStyle");
             this.yAxisMajorGridStyle.FormattingEnabled = true;
             this.yAxisMajorGridStyle.Items.AddRange(new object[] {
             resources.GetString("yAxisMajorGridStyle.Items"),
             resources.GetString("yAxisMajorGridStyle.Items1"),
             resources.GetString("yAxisMajorGridStyle.Items2")});
-            resources.ApplyResources(this.yAxisMajorGridStyle, "yAxisMajorGridStyle");
             this.yAxisMajorGridStyle.Name = "yAxisMajorGridStyle";
             // 
             // showYAxisMinorGrid
@@ -344,13 +345,13 @@
             // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.xAxisMinorGridStyle);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.showXAxisMinorGrid);
             this.groupBox3.Controls.Add(this.xAxisMajorGridStyle);
             this.groupBox3.Controls.Add(this.showXAxisMajorGrid);
             this.groupBox3.Controls.Add(this.label5);
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
@@ -379,12 +380,12 @@
             // 
             // xAxisMajorGridStyle
             // 
+            resources.ApplyResources(this.xAxisMajorGridStyle, "xAxisMajorGridStyle");
             this.xAxisMajorGridStyle.FormattingEnabled = true;
             this.xAxisMajorGridStyle.Items.AddRange(new object[] {
             resources.GetString("xAxisMajorGridStyle.Items"),
             resources.GetString("xAxisMajorGridStyle.Items1"),
             resources.GetString("xAxisMajorGridStyle.Items2")});
-            resources.ApplyResources(this.xAxisMajorGridStyle, "xAxisMajorGridStyle");
             this.xAxisMajorGridStyle.Name = "xAxisMajorGridStyle";
             // 
             // showXAxisMajorGrid
@@ -413,15 +414,16 @@
             // 
             // seriesPage
             // 
-            this.seriesPage.BackColor = System.Drawing.SystemColors.Control;
             resources.ApplyResources(this.seriesPage, "seriesPage");
+            this.seriesPage.Controls.Add(this.seriesGridView);
+            this.seriesPage.BackColor = System.Drawing.SystemColors.Control;
             this.seriesPage.Name = "seriesPage";
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.cancel);
             this.panel1.Controls.Add(this.apply);
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // cancel
@@ -437,6 +439,12 @@
             this.apply.Name = "apply";
             this.apply.UseVisualStyleBackColor = true;
             this.apply.Click += new System.EventHandler(this.Apply_Click);
+            //
+            // seriesGridView
+            //
+            resources.ApplyResources(this.seriesGridView, "seriesGridView");
+            this.seriesGridView.Name = "seriesGridView";
+            this.seriesGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             // 
             // ChartStyleDialog
             // 
@@ -448,6 +456,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ChartStyleDialog";
+            this.ShowInTaskbar = false;
             this.tabControl.ResumeLayout(false);
             this.genralPage.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
@@ -519,6 +528,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ColorDialog colorDialog;
         private System.Windows.Forms.TabPage seriesPage;
-        //private Main.UC.SeriesGridView seriesGridView;
+        private Main.UC.SeriesGridView seriesGridView;
     }
 }

@@ -1,10 +1,7 @@
 ﻿using CatlabuhApp.UI.Support.Dialogs;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Excel = Microsoft.Office.Interop.Excel;
@@ -17,6 +14,7 @@ namespace CatlabuhApp.UI.Main.Views
 
         private async Task ExportToExcelAsync()
         {
+            Cursor = Cursors.WaitCursor;
             statusStrip.Visible = true;
             progressBar.Minimum = 0;
             progressBar.Maximum = ((chart.Series.Count * 4) + (chart.Series[0].Points.Count * 4  * chart.Series.Count)) + 14;
@@ -26,6 +24,8 @@ namespace CatlabuhApp.UI.Main.Views
 
             await Task.Run(() => ExportToExcel());
 
+            MessageDialog.Show(MessageDialog.SuccessTitle, MessageDialog.SuccessText8, MessageDialog.Icon.OK);
+            Cursor = Cursors.Default;
             statusStrip.Visible = false;
         }
 

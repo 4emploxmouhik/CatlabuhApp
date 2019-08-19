@@ -121,29 +121,44 @@
   <data name="createNewChart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVDhPtVNLDoIwEOUEeg11JyUczd8tXEhL4ifxwym8
+        hLqxbTiAa90ZPzMwRKBtogm+5AUyM2/oDK/eXxBy1Qu4HjOhV0h8789kl9JusDhtB0InQSSf8HxViDGu
+        d+FUtai8ChT7Qp4MYZ2ROlqbQDIxih1kXG9IliOb2XLsfXrNWI9jbWUnEJwYRUBnAyCL1YjkMD9uupQs
+        hJfbPaOtkS/0guTQgOtlOflNA+Cc5A2MgAv5aYlCPlh87pA8B5rELLQT/LIm2QdoDjSJTVClOjjdiAn4
+        I1urleHY+GWnuAzcCRNqWFwmxtXAmLkZeN4b6xar6sLnsxcAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="createNewChart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+    <value>173, 22</value>
   </data>
   <data name="createNewChart.Text" xml:space="preserve">
     <value>Создать новую диаграмму</value>
+  </data>
+  <data name="exportToExcel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAARBJREFUOE9j
+        cC/woQhjFSQFYwgYNhhK6dUZ+QJxg16t0WbdWqNn6GqQMZwB1HAYqOETEP9Hx74bAlYhY5/1AYswDcCi
+        EYaBGjAwVgMCJgX/T5mfDtYUOysBzAexQaDjVBeYBgGcBrj1eP7//P3z/8gZMf/ffH7737PPF2wASHPC
+        jmQwDcI4DQDhGftn/X/35d3/ibsng/kgfOTp0f/FB8vANAjjNWDuoflg26fvm0m6ASFTwsG2B04O/f/x
+        28f/fhMDwQYQ7YWI6dH/o2bGgjXFz0n6HwQ0CMQGAZBGGMDrBWwYpAEdYxpAaUICcxgYGLUbjFR064xD
+        9eoM24CatwHxc2Q16BirICkYqyDx2IcBAHgoqSzcByV4AAAAAElFTkSuQmCC
+</value>
   </data>
   <data name="exportToExcel.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 22</value>
   </data>
   <data name="exportToExcel.Text" xml:space="preserve">
     <value>Экспорт в Excel</value>
+  </data>
+  <data name="saveAsImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAARVJREFUOE9j
+        cC/woQhjFSQFgwnTabeUTGbcnmc64/YqYjBIrdnsG4pwA0ACQPyfJDzz9lyECyCmYlcIxQ6zzv1fuinx
+        f+Ki1WA+SA9+Axq2/zeZfhPOT12y7P/HI/z/l2xKAvPxG9Bz/L+Jd/J/k6IFcDHTGbfAhtjPPg/l4zIA
+        ZGtUxX8TzzigIYn/TTqP/Debefu/76rrcMPwG1AwG6IZhsOK/yduv/S/9sz5/17LEYZgN6DzENDWBBQD
+        gup7/tedPQ/GlScv/LdfAAkX7Abkz/pvktIBx5bZvf9TVmz7n7pqx//UXRf+p+65/D9y41UCXiASoxgA
+        FKAsIYGSJUgAZCoxGKTWYvp1BbgBlGCsgsRjHwYAakz6EC50GlYAAAAASUVORK5CYII=
+</value>
   </data>
   <data name="saveAsImage.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 22</value>
@@ -154,20 +169,14 @@
   <data name="toolStripDropDownButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACnSURBVDhPYxicwMMjl905KsXfNSo5FITdwlOtoFLEAZBm
+        l6jkXpgBzhEpB6FS2AHIBphiEAZpRjbANSLpOLI8CKO4CmjjT9eolP+kYJAeqHYGBphgen0XGCMrRMbo
+        8lDtDAyh27/9B+GKCXPAGMZHx+jyUO0IA8Kyy8AYxkfH6PJQ7QgDElfdAGMYHx2jy0O1IwwgFUO1DwYD
+        QrZ/CyUHQ7UPKGBgAADTY3LHHSxmDAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 22</value>
+    <value>112, 22</value>
   </data>
   <data name="toolStripDropDownButton1.Text" xml:space="preserve">
     <value>Интсрументы</value>
@@ -175,20 +184,17 @@
   <data name="chartStyle.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFsSURBVDhPY8AFQnKqFYPyKrxAODy/XAEqTBgANTqF5FVs
+        Cs6t6gnOq4gPzalKCM6r7AWL5Vc7QJVhB6F5VWkheZUT4+PrOaBCcBBSWMgZnFs5OTi/MhUqhAoCC6qM
+        gvIqZ0O5OAHQZXNC86sMoFwECMmtWhyQXSEM5eIEkUX1IsF5VYugXASIKq7dev7G7dC+PbfKCjfe7sOH
+        I4oadkO1IUBKdfux8zfu/D9x7c5/l/m3/5vMwI59F9/+n1rTdhyqDQFgBoBw7947/81m3v6fvPr2/4y1
+        qAbUbrv9H6QWqg0BKrqnLYQZAMKnr0Poc0AcshRhwIxDt/+D1EK1IQDI/8gGIOPmnQgDNpwGid0OhWpD
+        AHwGzD50B27A/osgMRIN2HQGYgAoXE4BA5lkA0Dh4Lfo9n+vhbehYiQaAMLHrtz5f/ASjI/FgHPX7rqi
+        a8KFz9286wLVhgD///9nhBgCcgluDNIMUgvRxcAAAPC7vcV4oPKFAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="chartStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 22</value>
+    <value>114, 22</value>
   </data>
   <data name="chartStyle.Text" xml:space="preserve">
     <value>Вид диаграммы</value>

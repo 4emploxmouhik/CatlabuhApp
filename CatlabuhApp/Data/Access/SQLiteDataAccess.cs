@@ -1,9 +1,11 @@
-﻿using Dapper;
+﻿using CatlabuhApp.UI.Support.Dialogs;
+using Dapper;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SQLite;
+using System.IO;
 using System.Windows.Forms;
 
 namespace CatlabuhApp.Data.Access
@@ -19,11 +21,34 @@ namespace CatlabuhApp.Data.Access
         }
 
         /// <summary>
+        /// Проверяет наличие файла БД и его версии
+        /// </summary>
+        /// <returns>Резултьтат и сообщение проверки</returns>
+        public (bool Result, string Message) CheckDB()
+        {
+            string connectionString = LoadConnectionString();
+            string dbPath = connectionString.Substring(12).Remove(connectionString.Length - 22);
+
+            if (!File.Exists(dbPath))
+            {
+                return (false, MessageDialog.ErrorText4 + " " + dbPath);
+            }
+            else if (GetCellData<int>("SELECT count(*) FROM sqlite_master WHERE type='table' AND name='db_info'") == 0 || GetCellData<double>("SELECT Version FROM db_info") < 2.3)
+            {
+                return (false, MessageDialog.ErrorText5);
+            }
+            else
+            {
+                return (true, "Everything is good.");
+            }
+        }
+
+        /// <summary>
         /// Возвращает значение хранящееся в ячейке таблицы БД
         /// </summary>
         /// <typeparam name="T">Тип возвращаемого значения</typeparam>
         /// <param name="sql">SQL-запрос</param>
-        /// <returns></returns>
+        /// <returns>Значение ячейки таблицы</returns>
         public T GetCellData<T>(string sql)
         {
             using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString()))
@@ -128,14 +153,7 @@ namespace CatlabuhApp.Data.Access
         {
             using (IDbConnection cnn = new SQLiteConnection(LoadConnectionString()))
             {
-                try
-                {
-                    cnn.Execute(sql);
-                }
-                catch (SQLiteException)
-                {
-                    Console.WriteLine("Catch SQLiteException in SQLiteDataAccess.Execute(string sql)\nstring sql equals: \n\t{0}", sql);
-                }
+                cnn.Execute(sql);
             }
         }
 

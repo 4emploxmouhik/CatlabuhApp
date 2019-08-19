@@ -14,5 +14,8 @@
     <Setting Name="ChartsExcelFilesDirectoryPath" Type="System.String" Scope="User">
       <Value Profile="(Default)">C:\Users\wilkis\Desktop\Graph\</Value>
     </Setting>
+    <Setting Name="DBPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\wilkis\Desktop\CatlabuhDB_mkII\CatlabuhDB_v2.3.db</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

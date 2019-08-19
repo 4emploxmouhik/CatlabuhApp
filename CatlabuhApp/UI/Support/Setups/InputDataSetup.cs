@@ -2,6 +2,7 @@
 using CatlabuhApp.Data.Models;
 using CatlabuhApp.UI.Main.Views;
 using CatlabuhApp.UI.Support.Dialogs;
+using CatlabuhAppSupportHelp.UI.Help;
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
@@ -68,6 +69,28 @@ namespace CatlabuhApp.UI.Support.Setups
         {
             DataAccess = dataAccess;
             yearsBox.Items.AddRange(DataAccess.GetColumnData<string>("SELECT YearName FROM YearsOfCalculations ORDER BY YearName DESC").ToArray());
+        }
+
+        private bool CheckInputData()
+        {
+            bool checkResult = true;
+
+            for (int i = 0; i < 12; i++)
+            {
+                if (string.IsNullOrEmpty(H1Boxes[i].Text) || string.IsNullOrEmpty(H2Boxes[i].Text) || string.IsNullOrEmpty(VzBoxes[i].Text) || 
+                    string.IsNullOrEmpty(PIsmailBoxes[i].Text) || string.IsNullOrEmpty(PBolgradBoxes[i].Text) || string.IsNullOrEmpty(DorEBoxes[i].Text))
+                {
+                    checkResult = false;
+                    break;
+                }
+            }
+
+            if (string.IsNullOrEmpty(sumVgBox.Text) || string.IsNullOrEmpty(s1InJanuaryBox.Text))
+            {
+                checkResult = false;
+            }
+
+            return checkResult;
         }
 
         private InputData FillInputData()
@@ -257,6 +280,10 @@ namespace CatlabuhApp.UI.Support.Setups
             {
                 MessageDialog.Show(MessageDialog.AlertTitle1, MessageDialog.AlertText1, MessageDialog.Icon.Alert); 
             }
+            else if (!CheckInputData())
+            {
+                MessageDialog.Show(MessageDialog.AlertTitle1, MessageDialog.AlertText2, MessageDialog.Icon.Alert);
+            }
             else
             {
                 RunCalculateAsync();
@@ -354,12 +381,12 @@ namespace CatlabuhApp.UI.Support.Setups
         #region Вызов справки
         private void HelpButton_Click(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            // TODO: Вызвать окно справки
+            new HelpForm("createCalcText", "calculateText", "saveInputDataText", "autoFillingText", "clearFieldsText").Show();
         }
 
         private void InputDataSetup_HelpRequested(object sender, HelpEventArgs hlpevent)
         {
-            // TODO: Вызвать окно справки
+            new HelpForm("createCalcText", "calculateText", "saveInputDataText", "autoFillingText", "clearFieldsText").Show();
         }
 
         #endregion

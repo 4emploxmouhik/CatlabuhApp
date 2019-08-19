@@ -12,5 +12,6 @@ namespace CatlabuhApp.Data.Access
         T[,] GetTableData<T>(string table, int rowsCount, string[] columns);
         ComboBox FillComboBox(string sql, ComboBox comboBox, string displayMember, string valueMemeber);
         void Execute(string sql);
+        (bool Result, string Message) CheckDB();
     }
 }

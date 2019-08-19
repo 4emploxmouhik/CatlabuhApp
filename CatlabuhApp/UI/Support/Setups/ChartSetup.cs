@@ -1,7 +1,9 @@
 ﻿using CatlabuhApp.Data.Access;
 using CatlabuhApp.UI.Support.Dialogs;
+using CatlabuhAppSupportHelp.UI.Help;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -9,6 +11,7 @@ namespace CatlabuhApp.UI.Support.Setups
 {
     public partial class ChartSetup : Form
     {
+        private ComponentResourceManager res = new ComponentResourceManager(typeof(Properties.Resources));
         public IDataAccess DataAccess { get; private set; }
 
         public string[] ItemsOfXAxis { get; private set; }
@@ -18,7 +21,7 @@ namespace CatlabuhApp.UI.Support.Setups
         public string YearOfCalculation { get => yearTextBox.Text; }
         public bool IsProcentItems { get => isProcentItems; }
         public bool IsChartForMonths { get => monthRadio.Checked; }
-
+        private bool isProcentItems = false;
 
         private List<CheckBox> yItemsCheckBoxes = new List<CheckBox>();
         private List<Panel> colorPanels = new List<Panel>();
@@ -27,12 +30,29 @@ namespace CatlabuhApp.UI.Support.Setups
         private List<CheckBox> monthsBoxes = new List<CheckBox>();
         private ISet<string> XAxisItems = new HashSet<string>();
 
-        private bool isProcentItems = false;
+        private string[] text;
+        private string currentLanguage;
 
         public ChartSetup()
         {
             Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent();
+
+            switch (Properties.Settings.Default.Language)
+            {
+                case "en-US":
+                    text = new string[] { "Year: ", "Years from: ", " to: " };
+                    currentLanguage = "EN";
+                    break;
+                case "uk-UA":
+                    text = new string[] { "Рік: ", "Роки від: ", " до: " };
+                    currentLanguage = "UA";
+                    break;
+                case "ru-RU":
+                    text = new string[] { "Год: ", "Года от: ", " до: " };
+                    currentLanguage = "RU";
+                    break;
+            }
 
             yItemsCheckBoxes.AddRange(new CheckBox[]
             {
@@ -66,13 +86,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private void SetupGraphForm_Load(object sender, EventArgs e)
         {
-            //yearsComboBox_1 = SQLiteDataAccess.ViewYears(yearsComboBox_1, "DESC");
-            //yearsComboBox_2 = SQLiteDataAccess.ViewYears(yearsComboBox_2, "DESC");
-            //yearFromComboBox = SQLiteDataAccess.ViewYears(yearFromComboBox, "ASC");
-            //yearToCombBox = SQLiteDataAccess.ViewYears(yearToCombBox, "DESC");
-
             List<string> years = DataAccess.GetColumnData<string>("SELECT YearName FROM YearsOfCalculations ORDER BY YearName DESC");
-
 
             yearsComboBox_1.Items.AddRange(years.ToArray());
             yearsComboBox_2.Items.AddRange(years.ToArray());
@@ -95,29 +109,13 @@ namespace CatlabuhApp.UI.Support.Setups
             }
 
             for (int i = 0; i < 5; i++)   { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
-            for (int i = 11; i < 14; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
-            for (int i = 20; i < 30; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
-            for (int i = 37; i < 41; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
-        }
+            for (int i = 12; i < 14; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
+            for (int i = 19; i < 30; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
+            for (int i = 38; i < 42; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
 
-        private void ComboBox_Enter(object sender, EventArgs e)
-        {
-            ComboBox comboBox = (ComboBox)sender;
-
-            switch (comboBox.Name)
+            foreach (var entry in yItemsCheckBoxes)
             {
-                case "yearsComboBox_1":
-                    //yearsComboBox_1 = SQLiteDataAccess.ViewYears(yearsComboBox_1, "DESC");
-                    break;
-                case "yearsComboBox_2":
-                    //yearsComboBox_2 = SQLiteDataAccess.ViewYears(yearsComboBox_2, "DESC");
-                    break;
-                case "yearFromComboBox":
-                    //yearFromComboBox = SQLiteDataAccess.ViewYears(yearFromComboBox, "ASC");
-                    break;
-                case "yearToCombBox":
-                    //yearToCombBox = SQLiteDataAccess.ViewYears(yearToCombBox, "DESC");
-                    break;
+                toolTip.SetToolTip(entry, res.GetString($"{entry.Tag}Description_{currentLanguage}"));
             }
         }
 
@@ -137,9 +135,9 @@ namespace CatlabuhApp.UI.Support.Setups
                     yearTextBox.Visible = false;
 
                     for (int i = 0; i < 5; i++)   { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
-                    for (int i = 11; i < 14; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
-                    for (int i = 20; i < 30; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
-                    for (int i = 37; i < 41; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
+                    for (int i = 12; i < 14; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
+                    for (int i = 19; i < 30; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
+                    for (int i = 38; i < 42; i++) { yItemsCheckBoxes[i].Enabled = false; yItemsCheckBoxes[i].Checked = false; }
 
                     YAxisItemsBox.Clear();
 
@@ -166,9 +164,9 @@ namespace CatlabuhApp.UI.Support.Setups
                     yearTextBox.Visible = true;
 
                     for (int i = 0; i < 5; i++)   yItemsCheckBoxes[i].Enabled = true;
-                    for (int i = 11; i < 14; i++) yItemsCheckBoxes[i].Enabled = true;
-                    for (int i = 20; i < 30; i++) yItemsCheckBoxes[i].Enabled = true;
-                    for (int i = 37; i < 41; i++) yItemsCheckBoxes[i].Enabled = true;
+                    for (int i = 12; i < 14; i++) yItemsCheckBoxes[i].Enabled = true;
+                    for (int i = 19; i < 30; i++) yItemsCheckBoxes[i].Enabled = true;
+                    for (int i = 38; i < 42; i++) yItemsCheckBoxes[i].Enabled = true;
 
                     XAxisItems.Clear();
                     XAxisItems = new HashSet<string>();
@@ -251,9 +249,17 @@ namespace CatlabuhApp.UI.Support.Setups
             }
 
             XAxisItemsBox.Clear();
+            int i = 0;
 
-            foreach (string entry in XAxisItems)
-                XAxisItemsBox.Text += entry + " ";
+            foreach (var entry in XAxisItems)
+            {
+                if (monthsBoxes[i].Tag.Equals(entry))
+                {
+                    XAxisItemsBox.Text += monthsBoxes[i].Text + " ";
+                }
+
+                i++;
+            }
         }
 
         private SortedSet<string> AddRangeYears(List<int> rangeYears)
@@ -275,20 +281,35 @@ namespace CatlabuhApp.UI.Support.Setups
                 switch (tabControl2.SelectedTab.Tag)
                 {
                     case "chooseYear":
-                        if (!yearsList.Items.Contains("Рік: " + yearsComboBox_2.SelectedItem))
+                        if (!yearsList.Items.Contains(text[0] + yearsComboBox_2.SelectedItem))
                         {
-                            yearsList.Items.Add("Рік: " + yearsComboBox_2.SelectedItem);
+                            yearsList.Items.Add(text[0] + yearsComboBox_2.SelectedItem);
                             XAxisItems.Add(yearsComboBox_2.SelectedItem.ToString());
                         }
                         else
                         {
-                            MessageBox.Show("Рік розрахунку [" + yearsComboBox_2.SelectedItem + "] вже додано до списку.\n" +
-                            "Оберіть інший рік розрахунку.", "Невірне значення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            string msg = "";
+
+                            switch (Properties.Settings.Default.Language)
+                            {
+                                case "en-US":
+                                    msg = $"Year [{yearsComboBox_2.SelectedItem}] has already been added to the list. Choose another year."; ;
+                                    break;
+                                case "uk-UA":
+                                    msg = $"Рік [{yearsComboBox_2.SelectedItem}] вже додано до списку. Оберіть інший рік.";
+                                    break;
+                                case "ru-RU":
+                                    msg = $"Год [{yearsComboBox_2.SelectedItem}] уже добавлен в список. Выберите другой год.";
+                                    break;
+                            }
+
+                            MessageDialog.Show(MessageDialog.AlertTitle1, msg, MessageDialog.Icon.Alert);
                         }
                         break;
                     case "chooseRange":
+                        
                         yearsList.Items.Clear();
-                        yearsList.Items.Add("Роки від: " + yearFromComboBox.SelectedItem + " до: " + yearToCombBox.SelectedItem);
+                        yearsList.Items.Add(text[1] + yearFromComboBox.SelectedItem + text[2] + yearToCombBox.SelectedItem);
 
                         string yearFrom = yearFromComboBox.SelectedItem.ToString();
                         string yearTo = yearToCombBox.SelectedItem.ToString();
@@ -300,8 +321,10 @@ namespace CatlabuhApp.UI.Support.Setups
 
                 XAxisItemsBox.Clear();
 
-                foreach (string entry in XAxisItems)
+                foreach (var entry in XAxisItems)
+                {
                     XAxisItemsBox.Text += entry + " ";
+                }
             }
             catch (NullReferenceException)
             {
@@ -321,7 +344,9 @@ namespace CatlabuhApp.UI.Support.Setups
                         XAxisItemsBox.Clear();
 
                         foreach (string entry in XAxisItems)
+                        {
                             XAxisItemsBox.Text += entry + " ";
+                        }
                         break;
                     case "chooseRange":
                         XAxisItems.Clear();
@@ -329,13 +354,15 @@ namespace CatlabuhApp.UI.Support.Setups
                         XAxisItemsBox.Clear();
 
                         foreach (string entry in XAxisItems)
+                        {
                             XAxisItemsBox.Text += entry + " ";
+                        }
                         break;
                 }
             }
             catch (ArgumentOutOfRangeException)
             {
-                //MessageBox.Show("Оберіть рік, який треба видалити.", "Невірне значення", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageDialog.Show(MessageDialog.AlertTitle1, MessageDialog.AlertText1, MessageDialog.Icon.Alert);
             }
         }
        
@@ -500,7 +527,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private void SetupGraphForm_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            // TOOD: вызов справки.
+            new HelpForm("chartSetupText").Show();
         }
 
     }

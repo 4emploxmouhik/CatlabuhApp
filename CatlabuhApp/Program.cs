@@ -6,7 +6,8 @@ using CatlabuhApp.UI.Support.Dialogs;
 using System;
 using System.Windows.Forms;
 using System.ComponentModel;
-using CatlabuhApp.UI.Support.Boxes;
+using CatlabuhAppSupportHelp.UI.Help;
+using System.IO;
 
 namespace CatlabuhApp
 {
@@ -18,9 +19,13 @@ namespace CatlabuhApp
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            try
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new MainForm());
+            }
+            catch (CatlabuhAppDBException) { }
         }
     }
 }

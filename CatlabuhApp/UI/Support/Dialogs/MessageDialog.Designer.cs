@@ -57,7 +57,7 @@
             this.buttonTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.buttonTable.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.buttonTable.Dock = System.Windows.Forms.DockStyle.Right;
-            this.buttonTable.Location = new System.Drawing.Point(97, 0);
+            this.buttonTable.Location = new System.Drawing.Point(133, 0);
             this.buttonTable.Name = "buttonTable";
             this.buttonTable.RowCount = 1;
             this.buttonTable.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -72,7 +72,7 @@
             this.messageBox.Multiline = true;
             this.messageBox.Name = "messageBox";
             this.messageBox.ReadOnly = true;
-            this.messageBox.Size = new System.Drawing.Size(225, 51);
+            this.messageBox.Size = new System.Drawing.Size(261, 64);
             this.messageBox.TabIndex = 3;
             this.messageBox.TabStop = false;
             this.messageBox.Text = "Message";
@@ -81,25 +81,25 @@
             // 
             this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
             this.imageList.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList.Images.SetKeyName(0, "icons8-высокая-важность-96.png");
-            this.imageList.Images.SetKeyName(1, "icons8-ок-96.png");
-            this.imageList.Images.SetKeyName(2, "icons8-отмена-96.png");
-            this.imageList.Images.SetKeyName(3, "icons8-помощь-96.png");
+            this.imageList.Images.SetKeyName(0, "alert-64.png");
+            this.imageList.Images.SetKeyName(1, "success-64.png");
+            this.imageList.Images.SetKeyName(2, "question-64.png");
+            this.imageList.Images.SetKeyName(3, "error-64.png");
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.buttonTable);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 70);
+            this.panel1.Location = new System.Drawing.Point(0, 85);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(329, 32);
+            this.panel1.Size = new System.Drawing.Size(365, 32);
             this.panel1.TabIndex = 4;
             // 
             // MessageDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(329, 102);
+            this.ClientSize = new System.Drawing.Size(365, 117);
             this.Controls.Add(this.iconBox);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.messageBox);

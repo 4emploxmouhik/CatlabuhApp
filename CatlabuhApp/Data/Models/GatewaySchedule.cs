@@ -71,19 +71,8 @@ namespace CatlabuhApp.Data.Models
 
         private double[] GetColumnData(double[] someArray, string columnName)
         {
-            try
-            {
-                someArray = DataAccess.GetColumnData<double>($"SELECT {columnName} FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
-            }
-            catch (System.NullReferenceException ex)
-            {
-                for (int i = 0; i < 12; i++)
-                {
-                    someArray[i] = 0;
-                }
-            }
-
-            return someArray;
+            return someArray = DataAccess.GetColumnData<double>($"SELECT {columnName} FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
+            
         }
 
         public override string ToString()

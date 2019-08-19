@@ -40,8 +40,15 @@ namespace CatlabuhApp.Data.Models
             PBolgrad = GetColumnData(PBolgrad, "PBolgrad");
 
             Vz = GetColumnData(Vz, "Vz");
-            D  = GetColumnData(D, "D");
-            E  = GetColumnData(E, "E");
+
+            if (IsCalculateE)
+            {
+                D = GetColumnData(D, "D");
+            }
+            else
+            {
+                E = GetColumnData(E, "E");
+            }
 
             S1InJanury = DataAccess.GetCellData<double>($"SELECT S1InJanuary FROM OtherData WHERE YearName = {YearOfCalculation}");
             SumVg = DataAccess.GetCellData<double>($"SELECT CoefficientValue FROM Coefficients WHERE CoefficientID = 36");
@@ -50,20 +57,8 @@ namespace CatlabuhApp.Data.Models
         }
 
         private double[] GetColumnData(double[] someArray, string columnName)
-        {
-            try
-            {
-                someArray = DataAccess.GetColumnData<double>($"SELECT {columnName} FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
-            }
-            catch (System.NullReferenceException ex)
-            {
-                for (int i = 0; i < 12; i++)
-                {
-                    someArray[i] = 0;
-                }
-            }
-
-            return someArray;
+        {   
+            return someArray = DataAccess.GetColumnData<double>($"SELECT {columnName} FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
         }
 
         public override string ToString()
@@ -97,12 +92,22 @@ namespace CatlabuhApp.Data.Models
                     sql += $"INSERT INTO InputData(H1, H2, PIsmail, PBolgrad, Vz, {(IsCalculateE ? "d" : "E")}, MonthID, YearName) " +
                         $"VALUES({H1[i]}, {H2[i]}, {PIsmail[i]}, {PBolgrad[i]}, {Vz[i]}, {(IsCalculateE ? D[i] : E[i])}, {i + 1}, {YearOfCalculation});\n";
                 }
+                else if (i < 13)
+                {
+                    double sumPBolgrad = 0;
+
+                    foreach (var entry in PBolgrad)
+                    {
+                        sumPBolgrad += entry;
+                    }
+
+                    sql += $"INSERT INTO InputData(Pbolgrad, MonthID, YearName) VALUES({sumPBolgrad}, {i + 1}, {YearOfCalculation});\n";
+                }
                 else
                 {
                     sql += $"INSERT INTO InputData(MonthID, YearName) VALUES({i + 1}, {YearOfCalculation});\n";
                 }
             }
-
             sql += $"INSERT INTO OtherData(S1InJanuary, YearName) VALUES({S1InJanury}, {YearOfCalculation})";
 
             sql = sql.Replace(",", ".");
@@ -121,6 +126,15 @@ namespace CatlabuhApp.Data.Models
                 sql += $"UPDATE InputData SET H1 = {H1[i]}, H2 = {H2[i]}, PIsmail = {PIsmail[i]}, PBolgrad = {PBolgrad[i]}, Vz = {Vz[i]}, " +
                     $"d = {D[i]}, E = {E[i]} WHERE YearName = {YearOfCalculation} AND MonthID = {i + 1};\n";
             }
+
+            double sumPBolgrad = 0;
+
+            foreach (var entry in PBolgrad)
+            {
+                sumPBolgrad += entry;
+            }
+
+            sql += $"UPDATE InputData SET PBolgrad = {sumPBolgrad} WHERE YearName = {YearOfCalculation} AND MonthID = 13;\n";
 
             sql = sql.Replace(",", ".");
             sql = sql.Replace(". ", ", ");

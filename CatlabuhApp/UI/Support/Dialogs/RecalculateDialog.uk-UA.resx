@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="byDeficit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 63</value>
+  </data>
+  <data name="byDeficit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 20</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="byDeficit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="byDeficit.Text" xml:space="preserve">
+    <value>За дефіцитом волгості (d)</value>
+  </data>
+  <data name="byData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 37</value>
+  </data>
+  <data name="byData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 20</value>
+  </data>
+  <data name="byData.Text" xml:space="preserve">
+    <value>За даними (E)</value>
+  </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Оберіть розрахунок випровування</value>
+  </data>
+  <data name="gsByDates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 40</value>
+  </data>
+  <data name="gsByDates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="gsByDates.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gsByDates.Text" xml:space="preserve">
+    <value>За датами</value>
+  </data>
+  <data name="gsByData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 40</value>
+  </data>
+  <data name="gsByData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="gsByData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gsByData.Text" xml:space="preserve">
+    <value>За даними</value>
+  </data>
+  <data name="choiceGSCalculation.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="choiceGSCalculation.Text" xml:space="preserve">
+    <value>Оберіть розрахунок графіку роботи шлюзів</value>
+  </data>
+  <data name="enterGS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 36</value>
+  </data>
+  <data name="enterGS.Text" xml:space="preserve">
+    <value>Враховувати дані з 
+графіку роботи шлюзів?</value>
+  </data>
+  <data name="gsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gsGroupBox.Text" xml:space="preserve">
+    <value>ДГРШ</value>
+  </data>
+  <data name="cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Відміна</value>
+  </data>
+  <data name="runCalculate.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="runCalculate.Text" xml:space="preserve">
+    <value>Розрахувати</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AABMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwCqVQADnWQWgp5lFaqeZRWqnmUVqp5lFaqeZRWqnmUVqp5lFaqeZRWqnGUWgapV
+        AANMcEcATHBHAExwRwBMcEcAnGcVSKZ5OP+8qo//pnk4/7univ+xkGH/sZBh/7univ+fci7/o5Bq/59y
+        Lv+eZRZHTHBHAExwRwBMcEcATHBHAJxmFVWmeTj/vKqP/6Z5OP+7por/sZBh/7GQYf+7p4r/n3Iu/6OQ
+        av+fci7/nGYVVUxwRwBMcEcATHBHAExwRwCcZhVVpnk4/7yqj/+meTj/u6eK/7GQYf+xkGH/u6eK/59y
+        Lv+jkGr/n3Iu/5xmFVVMcEcATHBHAExwRwBMcEcAnGYVVaZ5OP+8qo//pnk4/7umiv+xkGH/sZBh/7un
+        iv+fci7/o5Bq/59yLv+cZhVVTHBHAExwRwBMcEcATHBHAJxmFVWmeTj/vKqP/6Z5OP+7p4r/sZBh/7GQ
+        Yf+7p4r/n3Iu/6OQav+fci7/nGYVVUxwRwBMcEcATHBHAExwRwCcZhVVpnk4/7yqj/+meTj/u6aK/7GQ
+        Yf+xkGH/u6eK/59yLv+jkGr/n3Iu/5xmFVVMcEcATHBHAExwRwBMcEcAnGYVVaZ5OP+8qo//pnk4/7un
+        iv+xkGH/sZBh/7univ+HZEL/T2Gw/4dkQv+cZhVVTHBHAExwRwBMcEcATHBHAJxmFVWmeTj/vKqP/6Z5
+        OP+7por/sZBh/7GQYf+7p4r/h2RC/09hsP+HZEL/nGYVVUxwRwBMcEcATHBHAExwRwCKWQ9khVUL44VV
+        C+OFVQvjhVUL44VVC+OFVQvjhVUL44VVC+OFVQvjhVUL44pZD2RMcEcATHBHAExwRwBMcEcAe1EJVYto
+        Gf+xo0b/saNG/7GjRv+xo0b/saNG/7GjRv+xo0b/saNG/4toGf97UQlVTHBHAExwRwBMcEcATHBHAHtR
+        CVWXeif/zMxl/8zMZf/MzGX/zMxl/8zMZf+0r1r/tK9a/5uST/+Xeif/e1EJVUxwRwBMcEcATHBHAExw
+        RwB8UQdIi2gZ/7GjRv+xo0b/saNG/7GjRv+xo0b/saNG/7GjRv+xo0b/i2gZ/35TB0dMcEcATHBHAExw
+        RwBMcEcAVVUAA31SCIN9UQiqfVEIqn1RCKp9UQiqfVEIqn1RCKp9UQiqfVEIqn1SCINVVQADTHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcA//8AAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMADAADAAwAAwAMAAMAD
+        AADAAwAA//8AAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Перерахунок розрахунку</value>
+  </data>
+</root>

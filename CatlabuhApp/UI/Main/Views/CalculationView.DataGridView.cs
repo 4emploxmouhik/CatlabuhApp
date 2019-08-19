@@ -1,5 +1,6 @@
 ﻿using CatlabuhApp.Data.Models;
 using CatlabuhApp.UI.Support.Dialogs;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -28,7 +29,7 @@ namespace CatlabuhApp.UI.Main.Views
             CellToChange cell = new CellToChange()
             {
                 ColumnName = dgv.Columns[e.ColumnIndex].Tag.ToString(),
-                Value = dgv.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString(),
+                Value = dgv.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString().Replace(",", "."),
                 RowIndex = e.RowIndex
             };
 
@@ -106,8 +107,8 @@ namespace CatlabuhApp.UI.Main.Views
             switch (cell.TableName)
             {
                 case "InputData": shift = 5; break;
-                case "GatewaySchedule": shift = 6; break;
-                case "OutputData": shift = 7; break;
+                case "GatewaySchedule": shift = 4; break;
+                case "OutputData": shift = 3; break;
             }
 
             cell.ID = dgv.Rows[e.RowIndex].Cells[dgv.ColumnCount - shift].Value.ToString();
@@ -204,177 +205,36 @@ namespace CatlabuhApp.UI.Main.Views
             string[] dbColumnsName = Calculation.GetDBColumnsName(part);
             string[] toolTips = null;
 
-            switch (part)
+            string language = "";
+
+            switch (Properties.Settings.Default.Language)
             {
-                case Calculation.PartOfCalculation.WaterBalanceProfit:
-                    toolTips = new string[]
-                    {
-                        res.GetString("WBPGrid.Columns[1].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[2].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[3].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[4].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[5].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[6].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[7].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[8].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[9].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[10].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[11].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[12].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[13].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[14].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[15].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[16].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[17].ToolTipText")
-                    };
+                case "en-US":
+                    language = "EN";
                     break;
-                case Calculation.PartOfCalculation.WaterBalanceConsumable:
-                    toolTips = new string[]
-                    {
-                        res.GetString("WBCGrid.Columns[1].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[2].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[3].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[4].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[5].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[6].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[7].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[8].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[9].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[10].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[11].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[12].ToolTipText")
-                    };
+                case "uk-UA":
+                    language = "UA";
                     break;
-                case Calculation.PartOfCalculation.SaltBalanceProfit:
-                    toolTips = new string[]
-                    {
-                        res.GetString("WBPGrid.Columns[4].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[5].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[9].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[10].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[11].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[12].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[13].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[15].ToolTipText"),
-                        res.GetString("WBPGrid.Columns[16].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[9].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[10].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[11].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[12].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[13].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[14].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[15].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[16].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[17].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[18].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[19].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[20].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[21].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[22].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[23].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[24].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[25].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[26].ToolTipText"),
-                        res.GetString("SBPGrid.Columns[27].ToolTipText")
-                    };
-                    break;
-                case Calculation.PartOfCalculation.SaltBalanceConsumable:
-                    toolTips = new string[]
-                    {
-                        res.GetString("WBCGrid.Columns[6].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[7].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[8].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[9].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[11].ToolTipText"),
-                        res.GetString("WBCGrid.Columns[12].ToolTipText"),
-                        res.GetString("SBCGrid.Columns[7].ToolTipText"),
-                        res.GetString("SBCGrid.Columns[8].ToolTipText"),
-                        res.GetString("SBCGrid.Columns[9].ToolTipText"),
-                        res.GetString("SBCGrid.Columns[10].ToolTipText"),
-                        res.GetString("SBCGrid.Columns[11].ToolTipText"),
-                        res.GetString("SBCGrid.Columns[12].ToolTipText"),
-                        res.GetString("SBCGrid.Columns[13].ToolTipText"),
-                        res.GetString("SBCGrid.Columns[14].ToolTipText"),
-                        res.GetString("SBCGrid.Columns[15].ToolTipText")
-                    };
+                case "ru-RU":
+                    language = "RU";
                     break;
             }
 
-            dgv.Columns[0].ToolTipText = toolTips[0];
-
-            for (int i = 1; i < dgv.ColumnCount - 6; i++)
+            for (int i = 1; i < dgv.ColumnCount - 5; i++)
             {
                 dgv.Columns[i].Tag = dbColumnsName[i - 1];
-                dgv.Columns[i].ToolTipText = toolTips[i - 1];
 
-                switch (part)
+                string resText = res.GetString($"{dgv.Columns[i].Tag}Description_{language}");
+
+                dgv.Columns[i].ToolTipText = resText;
+
+                if (dgv.Columns[i].Tag.Equals("lgd") || dgv.Columns[i].Tag.Equals("lgE"))
                 {
-                    case Calculation.PartOfCalculation.WaterBalanceProfit:
-                        switch (i)
-                        {
-                            case 1:
-                            case 2:
-                            case 3:
-                                dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure1");
-                                break;
-                            case 7:
-                                dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure2");
-                                break;
-                            case 8:
-                                dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure3");
-                                break;
-                            default:
-                                dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure4");
-                                break;
-                        }
-                        break;
-                    case Calculation.PartOfCalculation.WaterBalanceConsumable:
-                        switch (i)
-                        {
-                            case 1:
-                                dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure5");
-                                break;
-                            case 2:
-                            case 3:
-                                dgv.Columns[i].HeaderCell.Tag = "";
-                                break;
-                            case 4:
-                            case 5:
-                                dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure3");
-                                break;
-                            default:
-                                dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure4");
-                                break;
-                        }
-                        break;
-                    case Calculation.PartOfCalculation.SaltBalanceProfit:
-                        if (i < 9)
-                        {
-                            dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure4");
-                        }
-                        else if (i < 17)
-                        {
-                            dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure6");
-                        }
-                        else
-                        {
-                            dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure7");
-                        }
-                        break;
-                    case Calculation.PartOfCalculation.SaltBalanceConsumable:
-                        if (i < 7)
-                        {
-                            dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure4");
-                        }
-                        else if (i < 11)
-                        {
-                            dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure6");
-                        }
-                        else
-                        {
-                            dgv.Columns[i].HeaderCell.Tag = res.GetString("measurementMeasure7");
-                        }
-                        break;
+                    continue;
+                }
+                else
+                {
+                    dgv.Columns[i].HeaderCell.Tag = resText.Substring(resText.IndexOf(',') + 2);
                 }
             }
         }
@@ -396,17 +256,84 @@ namespace CatlabuhApp.UI.Main.Views
 
         public void SaveData()
         {
+            Cursor = Cursors.WaitCursor;
+
             foreach (var entry in cellsToChange)
             {
                 entry.UpdateValue();
 
                 if ((entry.ColumnName == "S1") && (entry.RowIndex == 0))
                 {
-                    DataAccess.Execute($"UPDATE OtherData SET S1 = {entry.Value} WHERE YearName = {YearOfCalculation};");
+                    DataAccess.Execute($"UPDATE OtherData SET S1InJanuary = {entry.Value} WHERE YearName = {YearOfCalculation};" +
+                        $"UPDATE OutputData SET S1 = {entry.Value} WHERE YearName = {YearOfCalculation} AND MonthID = 1;");
                 }
             }
 
             cellsToChange.Clear();
+            Cursor = Cursors.Default;
         }
+
+        private void UpdateWaterLevel()
+        {
+            try
+            {
+                double sumPBolgrad = DataAccess.GetCellData<double>($"SELECT PBolgrad FROM InputData WHERE MonthID = 13 AND YearName = {YearOfCalculation}");
+
+                OutputData outputData = new OutputData(DataAccess);
+                outputData.GetWaterLevel(sumPBolgrad);
+                outputData.GetWaterLevel(out OutputData.WaterLevel waterLevel, out int waterLevelPercent);
+
+                switch (Properties.Settings.Default.Language)
+                {
+                    case "en-US":
+                        switch (waterLevel)
+                        {
+                            case OutputData.WaterLevel.High:
+                                waterLevelBox.Text = $"High water level, {waterLevelPercent}%";
+                                break;
+                            case OutputData.WaterLevel.Average:
+                                waterLevelBox.Text = $"Average water level, {waterLevelPercent}%";
+                                break;
+                            case OutputData.WaterLevel.Low:
+                                waterLevelBox.Text = $"Low water level, {waterLevelPercent}%";
+                                break;
+                        }
+                        break;
+                    case "uk-UA":
+                        switch (waterLevel)
+                        {
+                            case OutputData.WaterLevel.High:
+                                waterLevelBox.Text = $"Багатоводний, {waterLevelPercent}%";
+                                break;
+                            case OutputData.WaterLevel.Average:
+                                waterLevelBox.Text = $"Середньоводний, {waterLevelPercent}%";
+                                break;
+                            case OutputData.WaterLevel.Low:
+                                waterLevelBox.Text = $"Маловодний, {waterLevelPercent}%";
+                                break;
+                        }
+                        break;
+                    case "ru-RU":
+                        switch (waterLevel)
+                        {
+                            case OutputData.WaterLevel.High:
+                                waterLevelBox.Text = $"Многоводный, {waterLevelPercent}%";
+                                break;
+                            case OutputData.WaterLevel.Average:
+                                waterLevelBox.Text = $"Средневодный, {waterLevelPercent}%";
+                                break;
+                            case OutputData.WaterLevel.Low:
+                                waterLevelBox.Text = $"Маловодный, {waterLevelPercent}%";
+                                break;
+                        }
+                        break;
+                }
+            }
+            catch (NullReferenceException)
+            {
+                MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText6, MessageDialog.Icon.Cross);
+            }
+        }
+
     }
 }

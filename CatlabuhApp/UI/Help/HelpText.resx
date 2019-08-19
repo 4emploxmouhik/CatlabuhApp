@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="autoFillingText_EN" xml:space="preserve">
+    <value>Auto fill
+
+When this function is enabled: the values entered in the cell of the first column will be written to the cell of the second column located one line above. Conversely, the cell value of the second column will be written to the cell of the first, but the line below.</value>
+  </data>
+  <data name="autoFillingText_RU" xml:space="preserve">
+    <value>Автоматическое заполнение
+
+При включении этой функции: значения, введенные в ячейку первого столбца, будут записаны в ячейку второго столбца, расположенного на строку выше. И наоборот, значение ячейки второго столбца будет записано в ячейку первого, но строкой ниже.</value>
+  </data>
+  <data name="autoFillingText_UA" xml:space="preserve">
+    <value>Автоматичне заповнення
+
+При включенні цієї функції: значення, введені в осередок першого стовпця, будуть записані в осередок другого стовпця, розміщеного на рядок вище. І навпаки, значення осередку другого стовпця буде записано в осередок першого, але рядком нижче.</value>
+  </data>
+  <data name="calculateText_EN" xml:space="preserve">
+    <value>Calculation
+
+To carry out the calculation, you must call the "Set up a new calculation" form. In the form you need to enter or select the calculation year, fill in all the fields of the form with the input data and click "Calculate" on the LMB. After that, the output will be calculated, which can be viewed in the "Main window" on the page "Calculations". If the DFSH is involved in the calculation, then you need to check the corresponding window, then enter all the necessary data and select the calculation method:
+DRGSh form&gt; Toolbar&gt; Settings&gt; Calculation method</value>
+  </data>
+  <data name="calculateText_RU" xml:space="preserve">
+    <value>Проведение расчета
+
+Для проведения расчета надо вызвать форму "Настройка нового расчета". В форме нужно ввести или выбрать год расчета, заполнить все поля формы входными данными и нажать ЛКМ пункт "Рассчитать". После чего будет проведен расчет выходных данных, которые можно будет посмотреть в "Главном окне" на странице "Расчеты". Если в расчете участвует ДГРШ, то надо поставить галочку в соответствующем окне, после чего ввести все необходимые данные и выбрать способ расчета:
+Форма ДРГШ &gt; Панель инструментов &gt; Настройка &gt; Метод расчета</value>
+  </data>
+  <data name="calculateText_UA" xml:space="preserve">
+    <value>Проведення розрахунку
+
+Для проведення розрахунку треба викликати форму "Налаштування нового розрахунку". У формі потрібно ввести або обрати рік розрахунку, заповнити всі поля форми вхідними даними і натиснути ЛКМ пункт "Розрахувати". Після чого буде проведено розрахунок вихідних даних, які можна буде переглянути у "Головному вікні" на сторінці "Розрахунки". Якщо у розрахунку бере участь ДГРШ, то треба поставити галочку у відповідному вікні, після чого ввести всі необхідні дані і обрати метод розрахунку:
+Форма ДРГШ &gt; Панель інтсрументів &gt; Налаштування &gt; Метод розрахунку</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CalculationView1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\CalculationView1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CalculationView_ContextMenuStrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\CalculationView-ContextMenuStrip1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CalculationView_ToolStrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\CalculationView-ToolStrip1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chartSetupText_EN" xml:space="preserve">
+    <value>Chart Setup
+
+To configure a chart before building it, you need to specify parameters for the X axis and parameters for the Y axis.
+The parameters of the X axis are time (years/months), and the parameters of the Y axis can be percentages or sums of calculation parameters if you build for years, or units of measurement for calculation parameters if you choose construction for months.
+For the X axis, select the type of chart (for years or for months), then add the elements of the X axis. Added elements can be seen below in the "Chart" block.
+For the Y axis, you should select the calculation parameters that should be on the chart by putting a checkmark next to it and choosing the element color. If a color is not selected, then by default it will be black.
+To build a chart, click the "Build" button, after which the chart can be viewed on the chart viewing page.</value>
+  </data>
+  <data name="chartSetupText_RU" xml:space="preserve">
+    <value>Настройка параметров диаграммы
+
+Чтобы настроить диаграмму перед ее построением, надо указать параметры для оси Х и параметры для оси Y.
+Параметрами оси Х является время (годы/месяцы), а параметрами оси Y могут быть проценты или суммы параметров расчета, если выбрано построение для лет, или единицы измерения параметров расчета, если выбрано построение для месяцев.
+Для оси Х следует выбрать тип диаграммы (для лет или для месяцев), после чего надо добавить элементы оси Х. Добавленные элементы можно увидеть ниже в блоке "Диаграмма".
+Для оси Y следует выбрать параметры расчета, которые должны быть на диаграмме, поставив рядом галочку и выбрав цвет элемента. Если цвет не выбран, то по умолчанию он будет черным.
+Чтобы построить диаграмму, надо нажать кнопку "Построить", после чего диаграмму можно будет посмотреть на странице просмотра диаграммы.</value>
+  </data>
+  <data name="chartSetupText_UA" xml:space="preserve">
+    <value>Налаштування параметрів діаграми
+
+Щоб налаштувати діаграму перед її побудовою, треба вказати параметри для вісі Х і параметри для вісі Y.
+Параметрами вісі Х є час (роки/місяці), а параметрами вісі Y можуть бути відсотки або суми параметрів розрахунку, якщо обрана побудова для років, або одиниці вимірювання параметрів розрахунку, якщо обрана побудова для місяців. 
+Для вісі Х слід обрати тип діаграми(для років чи для місяців), після чого треба додати елементи вісі Х. Додані елементи можна побачити нижче у блоці "Діаграма". 
+Для вісі Y слід обрати параметри розрахунку, які повинні бути на діаграмі, поставивши поруч галочку та обравши колір елементу. Якщо колір не обрано, то за замовченням він буде чорним. 
+Щоб побудувати діаграму, треба натиснути кнопку "Побудувати", після чого діаграму можна буде переглянути на сторінці перегляду діаграми.</value>
+  </data>
+  <data name="ChartSetup_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ChartSetup-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChartStyleDiaog_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ChartStyleDiaog-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChartStyleDiaog_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ChartStyleDiaog-21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChartStyleDiaog_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ChartStyleDiaog-31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ChartView_ToolStrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\ChartView-ToolStrip1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clearFieldsText_EN" xml:space="preserve">
+    <value>Field cleaning
+
+To clear the fields, click on the "Clear fields" item on the toolbar LMB, after which all input data fields will be cleared.</value>
+  </data>
+  <data name="clearFieldsText_RU" xml:space="preserve">
+    <value>Очистка полей
+
+Чтобы очистить поля, надо на панели инструментов нажать ЛКМ пункт "Очистить поля", после чего будут очищены все поля входных данных.</value>
+  </data>
+  <data name="clearFieldsText_UA" xml:space="preserve">
+    <value>Очищення полів
+
+Щоб очистити поля, треба на панелі інструментів натиснути ЛКМ пункт "Очистити поля", після чого будуть очищені всі поля вхідних даних.</value>
+  </data>
+  <data name="createCalcText_EN" xml:space="preserve">
+    <value>Create a new calculation
+
+To create a new calculation, click on the "Create new calculation" item on the toolbar LMB, after which a form will be called up to fill in the calculation input data.
+In the form, you must enter the input data and the year of calculation in the corresponding field, after which you need to click "Save input data". Thus, a new calculation will be created with the data that was specified during the save.</value>
+  </data>
+  <data name="createCalcText_RU" xml:space="preserve">
+    <value>Создание нового расчета
+
+Чтобы создать новый расчет, надо на панели инструментов нажать ЛКМ пункт "Создать новый расчет", после чего будет вызвана форма для заполнения входными данными расчета.
+В форме необходимо ввести входные данные и год расчета в соответствующем поле, после чего надо нажать ЛКМ пункт "Сохранить входные данные". Таким образом будет создан новый расчет с теми данными, которые были указаны при сохранении.</value>
+  </data>
+  <data name="createCalcText_UA" xml:space="preserve">
+    <value>Створення нового розрахунку
+
+Щоб створити новий розрахунок, треба на панелі інструментів натиснути ЛКМ пункт "Створити новий розрахунок", після чого буде викликана форма для заповнення вхідними даними розрахунку.
+У формі треба ввести вхідні дані і рік розрахунку у відповідному полі, після чого треба натиснути ЛКМ пункт "Зберегти вхідні дані". Таким чином буде створено новий розрахунок з тими даними, які були вказані при збереженні.</value>
+  </data>
+  <data name="createChartText_EN" xml:space="preserve">
+    <value>Create a new chart
+
+To create a new chart, click on the "Create a new chart" item on the toolbar of the chart viewing page. As a result, the "Configure New Chart" dialog box will appear.
+In this window, select the chart parameters for the X and Y axes.</value>
+  </data>
+  <data name="createChartText_RU" xml:space="preserve">
+    <value>Создание новой диаграммы
+
+Для создания новой диаграммы надо на панели инструментов страницы просмотра диаграммы нажать ЛКМ пункт "Создать новую диаграмму". В результате будет вызвано диалоговое окно "Настройка новой диаграммы".
+В этом окне надо выбрать параметры диаграммы для осей X и Y.</value>
+  </data>
+  <data name="createChartText_UA" xml:space="preserve">
+    <value>Створення нової діаграми
+
+Для створення нової діаграми треба на панелі інструментів сторінки перегляду діаграми натиснути ЛКМ пункт "Створити нову діаграму". В результаті буде викликано діалогове вікно "Налаштування нової діаграми". 
+В цьому вікні треба обрати параметри діаграми для вісей Х і Y.</value>
+  </data>
+  <data name="deleteCalcText_EN" xml:space="preserve">
+    <value>Delete calculation
+
+To delete a calculation, on the page for viewing calculations, click RMB to open the context menu. In this menu, select and click "Delete calculation", after which the current calculation is deleted.</value>
+  </data>
+  <data name="deleteCalcText_RU" xml:space="preserve">
+    <value>Удаление расчета
+
+Чтобы удалить расчет, надо на странице просмотра расчетов нажать ПКМ, чтобы вызвать контекстное меню. В этом меню выбираем и нажимаем пункт "Удалить расчет", после чего удаляется текущий расчет.</value>
+  </data>
+  <data name="deleteCalcText_UA" xml:space="preserve">
+    <value>Видалення розрахунку
+
+Щоб видалити розрахунок, треба на сторінці перегляду розрахунків натиснути ПКМ, щоб викликати контекстне меню. У цьому меню обираємо і натискаємо пункт "Видалити розрахунок", після чого буде видалено поточний розрахунок.</value>
+  </data>
+  <data name="exportCalcText_EN" xml:space="preserve">
+    <value>Export calculation to Excel
+
+To export the calculation, click on the "Export to Excel" item on the page for viewing calculations on the LMB toolbar. After that, a dialog box will be called in which you need to select the current calculation tables that require export. Having made your choice, you need to click the "Export" button.
+At the end of the export, Microsoft Excel will be launched with the selected calculation tables.</value>
+  </data>
+  <data name="exportCalcText_RU" xml:space="preserve">
+    <value>Экспорт расчета в Excel
+
+Для экспорта расчета надо на странице просмотра расчетов на панели инструментов ЛКМ нажать пункт "Экспорт в Excel". После чего будет вызвано диалоговое окно, в котором нужно выбрать таблицы текущего расчета, требующие экспорта. Сделав свой выбор, нужно нажать кнопку "Экспорт".
+По окончании экспорта будет запущено приложение Microsoft Excel с выбранными таблицами расчета.</value>
+  </data>
+  <data name="exportCalcText_UA" xml:space="preserve">
+    <value>Експорт розрахунку до Excel
+
+Для експорту розрахунку треба на сторінці перегляду розрахунків на панелі інструментів ЛКМ натиснути пункт "Експорт до Excel". Після чого буде викликано діалогове вікно, у якому треба обрати таблиці поточного розрахунку, що потребують експорту. Зробивши свій вибір, потрібно натиснути кнопку "Експорт".
+По закінченню експорту буде запущено додаток Microsoft Excel з обраними таблицями розрахунку.</value>
+  </data>
+  <data name="exportChartText_EN" xml:space="preserve">
+    <value>Export chart to Excel
+
+To export a chart to Excel, you need to select the item “Export to Excel” on the toolbar of the chart viewing page in the “Tools” section and click LMC. After that, the chart will be exported to Excel.</value>
+  </data>
+  <data name="exportChartText_RU" xml:space="preserve">
+    <value>Экспорт диаграммы в Excel
+
+Чтобы экспортировать диаграмму в Excel, надо на панели инструментов страницы просмотра диаграммы в пункте "Инструменты", выбрать и нажать ЛКМ пункт "Экспорт в Excel». После чего диаграмма будет экспортирована в Excel.</value>
+  </data>
+  <data name="exportChartText_UA" xml:space="preserve">
+    <value>Експорт діаграми до Excel
+
+Щоб експортувати діаграму до Excel, треба на панелі інструментів сторінки перегляду діаграми у пункті "Інструменти", обрати і натиснути ЛКМ пункт "Експорт до Excel". Після чого діаграму буде експортовано до Excel.</value>
+  </data>
+  <data name="GatewayScheduleSetup_ToolStrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\GatewayScheduleSetup-ToolStrip1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gatewayScheduleText_EN" xml:space="preserve">
+    <value>DSWG
+
+The Dispetcher Schedule of Work Gateway is one of the parts of the calculation input that is involved in the calculation.
+To fill the DGRS data and to choose the method of its calculation, it is necessary to call the appropriate form.
+This can be done from two places:
+    1. From the Calculation Views page, by clicking LKM, select "Show Gateway Schedule".
+    2. From the "New Settlement Setting" form, select the appropriate box.
+
+DSWG data can be saved by clicking LMB on the item "Save data".
+In order to view the CBSR data, it is necessary to select the year of calculation of interest:
+Toolbar &gt; Settings &gt; Year of calculation</value>
+  </data>
+  <data name="gatewayScheduleText_RU" xml:space="preserve">
+    <value>ДГРШ
+
+Диспетчерский График Работы Шлюзов - одна из частей входных данных расчета, которая участвует в проведении расчета. 
+Для заполнения ДГРШ данными и выбора метода его расчета надо вызвать соответствующую форму.
+Это можно сделать из двух мест:
+    1. Со страницы просмотра расчетов, нажав ЛКМ пункт "Показать ДГРШ".
+    2. С формы "Настройка нового расчета", поставив галочку в соответствующем окне.
+
+Данные ДГРШ можно сохранить нажав ЛКМ пункт "Сохранить данные".
+Чтобы просмотреть данные ДГРШ, надо выбрать интересующий год расчета:
+Панель инструментов &gt; Настройка &gt; Год расчета</value>
+  </data>
+  <data name="gatewayScheduleText_UA" xml:space="preserve">
+    <value>ДГРШ
+
+Диспетчерський Графік Роботи Шлюзів - є однією з частин вхідних даних розрахунку, яка бере участь у проведені розрахунку. 
+Для заповнення ДГРШ даними і обрання методу його розрахунку треба викликати відповідну форму. 
+Це можна зробити з двох місць:
+    1. Зі сторінки перегляду розрахунків, натиснувши ЛКМ пункт "Показати ДГРШ".
+    2. З форми "Налаштування нового розрахунку", поставивши галочку у відповідному вікні.
+
+Дані ДГРШ можна зберегти натиснувши ЛКМ пункт "Зберегти дані".
+Щоб переглянути дані ДГРШ, треба обрати рік розрахунку, що цікавить:
+Панель інструментів &gt; Налаштування &gt; Рік розрахунку</value>
+  </data>
+  <data name="InputDataSetup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\InputDataSetup1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainForm_MenuStrip" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\MainForm-MenuStrip1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RecalculateDialog1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\RecalculateDialog1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recalculateText_EN" xml:space="preserve">
+    <value>Recalculation of the calculation
+
+If you need to calculate a calculation that already exists, there are two ways to solve this problem:
+    1. To bring up the menu of accounts on the page of calculations view by pressing RBM. Select and press the item "Recalculate". After that, a dialog box will be selected to select the calculation parameters. After setting the parameters, click the "Calculate" button. As a result, the current calculation will be recalculated and saved.
+    2. On the Calculation Review page, click the Create New Calculation toolbar. After calling the form to fill in the input data, you must select the year of calculation in the drop-down list. The text boxes will be filled with the input of the selected calculation. After changing the input data, you need to click "Calculate" if necessary. The result will be a recalculation and saving of the calculation.</value>
+  </data>
+  <data name="recalculateText_RU" xml:space="preserve">
+    <value>Перерасчет расчета
+
+Если нужно провести расчет расчета, который уже существует, то имеется два пути решения этой проблемы:
+    1. Вызвать на странице просмотра расчетов контекстное меню, нажав ПКМ. Выбрать и нажать пункт "Пересчитать". После чего будет вызвано диалоговое окно с выбором параметров расчетов. После настройки параметров надо нажать кнопку "Рассчитать". В результате будет произведен перерасчет и сохранение текущего расчета.
+    2. На странице просмотра расчетов надо нажать пункт панели инструментов "Создать новый расчет". После вызова формы для заполнения входными данными, нужно выбрать год расчета в выпадающем списке. Текстовые поля будут заполнены входными данными избранного расчета. После изменения входных данных, если это необходимо, надо нажать пункт "Рассчитать". В результате будет произведен перерасчет и сохранение расчета.</value>
+  </data>
+  <data name="recalculateText_UA" xml:space="preserve">
+    <value>Перерахунок розрахунку
+
+Якщо потрібно провести розрахунок розрахунку, який вже існує, то є два шляхи вирішення цієї проблеми:
+    1. Викликати на сторінці перегляду розрахунків контекстне меню, натиснувши ПКМ. Обрати і натиснути пункт "Перерахувати". Після чого буде викликано діалогове вікно з обранням параметрів розрахунків. Після налаштування параметрів треба натиснути кнопку "Розрахувати". В результаті буде проведено перерахунок і збереження поточного розрахунку.
+    2. На сторінці перегляду розрахунків треба натиснути пункт панелі інструментів "Створити новий розрахунок". Після виклику форми для заповнення вхідними даними, треба обрати рік розрахунку у випадаючому списку. Текстові поля будуть заповнені вхідними даними обраного розрахунку. Після змінення вхідних даних, якщо це потрібно, треба натиснути пункт "Розрахувати". В результаті буде проведено перерахунок і збереження розрахунку.</value>
+  </data>
+  <data name="saveChangesText_EN" xml:space="preserve">
+    <value>Change and save calculation data
+
+To change the calculation data, it is necessary to change the value to the desired value on the page for viewing calculations in the box of the calculation table in the coffe box and press Enter. After that, you need to call the context menu by clicking RMB and click "Save Changes". As a result, all changes made will be saved.</value>
+  </data>
+  <data name="saveChangesText_RU" xml:space="preserve">
+    <value>Изменение и сохранение данных расчета
+
+Для изменения данных расчета, надо на странице просмотра расчетов в ячейке любой таблицы расчета изменить значение на нужное и нажать Enter. После чего нужно вызвать контекстное меню, нажав ПКМ, и нажать пункт "Сохранить изменения". В результате чего все внесенные изменения будут сохранены.</value>
+  </data>
+  <data name="saveChangesText_UA" xml:space="preserve">
+    <value>Змінення і збереження даних розрахунку
+
+Для змінення даних розрахунку, треба на сторінці перегляду розрахунків в осередку будь якої таблиці розрахунку змінити значення на потрібне і натиснути Enter. Після чого потрібно викликати контекстне меню, натиснувши ПКМ, і натиснути пункт "Зберегти зміни". В результаті чого всі внесені зміни будуть збережені.</value>
+  </data>
+  <data name="saveChartText_EN" xml:space="preserve">
+    <value>Save the chart
+
+To save the chart, you need to select and click Save as Image in the chart view toolbar in the Tools section. The chart will then be saved to a .png image file.</value>
+  </data>
+  <data name="saveChartText_RU" xml:space="preserve">
+    <value>Сохранение диаграммы
+
+Чтобы сохранить диаграмму, надо на панели инструментов страницы просмотра диаграммы в пункте "Инструменты", выбрать и нажать ЛКМ пункт "Сохранить как изображение". После чего диаграмма будет сохранена в графическом файле с расширением .png.</value>
+  </data>
+  <data name="saveChartText_UA" xml:space="preserve">
+    <value>Збереження діаграми
+
+Щоб зберегти діаграму, треба на панелі інструментів сторінки перегляду діаграми у пункті "Інструменти", обрати і натиснути ЛКМ пункт "Зберегти як зображення". Після чого діаграма буде збережена у графічному файлі з розширенням .png.</value>
+  </data>
+  <data name="saveInputDataText_EN" xml:space="preserve">
+    <value>Save the input
+
+To save the calculation input, in the "New calculation setup" window, in the toolbar, click "Save input data". The input will then be saved.</value>
+  </data>
+  <data name="saveInputDataText_RU" xml:space="preserve">
+    <value>Сохранение входных данных
+
+Чтобы сохранить входные данные расчета нужно в окне "Настройка нового расчета" на панели инструментов нажать ЛКМ пункт "Сохранить входные данные". После чего входные данные будут сохранены.</value>
+  </data>
+  <data name="saveInputDataText_UA" xml:space="preserve">
+    <value>Збереження вхідних даних
+
+Щоб зберегти вхідні дані розрахунку потрібно у вікні "Налаштування нового розрахунку" на панелі інструментів натиснути ЛКМ пункт "Зберегти вхідні дані". Після чого вхідні дані будуть збережені.</value>
+  </data>
+  <data name="settingsText_EN" xml:space="preserve">
+    <value>Settings
+
+In order to configure the application, select the "Settings" item in the "Main Menu" and click LMB on it. Then the page for viewing the settings will be called up. The page has two tabs: "General Settings" and "Settlement Setup".
+
+In the tab "General Settings" you can change:
+    1. The path to the directory with Excel calculation files.
+    2. The path to the directory with Excel chart files.
+    3. Path to the directory with diagram image files.
+    4. Application language.
+
+In the "Calculation Setup" tab, you can change the value of the coefficients.
+In order to save all the changes made, click the "Apply" button.</value>
+  </data>
+  <data name="settingsText_RU" xml:space="preserve">
+    <value>Настройки
+
+Для того чтобы настроить приложение надо в "Главном меню" выбрать пункт "Настройка" и нажать по нему ЛКМ. После чего будет вызвана страница просмотра настроек. Страница имеет две вкладки: "Общие настройки" и "Настройка расчета".
+
+Во вкладке "Общие настройки" можно изменить:
+    1. Путь к директории с Excel-файлами расчетов.
+    2. Путь к директории с Excel-файлами диаграмм.
+    3. Путь к директории с файлами изображений диаграмм.
+    4. Язык приложения.
+
+Во вкладке "Настройка расчета" можно изменить значение коэффициентов в формулах расчета, таблицы и т.д.
+Для того чтобы сохранить все внесенные изменения, нужно нажать кнопку «Применить».</value>
+  </data>
+  <data name="settingsText_UA" xml:space="preserve">
+    <value>Налаштування
+
+Для того щоб налаштувати додаток треба у "Головному меню" обрати пункт "Налаштування" і натиснути по ньому ЛКМ. Після чого буде викликана сторінка перегляду налаштувань. Сторінка має дві вкладки: "Загальні налаштування" і "Налаштування розрахунку".
+
+У вкладці "Загальні налаштування" можна змінити:
+    1. Шлях до директорії з Excel-файлами розрахунків.
+    2. Шлях до директорії з Excel-файлами діаграм.
+    3. Шлях до директорії з файлами зображень діаграм.
+    4. Мову додатку.
+
+У вкладці "Налаштування розрахунку" можна змінити значення коефіціентів у формулах розрахунку, таблиці тощо.
+Для того щоб зберегти всі внесені зміни, треба натиснути кнопку "Застосувати".</value>
+  </data>
+  <data name="SettingsView_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\SettingsView-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SettingsView_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\Resources\SettingsView-21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="startWorkText_EN" xml:space="preserve">
+    <value>Beginning of work
+
+CatlabuhApp is designed to calculate the water and salt balances of Lake Catlabuh.
+
+After starting the program, the home page is displayed by default.
+To move between the display pages in the application there is a "Main menu", which is located on top.
+The "Main menu" consists of six items (from left to right):
+    1. Start page;
+    2. Calculations;
+    3. Charts;
+    4. Customization;
+    5. Help;
+    6. Exit.
+
+Clicking LMB on the first four points will bring up the corresponding display page.
+Clicking on the "Help" item will open a list of two options: "View Help" and "About the Program". Clicking LMB on the first option will bring up the help of the application, clicking on the second will call information directly about the application itself.</value>
+  </data>
+  <data name="startWorkText_RU" xml:space="preserve">
+    <value>Начало работы
+
+CatlabuhApp разработана для проведения расчетов водного и солевого балансов озера Катлабух.
+
+После запуска программы по умолчанию отображается домашняя страница.
+Для перемещения между страницами отображения в приложении присутствует "Главное меню", которое расположено сверху.
+"Главное меню" состоит из шести пунктов(слева направо):
+    1. Начальная страница;
+    2. Расчеты;
+    3. Диаграммы;
+    4. Настройка;
+    5. Справка;
+    6. Выход.
+
+Нажатие ЛКМ по первым четырем пунктам, вызовет соответствующую страницу отображения.
+Нажатие по пункту «Справка», раскроет список из двух вариантов: "Просмотр справки" и "О программе". Нажатие ЛКМ по первому варианту вызовет справку приложения, нажатие по второму - вызовет информацию непосредственно о самом приложении.</value>
+  </data>
+  <data name="startWorkText_UA" xml:space="preserve">
+    <value>Початок роботи
+
+CatlabuhApp розроблена для проведення розрахунків водного і сольового балансів озера Катлабух.
+
+Після запуску програми за умовчуванням відображається домашня сторінка.
+Для пересування між сторінками відображення у додатку присутнє "Головне меню", що розташовано зверху.
+"Головне меню" складається з шести пунктів(зліва направо):
+    1. Початкова сторінка;
+    2. Розрахунки;
+    3. Діаграми;
+    4. Налаштування;
+    5. Довідка;
+    6. Вихід.
+
+Натискання ЛКМ по перших чотирьох пунктах, викличе відповідну сторінку відображення.
+Натискання по пункту "Довідка", розкриє список з двох варіантів: "Перегляд довідки" і "Про програму". Натискання ЛКМ по першому варіанту викличе довідку додатка, натискання по другому - викличе інформацію безпосередньо про сам додаток.</value>
+  </data>
+  <data name="styleChartText_EN" xml:space="preserve">
+    <value>Chart view customization
+
+To customize the chart view, you need to click "Chart View" on the toolbar of the chart view page. The "Customize Chart View" dialog box appears. Please note that the chart view can only be edited after building the chart!
+In the window, you can edit the headers of the axes and the chart itself, the grid of the chart area and the series of the chart.
+For the changes to take effect, click the "Apply" button.</value>
+  </data>
+  <data name="styleChartText_RU" xml:space="preserve">
+    <value>Настройка вида диаграммы
+
+Для настройки вида диаграммы, надо на панели инструментов страницы просмотра диаграммы нажать ЛКМ пункт "Вид диаграммы". Появится диалоговое окно "Настройка вида диаграммы". Обратите внимание на то, что вид диаграммы можно редактировать только после построения диаграммы!
+В окне можно редактировать заголовки осей и самой диаграммы, сетку области диаграммы и ряды диаграммы.
+Чтобы изменения вступили в силу нужно нажать кнопку "Применить".</value>
+  </data>
+  <data name="styleChartText_UA" xml:space="preserve">
+    <value>Налаштування виду діаграми
+
+Для налаштування виду діаграми, треба на панелі інструментів сторінки перегляду діаграми натиснути ЛКМ пункт "Вид діаграми". З'явиться діалогове вікно "Налаштування вигляду діаграми". Зверніть увагу на те, що вигляд діаграми можна редагувати тільки після побудови діаграми! 
+У вікні можна редагувати: заголовки вісей і самої діаграми, сітку області діаграми і ряди діаграми.
+Щоб зміни вступили в силу треба натиснути кнопку "Застосувати".</value>
+  </data>
+  <data name="viewCalcText_EN" xml:space="preserve">
+    <value>View calculation
+
+In order to view the calculation data, you need to select the calculation year of interest in the drop-down list on the toolbar below the "Main menu", after which the data will be loaded into four tables, which are located in pairs in the "Water balance" and "Salt balance" tabs .
+Switching between these tabs, you can view the calculation data.</value>
+  </data>
+  <data name="viewCalcText_RU" xml:space="preserve">
+    <value>Просмотр расчета
+
+Для того чтобы просмотреть данные расчета, надо на панели инструментов, расположенной ниже "Главного меню", в выпадающем списке выбрать интересующий год расчета, после чего данные будут загружены в четыре таблицы, которые расположены попарно во вкладках "Водный баланс" и "Солевой баланс".
+Переключаясь между этими вкладками можно просматривать данные расчета.</value>
+  </data>
+  <data name="viewCalcText_UA" xml:space="preserve">
+    <value>Перегляд розрахунку
+
+Для того щоб переглянути дані розрахунку, треба на панелі інструментів, що розташована нижче "Головного меню", у випадаючому списку обрати рік розрахунку, що цікавить, після чого дані будуть завантажені у чотири таблиці, які розташовані попарно у вкладках "Водний баланс" і "Сольовий баланс".
+Перемикаючись між цими вкладками можна переглядати дані розрахунку.</value>
+  </data>
+  <data name="viewChartText_EN" xml:space="preserve">
+    <value>View chart
+
+In order to view the chart, in the "Main Menu", click on the "Charts" item, then the page for viewing the chart will be called up.</value>
+  </data>
+  <data name="viewChartText_RU" xml:space="preserve">
+    <value>Просмотр диаграммы
+
+Для того чтобы просмотреть диаграмму надо в "Главном меню" нажать ЛКМ пункт "Диаграммы", после чего будет вызвана страница для просмотра диаграммы.</value>
+  </data>
+  <data name="viewChartText_UA" xml:space="preserve">
+    <value>Перегляд діаграми
+
+Для того щоб переглянути діаграму треба у "Головному меню" натиснути ЛКМ пункт "Діаграми", після чого буде викликано сторінку для перегляду діаграми.</value>
+  </data>
+</root>

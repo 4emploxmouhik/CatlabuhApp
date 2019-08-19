@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="languageBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 130</value>
+    <value>79, 153</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 16</value>
@@ -128,10 +128,10 @@
     <value>Мова:</value>
   </data>
   <data name="callFolderBrowser4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>736, 89</value>
+    <value>739, 112</value>
   </data>
   <data name="imgChartsPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 91</value>
+    <value>339, 114</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>306, 16</value>
@@ -140,10 +140,10 @@
     <value>Шлях до папки з файлами зображень діаграм:</value>
   </data>
   <data name="callFolderBrowser3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>736, 63</value>
+    <value>739, 86</value>
   </data>
   <data name="xlChartsPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 65</value>
+    <value>339, 88</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 16</value>
@@ -152,10 +152,10 @@
     <value>Шлях до папки з файлами графіків Excel:</value>
   </data>
   <data name="callFolderBrowser2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>736, 37</value>
+    <value>739, 60</value>
   </data>
   <data name="xlCalcPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 39</value>
+    <value>339, 62</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>297, 16</value>
@@ -163,17 +163,374 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Шлях до папки з файлами розрахунків Excel:</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>811, 178</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
+  <data name="generalPage.Text" xml:space="preserve">
     <value>Загальні налаштування</value>
   </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 16</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Шлях до файлу БД SQLite:</value>
+  </data>
+  <data name="calculationPage.Text" xml:space="preserve">
+    <value>Налаштування розрахунку</value>
+  </data>
+  <data name="table_3_2Group.Text" xml:space="preserve">
+    <value>Внутрішньорічний розподіл припливу ґрунтових вод</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 106</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Маловодний</value>
+  </data>
+  <data name="label84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>712, 30</value>
+  </data>
+  <data name="label84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="label84.Text" xml:space="preserve">
+    <value>Груд.</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 80</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Середньоводний</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Багатоводний</value>
+  </data>
+  <data name="label85.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 30</value>
+  </data>
+  <data name="label85.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="label85.Text" xml:space="preserve">
+    <value>Листоп.</value>
+  </data>
+  <data name="label86.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 30</value>
+  </data>
+  <data name="label86.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label86.Text" xml:space="preserve">
+    <value>Жовт.</value>
+  </data>
+  <data name="label87.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 30</value>
+  </data>
+  <data name="label87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label87.Text" xml:space="preserve">
+    <value>Вер.</value>
+  </data>
+  <data name="label88.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 30</value>
+  </data>
+  <data name="label88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label88.Text" xml:space="preserve">
+    <value>Серп.</value>
+  </data>
+  <data name="label89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 30</value>
+  </data>
+  <data name="label89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label89.Text" xml:space="preserve">
+    <value>Лип.</value>
+  </data>
+  <data name="label90.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 30</value>
+  </data>
+  <data name="label90.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label90.Text" xml:space="preserve">
+    <value>Черв.</value>
+  </data>
+  <data name="label91.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 30</value>
+  </data>
+  <data name="label91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label91.Text" xml:space="preserve">
+    <value>Трав.</value>
+  </data>
+  <data name="label92.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 30</value>
+  </data>
+  <data name="label92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label92.Text" xml:space="preserve">
+    <value>Квіт.</value>
+  </data>
+  <data name="label93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 30</value>
+  </data>
+  <data name="label93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="label93.Text" xml:space="preserve">
+    <value>Берез.</value>
+  </data>
+  <data name="label94.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 30</value>
+  </data>
+  <data name="label94.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label94.Text" xml:space="preserve">
+    <value>Лют.</value>
+  </data>
+  <data name="label95.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 30</value>
+  </data>
+  <data name="label95.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 16</value>
+  </data>
+  <data name="label95.Text" xml:space="preserve">
+    <value>Січ.</value>
+  </data>
+  <data name="table_3_1Group.Text" xml:space="preserve">
+    <value>Внутрішньорічний розподіл поверхневого стоку</value>
+  </data>
+  <data name="label59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>712, 30</value>
+  </data>
+  <data name="label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 16</value>
+  </data>
+  <data name="label59.Text" xml:space="preserve">
+    <value>Груд.</value>
+  </data>
+  <data name="label60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 30</value>
+  </data>
+  <data name="label60.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 16</value>
+  </data>
+  <data name="label60.Text" xml:space="preserve">
+    <value>Листоп.</value>
+  </data>
+  <data name="label61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>608, 30</value>
+  </data>
+  <data name="label61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label61.Text" xml:space="preserve">
+    <value>Жовт.</value>
+  </data>
+  <data name="label62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 30</value>
+  </data>
+  <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label62.Text" xml:space="preserve">
+    <value>Вер.</value>
+  </data>
+  <data name="label63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 30</value>
+  </data>
+  <data name="label63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label63.Text" xml:space="preserve">
+    <value>Серп.</value>
+  </data>
+  <data name="label74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 30</value>
+  </data>
+  <data name="label74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label74.Text" xml:space="preserve">
+    <value>Лип.</value>
+  </data>
+  <data name="label75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 30</value>
+  </data>
+  <data name="label75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label75.Text" xml:space="preserve">
+    <value>Черв.</value>
+  </data>
+  <data name="label76.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 30</value>
+  </data>
+  <data name="label76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label76.Text" xml:space="preserve">
+    <value>Трав.</value>
+  </data>
+  <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 30</value>
+  </data>
+  <data name="label77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label77.Text" xml:space="preserve">
+    <value>Квіт.</value>
+  </data>
+  <data name="label78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 30</value>
+  </data>
+  <data name="label78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>Берез.</value>
+  </data>
+  <data name="label79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 30</value>
+  </data>
+  <data name="label79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label79.Text" xml:space="preserve">
+    <value>Лют.</value>
+  </data>
+  <data name="label80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 30</value>
+  </data>
+  <data name="label80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 16</value>
+  </data>
+  <data name="label80.Text" xml:space="preserve">
+    <value>Січ.</value>
+  </data>
+  <data name="label81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 106</value>
+  </data>
+  <data name="label81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 16</value>
+  </data>
+  <data name="label81.Text" xml:space="preserve">
+    <value>Маловодний</value>
+  </data>
+  <data name="label82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 80</value>
+  </data>
+  <data name="label82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 16</value>
+  </data>
+  <data name="label82.Text" xml:space="preserve">
+    <value>Середньоводний</value>
+  </data>
+  <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="label83.Text" xml:space="preserve">
+    <value>Багатоводний</value>
+  </data>
+  <data name="SBCFunctionsPart.Text" xml:space="preserve">
+    <value>Сольовий баланс витратна частина</value>
+  </data>
+  <data name="WBCFunctionsPart.Text" xml:space="preserve">
+    <value>Водний баланс витратна частина</value>
+  </data>
+  <data name="label64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 30</value>
+  </data>
+  <data name="label64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="label64.Text" xml:space="preserve">
+    <value>Жовт.</value>
+  </data>
+  <data name="label65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 30</value>
+  </data>
+  <data name="label65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label65.Text" xml:space="preserve">
+    <value>Вер.</value>
+  </data>
+  <data name="label66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 30</value>
+  </data>
+  <data name="label66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label66.Text" xml:space="preserve">
+    <value>Серп.</value>
+  </data>
+  <data name="label67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 30</value>
+  </data>
+  <data name="label67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label67.Text" xml:space="preserve">
+    <value>Лип.</value>
+  </data>
+  <data name="label68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="label68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label68.Text" xml:space="preserve">
+    <value>Черв.</value>
+  </data>
+  <data name="label69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 30</value>
+  </data>
+  <data name="label69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 16</value>
+  </data>
+  <data name="label69.Text" xml:space="preserve">
+    <value>Трав.</value>
+  </data>
+  <data name="label70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 30</value>
+  </data>
+  <data name="label70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label70.Text" xml:space="preserve">
+    <value>Квіт.</value>
+  </data>
+  <data name="label58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 136</value>
+  </data>
+  <data name="SBPFunctionsPart.Text" xml:space="preserve">
+    <value>Сольовий баланс прибуткова частина</value>
+  </data>
+  <data name="WBPFunctionsPart.Text" xml:space="preserve">
+    <value>Водний баланс прибуткова частина</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 33</value>
+  </data>
   <data name="apply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1056, 659</value>
+    <value>1292, 0</value>
   </data>
   <data name="apply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 30</value>
+    <value>109, 36</value>
   </data>
   <data name="apply.Text" xml:space="preserve">
     <value>Застосувати</value>

@@ -16,6 +16,9 @@
                     case "uk-UA":
                         title = "Некоректні дані";
                         break;
+                    case "ru-RU":
+                        title = "Некоректные данныe";
+                        break;
                 }
 
                 return title;
@@ -34,6 +37,9 @@
                         break;
                     case "uk-UA":
                         title = "Недостатньо даних для побудови діаграми.";
+                        break;
+                    case "ru-RU":
+                        title = "Недостаточно данных для построения диаграммы";
                         break;
                 }
 
@@ -55,6 +61,9 @@
                     case "uk-UA":
                         title = "Операція виконана успішно";
                         break;
+                    case "ru-RU":
+                        title = "Операция выполнена успешно";
+                        break;
                 }
 
                 return title;
@@ -74,6 +83,9 @@
                     case "uk-UA":
                         title = "Помилка";
                         break;
+                    case "ru-RU":
+                        title = "Ошибка";
+                        break;
                 }
 
                 return title;
@@ -92,6 +104,9 @@
                         break;
                     case "uk-UA":
                         title = "Підтвердьте дію";
+                        break;
+                    case "ru-RU":
+                        title = "Дотвердите действие";
                         break;
                 }
 
@@ -113,6 +128,9 @@
                     case "uk-UA":
                         text = "Вкажіть рік розрахунку.";
                         break;
+                    case "ru-RU":
+                        text = "Укажите год расчета.";
+                        break;
                 }
 
                 return text;
@@ -131,6 +149,9 @@
                         break;
                     case "uk-UA":
                         text = "Надайте всі необхідні дані для проведення розрахунку.";
+                        break;
+                    case "ru-RU":
+                        text = "Предоставте все необходимые данные для проведения расчёта.";
                         break;
                 }
 
@@ -151,6 +172,9 @@
                     case "uk-UA":
                         text = "Вкажіть принаймні одну таблицю для експорту.";
                         break;
+                    case "ru-RU":
+                        text = "Укажите хотя бы одну таблицу для экспорта.";
+                        break;
                 }
 
                 return text;
@@ -170,6 +194,9 @@
                     case "uk-UA":
                         text = "Вірно вкажіть значення осередку таблиці.";
                         break;
+                    case "ru-RU":
+                        text = "Верно укажите значение ячейки таблицы.";
+                        break;
                 }
 
                 return text;
@@ -184,10 +211,13 @@
                 switch (Properties.Settings.Default.Language)
                 {
                     case "en-US":
-                        text = "The process cannot access the file. Close the file and click OK to try saving again.";// Click Cancel to open the file, the file will not be saved.";
+                        text = "The process cannot access the file. Close the file and click OK to try saving again.";
                         break;
                     case "uk-UA":
-                        text = "Процес не може отримати доступ до файлу. Закрийте файл і натисніть кнопку ОК, щоб спробувати зберегти знову.";// Натисніть Скасувати, щоб відкрити файл, файл не буде збережено.";
+                        text = "Процес не може отримати доступ до файлу. Закрийте файл і натисніть кнопку ОК, щоб спробувати зберегти знову.";
+                        break;
+                    case "ru-RU":
+                        text = "Процесс не может получить доступ к файлу. Закройте файл и нажмите кнопку ОК, чтобы поробывать сохранить снова.";
                         break;
                 }
                 
@@ -206,7 +236,10 @@
                         text = "Verify that at least one value for the Y axis and two values for the X axis are added.";
                         break;
                     case "uk-UA":
-                        text = "Перевірте, чи додано принаймні одне значення для осі Y та два значення для осі X.";
+                        text = "Перевірте, чи додано принаймні одне значення для вісі Y та два значення для вісі X.";
+                        break;
+                    case "ru-RU":
+                        text = "Проверте, добавлено ли хотя бы одно значение для оси Y и два значення для оси X.";
                         break;
                 }
 
@@ -250,6 +283,9 @@
                     case "uk-UA":
                         text = "Розрахунок проведено і збережено.";
                         break;
+                    case "ru-RU":
+                        text = "Расчёт проведен и сохранен.";
+                        break;
                 }
 
                 return text;
@@ -268,6 +304,9 @@
                         break;
                     case "uk-UA":
                         text = "Вихідні дані розрахунку збережено.";
+                        break;
+                    case "ru-RU":
+                        text = "Исходные данные расчёта сохранены.";
                         break;
                 }
 
@@ -288,6 +327,9 @@
                     case "uk-UA":
                         text = "Внесені зміни збережено.";
                         break;
+                    case "ru-RU":
+                        text = "Внесенные измения сохранены.";
+                        break;
                 }
 
                 return text;
@@ -306,6 +348,9 @@
                         break;
                     case "uk-UA":
                         text = "Розрахунок видалено.";
+                        break;
+                    case "ru-RU":
+                        text = "Расчёт удален.";
                         break;
                 }
 
@@ -326,6 +371,9 @@
                     case "uk-UA":
                         text = "Таблиця(і) розрахунку експортовано.";
                         break;
+                    case "ru-RU":
+                        text = "Таблица(ы) расчёта экспортировано.";
+                        break;
                 }
 
                 return text;
@@ -344,6 +392,53 @@
                         break;
                     case "uk-UA":
                         text = "Дані диспетчерського графіку роботи шлюзів збережено.";
+                        break;
+                    case "ru-RU":
+                        text = "Данные диспетчерского графика работы шлюзов сохранены.";
+                        break;
+                }
+
+                return text;
+            }
+        }
+        public static string SuccessText7
+        {
+            get
+            {
+                string text = "";
+
+                switch (Properties.Settings.Default.Language)
+                {
+                    case "en-US":
+                        text = "Chart image saved.";
+                        break;
+                    case "uk-UA":
+                        text = "Зображення діаграми збережено.";
+                        break;
+                    case "ru-RU":
+                        text = "Изображение диаграммы сохранено.";
+                        break;
+                }
+
+                return text;
+            }
+        }
+        public static string SuccessText8
+        {
+            get
+            {
+                string text = "";
+
+                switch (Properties.Settings.Default.Language)
+                {
+                    case "en-US":
+                        text = "Chart exported.";
+                        break;
+                    case "uk-UA":
+                        text = "Діаграма експортована.";
+                        break;
+                    case "ru-RU":
+                        text = "Диаграмма экспортирована.";
                         break;
                 }
 
@@ -365,6 +460,9 @@
                     case "uk-UA":
                         text = "Дані не було збережено.";
                         break;
+                    case "ru-RU":
+                        text = "Данные не было сохранено.";
+                        break;
                 }
 
                 return text;
@@ -383,6 +481,9 @@
                         break;
                     case "uk-UA":
                         text = "Розрахунок не було видалено.";
+                        break;
+                    case "ru-RU":
+                        text = "Расчёт не был удален.";
                         break;
                 }
 
@@ -403,6 +504,9 @@
                     case "uk-UA":
                         text = "Помилка при проведенні розрахунку.";
                         break;
+                    case "ru-RU":
+                        text = "Ошибка при проведении расчёта.";
+                        break;
                 }
 
                 return text;
@@ -422,6 +526,9 @@
                     case "uk-UA":
                         text = "Файлу бази даних не існує(вказано).";
                         break;
+                    case "ru-RU":
+                        text = "Файла базы данных не существует(указан).";
+                        break;
                 }
 
                 return text;
@@ -436,10 +543,57 @@
                 switch (Properties.Settings.Default.Language)
                 {
                     case "en-US":
-                        text = "The database file is corrupt or invalid.";
+                        text = "DB version mismatch.";
                         break;
                     case "uk-UA":
-                        text = "Файл бази данних пошкодженно чи некоректний.";
+                        text = "Невідповідність версії БД.";
+                        break;
+                    case "ru-RU":
+                        text = "Несоответствие версии БД.";
+                        break;
+                }
+
+                return text;
+            }
+        }
+        public static string ErrorText6
+        {
+            get
+            {
+                string text = "";
+
+                switch (Properties.Settings.Default.Language)
+                {
+                    case "en-US":
+                        text = "Not enough data.";
+                        break;
+                    case "uk-UA":
+                        text = "Недостатньо даних.";
+                        break;
+                    case "ru-RU":
+                        text = "Недостаточно данных.";
+                        break;
+                }
+
+                return text;
+            }
+        }
+        public static string ErrorText7
+        {
+            get
+            {
+                string text = "";
+
+                switch (Properties.Settings.Default.Language)
+                {
+                    case "en-US":
+                        text = "Axis of the chart area - the chart area contains incompatible chart types.";
+                        break;
+                    case "uk-UA":
+                        text = "Вісі області діаграми - в області діаграми містяться несумісні типи діаграм.";
+                        break;
+                    case "ru-RU":
+                        text = "Оси области диаграммы - в области диаграммы содержатся несовместимые типы диаграмм.";
                         break;
                 }
 
@@ -456,10 +610,13 @@
                 switch (Properties.Settings.Default.Language)
                 {
                     case "en-US":
-                        text = $"Are you sure you want to delete the calculation?";
+                        text = "Are you sure you want to delete the calculation?";
                         break;
                     case "uk-UA":
-                        text = $"Ви впевнені, що хочете видалити розрахунок?";
+                        text = "Ви впевнені, що хочете видалити розрахунок?";
+                        break;
+                    case "ru-RU":
+                        text = "Вы уверены, что хотите удалить расчёт?";
                         break;
                 }
 
@@ -480,6 +637,9 @@
                     case "uk-UA":
                         text = "Зберегти змінені дані?";
                         break;
+                    case "ru-RU":
+                        text = "Сохранить измененные данные?";
+                        break;
                 }
 
                 return text;
@@ -494,10 +654,13 @@
                 switch (Properties.Settings.Default.Language)
                 {
                     case "en-US":
-                        text = $"Are you sure you want to recalculate the calculation?";
+                        text = "Are you sure you want to recalculate the calculation?";
                         break;
                     case "uk-UA":
-                        text = $"Ви впевнені, що хочете виконати перерахунок розрахунку?";
+                        text = "Ви впевнені, що хочете виконати перерахунок розрахунку?";
+                        break;
+                    case "ru-RU":
+                        text = "Вы уверены, что хотите выполнить перерассчёт расчёта?";
                         break;
                 }
 
@@ -517,6 +680,9 @@
                         break;
                     case "uk-UA":
                         text = "Цей файл вже існує. Замінити його?";
+                        break;
+                    case "ru-RU":
+                        text = "Этот файл уже существует. Заменить его?";
                         break;
                 }
 

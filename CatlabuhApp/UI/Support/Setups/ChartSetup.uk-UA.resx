@@ -118,14 +118,143 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="monthRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 23</value>
+  </data>
+  <data name="monthRadio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="monthRadio.Text" xml:space="preserve">
+    <value>Місяці</value>
+  </data>
   <data name="yearsRadio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 19</value>
+    <value>32, 23</value>
+  </data>
+  <data name="yearsRadio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="yearsRadio.Text" xml:space="preserve">
+    <value>Роки</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Вкажіть парметри для вісі Х</value>
   </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 16</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Оберіть рік</value>
+  </data>
+  <data name="getAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="getAll.Text" xml:space="preserve">
+    <value>Обрати всі</value>
+  </data>
+  <data name="december.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 190</value>
+  </data>
+  <data name="december.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="december.Text" xml:space="preserve">
+    <value>Груд.</value>
+  </data>
+  <data name="november.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 162</value>
+  </data>
+  <data name="november.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="november.Text" xml:space="preserve">
+    <value>Листоп.</value>
+  </data>
+  <data name="october.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 137</value>
+  </data>
+  <data name="october.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="october.Text" xml:space="preserve">
+    <value>Жовт.</value>
+  </data>
+  <data name="september.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 111</value>
+  </data>
+  <data name="september.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="september.Text" xml:space="preserve">
+    <value>Вер.</value>
+  </data>
+  <data name="august.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="august.Text" xml:space="preserve">
+    <value>Серп.</value>
+  </data>
+  <data name="july.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 59</value>
+  </data>
+  <data name="july.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="july.Text" xml:space="preserve">
+    <value>Лип.</value>
+  </data>
+  <data name="june.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 190</value>
+  </data>
+  <data name="june.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="june.Text" xml:space="preserve">
+    <value>Черв.</value>
+  </data>
+  <data name="may.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 162</value>
+  </data>
+  <data name="may.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 20</value>
+  </data>
+  <data name="may.Text" xml:space="preserve">
+    <value>Трав.</value>
+  </data>
+  <data name="april.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="april.Text" xml:space="preserve">
+    <value>Квіт.</value>
+  </data>
+  <data name="march.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 111</value>
+  </data>
+  <data name="march.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="march.Text" xml:space="preserve">
+    <value>Берез.</value>
+  </data>
+  <data name="february.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 85</value>
+  </data>
+  <data name="february.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="february.Text" xml:space="preserve">
+    <value>Лют.</value>
+  </data>
+  <data name="january.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 59</value>
+  </data>
+  <data name="january.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="january.Text" xml:space="preserve">
+    <value>Січ.</value>
+  </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 13</value>
+    <value>80, 16</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Оберіть рік</value>
@@ -133,14 +262,11 @@
   <data name="tabPage5.Text" xml:space="preserve">
     <value>Вказати рік</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 13</value>
-  </data>
   <data name="label5.Text" xml:space="preserve">
     <value>До:</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 13</value>
+    <value>31, 16</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Від:</value>
@@ -154,87 +280,6 @@
   <data name="delete.Text" xml:space="preserve">
     <value>Видалити</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 13</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Оберіть рік</value>
-  </data>
-  <data name="getAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 17</value>
-  </data>
-  <data name="getAll.Text" xml:space="preserve">
-    <value>Обрати всі</value>
-  </data>
-  <data name="december.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 17</value>
-  </data>
-  <data name="december.Text" xml:space="preserve">
-    <value>.Груд</value>
-  </data>
-  <data name="november.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 17</value>
-  </data>
-  <data name="november.Text" xml:space="preserve">
-    <value>.Листоп</value>
-  </data>
-  <data name="october.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 17</value>
-  </data>
-  <data name="october.Text" xml:space="preserve">
-    <value>.Жовт</value>
-  </data>
-  <data name="september.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 17</value>
-  </data>
-  <data name="september.Text" xml:space="preserve">
-    <value>.Вер</value>
-  </data>
-  <data name="august.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 17</value>
-  </data>
-  <data name="august.Text" xml:space="preserve">
-    <value>.Серп</value>
-  </data>
-  <data name="july.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 17</value>
-  </data>
-  <data name="july.Text" xml:space="preserve">
-    <value>.Лип</value>
-  </data>
-  <data name="june.Text" xml:space="preserve">
-    <value>.Черв</value>
-  </data>
-  <data name="may.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 17</value>
-  </data>
-  <data name="may.Text" xml:space="preserve">
-    <value>.Трав</value>
-  </data>
-  <data name="april.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 17</value>
-  </data>
-  <data name="april.Text" xml:space="preserve">
-    <value>.Квіт</value>
-  </data>
-  <data name="march.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 17</value>
-  </data>
-  <data name="march.Text" xml:space="preserve">
-    <value>.Берез</value>
-  </data>
-  <data name="february.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 17</value>
-  </data>
-  <data name="february.Text" xml:space="preserve">
-    <value>.Лют</value>
-  </data>
-  <data name="january.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 17</value>
-  </data>
-  <data name="january.Text" xml:space="preserve">
-    <value>.Січ</value>
-  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Вісь Х</value>
   </data>
@@ -244,14 +289,29 @@
   <data name="buildAGraph.Text" xml:space="preserve">
     <value>Побудувати</value>
   </data>
+  <data name="procRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="sumRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 23</value>
+  </data>
   <data name="groupBox9.Text" xml:space="preserve">
     <value>Вкажіть параметри для вісі Y</value>
   </data>
   <data name="tabPage1.Text" xml:space="preserve">
     <value>ВБПЧ</value>
   </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value>Водний баланс прибуткова частина</value>
+  </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>ВБВЧ</value>
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value>Водний баланс витратна частина</value>
+  </data>
+  <data name="sbppPanel.ToolTip" xml:space="preserve">
+    <value>Сольовий баланс прибуткова частина</value>
   </data>
   <data name="tabPage3.Text" xml:space="preserve">
     <value>СБПЧ</value>
@@ -259,20 +319,38 @@
   <data name="tabPage4.Text" xml:space="preserve">
     <value>СБВЧ</value>
   </data>
+  <data name="tabPage4.ToolTip" xml:space="preserve">
+    <value>Сольовий баланс витратна частина</value>
+  </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Вісь Y</value>
   </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 24</value>
+  </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 13</value>
+    <value>48, 16</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Вісь Х:</value>
   </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 57</value>
+  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 13</value>
+    <value>49, 16</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Вісь Y:</value>
+  </data>
+  <data name="yearLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 24</value>
+  </data>
+  <data name="yearLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 16</value>
+  </data>
+  <data name="yearLabel.Text" xml:space="preserve">
+    <value>Рік:</value>
   </data>
   <data name="clearOy.Text" xml:space="preserve">
     <value>Очистити</value>
@@ -285,78 +363,168 @@
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
-        AAC/SgCvy1oP/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89f
-        Ff/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89f
-        Ff/LWg//v0oAr8dVCv//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/HVQr/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/bbyT/z18V/9NkGv/7mE7//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/zjkT/95NJ//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/845E/79LAP+/SwD/v0sA/+N5L///nlT//55U//+eVP//nlT//55U//+eVP//nlT/12of/79L
-        AP+/SwD/33Qq//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+eVP//nlT//55U//+eVP//nlT//55U/9tv
-        JP+/SwD/v0sA/79LAP/HVQr//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79LAP/fdCr//55U//+eVP//nlT//55U//+e
-        VP/nfjT/v0sA/79LAP+/SwD/v0sA/+N5L///nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89f
-        Ff//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/990Kv//nlT//55U//+e
-        VP//nlT/5340/79LAP+/SwD/v0sA/79LAP/fdCr//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+e
-        VP//nlT//55U/+uEOf+/SwD/v0sA/79LAP+/SwD/02Qa//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79L
-        AP/fdCr//55U//+eVP/zjkT/w1AF/79LAP+/SwD/v0sA/8taD//7mE7//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79L
-        AP+/SwD/v0sA/990Kv//nlT/95NJ/8NQBf+/SwD/v0sA/79LAP/DUAX/+5hO//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/viT//v0sA/79LAP+/SwD/33Qq//+eVP/viT//v0sA/79LAP+/SwD/w1AF//OORP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U/++JP/+/SwD/v0sA/79LAP/fdCr//55U//+eVP/DUAX/v0sA/8NQBf/zjkT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/990Kv//nlT//55U//OORP/fdCr/64Q5//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/89f
-        Ff/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79LAP/DUAX/845E//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/79L
-        AP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79L
-        AP+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++J
-        P/+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/74k//79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/02Qa/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79LAP/fdCr/845E/8NQBf+/SwD/v0sA/79L
-        AP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89f
-        Ff//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/990Kv//nlT/845E/8NQ
-        Bf+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+e
-        VP//nlT/845E/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79L
-        AP/fdCr//55U//+eVP//nlT/845E/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79L
-        AP+/SwD/v0sA/990Kv//nlT//55U//+eVP//nlT/845E/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/viT//v0sA/79LAP+/SwD/33Qq//+eVP//nlT//55U//+eVP//nlT/845E/8NQBf+/SwD/v0sA/79L
-        AP/HVQr//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//eTSf+/SwD/v0sA/79LAP/nfjT//55U//+eVP//nlT//55U//+eVP//nlT/845E/8NQ
-        Bf+/SwD/v0sA/8dVCv//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/9NkGv+/SwD/w1AF//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/74k//79LAP+/SwD/43kv//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/9Nk
-        Gv/DUAX/64Q5//eTSf//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//eT
-        Sf/rhDn/w1AF/79LAI+/SwC/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79L
-        AP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79L
-        AP+/SwD/v0sA/79LAL+/SwCPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAAAAAAAAAAAAAAAAAAAA
+        AABMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwD//wAB3JgzbduY
+        NNnbmDT+25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP7bmDTZ25k0a///AAFMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwDamTNu25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uZNGtMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDPa25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9yY
+        NNhMcEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT+25g0/9uYNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2FL
+        NP/bmDT/25g0/9uYNP5McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9uUjT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/YUs0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/alA0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25SNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP/RkjT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/dVg0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2BKNP+YbjT/2ZY0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9GSNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP+vfDT/2Zc0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/JjTT/alE0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/699
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/2Zc0/6R1NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/blI0/5Vs
+        NP/BhzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/sX00/4lkNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/k2o0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/JjTT/d1g0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP94WTT/2JY0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9KSNP9wVDT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2NMNP/IjDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/2ZY0/35d
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/6h4NP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/alzT/jGY0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/gmA0/9qXNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP+fcjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9lTjT/z480/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/7WANP9fSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP+peDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/yIs0/2VONP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/31dNP/alzT/25g0/9uYNP/bmDT/25g0/9uYNP/TkjT/cFQ0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Ykw0/8iMNP/bmDT/25g0/9uYNP/bmDT/25g0/9mXNP+AXjT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/nHE0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/5lu
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9tUjT/1pU0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/tYA0/19KNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP+1gDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/IjDT/ZU00/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/1JM0/9KT
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9eVNP91WDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/5BpNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/k2w0/6Z3NP/IjDT/25g0/9uYNP/bmDT/s380/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9jTDT/yY00/9uYNP/bmDT/zY80/2hQ
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/e1s0/9qY
+        NP/bmDT/25g0/7qENP9gSjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/6V2NP/bmDT/25g0/9uYNP+hdDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/2NMNP/JjTT/25g0/9uYNP/alzT/iGM0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP96WzT/2Zc0/9uYNP/bmDT/1ZQ0/3NX
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/o3U0/9uY
+        NP/bmDT/25g0/8iMNP9lTjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/YUs0/8aLNP/bmDT/25g0/9uYNP+1gDT/X0o0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/3laNP/ZlzT/25g0/9uYNP/bmDT/m280/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+iczT/25g0/9uYNP/bmDT/2pg0/4Jg
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9hSzT/xoo0/9uY
+        NP/bmDT/25g0/9KTNP9vVDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/dFc0/5tv
+        NP/CiTT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/sH00/4NgM/9gSjT/Xkk0/15JNP9eSTT/Xkk0/2dO
+        NP+QaTT/w4k0/9uYNP/bmDT/25g0/9uYNP/MjjT/oXQ0/3tbNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP+yfjT/2pc0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/HjDT/alE0/15J
+        NP9eSTT/iGM0/9SUNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP++hjT/Y0s0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP/RkjT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/dVg0/15JNP9eSTT/oHI0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/Z040/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9uUjT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25TNP9uUzT/YUs0/15JNP9eSTT/Zk80/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25TNP9uUzT/X0k0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT+25g0/9uYNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2FL
+        NP/bmDT/25g0/9uYNP5McEcATHBHAExwRwBMcEcATHBHAExwRwDbmTTb25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNNlMcEcATHBHAExwRwBMcEcATHBHAExwRwDbmTRw25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9yYM21McEcATHBHAExwRwBMcEcATHBHAExw
+        RwD//wAB2pg1b9uYM9rbmDT+25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP7bmDPa3Jgzbf//AAFMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwD///////8AAP///////wAA////////
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAAD///////8AAP///////wAA////////
+        AAA=
 </value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />

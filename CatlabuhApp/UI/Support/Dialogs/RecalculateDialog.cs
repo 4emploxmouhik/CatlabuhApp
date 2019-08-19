@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CatlabuhAppSupportHelp.UI.Help;
+using System;
 using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.Support.Dialogs
@@ -35,7 +36,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
         private void RecalculateDialog_HelpRequested(object sender, HelpEventArgs hlpevent)
         {
-            // TODO: Вызвать окно справки.
+            new HelpForm("recalculateText").Show();
         }
 
     }

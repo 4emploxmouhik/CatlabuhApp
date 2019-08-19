@@ -118,1369 +118,1565 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="regularChoice1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="boldChoice2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="regularChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="regularChoice1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="regularChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="regularChoice1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 32</value>
-  </data>
-  <data name="regularChoice1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 33</value>
-  </data>
-  <data name="regularChoice1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="regularChoice1.Text" xml:space="preserve">
-    <value>R</value>
-  </data>
-  <data name="&gt;&gt;regularChoice1.Name" xml:space="preserve">
-    <value>regularChoice1</value>
-  </data>
-  <data name="&gt;&gt;regularChoice1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;regularChoice1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;regularChoice1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="underlineChoice1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="underlineChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="underlineChoice1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Underline</value>
-  </data>
-  <data name="underlineChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="underlineChoice1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>447, 32</value>
-  </data>
-  <data name="underlineChoice1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 33</value>
-  </data>
-  <data name="underlineChoice1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="underlineChoice1.Text" xml:space="preserve">
-    <value>U</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice1.Name" xml:space="preserve">
-    <value>underlineChoice1</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="italicChoice1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="italicChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
   </data>
-  <data name="italicChoice1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Italic</value>
-  </data>
-  <data name="italicChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="italicChoice1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 32</value>
-  </data>
-  <data name="italicChoice1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 33</value>
-  </data>
-  <data name="italicChoice1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="italicChoice1.Text" xml:space="preserve">
-    <value>I</value>
-  </data>
-  <data name="&gt;&gt;italicChoice1.Name" xml:space="preserve">
-    <value>italicChoice1</value>
-  </data>
-  <data name="&gt;&gt;italicChoice1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;italicChoice1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;italicChoice1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="boldChoice1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="boldChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="boldChoice1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
-  </data>
-  <data name="boldChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="boldChoice1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>406, 32</value>
-  </data>
-  <data name="boldChoice1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 33</value>
-  </data>
-  <data name="boldChoice1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="boldChoice1.Text" xml:space="preserve">
-    <value>B</value>
-  </data>
-  <data name="&gt;&gt;boldChoice1.Name" xml:space="preserve">
-    <value>boldChoice1</value>
-  </data>
-  <data name="&gt;&gt;boldChoice1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boldChoice1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;boldChoice1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 24</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 16</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Tilte:</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="chartTitleBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 43</value>
-  </data>
-  <data name="chartTitleBox.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="xAxisTitleBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>367, 22</value>
   </data>
-  <data name="chartTitleBox.TabIndex" type="System.Int32, mscorlib">
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="showYAxisMinorGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="seriesPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 301</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;chartTitleBox.Name" xml:space="preserve">
-    <value>chartTitleBox</value>
-  </data>
-  <data name="&gt;&gt;chartTitleBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;chartTitleBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;chartTitleBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="textSize1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>475, 43</value>
-  </data>
-  <data name="textSize1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 22</value>
-  </data>
-  <data name="textSize1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textSize1.Name" xml:space="preserve">
-    <value>textSize1</value>
-  </data>
-  <data name="&gt;&gt;textSize1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textSize1.Parent" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;textSize1.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 20</value>
-  </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 77</value>
-  </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Chart</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>genralPage</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="regularChoice3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="regularChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="regularChoice3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="regularChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="regularChoice3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>377, 14</value>
+  <data name="regularChoice2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="regularChoice3.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 33</value>
   </data>
-  <data name="regularChoice3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Line style:</value>
   </data>
-  <data name="regularChoice3.Text" xml:space="preserve">
-    <value>R</value>
-  </data>
-  <data name="&gt;&gt;regularChoice3.Name" xml:space="preserve">
-    <value>regularChoice3</value>
-  </data>
-  <data name="&gt;&gt;regularChoice3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;regularChoice3.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;regularChoice3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="yAxisTitleBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 28</value>
-  </data>
-  <data name="yAxisTitleBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>368, 22</value>
-  </data>
-  <data name="yAxisTitleBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;yAxisTitleBox.Name" xml:space="preserve">
-    <value>yAxisTitleBox</value>
-  </data>
-  <data name="&gt;&gt;yAxisTitleBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;yAxisTitleBox.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;yAxisTitleBox.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="textSize3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>470, 25</value>
-  </data>
-  <data name="textSize3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 22</value>
-  </data>
-  <data name="textSize3.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textSize3.Name" xml:space="preserve">
-    <value>textSize3</value>
-  </data>
-  <data name="&gt;&gt;textSize3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textSize3.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;textSize3.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="underlineChoice3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="underlineChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="underlineChoice3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Underline</value>
-  </data>
-  <data name="underlineChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="underlineChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="underlineChoice3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 14</value>
-  </data>
-  <data name="underlineChoice3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 33</value>
-  </data>
-  <data name="underlineChoice3.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="underlineChoice3.Text" xml:space="preserve">
-    <value>U</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice3.Name" xml:space="preserve">
-    <value>underlineChoice3</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice3.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 9</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 16</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Y axis tilte:</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;regularChoice1.Name" xml:space="preserve">
+    <value>regularChoice1</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="underlineChoice1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Underline</value>
+  </data>
+  <data name="&gt;&gt;xAxisTitleBox.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="boldChoice3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="regularChoice1.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 46</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="showGrid.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="boldChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="boldChoice3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
-  </data>
-  <data name="boldChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="boldChoice3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>401, 14</value>
-  </data>
-  <data name="boldChoice3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 33</value>
   </data>
   <data name="boldChoice3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="boldChoice3.Text" xml:space="preserve">
+  <data name="&gt;&gt;underlineChoice3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="chartTitleBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 22</value>
+  </data>
+  <data name="regularChoice3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boldChoice1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>620, 330</value>
+  </data>
+  <data name="&gt;&gt;boldChoice2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="xAxisMinorGridStyle.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;seriesPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="showXAxisMajorGrid.Text" xml:space="preserve">
+    <value>Show major grid</value>
+  </data>
+  <data name="boldChoice2.Text" xml:space="preserve">
     <value>B</value>
   </data>
-  <data name="&gt;&gt;boldChoice3.Name" xml:space="preserve">
-    <value>boldChoice3</value>
+  <data name="italicChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;boldChoice3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boldChoice3.Parent" xml:space="preserve">
-    <value>panel2</value>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>574, 125</value>
   </data>
   <data name="&gt;&gt;boldChoice3.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="italicChoice3.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 9</value>
+  </data>
+  <data name="underlineChoice3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="italicChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
+  <data name="&gt;&gt;boldChoice2.Name" xml:space="preserve">
+    <value>boldChoice2</value>
   </data>
-  <data name="italicChoice3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;showYAxisMinorGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="boldChoice1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="&gt;&gt;italicChoice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textSize1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yAxisTitleBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 28</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="boldChoice3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="italicChoice1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Italic</value>
   </data>
-  <data name="italicChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="&gt;&gt;chartTitleBox.Name" xml:space="preserve">
+    <value>chartTitleBox</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="underlineChoice3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 14</value>
+  </data>
+  <data name="genralPage.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="seriesPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>574, 77</value>
+  </data>
+  <data name="&gt;&gt;showGrid.Parent" xml:space="preserve">
+    <value>gridPage</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;yAxisMajorGridStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showYAxisMajorGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 28</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>X axis tilte:</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>620, 51</value>
+  </data>
+  <data name="&gt;&gt;boldChoice3.Name" xml:space="preserve">
+    <value>boldChoice3</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice3.Name" xml:space="preserve">
+    <value>underlineChoice3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Setup chart style</value>
+  </data>
+  <data name="cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 30</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="gridPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="xAxisMajorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Line style:</value>
+  </data>
+  <data name="showYAxisMajorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="italicChoice3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>425, 14</value>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="italicChoice3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 33</value>
+  <data name="textSize3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 22</value>
   </data>
-  <data name="italicChoice3.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 330</value>
   </data>
-  <data name="italicChoice3.Text" xml:space="preserve">
-    <value>I</value>
+  <data name="&gt;&gt;xAxisMinorGridStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;italicChoice3.Name" xml:space="preserve">
-    <value>italicChoice3</value>
+  <data name="xAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 56</value>
   </data>
-  <data name="&gt;&gt;italicChoice3.Type" xml:space="preserve">
+  <data name="&gt;&gt;boldChoice1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="showXAxisMinorGrid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;xAxisMajorGridStyle.Name" xml:space="preserve">
+    <value>xAxisMajorGridStyle</value>
+  </data>
+  <data name="textSize2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 43</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>515, 94</value>
+  </data>
+  <data name="cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="showYAxisMajorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yAxisTitleBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="regularChoice1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="underlineChoice1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;apply.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;xAxisMajorGridStyle.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;yAxisMinorGridStyle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>515, 94</value>
+  </data>
+  <data name="&gt;&gt;chartTitleBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showXAxisMinorGrid.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;boldChoice1.Name" xml:space="preserve">
+    <value>boldChoice1</value>
+  </data>
+  <data name="&gt;&gt;gridPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="underlineChoice3.Text" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;cancel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="&gt;&gt;italicChoice1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;yAxisMinorGridStyle.Name" xml:space="preserve">
+    <value>yAxisMinorGridStyle</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textSize1.Name" xml:space="preserve">
+    <value>textSize1</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="showYAxisMajorGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="boldChoice2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 32</value>
+  </data>
+  <data name="chartTitleBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 43</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="genralPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="boldChoice1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 32</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice1.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;italicChoice3.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="&gt;&gt;italicChoice3.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 66</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>506, 53</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="regularChoice2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="regularChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="regularChoice2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="regularChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="underlineChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="regularChoice2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 32</value>
-  </data>
-  <data name="regularChoice2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="underlineChoice1.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 33</value>
-  </data>
-  <data name="regularChoice2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="regularChoice2.Text" xml:space="preserve">
-    <value>R</value>
-  </data>
-  <data name="&gt;&gt;regularChoice2.Name" xml:space="preserve">
-    <value>regularChoice2</value>
-  </data>
-  <data name="&gt;&gt;regularChoice2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;regularChoice2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;regularChoice2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 24</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 16</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>X axis tilte:</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="underlineChoice2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="underlineChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="underlineChoice2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Underline</value>
-  </data>
-  <data name="underlineChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="underlineChoice2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>447, 32</value>
-  </data>
-  <data name="underlineChoice2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 33</value>
-  </data>
-  <data name="underlineChoice2.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="underlineChoice2.Text" xml:space="preserve">
-    <value>U</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice2.Name" xml:space="preserve">
-    <value>underlineChoice2</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;underlineChoice2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="xAxisTitleBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 43</value>
-  </data>
-  <data name="xAxisTitleBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>367, 22</value>
-  </data>
-  <data name="xAxisTitleBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;xAxisTitleBox.Name" xml:space="preserve">
-    <value>xAxisTitleBox</value>
-  </data>
-  <data name="&gt;&gt;xAxisTitleBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;xAxisTitleBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;xAxisTitleBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="italicChoice2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="italicChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="italicChoice2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Italic</value>
-  </data>
-  <data name="italicChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="italicChoice2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 32</value>
-  </data>
-  <data name="italicChoice2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>15, 33</value>
-  </data>
-  <data name="italicChoice2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="italicChoice2.Text" xml:space="preserve">
-    <value>I</value>
-  </data>
-  <data name="&gt;&gt;italicChoice2.Name" xml:space="preserve">
-    <value>italicChoice2</value>
-  </data>
-  <data name="&gt;&gt;italicChoice2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;italicChoice2.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;italicChoice2.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="boldChoice2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="boldChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="boldChoice2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
-  </data>
-  <data name="boldChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="boldChoice2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>406, 32</value>
-  </data>
-  <data name="boldChoice2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 33</value>
-  </data>
-  <data name="boldChoice2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="boldChoice2.Text" xml:space="preserve">
-    <value>B</value>
-  </data>
-  <data name="&gt;&gt;boldChoice2.Name" xml:space="preserve">
-    <value>boldChoice2</value>
-  </data>
-  <data name="&gt;&gt;boldChoice2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;boldChoice2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;boldChoice2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="textSize2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>475, 43</value>
-  </data>
-  <data name="textSize2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 22</value>
-  </data>
-  <data name="textSize2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textSize2.Name" xml:space="preserve">
-    <value>textSize2</value>
-  </data>
-  <data name="&gt;&gt;textSize2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textSize2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;textSize2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 103</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 125</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Axis</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>genralPage</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="genralPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="genralPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="genralPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>612, 301</value>
-  </data>
-  <data name="genralPage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="genralPage.Text" xml:space="preserve">
-    <value>General</value>
-  </data>
-  <data name="&gt;&gt;genralPage.Name" xml:space="preserve">
-    <value>genralPage</value>
-  </data>
-  <data name="&gt;&gt;genralPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;genralPage.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;genralPage.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
   </data>
   <data name="yAxisMinorGridStyle.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="yAxisMinorGridStyle.Items" xml:space="preserve">
-    <value>Solid</value>
+  <data name="regularChoice1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="yAxisMinorGridStyle.Items1" xml:space="preserve">
-    <value>Dash</value>
-  </data>
-  <data name="yAxisMinorGridStyle.Items2" xml:space="preserve">
-    <value>Dot</value>
-  </data>
-  <data name="yAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 56</value>
-  </data>
-  <data name="yAxisMinorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 24</value>
-  </data>
-  <data name="yAxisMinorGridStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;yAxisMinorGridStyle.Name" xml:space="preserve">
-    <value>yAxisMinorGridStyle</value>
-  </data>
-  <data name="&gt;&gt;yAxisMinorGridStyle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;yAxisMinorGridStyle.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;yAxisMinorGridStyle.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;cancel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="boldChoice1.Text" xml:space="preserve">
+    <value>B</value>
   </data>
-  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 60</value>
-  </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 16</value>
-  </data>
-  <data name="label7.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Line style:</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="yAxisMajorGridStyle.Items" xml:space="preserve">
-    <value>Solid</value>
-  </data>
-  <data name="yAxisMajorGridStyle.Items1" xml:space="preserve">
-    <value>Dash</value>
-  </data>
-  <data name="yAxisMajorGridStyle.Items2" xml:space="preserve">
-    <value>Dot</value>
-  </data>
-  <data name="yAxisMajorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 26</value>
-  </data>
-  <data name="yAxisMajorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 24</value>
+  <data name="italicChoice3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 14</value>
   </data>
   <data name="yAxisMajorGridStyle.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;yAxisMajorGridStyle.Name" xml:space="preserve">
-    <value>yAxisMajorGridStyle</value>
+  <data name="&gt;&gt;showXAxisMajorGrid.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;yAxisMajorGridStyle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="yAxisMajorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 26</value>
   </data>
-  <data name="&gt;&gt;yAxisMajorGridStyle.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;yAxisMajorGridStyle.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="showYAxisMinorGrid.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="showYAxisMinorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="showYAxisMinorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="showYAxisMinorGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 58</value>
-  </data>
-  <data name="showYAxisMinorGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 20</value>
-  </data>
-  <data name="showYAxisMinorGrid.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="showYAxisMinorGrid.Text" xml:space="preserve">
-    <value>Show minor grid</value>
-  </data>
-  <data name="&gt;&gt;showYAxisMinorGrid.Name" xml:space="preserve">
-    <value>showYAxisMinorGrid</value>
-  </data>
-  <data name="&gt;&gt;showYAxisMinorGrid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;showYAxisMinorGrid.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;showYAxisMinorGrid.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="showYAxisMajorGrid.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="showYAxisMajorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="showYAxisMajorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="showYAxisMajorGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 28</value>
-  </data>
-  <data name="showYAxisMajorGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 20</value>
-  </data>
-  <data name="showYAxisMajorGrid.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="showYAxisMajorGrid.Text" xml:space="preserve">
-    <value>Show major grid</value>
-  </data>
-  <data name="&gt;&gt;showYAxisMajorGrid.Name" xml:space="preserve">
-    <value>showYAxisMajorGrid</value>
+  <data name="&gt;&gt;xAxisTitleBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;showYAxisMajorGrid.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;showYAxisMajorGrid.Parent" xml:space="preserve">
-    <value>groupBox4</value>
+  <data name="italicChoice2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Italic</value>
   </data>
-  <data name="&gt;&gt;showYAxisMajorGrid.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;italicChoice3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 30</value>
-  </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 16</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Line style:</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 146</value>
-  </data>
-  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>515, 94</value>
-  </data>
-  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>Y axis</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
-    <value>groupBox4</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
-    <value>gridPage</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="xAxisMinorGridStyle.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="xAxisMinorGridStyle.Items" xml:space="preserve">
-    <value>Solid</value>
-  </data>
-  <data name="xAxisMinorGridStyle.Items1" xml:space="preserve">
-    <value>Dash</value>
-  </data>
-  <data name="xAxisMinorGridStyle.Items2" xml:space="preserve">
-    <value>Dot</value>
-  </data>
-  <data name="xAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 56</value>
-  </data>
-  <data name="xAxisMinorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 24</value>
-  </data>
-  <data name="xAxisMinorGridStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;xAxisMinorGridStyle.Name" xml:space="preserve">
-    <value>xAxisMinorGridStyle</value>
-  </data>
-  <data name="&gt;&gt;xAxisMinorGridStyle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;xAxisMinorGridStyle.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;xAxisMinorGridStyle.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="regularChoice2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 32</value>
   </data>
   <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 60</value>
-  </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 16</value>
-  </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Line style:</value>
-  </data>
-  <data name="&gt;&gt;label6.Name" xml:space="preserve">
-    <value>label6</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;yAxisTitleBox.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="showXAxisMinorGrid.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="showXAxisMinorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="showXAxisMinorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="showXAxisMinorGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 58</value>
-  </data>
-  <data name="showXAxisMinorGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 20</value>
-  </data>
-  <data name="showXAxisMinorGrid.TabIndex" type="System.Int32, mscorlib">
+  <data name="boldChoice1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="showXAxisMinorGrid.Text" xml:space="preserve">
-    <value>Show minor grid</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;showXAxisMinorGrid.Name" xml:space="preserve">
-    <value>showXAxisMinorGrid</value>
+  <data name="&gt;&gt;showYAxisMajorGrid.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="italicChoice2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;showYAxisMinorGrid.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;genralPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textSize2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;showGrid.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textSize3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="showYAxisMinorGrid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="regularChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="underlineChoice2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="yAxisMinorGridStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="italicChoice3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Italic</value>
+  </data>
+  <data name="yAxisMinorGridStyle.Items1" xml:space="preserve">
+    <value>Dash</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textSize1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 22</value>
+  </data>
+  <data name="&gt;&gt;regularChoice2.Name" xml:space="preserve">
+    <value>regularChoice2</value>
+  </data>
+  <data name="italicChoice1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 33</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;textSize3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="xAxisMinorGridStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="regularChoice2.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="boldChoice2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showYAxisMajorGrid.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="genralPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
   </data>
   <data name="&gt;&gt;showXAxisMinorGrid.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;showXAxisMinorGrid.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;showXAxisMinorGrid.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="xAxisMajorGridStyle.Items" xml:space="preserve">
-    <value>Solid</value>
-  </data>
-  <data name="xAxisMajorGridStyle.Items1" xml:space="preserve">
-    <value>Dash</value>
-  </data>
-  <data name="xAxisMajorGridStyle.Items2" xml:space="preserve">
-    <value>Dot</value>
-  </data>
-  <data name="xAxisMajorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 26</value>
-  </data>
-  <data name="xAxisMajorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 24</value>
-  </data>
-  <data name="xAxisMajorGridStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;xAxisMajorGridStyle.Name" xml:space="preserve">
-    <value>xAxisMajorGridStyle</value>
-  </data>
-  <data name="&gt;&gt;xAxisMajorGridStyle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;xAxisMajorGridStyle.Parent" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;xAxisMajorGridStyle.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="showXAxisMajorGrid.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="showXAxisMajorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="showXAxisMajorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="showXAxisMajorGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 28</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
   </data>
-  <data name="showXAxisMajorGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 20</value>
+  <data name="&gt;&gt;xAxisTitleBox.Name" xml:space="preserve">
+    <value>xAxisTitleBox</value>
   </data>
-  <data name="showXAxisMajorGrid.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
   </data>
-  <data name="showXAxisMajorGrid.Text" xml:space="preserve">
-    <value>Show major grid</value>
+  <data name="boldChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 60</value>
+  </data>
+  <data name="showYAxisMinorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;textSize3.Name" xml:space="preserve">
+    <value>textSize3</value>
+  </data>
+  <data name="regularChoice3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>genralPage</value>
+  </data>
+  <data name="&gt;&gt;italicChoice1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;showXAxisMajorGrid.Name" xml:space="preserve">
     <value>showXAxisMajorGrid</value>
   </data>
-  <data name="&gt;&gt;showXAxisMajorGrid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="underlineChoice2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;showXAxisMajorGrid.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAAAAAAAAAAAAAAAAAAAA
+        AABMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANXV
+        1Qbb2M6I3NjP5dzYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP5dvY
+        zojV1dUGTHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHANvYzojc2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//b19CHTHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHANzYz+Xc2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M/kTHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//THBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//THBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NPC/9y4gf/crmr/3MKb/9zY
+        z//c2M//3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c0Lz/259E/9uY
+        NP/bmDT/25g0/9zAlv/c2M//3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//brmj/25g0/9uYNP/bmDT/25g0/9uqYP/c2M//3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zQvf/bmTb/25g0/9uYNP/bmDT/25g0/9ugRv/c2M//3NjP/9zYz//c2M//THBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9y+kv/bmDT/25g0/9uYNP/bmDT/25g0/9uZNv/c183/3NjP/9zY
+        z//c2M//THBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9uycf/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/c0sH/3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9uoXP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/czbb/3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9uf
+        Rv/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/cyKr/3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NfL/9uZNv/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/cw5z/3NjP/9zYz//c2M//THBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3M+5/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bvpD/3NjP/9zY
+        z//c2M//THBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3Mek/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/buYP/3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3L2N/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bs3X/3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3K1m/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bq2P/3NjP/9zYz//c2M//THBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHANzYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c183/251A/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bo1D/3NjP/9zYz//c2M//THBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB6blT/em5U/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//bx6b/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmzz/3NjO/9zY
+        z//c2M//em5U/3puVP9McEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwB6blT/em5U/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c08T/3Mqt/9zU
+        xv/c2M//3NjP/9zYz//c2M//3NjP/9zXzf/cqFr/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/3M+6/9zYz//c2M//em5U/3puVP9McEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwB6blT/em5U/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//c2M//3NjO/9y2
+        ff/bmjn/25g0/9ubOf/ctXv/3NPD/9zYz//c2M//3NjP/9y2fP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/3MOb/9zYz//c2M//em5U/3puVP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB6blT/em5U/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zY
+        z//c2M//276Q/9uYNP/bmDT/25g0/9uYNP/bmDT/25o6/9ywb//cuYT/26hc/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/3LZ8/9zYz//c2M//em5U/3puVP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB6blT/em5U/9zYz//c2M//3NjP/9zY
+        z//c2M//3NjP/9zYz//c183/259E/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/26RT/9zYz//c2M//em5U/3pu
+        VP9McEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB6blT/em5U/9zY
+        z//c2M//3NjP/9zYz//c2M//3NjP/9zYz//bxaH/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9zP
+        uP/c2M//em5U/3puVP9McEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwB6blT/em5U/9zYz//c2M//3NjP/9zYz//c2M//3NjP/9zYz//cq2L/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9u4g//c2M//em5U/3puVP9McEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwB6blT6em5U/9rWzf/c2M//3NjP/9zYz//c2M//3NjP/9vFoP/bmDX/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9ueQv/a08X/em5U/3puVPpMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB6blTtem5U/9XQxv/c2M//3NjP/9zYzv/c0Lz/3LqF/9ua
+        Of/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/UrG//em5U/3puVOxMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB6blTPem5U/3ttVTZMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB5cFU5em5U/3tu
+        VMxMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB7blOiem5U/3tv
+        VGpMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwB7b1Vsem5U/3tuVKBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwB5blRhem5U/3tuVLNMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwB6b1S2em5U/3pvVF5McEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwCAaFEWem5U+npuVPp6cFIZTHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAHZsWBp6blT7em5U+YBzWRRMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcAem5UqnpuVP96blSUTHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAHpvU5Z6blT/eW1TqExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcAfWxVLXpuVP16blT8d21RL0xw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcAenBVMHpuVPx6blT+d21RL0xw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAHpt
+        VKF6blT/em5UxYCAVQZMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBtbUkHem5Vx3pu
+        VP96blSdTHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAIBxVRJ6blTkem5U/3lvVKaAgIACTHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAICA
+        gAJ5bVOoem5U/3ptU+J4aVoRTHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB7bVI4em5U+HpuVP95b1SRgICAAkxwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcAgICAAnpuVJJ6blT/em5U93hvUjVMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcAeG5VSHpuVPh6blT/eW9UvXpv
+        WRdMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwB5a1ETem9UtnpuVP96blT5e21TTUxwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAHht
+        VEZ6blTxem5U/3puVOF5b1VOAAAAAUxwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcAAAAAAXtuVE96blThem5U/3puVO96b1VFTHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwB5bFMoe25UzHpuVP96blT/e25UzHtuVE+AgEAETHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAICAQAR7blRPem1VzXpuVP96blT/em5VynlrVyZMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcAZmZmBXpvVHN6blTvem5U/3puVP96blTvem5Uqnlu
+        VGF6cFIygHNZFICAQARmZmYFgHNZFHpwUjJ5blRhem5UqnpuVO96blT/em5U/3puVO57bVRwZmZmBUxw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwB3ZlUPem1VdXpu
+        VNp6blT/em5U/3puVP96blT/em5U/3puVP96blT/em5U/3puVP96blT/em5U/3puVP96blPZem9Uc4Bt
+        Ww5McEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwB6cFIyem9Uc3puVax6blTRem5U7XpuVPt6blT7em5U7XpuVNF6blSre25Vcnpw
+        VTBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwD///////8AAP///////wAA/wAAAAD/
+        AAD/AAAAAP8AAP8AAAAA/wAA/wAAAAD/AAD/AAAAAP8AAP8AAAAA/wAA/wAAAAD/AAD/AAAAAP8AAP8A
+        AAAA/wAA/wAAAAD/AAD/AAAAAP8AAP8AAAAA/wAA/wAAAAD/AAD/AAAAAP8AAP8AAAAA/wAA/wAAAAD/
+        AAD/AAAAAP8AAP8AAAAA/wAA/wAAAAD/AAD/AAAAAP8AAPwAAAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwA
+        AAAAPwAA/AAAAAA/AAD8AAAAAD8AAPwAAAAAPwAA/AAAAAA/AAD8AAAAAD8AAPx////+PwAA/H////4/
+        AAD8f////j8AAPw////8PwAA/j////x/AAD+H///+H8AAP8P///w/wAA/wf//+D/AAD/g///wf8AAP/B
+        //+D/wAA/+B//gf/AAD/8B/4D/8AAP/4AAAf/wAA//4AAH//AAD//8AD//8AAP///////wAA////////
+        AAA=
+</value>
   </data>
-  <data name="&gt;&gt;showXAxisMajorGrid.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="boldChoice3.Text" xml:space="preserve">
+    <value>B</value>
   </data>
-  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 30</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 16</value>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Line style:</value>
-  </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 46</value>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>515, 94</value>
+  <data name="xAxisMajorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 26</value>
   </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="textSize1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tilte:</value>
+  </data>
+  <data name="boldChoice2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="apply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 30</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="boldChoice1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 103</value>
+  </data>
+  <data name="italicChoice1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 32</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 53</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;xAxisTitleBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Line style:</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;regularChoice1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;apply.Name" xml:space="preserve">
+    <value>apply</value>
+  </data>
+  <data name="showYAxisMajorGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;yAxisMajorGridStyle.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;yAxisTitleBox.Name" xml:space="preserve">
+    <value>yAxisTitleBox</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 30</value>
+  </data>
+  <data name="&gt;&gt;regularChoice2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;gridPage.Name" xml:space="preserve">
+    <value>gridPage</value>
+  </data>
+  <data name="showGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>gridPage</value>
+  </data>
+  <data name="italicChoice2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 32</value>
+  </data>
+  <data name="regularChoice3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="underlineChoice2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 32</value>
+  </data>
+  <data name="italicChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 60</value>
+  </data>
+  <data name="regularChoice2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="regularChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="genralPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="regularChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="italicChoice1.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="&gt;&gt;regularChoice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="italicChoice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 33</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 30</value>
+  </data>
+  <data name="boldChoice3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="textSize3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;italicChoice3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="underlineChoice1.Text" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="regularChoice2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;genralPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textSize1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;showXAxisMinorGrid.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;italicChoice1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;showXAxisMajorGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="italicChoice3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 33</value>
+  </data>
+  <data name="regularChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="italicChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="regularChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="showYAxisMinorGrid.Text" xml:space="preserve">
+    <value>Show minor grid</value>
+  </data>
+  <data name="underlineChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>gridPage</value>
+  </data>
+  <data name="italicChoice3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="underlineChoice2.Text" xml:space="preserve">
+    <value>U</value>
+  </data>
+  <data name="underlineChoice1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>genralPage</value>
+  </data>
+  <data name="&gt;&gt;textSize1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="underlineChoice3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Underline</value>
+  </data>
+  <data name="underlineChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 66</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Line style:</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;boldChoice2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="showXAxisMajorGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 28</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="regularChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="boldChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="showXAxisMinorGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 58</value>
+  </data>
+  <data name="&gt;&gt;xAxisMajorGridStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xAxisMajorGridStyle.Items1" xml:space="preserve">
+    <value>Dash</value>
+  </data>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="boldChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="yAxisMajorGridStyle.Items2" xml:space="preserve">
+    <value>Dot</value>
+  </data>
+  <data name="apply.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;italicChoice2.Name" xml:space="preserve">
+    <value>italicChoice2</value>
+  </data>
+  <data name="&gt;&gt;seriesPage.Name" xml:space="preserve">
+    <value>seriesPage</value>
+  </data>
+  <data name="showGrid.Text" xml:space="preserve">
+    <value>Show grid</value>
+  </data>
+  <data name="&gt;&gt;boldChoice3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="regularChoice1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="showXAxisMinorGrid.Text" xml:space="preserve">
+    <value>Show minor grid</value>
+  </data>
+  <data name="regularChoice3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 14</value>
+  </data>
+  <data name="xAxisMinorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="showXAxisMajorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="italicChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;showXAxisMajorGrid.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;boldChoice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yAxisMinorGridStyle.Items" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="chartTitleBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="seriesPage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;apply.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xAxisMinorGridStyle.Items2" xml:space="preserve">
+    <value>Dot</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ChartStyleDialog</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="yAxisMajorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="underlineChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="regularChoice3.Text" xml:space="preserve">
+    <value>R</value>
+  </data>
+  <data name="xAxisTitleBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;regularChoice3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textSize2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="&gt;&gt;boldChoice3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="xAxisMinorGridStyle.Items" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="&gt;&gt;regularChoice2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="xAxisMajorGridStyle.Items2" xml:space="preserve">
+    <value>Dot</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;boldChoice1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;seriesPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice2.Name" xml:space="preserve">
+    <value>underlineChoice2</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 9</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;yAxisMinorGridStyle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="italicChoice3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="&gt;&gt;textSize2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Chart</value>
+  </data>
+  <data name="&gt;&gt;italicChoice1.Name" xml:space="preserve">
+    <value>italicChoice1</value>
+  </data>
+  <data name="&gt;&gt;xAxisMajorGridStyle.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;chartTitleBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="xAxisMinorGridStyle.Items1" xml:space="preserve">
+    <value>Dash</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice1.Name" xml:space="preserve">
+    <value>underlineChoice1</value>
+  </data>
+  <data name="&gt;&gt;yAxisMinorGridStyle.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;underlineChoice2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chartTitleBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="showXAxisMinorGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="boldChoice3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 14</value>
+  </data>
+  <data name="italicChoice1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="italicChoice1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;boldChoice1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gridPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="showYAxisMajorGrid.Text" xml:space="preserve">
+    <value>Show major grid</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;xAxisMinorGridStyle.Name" xml:space="preserve">
+    <value>xAxisMinorGridStyle</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>X axis</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>gridPage</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="showGrid.AutoSize" type="System.Boolean, mscorlib">
+  <data name="regularChoice1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="showGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="&gt;&gt;textSize2.Name" xml:space="preserve">
+    <value>textSize2</value>
   </data>
-  <data name="showGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="italicChoice2.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="underlineChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="showGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 20</value>
-  </data>
-  <data name="showGrid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 20</value>
-  </data>
-  <data name="showGrid.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="showGrid.Text" xml:space="preserve">
-    <value>Show grid</value>
-  </data>
-  <data name="&gt;&gt;showGrid.Name" xml:space="preserve">
-    <value>showGrid</value>
-  </data>
-  <data name="&gt;&gt;showGrid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;showGrid.Parent" xml:space="preserve">
-    <value>gridPage</value>
-  </data>
-  <data name="&gt;&gt;showGrid.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="gridPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="gridPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>612, 301</value>
-  </data>
-  <data name="gridPage.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="gridPage.Text" xml:space="preserve">
-    <value>Grid</value>
-  </data>
-  <data name="&gt;&gt;gridPage.Name" xml:space="preserve">
-    <value>gridPage</value>
-  </data>
-  <data name="&gt;&gt;gridPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gridPage.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;gridPage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="seriesPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
-  </data>
-  <data name="seriesPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="seriesPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>612, 301</value>
-  </data>
-  <data name="seriesPage.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="seriesPage.Text" xml:space="preserve">
-    <value>Series</value>
-  </data>
-  <data name="&gt;&gt;seriesPage.Name" xml:space="preserve">
-    <value>seriesPage</value>
-  </data>
-  <data name="&gt;&gt;seriesPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;seriesPage.Parent" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;seriesPage.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>620, 330</value>
-  </data>
-  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
-    <value>tabControl</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="cancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>533, 9</value>
-  </data>
-  <data name="cancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 30</value>
-  </data>
-  <data name="cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="cancel.Text" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="&gt;&gt;cancel.Name" xml:space="preserve">
-    <value>cancel</value>
-  </data>
-  <data name="&gt;&gt;cancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cancel.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;cancel.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="apply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
-  <data name="apply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="apply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>452, 9</value>
+  <data name="regularChoice1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 32</value>
   </data>
-  <data name="apply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 30</value>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Y axis</value>
   </data>
-  <data name="apply.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="seriesPage.Text" xml:space="preserve">
+    <value>Series</value>
   </data>
-  <data name="apply.Text" xml:space="preserve">
-    <value>Apply</value>
+  <data name="yAxisMajorGridStyle.Items1" xml:space="preserve">
+    <value>Dash</value>
   </data>
-  <data name="&gt;&gt;apply.Name" xml:space="preserve">
-    <value>apply</value>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;apply.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Y axis tilte:</value>
   </data>
-  <data name="&gt;&gt;apply.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="showYAxisMajorGrid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;apply.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="xAxisTitleBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 43</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 330</value>
+  <data name="yAxisTitleBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 22</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>620, 51</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="seriesPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
   </data>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="italicChoice3.Text" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="showYAxisMinorGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 20</value>
+  </data>
+  <data name="underlineChoice3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;showYAxisMinorGrid.Name" xml:space="preserve">
+    <value>showYAxisMinorGrid</value>
+  </data>
+  <data name="boldChoice3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gridPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 301</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 20</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="apply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>452, 9</value>
+  </data>
+  <data name="showXAxisMinorGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="textSize1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 43</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showXAxisMinorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="underlineChoice1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 32</value>
+  </data>
+  <data name="&gt;&gt;yAxisMajorGridStyle.Name" xml:space="preserve">
+    <value>yAxisMajorGridStyle</value>
+  </data>
+  <data name="underlineChoice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="&gt;&gt;showGrid.Name" xml:space="preserve">
+    <value>showGrid</value>
+  </data>
+  <data name="showXAxisMajorGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
+    <value>colorDialog</value>
+  </data>
+  <data name="&gt;&gt;regularChoice1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="showXAxisMinorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;xAxisMinorGridStyle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textSize2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;regularChoice1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>620, 381</value>
+  </data>
+  <data name="&gt;&gt;cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showXAxisMajorGrid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 146</value>
+  </data>
+  <data name="showGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;showYAxisMinorGrid.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textSize2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 22</value>
+  </data>
+  <data name="&gt;&gt;textSize3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showXAxisMinorGrid.Name" xml:space="preserve">
+    <value>showXAxisMinorGrid</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;showGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="yAxisTitleBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;genralPage.Name" xml:space="preserve">
+    <value>genralPage</value>
+  </data>
+  <data name="&gt;&gt;regularChoice3.Name" xml:space="preserve">
+    <value>regularChoice3</value>
+  </data>
+  <data name="underlineChoice3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="yAxisMinorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="showYAxisMinorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="boldChoice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="&gt;&gt;seriesPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;regularChoice3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textSize3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>470, 25</value>
+  </data>
+  <data name="boldChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="underlineChoice2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Underline</value>
+  </data>
+  <data name="&gt;&gt;italicChoice2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="showXAxisMajorGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="&gt;&gt;gridPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;genralPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;apply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="regularChoice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 33</value>
+  </data>
+  <data name="&gt;&gt;yAxisTitleBox.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="yAxisMinorGridStyle.Items2" xml:space="preserve">
+    <value>Dot</value>
+  </data>
+  <data name="xAxisMajorGridStyle.Items" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="&gt;&gt;yAxisMajorGridStyle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="boldChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;italicChoice3.Name" xml:space="preserve">
+    <value>italicChoice3</value>
+  </data>
+  <data name="xAxisMajorGridStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showXAxisMajorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="showYAxisMinorGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 58</value>
+  </data>
+  <data name="&gt;&gt;regularChoice3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="yAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 56</value>
+  </data>
+  <data name="italicChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="apply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;cancel.Name" xml:space="preserve">
+    <value>cancel</value>
+  </data>
+  <data name="&gt;&gt;xAxisMinorGridStyle.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="boldChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="showGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="apply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="genralPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 301</value>
+  </data>
+  <data name="yAxisMajorGridStyle.Items" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="italicChoice2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;showYAxisMajorGrid.Name" xml:space="preserve">
+    <value>showYAxisMajorGrid</value>
+  </data>
+  <data name="gridPage.Text" xml:space="preserve">
+    <value>Grid</value>
+  </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 16</value>
   </data>
   <metadata name="colorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -1488,110 +1684,7 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>620, 381</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
-  </data>
-  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
-        AAC/SgCvy1oP/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89f
-        Ff/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89fFf/PXxX/z18V/89f
-        Ff/LWg//v0oAr8dVCv//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/HVQr/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/bbyT/z18V/9NkGv/7mE7//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/zjkT/95NJ//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/845E/79LAP+/SwD/v0sA/+N5L///nlT//55U//+eVP//nlT//55U//+eVP//nlT/12of/79L
-        AP+/SwD/33Qq//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+eVP//nlT//55U//+eVP//nlT//55U/9tv
-        JP+/SwD/v0sA/79LAP/HVQr//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79LAP/fdCr//55U//+eVP//nlT//55U//+e
-        VP/nfjT/v0sA/79LAP+/SwD/v0sA/+N5L///nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89f
-        Ff//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/990Kv//nlT//55U//+e
-        VP//nlT/5340/79LAP+/SwD/v0sA/79LAP/fdCr//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+e
-        VP//nlT//55U/+uEOf+/SwD/v0sA/79LAP+/SwD/02Qa//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79L
-        AP/fdCr//55U//+eVP/zjkT/w1AF/79LAP+/SwD/v0sA/8taD//7mE7//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79L
-        AP+/SwD/v0sA/990Kv//nlT/95NJ/8NQBf+/SwD/v0sA/79LAP/DUAX/+5hO//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/viT//v0sA/79LAP+/SwD/33Qq//+eVP/viT//v0sA/79LAP+/SwD/w1AF//OORP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U/++JP/+/SwD/v0sA/79LAP/fdCr//55U//+eVP/DUAX/v0sA/8NQBf/zjkT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/990Kv//nlT//55U//OORP/fdCr/64Q5//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/89f
-        Ff/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79LAP/DUAX/845E//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/79L
-        AP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79L
-        AP+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++J
-        P/+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/74k//79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/02Qa/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79LAP/fdCr/845E/8NQBf+/SwD/v0sA/79L
-        AP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89f
-        Ff//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79LAP+/SwD/v0sA/990Kv//nlT/845E/8NQ
-        Bf+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/viT//v0sA/79LAP+/SwD/33Qq//+e
-        VP//nlT/845E/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+eVP//nlT//55U/++JP/+/SwD/v0sA/79L
-        AP/fdCr//55U//+eVP//nlT/845E/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+eVP//nlT//55U//+eVP//nlT/74k//79L
-        AP+/SwD/v0sA/990Kv//nlT//55U//+eVP//nlT/845E/8NQBf+/SwD/v0sA/79LAP/DUAX/845E//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP/viT//v0sA/79LAP+/SwD/33Qq//+eVP//nlT//55U//+eVP//nlT/845E/8NQBf+/SwD/v0sA/79L
-        AP/HVQr//55U//+eVP//nlT//55U//+eVP//nlT//55U/89fFf/PXxX//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//eTSf+/SwD/v0sA/79LAP/nfjT//55U//+eVP//nlT//55U//+eVP//nlT/845E/8NQ
-        Bf+/SwD/v0sA/8dVCv//nlT//55U//+eVP//nlT//55U//+eVP//nlT/z18V/89fFf//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U/9NkGv+/SwD/w1AF//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT/74k//79LAP+/SwD/43kv//+eVP//nlT//55U//+eVP//nlT//55U//+eVP/PXxX/z18V//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U/9Nk
-        Gv/DUAX/64Q5//eTSf//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+e
-        VP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//+eVP//nlT//55U//eT
-        Sf/rhDn/w1AF/79LAI+/SwC/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79L
-        AP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79LAP+/SwD/v0sA/79L
-        AP+/SwD/v0sA/79LAL+/SwCPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
-</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Hello world</value>
-  </data>
-  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
-    <value>colorDialog</value>
-  </data>
-  <data name="&gt;&gt;colorDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>ChartStyleDialog</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru-RU</value>
+  </metadata>
 </root>

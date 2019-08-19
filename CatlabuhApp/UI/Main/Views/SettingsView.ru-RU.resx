@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="languageBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 130</value>
+    <value>78, 153</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 16</value>
@@ -128,10 +128,10 @@
     <value>Язык:</value>
   </data>
   <data name="callFolderBrowser4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>757, 89</value>
+    <value>760, 112</value>
   </data>
   <data name="imgChartsPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 91</value>
+    <value>360, 114</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>327, 16</value>
@@ -140,10 +140,10 @@
     <value>Путь к папке с файлами изображений графиков:</value>
   </data>
   <data name="callFolderBrowser3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>757, 63</value>
+    <value>760, 86</value>
   </data>
   <data name="xlChartsPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 65</value>
+    <value>360, 88</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 16</value>
@@ -152,10 +152,10 @@
     <value>Путь к папке с файлами Excel диаграмм:</value>
   </data>
   <data name="callFolderBrowser2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>757, 37</value>
+    <value>760, 60</value>
   </data>
   <data name="xlCalcPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 39</value>
+    <value>360, 62</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>269, 16</value>
@@ -163,17 +163,357 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Путь к папке с файлами Excel расчетов:</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>797, 178</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
+  <data name="generalPage.Text" xml:space="preserve">
     <value>Общие настройки</value>
   </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 16</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Путь к файлу БД SQLite:</value>
+  </data>
+  <data name="calculationPage.Text" xml:space="preserve">
+    <value>Настройки расчёта</value>
+  </data>
+  <data name="table_3_2Group.Text" xml:space="preserve">
+    <value>Внутригодовое распределение притока грунтовых вод</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 106</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Маловодный</value>
+  </data>
+  <data name="label84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 30</value>
+  </data>
+  <data name="label84.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label84.Text" xml:space="preserve">
+    <value>Дек.</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 80</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 16</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Средневодный</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 51</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Многоводный</value>
+  </data>
+  <data name="label85.Text" xml:space="preserve">
+    <value>Ноя.</value>
+  </data>
+  <data name="label86.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 30</value>
+  </data>
+  <data name="label86.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label86.Text" xml:space="preserve">
+    <value>Окт.</value>
+  </data>
+  <data name="label87.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 30</value>
+  </data>
+  <data name="label87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label87.Text" xml:space="preserve">
+    <value>Сен.</value>
+  </data>
+  <data name="label88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 16</value>
+  </data>
+  <data name="label88.Text" xml:space="preserve">
+    <value>Авг.</value>
+  </data>
+  <data name="label89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 30</value>
+  </data>
+  <data name="label89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="label89.Text" xml:space="preserve">
+    <value>Июл.</value>
+  </data>
+  <data name="label90.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 30</value>
+  </data>
+  <data name="label90.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="label90.Text" xml:space="preserve">
+    <value>Июн.</value>
+  </data>
+  <data name="label91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label91.Text" xml:space="preserve">
+    <value>Май</value>
+  </data>
+  <data name="label92.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 30</value>
+  </data>
+  <data name="label92.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label92.Text" xml:space="preserve">
+    <value>Апр.</value>
+  </data>
+  <data name="label93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 30</value>
+  </data>
+  <data name="label93.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
+  </data>
+  <data name="label93.Text" xml:space="preserve">
+    <value>Мар.</value>
+  </data>
+  <data name="label94.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 30</value>
+  </data>
+  <data name="label94.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
+  </data>
+  <data name="label94.Text" xml:space="preserve">
+    <value>Фев.</value>
+  </data>
+  <data name="label95.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 30</value>
+  </data>
+  <data name="label95.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label95.Text" xml:space="preserve">
+    <value>Янв.</value>
+  </data>
+  <data name="table_3_1Group.Text" xml:space="preserve">
+    <value>Внутригодовое распределение поверхностного стока</value>
+  </data>
+  <data name="label59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>716, 30</value>
+  </data>
+  <data name="label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label59.Text" xml:space="preserve">
+    <value>Дек.</value>
+  </data>
+  <data name="label60.Text" xml:space="preserve">
+    <value>Ноя.</value>
+  </data>
+  <data name="label61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 30</value>
+  </data>
+  <data name="label61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label61.Text" xml:space="preserve">
+    <value>Окт.</value>
+  </data>
+  <data name="label62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 30</value>
+  </data>
+  <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label62.Text" xml:space="preserve">
+    <value>Сен.</value>
+  </data>
+  <data name="label63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 16</value>
+  </data>
+  <data name="label63.Text" xml:space="preserve">
+    <value>Авг.</value>
+  </data>
+  <data name="label74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 30</value>
+  </data>
+  <data name="label74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="label74.Text" xml:space="preserve">
+    <value>Июл.</value>
+  </data>
+  <data name="label75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 30</value>
+  </data>
+  <data name="label75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="label75.Text" xml:space="preserve">
+    <value>Июн.</value>
+  </data>
+  <data name="label76.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label76.Text" xml:space="preserve">
+    <value>Май</value>
+  </data>
+  <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 30</value>
+  </data>
+  <data name="label77.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label77.Text" xml:space="preserve">
+    <value>Апр.</value>
+  </data>
+  <data name="label78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 30</value>
+  </data>
+  <data name="label78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
+  </data>
+  <data name="label78.Text" xml:space="preserve">
+    <value>Мар.</value>
+  </data>
+  <data name="label79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 30</value>
+  </data>
+  <data name="label79.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 16</value>
+  </data>
+  <data name="label79.Text" xml:space="preserve">
+    <value>Фев.</value>
+  </data>
+  <data name="label80.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 30</value>
+  </data>
+  <data name="label80.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="label80.Text" xml:space="preserve">
+    <value>Янв.</value>
+  </data>
+  <data name="label81.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 106</value>
+  </data>
+  <data name="label81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="label81.Text" xml:space="preserve">
+    <value>Маловодный</value>
+  </data>
+  <data name="label82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 80</value>
+  </data>
+  <data name="label82.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 16</value>
+  </data>
+  <data name="label82.Text" xml:space="preserve">
+    <value>Средневодный</value>
+  </data>
+  <data name="label83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 51</value>
+  </data>
+  <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="label83.Text" xml:space="preserve">
+    <value>Многоводный</value>
+  </data>
+  <data name="SBCFunctionsPart.Text" xml:space="preserve">
+    <value>Солевой баланс расходная часть</value>
+  </data>
+  <data name="WBCFunctionsPart.Text" xml:space="preserve">
+    <value>Водный баланс расходная часть</value>
+  </data>
+  <data name="label64.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 30</value>
+  </data>
+  <data name="label64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label64.Text" xml:space="preserve">
+    <value>Окт.</value>
+  </data>
+  <data name="label65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 30</value>
+  </data>
+  <data name="label65.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label65.Text" xml:space="preserve">
+    <value>Сен.</value>
+  </data>
+  <data name="label66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 16</value>
+  </data>
+  <data name="label66.Text" xml:space="preserve">
+    <value>Авг.</value>
+  </data>
+  <data name="label67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 30</value>
+  </data>
+  <data name="label67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="label67.Text" xml:space="preserve">
+    <value>Июл.</value>
+  </data>
+  <data name="label68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 30</value>
+  </data>
+  <data name="label68.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 16</value>
+  </data>
+  <data name="label68.Text" xml:space="preserve">
+    <value>Июн.</value>
+  </data>
+  <data name="label69.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 16</value>
+  </data>
+  <data name="label69.Text" xml:space="preserve">
+    <value>Май</value>
+  </data>
+  <data name="label70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 30</value>
+  </data>
+  <data name="label70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 16</value>
+  </data>
+  <data name="label70.Text" xml:space="preserve">
+    <value>Апр.</value>
+  </data>
+  <data name="SBPFunctionsPart.Text" xml:space="preserve">
+    <value>Солевой баланс приходная часть</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="WBPFunctionsPart.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="WBPFunctionsPart.Text" xml:space="preserve">
+    <value>Водный баланс приходная часть</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="coefficientBox31.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="coefficientBox32.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="apply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1066, 659</value>
+    <value>1302, 0</value>
   </data>
   <data name="apply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 30</value>
+    <value>99, 36</value>
   </data>
   <data name="apply.Text" xml:space="preserve">
     <value>Применить</value>

@@ -34,18 +34,18 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
+            this.createNewChart = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.exportToExcel = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAsImage = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.chartStyle = new System.Windows.Forms.ToolStripButton();
             this.chart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.progressBar = new System.Windows.Forms.ToolStripProgressBar();
-            this.createNewChart = new System.Windows.Forms.ToolStripButton();
-            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.exportToExcel = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveAsImage = new System.Windows.Forms.ToolStripMenuItem();
-            this.chartStyle = new System.Windows.Forms.ToolStripButton();
             this.toolStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart)).BeginInit();
             this.statusStrip.SuspendLayout();
@@ -53,30 +53,67 @@
             // 
             // toolStrip
             // 
-            resources.ApplyResources(this.toolStrip, "toolStrip");
             this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.createNewChart,
             this.toolStripSeparator1,
             this.toolStripDropDownButton1,
             this.toolStripSeparator2,
             this.chartStyle});
+            resources.ApplyResources(this.toolStrip, "toolStrip");
             this.toolStrip.Name = "toolStrip";
+            // 
+            // createNewChart
+            // 
+            this.createNewChart.Image = global::CatlabuhApp.Properties.Resources.add_16;
+            resources.ApplyResources(this.createNewChart, "createNewChart");
+            this.createNewChart.Name = "createNewChart";
+            this.createNewChart.Click += new System.EventHandler(this.CreateNewChart_Click);
             // 
             // toolStripSeparator1
             // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            // 
+            // toolStripDropDownButton1
+            // 
+            this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exportToExcel,
+            this.saveAsImage});
+            this.toolStripDropDownButton1.Image = global::CatlabuhApp.Properties.Resources.toolbox_16;
+            resources.ApplyResources(this.toolStripDropDownButton1, "toolStripDropDownButton1");
+            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
+            // 
+            // exportToExcel
+            // 
+            this.exportToExcel.Image = global::CatlabuhApp.Properties.Resources.microsoft_excel_16;
+            this.exportToExcel.Name = "exportToExcel";
+            resources.ApplyResources(this.exportToExcel, "exportToExcel");
+            this.exportToExcel.Click += new System.EventHandler(this.ExportToExcel_Click);
+            // 
+            // saveAsImage
+            // 
+            this.saveAsImage.Image = global::CatlabuhApp.Properties.Resources.picture_16;
+            this.saveAsImage.Name = "saveAsImage";
+            resources.ApplyResources(this.saveAsImage, "saveAsImage");
+            this.saveAsImage.Click += new System.EventHandler(this.SaveAsImage_Click);
             // 
             // toolStripSeparator2
             // 
-            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
             this.toolStripSeparator2.Name = "toolStripSeparator2";
+            resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            // 
+            // chartStyle
+            // 
+            this.chartStyle.Image = global::CatlabuhApp.Properties.Resources.bucket_of_paint_16;
+            resources.ApplyResources(this.chartStyle, "chartStyle");
+            this.chartStyle.Name = "chartStyle";
+            this.chartStyle.Click += new System.EventHandler(this.ChartStyle_Click);
             // 
             // chart
             // 
-            resources.ApplyResources(this.chart, "chart");
             chartArea1.Name = "ChartArea";
             this.chart.ChartAreas.Add(chartArea1);
+            resources.ApplyResources(this.chart, "chart");
             legend1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             legend1.IsTextAutoFit = false;
             legend1.Name = "Legend";
@@ -91,56 +128,21 @@
             // 
             // statusStrip
             // 
-            resources.ApplyResources(this.statusStrip, "statusStrip");
             this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
             this.progressBar});
+            resources.ApplyResources(this.statusStrip, "statusStrip");
             this.statusStrip.Name = "statusStrip";
             // 
             // toolStripStatusLabel1
             // 
-            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            resources.ApplyResources(this.toolStripStatusLabel1, "toolStripStatusLabel1");
             // 
             // progressBar
             // 
-            resources.ApplyResources(this.progressBar, "progressBar");
             this.progressBar.Name = "progressBar";
-            // 
-            // createNewChart
-            // 
-            resources.ApplyResources(this.createNewChart, "createNewChart");
-            this.createNewChart.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.createNewChart.Name = "createNewChart";
-            this.createNewChart.Click += new System.EventHandler(this.CreateNewChart_Click);
-            // 
-            // toolStripDropDownButton1
-            // 
-            resources.ApplyResources(this.toolStripDropDownButton1, "toolStripDropDownButton1");
-            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripDropDownButton1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exportToExcel,
-            this.saveAsImage});
-            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            // 
-            // exportToExcel
-            // 
-            resources.ApplyResources(this.exportToExcel, "exportToExcel");
-            this.exportToExcel.Name = "exportToExcel";
-            this.exportToExcel.Click += new System.EventHandler(this.ExportToExcel_Click);
-            // 
-            // saveAsImage
-            // 
-            resources.ApplyResources(this.saveAsImage, "saveAsImage");
-            this.saveAsImage.Name = "saveAsImage";
-            this.saveAsImage.Click += new System.EventHandler(this.SaveAsImage_Click);
-            // 
-            // chartStyle
-            // 
-            resources.ApplyResources(this.chartStyle, "chartStyle");
-            this.chartStyle.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.chartStyle.Name = "chartStyle";
-            this.chartStyle.Click += new System.EventHandler(this.ChartStyle_Click);
+            resources.ApplyResources(this.progressBar, "progressBar");
             // 
             // ChartView
             // 
@@ -150,6 +152,7 @@
             this.Controls.Add(this.chart);
             this.Controls.Add(this.toolStrip);
             this.Name = "ChartView";
+            this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.ChartView_HelpRequested);
             this.toolStrip.ResumeLayout(false);
             this.toolStrip.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart)).EndInit();
