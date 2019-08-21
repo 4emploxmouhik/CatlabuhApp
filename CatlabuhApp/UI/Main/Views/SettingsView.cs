@@ -217,7 +217,7 @@ namespace CatlabuhApp.UI.Main.Views
         private void CallOpenFileDialog_Click(object sender, EventArgs e)
         {
             openFileDialog.ShowDialog();
-            dbPathBox.Text = openFileDialog.FileName;
+            dbPathBox.Text = (openFileDialog.FileName == "openFileDialog") ? oldDBPath : openFileDialog.FileName;
         }
 
         private void LanguageBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -258,11 +258,13 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void TextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
+            TextBox textBox = (TextBox)sender;
+
             if ((e.KeyChar >= '0') && (e.KeyChar <= '9'))
             {
                 return;
             }
-            if ((e.KeyChar == '-') || (e.KeyChar == ','))
+            if (((e.KeyChar == '-') && !textBox.Text.Contains("-")) || ((e.KeyChar == ',') && !textBox.Text.Contains(",")))
             {
                 return;
             }
@@ -281,8 +283,6 @@ namespace CatlabuhApp.UI.Main.Views
         private void SettingsView_HelpRequested(object sender, HelpEventArgs hlpevent)
         {
             new HelpForm("settingsText").Show();
-
-            Console.WriteLine("SettingsView_HelpRequested");
         }
 
     }

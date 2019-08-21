@@ -41,10 +41,11 @@ namespace CatlabuhApp.UI.Main.Views
                     case 1:
                     case 2:
                     case 8:
+                    case 9:
                         cell.TableName = "InputData";
                         break;
-                    case 15:
                     case 16:
+                    case 17:
                         cell.TableName = "GatewaySchedule";
                         break;
                     default:
@@ -141,8 +142,9 @@ namespace CatlabuhApp.UI.Main.Views
                         wbpGrid[1, i].Style.BackColor = color;
                         wbpGrid[2, i].Style.BackColor = color;
                         wbpGrid[8, i].Style.BackColor = color;
-                        wbpGrid[15, i].Style.BackColor = color;
+                        wbpGrid[9, i].Style.BackColor = color;
                         wbpGrid[16, i].Style.BackColor = color;
+                        wbpGrid[17, i].Style.BackColor = color;
 
                         wbcGrid[9, i].Style.BackColor = color;
                         wbcGrid[1, i].Style.BackColor = color;
@@ -151,7 +153,7 @@ namespace CatlabuhApp.UI.Main.Views
                         wbcGrid[12, i].Style.BackColor = color;
                     }
 
-                    wbpGrid[12, 12].Style.BackColor = color;
+                    wbpGrid[13, 12].Style.BackColor = color;
                     break;
                 case 1:
                     for (int i = 0; i < 12; i++)

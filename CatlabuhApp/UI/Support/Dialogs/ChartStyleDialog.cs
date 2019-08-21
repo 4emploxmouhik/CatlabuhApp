@@ -79,9 +79,9 @@ namespace CatlabuhApp.UI.Support.Dialogs
             Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent();
 
-            textSize1.Value = 10;
-            textSize2.Value = 10;
-            textSize3.Value = 10;
+            textSize1.Value = 12;
+            textSize2.Value = 12;
+            textSize3.Value = 12;
 
             xAxisMajorGridStyle.SelectedIndex = 0;
             yAxisMajorGridStyle.SelectedIndex = 0;
@@ -231,19 +231,5 @@ namespace CatlabuhApp.UI.Support.Dialogs
             }
         }
 
-        private void ChartStyleDialog_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

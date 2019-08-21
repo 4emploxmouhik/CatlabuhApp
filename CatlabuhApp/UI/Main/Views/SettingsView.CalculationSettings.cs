@@ -10,7 +10,22 @@ namespace CatlabuhApp.UI.Main.Views
     partial class SettingsView
     {
         private ComponentResourceManager res = new ComponentResourceManager(typeof(Properties.Resources));
-        private string language;
+        private string Language
+        {
+            get
+            {
+                switch (Properties.Settings.Default.Language)
+                {
+                    case "en-US":
+                        return "EN";
+                    case "uk-UA":
+                        return "UA";
+                    case "ru-RU":
+                        return "RU";
+                }
+                return "";
+            }
+        }
 
         private bool isInitialized = false;
         private bool isItemsChanged = false;
@@ -166,16 +181,31 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void SetFHGridStyle()
         {
-            FHGrid.DataSource = DataAccess.GetTableView("SELECT F, avr_H AS[H cp.], PointID FROM DependenceOfAvrHToF");
+            string avrHView;
+
+            switch (Language)
+            {
+                case "EN":
+                    avrHView = "avr. H";
+                    break;
+                default:
+                    avrHView = "H cp.";
+                    break;
+            }
+
+            FHGrid.DataSource = DataAccess.GetTableView($"SELECT F, avr_H AS[{avrHView}], PointID FROM DependenceOfAvrHToF");
             FHGrid.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
 
             FHGrid.Columns[0].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
             FHGrid.Columns[0].Tag = "F";
+            FHGrid.Columns[0].ToolTipText = res.GetString($"FDescription_{Language}");
             FHGrid.Columns[0].SortMode = DataGridViewColumnSortMode.NotSortable;
 
             FHGrid.Columns[1].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
             FHGrid.Columns[1].Tag = "avr_H";
+            FHGrid.Columns[1].ToolTipText = res.GetString($"avr_HDescription_{Language}");
             FHGrid.Columns[1].SortMode = DataGridViewColumnSortMode.NotSortable;
+
             FHGrid.Columns[2].Visible = false;
 
             FHGrid.DataError += DataGridView_DataError;
@@ -183,47 +213,34 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void SetToolTips()
         {
-            switch (Properties.Settings.Default.Language)
-            {
-                case "en-US":
-                    language = "EN";
-                    break;
-                case "uk-UA":
-                    language = "UA";
-                    break;
-                case "ru-RU":
-                    language = "RU";
-                    break;
-            }
+            toolTip.SetToolTip(label32, res.GetString($"W1Description_{Language}") + "/\n" + 
+                res.GetString($"W2Description_{Language}"));
+            toolTip.SetToolTip(label9, res.GetString($"H1Description_{Language}") + " /\n" + 
+                res.GetString($"H2Description_{Language}"));
 
-            toolTip.SetToolTip(label32, res.GetString($"W1Description_{language}") + "/\n" + 
-                res.GetString($"W2Description_{language}"));
-            toolTip.SetToolTip(label9, res.GetString($"H1Description_{language}") + " /\n" + 
-                res.GetString($"H2Description_{language}"));
-
-            toolTip.SetToolTip(label33, res.GetString($"VbDescription_{language}"));
-            toolTip.SetToolTip(label10, res.GetString($"VrDescription_{language}"));
-            toolTip.SetToolTip(label34, res.GetString($"VdrDescription_{language}"));
-            toolTip.SetToolTip(label11, res.GetString($"VzDescription_{language}"));
-            toolTip.SetToolTip(label42, res.GetString($"SpDescription_{language}"));
-            toolTip.SetToolTip(label43, res.GetString($"SrDescription_{language}"));
-            toolTip.SetToolTip(label47, res.GetString($"SbDescription_{language}"));
-            toolTip.SetToolTip(label8, res.GetString($"SrDescription_{language}"));
-            toolTip.SetToolTip(label44, res.GetString($"SgDescription_{language}"));
-            toolTip.SetToolTip(label45, res.GetString($"SdrDescription_{language}"));
-            toolTip.SetToolTip(label46, res.GetString($"SD_plusDescription_{language}"));
-            toolTip.SetToolTip(label50, res.GetString($"SfDescription_{language}"));
-            toolTip.SetToolTip(label52, res.GetString($"SzDescription_{language}"));
-            toolTip.SetToolTip(label53, res.GetString($"SD_minusDescription_{language}"));
-            toolTip.SetToolTip(label51, res.GetString($"Soz_minusDescription_{language}"));
-            toolTip.SetToolTip(label49, res.GetString($"VtrDescription_{language}"));
-            toolTip.SetToolTip(label13, res.GetString($"EtrDescription_{language}"));
-            toolTip.SetToolTip(label14, res.GetString($"FDescription_{language}"));
-            toolTip.SetToolTip(label54, res.GetString($"VfDescription_{language}"));
-            toolTip.SetToolTip(label15, res.GetString($"avr_HDescription_{language}"));
-            toolTip.SetToolTip(label57, res.GetString($"EtrDescription_{language}"));
-            toolTip.SetToolTip(label58, res.GetString($"lgEDescription_{language}"));
-            toolTip.SetToolTip(label19, res.GetString($"lgdDescription_{language}"));
+            toolTip.SetToolTip(label33, res.GetString($"VbDescription_{Language}"));
+            toolTip.SetToolTip(label10, res.GetString($"VrDescription_{Language}"));
+            toolTip.SetToolTip(label34, res.GetString($"VdrDescription_{Language}"));
+            toolTip.SetToolTip(label11, res.GetString($"VzDescription_{Language}"));
+            toolTip.SetToolTip(label42, res.GetString($"SpDescription_{Language}"));
+            toolTip.SetToolTip(label43, res.GetString($"SrDescription_{Language}"));
+            toolTip.SetToolTip(label47, res.GetString($"SbDescription_{Language}"));
+            toolTip.SetToolTip(label8, res.GetString($"SrDescription_{Language}"));
+            toolTip.SetToolTip(label44, res.GetString($"SgDescription_{Language}"));
+            toolTip.SetToolTip(label45, res.GetString($"SdrDescription_{Language}"));
+            toolTip.SetToolTip(label46, res.GetString($"SD_plusDescription_{Language}"));
+            toolTip.SetToolTip(label50, res.GetString($"SfDescription_{Language}"));
+            toolTip.SetToolTip(label52, res.GetString($"SzDescription_{Language}"));
+            toolTip.SetToolTip(label53, res.GetString($"SD_minusDescription_{Language}"));
+            toolTip.SetToolTip(label51, res.GetString($"Soz_minusDescription_{Language}"));
+            toolTip.SetToolTip(label49, res.GetString($"VtrDescription_{Language}"));
+            toolTip.SetToolTip(label13, res.GetString($"EtrDescription_{Language}"));
+            toolTip.SetToolTip(label14, res.GetString($"FDescription_{Language}"));
+            toolTip.SetToolTip(label54, res.GetString($"VfDescription_{Language}"));
+            toolTip.SetToolTip(label15, res.GetString($"avr_HDescription_{Language}"));
+            toolTip.SetToolTip(label57, res.GetString($"EtrDescription_{Language}"));
+            toolTip.SetToolTip(label58, res.GetString($"lgEDescription_{Language}"));
+            toolTip.SetToolTip(label19, res.GetString($"lgdDescription_{Language}"));
         }
 
         #region Фиксация изменения в элементах настройки расчёта

@@ -120,38 +120,37 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="logoPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAbzSURBVHhe7ZxrbxR1GMX5NkZ9Zwf9CAYBDQJCQLkIBINoW5BwscjVBpDa1FK2RUVAYzRq1Biv
-        8RKNifeA4rXLSy/fQHyj4/+wblzm+T3TmZ2Zarrz4heS4/88p3vc2bnuzrt5YFFNAVCsyQ6KNdlBsSY7
-        KNZkB8U28081r48mm09Hk5d+Df/+FYh7hPBaw2ueap67abJ5HXXTBkXRN9VcHgb9kRjci1yOGtNLqSOB
-        4j/vvLq8f7l8w8T0tdSVEUQwhM0WB/UyZ6krI4iw+LeEuabR/IW6MoIIhj/NgMUb4mjBmt5ArzX5+kMn
-        1JURBJg5aC4DHVBXRhBkxpC5DHRAXRlBkBlD5jLQAXVlBEFmDFn9YByt3VcudwUoa9kAr++GVbs4oxPo
-        gLoygiAzhox8YdcVZeIHznrgHK/vhuH3OaMT8FFXRhBkxpC6wIIFDr1s1xXl0NuctelYHJ34jj15aEzH
-        0Y5nOKMT8FJXRhBkxhChz8GHXm29c8iXhcZPcXTwrfD5t5cz2ty2OY62nY6jsa95Thoqf8+LcbRyJ89O
-        AjOoKyMIMmNIJ+Hgs2/doTgafKJVCM1IMn4xju4ZbRVDMz0Wrgs7gwNx34E3eG6bk9/H0UD4e/Q/+Zbg
-        oVkeMI+6MoIgM4Z4TIQ/nGYkOf4p+7OwKJwtyE9z22weYW8WYB51ZQRBZgzxmI0C9TlGM9vsfJZ9WYGZ
-        1JURBJkxxKPqArVJpn1MDH8QNvP17M0KzKWujCDIjCEeVRaoTXfkM54nxs7H0ZJ72ZsHmE1dGUGQGUM8
-        qixQmybNEifDu/LOIfblBeZTV0YQZMYQj6oK1KY7GY7jaJbYMs6+boD51JURBJkxxKOKAnWNLm3T1UE9
-        +boFMqgrIwgyY4hHFQXufI5niKMftz4bydctkENdGUGQGUM8yi5QV2h0CkYzxr+Jo6X3s68IkEVdGUGQ
-        GUM8yixQm+6j3kWLUOq6g+wrCuRRV0YQZMYQjzIL3PU8e0X/4+wpA8ijrowgyIwhHmUVuCZl093/eji/
-        Xcu+MoBM6soIgswY4lFGgYs3xdHol77v1vDfyVcWkEtdGUGQGUM8yihwzwvs0WWpFdvZUyaQTV0ZQZAZ
-        QzyKFrhmP2+60jYcYU/ZJLMD1JURBJkxxKNIgdo0R7/i9dvP2vVVAfnUlREEmTHEo9sCddFTV41p7aF3
-        8l8ULQL8DdSVEQSZMcQja4G6KaWT//5TrUv6J77ldeLh9+oCCzP4FOdVAeRTV0YQZMYQj6oK1JnH2rCD
-        ocyygXzqygiCzBjiUVmBgbELcbRkC+eWCWRTV0YQZMYQj6wFjofPPJ2qtdFdNFqX5PAs7FAgl7oygiAz
-        hnhkLTC5F9YtSFpHDJ6+2ls2kEldGUGQGUM8ui1QN4Kk0dokVw6qh6/2lwlkUldGEGTGEI9uCxTaSdBa
-        Qqd1dwzaGWUAedSVEQSZMcSjSIFi32u8nngkzFi8kecUAbKoKyMIMmOIR9ECb78vvLsyzhB7S74fIiCH
-        ujKCIDOGeBQtUPRPscdj6wTP6RbIoK6MIMiMIR5lFKjDFN0sIh+he8IzPd2VB8igrowgyIwhHmUUKFbu
-        CHvbjE96iccuxtGyfp6VF5hPXRlBkBlDPMoqUOR9MvX4J62r2TQrDzCbujKCIDOGeJRZ4JVnYT5nv4f2
-        4gsK3i+BudSVEQSZMcSjzAKFd4U6jYEneVZWYCZ1ZQRBZgzxKLtAkXZ7k1DhG4/yrCzATOrKCILMGOJR
-        RYE6WM67KetYUjsimjcTMI+6MoIgM4Z4VFGgWL0n315ZjJ4PB+ZbeV4aMIu6MoIgM4Z4VFWg2H6GZ6Vx
-        5KPWIyI0zwPmUFdGEGTGEI8qC9QT+kc+5Hlp7H8z3zVEmEFdGUGQGUM8qixQ6MZ61oxOdExJ8wjwU1dG
-        EGTGEI+qCxT65hLNnIktYzwvCXipKyMIMmNIkuXbWif1eb5oo/UrutxTeo9/pKFz5vWHeV4n4KWujCDI
-        jCFCT8Tr61feg0BZ0YWDu3NeYV4YdgzHclxw6GTolfSbU+ChrowgyIwhu8PBbd7Dipk4/C5neSwfbF2Z
-        plkzoRv53oPpsJ66MoIgM4bM5tdd09DTDd7zNDOh10AzYS11ZQRBZgz5vxQo9FDS0Es8M43/tMDZ/Mp/
-        Vlbt5rkeeg00BzqgrowgyIwhcxnogLoygiAzhsxloAPqygiCzBgyl4EOqCsjiLC4/umn5OvP99NPV35w
-        kYb0Lrl+fGyqeQ6H9DDzG9NnqCsjCP3sZTBdTg7pYX6PTv54DXVlhDZRY3ppMNYlhvJubFxaQh0JFNvo
-        Zy/DgLPa/sO/PfUjtH2TzZ+12XrvvDYo1mQHxZrsoFiTHRRrsoNiTVYWzfsbdEsMrd2Pq3QAAAAASUVO
-        RK5CYII=
+        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
 </value>
   </data>
   <data name="labelVersion.Text" xml:space="preserve">
@@ -330,6 +329,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>О программе</value>
+    <value>О программе </value>
   </data>
 </root>

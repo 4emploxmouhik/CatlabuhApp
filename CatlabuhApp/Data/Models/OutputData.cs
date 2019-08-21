@@ -22,9 +22,9 @@ namespace CatlabuhApp.Data.Models
         private double[] ep = new double[12];
         private double[] dltVni = new double[12];
 
-        private double[] sumsOfWBP = new double[9];         // |  P | Vp | Vr | Vb |  Vg | Vdr |      EP |  VD_plus | Voz_plus |
-        private double[] percentsOfWBP = new double[8];     // | Vp | Vr | Vb | Vg | Vdr |  EP | VD_plus | Voz_plus |          |
-                                                            // |  0 |  1 |  2 |  3 |  4  |  5  |     6   |    7     |     8    |             
+        private double[] sumsOfWBP = new double[10];        // |  P | Vp | Vr | Vb |  Vg | Vdr |      EP |  VD_plus | Voz_plus | dlt_Vni |
+        private double[] percentsOfWBP = new double[9];     // | Vp | Vr | Vb | Vg | Vdr |  EP | VD_plus | Voz_plus |  dlt_Vni |         |
+                                                            // |  0 |  1 |  2 |  3 |  4  |  5  |     6   |    7     |     8    |    9    |           
         #endregion
         #region Водный баланс расходная часть
         private double[] lgD = new double[12];
@@ -244,9 +244,9 @@ namespace CatlabuhApp.Data.Models
                 }
                 else if (i == 12)
                 {
-                    sql += "INSERT INTO OutputData(Vp, Vr, Vb, Vg, Vdr, EP, Etr, VE, Vtr, Vf, ER, Cp, Cr, Cb, Cg, Cdr, CD_plus, Coz_plus, " +
+                    sql += "INSERT INTO OutputData(Vp, Vr, Vb, Vg, Vdr, EP, dlt_Vni, Etr, VE, Vtr, Vf, ER, Cp, Cr, Cb, Cg, Cdr, CD_plus, Coz_plus, " +
                         "EpCi_plus, Cf, Cz, CD_minus, Coz_minus, EpCi_minus, MonthID, YearName) " +
-                        $"VALUES({sumsOfWBP[1]}, {sumsOfWBP[2]}, {sumsOfWBP[3]}, {sumsOfWBP[4]}, {sumsOfWBP[5]}, {sumsOfWBP[6]}, " +
+                        $"VALUES({sumsOfWBP[1]}, {sumsOfWBP[2]}, {sumsOfWBP[3]}, {sumsOfWBP[4]}, {sumsOfWBP[5]}, {sumsOfWBP[6]}, {sumsOfWBP[9]}, " +
                         $"{sumsOfWBC[1]}, {sumsOfWBC[2]}, {sumsOfWBC[3]}, {sumsOfWBC[4]}, {sumsOfWBC[6]}, " +
                         $"{sumsOfSBP[0]}, {sumsOfSBP[1]}, {sumsOfSBP[2]}, {sumsOfSBP[3]}, {sumsOfSBP[4]}, {sumsOfSBP[5]}, {sumsOfSBP[6]}, {sumsOfSBP[7]}, " +
                         $"{sumsOfSBC[0]}, {sumsOfSBC[1]}, {sumsOfSBC[2]}, {sumsOfSBC[3]}, {sumsOfSBC[4]}, {i + 1}, {YearOfCalculation});\n";
@@ -263,9 +263,9 @@ namespace CatlabuhApp.Data.Models
                 }
                 else
                 {
-                    sql += "INSERT INTO OutputData(Vp, Vr, Vb, Vg, Vdr, EP, VE, Vtr, Vf, ER, Cp, Cr, Cb, Cb, Cg, Cdr, CD_plus, Coz_plus, EpCi_plus, " +
+                    sql += "INSERT INTO OutputData(Vp, Vr, Vb, Vg, Vdr, EP, dlt_Vni, VE, Vtr, Vf, ER, Cp, Cr, Cb, Cb, Cg, Cdr, CD_plus, Coz_plus, EpCi_plus, " +
                         "Cf, Cz, CD_minus, Coz_minus, EpCi_minus, MonthID, YearName) " +
-                        $"VALUES({percentsOfWBP[0]}, {percentsOfWBP[1]}, {percentsOfWBP[2]}, {percentsOfWBP[3]}, {percentsOfWBP[4]}, {percentsOfWBP[5]}, " +
+                        $"VALUES({percentsOfWBP[0]}, {percentsOfWBP[1]}, {percentsOfWBP[2]}, {percentsOfWBP[3]}, {percentsOfWBP[4]}, {percentsOfWBP[5]}, {percentsOfWBP[8]}, " +
                         $"{percentsOfWBC[0]}, {percentsOfWBC[1]}, {percentsOfWBC[2]}, {percentsOfWBC[3]}, {percentsOfWBC[4]}, {percentsOfSBP[0]}, " +
                         $"{percentsOfSBP[1]}, {percentsOfSBP[2]}, {percentsOfSBP[3]}, {percentsOfSBP[4]}, {percentsOfSBP[5]}, {percentsOfSBP[6]}, " +
                         $"{percentsOfSBP[7]}, {percentsOfSBC[0]}, {percentsOfSBC[1]}, {percentsOfSBC[2]}, {percentsOfSBC[3]}, {percentsOfSBC[4]}, " +
@@ -316,7 +316,7 @@ namespace CatlabuhApp.Data.Models
                         $"Sb = {sb[i]}, Sg = {sg[i]}, Sdr = {sdr[i]}, SD_plus = {sdPlus[i]}, Soz_plus = {sozPlus[i]}, C1 = {c1[i]}, C2 = {c2[i]}, Cp = {cp[i]}, " +
                         $"Cr = {cr[i]}, Cb = {cb[i]}, Cg = {cg[i]}, Cdr = {cdr[i]}, CD_plus = {cdPlus[i]}, Coz_plus = {cozPlus[i]}, EpCi_plus = {epciPlus[i]}, " +
                         $"Sf = {sf[i]}, Sz = {sz[i]}, SD_minus = {sdMinus[i]}, Soz_minus = {sozMinus[i]}, Cf = {cf[i]}, Cz = {cz[i]}, CD_minus = {cdMinus[i]}, " +
-                        $"Coz_minus = {cozMinus[i]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
+                        $"Coz_minus = {cozMinus[i]}, EpCi_minus = {epciMinus[i]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
 
                     if (inputData != null && inputData.IsCalculateE)
                     {
@@ -331,7 +331,7 @@ namespace CatlabuhApp.Data.Models
                 else if (i == 12)
                 {
                     sql += $"UPDATE OutputData SET Vp = {sumsOfWBP[1]}, Vr = {sumsOfWBP[2]}, Vb = {sumsOfWBP[3]}, Vg = {sumsOfWBP[4]}, Vdr = {sumsOfWBP[5]}, " +
-                        $"EP = {sumsOfWBP[6]}, Etr = {sumsOfWBC[1]}, VE = {sumsOfWBC[2]}, Vtr = {sumsOfWBC[3]}, Vf = {sumsOfWBC[4]}, ER = {sumsOfWBC[6]}, " +
+                        $"EP = {sumsOfWBP[6]}, dlt_Vni = {sumsOfWBP[9]}, Etr = {sumsOfWBC[1]}, VE = {sumsOfWBC[2]}, Vtr = {sumsOfWBC[3]}, Vf = {sumsOfWBC[4]}, ER = {sumsOfWBC[6]}, " +
                         $"Cp = {sumsOfSBP[0]}, Cr = {sumsOfSBP[1]}, Cb = {sumsOfSBP[2]}, Cg = {sumsOfSBP[3]}, Cdr = {sumsOfSBP[4]}, CD_plus = {sumsOfSBP[5]}, " +
                         $"Coz_plus = {sumsOfSBP[6]}, EpCi_plus = {sumsOfSBP[7]}, Cf = {sumsOfSBC[0]}, Cz = {sumsOfSBC[1]}, CD_minus = {sumsOfSBC[2]}, " +
                         $"Coz_minus = {sumsOfSBC[3]}, EpCi_minus = {sumsOfSBC[4]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\n";
@@ -349,7 +349,7 @@ namespace CatlabuhApp.Data.Models
                 else
                 {
                     sql += $"UPDATE OutputData SET Vp = {percentsOfWBP[0]}, Vr = {percentsOfWBP[1]}, Vb = {percentsOfWBP[2]}, Vg = {percentsOfWBP[3]}, Vdr = {percentsOfWBP[4]}, " +
-                        $"EP = {percentsOfWBP[5]}, VE = {percentsOfWBC[0]}, Vtr = {percentsOfWBC[1]}, Vf = {percentsOfWBC[2]}, ER = {percentsOfWBC[4]}, Cp = {percentsOfSBP[0]}, " +
+                        $"EP = {percentsOfWBP[5]}, dlt_Vni = {percentsOfWBP[8]}, VE = {percentsOfWBC[0]}, Vtr = {percentsOfWBC[1]}, Vf = {percentsOfWBC[2]}, ER = {percentsOfWBC[4]}, Cp = {percentsOfSBP[0]}, " +
                         $"Cr = {percentsOfSBP[1]}, Cb = {percentsOfSBP[2]}, Cg = {percentsOfSBP[3]}, Cdr = {percentsOfSBP[4]}, CD_plus = {percentsOfSBP[5]}, Coz_plus = {percentsOfSBP[6]}, " +
                         $"EpCi_plus = {percentsOfSBP[7]}, Cf = {percentsOfSBC[0]}, Cz = {percentsOfSBC[1]}, CD_minus = {percentsOfSBC[2]}, Coz_minus = {percentsOfSBC[3]}, " +
                         $"EpCi_minus = {percentsOfSBC[4]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};";

@@ -327,6 +327,7 @@
             resources.ApplyResources(this.h1Box0, "h1Box0");
             this.h1Box0.Name = "h1Box0";
             this.h1Box0.Click += new System.EventHandler(this.TextBox_Click);
+            this.h1Box0.TextChanged += new System.EventHandler(this.h1Box0_TextChanged);
             this.h1Box0.Enter += new System.EventHandler(this.TextBox_Enter);
             this.h1Box0.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 

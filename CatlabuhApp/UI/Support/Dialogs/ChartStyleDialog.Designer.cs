@@ -369,7 +369,6 @@
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // showXAxisMinorGrid
             // 
@@ -401,7 +400,6 @@
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // showGrid
             // 

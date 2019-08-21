@@ -42,24 +42,27 @@ namespace CatlabuhApp.Data.Models
         {
             string sql = "SELECT\n\t";
 
-            string monthView = "", avrHView = "", pIsmailView = "";
+            string monthView = "", avrHView = "", pIsmailView = "", pBolgradView = "";
 
             switch (Properties.Settings.Default.Language)
             {
                 case "en-US":
                     monthView = "m.MonthName_EN AS[Month]";
                     avrHView = "avr. H";
-                    pIsmailView = "i.PIsmail AS[P Ismail]";
+                    pIsmailView = "i.PIsmail AS[P Ism.]";
+                    pBolgradView = "i.PBolgrad AS[P Bolg.]";
                     break;
                 case "uk-UA":
                     monthView = "m.MonthName_UA AS[Місяць]";
                     avrHView = "H ср.";
-                    pIsmailView = "i.PIsmail AS[P Ізмаїл]";
+                    pIsmailView = "i.PIsmail AS[P Ізм.]";
+                    pBolgradView = "i.PBolgrad AS[P Болг.]";
                     break;
                 case "ru-RU":
                     monthView = "m.MonthName_RU AS[Месяц]";
                     avrHView = "H ср.";
-                    pIsmailView = "i.PIsmail AS[P Измаил]";
+                    pIsmailView = "i.PIsmail AS[P Изм.]";
+                    pBolgradView = "i.PBolgrad AS[P Болг.]";
                     break;
             }
 
@@ -67,12 +70,11 @@ namespace CatlabuhApp.Data.Models
             {
                 case PartOfCalculation.WaterBalanceProfit:
                     sql += $"{monthView}, i.H1, i.H2, o.avr_H AS[{avrHView}], o.W1, o.W2, o.dlt_W AS[∆W], o.F AS[F({avrHView})], " +
-                        $"{pIsmailView}, o.Vp, o.Vr, o.Vb, o.Vg, o.Vdr, o.EP AS[∑P], gs.VD_plus AS[VD+], gs.Voz_plus AS[Voz+], o.dlt_Vni AS[∆Vні], ";
-                    // i.PBolgrad AS[P Болград],
+                        $"{pIsmailView}, {pBolgradView}, o.Vp, o.Vr, o.Vb, o.Vg, o.Vdr, o.EP AS[∑P], gs.VD_plus AS[VD+], gs.Voz_plus AS[Voz+], o.dlt_Vni AS[∆Vні], ";
                     break;
                 case PartOfCalculation.WaterBalanceConsumable:
                     sql += $"{monthView}, i.d, o.lgd AS[lg(d)], o.lgE AS[lg(E)], i.E, o.Etr, o.VE, o.Vtr, o.Vf, i.Vz, " +
-                        "o.ER AS[∑R], gs.VD_minus AS[VD-], gs.Voz_minus AS[Voz-],";
+                        "o.ER AS[∑R], gs.VD_minus AS[VD-], gs.Voz_minus AS[Voz-], ";
                     break;
                 case PartOfCalculation.SaltBalanceProfit:
                     sql += $"{monthView}, o.W1, o.W2, o.Vp, o.Vr, o.Vb, o.Vg, o.Vdr, gs.VD_plus AS[VD+], gs.Voz_plus AS[Voz+], " +
@@ -102,7 +104,7 @@ namespace CatlabuhApp.Data.Models
                 case PartOfCalculation.WaterBalanceProfit:
                     columnsDBNames = new string[]
                     {
-                        "H1", "H2", "avr_H", "W1", "W2", "dlt_W", "F", "PIsmail", /*"PBolgrad",*/ "Vp", "Vr", "Vb", "Vg", "Vdr", "EP", "VD_plus", "Voz_plus", "dlt_Vni"
+                        "H1", "H2", "avr_H", "W1", "W2", "dlt_W", "F", "PIsmail", "PBolgrad", "Vp", "Vr", "Vb", "Vg", "Vdr", "EP", "VD_plus", "Voz_plus", "dlt_Vni"
                     };
                     break;
                 case PartOfCalculation.WaterBalanceConsumable:

@@ -243,6 +243,21 @@ namespace CatlabuhApp.UI.Support.Setups
         }
 
         #region Методы загрузки данных из БД в текстовые поля 
+        private void FillBoxes(List<TextBox> textBoxes, string[] data)
+        {
+            for (int i = 0; i < 12; i++)
+            {
+                try
+                {
+                    textBoxes[i].Text = data[i].Replace(".", ",");
+                }
+                catch (NullReferenceException)
+                {
+                    textBoxes[i].Text = "";
+                }
+            }
+        }
+
         private void FillingDatesBoxes(List<TextBox> boxesList, string[] fillingDates, string[] dischargeDates)
         {
             int pointer_1 = 0, pointer_2 = 0;
@@ -289,13 +304,11 @@ namespace CatlabuhApp.UI.Support.Setups
                     DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray()
                 };
 
-                for (int i = 0; i < 12; i++)
-                {
-                    VD_plusBoxes[i].Text = volumes[0][i];
-                    VD_minusBoxes[i].Text = volumes[1][i];
-                    Voz_plusBoxes[i].Text = volumes[2][i];
-                    Voz_minusBoxes[i].Text = volumes[3][i];
-                }
+
+                FillBoxes(VD_plusBoxes, volumes[0]);
+                FillBoxes(VD_minusBoxes, volumes[1]);
+                FillBoxes(Voz_plusBoxes, volumes[2]);
+                FillBoxes(Voz_minusBoxes, volumes[3]);
 
                 FillingDatesBoxes(VDGDPlusBoxes, dates[0], dates[1]);
                 FillingDatesBoxes(VDGDMinusBoxes, dates[2], dates[3]);
@@ -463,12 +476,14 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private void TextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
+            TextBox textBox = (TextBox)sender;
+
             if ((e.KeyChar >= '0') && (e.KeyChar <= '9'))
             {
                 return;
             }
-            if ((e.KeyChar == '-') || (e.KeyChar == ','))
-            {
+            if (((e.KeyChar == '-') && !textBox.Text.Contains("-")) || ((e.KeyChar == ',') && !textBox.Text.Contains(",")))
+                {
                 return;
             }
             if (char.IsControl(e.KeyChar))

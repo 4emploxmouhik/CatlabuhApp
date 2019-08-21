@@ -33,10 +33,7 @@ namespace CatlabuhApp.UI.Main.Views
             try
             {
                 Calculation calc = null;
-                InputData inputData = new InputData(DataAccess, YearOfCalculation)
-                {
-                    IsCalculateE = rd.IsCalculateE
-                };
+                InputData inputData = new InputData(DataAccess, YearOfCalculation, rd.IsCalculateE);
 
                 if (!rd.IsEnterGatewaySchedule)
                 {

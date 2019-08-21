@@ -29,9 +29,10 @@ namespace CatlabuhApp.Data.Models
             DataAccess = dataAccess ?? throw new System.ArgumentNullException(nameof(dataAccess));
         }
 
-        public InputData(IDataAccess dataAccess, string yearOfCalculation) : this(dataAccess)
+        public InputData(IDataAccess dataAccess, string yearOfCalculation, bool isCalculateE) : this(dataAccess)
         {
             YearOfCalculation = yearOfCalculation ?? throw new System.ArgumentNullException(nameof(yearOfCalculation));
+            IsCalculateE = isCalculateE;
 
             H1 = GetColumnData(H1, "H1");
             H2 = GetColumnData(H2, "H2");
@@ -43,7 +44,7 @@ namespace CatlabuhApp.Data.Models
 
             if (IsCalculateE)
             {
-                D = GetColumnData(D, "D");
+                D = GetColumnData(D, "D"); foreach (var entry in D) { System.Console.WriteLine(entry); }
             }
             else
             {

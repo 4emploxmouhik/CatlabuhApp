@@ -202,10 +202,10 @@
     <value>Salts that are excreted with water to support water levels in the Lung-Safian Lake System, 10^6 t.</value>
   </data>
   <data name="Coz_minusDescription_RU" xml:space="preserve">
-    <value>Соли, которык выводятся с водой на поддержку уровней воды в системе озер Лунг-Сафьян, 10^6 т.</value>
+    <value>Вывод солей с водой на поддержку уровней воды в системе озер Лунг-Сафьян, 10 ^ 6 т.</value>
   </data>
   <data name="Coz_minusDescription_UA" xml:space="preserve">
-    <value>Солі, що виводяться з водою на підтримку рівнів води у системі озер Лунг-Сафьян, 10^6 т.</value>
+    <value>Вивід солей з водою на підтримку рівнів води у системі озер Лунг-Сафьян, 10^6 т.</value>
   </data>
   <data name="Coz_plusDescription_EN" xml:space="preserve">
     <value>Salt inflow from the Lung-Safian lake system, 10^6 t.</value>

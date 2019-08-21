@@ -58,7 +58,10 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private void SaveInputData()
         {
-            Calculation calc = new Calculation(DataAccess, FillInputData());
+            Calculation calc = new Calculation(DataAccess, FillInputData())
+            {
+                YearOfCalculation = this.YearOfCalculation,
+            };
 
             if (!calc.IsExist)
             {
@@ -66,7 +69,8 @@ namespace CatlabuhApp.UI.Support.Setups
 
                 if (showGatewaySchedule.Checked)
                 {
-                    gsSetup.FillGatewaySchedule().Save();
+                    gsSetup.YearOfCalculation = calc.YearOfCalculation;
+                    gsSetup.FillGatewaySchedule().Update();
                 }
             }
             else
@@ -75,6 +79,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
                 if (showGatewaySchedule.Checked)
                 {
+                    gsSetup.YearOfCalculation = calc.YearOfCalculation;
                     gsSetup.FillGatewaySchedule().Update();
                 }
             }
