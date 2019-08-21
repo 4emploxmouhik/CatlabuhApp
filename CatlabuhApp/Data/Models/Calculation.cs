@@ -55,6 +55,12 @@ namespace CatlabuhApp.Data.Models
             YearOfCalculation = inputData.YearOfCalculation;
         }
 
+        public static bool Exists(IDataAccess dataAccess, string yearOfCalculation)
+        {
+            List<int> calcYears = dataAccess.GetColumnData<int>("SELECT YearName FROM YearsOfCalculations");
+            return calcYears.Exists(x => x == Convert.ToInt32(yearOfCalculation));
+        }
+
         public void Calculate()
         {
             outputData.Calculate();
@@ -77,7 +83,7 @@ namespace CatlabuhApp.Data.Models
 
             if (IsEnterGatewaySchedule)
             {
-                gatewaySchedule.Save();
+                gatewaySchedule.Save(); 
             }
             else
             {

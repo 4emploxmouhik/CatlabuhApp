@@ -691,12 +691,10 @@ namespace CatlabuhApp.UI.Help {
         ///In order to configure the application, select the &quot;Settings&quot; item in the &quot;Main Menu&quot; and click LMB on it. Then the page for viewing the settings will be called up. The page has two tabs: &quot;General Settings&quot; and &quot;Settlement Setup&quot;.
         ///
         ///In the tab &quot;General Settings&quot; you can change:
-        ///    1. The path to the directory with Excel calculation files.
-        ///    2. The path to the directory with Excel chart files.
-        ///    3. Path to the directory with diagram image files.
-        ///    4. Application language.
-        ///
-        ///In the &quot;Ca [остаток строки не уместился]&quot;;.
+        ///    1. The path to the SQLite database file.
+        ///    2. The path to the directory with Excel calculation files.
+        ///    3. The path to the directory with Excel chart files.
+        ///    4. Path to the directory with diagram image file [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string settingsText_EN {
             get {
@@ -710,12 +708,11 @@ namespace CatlabuhApp.UI.Help {
         ///Для того чтобы настроить приложение надо в &quot;Главном меню&quot; выбрать пункт &quot;Настройка&quot; и нажать по нему ЛКМ. После чего будет вызвана страница просмотра настроек. Страница имеет две вкладки: &quot;Общие настройки&quot; и &quot;Настройка расчета&quot;.
         ///
         ///Во вкладке &quot;Общие настройки&quot; можно изменить:
-        ///    1. Путь к директории с Excel-файлами расчетов.
-        ///    2. Путь к директории с Excel-файлами диаграмм.
-        ///    3. Путь к директории с файлами изображений диаграмм.
-        ///    4. Язык приложения.
-        ///
-        ///Во вкладке &quot;Настройка расчета&quot; м [остаток строки не уместился]&quot;;.
+        ///    1. Путь к файлу базы данных SQLite.
+        ///    2. Путь к директории с Excel-файлами расчетов.
+        ///    3. Путь к директории с Excel-файлами диаграмм.
+        ///    4. Путь к директории с файлами изображений диаграмм.
+        ///    5. Язык прилож [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string settingsText_RU {
             get {
@@ -729,12 +726,10 @@ namespace CatlabuhApp.UI.Help {
         ///Для того щоб налаштувати додаток треба у &quot;Головному меню&quot; обрати пункт &quot;Налаштування&quot; і натиснути по ньому ЛКМ. Після чого буде викликана сторінка перегляду налаштувань. Сторінка має дві вкладки: &quot;Загальні налаштування&quot; і &quot;Налаштування розрахунку&quot;.
         ///
         ///У вкладці &quot;Загальні налаштування&quot; можна змінити:
-        ///    1. Шлях до директорії з Excel-файлами розрахунків.
-        ///    2. Шлях до директорії з Excel-файлами діаграм.
-        ///    3. Шлях до директорії з файлами зображень діаграм.
-        ///    4. Мову додатку.
-        ///
-        ///У вкла [остаток строки не уместился]&quot;;.
+        ///    1. Шлях до файлу бази даних SQLite.
+        ///    2. Шлях до директорії з Excel-файлами розрахунків.
+        ///    3. Шлях до директорії з Excel-файлами діаграм.
+        ///    4. Шлях до директорії з файлами зображень [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string settingsText_UA {
             get {

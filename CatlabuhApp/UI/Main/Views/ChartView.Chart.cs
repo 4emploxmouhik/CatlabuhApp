@@ -101,12 +101,12 @@ namespace CatlabuhApp.UI.Main.Views
                     break;
             }
 
-            if (!isObjABool) // months
+            if (!isObjABool)
             {
                 chart.ChartAreas[0].AxisX.Title = xAxisTitle1 + (string)obj;
                 chart.ChartAreas[0].AxisY.Title = yAxisTitle;
             }
-            else // years
+            else
             {
                 chart.ChartAreas[0].AxisX.Title = xAxisTitle2;
                 chart.ChartAreas[0].AxisY.Title = ((bool)obj ? "%" : yAxisTitle);

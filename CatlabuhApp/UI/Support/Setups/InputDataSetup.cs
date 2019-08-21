@@ -155,28 +155,65 @@ namespace CatlabuhApp.UI.Support.Setups
             }
             else
             {
-                List<double[]> inputDatas = new List<double[]>()
-                {
-                    DataAccess.GetColumnData<double>($"SELECT H1 FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
-                    DataAccess.GetColumnData<double>($"SELECT H2 FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
-                    DataAccess.GetColumnData<double>($"SELECT Vz FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
-                    DataAccess.GetColumnData<double>($"SELECT PIsmail FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
-                    DataAccess.GetColumnData<double>($"SELECT PBolgrad FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
-                    DataAccess.GetColumnData<double>($"SELECT {(isCalculateE ? "d" : "E")} FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
-                };
+                //List<double[]> inputDatas = new List<double[]>()
+                //{
+                //    DataAccess.GetColumnData<double>($"SELECT H1 FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                //    DataAccess.GetColumnData<double>($"SELECT H2 FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                //    DataAccess.GetColumnData<double>($"SELECT Vz FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                //    DataAccess.GetColumnData<double>($"SELECT PIsmail FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                //    DataAccess.GetColumnData<double>($"SELECT PBolgrad FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                //    DataAccess.GetColumnData<double>($"SELECT {(isCalculateE ? "d" : "E")} FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray(),
+                //};
 
-                for (int i = 0; i < 12; i++)
+                List<string[]> inputDatas = new List<string[]>(6);
+                string[] columns = { "H1", "H2", "Vz", "PIsmail", "PBolgrad", (isCalculateE ? "d" : "E") };
+
+                for (int i = 0; i < 6; i++)
                 {
-                    H1Boxes[i].Text = inputDatas[0][i].ToString();
-                    H2Boxes[i].Text = inputDatas[1][i].ToString();
-                    VzBoxes[i].Text = inputDatas[2][i].ToString();
-                    PIsmailBoxes[i].Text = inputDatas[3][i].ToString();
-                    PBolgradBoxes[i].Text = inputDatas[4][i].ToString();
-                    DorEBoxes[i].Text = inputDatas[5][i].ToString();
+                    try
+                    {
+                        inputDatas.Add(DataAccess.GetColumnData<string>($"SELECT {columns[i]} FROM InputData WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray());
+                    }
+                    catch (NullReferenceException)
+                    {
+                        inputDatas[i] = new string[12];
+                    }
                 }
+
+                FillBoxes(H1Boxes, inputDatas[0]);
+                FillBoxes(H2Boxes, inputDatas[1]);
+                FillBoxes(VzBoxes, inputDatas[2]);
+                FillBoxes(PIsmailBoxes, inputDatas[3]);
+                FillBoxes(PBolgradBoxes, inputDatas[4]);
+                FillBoxes(DorEBoxes, inputDatas[5]);
+
+                //for (int i = 0; i < 12; i++)
+                //{
+                //    H1Boxes[i].Text = inputDatas[0][i].ToString();
+                //    H2Boxes[i].Text = inputDatas[1][i].ToString();
+                //    VzBoxes[i].Text = inputDatas[2][i].ToString();
+                //    PIsmailBoxes[i].Text = inputDatas[3][i].ToString();
+                //    PBolgradBoxes[i].Text = inputDatas[4][i].ToString();
+                //    DorEBoxes[i].Text = inputDatas[5][i].ToString();
+                //}
 
                 s1InJanuaryBox.Text = DataAccess.GetCellData<double>($"SELECT S1InJanuary FROM OtherData WHERE YearName = {YearOfCalculation}").ToString();
                 sumVgBox.Text = DataAccess.GetCellData<double>($"SELECT CoefficientValue FROM Coefficients WHERE CoefficientID = 36").ToString();
+            }
+        }
+
+        private void FillBoxes(List<TextBox> boxes, string[] data)
+        {
+            for (int i = 0; i < 12; i++)
+            {
+                try
+                {
+                    boxes[i].Text = data[i].Replace(".", ",");
+                }
+                catch (NullReferenceException)
+                {
+                    boxes[i].Text = "";
+                }
             }
         }
 
@@ -201,6 +238,21 @@ namespace CatlabuhApp.UI.Support.Setups
                     isCalculateE = true;
                     break;
             }
+
+            try
+            {
+                if (Calculation.Exists(DataAccess, YearOfCalculation))
+                {
+                    int i = 0;
+
+                    foreach (var entry in DataAccess.GetColumnData<string>($"SELECT {(isCalculateE ? "d" : "E")} FROM InputData WHERE YearName = {YearOfCalculation}"))
+                    {
+                        DorEBoxes[i].Text = entry;
+                        i++;
+                    }
+                }
+            }
+            catch (Exception) { }
         }
 
         private void ShowGatewaySchedule_CheckedChanged(object sender, EventArgs e)
@@ -359,11 +411,13 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private void TextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
+            TextBox textBox = (TextBox)sender;
+
             if ((e.KeyChar >= '0') && (e.KeyChar <= '9'))
             {
                 return;
             }
-            if ((e.KeyChar == '-') || (e.KeyChar == ','))
+            if (((e.KeyChar == '-') && !textBox.Text.Contains("-"))  || ((e.KeyChar == ',') && !textBox.Text.Contains(",")))
             {
                 return;
             }
@@ -402,5 +456,17 @@ namespace CatlabuhApp.UI.Support.Setups
             IsShown = false;
         }
 
+        private void h1Box0_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                double test = Convert.ToDouble(((TextBox)sender).Text);
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("", "", MessageBoxButtons.OK, MessageBoxIcon.None);
+            }
+
+        }
     }
 }

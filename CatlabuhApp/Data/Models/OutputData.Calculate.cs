@@ -240,6 +240,8 @@ namespace CatlabuhApp.Data.Models
 
                 dltVni[i] = -((ep[i] += gs.IsCalculateGS ? gs.VD_plus[i] + gs.Voz_plus[i] : 0) -
                     (er[i] += gs.IsCalculateGS ? gs.VD_minus[i] + gs.Voz_minus[i] : 0) - dltW[i]);
+
+                sumsOfWBP[9] += dltVni[i];  // dlt_Vni
             }
 
             if (gs.IsEnterGatewaySchedule)
@@ -256,6 +258,7 @@ namespace CatlabuhApp.Data.Models
             percentsOfWBP[5] = percentsOfWBP[0] + percentsOfWBP[1] + percentsOfWBP[2] + percentsOfWBP[3] + percentsOfWBP[4];    // EP
             percentsOfWBP[6] = (sumsOfWBP[7] / (sumsOfWBP[6] + sumsOfWBP[7] + sumsOfWBP[8])) * 100;                             // VD_plus
             percentsOfWBP[7] = (sumsOfWBP[8] / (sumsOfWBP[6] + sumsOfWBP[7] + sumsOfWBP[8])) * 100;                             // Voz_plus
+            percentsOfWBP[8] = (sumsOfWBP[9] / (sumsOfWBP[6] + sumsOfWBP[7] + sumsOfWBP[8])) * 100;                             // dlt_Vni
 
             percentsOfWBC[0] = (sumsOfWBC[2] / (sumsOfWBC[6] + sumsOfWBC[7] + sumsOfWBC[8])) * 100;                             // VE
             percentsOfWBC[1] = (sumsOfWBC[3] / (sumsOfWBC[6] + sumsOfWBC[7] + sumsOfWBC[8])) * 100;                             // Vtr
@@ -401,16 +404,20 @@ namespace CatlabuhApp.Data.Models
 
                 if (i < 8)
                 {
-                    percentsOfWBP[i] = Math.Round(percentsOfWBP[i], 2);
-
                     percentsOfSBP[i] = Math.Round(percentsOfSBP[i], 2);
                     sumsOfSBP[i] = Math.Round(sumsOfSBP[i], 2);
                 }
 
                 if (i < 9)
                 {
-                    sumsOfWBP[i] = Math.Round(sumsOfWBP[i], 2);
+                    percentsOfWBP[i] = Math.Round(percentsOfWBP[i], 2);
+                    
                     sumsOfWBC[i] = Math.Round(sumsOfWBC[i], 2);
+                }
+
+                if (i < 10)
+                {
+                    sumsOfWBP[i] = Math.Round(sumsOfWBP[i], 2);
                 }
 
                 gs.VD_plus[i] = Math.Round(gs.VD_plus[i], 2);

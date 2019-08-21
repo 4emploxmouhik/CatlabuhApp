@@ -218,6 +218,10 @@
   <data name="h1Box11.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="h1Box11.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h1Box11.Name" xml:space="preserve">
     <value>h1Box11</value>
   </data>
@@ -238,6 +242,9 @@
   </data>
   <data name="h1Box0.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="h1Box0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h1Box0.Name" xml:space="preserve">
     <value>h1Box0</value>
@@ -260,6 +267,9 @@
   <data name="h1Box10.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
+  <data name="h1Box10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h1Box10.Name" xml:space="preserve">
     <value>h1Box10</value>
   </data>
@@ -280,6 +290,9 @@
   </data>
   <data name="h1Box1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="h1Box1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h1Box1.Name" xml:space="preserve">
     <value>h1Box1</value>
@@ -302,6 +315,9 @@
   <data name="h1Box9.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
+  <data name="h1Box9.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h1Box9.Name" xml:space="preserve">
     <value>h1Box9</value>
   </data>
@@ -322,6 +338,9 @@
   </data>
   <data name="h1Box2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="h1Box2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h1Box2.Name" xml:space="preserve">
     <value>h1Box2</value>
@@ -344,6 +363,9 @@
   <data name="h1Box8.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
+  <data name="h1Box8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h1Box8.Name" xml:space="preserve">
     <value>h1Box8</value>
   </data>
@@ -364,6 +386,9 @@
   </data>
   <data name="h1Box3.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
+  </data>
+  <data name="h1Box3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h1Box3.Name" xml:space="preserve">
     <value>h1Box3</value>
@@ -386,6 +411,9 @@
   <data name="h1Box7.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
+  <data name="h1Box7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h1Box7.Name" xml:space="preserve">
     <value>h1Box7</value>
   </data>
@@ -406,6 +434,9 @@
   </data>
   <data name="h1Box4.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
+  </data>
+  <data name="h1Box4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h1Box4.Name" xml:space="preserve">
     <value>h1Box4</value>
@@ -428,6 +459,9 @@
   <data name="h1Box6.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
+  <data name="h1Box6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h1Box6.Name" xml:space="preserve">
     <value>h1Box6</value>
   </data>
@@ -449,6 +483,9 @@
   <data name="h1Box5.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
+  <data name="h1Box5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h1Box5.Name" xml:space="preserve">
     <value>h1Box5</value>
   </data>
@@ -461,7 +498,6 @@
   <data name="&gt;&gt;h1Box5.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="autoFilling.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
@@ -504,6 +540,9 @@
   <data name="h2Box11.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
   </data>
+  <data name="h2Box11.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h2Box11.Name" xml:space="preserve">
     <value>h2Box11</value>
   </data>
@@ -524,6 +563,9 @@
   </data>
   <data name="h2Box0.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="h2Box0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h2Box0.Name" xml:space="preserve">
     <value>h2Box0</value>
@@ -576,6 +618,9 @@
   <data name="h2Box10.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
+  <data name="h2Box10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h2Box10.Name" xml:space="preserve">
     <value>h2Box10</value>
   </data>
@@ -596,6 +641,9 @@
   </data>
   <data name="h2Box1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="h2Box1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h2Box1.Name" xml:space="preserve">
     <value>h2Box1</value>
@@ -618,6 +666,9 @@
   <data name="h2Box9.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
+  <data name="h2Box9.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h2Box9.Name" xml:space="preserve">
     <value>h2Box9</value>
   </data>
@@ -638,6 +689,9 @@
   </data>
   <data name="h2Box2.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="h2Box2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h2Box2.Name" xml:space="preserve">
     <value>h2Box2</value>
@@ -660,6 +714,9 @@
   <data name="h2Box8.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
+  <data name="h2Box8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h2Box8.Name" xml:space="preserve">
     <value>h2Box8</value>
   </data>
@@ -680,6 +737,9 @@
   </data>
   <data name="h2Box3.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
+  </data>
+  <data name="h2Box3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h2Box3.Name" xml:space="preserve">
     <value>h2Box3</value>
@@ -702,6 +762,9 @@
   <data name="h2Box7.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
+  <data name="h2Box7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h2Box7.Name" xml:space="preserve">
     <value>h2Box7</value>
   </data>
@@ -722,6 +785,9 @@
   </data>
   <data name="h2Box4.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
+  </data>
+  <data name="h2Box4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h2Box4.Name" xml:space="preserve">
     <value>h2Box4</value>
@@ -744,6 +810,9 @@
   <data name="h2Box6.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
+  <data name="h2Box6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;h2Box6.Name" xml:space="preserve">
     <value>h2Box6</value>
   </data>
@@ -764,6 +833,9 @@
   </data>
   <data name="h2Box5.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
+  </data>
+  <data name="h2Box5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;h2Box5.Name" xml:space="preserve">
     <value>h2Box5</value>
@@ -1464,6 +1536,9 @@
   <data name="pBolgradBox11.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
+  <data name="pBolgradBox11.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pBolgradBox11.Name" xml:space="preserve">
     <value>pBolgradBox11</value>
   </data>
@@ -1484,6 +1559,9 @@
   </data>
   <data name="pBolgradBox0.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="pBolgradBox0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pBolgradBox0.Name" xml:space="preserve">
     <value>pBolgradBox0</value>
@@ -1506,6 +1584,9 @@
   <data name="pBolgradBox10.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
+  <data name="pBolgradBox10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pBolgradBox10.Name" xml:space="preserve">
     <value>pBolgradBox10</value>
   </data>
@@ -1526,6 +1607,9 @@
   </data>
   <data name="pBolgradBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="pBolgradBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pBolgradBox1.Name" xml:space="preserve">
     <value>pBolgradBox1</value>
@@ -1548,6 +1632,9 @@
   <data name="pBolgradBox9.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
+  <data name="pBolgradBox9.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pBolgradBox9.Name" xml:space="preserve">
     <value>pBolgradBox9</value>
   </data>
@@ -1568,6 +1655,9 @@
   </data>
   <data name="pBolgradBox2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="pBolgradBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pBolgradBox2.Name" xml:space="preserve">
     <value>pBolgradBox2</value>
@@ -1590,6 +1680,9 @@
   <data name="pBolgradBox8.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
+  <data name="pBolgradBox8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pBolgradBox8.Name" xml:space="preserve">
     <value>pBolgradBox8</value>
   </data>
@@ -1610,6 +1703,9 @@
   </data>
   <data name="pBolgradBox3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="pBolgradBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pBolgradBox3.Name" xml:space="preserve">
     <value>pBolgradBox3</value>
@@ -1632,6 +1728,9 @@
   <data name="pBolgradBox7.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
+  <data name="pBolgradBox7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pBolgradBox7.Name" xml:space="preserve">
     <value>pBolgradBox7</value>
   </data>
@@ -1652,6 +1751,9 @@
   </data>
   <data name="pBolgradBox4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="pBolgradBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pBolgradBox4.Name" xml:space="preserve">
     <value>pBolgradBox4</value>
@@ -1674,6 +1776,9 @@
   <data name="pBolgradBox6.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="pBolgradBox6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pBolgradBox6.Name" xml:space="preserve">
     <value>pBolgradBox6</value>
   </data>
@@ -1694,6 +1799,9 @@
   </data>
   <data name="pBolgradBox5.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="pBolgradBox5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pBolgradBox5.Name" xml:space="preserve">
     <value>pBolgradBox5</value>
@@ -1743,6 +1851,9 @@
   <data name="pIsmailBox11.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
+  <data name="pIsmailBox11.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pIsmailBox11.Name" xml:space="preserve">
     <value>pIsmailBox11</value>
   </data>
@@ -1763,6 +1874,9 @@
   </data>
   <data name="pIsmailBox0.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="pIsmailBox0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pIsmailBox0.Name" xml:space="preserve">
     <value>pIsmailBox0</value>
@@ -1785,6 +1899,9 @@
   <data name="pIsmailBox10.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
+  <data name="pIsmailBox10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pIsmailBox10.Name" xml:space="preserve">
     <value>pIsmailBox10</value>
   </data>
@@ -1805,6 +1922,9 @@
   </data>
   <data name="pIsmailBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="pIsmailBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pIsmailBox1.Name" xml:space="preserve">
     <value>pIsmailBox1</value>
@@ -1827,6 +1947,9 @@
   <data name="pIsmailBox9.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
+  <data name="pIsmailBox9.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pIsmailBox9.Name" xml:space="preserve">
     <value>pIsmailBox9</value>
   </data>
@@ -1847,6 +1970,9 @@
   </data>
   <data name="pIsmailBox2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="pIsmailBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pIsmailBox2.Name" xml:space="preserve">
     <value>pIsmailBox2</value>
@@ -1869,6 +1995,9 @@
   <data name="pIsmailBox8.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
+  <data name="pIsmailBox8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pIsmailBox8.Name" xml:space="preserve">
     <value>pIsmailBox8</value>
   </data>
@@ -1889,6 +2018,9 @@
   </data>
   <data name="pIsmailBox3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="pIsmailBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pIsmailBox3.Name" xml:space="preserve">
     <value>pIsmailBox3</value>
@@ -1911,6 +2043,9 @@
   <data name="pIsmailBox7.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
+  <data name="pIsmailBox7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pIsmailBox7.Name" xml:space="preserve">
     <value>pIsmailBox7</value>
   </data>
@@ -1931,6 +2066,9 @@
   </data>
   <data name="pIsmailBox4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="pIsmailBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pIsmailBox4.Name" xml:space="preserve">
     <value>pIsmailBox4</value>
@@ -1953,6 +2091,9 @@
   <data name="pIsmailBox6.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="pIsmailBox6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;pIsmailBox6.Name" xml:space="preserve">
     <value>pIsmailBox6</value>
   </data>
@@ -1973,6 +2114,9 @@
   </data>
   <data name="pIsmailBox5.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="pIsmailBox5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;pIsmailBox5.Name" xml:space="preserve">
     <value>pIsmailBox5</value>
@@ -2406,6 +2550,9 @@
   <data name="vzBox5.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="vzBox5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;vzBox5.Name" xml:space="preserve">
     <value>vzBox5</value>
   </data>
@@ -2426,6 +2573,9 @@
   </data>
   <data name="vzBox0.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="vzBox0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;vzBox0.Name" xml:space="preserve">
     <value>vzBox0</value>
@@ -2448,6 +2598,9 @@
   <data name="vzBox11.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
+  <data name="vzBox11.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;vzBox11.Name" xml:space="preserve">
     <value>vzBox11</value>
   </data>
@@ -2468,6 +2621,9 @@
   </data>
   <data name="vzBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="vzBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;vzBox1.Name" xml:space="preserve">
     <value>vzBox1</value>
@@ -2490,6 +2646,9 @@
   <data name="vzBox10.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
+  <data name="vzBox10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;vzBox10.Name" xml:space="preserve">
     <value>vzBox10</value>
   </data>
@@ -2510,6 +2669,9 @@
   </data>
   <data name="vzBox2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="vzBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;vzBox2.Name" xml:space="preserve">
     <value>vzBox2</value>
@@ -2532,6 +2694,9 @@
   <data name="vzBox9.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
+  <data name="vzBox9.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;vzBox9.Name" xml:space="preserve">
     <value>vzBox9</value>
   </data>
@@ -2552,6 +2717,9 @@
   </data>
   <data name="vzBox3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="vzBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;vzBox3.Name" xml:space="preserve">
     <value>vzBox3</value>
@@ -2574,6 +2742,9 @@
   <data name="vzBox8.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
+  <data name="vzBox8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;vzBox8.Name" xml:space="preserve">
     <value>vzBox8</value>
   </data>
@@ -2594,6 +2765,9 @@
   </data>
   <data name="vzBox4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="vzBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;vzBox4.Name" xml:space="preserve">
     <value>vzBox4</value>
@@ -2616,6 +2790,9 @@
   <data name="vzBox7.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
+  <data name="vzBox7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;vzBox7.Name" xml:space="preserve">
     <value>vzBox7</value>
   </data>
@@ -2636,6 +2813,9 @@
   </data>
   <data name="vzBox6.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
+  </data>
+  <data name="vzBox6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;vzBox6.Name" xml:space="preserve">
     <value>vzBox6</value>
@@ -3069,6 +3249,9 @@
   <data name="dEBox11.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
+  <data name="dEBox11.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;dEBox11.Name" xml:space="preserve">
     <value>dEBox11</value>
   </data>
@@ -3089,6 +3272,9 @@
   </data>
   <data name="dEBox0.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="dEBox0.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;dEBox0.Name" xml:space="preserve">
     <value>dEBox0</value>
@@ -3111,6 +3297,9 @@
   <data name="dEBox10.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
+  <data name="dEBox10.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;dEBox10.Name" xml:space="preserve">
     <value>dEBox10</value>
   </data>
@@ -3131,6 +3320,9 @@
   </data>
   <data name="dEBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
+  </data>
+  <data name="dEBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;dEBox1.Name" xml:space="preserve">
     <value>dEBox1</value>
@@ -3153,6 +3345,9 @@
   <data name="dEBox9.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
+  <data name="dEBox9.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;dEBox9.Name" xml:space="preserve">
     <value>dEBox9</value>
   </data>
@@ -3173,6 +3368,9 @@
   </data>
   <data name="dEBox2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="dEBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;dEBox2.Name" xml:space="preserve">
     <value>dEBox2</value>
@@ -3195,6 +3393,9 @@
   <data name="dEBox8.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
+  <data name="dEBox8.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;dEBox8.Name" xml:space="preserve">
     <value>dEBox8</value>
   </data>
@@ -3215,6 +3416,9 @@
   </data>
   <data name="dEBox3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="dEBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;dEBox3.Name" xml:space="preserve">
     <value>dEBox3</value>
@@ -3237,6 +3441,9 @@
   <data name="dEBox7.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
+  <data name="dEBox7.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;dEBox7.Name" xml:space="preserve">
     <value>dEBox7</value>
   </data>
@@ -3257,6 +3464,9 @@
   </data>
   <data name="dEBox4.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
+  </data>
+  <data name="dEBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;dEBox4.Name" xml:space="preserve">
     <value>dEBox4</value>
@@ -3279,6 +3489,9 @@
   <data name="dEBox6.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="dEBox6.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;dEBox6.Name" xml:space="preserve">
     <value>dEBox6</value>
   </data>
@@ -3299,6 +3512,9 @@
   </data>
   <data name="dEBox5.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
+  </data>
+  <data name="dEBox5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;dEBox5.Name" xml:space="preserve">
     <value>dEBox5</value>
@@ -3766,6 +3982,9 @@ deficit</value>
   <data name="sumVgBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="sumVgBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
   <data name="&gt;&gt;sumVgBox.Name" xml:space="preserve">
     <value>sumVgBox</value>
   </data>
@@ -3840,6 +4059,9 @@ deficit</value>
   </data>
   <data name="s1InJanuaryBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="s1InJanuaryBox.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;s1InJanuaryBox.Name" xml:space="preserve">
     <value>s1InJanuaryBox</value>

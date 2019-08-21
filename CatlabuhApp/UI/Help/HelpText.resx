@@ -424,10 +424,11 @@ To save the calculation input, in the "New calculation setup" window, in the too
 In order to configure the application, select the "Settings" item in the "Main Menu" and click LMB on it. Then the page for viewing the settings will be called up. The page has two tabs: "General Settings" and "Settlement Setup".
 
 In the tab "General Settings" you can change:
-    1. The path to the directory with Excel calculation files.
-    2. The path to the directory with Excel chart files.
-    3. Path to the directory with diagram image files.
-    4. Application language.
+    1. The path to the SQLite database file.
+    2. The path to the directory with Excel calculation files.
+    3. The path to the directory with Excel chart files.
+    4. Path to the directory with diagram image files.
+    5. Application language.
 
 In the "Calculation Setup" tab, you can change the value of the coefficients.
 In order to save all the changes made, click the "Apply" button.</value>
@@ -438,10 +439,11 @@ In order to save all the changes made, click the "Apply" button.</value>
 Для того чтобы настроить приложение надо в "Главном меню" выбрать пункт "Настройка" и нажать по нему ЛКМ. После чего будет вызвана страница просмотра настроек. Страница имеет две вкладки: "Общие настройки" и "Настройка расчета".
 
 Во вкладке "Общие настройки" можно изменить:
-    1. Путь к директории с Excel-файлами расчетов.
-    2. Путь к директории с Excel-файлами диаграмм.
-    3. Путь к директории с файлами изображений диаграмм.
-    4. Язык приложения.
+    1. Путь к файлу базы данных SQLite.
+    2. Путь к директории с Excel-файлами расчетов.
+    3. Путь к директории с Excel-файлами диаграмм.
+    4. Путь к директории с файлами изображений диаграмм.
+    5. Язык приложения.
 
 Во вкладке "Настройка расчета" можно изменить значение коэффициентов в формулах расчета, таблицы и т.д.
 Для того чтобы сохранить все внесенные изменения, нужно нажать кнопку «Применить».</value>
@@ -452,10 +454,11 @@ In order to save all the changes made, click the "Apply" button.</value>
 Для того щоб налаштувати додаток треба у "Головному меню" обрати пункт "Налаштування" і натиснути по ньому ЛКМ. Після чого буде викликана сторінка перегляду налаштувань. Сторінка має дві вкладки: "Загальні налаштування" і "Налаштування розрахунку".
 
 У вкладці "Загальні налаштування" можна змінити:
-    1. Шлях до директорії з Excel-файлами розрахунків.
-    2. Шлях до директорії з Excel-файлами діаграм.
-    3. Шлях до директорії з файлами зображень діаграм.
-    4. Мову додатку.
+    1. Шлях до файлу бази даних SQLite.
+    2. Шлях до директорії з Excel-файлами розрахунків.
+    3. Шлях до директорії з Excel-файлами діаграм.
+    4. Шлях до директорії з файлами зображень діаграм.
+    5. Мову додатку.
 
 У вкладці "Налаштування розрахунку" можна змінити значення коефіціентів у формулах розрахунку, таблиці тощо.
 Для того щоб зберегти всі внесені зміни, треба натиснути кнопку "Застосувати".</value>
