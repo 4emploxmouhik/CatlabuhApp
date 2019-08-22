@@ -45,8 +45,8 @@
             // 
             // menuStrip
             // 
-            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.BackColor = System.Drawing.Color.WhiteSmoke;
+            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.homePage,
             this.calculations,
@@ -58,66 +58,66 @@
             // 
             // homePage
             // 
-            resources.ApplyResources(this.homePage, "homePage");
             this.homePage.Image = global::CatlabuhApp.Properties.Resources.home_16;
             this.homePage.Name = "homePage";
+            resources.ApplyResources(this.homePage, "homePage");
             this.homePage.Click += new System.EventHandler(this.HomePage_Click);
             // 
             // calculations
             // 
-            resources.ApplyResources(this.calculations, "calculations");
             this.calculations.Image = global::CatlabuhApp.Properties.Resources.grid_16;
             this.calculations.Name = "calculations";
+            resources.ApplyResources(this.calculations, "calculations");
             this.calculations.Click += new System.EventHandler(this.Calculations_Click);
             // 
             // charts
             // 
-            resources.ApplyResources(this.charts, "charts");
             this.charts.Image = global::CatlabuhApp.Properties.Resources.chart_16;
             this.charts.Name = "charts";
+            resources.ApplyResources(this.charts, "charts");
             this.charts.Click += new System.EventHandler(this.Charts_Click);
             // 
             // settings
             // 
-            resources.ApplyResources(this.settings, "settings");
             this.settings.Image = global::CatlabuhApp.Properties.Resources.settings_16;
             this.settings.Name = "settings";
+            resources.ApplyResources(this.settings, "settings");
             this.settings.Click += new System.EventHandler(this.Settings_Click);
             // 
             // helpToolStripMenuItem
             // 
-            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.viewHelp,
             this.toolStripSeparator1,
             this.viewAbout});
             this.helpToolStripMenuItem.Image = global::CatlabuhApp.Properties.Resources.books_16;
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            resources.ApplyResources(this.helpToolStripMenuItem, "helpToolStripMenuItem");
             // 
             // viewHelp
             // 
-            resources.ApplyResources(this.viewHelp, "viewHelp");
             this.viewHelp.Image = global::CatlabuhApp.Properties.Resources.help_16;
             this.viewHelp.Name = "viewHelp";
+            resources.ApplyResources(this.viewHelp, "viewHelp");
             this.viewHelp.Click += new System.EventHandler(this.ViewHelp_Click);
             // 
             // toolStripSeparator1
             // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // viewAbout
             // 
-            resources.ApplyResources(this.viewAbout, "viewAbout");
             this.viewAbout.Image = global::CatlabuhApp.Properties.Resources.info_16;
             this.viewAbout.Name = "viewAbout";
+            resources.ApplyResources(this.viewAbout, "viewAbout");
             this.viewAbout.Click += new System.EventHandler(this.ViewAbout_Click);
             // 
             // exit
             // 
-            resources.ApplyResources(this.exit, "exit");
             this.exit.Image = global::CatlabuhApp.Properties.Resources.exit_16;
             this.exit.Name = "exit";
+            resources.ApplyResources(this.exit, "exit");
             this.exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // contentPanel

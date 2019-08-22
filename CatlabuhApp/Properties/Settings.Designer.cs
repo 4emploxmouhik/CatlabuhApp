@@ -25,7 +25,7 @@ namespace CatlabuhApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("en-US")]
+        [global::System.Configuration.DefaultSettingValueAttribute("uk-UA")]
         public string Language {
             get {
                 return ((string)(this["Language"]));
@@ -37,7 +37,7 @@ namespace CatlabuhApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Default")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\wilkis\\Desktop\\")]
         public string CalculationsDirectoryPath {
             get {
                 return ((string)(this["CalculationsDirectoryPath"]));
@@ -49,7 +49,7 @@ namespace CatlabuhApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\wilkis\\Desktop\\Graph\\")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\wilkis\\Desktop\\")]
         public string ChartsImagesDirectoryPath {
             get {
                 return ((string)(this["ChartsImagesDirectoryPath"]));
@@ -61,7 +61,7 @@ namespace CatlabuhApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\wilkis\\Desktop\\Graph\\")]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\wilkis\\Desktop\\")]
         public string ChartsExcelFilesDirectoryPath {
             get {
                 return ((string)(this["ChartsExcelFilesDirectoryPath"]));
@@ -73,7 +73,7 @@ namespace CatlabuhApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\wilkis\\Desktop\\CatlabuhDB_mkII\\CatlabuhDB_v2.3.db")]
+        [global::System.Configuration.DefaultSettingValueAttribute(".\\db\\CatlabuhDB.db")]
         public string DBPath {
             get {
                 return ((string)(this["DBPath"]));

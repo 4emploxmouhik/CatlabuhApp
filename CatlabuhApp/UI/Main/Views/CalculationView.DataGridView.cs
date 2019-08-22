@@ -205,8 +205,6 @@ namespace CatlabuhApp.UI.Main.Views
         private void SetTagsAndToolTipsAtColumns(DataGridView dgv, Calculation.PartOfCalculation part)
         {
             string[] dbColumnsName = Calculation.GetDBColumnsName(part);
-            string[] toolTips = null;
-
             string language = "";
 
             switch (Properties.Settings.Default.Language)

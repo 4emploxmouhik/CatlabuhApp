@@ -9,7 +9,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
         private Button Yes = new Button() { Name = "yes", Dock = DockStyle.Fill };
         private Button No = new Button() { Name = "no", Dock = DockStyle.Fill };
 
-        public enum Icon { Alert, Cross, OK, Question }
+        public new enum Icon { Alert, Cross, OK, Question }
 
         private string Message {
             set

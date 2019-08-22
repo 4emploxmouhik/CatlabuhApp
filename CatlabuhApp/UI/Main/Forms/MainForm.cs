@@ -5,8 +5,6 @@ using CatlabuhApp.UI.Support.Dialogs;
 using CatlabuhAppSupportHelp.UI.Help;
 using System;
 using System.ComponentModel;
-using System.Configuration;
-using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -47,7 +45,7 @@ namespace CatlabuhApp.UI.Main.Forms
         {
             GetCultureInfo();
             InitializeComponent();
-            
+
             DataAccess = new SQLiteDataAccess();
 
             var checkResult = DataAccess.CheckDB();

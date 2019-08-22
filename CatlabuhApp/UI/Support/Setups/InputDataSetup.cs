@@ -455,18 +455,5 @@ namespace CatlabuhApp.UI.Support.Setups
         {
             IsShown = false;
         }
-
-        private void h1Box0_TextChanged(object sender, EventArgs e)
-        {
-            try
-            {
-                double test = Convert.ToDouble(((TextBox)sender).Text);
-            }
-            catch (FormatException)
-            {
-                MessageBox.Show("", "", MessageBoxButtons.OK, MessageBoxIcon.None);
-            }
-
-        }
     }
 }
