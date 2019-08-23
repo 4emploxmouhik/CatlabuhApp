@@ -120,7 +120,7 @@
   <data name="autoFillingText_EN" xml:space="preserve">
     <value>Auto fill
 
-When this function is enabled: the values entered in the cell of the first column will be written to the cell of the second column located one line above. Conversely, the cell value of the second column will be written to the cell of the first, but the line below.</value>
+When this function is enabled: the values entered in the cell of the first column will be written in the cell of the second column located one line above. Conversely, the cell value of the second column will be written in the cell of the first, but in the line below.</value>
   </data>
   <data name="autoFillingText_RU" xml:space="preserve">
     <value>Автоматическое заполнение
@@ -135,7 +135,7 @@ When this function is enabled: the values entered in the cell of the first colum
   <data name="calculateText_EN" xml:space="preserve">
     <value>Calculation
 
-To carry out the calculation, you must call the "Set up a new calculation" form. In the form you need to enter or select the calculation year, fill in all the fields of the form with the input data and click "Calculate" on the LMB. After that, the output will be calculated, which can be viewed in the "Main window" on the page "Calculations". If the DFSH is involved in the calculation, then you need to check the corresponding window, then enter all the necessary data and select the calculation method:
+To carry out the calculation, you must call the "Set up a new calculation" form. In the form you need to enter or select the calculation year, fill in all the fields of the form with the input data and click "Calculate" on the LMB. After that, the output will be calculated which can be viewed in the "Main window" on the page "Calculations". If the DFSH is involved in the calculation, then you need to check the corresponding window, then enter all the necessary data and select the calculation method:
 DRGSh form&gt; Toolbar&gt; Settings&gt; Calculation method</value>
   </data>
   <data name="calculateText_RU" xml:space="preserve">
@@ -256,7 +256,7 @@ In this window, select the chart parameters for the X and Y axes.</value>
   <data name="deleteCalcText_EN" xml:space="preserve">
     <value>Delete calculation
 
-To delete a calculation, on the page for viewing calculations, click RMB to open the context menu. In this menu, select and click "Delete calculation", after which the current calculation is deleted.</value>
+To delete a calculation, on the page for viewing calculations, click RMB to open the context menu. In this menu, select and click "Delete calculation", after which the current calculation will be deleted.</value>
   </data>
   <data name="deleteCalcText_RU" xml:space="preserve">
     <value>Удаление расчета
@@ -271,7 +271,7 @@ To delete a calculation, on the page for viewing calculations, click RMB to open
   <data name="exportCalcText_EN" xml:space="preserve">
     <value>Export calculation to Excel
 
-To export the calculation, click on the "Export to Excel" item on the page for viewing calculations on the LMB toolbar. After that, a dialog box will be called in which you need to select the current calculation tables that require export. Having made your choice, you need to click the "Export" button.
+To export the calculation, click on the "Export to Excel" item on the page for viewing calculations on the LMB toolbar. After that, a dialog box will be called in which you need to select the current calculation tables that require export. When your choice is made, you need to click the "Export" button.
 At the end of the export, Microsoft Excel will be launched with the selected calculation tables.</value>
   </data>
   <data name="exportCalcText_RU" xml:space="preserve">
@@ -355,9 +355,9 @@ Toolbar &gt; Settings &gt; Year of calculation</value>
   <data name="recalculateText_EN" xml:space="preserve">
     <value>Recalculation of the calculation
 
-If you need to calculate a calculation that already exists, there are two ways to solve this problem:
-    1. To bring up the menu of accounts on the page of calculations view by pressing RBM. Select and press the item "Recalculate". After that, a dialog box will be selected to select the calculation parameters. After setting the parameters, click the "Calculate" button. As a result, the current calculation will be recalculated and saved.
-    2. On the Calculation Review page, click the Create New Calculation toolbar. After calling the form to fill in the input data, you must select the year of calculation in the drop-down list. The text boxes will be filled with the input of the selected calculation. After changing the input data, you need to click "Calculate" if necessary. The result will be a recalculation and saving of the calculation.</value>
+If you need to compute a calculation that already exists, there are two ways to solve this problem:
+    1. To bring up the menu of accounts on the page of calculations view by pressing RBM. Select and press the item "Recalculate". After that, a dialog box will be chosen to select the calculation parameters. After setting the parameters, click the "Calculate" button. As a result, the current calculation will be recalculated and saved.
+    2. On the Calculation Review page, click on the "Create New Calculation" toolbar. After calling the form to fill in the input data, you must select the year of calculation in the drop-down list. The text boxes will be filled with the input of the selected calculation. After changing the input data, you need to click "Calculate" if necessary. The result will be a recalculation and saving of the calculation.</value>
   </data>
   <data name="recalculateText_RU" xml:space="preserve">
     <value>Перерасчет расчета
@@ -406,7 +406,7 @@ To save the chart, you need to select and click Save as Image in the chart view 
   <data name="saveInputDataText_EN" xml:space="preserve">
     <value>Save the input
 
-To save the calculation input, in the "New calculation setup" window, in the toolbar, click "Save input data". The input will then be saved.</value>
+To save the calculation input, in the "New calculation setup" window in the toolbar click "Save input data". The input will then be saved.</value>
   </data>
   <data name="saveInputDataText_RU" xml:space="preserve">
     <value>Сохранение входных данных
@@ -474,8 +474,8 @@ In order to save all the changes made, click the "Apply" button.</value>
 
 CatlabuhApp is designed to calculate the water and salt balances of Lake Catlabuh.
 
-After starting the program, the home page is displayed by default.
-To move between the display pages in the application there is a "Main menu", which is located on top.
+After the program starts, the home page is displayed by default.
+To move between the display pages in the application there is a "Main menu" which is located on top.
 The "Main menu" consists of six items (from left to right):
     1. Start page;
     2. Calculations;
@@ -484,8 +484,8 @@ The "Main menu" consists of six items (from left to right):
     5. Help;
     6. Exit.
 
-Clicking LMB on the first four points will bring up the corresponding display page.
-Clicking on the "Help" item will open a list of two options: "View Help" and "About the Program". Clicking LMB on the first option will bring up the help of the application, clicking on the second will call information directly about the application itself.</value>
+Clicking on LMB on the first four points will bring up the corresponding display page.
+Clicking on the "Help" item will open a list with two options: "View Help" and "About the Program". Clicking on LMB on the first option will bring up the help for the application, clicking on the second one will open information directly about the application itself.</value>
   </data>
   <data name="startWorkText_RU" xml:space="preserve">
     <value>Начало работы

@@ -63,7 +63,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Auto fill
         ///
-        ///When this function is enabled: the values entered in the cell of the first column will be written to the cell of the second column located one line above. Conversely, the cell value of the second column will be written to the cell of the first, but the line below..
+        ///When this function is enabled: the values entered in the cell of the first column will be written in the cell of the second column located one line above. Conversely, the cell value of the second column will be written in the cell of the first, but in the line below..
         /// </summary>
         internal static string autoFillingText_EN {
             get {
@@ -96,7 +96,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Calculation
         ///
-        ///To carry out the calculation, you must call the &quot;Set up a new calculation&quot; form. In the form you need to enter or select the calculation year, fill in all the fields of the form with the input data and click &quot;Calculate&quot; on the LMB. After that, the output will be calculated, which can be viewed in the &quot;Main window&quot; on the page &quot;Calculations&quot;. If the DFSH is involved in the calculation, then you need to check the corresponding window, then enter all the necessary data and select the calculation [остаток строки не уместился]&quot;;.
+        ///To carry out the calculation, you must call the &quot;Set up a new calculation&quot; form. In the form you need to enter or select the calculation year, fill in all the fields of the form with the input data and click &quot;Calculate&quot; on the LMB. After that, the output will be calculated which can be viewed in the &quot;Main window&quot; on the page &quot;Calculations&quot;. If the DFSH is involved in the calculation, then you need to check the corresponding window, then enter all the necessary data and select the calculation  [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string calculateText_EN {
             get {
@@ -355,7 +355,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Delete calculation
         ///
-        ///To delete a calculation, on the page for viewing calculations, click RMB to open the context menu. In this menu, select and click &quot;Delete calculation&quot;, after which the current calculation is deleted..
+        ///To delete a calculation, on the page for viewing calculations, click RMB to open the context menu. In this menu, select and click &quot;Delete calculation&quot;, after which the current calculation will be deleted..
         /// </summary>
         internal static string deleteCalcText_EN {
             get {
@@ -388,7 +388,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Export calculation to Excel
         ///
-        ///To export the calculation, click on the &quot;Export to Excel&quot; item on the page for viewing calculations on the LMB toolbar. After that, a dialog box will be called in which you need to select the current calculation tables that require export. Having made your choice, you need to click the &quot;Export&quot; button.
+        ///To export the calculation, click on the &quot;Export to Excel&quot; item on the page for viewing calculations on the LMB toolbar. After that, a dialog box will be called in which you need to select the current calculation tables that require export. When your choice is made, you need to click the &quot;Export&quot; button.
         ///At the end of the export, Microsoft Excel will be launched with the selected calculation tables..
         /// </summary>
         internal static string exportCalcText_EN {
@@ -550,9 +550,9 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Recalculation of the calculation
         ///
-        ///If you need to calculate a calculation that already exists, there are two ways to solve this problem:
-        ///    1. To bring up the menu of accounts on the page of calculations view by pressing RBM. Select and press the item &quot;Recalculate&quot;. After that, a dialog box will be selected to select the calculation parameters. After setting the parameters, click the &quot;Calculate&quot; button. As a result, the current calculation will be recalculated and saved.
-        ///    2. On the Calculation Review [остаток строки не уместился]&quot;;.
+        ///If you need to compute a calculation that already exists, there are two ways to solve this problem:
+        ///    1. To bring up the menu of accounts on the page of calculations view by pressing RBM. Select and press the item &quot;Recalculate&quot;. After that, a dialog box will be chosen to select the calculation parameters. After setting the parameters, click the &quot;Calculate&quot; button. As a result, the current calculation will be recalculated and saved.
+        ///    2. On the Calculation Review pag [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string recalculateText_EN {
             get {
@@ -655,7 +655,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Save the input
         ///
-        ///To save the calculation input, in the &quot;New calculation setup&quot; window, in the toolbar, click &quot;Save input data&quot;. The input will then be saved..
+        ///To save the calculation input, in the &quot;New calculation setup&quot; window in the toolbar click &quot;Save input data&quot;. The input will then be saved..
         /// </summary>
         internal static string saveInputDataText_EN {
             get {
@@ -762,8 +762,8 @@ namespace CatlabuhApp.UI.Help {
         ///
         ///CatlabuhApp is designed to calculate the water and salt balances of Lake Catlabuh.
         ///
-        ///After starting the program, the home page is displayed by default.
-        ///To move between the display pages in the application there is a &quot;Main menu&quot;, which is located on top.
+        ///After the program starts, the home page is displayed by default.
+        ///To move between the display pages in the application there is a &quot;Main menu&quot; which is located on top.
         ///The &quot;Main menu&quot; consists of six items (from left to right):
         ///    1. Start page;
         ///    2. Calculations;
@@ -772,7 +772,7 @@ namespace CatlabuhApp.UI.Help {
         ///    5. Help;
         ///    6. Exit.
         ///
-        ///Clicking LMB on the first four points will bring up the corres [остаток строки не уместился]&quot;;.
+        ///Clicking on LMB on the first four points will bring up the corres [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string startWorkText_EN {
             get {
