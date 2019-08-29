@@ -121,7 +121,7 @@ namespace CatlabuhApp.Data.Models
 
                 if (IsEnterGatewaySchedule)
                 {
-                    gatewaySchedule.Update();
+                    //gatewaySchedule.Update();
                 }
             }
         }

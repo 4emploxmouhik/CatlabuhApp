@@ -1,4 +1,5 @@
 ﻿using CatlabuhApp.Data.Access;
+using System.Collections.Generic;
 
 namespace CatlabuhApp.Data.Models
 {
@@ -7,7 +8,8 @@ namespace CatlabuhApp.Data.Models
         public IDataAccess DataAccess { get; private set; }
         public int[] IDs { get; set; }
         public string YearOfCalculation { get; set; }
-
+        
+        #region Здесть храняться данные
         public double[] VD_plus   { get; set; } = new double[12];
         public double[] VD_minus  { get; set; } = new double[12];
         public double[] Voz_plus  { get; set; } = new double[12];
@@ -15,7 +17,7 @@ namespace CatlabuhApp.Data.Models
 
         public double[] SumsOfVolume     { get; set; } = new double[4];
         public double[] ProcentsOfVolume { get; set; } = new double[4];
-
+#endregion
         public string[] GatewayOpenVD_plus   { get; set; } = new string[12];
         public string[] GatewayCloseVD_plus  { get; set; } = new string[12];
         public string[] GatewayOpenVD_minus  { get; set; } = new string[12];
@@ -31,6 +33,8 @@ namespace CatlabuhApp.Data.Models
 
         public bool IsCalculateGS { get; set; } = false;
         public bool IsEnterGatewaySchedule { get; set; } = false;
+
+        
 
         public enum ChoiceItems
         {
@@ -56,15 +60,15 @@ namespace CatlabuhApp.Data.Models
             Voz_plus  = GetColumnData(Voz_plus, "Voz_plus");
             Voz_minus = GetColumnData(Voz_minus, "Voz_minus");
 
-            GatewayOpenVD_plus   = DataAccess.GetColumnData<string>($"SELECT GatewayOpenVD_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
-            GatewayCloseVD_plus  = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVD_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
-            GatewayOpenVD_minus  = DataAccess.GetColumnData<string>($"SELECT GatewayOpenVD_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
-            GatewayCloseVD_minus = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVD_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
+            GatewayOpenVD_plus   = DataAccess.GetColumnData<string>($"SELECT GatewayOpenVD_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
+            GatewayCloseVD_plus  = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVD_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
+            GatewayOpenVD_minus  = DataAccess.GetColumnData<string>($"SELECT GatewayOpenVD_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
+            GatewayCloseVD_minus = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVD_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
 
-            GatewayOpenVoz_plus   = DataAccess.GetColumnData<string>($"SELECT GatewayOpenVoz_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
-            GatewayCloseVoz_plus  = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
-            GatewayOpenVoz_minus  = DataAccess.GetColumnData<string>($"SELECT GatewayOpenVoz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
-            GatewayCloseVoz_minus = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
+            GatewayOpenVoz_plus   = DataAccess.GetColumnData<string>($"SELECT GatewayOpenVoz_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
+            GatewayCloseVoz_plus  = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_plus FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
+            GatewayOpenVoz_minus  = DataAccess.GetColumnData<string>($"SELECT GatewayOpenVoz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
+            GatewayCloseVoz_minus = DataAccess.GetColumnData<string>($"SELECT GatewayCloseVoz_minus FROM GatewaySchedule WHERE YearName = {YearOfCalculation} LIMIT 12").ToArray();
 
             IDs = DataAccess.GetColumnData<int>($"SELECT GatewayScheduleID FROM GatewaySchedule WHERE YearName = {YearOfCalculation}").ToArray();
         }
@@ -177,5 +181,93 @@ namespace CatlabuhApp.Data.Models
 
             DataAccess.Execute(sql);
         }
+
+        public void SetMonthOfWorkGateway()
+        {
+            List<string> VDGPlus = new List<string>();
+            List<string> VDGMinus = new List<string>();
+            List<string> VozGPlus = new List<string>();
+            List<string> VozGMinus = new List<string>();
+
+            for (int i = 0, j = 0; i < 24; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    VDGPlus.Add(GatewayOpenVD_plus[j]);
+                    VDGMinus.Add(GatewayOpenVD_minus[j]);
+                    VozGPlus.Add(GatewayOpenVoz_plus[j]);
+                    VozGMinus.Add(GatewayOpenVoz_minus[j]);
+                }
+                else
+                {
+                    VDGPlus.Add(GatewayCloseVD_plus[j]);
+                    VDGMinus.Add(GatewayCloseVD_minus[j]);
+                    VozGPlus.Add(GatewayCloseVoz_plus[j]);
+                    VozGMinus.Add(GatewayCloseVoz_minus[j]);
+
+                    j++;
+                }
+            }
+
+            MonthsOfWorkGatewayVD = GetScheduleOfWorkGateway(GetMonthsOfTimeOfWorkAGateway(VDGPlus), GetMonthsOfTimeOfWorkAGateway(VDGMinus));
+            MonthsOfWorkGatewayVoz = GetScheduleOfWorkGateway(GetMonthsOfTimeOfWorkAGateway(VozGPlus), GetMonthsOfTimeOfWorkAGateway(VozGMinus));
+        }
+
+        private byte[] GetScheduleOfWorkGateway(byte[] workToFilling, byte[] workToDisharge)
+        {
+            byte[] shedule = new byte[12];
+
+            for (int i = 0; i < shedule.Length; i++)
+            {
+                if (workToFilling[i] == 1)
+                {
+                    shedule[i] = 1;
+                }
+                else if (workToDisharge[i] == 1)
+                {
+                    shedule[i] = 2;
+                }
+                else
+                {
+                    shedule[i] = 0;
+                }
+            }
+
+            return shedule;
+        }
+
+        private byte[] GetMonthsOfTimeOfWorkAGateway(List<string> datesWorking)
+        {
+            byte[] monthsOfWork = new byte[12];
+            bool isGatewayOpen = false;
+
+            for (int i = 0, pointer = 0; i < datesWorking.Count; i++)
+            {
+                if (datesWorking[i] != null && datesWorking[i].Length > 0)
+                {
+                    if (i % 2 == 0)
+                    {
+                        isGatewayOpen = true;
+                    }
+                    else if (i % 2 != 0)
+                    {
+                        isGatewayOpen = false;
+                    }
+                }
+
+                if (isGatewayOpen)
+                {
+                    monthsOfWork[pointer] = 1;
+                }
+
+                if (i % 2 != 0)
+                {
+                    pointer++;
+                }
+            }
+
+            return monthsOfWork;
+        }
+
     }
 }

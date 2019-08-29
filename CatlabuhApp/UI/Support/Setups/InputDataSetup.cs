@@ -259,8 +259,6 @@ namespace CatlabuhApp.UI.Support.Setups
         {
             if (showGatewaySchedule.Checked)
             {
-                Console.WriteLine(YearOfCalculation);
-
                 gsSetup = new GatewayScheduleSetup(DataAccess)
                 {
                     YearOfCalculation = this.YearOfCalculation, 

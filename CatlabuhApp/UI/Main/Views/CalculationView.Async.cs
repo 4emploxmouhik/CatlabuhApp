@@ -46,6 +46,7 @@ namespace CatlabuhApp.UI.Main.Views
                         IsEnterGatewaySchedule = rd.IsEnterGatewaySchedule,
                         IsCalculateGS = rd.IsCalculateGS
                     };
+                    gs.SetMonthOfWorkGateway();
                     calc = new Calculation(DataAccess, inputData, gs);
                 }
 
@@ -56,6 +57,7 @@ namespace CatlabuhApp.UI.Main.Views
             }
             catch (System.NullReferenceException)
             {
+                System.Console.WriteLine("\nHERE\n");
                 MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText6, MessageDialog.Icon.Cross);
                 return false;
             }

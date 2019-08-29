@@ -15,7 +15,11 @@ namespace CatlabuhApp.UI.Support.Setups
             await Task.Run(() => RunCalculate());
 
             parent.RefreshDGV();
-            
+            parent.UpdateYearsBoxItems();
+
+            yearsBox.Items.Clear();
+            yearsBox.Items.AddRange(DataAccess.GetColumnData<string>("SELECT YearName FROM YearsOfCalculations ORDER BY YearName DESC").ToArray());
+
             runCalculate.Enabled = true;
             Cursor = Cursors.Default;
             MessageDialog.Show(MessageDialog.SuccessTitle, MessageDialog.SuccessText1, MessageDialog.Icon.OK);

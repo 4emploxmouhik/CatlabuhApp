@@ -238,7 +238,7 @@ namespace CatlabuhApp.Data.Models
                     }
                     if (gs != null && gs.IsCalculateGS)
                     {
-                        sql += $"UPDATE GatewaySchedule SET VD_plus = {gs.VD_plus[i]}, VD_minus = {gs.Voz_minus[i]}, Voz_plus = {gs.Voz_plus[i]}, " +
+                        sql += $"UPDATE GatewaySchedule SET VD_plus = {gs.VD_plus[i]}, VD_minus = {gs.VD_minus[i]}, Voz_plus = {gs.Voz_plus[i]}, " +
                             $"Voz_minus = {gs.Voz_minus[i]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\t";
                     }
                 }
@@ -324,7 +324,7 @@ namespace CatlabuhApp.Data.Models
                     }
                     if (gs != null && gs.IsCalculateGS)
                     {
-                        sql += $"UPDATE GatewaySchedule SET VD_plus = {gs.VD_plus[i]}, VD_minus = {gs.Voz_minus[i]}, Voz_plus = {gs.Voz_plus[i]}, " +
+                        sql += $"UPDATE GatewaySchedule SET VD_plus = {gs.VD_plus[i]}, VD_minus = {gs.VD_minus[i]}, Voz_plus = {gs.Voz_plus[i]}, " +
                             $"Voz_minus = {gs.Voz_minus[i]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};\t";
                     }
                 }
