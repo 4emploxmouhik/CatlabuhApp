@@ -72,11 +72,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.showGrid = new System.Windows.Forms.CheckBox();
             this.seriesPage = new System.Windows.Forms.TabPage();
+            this.seriesGridView = new CatlabuhApp.UI.Main.UC.SeriesGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cancel = new System.Windows.Forms.Button();
             this.apply = new System.Windows.Forms.Button();
             this.colorDialog = new System.Windows.Forms.ColorDialog();
-            this.seriesGridView = new Main.UC.SeriesGridView();
             this.tabControl.SuspendLayout();
             this.genralPage.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -88,6 +88,7 @@
             this.gridPage.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.seriesPage.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -413,9 +414,14 @@
             // seriesPage
             // 
             resources.ApplyResources(this.seriesPage, "seriesPage");
-            this.seriesPage.Controls.Add(this.seriesGridView);
             this.seriesPage.BackColor = System.Drawing.SystemColors.Control;
+            this.seriesPage.Controls.Add(this.seriesGridView);
             this.seriesPage.Name = "seriesPage";
+            // 
+            // seriesGridView
+            // 
+            resources.ApplyResources(this.seriesGridView, "seriesGridView");
+            this.seriesGridView.Name = "seriesGridView";
             // 
             // panel1
             // 
@@ -437,12 +443,6 @@
             this.apply.Name = "apply";
             this.apply.UseVisualStyleBackColor = true;
             this.apply.Click += new System.EventHandler(this.Apply_Click);
-            //
-            // seriesGridView
-            //
-            resources.ApplyResources(this.seriesGridView, "seriesGridView");
-            this.seriesGridView.Name = "seriesGridView";
-            this.seriesGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             // 
             // ChartStyleDialog
             // 
@@ -472,6 +472,7 @@
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.seriesPage.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

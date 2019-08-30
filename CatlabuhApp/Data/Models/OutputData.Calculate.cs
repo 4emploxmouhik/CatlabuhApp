@@ -446,14 +446,14 @@ namespace CatlabuhApp.Data.Models
             for (int i = 0; i < 12; i++)
             {
                 sumsOfWBP[0] += inputData.PIsmail[i];  // PIsmail
-                sumPBolgrad += inputData.PBolgrad[i];
+                sumPBolgrad += inputData.PBolgrad[i];  // PBolgrad
             }
 
             // Определим водность года
             GetWaterLevel(sumPBolgrad);
 
             // Рассчетаем суммарное Vr
-            sumsOfWBP[2] = CalculateSumVr(sumsOfWBP[0]);    // Vr
+            sumsOfWBP[2] = CalculateSumVr(sumPBolgrad);    // Vr
 
             // Вычисляем среднее значение уровня воды за месяц
             for (int i = 0; i < 12; i++)

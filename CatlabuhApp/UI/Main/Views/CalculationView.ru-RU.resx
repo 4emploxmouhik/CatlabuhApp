@@ -131,10 +131,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="createNewCalculation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 22</value>
+    <value>118, 22</value>
   </data>
   <data name="createNewCalculation.Text" xml:space="preserve">
-    <value>Создать новый расчёт</value>
+    <value>Входные данные</value>
   </data>
   <data name="exportToExcel.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 22</value>

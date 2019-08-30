@@ -39,6 +39,8 @@ namespace CatlabuhApp.UI.Main.Views
 
         private List<Item> itemsToSaveInGrid = new List<Item>();
 
+        private bool isFHChartPage = false;
+
         private class Item
         {
             public TextBox TextBox { get; set; }
@@ -69,6 +71,7 @@ namespace CatlabuhApp.UI.Main.Views
             double[,] table_3_2 = DataAccess.GetTableData<double>("IADOfGroundwaterInflow", 12, tablesColumnName);
             double[] coefficients = DataAccess.GetColumnData<double>("SELECT CoefficientValue FROM Coefficients").ToArray();
 
+            SetPPercentPageStyle();
             SetFHGridStyle();
             SetToolTips();
 
@@ -179,6 +182,29 @@ namespace CatlabuhApp.UI.Main.Views
             }
         }
 
+        private void SetPPercentPageStyle()
+        {
+            chartsTabControl.TabPages[0].Text = "P(p%)";
+
+            pPercentGrid.DataSource = DataAccess.GetTableView("SELECT Xp AS[P], Percent AS[p%], PointID FROM GammaDistribution");
+            pPercentGrid.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            pPercentGrid.Columns[0].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            pPercentGrid.Columns[0].Tag = "Xp";
+            pPercentGrid.Columns[0].SortMode = DataGridViewColumnSortMode.NotSortable;
+            pPercentGrid.Columns[1].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            pPercentGrid.Columns[1].Tag = "Percent";
+            pPercentGrid.Columns[1].SortMode = DataGridViewColumnSortMode.NotSortable;
+            pPercentGrid.Columns[2].Visible = false;
+            pPercentGrid.DataError += DataGridView_DataError;
+
+            for (int i = 0; i < 106; i++)
+            {
+                pPercentChart.Series[0].Points.AddXY(pPercentGrid.Rows[i].Cells[1].Value, pPercentGrid.Rows[i].Cells[0].Value);
+            }
+
+            pPercentChart.Series[0].LegendText = "P(p%)";
+        }
+
         private void SetFHGridStyle()
         {
             string avrHView;
@@ -192,6 +218,9 @@ namespace CatlabuhApp.UI.Main.Views
                     avrHView = "H cp.";
                     break;
             }
+
+            FHChart.Series[0].LegendText = $"F({avrHView})";
+            chartsTabControl.TabPages[1].Text = $"F({avrHView})";
 
             FHGrid.DataSource = DataAccess.GetTableView($"SELECT F, avr_H AS[{avrHView}], PointID FROM DependenceOfAvrHToF");
             FHGrid.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -244,6 +273,11 @@ namespace CatlabuhApp.UI.Main.Views
         }
 
         #region Фиксация изменения в элементах настройки расчёта
+        private void ChartsTabControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            isFHChartPage = !isFHChartPage;
+        }
+
         private void CoefficientBox_TextChanged(object sender, EventArgs e)
         {
             if (isInitialized)
@@ -263,15 +297,15 @@ namespace CatlabuhApp.UI.Main.Views
             {
                 Item item = new Item()
                 {
-                    TableName = "DependenceOfAvrHToF",
-                    ColumnName = FHGrid.Columns[e.ColumnIndex].Tag.ToString(),
+                    TableName = isFHChartPage ? "DependenceOfAvrHToF" : "GammaDistribution",
+                    ColumnName = (isFHChartPage ? FHGrid.Columns[e.ColumnIndex].Tag : pPercentGrid.Columns[e.ColumnIndex].Tag).ToString(),
                     IDColumnName = "PointID",
-                    ID = FHGrid.Rows[e.RowIndex].Cells[2].Value.ToString(),
-                    Value = FHGrid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString(),
+                    ID = (isFHChartPage ? FHGrid.Rows[e.RowIndex].Cells[2].Value : pPercentGrid.Rows[e.RowIndex].Cells[2].Value).ToString(),
+                    Value = (isFHChartPage ? FHGrid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value : pPercentGrid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value).ToString(),
                     IsChanged = true
                 };
 
-                itemsToSaveInGrid.Add(item);
+                itemsToSaveInGrid.Add(item); Console.WriteLine(item.ToString());
                 isItemsChanged = true;
             }
         }

@@ -201,6 +201,7 @@
             // 
             // toolStrip
             // 
+            resources.ApplyResources(this.toolStrip, "toolStrip");
             this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.saveInputData,
             this.runCalculate,
@@ -209,39 +210,38 @@
             this.toolStripLabel1,
             this.yearsBox,
             this.minimizeBox});
-            resources.ApplyResources(this.toolStrip, "toolStrip");
             this.toolStrip.Name = "toolStrip";
             // 
             // saveInputData
             // 
-            this.saveInputData.Image = global::CatlabuhApp.Properties.Resources.save_16;
             resources.ApplyResources(this.saveInputData, "saveInputData");
+            this.saveInputData.Image = global::CatlabuhApp.Properties.Resources.save_16;
             this.saveInputData.Name = "saveInputData";
             this.saveInputData.Click += new System.EventHandler(this.SaveInputData_Click);
             // 
             // runCalculate
             // 
-            this.runCalculate.Image = global::CatlabuhApp.Properties.Resources.calculator_16;
             resources.ApplyResources(this.runCalculate, "runCalculate");
+            this.runCalculate.Image = global::CatlabuhApp.Properties.Resources.calculator_16;
             this.runCalculate.Name = "runCalculate";
             this.runCalculate.Click += new System.EventHandler(this.RunCalculate_Click);
             // 
             // clearFields
             // 
-            this.clearFields.Image = global::CatlabuhApp.Properties.Resources.broom_16;
             resources.ApplyResources(this.clearFields, "clearFields");
+            this.clearFields.Image = global::CatlabuhApp.Properties.Resources.broom_16;
             this.clearFields.Name = "clearFields";
             this.clearFields.Click += new System.EventHandler(this.ClearFields_Click);
             // 
             // toolStripSeparator1
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
             resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
             // 
             // toolStripLabel1
             // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
             resources.ApplyResources(this.toolStripLabel1, "toolStripLabel1");
+            this.toolStripLabel1.Name = "toolStripLabel1";
             // 
             // yearsBox
             // 
@@ -252,14 +252,15 @@
             // 
             // minimizeBox
             // 
+            resources.ApplyResources(this.minimizeBox, "minimizeBox");
             this.minimizeBox.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.minimizeBox.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            resources.ApplyResources(this.minimizeBox, "minimizeBox");
             this.minimizeBox.Name = "minimizeBox";
             this.minimizeBox.Click += new System.EventHandler(this.MinimizeBox_Click);
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.h1Box11);
             this.groupBox1.Controls.Add(this.h1Box0);
             this.groupBox1.Controls.Add(this.h1Box10);
@@ -309,7 +310,6 @@
             this.groupBox1.Controls.Add(this.label23);
             this.groupBox1.Controls.Add(this.label24);
             this.groupBox1.Controls.Add(this.label15);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -657,6 +657,7 @@
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.groupBox4);
             this.groupBox2.Controls.Add(this.groupBox3);
             this.groupBox2.Controls.Add(this.label25);
@@ -671,12 +672,12 @@
             this.groupBox2.Controls.Add(this.label34);
             this.groupBox2.Controls.Add(this.label35);
             this.groupBox2.Controls.Add(this.label36);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
             // groupBox4
             // 
+            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Controls.Add(this.pBolgradBox11);
             this.groupBox4.Controls.Add(this.pBolgradBox0);
             this.groupBox4.Controls.Add(this.pBolgradBox10);
@@ -689,7 +690,6 @@
             this.groupBox4.Controls.Add(this.pBolgradBox4);
             this.groupBox4.Controls.Add(this.pBolgradBox6);
             this.groupBox4.Controls.Add(this.pBolgradBox5);
-            resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
             // 
@@ -791,6 +791,7 @@
             // 
             // groupBox3
             // 
+            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Controls.Add(this.pIsmailBox11);
             this.groupBox3.Controls.Add(this.pIsmailBox0);
             this.groupBox3.Controls.Add(this.pIsmailBox10);
@@ -803,7 +804,6 @@
             this.groupBox3.Controls.Add(this.pIsmailBox4);
             this.groupBox3.Controls.Add(this.pIsmailBox6);
             this.groupBox3.Controls.Add(this.pIsmailBox5);
-            resources.ApplyResources(this.groupBox3, "groupBox3");
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             // 
@@ -965,6 +965,7 @@
             // 
             // groupBox5
             // 
+            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Controls.Add(this.vzBox5);
             this.groupBox5.Controls.Add(this.vzBox0);
             this.groupBox5.Controls.Add(this.vzBox11);
@@ -989,7 +990,6 @@
             this.groupBox5.Controls.Add(this.label47);
             this.groupBox5.Controls.Add(this.label48);
             this.groupBox5.Controls.Add(this.label40);
-            resources.ApplyResources(this.groupBox5, "groupBox5");
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.TabStop = false;
             // 
@@ -1160,6 +1160,7 @@
             // 
             // groupBox6
             // 
+            resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Controls.Add(this.dEBox11);
             this.groupBox6.Controls.Add(this.dEBox0);
             this.groupBox6.Controls.Add(this.dEBox10);
@@ -1187,7 +1188,6 @@
             this.groupBox6.Controls.Add(this.enterData);
             this.groupBox6.Controls.Add(this.label50);
             this.groupBox6.Controls.Add(this.label51);
-            resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.TabStop = false;
             // 
@@ -1363,9 +1363,9 @@
             // 
             // groupBox8
             // 
+            resources.ApplyResources(this.groupBox8, "groupBox8");
             this.groupBox8.Controls.Add(this.sumVgBox);
             this.groupBox8.Controls.Add(this.label61);
-            resources.ApplyResources(this.groupBox8, "groupBox8");
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.TabStop = false;
             // 
@@ -1384,9 +1384,9 @@
             // 
             // groupBox9
             // 
+            resources.ApplyResources(this.groupBox9, "groupBox9");
             this.groupBox9.Controls.Add(this.s1InJanuaryBox);
             this.groupBox9.Controls.Add(this.label62);
-            resources.ApplyResources(this.groupBox9, "groupBox9");
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.TabStop = false;
             // 
@@ -1405,8 +1405,8 @@
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.showGatewaySchedule);
             resources.ApplyResources(this.groupBox7, "groupBox7");
+            this.groupBox7.Controls.Add(this.showGatewaySchedule);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.TabStop = false;
             // 

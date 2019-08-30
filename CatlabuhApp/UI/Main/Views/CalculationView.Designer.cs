@@ -89,48 +89,57 @@
             // 
             // splitContainer2.Panel1
             // 
+            resources.ApplyResources(this.splitContainer2.Panel1, "splitContainer2.Panel1");
             this.splitContainer2.Panel1.Controls.Add(this.groupBox3);
+            this.toolTip.SetToolTip(this.splitContainer2.Panel1, resources.GetString("splitContainer2.Panel1.ToolTip"));
             // 
             // splitContainer2.Panel2
             // 
+            resources.ApplyResources(this.splitContainer2.Panel2, "splitContainer2.Panel2");
             this.splitContainer2.Panel2.Controls.Add(this.groupBox4);
+            this.toolTip.SetToolTip(this.splitContainer2.Panel2, resources.GetString("splitContainer2.Panel2.ToolTip"));
+            this.toolTip.SetToolTip(this.splitContainer2, resources.GetString("splitContainer2.ToolTip"));
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.sbpGrid);
             resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Controls.Add(this.sbpGrid);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
+            this.toolTip.SetToolTip(this.groupBox3, resources.GetString("groupBox3.ToolTip"));
             // 
             // sbpGrid
             // 
+            resources.ApplyResources(this.sbpGrid, "sbpGrid");
             this.sbpGrid.AllowUserToAddRows = false;
             this.sbpGrid.AllowUserToDeleteRows = false;
             this.sbpGrid.BackgroundColor = System.Drawing.SystemColors.Window;
             this.sbpGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.sbpGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.sbpGrid, "sbpGrid");
             this.sbpGrid.Name = "sbpGrid";
             this.sbpGrid.TabStop = false;
+            this.toolTip.SetToolTip(this.sbpGrid, resources.GetString("sbpGrid.ToolTip"));
             this.sbpGrid.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_CellValueChanged);
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.sbcGrid);
             resources.ApplyResources(this.groupBox4, "groupBox4");
+            this.groupBox4.Controls.Add(this.sbcGrid);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
+            this.toolTip.SetToolTip(this.groupBox4, resources.GetString("groupBox4.ToolTip"));
             // 
             // sbcGrid
             // 
+            resources.ApplyResources(this.sbcGrid, "sbcGrid");
             this.sbcGrid.AllowUserToAddRows = false;
             this.sbcGrid.AllowUserToDeleteRows = false;
             this.sbcGrid.BackgroundColor = System.Drawing.SystemColors.Window;
             this.sbcGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.sbcGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.sbcGrid, "sbcGrid");
             this.sbcGrid.Name = "sbcGrid";
             this.sbcGrid.TabStop = false;
+            this.toolTip.SetToolTip(this.sbcGrid, resources.GetString("sbcGrid.ToolTip"));
             this.sbcGrid.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_CellValueChanged);
             // 
             // splitContainer1
@@ -140,53 +149,63 @@
             // 
             // splitContainer1.Panel1
             // 
+            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
             this.splitContainer1.Panel1.Controls.Add(this.groupBox1);
+            this.toolTip.SetToolTip(this.splitContainer1.Panel1, resources.GetString("splitContainer1.Panel1.ToolTip"));
             // 
             // splitContainer1.Panel2
             // 
+            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
             this.splitContainer1.Panel2.Controls.Add(this.groupBox2);
+            this.toolTip.SetToolTip(this.splitContainer1.Panel2, resources.GetString("splitContainer1.Panel2.ToolTip"));
+            this.toolTip.SetToolTip(this.splitContainer1, resources.GetString("splitContainer1.ToolTip"));
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.wbpGrid);
             resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.wbpGrid);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
+            this.toolTip.SetToolTip(this.groupBox1, resources.GetString("groupBox1.ToolTip"));
             // 
             // wbpGrid
             // 
+            resources.ApplyResources(this.wbpGrid, "wbpGrid");
             this.wbpGrid.AllowUserToAddRows = false;
             this.wbpGrid.AllowUserToDeleteRows = false;
             this.wbpGrid.BackgroundColor = System.Drawing.SystemColors.Window;
             this.wbpGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.wbpGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.wbpGrid, "wbpGrid");
             this.wbpGrid.Name = "wbpGrid";
             this.wbpGrid.TabStop = false;
             this.wbpGrid.Tag = "";
+            this.toolTip.SetToolTip(this.wbpGrid, resources.GetString("wbpGrid.ToolTip"));
             this.wbpGrid.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_CellValueChanged);
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.wbcGrid);
             resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Controls.Add(this.wbcGrid);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
+            this.toolTip.SetToolTip(this.groupBox2, resources.GetString("groupBox2.ToolTip"));
             // 
             // wbcGrid
             // 
+            resources.ApplyResources(this.wbcGrid, "wbcGrid");
             this.wbcGrid.AllowUserToAddRows = false;
             this.wbcGrid.AllowUserToDeleteRows = false;
             this.wbcGrid.BackgroundColor = System.Drawing.SystemColors.Window;
             this.wbcGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.wbcGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.wbcGrid, "wbcGrid");
             this.wbcGrid.Name = "wbcGrid";
             this.wbcGrid.TabStop = false;
+            this.toolTip.SetToolTip(this.wbcGrid, resources.GetString("wbcGrid.ToolTip"));
             this.wbcGrid.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_CellValueChanged);
             // 
             // toolStrip
             // 
+            resources.ApplyResources(this.toolStrip, "toolStrip");
             this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.createNewCalculation,
             this.exportToExcel,
@@ -197,32 +216,32 @@
             this.waterLevelBox,
             this.toolStripSeparator4,
             this.showGatewaySchedule});
-            resources.ApplyResources(this.toolStrip, "toolStrip");
             this.toolStrip.Name = "toolStrip";
+            this.toolTip.SetToolTip(this.toolStrip, resources.GetString("toolStrip.ToolTip"));
             // 
             // createNewCalculation
             // 
-            this.createNewCalculation.Image = global::CatlabuhApp.Properties.Resources.add_16;
             resources.ApplyResources(this.createNewCalculation, "createNewCalculation");
+            this.createNewCalculation.Image = global::CatlabuhApp.Properties.Resources.add_16;
             this.createNewCalculation.Name = "createNewCalculation";
             this.createNewCalculation.Click += new System.EventHandler(this.CreateNewCalculation_Click);
             // 
             // exportToExcel
             // 
-            this.exportToExcel.Image = global::CatlabuhApp.Properties.Resources.microsoft_excel_16;
             resources.ApplyResources(this.exportToExcel, "exportToExcel");
+            this.exportToExcel.Image = global::CatlabuhApp.Properties.Resources.microsoft_excel_16;
             this.exportToExcel.Name = "exportToExcel";
             this.exportToExcel.Click += new System.EventHandler(this.ExportToExcel_Click);
             // 
             // toolStripSeparator1
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
             resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
             // 
             // toolStripLabel1
             // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
             resources.ApplyResources(this.toolStripLabel1, "toolStripLabel1");
+            this.toolStripLabel1.Name = "toolStripLabel1";
             // 
             // yearsBox
             // 
@@ -233,85 +252,89 @@
             // 
             // toolStripSeparator2
             // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
             resources.ApplyResources(this.toolStripSeparator2, "toolStripSeparator2");
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
             // 
             // waterLevelBox
             // 
+            resources.ApplyResources(this.waterLevelBox, "waterLevelBox");
             this.waterLevelBox.Name = "waterLevelBox";
             this.waterLevelBox.ReadOnly = true;
-            resources.ApplyResources(this.waterLevelBox, "waterLevelBox");
             // 
             // toolStripSeparator4
             // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
             resources.ApplyResources(this.toolStripSeparator4, "toolStripSeparator4");
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
             // 
             // showGatewaySchedule
             // 
-            this.showGatewaySchedule.Image = global::CatlabuhApp.Properties.Resources.open_book_16;
             resources.ApplyResources(this.showGatewaySchedule, "showGatewaySchedule");
+            this.showGatewaySchedule.Image = global::CatlabuhApp.Properties.Resources.open_book_16;
             this.showGatewaySchedule.Name = "showGatewaySchedule";
             this.showGatewaySchedule.Click += new System.EventHandler(this.ShowGatewaySchedule_Click);
             // 
             // contextMenuStrip
             // 
+            resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
             this.contextMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.recalculate,
             this.toolStripSeparator3,
             this.save,
             this.delete});
             this.contextMenuStrip.Name = "contextMenuStrip";
-            resources.ApplyResources(this.contextMenuStrip, "contextMenuStrip");
+            this.toolTip.SetToolTip(this.contextMenuStrip, resources.GetString("contextMenuStrip.ToolTip"));
             // 
             // recalculate
             // 
+            resources.ApplyResources(this.recalculate, "recalculate");
             this.recalculate.Image = global::CatlabuhApp.Properties.Resources.calculator_16;
             this.recalculate.Name = "recalculate";
-            resources.ApplyResources(this.recalculate, "recalculate");
             this.recalculate.Click += new System.EventHandler(this.Recalculate_Click);
             // 
             // toolStripSeparator3
             // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
             resources.ApplyResources(this.toolStripSeparator3, "toolStripSeparator3");
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
             // 
             // save
             // 
+            resources.ApplyResources(this.save, "save");
             this.save.Image = global::CatlabuhApp.Properties.Resources.save_16;
             this.save.Name = "save";
-            resources.ApplyResources(this.save, "save");
             this.save.Click += new System.EventHandler(this.Save_Click);
             // 
             // delete
             // 
+            resources.ApplyResources(this.delete, "delete");
             this.delete.Image = global::CatlabuhApp.Properties.Resources.delete_16;
             this.delete.Name = "delete";
-            resources.ApplyResources(this.delete, "delete");
             this.delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // saltBalancePage
             // 
-            this.saltBalancePage.Controls.Add(this.splitContainer2);
             resources.ApplyResources(this.saltBalancePage, "saltBalancePage");
+            this.saltBalancePage.Controls.Add(this.splitContainer2);
             this.saltBalancePage.Name = "saltBalancePage";
+            this.toolTip.SetToolTip(this.saltBalancePage, resources.GetString("saltBalancePage.ToolTip"));
             this.saltBalancePage.UseVisualStyleBackColor = true;
             // 
             // waterBalancePage
             // 
-            this.waterBalancePage.Controls.Add(this.splitContainer1);
             resources.ApplyResources(this.waterBalancePage, "waterBalancePage");
+            this.waterBalancePage.Controls.Add(this.splitContainer1);
             this.waterBalancePage.Name = "waterBalancePage";
+            this.toolTip.SetToolTip(this.waterBalancePage, resources.GetString("waterBalancePage.ToolTip"));
             this.waterBalancePage.UseVisualStyleBackColor = true;
             // 
             // tabControl
             // 
+            resources.ApplyResources(this.tabControl, "tabControl");
             this.tabControl.ContextMenuStrip = this.contextMenuStrip;
             this.tabControl.Controls.Add(this.waterBalancePage);
             this.tabControl.Controls.Add(this.saltBalancePage);
-            resources.ApplyResources(this.tabControl, "tabControl");
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
+            this.toolTip.SetToolTip(this.tabControl, resources.GetString("tabControl.ToolTip"));
             this.tabControl.SelectedIndexChanged += new System.EventHandler(this.TabControl_SelectedIndexChanged);
             // 
             // CalculationView
@@ -322,6 +345,7 @@
             this.Controls.Add(this.toolStrip);
             this.DoubleBuffered = true;
             this.Name = "CalculationView";
+            this.toolTip.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.SizeChanged += new System.EventHandler(this.CalculationView_SizeChanged);
             this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.CalculationView_HelpRequested);
             this.splitContainer2.Panel1.ResumeLayout(false);

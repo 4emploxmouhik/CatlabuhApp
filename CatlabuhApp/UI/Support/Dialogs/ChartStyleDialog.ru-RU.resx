@@ -238,6 +238,13 @@
   <data name="gridPage.Text" xml:space="preserve">
     <value>Сетка</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="seriesGridView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="seriesGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 295</value>
+  </data>
   <data name="seriesPage.Text" xml:space="preserve">
     <value>Ряды</value>
   </data>
@@ -245,7 +252,7 @@
     <value>Отмена</value>
   </data>
   <data name="apply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 9</value>
+    <value>465, 9</value>
   </data>
   <data name="apply.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 30</value>

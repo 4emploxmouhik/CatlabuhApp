@@ -111,6 +111,8 @@
             // 
             // chart
             // 
+            chartArea1.AxisX.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            chartArea1.AxisY.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             chartArea1.Name = "ChartArea";
             this.chart.ChartAreas.Add(chartArea1);
             resources.ApplyResources(this.chart, "chart");

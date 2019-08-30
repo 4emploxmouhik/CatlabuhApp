@@ -289,13 +289,13 @@ namespace CatlabuhApp.UI.Main.Views
                         switch (waterLevel)
                         {
                             case OutputData.WaterLevel.High:
-                                waterLevelBox.Text = $"High water level, {waterLevelPercent}%";
+                                waterLevelBox.Text = $"Year of high water level, {waterLevelPercent}%";
                                 break;
                             case OutputData.WaterLevel.Average:
-                                waterLevelBox.Text = $"Average water level, {waterLevelPercent}%";
+                                waterLevelBox.Text = $"Year of average water level, {waterLevelPercent}%";
                                 break;
                             case OutputData.WaterLevel.Low:
-                                waterLevelBox.Text = $"Low water level, {waterLevelPercent}%";
+                                waterLevelBox.Text = $"Year of low water level, {waterLevelPercent}%";
                                 break;
                         }
                         break;
@@ -303,13 +303,13 @@ namespace CatlabuhApp.UI.Main.Views
                         switch (waterLevel)
                         {
                             case OutputData.WaterLevel.High:
-                                waterLevelBox.Text = $"Багатоводний, {waterLevelPercent}%";
+                                waterLevelBox.Text = $"Багатоводний рік, {waterLevelPercent}%";
                                 break;
                             case OutputData.WaterLevel.Average:
-                                waterLevelBox.Text = $"Середньоводний, {waterLevelPercent}%";
+                                waterLevelBox.Text = $"Середньоводний рік, {waterLevelPercent}%";
                                 break;
                             case OutputData.WaterLevel.Low:
-                                waterLevelBox.Text = $"Маловодний, {waterLevelPercent}%";
+                                waterLevelBox.Text = $"Маловодний рік, {waterLevelPercent}%";
                                 break;
                         }
                         break;
@@ -317,13 +317,13 @@ namespace CatlabuhApp.UI.Main.Views
                         switch (waterLevel)
                         {
                             case OutputData.WaterLevel.High:
-                                waterLevelBox.Text = $"Многоводный, {waterLevelPercent}%";
+                                waterLevelBox.Text = $"Многоводный год, {waterLevelPercent}%";
                                 break;
                             case OutputData.WaterLevel.Average:
-                                waterLevelBox.Text = $"Средневодный, {waterLevelPercent}%";
+                                waterLevelBox.Text = $"Средневодный год, {waterLevelPercent}%";
                                 break;
                             case OutputData.WaterLevel.Low:
-                                waterLevelBox.Text = $"Маловодный, {waterLevelPercent}%";
+                                waterLevelBox.Text = $"Маловодный год, {waterLevelPercent}%";
                                 break;
                         }
                         break;

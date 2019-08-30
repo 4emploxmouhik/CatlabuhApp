@@ -80,8 +80,8 @@ namespace CatlabuhApp.UI.Support.Dialogs
             InitializeComponent();
 
             textSize1.Value = 12;
-            textSize2.Value = 12;
-            textSize3.Value = 12;
+            textSize2.Value = 10;
+            textSize3.Value = 10;
 
             xAxisMajorGridStyle.SelectedIndex = 0;
             yAxisMajorGridStyle.SelectedIndex = 0;
@@ -95,6 +95,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
         public void SetSeriesGridViewRows()
         {
             seriesGridView.Rows.Clear();
+            seriesGridView.SetHeaderBoxes();
 
             foreach (var entry in Series)
             {
@@ -179,6 +180,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
                 {
                     Series[i].ChartType = seriesGridView.Rows[i].ChartType;
                     Series[i].Color = seriesGridView.Rows[i].Color;
+                    Series[i].BorderDashStyle = seriesGridView.Rows[i].LineDashStyle;
                     Series[i].BorderWidth = seriesGridView.Rows[i].LineSize;
                     Series[i].MarkerStyle = seriesGridView.Rows[i].MarkerStyle;
                     Series[i].MarkerSize = seriesGridView.Rows[i].MarkerSize;

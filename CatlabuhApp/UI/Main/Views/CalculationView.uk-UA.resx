@@ -117,66 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="sbpGrid.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Прибуткова частина</value>
-  </data>
-  <data name="groupBox3.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitContainer2.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="sbcGrid.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="groupBox4.Text" xml:space="preserve">
     <value>Витратна частина</value>
   </data>
-  <data name="groupBox4.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitContainer2.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitContainer2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="wbpGrid.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Прибуткова частина</value>
-  </data>
-  <data name="groupBox1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitContainer1.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="wbcGrid.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Витратна частина</value>
   </data>
-  <data name="groupBox2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitContainer1.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitContainer1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="createNewCalculation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 22</value>
+    <value>83, 22</value>
   </data>
   <data name="createNewCalculation.Text" xml:space="preserve">
-    <value>Створити новий розрахунок</value>
+    <value>Вхідні дані</value>
   </data>
   <data name="exportToExcel.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 22</value>
@@ -196,8 +154,8 @@
   <data name="showGatewaySchedule.Text" xml:space="preserve">
     <value>Показати ДГРШ</value>
   </data>
-  <data name="toolStrip.ToolTip" xml:space="preserve">
-    <value />
+  <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 76</value>
   </data>
   <data name="recalculate.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 22</value>
@@ -220,28 +178,10 @@
   <data name="delete.Text" xml:space="preserve">
     <value>Видалити розрахунок</value>
   </data>
-  <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>193, 76</value>
-  </data>
-  <data name="contextMenuStrip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="saltBalancePage.Text" xml:space="preserve">
     <value>Сольовий баланс</value>
   </data>
-  <data name="saltBalancePage.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="waterBalancePage.Text" xml:space="preserve">
     <value>Водний баланс</value>
-  </data>
-  <data name="waterBalancePage.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabControl.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

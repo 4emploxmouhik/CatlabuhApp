@@ -135,19 +135,19 @@ When this function is enabled: the values entered in the cell of the first colum
   <data name="calculateText_EN" xml:space="preserve">
     <value>Calculation
 
-To carry out the calculation, you must call the "Set up a new calculation" form. In the form you need to enter or select the calculation year, fill in all the fields of the form with the input data and click "Calculate" on the LMB. After that, the output will be calculated which can be viewed in the "Main window" on the page "Calculations". If the DFSH is involved in the calculation, then you need to check the corresponding window, then enter all the necessary data and select the calculation method:
+To carry out the calculation, you must call the "Input data setup" form. In the form you need to enter or select the calculation year, fill in all the fields of the form with the input data and click "Calculate" on the LMB. After that, the output will be calculated which can be viewed in the "Main window" on the page "Calculations". If the DFSH is involved in the calculation, then you need to check the corresponding window, then enter all the necessary data and select the calculation method:
 DRGSh form&gt; Toolbar&gt; Settings&gt; Calculation method</value>
   </data>
   <data name="calculateText_RU" xml:space="preserve">
     <value>Проведение расчета
 
-Для проведения расчета надо вызвать форму "Настройка нового расчета". В форме нужно ввести или выбрать год расчета, заполнить все поля формы входными данными и нажать ЛКМ пункт "Рассчитать". После чего будет проведен расчет выходных данных, которые можно будет посмотреть в "Главном окне" на странице "Расчеты". Если в расчете участвует ДГРШ, то надо поставить галочку в соответствующем окне, после чего ввести все необходимые данные и выбрать способ расчета:
+Для проведения расчета надо вызвать форму "Настройка входных данных". В форме нужно ввести или выбрать год расчета, заполнить все поля формы входными данными и нажать ЛКМ пункт "Рассчитать". После чего будет проведен расчет выходных данных, которые можно будет посмотреть в "Главном окне" на странице "Расчеты". Если в расчете участвует ДГРШ, то надо поставить галочку в соответствующем окне, после чего ввести все необходимые данные и выбрать способ расчета:
 Форма ДРГШ &gt; Панель инструментов &gt; Настройка &gt; Метод расчета</value>
   </data>
   <data name="calculateText_UA" xml:space="preserve">
     <value>Проведення розрахунку
 
-Для проведення розрахунку треба викликати форму "Налаштування нового розрахунку". У формі потрібно ввести або обрати рік розрахунку, заповнити всі поля форми вхідними даними і натиснути ЛКМ пункт "Розрахувати". Після чого буде проведено розрахунок вихідних даних, які можна буде переглянути у "Головному вікні" на сторінці "Розрахунки". Якщо у розрахунку бере участь ДГРШ, то треба поставити галочку у відповідному вікні, після чого ввести всі необхідні дані і обрати метод розрахунку:
+Для проведення розрахунку треба викликати форму "Налаштування вхідніих даних". У формі потрібно ввести або обрати рік розрахунку, заповнити всі поля форми вхідними даними і натиснути ЛКМ пункт "Розрахувати". Після чого буде проведено розрахунок вихідних даних, які можна буде переглянути у "Головному вікні" на сторінці "Розрахунки". Якщо у розрахунку бере участь ДГРШ, то треба поставити галочку у відповідному вікні, після чого ввести всі необхідні дані і обрати метод розрахунку:
 Форма ДРГШ &gt; Панель інтсрументів &gt; Налаштування &gt; Метод розрахунку</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
@@ -220,19 +220,19 @@ To clear the fields, click on the "Clear fields" item on the toolbar LMB, after 
   <data name="createCalcText_EN" xml:space="preserve">
     <value>Create a new calculation
 
-To create a new calculation, click on the "Create new calculation" item on the toolbar LMB, after which a form will be called up to fill in the calculation input data.
+To create a new calculation, click on the "Input data" item on the toolbar LMB, after which a form will be called up to fill in the calculation input data.
 In the form, you must enter the input data and the year of calculation in the corresponding field, after which you need to click "Save input data". Thus, a new calculation will be created with the data that was specified during the save.</value>
   </data>
   <data name="createCalcText_RU" xml:space="preserve">
     <value>Создание нового расчета
 
-Чтобы создать новый расчет, надо на панели инструментов нажать ЛКМ пункт "Создать новый расчет", после чего будет вызвана форма для заполнения входными данными расчета.
+Чтобы создать новый расчет, надо на панели инструментов нажать ЛКМ пункт "Входные данные", после чего будет вызвана форма для заполнения входными данными расчета.
 В форме необходимо ввести входные данные и год расчета в соответствующем поле, после чего надо нажать ЛКМ пункт "Сохранить входные данные". Таким образом будет создан новый расчет с теми данными, которые были указаны при сохранении.</value>
   </data>
   <data name="createCalcText_UA" xml:space="preserve">
     <value>Створення нового розрахунку
 
-Щоб створити новий розрахунок, треба на панелі інструментів натиснути ЛКМ пункт "Створити новий розрахунок", після чого буде викликана форма для заповнення вхідними даними розрахунку.
+Щоб створити новий розрахунок, треба на панелі інструментів натиснути ЛКМ пункт "Вхідні дані", після чого буде викликана форма для заповнення вхідними даними розрахунку.
 У формі треба ввести вхідні дані і рік розрахунку у відповідному полі, після чого треба натиснути ЛКМ пункт "Зберегти вхідні дані". Таким чином буде створено новий розрахунок з тими даними, які були вказані при збереженні.</value>
   </data>
   <data name="createChartText_EN" xml:space="preserve">
@@ -310,8 +310,8 @@ To export a chart to Excel, you need to select the item “Export to Excel” on
 The Dispetcher Schedule of Work Gateway is one of the parts of the calculation input that is involved in the calculation.
 To fill the DGRS data and to choose the method of its calculation, it is necessary to call the appropriate form.
 This can be done from two places:
-    1. From the Calculation Views page, by clicking LKM, select "Show Gateway Schedule".
-    2. From the "New Settlement Setting" form, select the appropriate box.
+    1. From the calculation views page, by clicking LKM, select "Show Gateway Schedule".
+    2. From the "Input data setup" form, select the appropriate box.
 
 DSWG data can be saved by clicking LMB on the item "Save data".
 In order to view the CBSR data, it is necessary to select the year of calculation of interest:
@@ -324,7 +324,7 @@ Toolbar &gt; Settings &gt; Year of calculation</value>
 Для заполнения ДГРШ данными и выбора метода его расчета надо вызвать соответствующую форму.
 Это можно сделать из двух мест:
     1. Со страницы просмотра расчетов, нажав ЛКМ пункт "Показать ДГРШ".
-    2. С формы "Настройка нового расчета", поставив галочку в соответствующем окне.
+    2. С формы "Настройка входных данных", поставив галочку в соответствующем окне.
 
 Данные ДГРШ можно сохранить нажав ЛКМ пункт "Сохранить данные".
 Чтобы просмотреть данные ДГРШ, надо выбрать интересующий год расчета:
@@ -337,7 +337,7 @@ Toolbar &gt; Settings &gt; Year of calculation</value>
 Для заповнення ДГРШ даними і обрання методу його розрахунку треба викликати відповідну форму. 
 Це можна зробити з двох місць:
     1. Зі сторінки перегляду розрахунків, натиснувши ЛКМ пункт "Показати ДГРШ".
-    2. З форми "Налаштування нового розрахунку", поставивши галочку у відповідному вікні.
+    2. З форми "Налаштування вхідних даних", поставивши галочку у відповідному вікні.
 
 Дані ДГРШ можна зберегти натиснувши ЛКМ пункт "Зберегти дані".
 Щоб переглянути дані ДГРШ, треба обрати рік розрахунку, що цікавить:
@@ -357,21 +357,21 @@ Toolbar &gt; Settings &gt; Year of calculation</value>
 
 If you need to compute a calculation that already exists, there are two ways to solve this problem:
     1. To bring up the menu of accounts on the page of calculations view by pressing RBM. Select and press the item "Recalculate". After that, a dialog box will be chosen to select the calculation parameters. After setting the parameters, click the "Calculate" button. As a result, the current calculation will be recalculated and saved.
-    2. On the Calculation Review page, click on the "Create New Calculation" toolbar. After calling the form to fill in the input data, you must select the year of calculation in the drop-down list. The text boxes will be filled with the input of the selected calculation. After changing the input data, you need to click "Calculate" if necessary. The result will be a recalculation and saving of the calculation.</value>
+    2. On the Calculation Review page, click on the "Input data" toolbar. After calling the form to fill in the input data, you must select the year of calculation in the drop-down list. The text boxes will be filled with the input of the selected calculation. After changing the input data, you need to click "Calculate" if necessary. The result will be a recalculation and saving of the calculation.</value>
   </data>
   <data name="recalculateText_RU" xml:space="preserve">
     <value>Перерасчет расчета
 
 Если нужно провести расчет расчета, который уже существует, то имеется два пути решения этой проблемы:
     1. Вызвать на странице просмотра расчетов контекстное меню, нажав ПКМ. Выбрать и нажать пункт "Пересчитать". После чего будет вызвано диалоговое окно с выбором параметров расчетов. После настройки параметров надо нажать кнопку "Рассчитать". В результате будет произведен перерасчет и сохранение текущего расчета.
-    2. На странице просмотра расчетов надо нажать пункт панели инструментов "Создать новый расчет". После вызова формы для заполнения входными данными, нужно выбрать год расчета в выпадающем списке. Текстовые поля будут заполнены входными данными избранного расчета. После изменения входных данных, если это необходимо, надо нажать пункт "Рассчитать". В результате будет произведен перерасчет и сохранение расчета.</value>
+    2. На странице просмотра расчетов надо нажать пункт панели инструментов "Входные данные". После вызова формы для заполнения входными данными, нужно выбрать год расчета в выпадающем списке. Текстовые поля будут заполнены входными данными избранного расчета. После изменения входных данных, если это необходимо, надо нажать пункт "Рассчитать". В результате будет произведен перерасчет и сохранение расчета.</value>
   </data>
   <data name="recalculateText_UA" xml:space="preserve">
     <value>Перерахунок розрахунку
 
 Якщо потрібно провести розрахунок розрахунку, який вже існує, то є два шляхи вирішення цієї проблеми:
     1. Викликати на сторінці перегляду розрахунків контекстне меню, натиснувши ПКМ. Обрати і натиснути пункт "Перерахувати". Після чого буде викликано діалогове вікно з обранням параметрів розрахунків. Після налаштування параметрів треба натиснути кнопку "Розрахувати". В результаті буде проведено перерахунок і збереження поточного розрахунку.
-    2. На сторінці перегляду розрахунків треба натиснути пункт панелі інструментів "Створити новий розрахунок". Після виклику форми для заповнення вхідними даними, треба обрати рік розрахунку у випадаючому списку. Текстові поля будуть заповнені вхідними даними обраного розрахунку. Після змінення вхідних даних, якщо це потрібно, треба натиснути пункт "Розрахувати". В результаті буде проведено перерахунок і збереження розрахунку.</value>
+    2. На сторінці перегляду розрахунків треба натиснути пункт панелі інструментів "Вхідні дані". Після виклику форми для заповнення вхідними даними, треба обрати рік розрахунку у випадаючому списку. Текстові поля будуть заповнені вхідними даними обраного розрахунку. Після змінення вхідних даних, якщо це потрібно, треба натиснути пункт "Розрахувати". В результаті буде проведено перерахунок і збереження розрахунку.</value>
   </data>
   <data name="saveChangesText_EN" xml:space="preserve">
     <value>Change and save calculation data

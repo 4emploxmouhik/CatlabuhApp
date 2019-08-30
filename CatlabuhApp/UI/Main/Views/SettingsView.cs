@@ -285,5 +285,6 @@ namespace CatlabuhApp.UI.Main.Views
             new HelpForm("settingsText").Show();
         }
 
+       
     }
 }

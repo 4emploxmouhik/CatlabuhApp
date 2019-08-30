@@ -142,6 +142,9 @@
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Вісі</value>
   </data>
+  <data name="genralPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 301</value>
+  </data>
   <data name="genralPage.Text" xml:space="preserve">
     <value>Загальні</value>
   </data>
@@ -229,6 +232,9 @@
   <data name="showGrid.Text" xml:space="preserve">
     <value>Прказати сітку</value>
   </data>
+  <data name="gridPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 301</value>
+  </data>
   <data name="gridPage.Text" xml:space="preserve">
     <value>Сітка</value>
   </data>
@@ -239,7 +245,7 @@
     <value>Відміна</value>
   </data>
   <data name="apply.Location" type="System.Drawing.Point, System.Drawing">
-    <value>422, 9</value>
+    <value>457, 9</value>
   </data>
   <data name="apply.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 30</value>

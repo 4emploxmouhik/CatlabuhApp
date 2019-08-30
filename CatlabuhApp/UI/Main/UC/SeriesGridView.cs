@@ -10,6 +10,7 @@ namespace CatlabuhApp.UI.Main.UC
     public partial class SeriesGridView : UserControl
     {
         public SeriesGridViewRows Rows { get; set; }
+        private TextBox[] headerBoxes = new TextBox[9];
 
         public SeriesGridView()
         {
@@ -19,6 +20,55 @@ namespace CatlabuhApp.UI.Main.UC
             Rows.Clear();
         }
 
+        public void SetHeaderBoxes()
+        {
+            string[,] headerText =
+            {
+                { "Name", "Назва", "Имя" },
+                { "Type", "Тип", "Тип" },
+                { "Color", " Колір", "Цвет" },
+                { "Line type", "Тип лінії", "Тип линии" },
+                { "Line size", "Товщ. лінії", "Шир. линии" },
+                { "Marker", "Маркер", "Маркер" },
+                { "Marker size", "Розмір марк.", "Размер марк." },
+                { "Marker color", "Колір марк.", "Цвет марк." },
+                { "Marker border color", "Колір межі марк.", "Цвет гран. марк." }
+            };
+            int languageIndex = -1;
+
+            switch (Properties.Settings.Default.Language)
+            {
+                case "en-US":
+                    languageIndex = 0;
+                    break;
+                case "uk-UA":
+                    languageIndex = 1;
+                    break;
+                case "ru-RU":
+                    languageIndex = 2;
+                    break;
+            }
+
+            for (int i = 0; i < headerBoxes.Length; i++)
+            {
+                headerBoxes[i] = new TextBox
+                {
+                    Text = headerText[i, languageIndex],
+                    TextAlign = HorizontalAlignment.Center,
+                    Multiline = true,
+                    Dock = DockStyle.Fill,
+                    Margin = new Padding(0, 0, 0, 0),
+                    Size = new Size(1, 40),
+                    ReadOnly = true,
+                    BorderStyle = BorderStyle.None,
+                    BackColor = Color.LightGray
+                };
+            }
+
+            contentTLP.Controls.AddRange(headerBoxes);
+        }
+
+
         public class SeriesGridViewRow
         {
             public int Index { get; set; }
@@ -26,6 +76,7 @@ namespace CatlabuhApp.UI.Main.UC
             public string Name { get => nameTextBox.Text; set => nameTextBox.Text = value; }
             public SeriesChartType ChartType { get => (SeriesChartType)seriesTypesBox.SelectedItem; }
             public MarkerStyle MarkerStyle { get => (MarkerStyle)markerStylesBox.SelectedItem; }
+            public ChartDashStyle LineDashStyle { get => (ChartDashStyle)lineDashStyleBox.SelectedItem; }
             public int LineSize { get => (int)lineSizeUpDown.Value; private set => lineSizeUpDown.Value = value; }
             public int MarkerSize { get => (int)markerSizeUpDown.Value; private set => markerSizeUpDown.Value = value; }
             public Color Color { get => seriesColorPanel.BackColor; set => seriesColorPanel.BackColor = value; }
@@ -40,6 +91,7 @@ namespace CatlabuhApp.UI.Main.UC
 
             private ComboBox seriesTypesBox;
             private ComboBox markerStylesBox;
+            private ComboBox lineDashStyleBox;
 
             private NumericUpDown lineSizeUpDown;
             private NumericUpDown markerSizeUpDown;
@@ -69,7 +121,15 @@ namespace CatlabuhApp.UI.Main.UC
                     Items = { SeriesChartType.Line, SeriesChartType.Spline, SeriesChartType.StepLine,
                         SeriesChartType.Bar, SeriesChartType.Column
                     },
-                    Size = new Size(70, 24),
+                    Size = new Size(70, 24)
+                };
+                lineDashStyleBox = new ComboBox()
+                {
+                    Enabled = true,
+                    Items = { ChartDashStyle.Solid, ChartDashStyle.Dash, ChartDashStyle.Dot,
+                        ChartDashStyle.DashDot, ChartDashStyle.DashDotDot
+                    },
+                    Size = new Size(70, 24)
                 };
                 markerStylesBox = new ComboBox()
                 {
@@ -77,7 +137,7 @@ namespace CatlabuhApp.UI.Main.UC
                     Items = { MarkerStyle.Circle, MarkerStyle.Square, MarkerStyle.Diamond,
                         MarkerStyle.Triangle, MarkerStyle.None
                     },
-                    Size = new Size(79, 22)
+                    Size = new Size(79, 24)
                 };
                 lineSizeUpDown = new NumericUpDown()
                 {
@@ -108,14 +168,15 @@ namespace CatlabuhApp.UI.Main.UC
 
                 seriesTypesBox.SelectedItem = seriesTypesBox.Items[0];
                 markerStylesBox.SelectedItem = markerStylesBox.Items[4];
+                lineDashStyleBox.SelectedItem = lineDashStyleBox.Items[0];
 
                 seriesColorPanel.DoubleClick += ColorPanel_DoubleClick;
                 markerColorPanel.DoubleClick += ColorPanel_DoubleClick;
                 markerBorderColorPanel.DoubleClick += ColorPanel_DoubleClick;
 
                 controls.AddRange(new Control[] {
-                    nameTextBox, seriesTypesBox, seriesColorPanel, lineSizeUpDown, markerStylesBox, markerSizeUpDown,
-                    markerColorPanel, markerBorderColorPanel
+                    nameTextBox, seriesTypesBox, seriesColorPanel, lineDashStyleBox, lineSizeUpDown, markerStylesBox,
+                    markerSizeUpDown, markerColorPanel, markerBorderColorPanel
                 });
 
                 foreach (var entry in controls)
@@ -134,7 +195,7 @@ namespace CatlabuhApp.UI.Main.UC
 
             public override string ToString()
             {
-                return $"Row [Name = {Name}, ChartType = {ChartType}, SeriesColor = {Color}, " +
+                return $"Row [Name = {Name}, ChartType = {ChartType}, SeriesColor = {Color}, LineDashStyle = {LineDashStyle}" +
                     $"LineSize = {LineSize}, MarkerStyle = {MarkerStyle}, MarkerSize = {MarkerSize}, " +
                     $"MarkerColor = {MarkerColor}, MarkerBorederColor = {MarkerBorderColor}]";
             }

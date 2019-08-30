@@ -920,6 +920,6 @@
 </value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Настройка нового расчёта</value>
+    <value>Настройка входных данных</value>
   </data>
 </root>

@@ -30,10 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsView));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title5 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title6 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.languageBox = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.callFolderBrowser4 = new System.Windows.Forms.Button();
@@ -55,8 +59,6 @@
             this.calculationPage = new System.Windows.Forms.TabPage();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.FHGrid = new System.Windows.Forms.DataGridView();
-            this.FHChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.table_3_2Group = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label84 = new System.Windows.Forms.Label();
@@ -64,16 +66,22 @@
             this.table_3_2ItemBox11 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.table_3_2ItemBox10 = new System.Windows.Forms.TextBox();
             this.label86 = new System.Windows.Forms.Label();
             this.table_3_2ItemBox9 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.label87 = new System.Windows.Forms.Label();
             this.table_3_2ItemBox8 = new System.Windows.Forms.TextBox();
             this.label88 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.table_3_2ItemBox7 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label89 = new System.Windows.Forms.Label();
             this.table_3_2ItemBox6 = new System.Windows.Forms.TextBox();
             this.label90 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.table_3_2ItemBox5 = new System.Windows.Forms.TextBox();
             this.label91 = new System.Windows.Forms.Label();
             this.table_3_2ItemBox4 = new System.Windows.Forms.TextBox();
@@ -266,20 +274,19 @@
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.coefficientBox2 = new System.Windows.Forms.TextBox();
+            this.chartsTabControl = new System.Windows.Forms.TabControl();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.pPercentChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.pPercentGrid = new System.Windows.Forms.DataGridView();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.FHChart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.FHGrid = new System.Windows.Forms.DataGridView();
             this.footerPanel = new System.Windows.Forms.Panel();
             this.apply = new System.Windows.Forms.Button();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
             this.tabControl.SuspendLayout();
             this.generalPage.SuspendLayout();
             this.calculationPage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.FHGrid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FHChart)).BeginInit();
             this.table_3_2Group.SuspendLayout();
             this.table_3_1Group.SuspendLayout();
             this.SBCFunctionsPart.SuspendLayout();
@@ -288,6 +295,13 @@
             this.SBPFunctionsPart.SuspendLayout();
             this.WBPFunctionsPart.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.chartsTabControl.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pPercentChart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pPercentGrid)).BeginInit();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FHChart)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FHGrid)).BeginInit();
             this.footerPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -416,14 +430,13 @@
             this.calculationPage.BackColor = System.Drawing.SystemColors.Control;
             this.calculationPage.Controls.Add(this.label20);
             this.calculationPage.Controls.Add(this.label19);
-            this.calculationPage.Controls.Add(this.FHGrid);
-            this.calculationPage.Controls.Add(this.FHChart);
             this.calculationPage.Controls.Add(this.table_3_2Group);
             this.calculationPage.Controls.Add(this.table_3_1Group);
             this.calculationPage.Controls.Add(this.SBCFunctionsPart);
             this.calculationPage.Controls.Add(this.WBCFunctionsPart);
             this.calculationPage.Controls.Add(this.SBPFunctionsPart);
             this.calculationPage.Controls.Add(this.WBPFunctionsPart);
+            this.calculationPage.Controls.Add(this.chartsTabControl);
             resources.ApplyResources(this.calculationPage, "calculationPage");
             this.calculationPage.Name = "calculationPage";
             this.calculationPage.Paint += new System.Windows.Forms.PaintEventHandler(this.CalculationPage_Paint);
@@ -437,44 +450,6 @@
             // 
             resources.ApplyResources(this.label19, "label19");
             this.label19.Name = "label19";
-            // 
-            // FHGrid
-            // 
-            this.FHGrid.AllowUserToAddRows = false;
-            this.FHGrid.AllowUserToDeleteRows = false;
-            this.FHGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.FHGrid.BackgroundColor = System.Drawing.SystemColors.ControlLight;
-            this.FHGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.FHGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.FHGrid, "FHGrid");
-            this.FHGrid.Name = "FHGrid";
-            this.FHGrid.RowHeadersVisible = false;
-            this.FHGrid.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_CellValueChanged);
-            // 
-            // FHChart
-            // 
-            this.FHChart.BorderlineColor = System.Drawing.Color.LightGray;
-            this.FHChart.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
-            chartArea1.AxisX.Maximum = 80D;
-            chartArea1.Name = "ChartArea";
-            this.FHChart.ChartAreas.Add(chartArea1);
-            legend1.Alignment = System.Drawing.StringAlignment.Center;
-            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend1.Name = "Legend";
-            this.FHChart.Legends.Add(legend1);
-            resources.ApplyResources(this.FHChart, "FHChart");
-            this.FHChart.Name = "FHChart";
-            this.FHChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
-            series1.BorderWidth = 2;
-            series1.ChartArea = "ChartArea";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.Legend = "Legend";
-            series1.LegendText = "F(Н ср.)";
-            series1.Name = "Series";
-            this.FHChart.Series.Add(series1);
-            this.FHChart.TabStop = false;
-            title1.Name = "Title";
-            this.FHChart.Titles.Add(title1);
             // 
             // table_3_2Group
             // 
@@ -573,6 +548,15 @@
             resources.ApplyResources(this.label85, "label85");
             this.label85.Name = "label85";
             // 
+            // textBox7
+            // 
+            resources.ApplyResources(this.textBox7, "textBox7");
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Click += new System.EventHandler(this.TextBox_Click);
+            this.textBox7.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
+            this.textBox7.Enter += new System.EventHandler(this.TextBox_Enter);
+            this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // table_3_2ItemBox10
             // 
             resources.ApplyResources(this.table_3_2ItemBox10, "table_3_2ItemBox10");
@@ -596,6 +580,24 @@
             this.table_3_2ItemBox9.Enter += new System.EventHandler(this.TextBox_Enter);
             this.table_3_2ItemBox9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
+            // textBox6
+            // 
+            resources.ApplyResources(this.textBox6, "textBox6");
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Click += new System.EventHandler(this.TextBox_Click);
+            this.textBox6.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
+            this.textBox6.Enter += new System.EventHandler(this.TextBox_Enter);
+            this.textBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // textBox5
+            // 
+            resources.ApplyResources(this.textBox5, "textBox5");
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Click += new System.EventHandler(this.TextBox_Click);
+            this.textBox5.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
+            this.textBox5.Enter += new System.EventHandler(this.TextBox_Enter);
+            this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // label87
             // 
             resources.ApplyResources(this.label87, "label87");
@@ -615,6 +617,15 @@
             resources.ApplyResources(this.label88, "label88");
             this.label88.Name = "label88";
             // 
+            // textBox4
+            // 
+            resources.ApplyResources(this.textBox4, "textBox4");
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Click += new System.EventHandler(this.TextBox_Click);
+            this.textBox4.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
+            this.textBox4.Enter += new System.EventHandler(this.TextBox_Enter);
+            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
             // table_3_2ItemBox7
             // 
             resources.ApplyResources(this.table_3_2ItemBox7, "table_3_2ItemBox7");
@@ -623,6 +634,15 @@
             this.table_3_2ItemBox7.TextChanged += new System.EventHandler(this.IADTableItem_TextChanged);
             this.table_3_2ItemBox7.Enter += new System.EventHandler(this.TextBox_Enter);
             this.table_3_2ItemBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
+            // 
+            // textBox3
+            // 
+            resources.ApplyResources(this.textBox3, "textBox3");
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Click += new System.EventHandler(this.TextBox_Click);
+            this.textBox3.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
+            this.textBox3.Enter += new System.EventHandler(this.TextBox_Enter);
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // label89
             // 
@@ -642,6 +662,15 @@
             // 
             resources.ApplyResources(this.label90, "label90");
             this.label90.Name = "label90";
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Click += new System.EventHandler(this.TextBox_Click);
+            this.textBox2.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
+            this.textBox2.Enter += new System.EventHandler(this.TextBox_Enter);
+            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // table_3_2ItemBox5
             // 
@@ -2164,6 +2193,107 @@
             this.coefficientBox2.Enter += new System.EventHandler(this.TextBox_Enter);
             this.coefficientBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
+            // chartsTabControl
+            // 
+            this.chartsTabControl.Controls.Add(this.tabPage2);
+            this.chartsTabControl.Controls.Add(this.tabPage1);
+            resources.ApplyResources(this.chartsTabControl, "chartsTabControl");
+            this.chartsTabControl.Name = "chartsTabControl";
+            this.chartsTabControl.SelectedIndex = 0;
+            this.chartsTabControl.SelectedIndexChanged += new System.EventHandler(this.ChartsTabControl_SelectedIndexChanged);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.Controls.Add(this.pPercentChart);
+            this.tabPage2.Controls.Add(this.pPercentGrid);
+            resources.ApplyResources(this.tabPage2, "tabPage2");
+            this.tabPage2.Name = "tabPage2";
+            // 
+            // pPercentChart
+            // 
+            this.pPercentChart.BorderlineColor = System.Drawing.Color.LightGray;
+            this.pPercentChart.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
+            chartArea5.AxisX.Maximum = 80D;
+            chartArea5.Name = "ChartArea";
+            this.pPercentChart.ChartAreas.Add(chartArea5);
+            legend5.Alignment = System.Drawing.StringAlignment.Center;
+            legend5.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend5.Name = "Legend";
+            this.pPercentChart.Legends.Add(legend5);
+            resources.ApplyResources(this.pPercentChart, "pPercentChart");
+            this.pPercentChart.Name = "pPercentChart";
+            this.pPercentChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
+            series5.BorderWidth = 2;
+            series5.ChartArea = "ChartArea";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series5.Legend = "Legend";
+            series5.LegendText = "F(Н ср.)";
+            series5.Name = "Series";
+            this.pPercentChart.Series.Add(series5);
+            this.pPercentChart.TabStop = false;
+            title5.Name = "Title";
+            this.pPercentChart.Titles.Add(title5);
+            // 
+            // pPercentGrid
+            // 
+            this.pPercentGrid.AllowUserToAddRows = false;
+            this.pPercentGrid.AllowUserToDeleteRows = false;
+            this.pPercentGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.pPercentGrid.BackgroundColor = System.Drawing.SystemColors.ControlLight;
+            this.pPercentGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.pPercentGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.pPercentGrid, "pPercentGrid");
+            this.pPercentGrid.Name = "pPercentGrid";
+            this.pPercentGrid.RowHeadersVisible = false;
+            this.pPercentGrid.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_CellValueChanged);
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage1.Controls.Add(this.FHChart);
+            this.tabPage1.Controls.Add(this.FHGrid);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
+            this.tabPage1.Name = "tabPage1";
+            // 
+            // FHChart
+            // 
+            this.FHChart.BorderlineColor = System.Drawing.Color.LightGray;
+            this.FHChart.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
+            chartArea6.AxisX.Maximum = 80D;
+            chartArea6.Name = "ChartArea";
+            this.FHChart.ChartAreas.Add(chartArea6);
+            legend6.Alignment = System.Drawing.StringAlignment.Center;
+            legend6.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend6.Name = "Legend";
+            this.FHChart.Legends.Add(legend6);
+            resources.ApplyResources(this.FHChart, "FHChart");
+            this.FHChart.Name = "FHChart";
+            this.FHChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
+            series6.BorderWidth = 2;
+            series6.ChartArea = "ChartArea";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series6.Legend = "Legend";
+            series6.LegendText = "F(Н ср.)";
+            series6.Name = "Series";
+            this.FHChart.Series.Add(series6);
+            this.FHChart.TabStop = false;
+            title6.Name = "Title";
+            this.FHChart.Titles.Add(title6);
+            // 
+            // FHGrid
+            // 
+            this.FHGrid.AllowUserToAddRows = false;
+            this.FHGrid.AllowUserToDeleteRows = false;
+            this.FHGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.FHGrid.BackgroundColor = System.Drawing.SystemColors.ControlLight;
+            this.FHGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FHGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.FHGrid, "FHGrid");
+            this.FHGrid.Name = "FHGrid";
+            this.FHGrid.RowHeadersVisible = false;
+            this.FHGrid.CellValueChanged += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_CellValueChanged);
+            // 
             // footerPanel
             // 
             this.footerPanel.Controls.Add(this.apply);
@@ -2175,60 +2305,6 @@
             resources.ApplyResources(this.apply, "apply");
             this.apply.Name = "apply";
             this.apply.UseVisualStyleBackColor = true;
-            // 
-            // textBox2
-            // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Click += new System.EventHandler(this.TextBox_Click);
-            this.textBox2.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
-            this.textBox2.Enter += new System.EventHandler(this.TextBox_Enter);
-            this.textBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // textBox3
-            // 
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Click += new System.EventHandler(this.TextBox_Click);
-            this.textBox3.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
-            this.textBox3.Enter += new System.EventHandler(this.TextBox_Enter);
-            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // textBox4
-            // 
-            resources.ApplyResources(this.textBox4, "textBox4");
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Click += new System.EventHandler(this.TextBox_Click);
-            this.textBox4.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
-            this.textBox4.Enter += new System.EventHandler(this.TextBox_Enter);
-            this.textBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // textBox5
-            // 
-            resources.ApplyResources(this.textBox5, "textBox5");
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Click += new System.EventHandler(this.TextBox_Click);
-            this.textBox5.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
-            this.textBox5.Enter += new System.EventHandler(this.TextBox_Enter);
-            this.textBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // textBox6
-            // 
-            resources.ApplyResources(this.textBox6, "textBox6");
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Click += new System.EventHandler(this.TextBox_Click);
-            this.textBox6.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
-            this.textBox6.Enter += new System.EventHandler(this.TextBox_Enter);
-            this.textBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
-            // 
-            // textBox7
-            // 
-            resources.ApplyResources(this.textBox7, "textBox7");
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Click += new System.EventHandler(this.TextBox_Click);
-            this.textBox7.TextChanged += new System.EventHandler(this.CoefficientBox_TextChanged);
-            this.textBox7.Enter += new System.EventHandler(this.TextBox_Enter);
-            this.textBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox_KeyPress);
             // 
             // SettingsView
             // 
@@ -2245,8 +2321,6 @@
             this.generalPage.PerformLayout();
             this.calculationPage.ResumeLayout(false);
             this.calculationPage.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.FHGrid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FHChart)).EndInit();
             this.table_3_2Group.ResumeLayout(false);
             this.table_3_2Group.PerformLayout();
             this.table_3_1Group.ResumeLayout(false);
@@ -2263,6 +2337,13 @@
             this.WBPFunctionsPart.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.chartsTabControl.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pPercentChart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pPercentGrid)).EndInit();
+            this.tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.FHChart)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FHGrid)).EndInit();
             this.footerPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -2510,5 +2591,10 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TabControl chartsTabControl;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart pPercentChart;
+        private System.Windows.Forms.DataGridView pPercentGrid;
     }
 }

@@ -96,7 +96,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Calculation
         ///
-        ///To carry out the calculation, you must call the &quot;Set up a new calculation&quot; form. In the form you need to enter or select the calculation year, fill in all the fields of the form with the input data and click &quot;Calculate&quot; on the LMB. After that, the output will be calculated which can be viewed in the &quot;Main window&quot; on the page &quot;Calculations&quot;. If the DFSH is involved in the calculation, then you need to check the corresponding window, then enter all the necessary data and select the calculation  [остаток строки не уместился]&quot;;.
+        ///To carry out the calculation, you must call the &quot;Input data setup&quot; form. In the form you need to enter or select the calculation year, fill in all the fields of the form with the input data and click &quot;Calculate&quot; on the LMB. After that, the output will be calculated which can be viewed in the &quot;Main window&quot; on the page &quot;Calculations&quot;. If the DFSH is involved in the calculation, then you need to check the corresponding window, then enter all the necessary data and select the calculation method:        /// [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string calculateText_EN {
             get {
@@ -107,7 +107,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Проведение расчета
         ///
-        ///Для проведения расчета надо вызвать форму &quot;Настройка нового расчета&quot;. В форме нужно ввести или выбрать год расчета, заполнить все поля формы входными данными и нажать ЛКМ пункт &quot;Рассчитать&quot;. После чего будет проведен расчет выходных данных, которые можно будет посмотреть в &quot;Главном окне&quot; на странице &quot;Расчеты&quot;. Если в расчете участвует ДГРШ, то надо поставить галочку в соответствующем окне, после чего ввести все необходимые данные и выбрать способ расчета:
+        ///Для проведения расчета надо вызвать форму &quot;Настройка входных данных&quot;. В форме нужно ввести или выбрать год расчета, заполнить все поля формы входными данными и нажать ЛКМ пункт &quot;Рассчитать&quot;. После чего будет проведен расчет выходных данных, которые можно будет посмотреть в &quot;Главном окне&quot; на странице &quot;Расчеты&quot;. Если в расчете участвует ДГРШ, то надо поставить галочку в соответствующем окне, после чего ввести все необходимые данные и выбрать способ расчета:
         ///Форма ДРГШ &gt; Панель инструмен [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string calculateText_RU {
@@ -119,8 +119,8 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Проведення розрахунку
         ///
-        ///Для проведення розрахунку треба викликати форму &quot;Налаштування нового розрахунку&quot;. У формі потрібно ввести або обрати рік розрахунку, заповнити всі поля форми вхідними даними і натиснути ЛКМ пункт &quot;Розрахувати&quot;. Після чого буде проведено розрахунок вихідних даних, які можна буде переглянути у &quot;Головному вікні&quot; на сторінці &quot;Розрахунки&quot;. Якщо у розрахунку бере участь ДГРШ, то треба поставити галочку у відповідному вікні, після чого ввести всі необхідні дані і обрати метод розрахунку:
-        /// [остаток строки не уместился]&quot;;.
+        ///Для проведення розрахунку треба викликати форму &quot;Налаштування вхідніих даних&quot;. У формі потрібно ввести або обрати рік розрахунку, заповнити всі поля форми вхідними даними і натиснути ЛКМ пункт &quot;Розрахувати&quot;. Після чого буде проведено розрахунок вихідних даних, які можна буде переглянути у &quot;Головному вікні&quot; на сторінці &quot;Розрахунки&quot;. Якщо у розрахунку бере участь ДГРШ, то треба поставити галочку у відповідному вікні, після чого ввести всі необхідні дані і обрати метод розрахунку:
+        ///Фор [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string calculateText_UA {
             get {
@@ -283,7 +283,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Create a new calculation
         ///
-        ///To create a new calculation, click on the &quot;Create new calculation&quot; item on the toolbar LMB, after which a form will be called up to fill in the calculation input data.
+        ///To create a new calculation, click on the &quot;Input data&quot; item on the toolbar LMB, after which a form will be called up to fill in the calculation input data.
         ///In the form, you must enter the input data and the year of calculation in the corresponding field, after which you need to click &quot;Save input data&quot;. Thus, a new calculation will be created with the data that was specified during the save..
         /// </summary>
         internal static string createCalcText_EN {
@@ -295,7 +295,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Создание нового расчета
         ///
-        ///Чтобы создать новый расчет, надо на панели инструментов нажать ЛКМ пункт &quot;Создать новый расчет&quot;, после чего будет вызвана форма для заполнения входными данными расчета.
+        ///Чтобы создать новый расчет, надо на панели инструментов нажать ЛКМ пункт &quot;Входные данные&quot;, после чего будет вызвана форма для заполнения входными данными расчета.
         ///В форме необходимо ввести входные данные и год расчета в соответствующем поле, после чего надо нажать ЛКМ пункт &quot;Сохранить входные данные&quot;. Таким образом будет создан новый расчет с теми данными, которые были указаны при сохранении..
         /// </summary>
         internal static string createCalcText_RU {
@@ -307,7 +307,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Створення нового розрахунку
         ///
-        ///Щоб створити новий розрахунок, треба на панелі інструментів натиснути ЛКМ пункт &quot;Створити новий розрахунок&quot;, після чого буде викликана форма для заповнення вхідними даними розрахунку.
+        ///Щоб створити новий розрахунок, треба на панелі інструментів натиснути ЛКМ пункт &quot;Вхідні дані&quot;, після чого буде викликана форма для заповнення вхідними даними розрахунку.
         ///У формі треба ввести вхідні дані і рік розрахунку у відповідному полі, після чого треба натиснути ЛКМ пункт &quot;Зберегти вхідні дані&quot;. Таким чином буде створено новий розрахунок з тими даними, які були вказані при збереженні..
         /// </summary>
         internal static string createCalcText_UA {
@@ -470,10 +470,11 @@ namespace CatlabuhApp.UI.Help {
         ///The Dispetcher Schedule of Work Gateway is one of the parts of the calculation input that is involved in the calculation.
         ///To fill the DGRS data and to choose the method of its calculation, it is necessary to call the appropriate form.
         ///This can be done from two places:
-        ///    1. From the Calculation Views page, by clicking LKM, select &quot;Show Gateway Schedule&quot;.
-        ///    2. From the &quot;New Settlement Setting&quot; form, select the appropriate box.
+        ///    1. From the calculation views page, by clicking LKM, select &quot;Show Gateway Schedule&quot;.
+        ///    2. From the &quot;Input data setup&quot; form, select the appropriate box.
         ///
-        ///DSWG data can be saved by clicking LMB on the item &quot;Save data&quot;.        /// [остаток строки не уместился]&quot;;.
+        ///DSWG data can be saved by clicking LMB on the item &quot;Save data&quot;.
+        ///In or [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string gatewayScheduleText_EN {
             get {
@@ -488,7 +489,7 @@ namespace CatlabuhApp.UI.Help {
         ///Для заполнения ДГРШ данными и выбора метода его расчета надо вызвать соответствующую форму.
         ///Это можно сделать из двух мест:
         ///    1. Со страницы просмотра расчетов, нажав ЛКМ пункт &quot;Показать ДГРШ&quot;.
-        ///    2. С формы &quot;Настройка нового расчета&quot;, поставив галочку в соответствующем окне.
+        ///    2. С формы &quot;Настройка входных данных&quot;, поставив галочку в соответствующем окне.
         ///
         ///Данные ДГРШ можно сохранить нажав ЛКМ пункт &quot;Сохранить данные&quot;.
         ///Чтобы просмотреть данные ДГРШ, надо [остаток строки не уместился]&quot;;.
@@ -506,10 +507,10 @@ namespace CatlabuhApp.UI.Help {
         ///Для заповнення ДГРШ даними і обрання методу його розрахунку треба викликати відповідну форму. 
         ///Це можна зробити з двох місць:
         ///    1. Зі сторінки перегляду розрахунків, натиснувши ЛКМ пункт &quot;Показати ДГРШ&quot;.
-        ///    2. З форми &quot;Налаштування нового розрахунку&quot;, поставивши галочку у відповідному вікні.
+        ///    2. З форми &quot;Налаштування вхідних даних&quot;, поставивши галочку у відповідному вікні.
         ///
         ///Дані ДГРШ можна зберегти натиснувши ЛКМ пункт &quot;Зберегти дані&quot;.
-        ///Щоб переглянут [остаток строки не уместился]&quot;;.
+        ///Щоб переглянути да [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string gatewayScheduleText_UA {
             get {
