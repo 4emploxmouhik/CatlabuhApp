@@ -70,8 +70,8 @@
             // 
             // richTextBox
             // 
-            this.richTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             resources.ApplyResources(this.richTextBox, "richTextBox");
+            this.richTextBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.richTextBox.Name = "richTextBox";
             this.richTextBox.ReadOnly = true;
             // 

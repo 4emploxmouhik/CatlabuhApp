@@ -1,0 +1,1921 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 9</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 16</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Choose year of calculation:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="yearsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="yearsBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>11, 2, 3, 2</value>
+  </data>
+  <data name="yearsBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="yearsBox.TabIndex" type="System.Int32, mscorlib">
+    <value>138</value>
+  </data>
+  <data name="&gt;&gt;yearsBox.Name" xml:space="preserve">
+    <value>yearsBox</value>
+  </data>
+  <data name="&gt;&gt;yearsBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;yearsBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;yearsBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="build.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 253</value>
+  </data>
+  <data name="build.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="build.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="build.Text" xml:space="preserve">
+    <value>Build</value>
+  </data>
+  <data name="&gt;&gt;build.Name" xml:space="preserve">
+    <value>build</value>
+  </data>
+  <data name="&gt;&gt;build.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;build.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;build.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 253</value>
+  </data>
+  <data name="cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
+  </data>
+  <data name="cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;cancel.Name" xml:space="preserve">
+    <value>cancel</value>
+  </data>
+  <data name="&gt;&gt;cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cancel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="partsListBox.ItemHeight" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="partsListBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 164</value>
+  </data>
+  <data name="partsListBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 68</value>
+  </data>
+  <data name="partsListBox.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="&gt;&gt;partsListBox.Name" xml:space="preserve">
+    <value>partsListBox</value>
+  </data>
+  <data name="&gt;&gt;partsListBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;partsListBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;partsListBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="add.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 164</value>
+  </data>
+  <data name="add.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 30</value>
+  </data>
+  <data name="add.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;add.Name" xml:space="preserve">
+    <value>add</value>
+  </data>
+  <data name="&gt;&gt;add.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;add.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;add.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="remove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 202</value>
+  </data>
+  <data name="remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 30</value>
+  </data>
+  <data name="remove.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="remove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;remove.Name" xml:space="preserve">
+    <value>remove</value>
+  </data>
+  <data name="&gt;&gt;remove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;remove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;remove.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="colorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="colorPanel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 44</value>
+  </data>
+  <data name="colorPanel8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel8.TabIndex" type="System.Int32, mscorlib">
+    <value>167</value>
+  </data>
+  <data name="&gt;&gt;colorPanel8.Name" xml:space="preserve">
+    <value>colorPanel8</value>
+  </data>
+  <data name="&gt;&gt;colorPanel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel8.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;colorPanel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="vpBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vpBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="vpBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="vpBox.TabIndex" type="System.Int32, mscorlib">
+    <value>152</value>
+  </data>
+  <data name="vpBox.Text" xml:space="preserve">
+    <value>Vp</value>
+  </data>
+  <data name="&gt;&gt;vpBox.Name" xml:space="preserve">
+    <value>vpBox</value>
+  </data>
+  <data name="&gt;&gt;vpBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vpBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;vpBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="colorPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 18</value>
+  </data>
+  <data name="colorPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>153</value>
+  </data>
+  <data name="&gt;&gt;colorPanel1.Name" xml:space="preserve">
+    <value>colorPanel1</value>
+  </data>
+  <data name="&gt;&gt;colorPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;colorPanel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="vrBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vrBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 44</value>
+  </data>
+  <data name="vrBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="vrBox.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="vrBox.Text" xml:space="preserve">
+    <value>Vr</value>
+  </data>
+  <data name="&gt;&gt;vrBox.Name" xml:space="preserve">
+    <value>vrBox</value>
+  </data>
+  <data name="&gt;&gt;vrBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vrBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;vrBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="colorPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 44</value>
+  </data>
+  <data name="colorPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="&gt;&gt;colorPanel2.Name" xml:space="preserve">
+    <value>colorPanel2</value>
+  </data>
+  <data name="&gt;&gt;colorPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel2.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;colorPanel2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="vozPlusBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vozPlusBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 44</value>
+  </data>
+  <data name="vozPlusBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="vozPlusBox.TabIndex" type="System.Int32, mscorlib">
+    <value>166</value>
+  </data>
+  <data name="vozPlusBox.Text" xml:space="preserve">
+    <value>Voz+</value>
+  </data>
+  <data name="&gt;&gt;vozPlusBox.Name" xml:space="preserve">
+    <value>vozPlusBox</value>
+  </data>
+  <data name="&gt;&gt;vozPlusBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vozPlusBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;vozPlusBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="vbBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vbBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 70</value>
+  </data>
+  <data name="vbBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="vbBox.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="vbBox.Text" xml:space="preserve">
+    <value>Vb</value>
+  </data>
+  <data name="&gt;&gt;vbBox.Name" xml:space="preserve">
+    <value>vbBox</value>
+  </data>
+  <data name="&gt;&gt;vbBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vbBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;vbBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="colorPanel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 18</value>
+  </data>
+  <data name="colorPanel7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel7.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="&gt;&gt;colorPanel7.Name" xml:space="preserve">
+    <value>colorPanel7</value>
+  </data>
+  <data name="&gt;&gt;colorPanel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel7.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;colorPanel7.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="colorPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 70</value>
+  </data>
+  <data name="colorPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="&gt;&gt;colorPanel3.Name" xml:space="preserve">
+    <value>colorPanel3</value>
+  </data>
+  <data name="&gt;&gt;colorPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel3.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;colorPanel3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="vgBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vgBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 18</value>
+  </data>
+  <data name="vgBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="vgBox.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="vgBox.Text" xml:space="preserve">
+    <value>Vg</value>
+  </data>
+  <data name="&gt;&gt;vgBox.Name" xml:space="preserve">
+    <value>vgBox</value>
+  </data>
+  <data name="&gt;&gt;vgBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vgBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;vgBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dltVniBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dltVniBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="dltVniBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="dltVniBox.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="dltVniBox.Text" xml:space="preserve">
+    <value>∆Vnі</value>
+  </data>
+  <data name="&gt;&gt;dltVniBox.Name" xml:space="preserve">
+    <value>dltVniBox</value>
+  </data>
+  <data name="&gt;&gt;dltVniBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dltVniBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;dltVniBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="colorPanel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="colorPanel6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel6.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="&gt;&gt;colorPanel6.Name" xml:space="preserve">
+    <value>colorPanel6</value>
+  </data>
+  <data name="&gt;&gt;colorPanel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel6.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;colorPanel6.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="vdrBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vdrBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 44</value>
+  </data>
+  <data name="vdrBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="vdrBox.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="vdrBox.Text" xml:space="preserve">
+    <value>Vdr</value>
+  </data>
+  <data name="&gt;&gt;vdrBox.Name" xml:space="preserve">
+    <value>vdrBox</value>
+  </data>
+  <data name="&gt;&gt;vdrBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vdrBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;vdrBox.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="vdPlusBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vdPlusBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 18</value>
+  </data>
+  <data name="vdPlusBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="vdPlusBox.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="vdPlusBox.Text" xml:space="preserve">
+    <value>VD+</value>
+  </data>
+  <data name="&gt;&gt;vdPlusBox.Name" xml:space="preserve">
+    <value>vdPlusBox</value>
+  </data>
+  <data name="&gt;&gt;vdPlusBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vdPlusBox.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;vdPlusBox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="colorPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 18</value>
+  </data>
+  <data name="colorPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="&gt;&gt;colorPanel4.Name" xml:space="preserve">
+    <value>colorPanel4</value>
+  </data>
+  <data name="&gt;&gt;colorPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel4.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;colorPanel4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="colorPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 44</value>
+  </data>
+  <data name="colorPanel5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;colorPanel5.Name" xml:space="preserve">
+    <value>colorPanel5</value>
+  </data>
+  <data name="&gt;&gt;colorPanel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel5.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;colorPanel5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 100</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>WBPP</value>
+  </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>131, 17</value>
+  </metadata>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value>Water Balance Profit Part</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="colorPanel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 18</value>
+  </data>
+  <data name="colorPanel9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel9.TabIndex" type="System.Int32, mscorlib">
+    <value>156</value>
+  </data>
+  <data name="&gt;&gt;colorPanel9.Name" xml:space="preserve">
+    <value>colorPanel9</value>
+  </data>
+  <data name="&gt;&gt;colorPanel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel9.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;colorPanel9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="colorPanel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="colorPanel14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel14.TabIndex" type="System.Int32, mscorlib">
+    <value>165</value>
+  </data>
+  <data name="&gt;&gt;colorPanel14.Name" xml:space="preserve">
+    <value>colorPanel14</value>
+  </data>
+  <data name="&gt;&gt;colorPanel14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel14.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;colorPanel14.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="vzBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vzBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 18</value>
+  </data>
+  <data name="vzBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="vzBox.TabIndex" type="System.Int32, mscorlib">
+    <value>160</value>
+  </data>
+  <data name="vzBox.Text" xml:space="preserve">
+    <value>Vz</value>
+  </data>
+  <data name="&gt;&gt;vzBox.Name" xml:space="preserve">
+    <value>vzBox</value>
+  </data>
+  <data name="&gt;&gt;vzBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vzBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;vzBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="veBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="veBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="veBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="veBox.TabIndex" type="System.Int32, mscorlib">
+    <value>154</value>
+  </data>
+  <data name="veBox.Text" xml:space="preserve">
+    <value>VE</value>
+  </data>
+  <data name="&gt;&gt;veBox.Name" xml:space="preserve">
+    <value>veBox</value>
+  </data>
+  <data name="&gt;&gt;veBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;veBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;veBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="vdMinusBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vdMinusBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 44</value>
+  </data>
+  <data name="vdMinusBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="vdMinusBox.TabIndex" type="System.Int32, mscorlib">
+    <value>162</value>
+  </data>
+  <data name="vdMinusBox.Text" xml:space="preserve">
+    <value>VD-</value>
+  </data>
+  <data name="&gt;&gt;vdMinusBox.Name" xml:space="preserve">
+    <value>vdMinusBox</value>
+  </data>
+  <data name="&gt;&gt;vdMinusBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vdMinusBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;vdMinusBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="colorPanel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 44</value>
+  </data>
+  <data name="colorPanel13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel13.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="&gt;&gt;colorPanel13.Name" xml:space="preserve">
+    <value>colorPanel13</value>
+  </data>
+  <data name="&gt;&gt;colorPanel13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel13.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;colorPanel13.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="colorPanel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 44</value>
+  </data>
+  <data name="colorPanel10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel10.TabIndex" type="System.Int32, mscorlib">
+    <value>157</value>
+  </data>
+  <data name="&gt;&gt;colorPanel10.Name" xml:space="preserve">
+    <value>colorPanel10</value>
+  </data>
+  <data name="&gt;&gt;colorPanel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel10.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;colorPanel10.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="vtrBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vtrBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 44</value>
+  </data>
+  <data name="vtrBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="vtrBox.TabIndex" type="System.Int32, mscorlib">
+    <value>155</value>
+  </data>
+  <data name="vtrBox.Text" xml:space="preserve">
+    <value>Vtr</value>
+  </data>
+  <data name="&gt;&gt;vtrBox.Name" xml:space="preserve">
+    <value>vtrBox</value>
+  </data>
+  <data name="&gt;&gt;vtrBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vtrBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;vtrBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="colorPanel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 70</value>
+  </data>
+  <data name="colorPanel11.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel11.TabIndex" type="System.Int32, mscorlib">
+    <value>159</value>
+  </data>
+  <data name="&gt;&gt;colorPanel11.Name" xml:space="preserve">
+    <value>colorPanel11</value>
+  </data>
+  <data name="&gt;&gt;colorPanel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel11.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;colorPanel11.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="vfBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vfBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 70</value>
+  </data>
+  <data name="vfBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="vfBox.TabIndex" type="System.Int32, mscorlib">
+    <value>158</value>
+  </data>
+  <data name="vfBox.Text" xml:space="preserve">
+    <value>Vf</value>
+  </data>
+  <data name="&gt;&gt;vfBox.Name" xml:space="preserve">
+    <value>vfBox</value>
+  </data>
+  <data name="&gt;&gt;vfBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vfBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;vfBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="vozMinusBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vozMinusBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="vozMinusBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="vozMinusBox.TabIndex" type="System.Int32, mscorlib">
+    <value>164</value>
+  </data>
+  <data name="vozMinusBox.Text" xml:space="preserve">
+    <value>Voz-</value>
+  </data>
+  <data name="&gt;&gt;vozMinusBox.Name" xml:space="preserve">
+    <value>vozMinusBox</value>
+  </data>
+  <data name="&gt;&gt;vozMinusBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vozMinusBox.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;vozMinusBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="colorPanel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 18</value>
+  </data>
+  <data name="colorPanel12.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel12.TabIndex" type="System.Int32, mscorlib">
+    <value>161</value>
+  </data>
+  <data name="&gt;&gt;colorPanel12.Name" xml:space="preserve">
+    <value>colorPanel12</value>
+  </data>
+  <data name="&gt;&gt;colorPanel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel12.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;colorPanel12.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 100</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>WBCP</value>
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value>Water Balance Consumable Part</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cpBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cpBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="cpBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="cpBox.TabIndex" type="System.Int32, mscorlib">
+    <value>168</value>
+  </data>
+  <data name="cpBox.Text" xml:space="preserve">
+    <value>Cp</value>
+  </data>
+  <data name="&gt;&gt;cpBox.Name" xml:space="preserve">
+    <value>cpBox</value>
+  </data>
+  <data name="&gt;&gt;cpBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cpBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;cpBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="colorPanel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 18</value>
+  </data>
+  <data name="colorPanel15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel15.TabIndex" type="System.Int32, mscorlib">
+    <value>169</value>
+  </data>
+  <data name="&gt;&gt;colorPanel15.Name" xml:space="preserve">
+    <value>colorPanel15</value>
+  </data>
+  <data name="&gt;&gt;colorPanel15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel15.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;colorPanel15.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="crBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="crBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 44</value>
+  </data>
+  <data name="crBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="crBox.TabIndex" type="System.Int32, mscorlib">
+    <value>170</value>
+  </data>
+  <data name="crBox.Text" xml:space="preserve">
+    <value>Cr</value>
+  </data>
+  <data name="&gt;&gt;crBox.Name" xml:space="preserve">
+    <value>crBox</value>
+  </data>
+  <data name="&gt;&gt;crBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;crBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="colorPanel16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 44</value>
+  </data>
+  <data name="colorPanel16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel16.TabIndex" type="System.Int32, mscorlib">
+    <value>172</value>
+  </data>
+  <data name="&gt;&gt;colorPanel16.Name" xml:space="preserve">
+    <value>colorPanel16</value>
+  </data>
+  <data name="&gt;&gt;colorPanel16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel16.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;colorPanel16.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cbBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 70</value>
+  </data>
+  <data name="cbBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="cbBox.TabIndex" type="System.Int32, mscorlib">
+    <value>171</value>
+  </data>
+  <data name="cbBox.Text" xml:space="preserve">
+    <value>Cb</value>
+  </data>
+  <data name="&gt;&gt;cbBox.Name" xml:space="preserve">
+    <value>cbBox</value>
+  </data>
+  <data name="&gt;&gt;cbBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;cbBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="colorPanel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 18</value>
+  </data>
+  <data name="colorPanel21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel21.TabIndex" type="System.Int32, mscorlib">
+    <value>181</value>
+  </data>
+  <data name="&gt;&gt;colorPanel21.Name" xml:space="preserve">
+    <value>colorPanel21</value>
+  </data>
+  <data name="&gt;&gt;colorPanel21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel21.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;colorPanel21.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="colorPanel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 70</value>
+  </data>
+  <data name="colorPanel17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel17.TabIndex" type="System.Int32, mscorlib">
+    <value>173</value>
+  </data>
+  <data name="&gt;&gt;colorPanel17.Name" xml:space="preserve">
+    <value>colorPanel17</value>
+  </data>
+  <data name="&gt;&gt;colorPanel17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel17.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;colorPanel17.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cgBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cgBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 18</value>
+  </data>
+  <data name="cgBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="cgBox.TabIndex" type="System.Int32, mscorlib">
+    <value>174</value>
+  </data>
+  <data name="cgBox.Text" xml:space="preserve">
+    <value>Cg</value>
+  </data>
+  <data name="&gt;&gt;cgBox.Name" xml:space="preserve">
+    <value>cgBox</value>
+  </data>
+  <data name="&gt;&gt;cgBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cgBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;cgBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cdPlusBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cdPlusBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 70</value>
+  </data>
+  <data name="cdPlusBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 20</value>
+  </data>
+  <data name="cdPlusBox.TabIndex" type="System.Int32, mscorlib">
+    <value>178</value>
+  </data>
+  <data name="cdPlusBox.Text" xml:space="preserve">
+    <value>CD+</value>
+  </data>
+  <data name="&gt;&gt;cdPlusBox.Name" xml:space="preserve">
+    <value>cdPlusBox</value>
+  </data>
+  <data name="&gt;&gt;cdPlusBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cdPlusBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;cdPlusBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="colorPanel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 70</value>
+  </data>
+  <data name="colorPanel20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel20.TabIndex" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="&gt;&gt;colorPanel20.Name" xml:space="preserve">
+    <value>colorPanel20</value>
+  </data>
+  <data name="&gt;&gt;colorPanel20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel20.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;colorPanel20.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cdrBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cdrBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 44</value>
+  </data>
+  <data name="cdrBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="cdrBox.TabIndex" type="System.Int32, mscorlib">
+    <value>176</value>
+  </data>
+  <data name="cdrBox.Text" xml:space="preserve">
+    <value>Cdr</value>
+  </data>
+  <data name="&gt;&gt;cdrBox.Name" xml:space="preserve">
+    <value>cdrBox</value>
+  </data>
+  <data name="&gt;&gt;cdrBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cdrBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;cdrBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cozPlusBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cozPlusBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 18</value>
+  </data>
+  <data name="cozPlusBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 20</value>
+  </data>
+  <data name="cozPlusBox.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="cozPlusBox.Text" xml:space="preserve">
+    <value>Coz+</value>
+  </data>
+  <data name="&gt;&gt;cozPlusBox.Name" xml:space="preserve">
+    <value>cozPlusBox</value>
+  </data>
+  <data name="&gt;&gt;cozPlusBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cozPlusBox.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;cozPlusBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="colorPanel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 18</value>
+  </data>
+  <data name="colorPanel18.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel18.TabIndex" type="System.Int32, mscorlib">
+    <value>175</value>
+  </data>
+  <data name="&gt;&gt;colorPanel18.Name" xml:space="preserve">
+    <value>colorPanel18</value>
+  </data>
+  <data name="&gt;&gt;colorPanel18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel18.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;colorPanel18.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="colorPanel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 44</value>
+  </data>
+  <data name="colorPanel19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel19.TabIndex" type="System.Int32, mscorlib">
+    <value>177</value>
+  </data>
+  <data name="&gt;&gt;colorPanel19.Name" xml:space="preserve">
+    <value>colorPanel19</value>
+  </data>
+  <data name="&gt;&gt;colorPanel19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel19.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;colorPanel19.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 100</value>
+  </data>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>SBPP</value>
+  </data>
+  <data name="tabPage3.ToolTip" xml:space="preserve">
+    <value>Salt Balance Profit Part</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="colorPanel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 18</value>
+  </data>
+  <data name="colorPanel25.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel25.TabIndex" type="System.Int32, mscorlib">
+    <value>181</value>
+  </data>
+  <data name="&gt;&gt;colorPanel25.Name" xml:space="preserve">
+    <value>colorPanel25</value>
+  </data>
+  <data name="&gt;&gt;colorPanel25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel25.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;colorPanel25.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cfBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cfBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 18</value>
+  </data>
+  <data name="cfBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 20</value>
+  </data>
+  <data name="cfBox.TabIndex" type="System.Int32, mscorlib">
+    <value>179</value>
+  </data>
+  <data name="cfBox.Text" xml:space="preserve">
+    <value>Cf</value>
+  </data>
+  <data name="&gt;&gt;cfBox.Name" xml:space="preserve">
+    <value>cfBox</value>
+  </data>
+  <data name="&gt;&gt;cfBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cfBox.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;cfBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="colorPanel22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 18</value>
+  </data>
+  <data name="colorPanel22.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel22.TabIndex" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="&gt;&gt;colorPanel22.Name" xml:space="preserve">
+    <value>colorPanel22</value>
+  </data>
+  <data name="&gt;&gt;colorPanel22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel22.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;colorPanel22.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="czBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="czBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 44</value>
+  </data>
+  <data name="czBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 20</value>
+  </data>
+  <data name="czBox.TabIndex" type="System.Int32, mscorlib">
+    <value>181</value>
+  </data>
+  <data name="czBox.Text" xml:space="preserve">
+    <value>Cz</value>
+  </data>
+  <data name="&gt;&gt;czBox.Name" xml:space="preserve">
+    <value>czBox</value>
+  </data>
+  <data name="&gt;&gt;czBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;czBox.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;czBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="colorPanel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 44</value>
+  </data>
+  <data name="colorPanel23.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel23.TabIndex" type="System.Int32, mscorlib">
+    <value>183</value>
+  </data>
+  <data name="&gt;&gt;colorPanel23.Name" xml:space="preserve">
+    <value>colorPanel23</value>
+  </data>
+  <data name="&gt;&gt;colorPanel23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel23.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;colorPanel23.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cdMinusBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cdMinusBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 70</value>
+  </data>
+  <data name="cdMinusBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="cdMinusBox.TabIndex" type="System.Int32, mscorlib">
+    <value>182</value>
+  </data>
+  <data name="cdMinusBox.Text" xml:space="preserve">
+    <value>CD-</value>
+  </data>
+  <data name="&gt;&gt;cdMinusBox.Name" xml:space="preserve">
+    <value>cdMinusBox</value>
+  </data>
+  <data name="&gt;&gt;cdMinusBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cdMinusBox.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;cdMinusBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="colorPanel24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 70</value>
+  </data>
+  <data name="colorPanel24.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="colorPanel24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="colorPanel24.TabIndex" type="System.Int32, mscorlib">
+    <value>184</value>
+  </data>
+  <data name="&gt;&gt;colorPanel24.Name" xml:space="preserve">
+    <value>colorPanel24</value>
+  </data>
+  <data name="&gt;&gt;colorPanel24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorPanel24.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;colorPanel24.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cozMinusBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cozMinusBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 18</value>
+  </data>
+  <data name="cozMinusBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="cozMinusBox.TabIndex" type="System.Int32, mscorlib">
+    <value>185</value>
+  </data>
+  <data name="cozMinusBox.Text" xml:space="preserve">
+    <value>Coz-</value>
+  </data>
+  <data name="&gt;&gt;cozMinusBox.Name" xml:space="preserve">
+    <value>cozMinusBox</value>
+  </data>
+  <data name="&gt;&gt;cozMinusBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cozMinusBox.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;cozMinusBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 100</value>
+  </data>
+  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>SBCP</value>
+  </data>
+  <data name="tabPage4.ToolTip" xml:space="preserve">
+    <value>Salt Balance Consumable Part</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 33</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 129</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>163</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>333, 287</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAAAAAAAAAAAAAAAAAAAA
+        AABMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwD//wAB3JgzbduY
+        NNnbmDT+25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP7bmDTZ25k0a///AAFMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwDamTNu25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uZNGtMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDPa25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9yY
+        NNhMcEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT+25g0/9uYNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2FL
+        NP/bmDT/25g0/9uYNP5McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9uUjT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/YUs0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/alA0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25SNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP/RkjT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/dVg0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2BKNP+YbjT/2ZY0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9GSNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP+vfDT/2Zc0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/JjTT/alE0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/699
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/2Zc0/6R1NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/blI0/5Vs
+        NP/BhzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/sX00/4lkNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/k2o0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/JjTT/d1g0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP94WTT/2JY0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9KSNP9wVDT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2NMNP/IjDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/2ZY0/35d
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/6h4NP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/alzT/jGY0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/gmA0/9qXNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP+fcjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9lTjT/z480/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/7WANP9fSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP+peDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/yIs0/2VONP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/31dNP/alzT/25g0/9uYNP/bmDT/25g0/9uYNP/TkjT/cFQ0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Ykw0/8iMNP/bmDT/25g0/9uYNP/bmDT/25g0/9mXNP+AXjT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/nHE0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/5lu
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9tUjT/1pU0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/tYA0/19KNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP+1gDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/IjDT/ZU00/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/1JM0/9KT
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9eVNP91WDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/5BpNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/k2w0/6Z3NP/IjDT/25g0/9uYNP/bmDT/s380/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9jTDT/yY00/9uYNP/bmDT/zY80/2hQ
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/e1s0/9qY
+        NP/bmDT/25g0/7qENP9gSjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/6V2NP/bmDT/25g0/9uYNP+hdDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/2NMNP/JjTT/25g0/9uYNP/alzT/iGM0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP96WzT/2Zc0/9uYNP/bmDT/1ZQ0/3NX
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/o3U0/9uY
+        NP/bmDT/25g0/8iMNP9lTjT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/YUs0/8aLNP/bmDT/25g0/9uYNP+1gDT/X0o0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/bFI0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/3laNP/ZlzT/25g0/9uYNP/bmDT/m280/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+iczT/25g0/9uYNP/bmDT/2pg0/4Jg
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP+NZzT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/bFI0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9hSzT/xoo0/9uY
+        NP/bmDT/25g0/9KTNP9vVDT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/dFc0/5tv
+        NP/CiTT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/sH00/4NgM/9gSjT/Xkk0/15JNP9eSTT/Xkk0/2dO
+        NP+QaTT/w4k0/9uYNP/bmDT/25g0/9uYNP/MjjT/oXQ0/3tbNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15J
+        NP+yfjT/2pc0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/HjDT/alE0/15J
+        NP9eSTT/iGM0/9SUNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP++hjT/Y0s0/15J
+        NP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT/25g0/9uY
+        NP9eSTT/Xkk0/15JNP/RkjT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/dVg0/15JNP9eSTT/oHI0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/Z040/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExwRwBMcEcATHBHAExw
+        RwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9uUjT/blM0/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25TNP9uUzT/YUs0/15JNP9eSTT/Zk80/25TNP9uUzT/blM0/25TNP9uUzT/blM0/25T
+        NP9uUzT/blM0/25TNP9uUzT/X0k0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uYNP9McEcATHBHAExw
+        RwBMcEcATHBHAExwRwDbmDT/25g0/9uYNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP/bmDT/25g0/9uY
+        NP9McEcATHBHAExwRwBMcEcATHBHAExwRwDbmDT+25g0/9uYNP9hSzT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15J
+        NP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/15JNP9eSTT/Xkk0/2FL
+        NP/bmDT/25g0/9uYNP5McEcATHBHAExwRwBMcEcATHBHAExwRwDbmTTb25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNNlMcEcATHBHAExwRwBMcEcATHBHAExwRwDbmTRw25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9yYM21McEcATHBHAExwRwBMcEcATHBHAExw
+        RwD//wAB2pg1b9uYM9rbmDT+25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uY
+        NP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP/bmDT/25g0/9uYNP7bmDPa3Jgzbf//AAFMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExw
+        RwBMcEcATHBHAExwRwBMcEcATHBHAExwRwBMcEcATHBHAExwRwD///////8AAP///////wAA////////
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAH
+        AADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAADgAAAAAAcAAOAA
+        AAAABwAA4AAAAAAHAADgAAAAAAcAAOAAAAAABwAA4AAAAAAHAAD///////8AAP///////wAA////////
+        AAA=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pie Chart Setup</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
+    <value>colorDialog</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PieChartSetup</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

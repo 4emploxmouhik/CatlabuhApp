@@ -31,6 +31,8 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void CreateNewChart_Click(object sender, EventArgs e)
         {
+            csd.HideControlsForPieChart(false);
+
             ChartSetup cs = new ChartSetup(DataAccess);
             cs.ShowDialog();
 
@@ -50,6 +52,26 @@ namespace CatlabuhApp.UI.Main.Views
             }
         }
 
+        private void CreateNewPieChart_Click(object sender, EventArgs e)
+        {
+            csd.HideControlsForPieChart(true);
+
+            PieChartSetup pcs = new PieChartSetup(DataAccess);
+            pcs.ShowDialog();
+
+            if (pcs.DialogResult == DialogResult.OK)
+            {
+                try
+                {
+                    FillPieChart(pcs.YearOfCalculation, pcs.ChosenParts.ToArray(), pcs.ChosenColors.ToArray(), pcs.LegendItems.ToArray());
+                }
+                catch (NullReferenceException)
+                {
+                    MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText6, MessageDialog.Icon.Cross);
+                }
+            }
+        }
+
         private void ChartStyle_Click(object sender, EventArgs e)
         {
             if (chart.Series.Count == 0)
@@ -64,23 +86,27 @@ namespace CatlabuhApp.UI.Main.Views
                 {
                     chart.Titles[0].Text = csd.ChartTitle.Text;
                     chart.Titles[0].Font = csd.ChartTitle.Font;
-                    chart.ChartAreas[0].AxisX.Title = csd.XAxisTitle.Text;
-                    chart.ChartAreas[0].AxisX.TitleFont = csd.XAxisTitle.Font;
-                    chart.ChartAreas[0].AxisY.Title = csd.YAxisTitle.Text;
-                    chart.ChartAreas[0].AxisY.TitleFont = csd.YAxisTitle.Font;
 
-                    chart.ChartAreas[0].AxisX.MajorGrid.Enabled = csd.IsShowXAxisMajorGrid;
-                    chart.ChartAreas[0].AxisX.MinorGrid.Enabled = csd.IsShowXAxisMinorGrid;
-                    chart.ChartAreas[0].AxisY.MajorGrid.Enabled = csd.IsShowYAxisMajorGrid;
-                    chart.ChartAreas[0].AxisY.MinorGrid.Enabled = csd.IsShowYAxisMinorGrid;
-                    chart.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = csd.XAxisMajorGridLineDashStyle;
-                    chart.ChartAreas[0].AxisX.MinorGrid.LineDashStyle = csd.XAxisMinorGridLineDashStyle;
-                    chart.ChartAreas[0].AxisY.MajorGrid.LineDashStyle = csd.YAxisMajorGridLineDashStyle;
-                    chart.ChartAreas[0].AxisY.MinorGrid.LineDashStyle = csd.YAxisMinorGridLineDashStyle;
-
-                    for (int i = 0; i < chart.Series.Count; i++)
+                    if (!csd.IsPieChart)
                     {
-                        chart.Series[i] = csd.Series[i];
+                        chart.ChartAreas[0].AxisX.Title = csd.XAxisTitle.Text;
+                        chart.ChartAreas[0].AxisX.TitleFont = csd.XAxisTitle.Font;
+                        chart.ChartAreas[0].AxisY.Title = csd.YAxisTitle.Text;
+                        chart.ChartAreas[0].AxisY.TitleFont = csd.YAxisTitle.Font;
+
+                        chart.ChartAreas[0].AxisX.MajorGrid.Enabled = csd.IsShowXAxisMajorGrid;
+                        chart.ChartAreas[0].AxisX.MinorGrid.Enabled = csd.IsShowXAxisMinorGrid;
+                        chart.ChartAreas[0].AxisY.MajorGrid.Enabled = csd.IsShowYAxisMajorGrid;
+                        chart.ChartAreas[0].AxisY.MinorGrid.Enabled = csd.IsShowYAxisMinorGrid;
+                        chart.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = csd.XAxisMajorGridLineDashStyle;
+                        chart.ChartAreas[0].AxisX.MinorGrid.LineDashStyle = csd.XAxisMinorGridLineDashStyle;
+                        chart.ChartAreas[0].AxisY.MajorGrid.LineDashStyle = csd.YAxisMajorGridLineDashStyle;
+                        chart.ChartAreas[0].AxisY.MinorGrid.LineDashStyle = csd.YAxisMinorGridLineDashStyle;
+
+                        for (int i = 0; i < chart.Series.Count; i++)
+                        {
+                            chart.Series[i] = csd.Series[i];
+                        }
                     }
                 }
             }
@@ -158,7 +184,8 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void ChartView_HelpRequested(object sender, HelpEventArgs hlpevent)
         {
-            new HelpForm("createChartText", "chartSetupText", "viewChartText", "styleChartText", "saveChartText", "exportChartText").Show();
+            new HelpForm("createChartText", "chartSetupText", "pieChartSetupText", "viewChartText", "styleChartText", "saveChartText", "exportChartText").Show();
         }
+      
     }
 }

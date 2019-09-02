@@ -238,20 +238,17 @@ In the form, you must enter the input data and the year of calculation in the co
   <data name="createChartText_EN" xml:space="preserve">
     <value>Create a new chart
 
-To create a new chart, click on the "Create a new chart" item on the toolbar of the chart viewing page. As a result, the "Configure New Chart" dialog box will appear.
-In this window, select the chart parameters for the X and Y axes.</value>
+To create a new chart, click on the "Create a new chart" item on the toolbar of the chart viewing page and select a chart type. As a result, the "Configure New Chart" dialog box will appear.</value>
   </data>
   <data name="createChartText_RU" xml:space="preserve">
     <value>Создание новой диаграммы
 
-Для создания новой диаграммы надо на панели инструментов страницы просмотра диаграммы нажать ЛКМ пункт "Создать новую диаграмму". В результате будет вызвано диалоговое окно "Настройка новой диаграммы".
-В этом окне надо выбрать параметры диаграммы для осей X и Y.</value>
+Для создания новой диаграммы надо на панели инструментов страницы просмотра диаграммы нажать ЛКМ пункт "Создать новую диаграмму" и выбрать тип диаграммы . В результате будет вызвано диалоговое окно "Настройка новой диаграммы".</value>
   </data>
   <data name="createChartText_UA" xml:space="preserve">
     <value>Створення нової діаграми
 
-Для створення нової діаграми треба на панелі інструментів сторінки перегляду діаграми натиснути ЛКМ пункт "Створити нову діаграму". В результаті буде викликано діалогове вікно "Налаштування нової діаграми". 
-В цьому вікні треба обрати параметри діаграми для вісей Х і Y.</value>
+Для створення нової діаграми треба на панелі інструментів сторінки перегляду діаграми натиснути ЛКМ пункт "Створити нову діаграму" і обрати тип нової діаграми. В результаті буде викликано діалогове вікно "Налаштування нової діаграми". </value>
   </data>
   <data name="deleteCalcText_EN" xml:space="preserve">
     <value>Delete calculation
@@ -576,5 +573,32 @@ In order to view the chart, in the "Main Menu", click on the "Charts" item, then
     <value>Перегляд діаграми
 
 Для того щоб переглянути діаграму треба у "Головному меню" натиснути ЛКМ пункт "Діаграми", після чого буде викликано сторінку для перегляду діаграми.</value>
+  </data>
+  <data name="pieChartSetupText_EN" xml:space="preserve">
+    <value>Pie Chart Setup
+
+Before constructing a pie chart, you must select the year of calculation and part of the calculation, depending on the number of selected calculation components (maximum four), the selected number of diagrams will be displayed on the area of ​​the diagram.
+To select and add to the list the calculation part by which the diagram will be formed, open the tab with the necessary calculation part and click the "Add" button.
+In the window to the left of the "Add" and "Delete" buttons, you can view the selected parts of the calculation.
+If it is necessary to delete part of the calculation, then in the window on the left, select the part of calculation and click the "Delete" button.
+To build a chart (or charts), click the "Build" button.</value>
+  </data>
+  <data name="pieChartSetupText_RU" xml:space="preserve">
+    <value>Настройка круговой диаграммы
+
+Перед построением круговой диаграммы надо выбрать год расчета и части расчета, в зависимости от количества выбранных компонентов расчета (максимум четыре) на площади диаграммы будет изображено выбранное количество диаграмм.
+Чтобы выбрать и добавить в список часть расчета, по которой будет сформирована диаграмма, надо открыть вкладку с необходимой частью расчета и нажать кнопку "Добавить".
+В окне слева от кнопки "Добавить" и "Удалить", можно просмотреть выбранные части расчета.
+Если необходимо удалить часть расчета, то надо в окне слева выбрать часть расчета и нажать кнопку "Удалить".
+Для построения диаграммы (или диаграмм) надо нажать кнопку "Построить".</value>
+  </data>
+  <data name="pieChartSetupText_UA" xml:space="preserve">
+    <value>Налаштування кругової діаграми
+
+Перед побудовою кругової діаграми треба обрати рік розрахунку і частини розрахунку, в залежності від кількості обраних частин розрахунку (максимум чотири) на площі діаграми буде зображено обрану кількість діаграм. 
+Щоб обрати і додати до списку частину розрахунку, по якій буде сформована діаграма, треба відкрити вкладку з необхідною частиною розрахунку і натиснути кнопку "Додати".
+У вікні, зліва від кнопок "Додати" і  "Видалити", можна переглянути обрані частини розрахунку.
+Якщо необхідно видалити частину розрахунку, то треба у вікні зліва обрати частину розрахунку і натиснути кнопку "Видалити".
+Для побудови діаграми (або діаграм) треба натиснути кнопку "Побудувати".</value>
   </data>
 </root>

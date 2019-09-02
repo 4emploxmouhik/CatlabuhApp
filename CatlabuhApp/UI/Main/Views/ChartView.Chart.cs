@@ -2,6 +2,7 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms.DataVisualization.Charting;
+using static CatlabuhApp.Data.Models.Calculation;
 
 namespace CatlabuhApp.UI.Main.Views
 {
@@ -15,6 +16,10 @@ namespace CatlabuhApp.UI.Main.Views
             {
                 isObjABool = true;
             }
+
+            chart.ChartAreas.Clear();
+            chart.ChartAreas.Add(new ChartArea());
+            chart.Titles[0].Text = "";
 
             chart.ChartAreas[0].AxisX.Interval = 1;
             chart.ChartAreas[0].AxisX.Maximum = itemsOfXAxis.Length + 1;
@@ -46,6 +51,80 @@ namespace CatlabuhApp.UI.Main.Views
 
                 SetXAxisCustomLabels(isObjABool, itemsOfXAxis);
                 SetStartAxisTitleText(obj, isObjABool);
+                chart.Update();
+            }
+            catch (NullReferenceException)
+            {
+                MessageDialog.Show(MessageDialog.AlertTitle2, MessageDialog.ErrorText6, MessageDialog.Icon.Alert);
+            }
+        }
+
+        private void FillPieChart(string yearOfCalculation, PartOfCalculation[] parts, Color[][] itemsColors, string[] legendItems)
+        {
+            string[] itemsOfPieChart = null;
+
+            Font font = new Font(FontFamily.GenericSansSerif, 10f, FontStyle.Bold);
+            Color labelColor = Color.Black;
+
+            chart.ChartAreas.Clear();
+            chart.Series.Clear();
+            chart.Titles[0].Text = "";
+
+            try
+            {
+                for (int i = 0, legendIndex = 0; i < parts.Length; i++)
+                {
+                    chart.ChartAreas.Add(new ChartArea());
+
+                    switch (parts[i])
+                    {
+                        case PartOfCalculation.WaterBalanceProfit:
+                            itemsOfPieChart = new string[] { "Vp", "Vr", "Vb", "Vg", "Vdr", "dlt_Vni", "VD_plus", "Voz_plus" };
+                            break;
+                        case PartOfCalculation.WaterBalanceConsumable:
+                            itemsOfPieChart = new string[] { "VE", "Vtr", "Vf", "Vz", "VD_minus", "Voz_minus" };
+                            break;
+                        case PartOfCalculation.SaltBalanceProfit:
+                            itemsOfPieChart = new string[] { "Cp", "Cr", "Cb", "Cg", "Cdr", "CD_plus", "Coz_plus" };
+                            break;
+                        case PartOfCalculation.SaltBalanceConsumable:
+                            itemsOfPieChart = new string[] { "Cf", "Cz", "CD_minus", "Coz_minus" };
+                            break;
+                    }
+
+                    Series series = new Series() { ChartType = SeriesChartType.Pie };
+                    string tableName = "";
+                    double value = 0;
+
+                    for (int j = 0; j < itemsOfPieChart.Length; j++, legendIndex++)
+                    {
+                        if (itemsOfPieChart[j].StartsWith("V") && (itemsOfPieChart[j].Contains("_plus") || itemsOfPieChart[j].Contains("_minus")))
+                        {
+                            tableName = "GatewaySchedule";
+                        }
+                        else if (itemsOfPieChart[j].Equals("Vz"))
+                        {
+                            tableName = "InputData";
+                        }
+                        else
+                        {
+                            tableName = "OutputData";
+                        }
+
+                        value = DataAccess.GetCellData<double>($"SELECT {itemsOfPieChart[j]} FROM {tableName} WHERE MonthID = 14 AND YearName = {yearOfCalculation}");
+
+                        series.Points.AddY(value);
+                        series.Points[j].Label = value + "%";
+                        series.Points[j].LabelForeColor = labelColor;
+                        series.Points[j].LegendText = legendItems[legendIndex];
+                        series.Points[j].Font = font;
+                        series.Points[j].Color = itemsColors[i][j];
+                    }
+
+                    series.ChartArea = chart.ChartAreas[i].Name;
+                    chart.Series.Add(series);
+                }
+
                 chart.Update();
             }
             catch (NullReferenceException)

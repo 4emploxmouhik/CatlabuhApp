@@ -35,7 +35,7 @@ namespace CatlabuhApp.Data.Models
 
         public enum PartOfCalculation
         {
-            WaterBalanceProfit, WaterBalanceConsumable, SaltBalanceProfit, SaltBalanceConsumable
+            WaterBalanceProfit, WaterBalanceConsumable, SaltBalanceProfit, SaltBalanceConsumable, NotSet
         }
 
         private DataTable GetView(PartOfCalculation part)

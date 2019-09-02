@@ -319,8 +319,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Create a new chart
         ///
-        ///To create a new chart, click on the &quot;Create a new chart&quot; item on the toolbar of the chart viewing page. As a result, the &quot;Configure New Chart&quot; dialog box will appear.
-        ///In this window, select the chart parameters for the X and Y axes..
+        ///To create a new chart, click on the &quot;Create a new chart&quot; item on the toolbar of the chart viewing page and select a chart type. As a result, the &quot;Configure New Chart&quot; dialog box will appear..
         /// </summary>
         internal static string createChartText_EN {
             get {
@@ -331,8 +330,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Создание новой диаграммы
         ///
-        ///Для создания новой диаграммы надо на панели инструментов страницы просмотра диаграммы нажать ЛКМ пункт &quot;Создать новую диаграмму&quot;. В результате будет вызвано диалоговое окно &quot;Настройка новой диаграммы&quot;.
-        ///В этом окне надо выбрать параметры диаграммы для осей X и Y..
+        ///Для создания новой диаграммы надо на панели инструментов страницы просмотра диаграммы нажать ЛКМ пункт &quot;Создать новую диаграмму&quot; и выбрать тип диаграммы . В результате будет вызвано диалоговое окно &quot;Настройка новой диаграммы&quot;..
         /// </summary>
         internal static string createChartText_RU {
             get {
@@ -343,8 +341,7 @@ namespace CatlabuhApp.UI.Help {
         /// <summary>
         ///   Ищет локализованную строку, похожую на Створення нової діаграми
         ///
-        ///Для створення нової діаграми треба на панелі інструментів сторінки перегляду діаграми натиснути ЛКМ пункт &quot;Створити нову діаграму&quot;. В результаті буде викликано діалогове вікно &quot;Налаштування нової діаграми&quot;. 
-        ///В цьому вікні треба обрати параметри діаграми для вісей Х і Y..
+        ///Для створення нової діаграми треба на панелі інструментів сторінки перегляду діаграми натиснути ЛКМ пункт &quot;Створити нову діаграму&quot; і обрати тип нової діаграми. В результаті буде викликано діалогове вікно &quot;Налаштування нової діаграми&quot;. .
         /// </summary>
         internal static string createChartText_UA {
             get {
@@ -535,6 +532,45 @@ namespace CatlabuhApp.UI.Help {
             get {
                 object obj = ResourceManager.GetObject("MainForm_MenuStrip", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Pie Chart Setup
+        ///
+        ///Before constructing a pie chart, you must select the year of calculation and part of the calculation, depending on the number of selected calculation components (maximum four), the selected number of diagrams will be displayed on the area of ​​the diagram.
+        ///To select and add to the list the calculation part by which the diagram will be formed, open the tab with the necessary calculation part and click the &quot;Add&quot; button.
+        ///In the window to the left of the &quot;Add&quot; and &quot;Delete&quot; buttons, you can  [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string pieChartSetupText_EN {
+            get {
+                return ResourceManager.GetString("pieChartSetupText_EN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Настройка круговой диаграммы
+        ///
+        ///Перед построением круговой диаграммы надо выбрать год расчета и части расчета, в зависимости от количества выбранных компонентов расчета (максимум четыре) на площади диаграммы будет изображено выбранное количество диаграмм.
+        ///Чтобы выбрать и добавить в список часть расчета, по которой будет сформирована диаграмма, надо открыть вкладку с необходимой частью расчета и нажать кнопку &quot;Добавить&quot;.
+        ///В окне слева от кнопки &quot;Добавить&quot; и &quot;Удалить&quot;, можно просмотреть выбранные части расче [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string pieChartSetupText_RU {
+            get {
+                return ResourceManager.GetString("pieChartSetupText_RU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Налаштування кругової діаграми
+        ///
+        ///Перед побудовою кругової діаграми треба обрати рік розрахунку і частини розрахунку, в залежності від кількості обраних частин розрахунку (максимум чотири) на площі діаграми буде зображено обрану кількість діаграм. 
+        ///Щоб обрати і додати до списку частину розрахунку, по якій буде сформована діаграма, треба відкрити вкладку з необхідною частиною розрахунку і натиснути кнопку &quot;Додати&quot;.
+        ///У вікні, зліва від кнопок &quot;Додати&quot; і  &quot;Видалити&quot;, можна переглянути обрані частини розрахунк [остаток строки не уместился]&quot;;.
+        /// </summary>
+        internal static string pieChartSetupText_UA {
+            get {
+                return ResourceManager.GetString("pieChartSetupText_UA", resourceCulture);
             }
         }
         

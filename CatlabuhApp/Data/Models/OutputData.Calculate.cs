@@ -249,7 +249,7 @@ namespace CatlabuhApp.Data.Models
                 DistributeValuesInGatewaySchedule();
             }
 
-            // Подсчитываем проценты водного баланса: percent(%) = (summaOfValueInWB / (summaEP + summaVD + summaVoz)) * 100
+            // Подсчитываем проценты водного баланса: percent(%) = (summaOfValueInWB / (summa_EP + summa_VD + summa_Voz)) * 100
             percentsOfWBP[0] = (sumsOfWBP[1] / (sumsOfWBP[6] + sumsOfWBP[7] + sumsOfWBP[8])) * 100;                             // Vp
             percentsOfWBP[1] = (sumsOfWBP[2] / (sumsOfWBP[6] + sumsOfWBP[7] + sumsOfWBP[8])) * 100;                             // Vr
             percentsOfWBP[2] = (sumsOfWBP[3] / (sumsOfWBP[6] + sumsOfWBP[7] + sumsOfWBP[8])) * 100;                             // Vb

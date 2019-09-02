@@ -268,6 +268,50 @@
                 return text;
             }
         }
+        public static string AlertText8
+        {
+            get
+            {
+                string text = "";
+
+                switch (Properties.Settings.Default.Language)
+                {
+                    case "en-US":
+                        text = "This part of the calculation is already in the list.";
+                        break;
+                    case "uk-UA":
+                        text = "Дана частина розрахунку вже є в списку.";
+                        break;
+                    case "ru-RU":
+                        text = "Данная часть расчета уже есть в списке.";
+                        break;
+                }
+
+                return text;
+            }
+        }
+        public static string AlertText9
+        {
+            get
+            {
+                string text = "";
+
+                switch (Properties.Settings.Default.Language)
+                {
+                    case "en-US":
+                        text = "Indicate at least one part of the calculation.";
+                        break;
+                    case "uk-UA":
+                        text = "Вкажіть хоча б одну частину розрахунку.";
+                        break;
+                    case "ru-RU":
+                        text = "Укажите хотя бы одну часть расчета.";
+                        break;
+                }
+
+                return text;
+            }
+        }
 
         public static string SuccessText1
         {
@@ -594,6 +638,28 @@
                         break;
                     case "ru-RU":
                         text = "Оси области диаграммы - в области диаграммы содержатся несовместимые типы диаграмм.";
+                        break;
+                }
+
+                return text;
+            }
+        }
+        public static string ErrorText8
+        {
+            get
+            {
+                string text = "";
+
+                switch (Properties.Settings.Default.Language)
+                {
+                    case "en-US":
+                        text = "Error saving file.";
+                        break;
+                    case "uk-UA":
+                        text = "Помилка при збереженні файлу.";
+                        break;
+                    case "ru-RU":
+                        text = "Ошибка при сохранении файла.";
                         break;
                 }
 

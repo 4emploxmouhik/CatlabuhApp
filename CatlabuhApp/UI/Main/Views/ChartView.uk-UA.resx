@@ -118,8 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lineOrBarChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="lineOrBarChart.Text" xml:space="preserve">
+    <value>Лінійний графік / Гістограма</value>
+  </data>
+  <data name="pieChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 22</value>
+  </data>
+  <data name="pieChart.Text" xml:space="preserve">
+    <value>Кругова діаграма</value>
+  </data>
   <data name="createNewChart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
+    <value>168, 22</value>
   </data>
   <data name="createNewChart.Text" xml:space="preserve">
     <value>Створити нову діаграму</value>

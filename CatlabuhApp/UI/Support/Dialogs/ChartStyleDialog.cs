@@ -20,6 +20,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
                 return $"Text: {Text}\nFont: {Font.ToString()} {Font.Style.ToString()}\n";
             }
         }
+        public bool IsPieChart { get; set; } = false;
 
         #region General
         public Title ChartTitle
@@ -168,26 +169,34 @@ namespace CatlabuhApp.UI.Support.Dialogs
 
         private void Apply_Click(object sender, EventArgs e)
         {
-            if (!BarChartTypeCheck())
+            if (!IsPieChart)
             {
-                MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText7, MessageDialog.Icon.Cross);
+                if (!BarChartTypeCheck())
+                {
+                    MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText7, MessageDialog.Icon.Cross);
+                }
+                else
+                {
+                    DialogResult = DialogResult.OK;
+
+                    for (int i = 0; i < Series.Count; i++)
+                    {
+                        Series[i].ChartType = seriesGridView.Rows[i].ChartType;
+                        Series[i].Color = seriesGridView.Rows[i].Color;
+                        Series[i].BorderDashStyle = seriesGridView.Rows[i].LineDashStyle;
+                        Series[i].BorderWidth = seriesGridView.Rows[i].LineSize;
+                        Series[i].MarkerStyle = seriesGridView.Rows[i].MarkerStyle;
+                        Series[i].MarkerSize = seriesGridView.Rows[i].MarkerSize;
+                        Series[i].MarkerColor = seriesGridView.Rows[i].MarkerColor;
+                        Series[i].MarkerBorderColor = seriesGridView.Rows[i].MarkerBorderColor;
+                    }
+
+                    Hide();
+                }
             }
             else
             {
                 DialogResult = DialogResult.OK;
-
-                for (int i = 0; i < Series.Count; i++)
-                {
-                    Series[i].ChartType = seriesGridView.Rows[i].ChartType;
-                    Series[i].Color = seriesGridView.Rows[i].Color;
-                    Series[i].BorderDashStyle = seriesGridView.Rows[i].LineDashStyle;
-                    Series[i].BorderWidth = seriesGridView.Rows[i].LineSize;
-                    Series[i].MarkerStyle = seriesGridView.Rows[i].MarkerStyle;
-                    Series[i].MarkerSize = seriesGridView.Rows[i].MarkerSize;
-                    Series[i].MarkerColor = seriesGridView.Rows[i].MarkerColor;
-                    Series[i].MarkerBorderColor = seriesGridView.Rows[i].MarkerBorderColor;
-                }
-
                 Hide();
             }
         }
@@ -233,5 +242,26 @@ namespace CatlabuhApp.UI.Support.Dialogs
             }
         }
 
+        public void HideControlsForPieChart(bool HideControls)
+        {
+            IsPieChart = HideControls;
+
+            if (HideControls)
+            {
+                groupBox1.Enabled = false;
+                groupBox3.Enabled = false;
+                groupBox4.Enabled = false;
+                seriesGridView.Visible = false;
+                showGrid.Enabled = false;
+            }
+            else
+            {
+                groupBox1.Enabled = true;
+                groupBox3.Enabled = true;
+                groupBox4.Enabled = true;
+                seriesGridView.Visible = true;
+                showGrid.Enabled = true;
+            }
+        }
     }
 }

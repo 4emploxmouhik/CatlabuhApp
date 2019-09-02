@@ -121,58 +121,26 @@
   <data name="createNewChart.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVDhPtVNLDoIwEOUEeg11JyUczd8tXEhL4ifxwym8
-        hLqxbTiAa90ZPzMwRKBtogm+5AUyM2/oDK/eXxBy1Qu4HjOhV0h8789kl9JusDhtB0InQSSf8HxViDGu
-        d+FUtai8ChT7Qp4MYZ2ROlqbQDIxih1kXG9IliOb2XLsfXrNWI9jbWUnEJwYRUBnAyCL1YjkMD9uupQs
-        hJfbPaOtkS/0guTQgOtlOflNA+Cc5A2MgAv5aYlCPlh87pA8B5rELLQT/LIm2QdoDjSJTVClOjjdiAn4
-        I1urleHY+GWnuAzcCRNqWFwmxtXAmLkZeN4b6xar6sLnsxcAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVDhPtVNLDoIwEOUEeg11ByUczd8tXGBL4ifxwym8
+        hLqBNhzAte6MnxkYItA20QRf8gKZmffoDFPnLwi4HPhcTZhQayS+u2Hap7QdLMq6vlCxHyZPeL5qxBhX
+        +2AmO1ReB4pdkZ41YZNzeTKaQDLWii1kXG1JViDv2XDsQ3bN2YxjbW0mEJxqRUCrAZBFckxy6B8nXUmW
+        wsvtntNk5Am1JDkYcLWqJr8xAC5I3kILOJCfhiiSB4uSHskL4JLohWZ6It2Q7ANcDlwSk6BOebRuIybg
+        j+yMqwzHxi9bxVXgTJiQo/IyMS6HWs/twHHeyT+r28ZjOm0AAAAASUVORK5CYII=
 </value>
   </data>
   <data name="createNewChart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
+    <value>182, 22</value>
   </data>
   <data name="createNewChart.Text" xml:space="preserve">
     <value>Создать новую диаграмму</value>
   </data>
-  <data name="exportToExcel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAARBJREFUOE9j
-        cC/woQhjFSQFYwgYNhhK6dUZ+QJxg16t0WbdWqNn6GqQMZwB1HAYqOETEP9Hx74bAlYhY5/1AYswDcCi
-        EYaBGjAwVgMCJgX/T5mfDtYUOysBzAexQaDjVBeYBgGcBrj1eP7//P3z/8gZMf/ffH7737PPF2wASHPC
-        jmQwDcI4DQDhGftn/X/35d3/ibsng/kgfOTp0f/FB8vANAjjNWDuoflg26fvm0m6ASFTwsG2B04O/f/x
-        28f/fhMDwQYQ7YWI6dH/o2bGgjXFz0n6HwQ0CMQGAZBGGMDrBWwYpAEdYxpAaUICcxgYGLUbjFR064xD
-        9eoM24CatwHxc2Q16BirICkYqyDx2IcBAHgoqSzcByV4AAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="exportToExcel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 22</value>
-  </data>
-  <data name="exportToExcel.Text" xml:space="preserve">
-    <value>Экспорт в Excel</value>
-  </data>
-  <data name="saveAsImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAARVJREFUOE9j
-        cC/woQhjFSQFgwnTabeUTGbcnmc64/YqYjBIrdnsG4pwA0ACQPyfJDzz9lyECyCmYlcIxQ6zzv1fuinx
-        f+Ki1WA+SA9+Axq2/zeZfhPOT12y7P/HI/z/l2xKAvPxG9Bz/L+Jd/J/k6IFcDHTGbfAhtjPPg/l4zIA
-        ZGtUxX8TzzigIYn/TTqP/Debefu/76rrcMPwG1AwG6IZhsOK/yduv/S/9sz5/17LEYZgN6DzENDWBBQD
-        gup7/tedPQ/GlScv/LdfAAkX7Abkz/pvktIBx5bZvf9TVmz7n7pqx//UXRf+p+65/D9y41UCXiASoxgA
-        FKAsIYGSJUgAZCoxGKTWYvp1BbgBlGCsgsRjHwYAakz6EC50GlYAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="saveAsImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 22</value>
-  </data>
-  <data name="saveAsImage.Text" xml:space="preserve">
-    <value>Сохраниь как изображение</value>
-  </data>
   <data name="toolStripDropDownButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACnSURBVDhPYxicwMMjl905KsXfNSo5FITdwlOtoFLEAZBm
-        l6jkXpgBzhEpB6FS2AHIBphiEAZpRjbANSLpOLI8CKO4CmjjT9eolP+kYJAeqHYGBphgen0XGCMrRMbo
-        8lDtDAyh27/9B+GKCXPAGMZHx+jyUO0IA8Kyy8AYxkfH6PJQ7QgDElfdAGMYHx2jy0O1IwwgFUO1DwYD
-        QrZ/CyUHQ7UPKGBgAADTY3LHHSxmDAAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPYxicwMMjl905KsXfNSo5FITdwlOtoFLEAZBm
+        l6jkXpgBzhEpB6FS2AHIBphiEAZpRjbANSLxOLI8CKO4yikq5adrVMp/UjBID1Q7AwNMML2+C4yRFSJj
+        dHmodgaG0O3f/oNwxYQ5YAzjo2N0eah2hAFh2WVgDOOjY3R5qHaEAYmrboAxjI+O0eWh2hEGkIqh2geD
+        ASHbv4WSg6HaBxQwMAAAyyZyxPwDwRIAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
@@ -198,6 +166,40 @@
   </data>
   <data name="chartStyle.Text" xml:space="preserve">
     <value>Вид диаграммы</value>
+  </data>
+  <data name="lineOrBarChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="lineOrBarChart.Text" xml:space="preserve">
+    <value>Линейный график / Гистограмма</value>
+  </data>
+  <data name="pieChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 22</value>
+  </data>
+  <data name="pieChart.Text" xml:space="preserve">
+    <value>Круговая диаграмма</value>
+  </data>
+  <data name="exportToExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="exportToExcel.Text" xml:space="preserve">
+    <value>Экспорт в Excel</value>
+  </data>
+  <data name="saveAsImage.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAARVJREFUOE9j
+        cC/woQhjFSQFgwnTabeUTGbcnmc64/YqYjBIrdnsG4pwA0ACQPyfJDzz9lyECyCmYlcIxQ6zzv1fuinx
+        f+Ki1WA+SA9+Axq2/zeZfhPOT12y7P/HI/z/l2xKAvPxG9Bz/L+Jd/J/k6IFcDHTGbfAhtjPPg/l4zIA
+        ZGtUxX8TzzigIYn/TTqP/Debefu/76rrcMPwG1AwG6IZhsOK/yduv/S/9sz5/17LEYZgN6DzENDWBBQD
+        gup7/tedPQ/GlScv/LdfAAkX7Abkz/pvktIBx5bZvf9TVmz7n7pqx//UXRf+p+65/D9y41UCXiASoxgA
+        FKAsIYGSJUgAZCoxGKTWYvp1BbgBlGCsgsRjHwYAakz6EC50GlYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="saveAsImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 22</value>
+  </data>
+  <data name="saveAsImage.Text" xml:space="preserve">
+    <value>Сохраниь как изображение</value>
   </data>
   <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 17</value>
