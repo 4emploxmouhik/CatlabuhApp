@@ -124,10 +124,6 @@
   <data name="byDeficit.Size" type="System.Drawing.Size, System.Drawing">
     <value>193, 20</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="byDeficit.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="byDeficit.Text" xml:space="preserve">
     <value>За дефіцитом волгості (d)</value>
   </data>
@@ -140,20 +136,20 @@
   <data name="byData.Text" xml:space="preserve">
     <value>За даними (E)</value>
   </data>
-  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="groupBox6.Text" xml:space="preserve">
     <value>Оберіть розрахунок випровування</value>
+  </data>
+  <data name="gsGroupBox.Text" xml:space="preserve">
+    <value>ДГРШ</value>
+  </data>
+  <data name="choiceGSCalculation.Text" xml:space="preserve">
+    <value>Оберіть розрахунок графіку роботи шлюзів</value>
   </data>
   <data name="gsByDates.Location" type="System.Drawing.Point, System.Drawing">
     <value>106, 40</value>
   </data>
   <data name="gsByDates.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 20</value>
-  </data>
-  <data name="gsByDates.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
   </data>
   <data name="gsByDates.Text" xml:space="preserve">
     <value>За датами</value>
@@ -164,17 +160,8 @@
   <data name="gsByData.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 20</value>
   </data>
-  <data name="gsByData.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="gsByData.Text" xml:space="preserve">
     <value>За даними</value>
-  </data>
-  <data name="choiceGSCalculation.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="choiceGSCalculation.Text" xml:space="preserve">
-    <value>Оберіть розрахунок графіку роботи шлюзів</value>
   </data>
   <data name="enterGS.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 36</value>
@@ -183,23 +170,21 @@
     <value>Враховувати дані з 
 графіку роботи шлюзів?</value>
   </data>
-  <data name="gsGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gsGroupBox.Text" xml:space="preserve">
-    <value>ДГРШ</value>
-  </data>
-  <data name="cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
   <data name="cancel.Text" xml:space="preserve">
     <value>Відміна</value>
   </data>
-  <data name="runCalculate.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="runCalculate.Text" xml:space="preserve">
     <value>Розрахувати</value>
+  </data>
+  <data name="calculateOnlySB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 283</value>
+  </data>
+  <data name="calculateOnlySB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 36</value>
+  </data>
+  <data name="calculateOnlySB.Text" xml:space="preserve">
+    <value>Розрахувати тільки 
+сольовий баланс</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

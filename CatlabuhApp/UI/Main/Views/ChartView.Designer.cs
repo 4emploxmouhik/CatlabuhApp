@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChartView));
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.createNewChart = new System.Windows.Forms.ToolStripDropDownButton();
@@ -135,7 +136,9 @@
             legend1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             legend1.IsTextAutoFit = false;
             legend1.Name = "Legend";
+            legend2.Name = "Legend2";
             this.chart.Legends.Add(legend1);
+            this.chart.Legends.Add(legend2);
             this.chart.Name = "chart";
             title1.Name = "Title";
             this.chart.Titles.Add(title1);

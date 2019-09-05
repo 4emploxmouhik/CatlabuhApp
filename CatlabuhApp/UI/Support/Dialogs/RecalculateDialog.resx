@@ -117,303 +117,258 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="byDeficit.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="byDeficit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="byDeficit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 57</value>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>266, 357</value>
   </data>
-  <data name="byDeficit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 20</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="enterGS.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="byDeficit.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>250, 365</value>
   </data>
-  <data name="byDeficit.Text" xml:space="preserve">
-    <value>By moisture deficit (d)</value>
+  <data name="gsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 161</value>
   </data>
-  <data name="&gt;&gt;byDeficit.Name" xml:space="preserve">
-    <value>byDeficit</value>
-  </data>
-  <data name="&gt;&gt;byDeficit.Type" xml:space="preserve">
+  <data name="&gt;&gt;gsByDates.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;byDeficit.Parent" xml:space="preserve">
-    <value>groupBox6</value>
+  <data name="&gt;&gt;choiceGSCalculation.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;byDeficit.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;byData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;calculateOnlySB.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="byData.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="byData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="byData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 31</value>
-  </data>
-  <data name="byData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 20</value>
-  </data>
-  <data name="byData.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="byData.Text" xml:space="preserve">
-    <value>By data (E)</value>
-  </data>
-  <data name="&gt;&gt;byData.Name" xml:space="preserve">
-    <value>byData</value>
-  </data>
-  <data name="&gt;&gt;byData.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;byData.Parent" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;byData.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 91</value>
-  </data>
-  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupBox6.Text" xml:space="preserve">
-    <value>Choose calculation of evaporation</value>
-  </data>
-  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
-    <value>groupBox6</value>
-  </data>
-  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="gsByDates.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="gsByDates.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="gsByDates.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 40</value>
-  </data>
-  <data name="gsByDates.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 20</value>
-  </data>
-  <data name="gsByDates.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="gsByDates.Text" xml:space="preserve">
-    <value>By dates</value>
-  </data>
-  <data name="&gt;&gt;gsByDates.Name" xml:space="preserve">
-    <value>gsByDates</value>
-  </data>
-  <data name="&gt;&gt;gsByDates.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gsByDates.Parent" xml:space="preserve">
-    <value>choiceGSCalculation</value>
-  </data>
-  <data name="&gt;&gt;gsByDates.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="gsByData.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="gsByData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="gsByData.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 40</value>
-  </data>
-  <data name="gsByData.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 20</value>
-  </data>
-  <data name="gsByData.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="gsByData.Text" xml:space="preserve">
-    <value>By data</value>
-  </data>
-  <data name="&gt;&gt;gsByData.Name" xml:space="preserve">
-    <value>gsByData</value>
-  </data>
   <data name="&gt;&gt;gsByData.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;gsByData.Parent" xml:space="preserve">
-    <value>choiceGSCalculation</value>
-  </data>
-  <data name="&gt;&gt;gsByData.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="choiceGSCalculation.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="choiceGSCalculation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 81</value>
-  </data>
-  <data name="choiceGSCalculation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 70</value>
-  </data>
-  <data name="choiceGSCalculation.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="choiceGSCalculation.Text" xml:space="preserve">
-    <value>Choose calculation of gateway schedule</value>
-  </data>
-  <data name="&gt;&gt;choiceGSCalculation.Name" xml:space="preserve">
-    <value>choiceGSCalculation</value>
-  </data>
-  <data name="&gt;&gt;choiceGSCalculation.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;choiceGSCalculation.Parent" xml:space="preserve">
-    <value>gsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;choiceGSCalculation.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="enterGS.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="enterGS.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="enterGS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="byDeficit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="enterGS.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 28</value>
-  </data>
-  <data name="enterGS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 36</value>
-  </data>
-  <data name="enterGS.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="gsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 109</value>
   </data>
   <data name="enterGS.Text" xml:space="preserve">
     <value>Consider data from the 
 gateways work schedule?</value>
   </data>
-  <data name="&gt;&gt;enterGS.Name" xml:space="preserve">
-    <value>enterGS</value>
+  <data name="&gt;&gt;gsGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;enterGS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="choiceGSCalculation.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;choiceGSCalculation.Name" xml:space="preserve">
+    <value>choiceGSCalculation</value>
+  </data>
+  <data name="&gt;&gt;gsByData.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;enterGS.Parent" xml:space="preserve">
     <value>gsGroupBox</value>
   </data>
-  <data name="&gt;&gt;enterGS.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Choose calculation of evaporation</value>
   </data>
-  <data name="gsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 109</value>
+  <data name="&gt;&gt;calculateOnlySB.Name" xml:space="preserve">
+    <value>calculateOnlySB</value>
   </data>
-  <data name="gsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 161</value>
+  <data name="gsByData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 40</value>
   </data>
-  <data name="gsGroupBox.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="calculateOnlySB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 20</value>
   </data>
-  <data name="gsGroupBox.Text" xml:space="preserve">
-    <value>Gateaway Schedule</value>
-  </data>
-  <data name="&gt;&gt;gsGroupBox.Name" xml:space="preserve">
-    <value>gsGroupBox</value>
-  </data>
-  <data name="&gt;&gt;gsGroupBox.Type" xml:space="preserve">
+  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gsGroupBox.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;gsGroupBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="cancel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 283</value>
-  </data>
-  <data name="cancel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 26</value>
-  </data>
-  <data name="cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="cancel.Text" xml:space="preserve">
-    <value>Cancel</value>
-  </data>
-  <data name="&gt;&gt;cancel.Name" xml:space="preserve">
-    <value>cancel</value>
-  </data>
-  <data name="&gt;&gt;cancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cancel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;cancel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="runCalculate.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="runCalculate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 283</value>
-  </data>
-  <data name="runCalculate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 26</value>
   </data>
   <data name="runCalculate.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="runCalculate.Text" xml:space="preserve">
-    <value>Run calcualtion</value>
+  <data name="calculateOnlySB.Text" xml:space="preserve">
+    <value>Calculate only salt balance</value>
   </data>
-  <data name="&gt;&gt;runCalculate.Name" xml:space="preserve">
-    <value>runCalculate</value>
+  <data name="&gt;&gt;byDeficit.Parent" xml:space="preserve">
+    <value>groupBox6</value>
   </data>
-  <data name="&gt;&gt;runCalculate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;choiceGSCalculation.Parent" xml:space="preserve">
+    <value>gsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;runCalculate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="gsByDates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 20</value>
+  </data>
+  <data name="&gt;&gt;choiceGSCalculation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;byDeficit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 26</value>
+  </data>
+  <data name="byData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="byDeficit.Text" xml:space="preserve">
+    <value>By moisture deficit (d)</value>
+  </data>
+  <data name="enterGS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 36</value>
+  </data>
+  <data name="&gt;&gt;gsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="gsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="choiceGSCalculation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 70</value>
+  </data>
+  <data name="calculateOnlySB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 291</value>
+  </data>
+  <data name="gsByData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gsByDates.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;runCalculate.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;runCalculate.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="cancel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>250, 318</value>
+  <data name="runCalculate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="choiceGSCalculation.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;runCalculate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="enterGS.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="gsByData.Text" xml:space="preserve">
+    <value>By data</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="enterGS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;gsByData.Parent" xml:space="preserve">
+    <value>choiceGSCalculation</value>
+  </data>
+  <data name="&gt;&gt;byData.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="enterGS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 28</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 91</value>
+  </data>
+  <data name="cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gsByData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;byDeficit.Name" xml:space="preserve">
+    <value>byDeficit</value>
+  </data>
+  <data name="&gt;&gt;enterGS.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="runCalculate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 330</value>
+  </data>
+  <data name="&gt;&gt;cancel.Name" xml:space="preserve">
+    <value>cancel</value>
+  </data>
+  <data name="runCalculate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 26</value>
+  </data>
+  <data name="&gt;&gt;gsByDates.Name" xml:space="preserve">
+    <value>gsByDates</value>
+  </data>
+  <data name="&gt;&gt;gsGroupBox.Name" xml:space="preserve">
+    <value>gsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;enterGS.Name" xml:space="preserve">
+    <value>enterGS</value>
+  </data>
+  <data name="&gt;&gt;gsByData.Name" xml:space="preserve">
+    <value>gsByData</value>
+  </data>
+  <data name="runCalculate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;runCalculate.Name" xml:space="preserve">
+    <value>runCalculate</value>
+  </data>
+  <data name="byData.Text" xml:space="preserve">
+    <value>By data (E)</value>
+  </data>
+  <data name="&gt;&gt;gsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enterGS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gsByDates.Text" xml:space="preserve">
+    <value>By dates</value>
+  </data>
+  <data name="&gt;&gt;gsByDates.Parent" xml:space="preserve">
+    <value>choiceGSCalculation</value>
+  </data>
+  <data name="byData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 31</value>
+  </data>
+  <data name="choiceGSCalculation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 81</value>
+  </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;gsByDates.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;calculateOnlySB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="byDeficit.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -439,19 +394,103 @@ gateways work schedule?</value>
         AADAAwAA//8AAA==
 </value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Recalculate calculation </value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>RecalculateDialog</value>
+  <data name="&gt;&gt;cancel.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="gsByData.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gsByDates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 40</value>
+  </data>
+  <data name="runCalculate.Text" xml:space="preserve">
+    <value>Run calcualtion</value>
+  </data>
+  <data name="cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 330</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Recalculate calculation </value>
+  </data>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="byDeficit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="&gt;&gt;byData.Name" xml:space="preserve">
+    <value>byData</value>
+  </data>
+  <data name="gsByDates.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="byDeficit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="byData.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="calculateOnlySB.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;byData.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="enterGS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="choiceGSCalculation.Text" xml:space="preserve">
+    <value>Choose calculation of gateway schedule</value>
+  </data>
+  <data name="calculateOnlySB.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="calculateOnlySB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="gsGroupBox.Text" xml:space="preserve">
+    <value>Gateaway Schedule</value>
+  </data>
+  <data name="cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RecalculateDialog</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;byDeficit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="byDeficit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 57</value>
+  </data>
+  <data name="gsByDates.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="byData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="gsByData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 20</value>
+  </data>
+  <data name="&gt;&gt;calculateOnlySB.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

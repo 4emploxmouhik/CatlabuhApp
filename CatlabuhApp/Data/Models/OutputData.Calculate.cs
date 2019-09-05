@@ -269,11 +269,15 @@ namespace CatlabuhApp.Data.Models
             percentsOfWBC[6] = (sumsOfWBC[8] / (sumsOfWBC[6] + sumsOfWBC[7] + sumsOfWBC[8])) * 100;                             // Voz_minus
         }
 
-        private void CalculateSaltBalancePart()
+        private void CalculateSaltBalancePart(bool isRecalculte)
         {
             for (int i = 0; i < 12; i++)
             {
-                s1[i] = (i == 0) ? inputData.S1InJanury : s2[i - 1];
+                if (!isRecalculte)
+                {
+                    s1[i] = (i == 0) ? inputData.S1InJanury : s2[i - 1];
+                }
+
                 c1[i] = (i == 0) ? w1[0] * s1[0] : c2[i - 1];
 
                 sp[i] = coefficients[7];
@@ -307,38 +311,108 @@ namespace CatlabuhApp.Data.Models
                 epciMinus[i] = cf[i] + cz[i] + cdMinus[i] + cozMinus[i];
 
                 c2[i] = c1[i] + epciPlus[i] - epciMinus[i];
-                s2[i] = c2[i] / w2[i];
+
+                if (!isRecalculte)
+                {
+                    s2[i] = c2[i] / w2[i];
+                }
 
                 // Подсчитываем суммы солевого баланса
-                sumsOfSBP[0] += cp[i];
-                sumsOfSBP[1] += cr[i];
-                sumsOfSBP[2] += cb[i];
-                sumsOfSBP[3] += cg[i];
-                sumsOfSBP[4] += cdr[i];
-                sumsOfSBP[5] += cdPlus[i];
-                sumsOfSBP[6] += epciPlus[i];
+                sumsOfSBP[0] += cp[i];          // Cp
+                sumsOfSBP[1] += cr[i];          // Cr
+                sumsOfSBP[2] += cb[i];          // Cb
+                sumsOfSBP[3] += cg[i];          // Cg
+                sumsOfSBP[4] += cdr[i];         // Cdr
+                sumsOfSBP[5] += cdPlus[i];      // CD_plus
+                sumsOfSBP[6] += cozPlus[i];     // Coz_plus
 
-                sumsOfSBC[0] += cf[i];
-                sumsOfSBC[1] += cz[i];
-                sumsOfSBC[2] += cdMinus[i];
-                sumsOfSBC[3] += cozMinus[i];
-                sumsOfSBC[4] += epciMinus[i];
+                sumsOfSBC[0] += cf[i];          // Cf
+                sumsOfSBC[1] += cz[i];          // Cz
+                sumsOfSBC[2] += cdMinus[i];     // CD_minus
+                sumsOfSBC[3] += cozMinus[i];    // Coz_minus
             }
 
+            sumsOfSBP[7] = sumsOfSBP[0] + sumsOfSBP[1] + sumsOfSBP[2] + sumsOfSBP[3] + sumsOfSBP[4] + sumsOfSBP[5] + sumsOfSBP[6];
+            sumsOfSBC[4] = sumsOfSBC[0] + sumsOfSBC[1] + sumsOfSBC[2] + sumsOfSBC[3];
+
             // Подсчитываем проценты солевого баланса
-            percentsOfSBP[0] = (sumsOfSBP[0] / sumsOfSBP[6]) * 100;     // Cp
-            percentsOfSBP[1] = (sumsOfSBP[1] / sumsOfSBP[6]) * 100;     // Cr
-            percentsOfSBP[2] = (sumsOfSBP[2] / sumsOfSBP[6]) * 100;     // Cb
-            percentsOfSBP[3] = (sumsOfSBP[3] / sumsOfSBP[6]) * 100;     // Cg
-            percentsOfSBP[4] = (sumsOfSBP[4] / sumsOfSBP[6]) * 100;     // Cdr
-            percentsOfSBP[5] = (sumsOfSBP[5] / sumsOfSBP[6]) * 100;     // CD_plus
-            percentsOfSBP[7] = (sumsOfSBP[6] / sumsOfSBP[6]) * 100;     // EpCi_plus    
+            percentsOfSBP[0] = (sumsOfSBP[0] / sumsOfSBP[7]) * 100;     // Cp
+            percentsOfSBP[1] = (sumsOfSBP[1] / sumsOfSBP[7]) * 100;     // Cr
+            percentsOfSBP[2] = (sumsOfSBP[2] / sumsOfSBP[7]) * 100;     // Cb
+            percentsOfSBP[3] = (sumsOfSBP[3] / sumsOfSBP[7]) * 100;     // Cg
+            percentsOfSBP[4] = (sumsOfSBP[4] / sumsOfSBP[7]) * 100;     // Cdr
+            percentsOfSBP[5] = (sumsOfSBP[5] / sumsOfSBP[7]) * 100;     // CD_plus
+            percentsOfSBP[6] = (sumsOfSBP[6] / sumsOfSBP[7]) * 100;     // Coz_plus
+            percentsOfSBP[7] = (sumsOfSBP[7] / sumsOfSBP[7]) * 100;     // EpCi_plus    
 
             percentsOfSBC[0] = (sumsOfSBC[0] / sumsOfSBC[4]) * 100;     // Cf
             percentsOfSBC[1] = (sumsOfSBC[1] / sumsOfSBC[4]) * 100;     // Cz
             percentsOfSBC[2] = (sumsOfSBC[2] / sumsOfSBC[4]) * 100;     // CD_minus
             percentsOfSBC[3] = (sumsOfSBC[3] / sumsOfSBC[4]) * 100;     // Coz_minus
             percentsOfSBC[4] = (sumsOfSBC[4] / sumsOfSBC[4]) * 100;     // EpCi_minus
+        }
+
+        public void RecalculateSaltBalancePart(string yearOfCalculation)
+        {
+            if (DataAccess == null)
+            {
+                throw new ArgumentNullException("DataAccess is null.");
+            }
+            // get input data => S1, S2 and other
+            s1 = DataAccess.GetColumnData<double>($"SELECT S1 FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
+            s2 = DataAccess.GetColumnData<double>($"SELECT S2 FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
+
+            vp = DataAccess.GetColumnData<double>($"SELECT Vp FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
+            vr = DataAccess.GetColumnData<double>($"SELECT Vr FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
+            vb = DataAccess.GetColumnData<double>($"SELECT Vb FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
+            vg = DataAccess.GetColumnData<double>($"SELECT Vg FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
+            vdr = DataAccess.GetColumnData<double>($"SELECT Vdr FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
+
+            gs = new GatewaySchedule(DataAccess, yearOfCalculation);
+
+            inputData = new InputData()
+            {
+                Vz = DataAccess.GetColumnData<double>($"SELECT Vz FROM InputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray()
+            };
+
+            // calculate
+            CalculateSaltBalancePart(true);
+            RoundOutputData();
+
+            // save changes
+            string sql = "";
+
+            for (int i = 0; i < 14; i++)
+            {
+                if (i < 12)
+                {
+                    sql += "UPDATE OutputData SET " +
+                        $"Sp = {sp[i]}, Sr = {sr[i]}, Sb = {sb[i]}, Sg = {sg[i]}, Sdr = {sdr[i]}, SD_plus = {sdPlus[i]}, Soz_plus = {sozPlus[i]}, " +
+                        $"C1 = {c1[i]}, C2 = {c2[i]}, Cp = {cp[i]}, Cr = {cr[i]}, Cb = {cb[i]}, Cg = {cg[i]}, Cdr = {cdr[i]}, " +
+                        $"CD_plus = {cdPlus[i]}, Coz_plus = {cozPlus[i]}, EpCi_plus = {epciPlus[i]}, Sf = {sf[i]}, Sz = {sz[i]}, " +
+                        $"SD_minus = {sdMinus[i]}, Soz_minus = {sozMinus[i]}, Cf = {cf[i]}, Cz = {cz[i]}, CD_minus = {cdMinus[i]}, " +
+                        $"Coz_minus = {cozMinus[i]}, EpCi_minus = {epciMinus[i]} WHERE MonthID = {i + 1} AND YearName = {yearOfCalculation};\n";
+                }
+                else if (i == 12)
+                {
+                    sql += "UPDATE OutputData SET " +
+                        $"Cp = {sumsOfSBP[0]}, Cr = {sumsOfSBP[1]}, Cb = {sumsOfSBP[2]}, Cg = {sumsOfSBP[3]}, Cdr = {sumsOfSBP[4]}, CD_plus = {sumsOfSBP[5]}, " +
+                        $"Coz_plus = {sumsOfSBP[6]}, EpCi_plus = {sumsOfSBP[7]}, Cf = {sumsOfSBC[0]}, Cz = {sumsOfSBC[1]}, CD_minus = {sumsOfSBC[2]}, " +
+                        $"Coz_minus = {sumsOfSBC[3]}, EpCi_minus = {sumsOfSBC[4]} WHERE MonthID = {i + 1} AND YearName = {yearOfCalculation};\n";
+                }
+                else
+                {
+                    sql += "UPDATE OutputData SET " +
+                        $"Cp = {percentsOfSBP[0]}, Cr = {percentsOfSBP[1]}, Cb = {percentsOfSBP[2]}, Cg = {percentsOfSBP[3]}, Cdr = {percentsOfSBP[4]}, CD_plus = {percentsOfSBP[5]}, " +
+                        $"Coz_plus = {percentsOfSBP[6]}, EpCi_plus = {percentsOfSBP[7]}, Cf = {percentsOfSBC[0]}, Cz = {percentsOfSBC[1]}, CD_minus = {percentsOfSBC[2]}, " +
+                        $"Coz_minus = {percentsOfSBC[3]}, EpCi_minus = {percentsOfSBC[4]} WHERE MonthID = {i + 1} AND YearName = {yearOfCalculation};";
+                }
+            }
+
+            sql = sql.Replace(",", ".");
+            sql = sql.Replace(". ", ", ");
+
+            DataAccess.Execute(sql);
         }
 
         private void RoundOutputData()
@@ -468,7 +542,7 @@ namespace CatlabuhApp.Data.Models
             CalculateWaterBalancePart();
 
             // Расчитываем значения солевого баланса
-            CalculateSaltBalancePart();
+            CalculateSaltBalancePart(false);
 
             // Округлим значения до двух знаков после запятой
             RoundOutputData();

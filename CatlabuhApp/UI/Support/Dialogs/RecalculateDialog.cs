@@ -1,5 +1,6 @@
 ﻿using CatlabuhAppSupportHelp.UI.Help;
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace CatlabuhApp.UI.Support.Dialogs
@@ -9,6 +10,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
         public bool IsCalculateGS { get => gsByDates.Checked; } 
         public bool IsEnterGatewaySchedule { get => enterGS.Checked; }
         public bool IsCalculateE { get => byDeficit.Checked; }
+        public bool IsSaltBalanceRecalculate { get; private set; }
 
         public RecalculateDialog()
         {
@@ -39,5 +41,17 @@ namespace CatlabuhApp.UI.Support.Dialogs
             new HelpForm("recalculateText").Show();
         }
 
+        private void RecalculateDialog_Paint(object sender, PaintEventArgs e)
+        {
+            e.Graphics.DrawRectangle(new Pen(Color.LightGray), 12, 280, 227, 40);
+        }
+
+        private void CalculateOnlySB_CheckedChanged(object sender, EventArgs e)
+        {
+            IsSaltBalanceRecalculate = calculateOnlySB.Checked;
+
+            groupBox6.Enabled = !IsSaltBalanceRecalculate;
+            gsGroupBox.Enabled = !IsSaltBalanceRecalculate;
+        }
     }
 }

@@ -39,6 +39,7 @@
             this.enterGS = new System.Windows.Forms.CheckBox();
             this.cancel = new System.Windows.Forms.Button();
             this.runCalculate = new System.Windows.Forms.Button();
+            this.calculateOnlySB = new System.Windows.Forms.CheckBox();
             this.groupBox6.SuspendLayout();
             this.gsGroupBox.SuspendLayout();
             this.choiceGSCalculation.SuspendLayout();
@@ -46,9 +47,9 @@
             // 
             // groupBox6
             // 
+            resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Controls.Add(this.byDeficit);
             this.groupBox6.Controls.Add(this.byData);
-            resources.ApplyResources(this.groupBox6, "groupBox6");
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.TabStop = false;
             // 
@@ -68,17 +69,17 @@
             // 
             // gsGroupBox
             // 
+            resources.ApplyResources(this.gsGroupBox, "gsGroupBox");
             this.gsGroupBox.Controls.Add(this.choiceGSCalculation);
             this.gsGroupBox.Controls.Add(this.enterGS);
-            resources.ApplyResources(this.gsGroupBox, "gsGroupBox");
             this.gsGroupBox.Name = "gsGroupBox";
             this.gsGroupBox.TabStop = false;
             // 
             // choiceGSCalculation
             // 
+            resources.ApplyResources(this.choiceGSCalculation, "choiceGSCalculation");
             this.choiceGSCalculation.Controls.Add(this.gsByDates);
             this.choiceGSCalculation.Controls.Add(this.gsByData);
-            resources.ApplyResources(this.choiceGSCalculation, "choiceGSCalculation");
             this.choiceGSCalculation.Name = "choiceGSCalculation";
             this.choiceGSCalculation.TabStop = false;
             // 
@@ -117,10 +118,18 @@
             this.runCalculate.UseVisualStyleBackColor = true;
             this.runCalculate.Click += new System.EventHandler(this.RunCalculate_Click);
             // 
+            // calculateOnlySB
+            // 
+            resources.ApplyResources(this.calculateOnlySB, "calculateOnlySB");
+            this.calculateOnlySB.Name = "calculateOnlySB";
+            this.calculateOnlySB.UseVisualStyleBackColor = true;
+            this.calculateOnlySB.CheckedChanged += new System.EventHandler(this.CalculateOnlySB_CheckedChanged);
+            // 
             // RecalculateDialog
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.calculateOnlySB);
             this.Controls.Add(this.runCalculate);
             this.Controls.Add(this.cancel);
             this.Controls.Add(this.gsGroupBox);
@@ -131,6 +140,7 @@
             this.Name = "RecalculateDialog";
             this.ShowInTaskbar = false;
             this.HelpRequested += new System.Windows.Forms.HelpEventHandler(this.RecalculateDialog_HelpRequested);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.RecalculateDialog_Paint);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.gsGroupBox.ResumeLayout(false);
@@ -154,5 +164,6 @@
         private System.Windows.Forms.CheckBox enterGS;
         private System.Windows.Forms.Button cancel;
         private System.Windows.Forms.Button runCalculate;
+        private System.Windows.Forms.CheckBox calculateOnlySB;
     }
 }

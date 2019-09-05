@@ -124,6 +124,9 @@
   <data name="&gt;&gt;createNewChart.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ChartView</value>
+  </data>
   <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>1404, 25</value>
   </data>
@@ -139,12 +142,6 @@
   </data>
   <data name="lineOrBarChart.Text" xml:space="preserve">
     <value>Line chart / Bar chart</value>
-  </data>
-  <data name="&gt;&gt;chartStyle.Name" xml:space="preserve">
-    <value>chartStyle</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 25</value>
   </data>
   <data name="chartStyle.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -201,9 +198,6 @@
   <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>1404, 22</value>
   </data>
-  <data name="&gt;&gt;createNewChart.Name" xml:space="preserve">
-    <value>createNewChart</value>
-  </data>
   <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>91, 17</value>
   </data>
@@ -212,9 +206,6 @@
   </data>
   <data name="chart.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
-    <value>toolStripSeparator1</value>
   </data>
   <data name="&gt;&gt;chart.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -239,9 +230,6 @@
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 25</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="chart.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -276,8 +264,14 @@
   <data name="pieChart.Text" xml:space="preserve">
     <value>Pie chart</value>
   </data>
+  <data name="createNewChart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 22</value>
+  </data>
   <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;pieChart.Name" xml:space="preserve">
+    <value>pieChart</value>
   </data>
   <data name="lineOrBarChart.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 22</value>
@@ -306,17 +300,23 @@
   <data name="toolStripDropDownButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
+  <data name="toolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="toolStrip.Text" xml:space="preserve">
     <value>toolStrip1</value>
   </data>
-  <data name="&gt;&gt;pieChart.Name" xml:space="preserve">
-    <value>pieChart</value>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
   </data>
   <data name="chart.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 25</value>
   </data>
-  <data name="toolStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
   </data>
   <data name="&gt;&gt;saveAsImage.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -333,14 +333,14 @@
   <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
     <value>toolStripSeparator2</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;chartStyle.Name" xml:space="preserve">
+    <value>chartStyle</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>ChartView</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="createNewChart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 22</value>
+  <data name="&gt;&gt;createNewChart.Name" xml:space="preserve">
+    <value>createNewChart</value>
   </data>
   <data name="&gt;&gt;lineOrBarChart.Name" xml:space="preserve">
     <value>lineOrBarChart</value>

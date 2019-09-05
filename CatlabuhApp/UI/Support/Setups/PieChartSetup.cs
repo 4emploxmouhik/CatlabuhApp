@@ -27,6 +27,8 @@ namespace CatlabuhApp.UI.Support.Setups
         public List<Color[]> ChosenColors { get; private set; } = new List<Color[]>();
         public List<string> LegendItems { get; private set; } = new List<string>();
         public string YearOfCalculation { get; private set; }
+        public bool IsPercentItems { get => percentRadio.Checked; }
+        public string[] PartsNames => new string[] { tabControl.TabPages[0].Text, tabControl.TabPages[1].Text, tabControl.TabPages[2].Text, tabControl.TabPages[3].Text, };
 
         public PieChartSetup()
         {

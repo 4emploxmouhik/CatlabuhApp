@@ -140,7 +140,7 @@
     <value>Відміна</value>
   </data>
   <data name="partsListBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 68</value>
+    <value>107, 68</value>
   </data>
   <data name="add.Location" type="System.Drawing.Point, System.Drawing">
     <value>238, 164</value>
@@ -160,20 +160,17 @@
   <data name="remove.Text" xml:space="preserve">
     <value>Видалити</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>ВБПЧ</value>
-  </data>
-  <data name="tabPage1.ToolTip" xml:space="preserve">
-    <value>Водний баланс прибуткова частина</value>
-  </data>
-  <data name="tabPage1.ToolTipText" xml:space="preserve">
-    <value />
-  </data>
   <data name="dltVniBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 20</value>
   </data>
   <data name="dltVniBox.Text" xml:space="preserve">
     <value>∆Vні</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>ВБПЧ</value>
+  </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value>Водний баланс прибуткова частина</value>
   </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>ВБВЧ</value>
@@ -181,17 +178,11 @@
   <data name="tabPage2.ToolTip" xml:space="preserve">
     <value>Водний баланс витратна частина</value>
   </data>
-  <data name="tabPage2.ToolTipText" xml:space="preserve">
-    <value />
-  </data>
   <data name="tabPage3.Text" xml:space="preserve">
     <value>СБПЧ</value>
   </data>
   <data name="tabPage3.ToolTip" xml:space="preserve">
     <value>Сольовий баланс прибуткова частина</value>
-  </data>
-  <data name="tabPage3.ToolTipText" xml:space="preserve">
-    <value />
   </data>
   <data name="tabPage4.Text" xml:space="preserve">
     <value>СБВЧ</value>
@@ -199,8 +190,8 @@
   <data name="tabPage4.ToolTip" xml:space="preserve">
     <value>Сольовий баланс витратна частина</value>
   </data>
-  <data name="tabPage4.ToolTipText" xml:space="preserve">
-    <value />
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Оберіть тип даних</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

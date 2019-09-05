@@ -32,32 +32,39 @@ namespace CatlabuhApp.UI.Main.Views
         {
             try
             {
-                Calculation calc = null;
-                InputData inputData = new InputData(DataAccess, YearOfCalculation, rd.IsCalculateE);
-
-                if (!rd.IsEnterGatewaySchedule)
+                if (!rd.IsSaltBalanceRecalculate)
                 {
-                    calc = new Calculation(DataAccess, inputData);
+                    Calculation calc = null;
+                    InputData inputData = new InputData(DataAccess, YearOfCalculation, rd.IsCalculateE);
+
+                    if (!rd.IsEnterGatewaySchedule)
+                    {
+                        calc = new Calculation(DataAccess, inputData);
+                    }
+                    else
+                    {
+                        GatewaySchedule gs = new GatewaySchedule(DataAccess, YearOfCalculation)
+                        {
+                            IsEnterGatewaySchedule = rd.IsEnterGatewaySchedule,
+                            IsCalculateGS = rd.IsCalculateGS
+                        };
+                        gs.SetMonthOfWorkGateway();
+                        calc = new Calculation(DataAccess, inputData, gs);
+                    }
+
+                    calc.Calculate();
+                    calc.Update();
                 }
                 else
                 {
-                    GatewaySchedule gs = new GatewaySchedule(DataAccess, YearOfCalculation)
-                    {
-                        IsEnterGatewaySchedule = rd.IsEnterGatewaySchedule,
-                        IsCalculateGS = rd.IsCalculateGS
-                    };
-                    gs.SetMonthOfWorkGateway();
-                    calc = new Calculation(DataAccess, inputData, gs);
+                    OutputData outputData = new OutputData(DataAccess);
+                    outputData.RecalculateSaltBalancePart(YearOfCalculation);
                 }
-
-                calc.Calculate();
-                calc.Update();
 
                 return true;
             }
             catch (System.NullReferenceException)
             {
-                System.Console.WriteLine("\nHERE\n");
                 MessageDialog.Show(MessageDialog.ErrorTitle, MessageDialog.ErrorText6, MessageDialog.Icon.Cross);
                 return false;
             }

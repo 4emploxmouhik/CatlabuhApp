@@ -90,7 +90,7 @@ namespace CatlabuhApp.Data.Models
         private InputData inputData = new InputData();          // Входные данные.
         private GatewaySchedule gs = new GatewaySchedule();     // График работы шлюзов.
 
-        private readonly double[] coefficients;         // Коэффициенты необходимые для расчета(храняться в БД).
+        private double[] coefficients;                  // Коэффициенты необходимые для расчета(храняться в БД).
         private readonly double[] k1 = new double[6];   // Коэффициенты для расчета Etr, от 5 до 11 месяца.
         private readonly double[] k2 = new double[6];   // Коэффициенты для расчета lgE,
         private readonly double[] k3 = new double[6];   // от 4 до 10 месяца.
@@ -98,10 +98,7 @@ namespace CatlabuhApp.Data.Models
         public OutputData(IDataAccess dataAccess)
         {
             DataAccess = dataAccess ?? throw new System.ArgumentNullException(nameof(dataAccess));
-        }
 
-        public OutputData(IDataAccess dataAccess, InputData inputData) : this(dataAccess)
-        {
             coefficients = DataAccess.GetColumnData<double>($"SELECT CoefficientValue FROM Coefficients").ToArray();
 
             for (int i = 13, j = 0, k = 0; i < 25; i++)
@@ -118,7 +115,10 @@ namespace CatlabuhApp.Data.Models
                     k++;
                 }
             }
+        }
 
+        public OutputData(IDataAccess dataAccess, InputData inputData) : this(dataAccess)
+        {
             this.inputData = inputData ?? throw new System.ArgumentNullException(nameof(inputData));
         }
 
@@ -349,10 +349,10 @@ namespace CatlabuhApp.Data.Models
                 else
                 {
                     sql += $"UPDATE OutputData SET Vp = {percentsOfWBP[0]}, Vr = {percentsOfWBP[1]}, Vb = {percentsOfWBP[2]}, Vg = {percentsOfWBP[3]}, Vdr = {percentsOfWBP[4]}, " +
-                        $"EP = {percentsOfWBP[5]}, dlt_Vni = {percentsOfWBP[8]}, VE = {percentsOfWBC[0]}, Vtr = {percentsOfWBC[1]}, Vf = {percentsOfWBC[2]}, ER = {percentsOfWBC[4]}, Cp = {percentsOfSBP[0]}, " +
-                        $"Cr = {percentsOfSBP[1]}, Cb = {percentsOfSBP[2]}, Cg = {percentsOfSBP[3]}, Cdr = {percentsOfSBP[4]}, CD_plus = {percentsOfSBP[5]}, Coz_plus = {percentsOfSBP[6]}, " +
-                        $"EpCi_plus = {percentsOfSBP[7]}, Cf = {percentsOfSBC[0]}, Cz = {percentsOfSBC[1]}, CD_minus = {percentsOfSBC[2]}, Coz_minus = {percentsOfSBC[3]}, " +
-                        $"EpCi_minus = {percentsOfSBC[4]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};";
+                        $"EP = {percentsOfWBP[5]}, dlt_Vni = {percentsOfWBP[8]}, VE = {percentsOfWBC[0]}, Vtr = {percentsOfWBC[1]}, Vf = {percentsOfWBC[2]}, ER = {percentsOfWBC[4]}, " +
+                        $"Cp = {percentsOfSBP[0]}, Cr = {percentsOfSBP[1]}, Cb = {percentsOfSBP[2]}, Cg = {percentsOfSBP[3]}, Cdr = {percentsOfSBP[4]}, CD_plus = {percentsOfSBP[5]}, " +
+                        $"Coz_plus = {percentsOfSBP[6]}, EpCi_plus = {percentsOfSBP[7]}, Cf = {percentsOfSBC[0]}, Cz = {percentsOfSBC[1]}, CD_minus = {percentsOfSBC[2]}, " +
+                        $"Coz_minus = {percentsOfSBC[3]}, EpCi_minus = {percentsOfSBC[4]} WHERE MonthID = {i + 1} AND YearName = {YearOfCalculation};";
 
                     if (inputData != null)
                     {

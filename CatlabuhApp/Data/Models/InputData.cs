@@ -42,14 +42,8 @@ namespace CatlabuhApp.Data.Models
 
             Vz = GetColumnData(Vz, "Vz");
 
-            if (IsCalculateE)
-            {
-                D = GetColumnData(D, "D"); foreach (var entry in D) { System.Console.WriteLine(entry); }
-            }
-            else
-            {
-                E = GetColumnData(E, "E");
-            }
+            D = GetColumnData(D, "D");
+            E = GetColumnData(E, "E");
 
             S1InJanury = DataAccess.GetCellData<double>($"SELECT S1InJanuary FROM OtherData WHERE YearName = {YearOfCalculation}");
             SumVg = DataAccess.GetCellData<double>($"SELECT CoefficientValue FROM Coefficients WHERE CoefficientID = 36");

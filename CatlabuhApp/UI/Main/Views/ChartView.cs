@@ -3,6 +3,7 @@ using CatlabuhApp.UI.Support.Dialogs;
 using CatlabuhApp.UI.Support.Setups;
 using CatlabuhAppSupportHelp.UI.Help;
 using System;
+using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
@@ -11,6 +12,7 @@ namespace CatlabuhApp.UI.Main.Views
 {
     public partial class ChartView : UserControl
     {
+        private ComponentResourceManager res = new ComponentResourceManager(typeof(Properties.Resources));
         public IDataAccess DataAccess { get; private set; }
 
         private SeriesChartType ChartType { get; set; } = SeriesChartType.Line;
@@ -63,7 +65,7 @@ namespace CatlabuhApp.UI.Main.Views
             {
                 try
                 {
-                    FillPieChart(pcs.YearOfCalculation, pcs.ChosenParts.ToArray(), pcs.ChosenColors.ToArray(), pcs.LegendItems.ToArray());
+                    FillPieChart(pcs.YearOfCalculation, pcs.ChosenParts.ToArray(), pcs.PartsNames, pcs.ChosenColors.ToArray(), pcs.LegendItems.ToArray(), pcs.IsPercentItems);
                 }
                 catch (NullReferenceException)
                 {
