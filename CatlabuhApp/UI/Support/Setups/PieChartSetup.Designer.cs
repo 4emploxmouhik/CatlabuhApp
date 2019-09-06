@@ -109,21 +109,18 @@
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.toolTip.SetToolTip(this.label1, resources.GetString("label1.ToolTip"));
             // 
             // yearsBox
             // 
-            resources.ApplyResources(this.yearsBox, "yearsBox");
             this.yearsBox.FormattingEnabled = true;
+            resources.ApplyResources(this.yearsBox, "yearsBox");
             this.yearsBox.Name = "yearsBox";
-            this.toolTip.SetToolTip(this.yearsBox, resources.GetString("yearsBox.ToolTip"));
             this.yearsBox.SelectedIndexChanged += new System.EventHandler(this.YearsBox_SelectedIndexChanged);
             // 
             // build
             // 
             resources.ApplyResources(this.build, "build");
             this.build.Name = "build";
-            this.toolTip.SetToolTip(this.build, resources.GetString("build.ToolTip"));
             this.build.UseVisualStyleBackColor = true;
             this.build.Click += new System.EventHandler(this.Build_Click);
             // 
@@ -131,22 +128,19 @@
             // 
             resources.ApplyResources(this.cancel, "cancel");
             this.cancel.Name = "cancel";
-            this.toolTip.SetToolTip(this.cancel, resources.GetString("cancel.ToolTip"));
             this.cancel.UseVisualStyleBackColor = true;
             this.cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // partsListBox
             // 
-            resources.ApplyResources(this.partsListBox, "partsListBox");
             this.partsListBox.FormattingEnabled = true;
+            resources.ApplyResources(this.partsListBox, "partsListBox");
             this.partsListBox.Name = "partsListBox";
-            this.toolTip.SetToolTip(this.partsListBox, resources.GetString("partsListBox.ToolTip"));
             // 
             // add
             // 
             resources.ApplyResources(this.add, "add");
             this.add.Name = "add";
-            this.toolTip.SetToolTip(this.add, resources.GetString("add.ToolTip"));
             this.add.UseVisualStyleBackColor = true;
             this.add.Click += new System.EventHandler(this.Add_Click);
             // 
@@ -154,24 +148,21 @@
             // 
             resources.ApplyResources(this.remove, "remove");
             this.remove.Name = "remove";
-            this.toolTip.SetToolTip(this.remove, resources.GetString("remove.ToolTip"));
             this.remove.UseVisualStyleBackColor = true;
             this.remove.Click += new System.EventHandler(this.Remove_Click);
             // 
             // tabControl
             // 
-            resources.ApplyResources(this.tabControl, "tabControl");
             this.tabControl.Controls.Add(this.tabPage1);
             this.tabControl.Controls.Add(this.tabPage2);
             this.tabControl.Controls.Add(this.tabPage3);
             this.tabControl.Controls.Add(this.tabPage4);
+            resources.ApplyResources(this.tabControl, "tabControl");
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.toolTip.SetToolTip(this.tabControl, resources.GetString("tabControl.ToolTip"));
             // 
             // tabPage1
             // 
-            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage1.Controls.Add(this.colorPanel8);
             this.tabPage1.Controls.Add(this.vpBox);
@@ -189,18 +180,18 @@
             this.tabPage1.Controls.Add(this.vdPlusBox);
             this.tabPage1.Controls.Add(this.colorPanel4);
             this.tabPage1.Controls.Add(this.colorPanel5);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Tag = "wbpp";
             this.toolTip.SetToolTip(this.tabPage1, resources.GetString("tabPage1.ToolTip"));
             // 
             // colorPanel8
             // 
-            resources.ApplyResources(this.colorPanel8, "colorPanel8");
-            this.colorPanel8.BackColor = System.Drawing.Color.Silver;
+            this.colorPanel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
             this.colorPanel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel8, "colorPanel8");
             this.colorPanel8.Name = "colorPanel8";
             this.colorPanel8.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel8, resources.GetString("colorPanel8.ToolTip"));
             this.colorPanel8.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // vpBox
@@ -210,18 +201,16 @@
             this.vpBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vpBox.Name = "vpBox";
             this.vpBox.Tag = "Vp";
-            this.toolTip.SetToolTip(this.vpBox, resources.GetString("vpBox.ToolTip"));
             this.vpBox.UseVisualStyleBackColor = true;
             this.vpBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel1
             // 
-            resources.ApplyResources(this.colorPanel1, "colorPanel1");
-            this.colorPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.colorPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.colorPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel1, "colorPanel1");
             this.colorPanel1.Name = "colorPanel1";
             this.colorPanel1.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel1, resources.GetString("colorPanel1.ToolTip"));
             this.colorPanel1.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // vrBox
@@ -231,18 +220,16 @@
             this.vrBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vrBox.Name = "vrBox";
             this.vrBox.Tag = "Vr";
-            this.toolTip.SetToolTip(this.vrBox, resources.GetString("vrBox.ToolTip"));
             this.vrBox.UseVisualStyleBackColor = true;
             this.vrBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel2
             // 
-            resources.ApplyResources(this.colorPanel2, "colorPanel2");
-            this.colorPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.colorPanel2.BackColor = System.Drawing.Color.Red;
             this.colorPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel2, "colorPanel2");
             this.colorPanel2.Name = "colorPanel2";
             this.colorPanel2.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel2, resources.GetString("colorPanel2.ToolTip"));
             this.colorPanel2.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // vozPlusBox
@@ -252,7 +239,6 @@
             this.vozPlusBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vozPlusBox.Name = "vozPlusBox";
             this.vozPlusBox.Tag = "Voz_plus";
-            this.toolTip.SetToolTip(this.vozPlusBox, resources.GetString("vozPlusBox.ToolTip"));
             this.vozPlusBox.UseVisualStyleBackColor = true;
             this.vozPlusBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
@@ -263,28 +249,25 @@
             this.vbBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vbBox.Name = "vbBox";
             this.vbBox.Tag = "Vb";
-            this.toolTip.SetToolTip(this.vbBox, resources.GetString("vbBox.ToolTip"));
             this.vbBox.UseVisualStyleBackColor = true;
             this.vbBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel7
             // 
-            resources.ApplyResources(this.colorPanel7, "colorPanel7");
-            this.colorPanel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.colorPanel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.colorPanel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel7, "colorPanel7");
             this.colorPanel7.Name = "colorPanel7";
             this.colorPanel7.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel7, resources.GetString("colorPanel7.ToolTip"));
             this.colorPanel7.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // colorPanel3
             // 
-            resources.ApplyResources(this.colorPanel3, "colorPanel3");
-            this.colorPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.colorPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(63)))), ((int)(((byte)(63)))));
             this.colorPanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel3, "colorPanel3");
             this.colorPanel3.Name = "colorPanel3";
             this.colorPanel3.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel3, resources.GetString("colorPanel3.ToolTip"));
             this.colorPanel3.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // vgBox
@@ -294,7 +277,6 @@
             this.vgBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vgBox.Name = "vgBox";
             this.vgBox.Tag = "Vg";
-            this.toolTip.SetToolTip(this.vgBox, resources.GetString("vgBox.ToolTip"));
             this.vgBox.UseVisualStyleBackColor = true;
             this.vgBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
@@ -305,18 +287,16 @@
             this.dltVniBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.dltVniBox.Name = "dltVniBox";
             this.dltVniBox.Tag = "dlt_Vni";
-            this.toolTip.SetToolTip(this.dltVniBox, resources.GetString("dltVniBox.ToolTip"));
             this.dltVniBox.UseVisualStyleBackColor = true;
             this.dltVniBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel6
             // 
-            resources.ApplyResources(this.colorPanel6, "colorPanel6");
-            this.colorPanel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.colorPanel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
             this.colorPanel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel6, "colorPanel6");
             this.colorPanel6.Name = "colorPanel6";
             this.colorPanel6.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel6, resources.GetString("colorPanel6.ToolTip"));
             this.colorPanel6.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // vdrBox
@@ -326,7 +306,6 @@
             this.vdrBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vdrBox.Name = "vdrBox";
             this.vdrBox.Tag = "Vdr";
-            this.toolTip.SetToolTip(this.vdrBox, resources.GetString("vdrBox.ToolTip"));
             this.vdrBox.UseVisualStyleBackColor = true;
             this.vdrBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
@@ -337,33 +316,29 @@
             this.vdPlusBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vdPlusBox.Name = "vdPlusBox";
             this.vdPlusBox.Tag = "VD_plus";
-            this.toolTip.SetToolTip(this.vdPlusBox, resources.GetString("vdPlusBox.ToolTip"));
             this.vdPlusBox.UseVisualStyleBackColor = true;
             this.vdPlusBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel4
             // 
-            resources.ApplyResources(this.colorPanel4, "colorPanel4");
-            this.colorPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.colorPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.colorPanel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel4, "colorPanel4");
             this.colorPanel4.Name = "colorPanel4";
             this.colorPanel4.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel4, resources.GetString("colorPanel4.ToolTip"));
             this.colorPanel4.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // colorPanel5
             // 
-            resources.ApplyResources(this.colorPanel5, "colorPanel5");
-            this.colorPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.colorPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.colorPanel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel5, "colorPanel5");
             this.colorPanel5.Name = "colorPanel5";
             this.colorPanel5.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel5, resources.GetString("colorPanel5.ToolTip"));
             this.colorPanel5.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // tabPage2
             // 
-            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Controls.Add(this.colorPanel9);
             this.tabPage2.Controls.Add(this.colorPanel14);
@@ -377,28 +352,27 @@
             this.tabPage2.Controls.Add(this.vfBox);
             this.tabPage2.Controls.Add(this.vozMinusBox);
             this.tabPage2.Controls.Add(this.colorPanel12);
+            resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Tag = "wbcp";
             this.toolTip.SetToolTip(this.tabPage2, resources.GetString("tabPage2.ToolTip"));
             // 
             // colorPanel9
             // 
-            resources.ApplyResources(this.colorPanel9, "colorPanel9");
-            this.colorPanel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.colorPanel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(163)))));
             this.colorPanel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel9, "colorPanel9");
             this.colorPanel9.Name = "colorPanel9";
             this.colorPanel9.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel9, resources.GetString("colorPanel9.ToolTip"));
             this.colorPanel9.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // colorPanel14
             // 
-            resources.ApplyResources(this.colorPanel14, "colorPanel14");
-            this.colorPanel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.colorPanel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(255)))));
             this.colorPanel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel14, "colorPanel14");
             this.colorPanel14.Name = "colorPanel14";
             this.colorPanel14.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel14, resources.GetString("colorPanel14.ToolTip"));
             this.colorPanel14.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // vzBox
@@ -408,7 +382,6 @@
             this.vzBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vzBox.Name = "vzBox";
             this.vzBox.Tag = "Vz";
-            this.toolTip.SetToolTip(this.vzBox, resources.GetString("vzBox.ToolTip"));
             this.vzBox.UseVisualStyleBackColor = true;
             this.vzBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
@@ -419,7 +392,6 @@
             this.veBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.veBox.Name = "veBox";
             this.veBox.Tag = "VE";
-            this.toolTip.SetToolTip(this.veBox, resources.GetString("veBox.ToolTip"));
             this.veBox.UseVisualStyleBackColor = true;
             this.veBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
@@ -430,28 +402,25 @@
             this.vdMinusBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vdMinusBox.Name = "vdMinusBox";
             this.vdMinusBox.Tag = "VD_minus";
-            this.toolTip.SetToolTip(this.vdMinusBox, resources.GetString("vdMinusBox.ToolTip"));
             this.vdMinusBox.UseVisualStyleBackColor = true;
             this.vdMinusBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel13
             // 
-            resources.ApplyResources(this.colorPanel13, "colorPanel13");
-            this.colorPanel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.colorPanel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
             this.colorPanel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel13, "colorPanel13");
             this.colorPanel13.Name = "colorPanel13";
             this.colorPanel13.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel13, resources.GetString("colorPanel13.ToolTip"));
             this.colorPanel13.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // colorPanel10
             // 
-            resources.ApplyResources(this.colorPanel10, "colorPanel10");
-            this.colorPanel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.colorPanel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.colorPanel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel10, "colorPanel10");
             this.colorPanel10.Name = "colorPanel10";
             this.colorPanel10.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel10, resources.GetString("colorPanel10.ToolTip"));
             this.colorPanel10.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // vtrBox
@@ -461,18 +430,16 @@
             this.vtrBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vtrBox.Name = "vtrBox";
             this.vtrBox.Tag = "Vtr";
-            this.toolTip.SetToolTip(this.vtrBox, resources.GetString("vtrBox.ToolTip"));
             this.vtrBox.UseVisualStyleBackColor = true;
             this.vtrBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel11
             // 
-            resources.ApplyResources(this.colorPanel11, "colorPanel11");
-            this.colorPanel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.colorPanel11.BackColor = System.Drawing.Color.Blue;
             this.colorPanel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel11, "colorPanel11");
             this.colorPanel11.Name = "colorPanel11";
             this.colorPanel11.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel11, resources.GetString("colorPanel11.ToolTip"));
             this.colorPanel11.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // vfBox
@@ -482,7 +449,6 @@
             this.vfBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vfBox.Name = "vfBox";
             this.vfBox.Tag = "Vf";
-            this.toolTip.SetToolTip(this.vfBox, resources.GetString("vfBox.ToolTip"));
             this.vfBox.UseVisualStyleBackColor = true;
             this.vfBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
@@ -493,23 +459,20 @@
             this.vozMinusBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.vozMinusBox.Name = "vozMinusBox";
             this.vozMinusBox.Tag = "Voz_minus";
-            this.toolTip.SetToolTip(this.vozMinusBox, resources.GetString("vozMinusBox.ToolTip"));
             this.vozMinusBox.UseVisualStyleBackColor = true;
             this.vozMinusBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel12
             // 
-            resources.ApplyResources(this.colorPanel12, "colorPanel12");
-            this.colorPanel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.colorPanel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(255)))));
             this.colorPanel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel12, "colorPanel12");
             this.colorPanel12.Name = "colorPanel12";
             this.colorPanel12.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel12, resources.GetString("colorPanel12.ToolTip"));
             this.colorPanel12.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // tabPage3
             // 
-            resources.ApplyResources(this.tabPage3, "tabPage3");
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage3.Controls.Add(this.cpBox);
             this.tabPage3.Controls.Add(this.colorPanel15);
@@ -525,6 +488,7 @@
             this.tabPage3.Controls.Add(this.cozPlusBox);
             this.tabPage3.Controls.Add(this.colorPanel18);
             this.tabPage3.Controls.Add(this.colorPanel19);
+            resources.ApplyResources(this.tabPage3, "tabPage3");
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Tag = "sbpp";
             this.toolTip.SetToolTip(this.tabPage3, resources.GetString("tabPage3.ToolTip"));
@@ -536,18 +500,16 @@
             this.cpBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cpBox.Name = "cpBox";
             this.cpBox.Tag = "Cp";
-            this.toolTip.SetToolTip(this.cpBox, resources.GetString("cpBox.ToolTip"));
             this.cpBox.UseVisualStyleBackColor = true;
             this.cpBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel15
             // 
-            resources.ApplyResources(this.colorPanel15, "colorPanel15");
-            this.colorPanel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.colorPanel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(93)))), ((int)(((byte)(0)))));
             this.colorPanel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel15, "colorPanel15");
             this.colorPanel15.Name = "colorPanel15";
             this.colorPanel15.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel15, resources.GetString("colorPanel15.ToolTip"));
             this.colorPanel15.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // crBox
@@ -557,18 +519,16 @@
             this.crBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.crBox.Name = "crBox";
             this.crBox.Tag = "Cr";
-            this.toolTip.SetToolTip(this.crBox, resources.GetString("crBox.ToolTip"));
             this.crBox.UseVisualStyleBackColor = true;
             this.crBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel16
             // 
-            resources.ApplyResources(this.colorPanel16, "colorPanel16");
-            this.colorPanel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.colorPanel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(209)))), ((int)(((byte)(0)))));
             this.colorPanel16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel16, "colorPanel16");
             this.colorPanel16.Name = "colorPanel16";
             this.colorPanel16.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel16, resources.GetString("colorPanel16.ToolTip"));
             this.colorPanel16.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // cbBox
@@ -578,28 +538,25 @@
             this.cbBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbBox.Name = "cbBox";
             this.cbBox.Tag = "Cb";
-            this.toolTip.SetToolTip(this.cbBox, resources.GetString("cbBox.ToolTip"));
             this.cbBox.UseVisualStyleBackColor = true;
             this.cbBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel21
             // 
-            resources.ApplyResources(this.colorPanel21, "colorPanel21");
-            this.colorPanel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.colorPanel21.BackColor = System.Drawing.Color.Lime;
             this.colorPanel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel21, "colorPanel21");
             this.colorPanel21.Name = "colorPanel21";
             this.colorPanel21.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel21, resources.GetString("colorPanel21.ToolTip"));
             this.colorPanel21.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // colorPanel17
             // 
-            resources.ApplyResources(this.colorPanel17, "colorPanel17");
-            this.colorPanel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.colorPanel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(0)))));
             this.colorPanel17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel17, "colorPanel17");
             this.colorPanel17.Name = "colorPanel17";
             this.colorPanel17.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel17, resources.GetString("colorPanel17.ToolTip"));
             this.colorPanel17.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // cgBox
@@ -609,7 +566,6 @@
             this.cgBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cgBox.Name = "cgBox";
             this.cgBox.Tag = "Cg";
-            this.toolTip.SetToolTip(this.cgBox, resources.GetString("cgBox.ToolTip"));
             this.cgBox.UseVisualStyleBackColor = true;
             this.cgBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
@@ -620,18 +576,16 @@
             this.cdPlusBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cdPlusBox.Name = "cdPlusBox";
             this.cdPlusBox.Tag = "CD_plus";
-            this.toolTip.SetToolTip(this.cdPlusBox, resources.GetString("cdPlusBox.ToolTip"));
             this.cdPlusBox.UseVisualStyleBackColor = true;
             this.cdPlusBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel20
             // 
-            resources.ApplyResources(this.colorPanel20, "colorPanel20");
-            this.colorPanel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.colorPanel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
             this.colorPanel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel20, "colorPanel20");
             this.colorPanel20.Name = "colorPanel20";
             this.colorPanel20.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel20, resources.GetString("colorPanel20.ToolTip"));
             this.colorPanel20.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // cdrBox
@@ -641,7 +595,6 @@
             this.cdrBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cdrBox.Name = "cdrBox";
             this.cdrBox.Tag = "Cdr";
-            this.toolTip.SetToolTip(this.cdrBox, resources.GetString("cdrBox.ToolTip"));
             this.cdrBox.UseVisualStyleBackColor = true;
             this.cdrBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
@@ -652,33 +605,29 @@
             this.cozPlusBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cozPlusBox.Name = "cozPlusBox";
             this.cozPlusBox.Tag = "Coz";
-            this.toolTip.SetToolTip(this.cozPlusBox, resources.GetString("cozPlusBox.ToolTip"));
             this.cozPlusBox.UseVisualStyleBackColor = true;
             this.cozPlusBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel18
             // 
-            resources.ApplyResources(this.colorPanel18, "colorPanel18");
-            this.colorPanel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.colorPanel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(232)))), ((int)(((byte)(0)))));
             this.colorPanel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel18, "colorPanel18");
             this.colorPanel18.Name = "colorPanel18";
             this.colorPanel18.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel18, resources.GetString("colorPanel18.ToolTip"));
             this.colorPanel18.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // colorPanel19
             // 
-            resources.ApplyResources(this.colorPanel19, "colorPanel19");
-            this.colorPanel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.colorPanel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(186)))), ((int)(((byte)(0)))));
             this.colorPanel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel19, "colorPanel19");
             this.colorPanel19.Name = "colorPanel19";
             this.colorPanel19.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel19, resources.GetString("colorPanel19.ToolTip"));
             this.colorPanel19.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // tabPage4
             // 
-            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage4.Controls.Add(this.colorPanel25);
             this.tabPage4.Controls.Add(this.cfBox);
@@ -688,18 +637,18 @@
             this.tabPage4.Controls.Add(this.cdMinusBox);
             this.tabPage4.Controls.Add(this.colorPanel24);
             this.tabPage4.Controls.Add(this.cozMinusBox);
+            resources.ApplyResources(this.tabPage4, "tabPage4");
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Tag = "sbcp";
             this.toolTip.SetToolTip(this.tabPage4, resources.GetString("tabPage4.ToolTip"));
             // 
             // colorPanel25
             // 
-            resources.ApplyResources(this.colorPanel25, "colorPanel25");
-            this.colorPanel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.colorPanel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(0)))));
             this.colorPanel25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel25, "colorPanel25");
             this.colorPanel25.Name = "colorPanel25";
             this.colorPanel25.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel25, resources.GetString("colorPanel25.ToolTip"));
             this.colorPanel25.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // cfBox
@@ -709,18 +658,16 @@
             this.cfBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cfBox.Name = "cfBox";
             this.cfBox.Tag = "Cf";
-            this.toolTip.SetToolTip(this.cfBox, resources.GetString("cfBox.ToolTip"));
             this.cfBox.UseVisualStyleBackColor = true;
             this.cfBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel22
             // 
-            resources.ApplyResources(this.colorPanel22, "colorPanel22");
-            this.colorPanel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.colorPanel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(186)))), ((int)(((byte)(0)))));
             this.colorPanel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel22, "colorPanel22");
             this.colorPanel22.Name = "colorPanel22";
             this.colorPanel22.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel22, resources.GetString("colorPanel22.ToolTip"));
             this.colorPanel22.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // czBox
@@ -730,18 +677,16 @@
             this.czBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.czBox.Name = "czBox";
             this.czBox.Tag = "Cz";
-            this.toolTip.SetToolTip(this.czBox, resources.GetString("czBox.ToolTip"));
             this.czBox.UseVisualStyleBackColor = true;
             this.czBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel23
             // 
-            resources.ApplyResources(this.colorPanel23, "colorPanel23");
-            this.colorPanel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.colorPanel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(92)))));
             this.colorPanel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel23, "colorPanel23");
             this.colorPanel23.Name = "colorPanel23";
             this.colorPanel23.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel23, resources.GetString("colorPanel23.ToolTip"));
             this.colorPanel23.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // cdMinusBox
@@ -751,18 +696,16 @@
             this.cdMinusBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cdMinusBox.Name = "cdMinusBox";
             this.cdMinusBox.Tag = "CD_minus";
-            this.toolTip.SetToolTip(this.cdMinusBox, resources.GetString("cdMinusBox.ToolTip"));
             this.cdMinusBox.UseVisualStyleBackColor = true;
             this.cdMinusBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
             // colorPanel24
             // 
-            resources.ApplyResources(this.colorPanel24, "colorPanel24");
-            this.colorPanel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.colorPanel24.BackColor = System.Drawing.Color.Yellow;
             this.colorPanel24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            resources.ApplyResources(this.colorPanel24, "colorPanel24");
             this.colorPanel24.Name = "colorPanel24";
             this.colorPanel24.Tag = "avr_H";
-            this.toolTip.SetToolTip(this.colorPanel24, resources.GetString("colorPanel24.ToolTip"));
             this.colorPanel24.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // cozMinusBox
@@ -772,7 +715,6 @@
             this.cozMinusBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cozMinusBox.Name = "cozMinusBox";
             this.cozMinusBox.Tag = "Coz_minus";
-            this.toolTip.SetToolTip(this.cozMinusBox, resources.GetString("cozMinusBox.ToolTip"));
             this.cozMinusBox.UseVisualStyleBackColor = true;
             this.cozMinusBox.Click += new System.EventHandler(this.CheckBox_Click);
             // 
@@ -783,7 +725,6 @@
             this.percentRadio.Name = "percentRadio";
             this.percentRadio.TabStop = true;
             this.percentRadio.Tag = "%";
-            this.toolTip.SetToolTip(this.percentRadio, resources.GetString("percentRadio.ToolTip"));
             this.percentRadio.UseVisualStyleBackColor = true;
             // 
             // sumRadio
@@ -791,17 +732,15 @@
             resources.ApplyResources(this.sumRadio, "sumRadio");
             this.sumRadio.Name = "sumRadio";
             this.sumRadio.Tag = "∑";
-            this.toolTip.SetToolTip(this.sumRadio, resources.GetString("sumRadio.ToolTip"));
             this.sumRadio.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.sumRadio);
             this.groupBox1.Controls.Add(this.percentRadio);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
-            this.toolTip.SetToolTip(this.groupBox1, resources.GetString("groupBox1.ToolTip"));
             // 
             // PieChartSetup
             // 
@@ -821,7 +760,6 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PieChartSetup";
-            this.toolTip.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.HelpButtonClicked += new System.ComponentModel.CancelEventHandler(this.PieChartSetup_HelpButtonClicked);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.PieChartSetup_Paint);
             this.tabControl.ResumeLayout(false);
