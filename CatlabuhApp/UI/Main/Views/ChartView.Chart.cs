@@ -48,7 +48,7 @@ namespace CatlabuhApp.UI.Main.Views
                         }
                     }
 
-                    chart.Series.Add(CreateSeries(legendItemsNames[i], colorsOfYAxisItems[i], yValues));
+                    chart.Series.Add(CreateSeries(legendItemsNames[i], colorsOfYAxisItems[i], yValues, itemsOfYAxis[i]));
                 }
 
                 SetXAxisCustomLabels(isObjABool, itemsOfXAxis);
@@ -192,24 +192,11 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void SetXAxisCustomLabels(bool isObjABool, string[] itemsOfXAxis)
         {
-            string xLabel = "", language = "";
-
-            switch (Properties.Settings.Default.Language)
-            {
-                case "en-US":
-                    language = "EN";
-                    break;
-                case "uk-UA":
-                    language = "UA";
-                    break;
-                case "ru-RU":
-                    language = "RU";
-                    break;
-            }
+            string xLabel = "";
 
             for (double i = 0, from = 0.5, to = 1.5; i < itemsOfXAxis.Length; i++, from++, to++)
             {
-                xLabel = isObjABool ? itemsOfXAxis[(int)i] : DataAccess.GetCellData<string>($"SELECT MonthName_{language} FROM Months WHERE MonthID = {itemsOfXAxis[(int)i]}");
+                xLabel = isObjABool ? itemsOfXAxis[(int)i] : DataAccess.GetCellData<string>($"SELECT MonthName_{GetCurrentLanguage()} FROM Months WHERE MonthID = {itemsOfXAxis[(int)i]}");
                 chart.ChartAreas[0].AxisX.CustomLabels.Add(from, to, xLabel);
             }
         }
@@ -251,14 +238,15 @@ namespace CatlabuhApp.UI.Main.Views
             csd.SetStartAxisTitles(chart.ChartAreas[0].AxisX.Title, chart.ChartAreas[0].AxisY.Title);
         }
 
-        private Series CreateSeries(string name, Color color, double[] yValues)
+        private Series CreateSeries(string name, Color color, double[] yValues, string nameInDB)
         {
             Series series = new Series()
             {
                 Name = name,
                 Color = color,
                 BorderWidth = LineSize,
-                ChartType = this.ChartType
+                ChartType = this.ChartType,
+                LegendToolTip = res.GetString($"{nameInDB}Description_{GetCurrentLanguage()}")
             };
 
             for (int i = 0; i < yValues.Length; i++)
@@ -269,5 +257,19 @@ namespace CatlabuhApp.UI.Main.Views
             return series;
         }
 
+        private string GetCurrentLanguage()
+        {
+            switch (Properties.Settings.Default.Language)
+            {
+                case "en-US":
+                    return "EN";
+                case "uk-UA":
+                    return "UA";
+                case "ru-RU":
+                    return "RU";
+                default:
+                    return null;
+            }
+        }
     }
 }

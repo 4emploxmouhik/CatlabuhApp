@@ -260,6 +260,8 @@
     <Compile Include="UI\Support\Setups\PieChartSetup.Designer.cs">
       <DependentUpon>PieChartSetup.cs</DependentUpon>
     </Compile>
+    <None Include="Resources\catlabuh-screensaver-ru.png" />
+    <None Include="Resources\catlabuh-screensaver-en.png" />
     <EmbeddedResource Include="UI\Help\HelpForm.resx">
       <DependentUpon>HelpForm.cs</DependentUpon>
     </EmbeddedResource>

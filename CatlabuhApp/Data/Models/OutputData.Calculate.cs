@@ -241,6 +241,9 @@ namespace CatlabuhApp.Data.Models
                 dltVni[i] = -((ep[i] += gs.IsCalculateGS ? gs.VD_plus[i] + gs.Voz_plus[i] : 0) -
                     (er[i] += gs.IsCalculateGS ? gs.VD_minus[i] + gs.Voz_minus[i] : 0) - dltW[i]);
 
+                //dltVni[i] = -(ep[i] + (gs.IsCalculateGS ? gs.VD_plus[i] + gs.Voz_plus[i] : 0) -
+                //    (er[i] + (gs.IsCalculateGS ? gs.VD_minus[i] + gs.Voz_minus[i] : 0) - dltW[i]));
+
                 sumsOfWBP[9] += dltVni[i];  // dlt_Vni
             }
 

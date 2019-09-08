@@ -185,6 +185,8 @@ namespace CatlabuhApp.UI.Main.Views
         private void SetPPercentPageStyle()
         {
             chartsTabControl.TabPages[0].Text = "P(p%)";
+            pPercentChart.ChartAreas[0].AxisX.Title = "p%";
+            pPercentChart.ChartAreas[0].AxisY.Title = "P";
 
             pPercentGrid.DataSource = DataAccess.GetTableView("SELECT Xp AS[P], Percent AS[p%], PointID FROM GammaDistribution");
             pPercentGrid.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
@@ -219,24 +221,22 @@ namespace CatlabuhApp.UI.Main.Views
                     break;
             }
 
-            FHChart.Series[0].LegendText = $"F({avrHView})";
             chartsTabControl.TabPages[1].Text = $"F({avrHView})";
+            FHChart.Series[0].LegendText = $"F({avrHView})";
+            FHChart.ChartAreas[0].AxisX.Title = "F";
+            FHChart.ChartAreas[0].AxisY.Title = avrHView;
 
             FHGrid.DataSource = DataAccess.GetTableView($"SELECT F, avr_H AS[{avrHView}], PointID FROM DependenceOfAvrHToF");
             FHGrid.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-
             FHGrid.Columns[0].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
             FHGrid.Columns[0].Tag = "F";
             FHGrid.Columns[0].ToolTipText = res.GetString($"FDescription_{Language}");
             FHGrid.Columns[0].SortMode = DataGridViewColumnSortMode.NotSortable;
-
             FHGrid.Columns[1].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
             FHGrid.Columns[1].Tag = "avr_H";
             FHGrid.Columns[1].ToolTipText = res.GetString($"avr_HDescription_{Language}");
             FHGrid.Columns[1].SortMode = DataGridViewColumnSortMode.NotSortable;
-
             FHGrid.Columns[2].Visible = false;
-
             FHGrid.DataError += DataGridView_DataError;
         }
 

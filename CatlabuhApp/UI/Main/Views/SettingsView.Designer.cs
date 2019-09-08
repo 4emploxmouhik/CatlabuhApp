@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsView));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title5 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title6 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title2 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.languageBox = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.callFolderBrowser4 = new System.Windows.Forms.Button();
@@ -2214,26 +2214,26 @@
             // 
             this.pPercentChart.BorderlineColor = System.Drawing.Color.LightGray;
             this.pPercentChart.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
-            chartArea5.AxisX.Maximum = 80D;
-            chartArea5.Name = "ChartArea";
-            this.pPercentChart.ChartAreas.Add(chartArea5);
-            legend5.Alignment = System.Drawing.StringAlignment.Center;
-            legend5.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend5.Name = "Legend";
-            this.pPercentChart.Legends.Add(legend5);
+            chartArea1.AxisX.Maximum = 100D;
+            chartArea1.Name = "ChartArea";
+            this.pPercentChart.ChartAreas.Add(chartArea1);
+            legend1.Alignment = System.Drawing.StringAlignment.Center;
+            legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend1.Name = "Legend";
+            this.pPercentChart.Legends.Add(legend1);
             resources.ApplyResources(this.pPercentChart, "pPercentChart");
             this.pPercentChart.Name = "pPercentChart";
             this.pPercentChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
-            series5.BorderWidth = 2;
-            series5.ChartArea = "ChartArea";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series5.Legend = "Legend";
-            series5.LegendText = "F(Н ср.)";
-            series5.Name = "Series";
-            this.pPercentChart.Series.Add(series5);
+            series1.BorderWidth = 2;
+            series1.ChartArea = "ChartArea";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Legend = "Legend";
+            series1.LegendText = "F(Н ср.)";
+            series1.Name = "Series";
+            this.pPercentChart.Series.Add(series1);
             this.pPercentChart.TabStop = false;
-            title5.Name = "Title";
-            this.pPercentChart.Titles.Add(title5);
+            title1.Name = "Title";
+            this.pPercentChart.Titles.Add(title1);
             // 
             // pPercentGrid
             // 
@@ -2260,26 +2260,26 @@
             // 
             this.FHChart.BorderlineColor = System.Drawing.Color.LightGray;
             this.FHChart.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
-            chartArea6.AxisX.Maximum = 80D;
-            chartArea6.Name = "ChartArea";
-            this.FHChart.ChartAreas.Add(chartArea6);
-            legend6.Alignment = System.Drawing.StringAlignment.Center;
-            legend6.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
-            legend6.Name = "Legend";
-            this.FHChart.Legends.Add(legend6);
+            chartArea2.AxisX.Maximum = 80D;
+            chartArea2.Name = "ChartArea";
+            this.FHChart.ChartAreas.Add(chartArea2);
+            legend2.Alignment = System.Drawing.StringAlignment.Center;
+            legend2.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+            legend2.Name = "Legend";
+            this.FHChart.Legends.Add(legend2);
             resources.ApplyResources(this.FHChart, "FHChart");
             this.FHChart.Name = "FHChart";
             this.FHChart.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
-            series6.BorderWidth = 2;
-            series6.ChartArea = "ChartArea";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series6.Legend = "Legend";
-            series6.LegendText = "F(Н ср.)";
-            series6.Name = "Series";
-            this.FHChart.Series.Add(series6);
+            series2.BorderWidth = 2;
+            series2.ChartArea = "ChartArea";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.Legend = "Legend";
+            series2.LegendText = "F(Н ср.)";
+            series2.Name = "Series";
+            this.FHChart.Series.Add(series2);
             this.FHChart.TabStop = false;
-            title6.Name = "Title";
-            this.FHChart.Titles.Add(title6);
+            title2.Name = "Title";
+            this.FHChart.Titles.Add(title2);
             // 
             // FHGrid
             // 

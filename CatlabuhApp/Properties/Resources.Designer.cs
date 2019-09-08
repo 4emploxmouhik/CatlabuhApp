@@ -1244,9 +1244,29 @@ namespace CatlabuhApp.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap screensaver_RU {
+            get {
+                object obj = ResourceManager.GetObject("screensaver_RU", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap screensaver_UA {
             get {
                 object obj = ResourceManager.GetObject("screensaver_UA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap screensaver_US {
+            get {
+                object obj = ResourceManager.GetObject("screensaver_US", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
