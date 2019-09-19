@@ -17,15 +17,24 @@ namespace CatlabuhApp.UI.Main.Views
                 isObjABool = true;
             }
 
+            Font defaultFont = new Font("Times New Roman", 14);
+
             chart.ChartAreas.Clear();
             chart.ChartAreas.Add(new ChartArea());
             chart.Titles[0].Text = "";
             chart.Legends[0].Title = "";
             chart.Legends[0].Enabled = true;
             chart.Legends[1].Enabled = false;
+            chart.Legends[0].Font = new Font("Times New Roman", 10);
+            chart.ChartAreas[0].AxisX.IsStartedFromZero = true;
             chart.ChartAreas[0].AxisX.Interval = 1;
-            chart.ChartAreas[0].AxisX.Maximum = itemsOfXAxis.Length + 1;
+            chart.ChartAreas[0].AxisX.Minimum = 0;
+            chart.ChartAreas[0].AxisX.Maximum = itemsOfXAxis.Length - 1;
             chart.ChartAreas[0].AxisX.CustomLabels.Clear();
+            chart.ChartAreas[0].AxisX.LabelStyle.Font = defaultFont;
+            chart.ChartAreas[0].AxisY.LabelStyle.Font = defaultFont;
+            chart.ChartAreas[0].AxisX.TitleFont = defaultFont;
+            chart.ChartAreas[0].AxisY.TitleFont = defaultFont;
             chart.Series.Clear();
 
             double[] yValues = new double[itemsOfXAxis.Length];
@@ -63,22 +72,26 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void FillPieChart(string yearOfCalculation, PartOfCalculation[] parts, string[] partsNames, Color[][] itemsColors, string[] legendItems, bool isPercentItems)
         {
-            string[] itemsOfPieChart = null;
-            string language = "", titleText = "";
+            string[] itemsOfPieChart = null, prefics = new string[2];
+            string language = "";
+            int prefIndx = 0;
 
             switch (Properties.Settings.Default.Language)
             {
                 case "en-US":
                     language = "EN";
-                    titleText = "Percents, %";
+                    prefics[0] = "million m^3";
+                    prefics[1] = "10^6 t.";
                     break;
                 case "uk-UA":
                     language = "UA";
-                    titleText = "Відсотки, %";
+                    prefics[0] = "млн м^3";
+                    prefics[1] = "10^6 т.";
                     break;
                 case "ru-RU":
                     language = "RU";
-                    titleText = "Проценты, %";
+                    prefics[0] = "млн м^3";
+                    prefics[1] = "10^6 т.";
                     break;
             }
 
@@ -92,7 +105,9 @@ namespace CatlabuhApp.UI.Main.Views
             chart.Legends[0].Enabled = false;
             chart.Legends[1].Enabled = true;
             chart.Legends[1].Title = "";
+            chart.Legends[1].TitleFont = new Font("Times New Roman", 10, FontStyle.Bold);
             chart.Legends[1].CustomItems.Clear();
+            chart.Legends[1].Font = new Font("Times New Roman", 10);
 
             try
             {
@@ -103,23 +118,28 @@ namespace CatlabuhApp.UI.Main.Views
                     switch (parts[i])
                     {
                         case PartOfCalculation.WaterBalanceProfit:
-                            itemsOfPieChart = new string[] { "Vp", "Vr", "Vb", "Vg", "Vdr", "dlt_Vni", "VD_plus", "Voz_plus" };
+                            itemsOfPieChart = new string[] { "Vp", "Vr", "Vb", "Vg", "Vdr", "VD_plus", "Voz_plus" };
+                            legendIndex = 0;
                             legendPartName = partsNames[0];
+                            prefIndx = 0;
                             break;
                         case PartOfCalculation.WaterBalanceConsumable:
                             itemsOfPieChart = new string[] { "VE", "Vtr", "Vf", "Vz", "VD_minus", "Voz_minus" };
-                            legendIndex = 8;
+                            legendIndex = 7;
                             legendPartName = partsNames[1];
+                            prefIndx = 0;
                             break;
                         case PartOfCalculation.SaltBalanceProfit:
                             itemsOfPieChart = new string[] { "Cp", "Cr", "Cb", "Cg", "Cdr", "CD_plus", "Coz_plus" };
-                            legendIndex = 14;
+                            legendIndex = 13;
                             legendPartName = partsNames[2];
+                            prefIndx = 1;
                             break;
                         case PartOfCalculation.SaltBalanceConsumable:
                             itemsOfPieChart = new string[] { "Cf", "Cz", "CD_minus", "Coz_minus" };
-                            legendIndex = 21;
+                            legendIndex = 20;
                             legendPartName = partsNames[3];
+                            prefIndx = 1;
                             break;
                     }
 
@@ -128,7 +148,11 @@ namespace CatlabuhApp.UI.Main.Views
                     double value = 0;
 
                     chart.Legends[1].CustomItems.Add(new LegendItem() { BorderWidth = 0 });
-                    chart.Legends[1].CustomItems.Add(new LegendItem() { Name = legendPartName, BorderWidth = 0, SeparatorType = LegendSeparatorStyle.Line });
+                    chart.Legends[1].CustomItems.Add(new LegendItem() {
+                        Name = legendPartName + (isPercentItems ? "" : ", " + prefics[prefIndx]),
+                        BorderWidth = 0,
+                        SeparatorType = LegendSeparatorStyle.Line
+                    });
 
                     for (int j = 0; j < itemsOfPieChart.Length; j++, legendIndex++)
                     {
@@ -153,7 +177,12 @@ namespace CatlabuhApp.UI.Main.Views
                         series.Points[j].Font = font;
                         series.Points[j].Color = itemsColors[i][j];
 
-                        LegendItem legendItem = new LegendItem() { Name = legendItems[legendIndex], BorderWidth = 0, Color = series.Points[j].Color, ToolTip = res.GetString($"{itemsOfPieChart[j]}Description_{language}") };
+                        LegendItem legendItem = new LegendItem() {
+                            Name = legendItems[legendIndex],
+                            BorderWidth = 0,
+                            Color = series.Points[j].Color,
+                            ToolTip = res.GetString($"{itemsOfPieChart[j]}Description_{language}")
+                        };
                         chart.Legends[1].CustomItems.Add(legendItem);
                     }
 
@@ -161,7 +190,7 @@ namespace CatlabuhApp.UI.Main.Views
                     chart.Series.Add(series);
                 }
 
-                chart.Legends[1].Title = isPercentItems ? titleText : "";
+                chart.Legends[1].Title = GetLegendTitleForPieChart(isPercentItems);
                 chart.Update();
             }
             catch (NullReferenceException)
@@ -177,13 +206,13 @@ namespace CatlabuhApp.UI.Main.Views
             switch (Properties.Settings.Default.Language)
             {
                 case "en-US":
-                    title = isPercentItems ? "" : "";
+                    title = isPercentItems ? "Percents, %" : "Indicators for the year";
                     break;
                 case "uk-UA":
                     title = isPercentItems ? "Відсотки, %" : "Показники за рік";
                     break;
                 case "ru-RU":
-                    title = isPercentItems ? "" : "";
+                    title = isPercentItems ? "Проценты, %" : "Показатели за год";
                     break;
             }
 
@@ -194,7 +223,7 @@ namespace CatlabuhApp.UI.Main.Views
         {
             string xLabel = "";
 
-            for (double i = 0, from = 0.5, to = 1.5; i < itemsOfXAxis.Length; i++, from++, to++)
+            for (double i = 0, from = -0.5, to = 0.5; i < itemsOfXAxis.Length; i++, from++, to++)
             {
                 xLabel = isObjABool ? itemsOfXAxis[(int)i] : DataAccess.GetCellData<string>($"SELECT MonthName_{GetCurrentLanguage()} FROM Months WHERE MonthID = {itemsOfXAxis[(int)i]}");
                 chart.ChartAreas[0].AxisX.CustomLabels.Add(from, to, xLabel);
@@ -251,7 +280,7 @@ namespace CatlabuhApp.UI.Main.Views
 
             for (int i = 0; i < yValues.Length; i++)
             {
-                series.Points.AddXY(i + 1, yValues[i]);
+                series.Points.AddXY(i, yValues[i]);
             }
 
             return series;

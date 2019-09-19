@@ -128,10 +128,10 @@
     <value>Язык:</value>
   </data>
   <data name="callFolderBrowser4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>760, 112</value>
+    <value>760, 86</value>
   </data>
   <data name="imgChartsPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 114</value>
+    <value>360, 88</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>327, 16</value>
@@ -140,10 +140,10 @@
     <value>Путь к папке с файлами изображений графиков:</value>
   </data>
   <data name="callFolderBrowser3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>760, 86</value>
+    <value>760, 112</value>
   </data>
   <data name="xlChartsPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 88</value>
+    <value>360, 114</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 16</value>

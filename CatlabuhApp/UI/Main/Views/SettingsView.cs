@@ -60,10 +60,11 @@ namespace CatlabuhApp.UI.Main.Views
                 table_3_2ItemBox32, table_3_2ItemBox33, table_3_2ItemBox34, table_3_2ItemBox35
             });
             coefficientsBoxes.AddRange(new TextBox[] {
-                coefficientBox0, coefficientBox1, coefficientBox2, coefficientBox3, coefficientBox4, coefficientBox5, coefficientBox6, coefficientBox7, coefficientBox8,
+                coefficientBox0, coefficientBox1, coefficientBox2, coefficientBox3, coefficientBox4, coefficientBox5, coefficientBox6, coefficientBox7, 
                 coefficientBox9, coefficientBox10, coefficientBox11, coefficientBox12, coefficientBox13, coefficientBox14, coefficientBox15, coefficientBox16, coefficientBox17,
                 coefficientBox18, coefficientBox19, coefficientBox20, coefficientBox21, coefficientBox22, coefficientBox23, coefficientBox24, coefficientBox25, coefficientBox26,
-                coefficientBox27, coefficientBox28, coefficientBox29, coefficientBox30, coefficientBox31, coefficientBox32, coefficientBox33, coefficientBox34
+                coefficientBox27, coefficientBox28, coefficientBox29, coefficientBox30, coefficientBox31, coefficientBox32, coefficientBox33, coefficientBox34, 
+                coefficientBox36, coefficientBox37, coefficientBox38
             });
         }
 
@@ -190,7 +191,7 @@ namespace CatlabuhApp.UI.Main.Views
             Pen pen = new Pen(Color.LightGray);
 
             g.DrawLine(pen, 6, 302, 787, 302);
-            g.DrawLine(pen, 787, 176, 787, 616);
+            g.DrawLine(pen, 787, 176, 787, 643);
         }
 
         private void CallFolderBrowser_Click(object sender, EventArgs e)
@@ -285,6 +286,6 @@ namespace CatlabuhApp.UI.Main.Views
             new HelpForm("settingsText").Show();
         }
 
-       
+        
     }
 }

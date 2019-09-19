@@ -128,8 +128,8 @@
   <data name="xAxisTitleBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>367, 22</value>
   </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;chartTitleOnBottom.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
@@ -138,14 +138,20 @@
   <data name="showYAxisMinorGrid.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="seriesPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>647, 301</value>
+    <value>647, 312</value>
+  </data>
+  <data name="applyFontToAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;textSize2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="regularChoice2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -159,14 +165,20 @@
   <data name="underlineChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="yAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 56</value>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;regularChoice1.Name" xml:space="preserve">
+    <value>regularChoice1</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chartTitleOnBottom.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="underlineChoice1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Underline</value>
@@ -174,47 +186,74 @@
   <data name="&gt;&gt;xAxisTitleBox.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
   <data name="regularChoice1.Text" xml:space="preserve">
     <value>R</value>
   </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 46</value>
+  <data name="&gt;&gt;applyFontToAll.Parent" xml:space="preserve">
+    <value>generalPage</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 103</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;underlineChoice1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="boldChoice1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
-  <data name="boldChoice2.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="generalPage.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="showGrid.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="pieLabelOutsideCheck.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;legendPage.Name" xml:space="preserve">
+    <value>legendPage</value>
+  </data>
+  <data name="boldChoice3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;underlineChoice3.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="chartTitleBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>367, 22</value>
+  <data name="&gt;&gt;xAxisMajorGridStyle.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="regularChoice3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="legendPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="boldChoice1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;fontFamiliesBox.Parent" xml:space="preserve">
+    <value>generalPage</value>
   </data>
-  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>655, 330</value>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>616, 53</value>
   </data>
-  <data name="&gt;&gt;boldChoice2.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="generalPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
+  </data>
+  <data name="&gt;&gt;pieLabelOutsideCheck.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="xAxisMinorGridStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="xAxisMinorGridStyle.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;xAxisTitleBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -222,23 +261,29 @@
   <data name="&gt;&gt;showXAxisMinorGrid.Name" xml:space="preserve">
     <value>showXAxisMinorGrid</value>
   </data>
-  <data name="&gt;&gt;xAxisMajorGridStyle.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="pieLabelOutsideCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
   </data>
   <data name="showXAxisMajorGrid.Text" xml:space="preserve">
     <value>Show major grid</value>
   </data>
+  <data name="apply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 30</value>
+  </data>
   <data name="boldChoice2.Text" xml:space="preserve">
     <value>B</value>
-  </data>
-  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
-    <value>gridPage</value>
   </data>
   <data name="italicChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;showXAxisMinorGrid.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 125</value>
+    <value>631, 125</value>
   </data>
   <data name="&gt;&gt;boldChoice3.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -246,8 +291,11 @@
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 9</value>
   </data>
-  <data name="underlineChoice3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="chartTitleOnBottom.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;boldChoice2.Name" xml:space="preserve">
     <value>boldChoice2</value>
@@ -279,26 +327,32 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="italicChoice1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Italic</value>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>generalPage</value>
   </data>
   <data name="&gt;&gt;chartTitleBox.Name" xml:space="preserve">
     <value>chartTitleBox</value>
   </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="textSize4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 22</value>
   </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+  <data name="titlesPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 312</value>
+  </data>
+  <data name="&gt;&gt;chartTitleOnBottom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="underlineChoice3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 14</value>
+  </data>
+  <data name="showLegend.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="genralPage.Text" xml:space="preserve">
-    <value>General</value>
-  </data>
-  <data name="seriesPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
   <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>574, 77</value>
+    <value>631, 131</value>
   </data>
   <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -318,17 +372,14 @@
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>655, 51</value>
   </data>
-  <data name="seriesGridView.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;boldChoice3.Name" xml:space="preserve">
     <value>boldChoice3</value>
   </data>
   <data name="&gt;&gt;underlineChoice3.Name" xml:space="preserve">
     <value>underlineChoice3</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Setup chart style</value>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 16</value>
   </data>
   <data name="cancel.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 30</value>
@@ -342,26 +393,50 @@
   <data name="xAxisMajorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 24</value>
   </data>
+  <data name="underlineChoice3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 341</value>
+  </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="textSize3.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 22</value>
   </data>
+  <data name="textSize5.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
   <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;textSize4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 330</value>
+    <value>0, 341</value>
   </data>
   <data name="&gt;&gt;xAxisMinorGridStyle.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="xAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 56</value>
+  <data name="applyFontToAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Axis</value>
+  </data>
+  <data name="titlesPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 25</value>
   </data>
   <data name="&gt;&gt;boldChoice1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;generalPage.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;xAxisMajorGridStyle.Name" xml:space="preserve">
     <value>xAxisMajorGridStyle</value>
@@ -370,22 +445,25 @@
     <value>475, 43</value>
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>515, 94</value>
+    <value>631, 94</value>
   </data>
-  <data name="cancel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;cancel.Name" xml:space="preserve">
+    <value>cancel</value>
+  </data>
+  <data name="&gt;&gt;fontFamiliesBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="showYAxisMajorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="showYAxisMinorGrid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;italicChoice1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;yAxisTitleBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="regularChoice1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -411,17 +489,20 @@
   <data name="&gt;&gt;yAxisMinorGridStyle.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;gridPage.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;titlesPage.Name" xml:space="preserve">
+    <value>titlesPage</value>
   </data>
-  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>515, 94</value>
+  <data name="&gt;&gt;pieLabelOutsideCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;chartTitleBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;showXAxisMinorGrid.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="legendPage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;boldChoice1.Name" xml:space="preserve">
     <value>boldChoice1</value>
@@ -432,29 +513,41 @@
   <data name="underlineChoice3.Text" xml:space="preserve">
     <value>U</value>
   </data>
-  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 72</value>
   </data>
-  <data name="seriesGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;showYAxisMinorGrid.Name" xml:space="preserve">
+    <value>showYAxisMinorGrid</value>
+  </data>
+  <data name="&gt;&gt;cancel.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 16</value>
   </data>
   <data name="&gt;&gt;italicChoice1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;yAxisMinorGridStyle.Name" xml:space="preserve">
+    <value>yAxisMinorGridStyle</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="seriesGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;generalPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
   </data>
   <data name="&gt;&gt;textSize1.Name" xml:space="preserve">
     <value>textSize1</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 16</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
   </data>
   <data name="showYAxisMajorGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 20</value>
@@ -462,17 +555,29 @@
   <data name="boldChoice2.Location" type="System.Drawing.Point, System.Drawing">
     <value>406, 32</value>
   </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
   <data name="chartTitleBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 43</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.Name" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="genralPage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="chartTitleOnBottom.Text" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;showLegend.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="boldChoice1.Location" type="System.Drawing.Point, System.Drawing">
     <value>406, 32</value>
+  </data>
+  <data name="&gt;&gt;chartTitleOnTop.Parent" xml:space="preserve">
+    <value>groupBox5</value>
   </data>
   <data name="&gt;&gt;underlineChoice1.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -480,14 +585,26 @@
   <data name="&gt;&gt;italicChoice3.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="&gt;&gt;showYAxisMinorGrid.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="underlineChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 115</value>
   </data>
   <data name="underlineChoice1.Size" type="System.Drawing.Size, System.Drawing">
     <value>22, 33</value>
   </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="legendPage.Text" xml:space="preserve">
+    <value>Legend</value>
+  </data>
   <data name="&gt;&gt;italicChoice2.Parent" xml:space="preserve">
     <value>groupBox1</value>
+  </data>
+  <data name="showLegend.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 20</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 24</value>
@@ -498,17 +615,23 @@
   <data name="regularChoice1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="showYAxisMinorGrid.Text" xml:space="preserve">
-    <value>Show minor grid</value>
+  <data name="&gt;&gt;chartTitleOnTop.Name" xml:space="preserve">
+    <value>chartTitleOnTop</value>
   </data>
   <data name="boldChoice1.Text" xml:space="preserve">
     <value>B</value>
   </data>
+  <data name="&gt;&gt;yAxisMinorGridStyle.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
   <data name="italicChoice3.Location" type="System.Drawing.Point, System.Drawing">
     <value>425, 14</value>
   </data>
-  <data name="&gt;&gt;cancel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 16</value>
   </data>
   <data name="yAxisMajorGridStyle.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -519,6 +642,15 @@
   <data name="yAxisMajorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
     <value>229, 26</value>
   </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Pie chart</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 55</value>
+  </data>
+  <data name="showLegend.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 20</value>
+  </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -527,6 +659,9 @@
   </data>
   <data name="&gt;&gt;showYAxisMajorGrid.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
   </data>
   <data name="italicChoice2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Italic</value>
@@ -537,6 +672,12 @@
   <data name="regularChoice2.Location" type="System.Drawing.Point, System.Drawing">
     <value>382, 32</value>
   </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>631, 94</value>
+  </data>
+  <data name="&gt;&gt;textSize5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -546,14 +687,17 @@
   <data name="boldChoice1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;titlesPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;showYAxisMajorGrid.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;titlesPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="apply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="italicChoice2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -564,20 +708,17 @@
   <data name="&gt;&gt;showYAxisMinorGrid.Parent" xml:space="preserve">
     <value>groupBox4</value>
   </data>
-  <data name="&gt;&gt;genralPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="textSize2.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
   <data name="&gt;&gt;xAxisMinorGridStyle.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;textSize3.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="showYAxisMinorGrid.AutoSize" type="System.Boolean, mscorlib">
+  <data name="chartTitleOnBottom.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="regularChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -588,6 +729,9 @@
   <data name="&gt;&gt;seriesPage.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="yAxisMinorGridStyle.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="italicChoice3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Italic</value>
   </data>
@@ -597,14 +741,20 @@
   <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Current font of inscriptions on the chart:</value>
+  </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="boldChoice2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 33</value>
+  <data name="textSize1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 22</value>
   </data>
   <data name="&gt;&gt;regularChoice2.Name" xml:space="preserve">
     <value>regularChoice2</value>
@@ -621,23 +771,29 @@
   <data name="&gt;&gt;textSize3.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="xAxisMinorGridStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;applyFontToAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="regularChoice2.Text" xml:space="preserve">
     <value>R</value>
   </data>
-  <data name="yAxisMinorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 24</value>
+  <data name="boldChoice2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>titlesPage</value>
   </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="italicChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
   <data name="&gt;&gt;showYAxisMajorGrid.Parent" xml:space="preserve">
     <value>groupBox4</value>
   </data>
-  <data name="genralPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 25</value>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>legendPage</value>
   </data>
   <data name="&gt;&gt;showXAxisMinorGrid.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -645,11 +801,14 @@
   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 16</value>
+  <data name="&gt;&gt;italicChoice1.Name" xml:space="preserve">
+    <value>italicChoice1</value>
   </data>
   <data name="&gt;&gt;xAxisTitleBox.Name" xml:space="preserve">
     <value>xAxisTitleBox</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;label8.Name" xml:space="preserve">
     <value>label8</value>
@@ -657,26 +816,47 @@
   <data name="boldChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
   </data>
-  <data name="showYAxisMinorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 60</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;textSize3.Name" xml:space="preserve">
     <value>textSize3</value>
   </data>
-  <data name="regularChoice3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 64</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>genralPage</value>
+  <data name="&gt;&gt;textSize3.Parent" xml:space="preserve">
+    <value>panel2</value>
   </data>
-  <data name="boldChoice3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="chartTitleOnBottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 20</value>
+  </data>
+  <data name="applyFontToAll.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="titlesPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Y axis</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="chartTitleBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>367, 22</value>
   </data>
   <data name="&gt;&gt;showXAxisMajorGrid.Name" xml:space="preserve">
     <value>showXAxisMajorGrid</value>
+  </data>
+  <data name="boldChoice1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="underlineChoice2.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -847,14 +1027,17 @@
         AAA=
 </value>
   </data>
+  <data name="&gt;&gt;fontFamiliesBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="cancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
-  <data name="underlineChoice3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 14</value>
+  <data name="boldChoice3.Text" xml:space="preserve">
+    <value>B</value>
   </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="showYAxisMajorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -865,6 +1048,15 @@
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
   </data>
+  <data name="textSize4.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="titlesPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="showLegend.Text" xml:space="preserve">
+    <value>Show legend</value>
+  </data>
   <data name="showXAxisMinorGrid.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -874,29 +1066,38 @@
   <data name="xAxisMajorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
     <value>229, 26</value>
   </data>
-  <data name="&gt;&gt;seriesGridView.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="yAxisMinorGridStyle.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="textSize1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Tilte:</value>
   </data>
-  <data name="&gt;&gt;yAxisMinorGridStyle.Name" xml:space="preserve">
-    <value>yAxisMinorGridStyle</value>
+  <data name="boldChoice2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
-  <data name="apply.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 30</value>
+  <data name="xAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 56</value>
   </data>
-  <data name="&gt;&gt;regularChoice1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pieLabelOutsideCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="yAxisMinorGridStyle.Items" xml:space="preserve">
+    <value>Solid</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
   </data>
   <data name="cancel.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
-  <data name="boldChoice1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  <data name="&gt;&gt;gridPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="applyFontToAll.Text" xml:space="preserve">
+    <value>Apply to all</value>
   </data>
   <data name="&gt;&gt;textSize1.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -904,8 +1105,14 @@
   <data name="italicChoice1.Location" type="System.Drawing.Point, System.Drawing">
     <value>430, 32</value>
   </data>
+  <data name="&gt;&gt;textSize4.Parent" xml:space="preserve">
+    <value>generalPage</value>
+  </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>506, 53</value>
+  </data>
+  <data name="xAxisMajorGridStyle.Items1" xml:space="preserve">
+    <value>Dash</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -913,8 +1120,17 @@
   <data name="&gt;&gt;apply.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;pieLabelOutsideCheck.Name" xml:space="preserve">
+    <value>pieLabelOutsideCheck</value>
+  </data>
+  <data name="chartTitleOnTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 21</value>
+  </data>
   <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -925,11 +1141,14 @@
   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;regularChoice1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;apply.Name" xml:space="preserve">
-    <value>apply</value>
+  <data name="&gt;&gt;yAxisTitleBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="showYAxisMajorGrid.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -943,11 +1162,14 @@
   <data name="&gt;&gt;yAxisTitleBox.Name" xml:space="preserve">
     <value>yAxisTitleBox</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 30</value>
+  <data name="&gt;&gt;textSize4.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;regularChoice2.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="showLegend.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;gridPage.Name" xml:space="preserve">
     <value>gridPage</value>
@@ -955,8 +1177,8 @@
   <data name="showGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 20</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 20</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 16</value>
@@ -970,8 +1192,8 @@
   <data name="underlineChoice2.Location" type="System.Drawing.Point, System.Drawing">
     <value>447, 32</value>
   </data>
-  <data name="&gt;&gt;underlineChoice1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="italicChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>159, 60</value>
@@ -985,8 +1207,8 @@
   <data name="regularChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="genralPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="&gt;&gt;generalPage.Name" xml:space="preserve">
+    <value>generalPage</value>
   </data>
   <data name="regularChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -997,11 +1219,20 @@
   <data name="&gt;&gt;regularChoice2.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
   <data name="italicChoice2.Size" type="System.Drawing.Size, System.Drawing">
     <value>15, 33</value>
   </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 30</value>
+  </data>
   <data name="boldChoice3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="italicChoice1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Italic</value>
   </data>
   <data name="textSize3.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1009,14 +1240,17 @@
   <data name="underlineChoice1.Text" xml:space="preserve">
     <value>U</value>
   </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 46</value>
+  </data>
   <data name="regularChoice2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;genralPage.Parent" xml:space="preserve">
-    <value>tabControl</value>
+  <data name="&gt;&gt;showYAxisMajorGrid.Name" xml:space="preserve">
+    <value>showYAxisMajorGrid</value>
   </data>
   <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1036,6 +1270,9 @@
   <data name="&gt;&gt;showXAxisMajorGrid.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="showLegend.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
@@ -1051,11 +1288,17 @@
   <data name="regularChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
   </data>
-  <data name="label8.Text" xml:space="preserve">
-    <value>Line style:</value>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
   </data>
-  <data name="underlineChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="showYAxisMinorGrid.Text" xml:space="preserve">
+    <value>Show minor grid</value>
+  </data>
+  <data name="underlineChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
+  </data>
+  <data name="applyFontToAll.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
   </data>
   <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
     <value>gridPage</value>
@@ -1070,34 +1313,37 @@
     <value>True</value>
   </data>
   <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>genralPage</value>
+    <value>titlesPage</value>
   </data>
   <data name="&gt;&gt;textSize1.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="underlineChoice3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Underline</value>
   </data>
-  <data name="underlineChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
+  <data name="regularChoice3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
   </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 66</value>
+  <data name="&gt;&gt;regularChoice3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="label6.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;chartTitleOnBottom.Parent" xml:space="preserve">
+    <value>groupBox5</value>
   </data>
   <data name="&gt;&gt;boldChoice2.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="showXAxisMajorGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 28</value>
+  <data name="chartTitleOnBottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 21</value>
   </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;textSize2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="regularChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -1105,11 +1351,14 @@
   <data name="boldChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
   </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 20</value>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
   </data>
   <data name="showXAxisMinorGrid.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 58</value>
+  </data>
+  <data name="&gt;&gt;fontFamiliesBox.Name" xml:space="preserve">
+    <value>fontFamiliesBox</value>
   </data>
   <data name="&gt;&gt;xAxisMajorGridStyle.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1117,35 +1366,44 @@
   <data name="gridPage.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="xAxisMajorGridStyle.Items1" xml:space="preserve">
-    <value>Dash</value>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Line style:</value>
   </data>
-  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;textSize5.Parent" xml:space="preserve">
+    <value>legendPage</value>
   </data>
   <data name="boldChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="boldChoice2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
-  </data>
-  <data name="yAxisMajorGridStyle.Items2" xml:space="preserve">
-    <value>Dot</value>
-  </data>
-  <data name="apply.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;italicChoice2.Name" xml:space="preserve">
-    <value>italicChoice2</value>
+  <data name="&gt;&gt;showLegend.Parent" xml:space="preserve">
+    <value>legendPage</value>
   </data>
   <data name="&gt;&gt;seriesPage.Name" xml:space="preserve">
     <value>seriesPage</value>
   </data>
-  <data name="showGrid.Text" xml:space="preserve">
-    <value>Show grid</value>
+  <data name="yAxisMajorGridStyle.Items2" xml:space="preserve">
+    <value>Dot</value>
+  </data>
+  <data name="pieLabelOutsideCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 32</value>
+  </data>
+  <data name="apply.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;legendPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;italicChoice2.Name" xml:space="preserve">
+    <value>italicChoice2</value>
+  </data>
+  <data name="legendPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 312</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="fontFamiliesBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 20</value>
   </data>
   <data name="&gt;&gt;boldChoice3.Parent" xml:space="preserve">
     <value>panel2</value>
@@ -1162,6 +1420,9 @@
   <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
     <value>tabControl</value>
   </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>631, 73</value>
+  </data>
   <data name="showXAxisMinorGrid.Text" xml:space="preserve">
     <value>Show minor grid</value>
   </data>
@@ -1171,8 +1432,17 @@
   <data name="xAxisMinorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 24</value>
   </data>
-  <data name="italicChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 9</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 16</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="generalPage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
@@ -1180,20 +1450,17 @@
   <data name="&gt;&gt;showXAxisMajorGrid.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;cancel.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="pieLabelOutsideCheck.Text" xml:space="preserve">
+    <value>Is label of pie chart outside</value>
   </data>
-  <data name="&gt;&gt;boldChoice2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="yAxisMinorGridStyle.Items" xml:space="preserve">
-    <value>Solid</value>
-  </data>
-  <data name="seriesGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="chartTitleBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 66</value>
   </data>
   <data name="&gt;&gt;label2.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -1201,26 +1468,26 @@
   <data name="seriesPage.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Y axis tilte:</value>
+  <data name="cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="italicChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="regularChoice2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>22, 33</value>
+  <data name="&gt;&gt;chartTitleOnBottom.Name" xml:space="preserve">
+    <value>chartTitleOnBottom</value>
   </data>
-  <data name="italicChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomCenter</value>
-  </data>
-  <data name="&gt;&gt;seriesGridView.Parent" xml:space="preserve">
-    <value>seriesPage</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ChartStyleDialog</value>
   </data>
   <data name="&gt;&gt;underlineChoice3.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="yAxisMajorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
+  <data name="&gt;&gt;showLegend.Name" xml:space="preserve">
+    <value>showLegend</value>
   </data>
   <data name="underlineChoice1.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
@@ -1231,14 +1498,17 @@
   <data name="xAxisTitleBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;regularChoice3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;textSize2.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Axis</value>
+  <data name="showXAxisMajorGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 28</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="italicChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;boldChoice3.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1246,8 +1516,17 @@
   <data name="xAxisMinorGridStyle.Items" xml:space="preserve">
     <value>Solid</value>
   </data>
-  <data name="showGrid.AutoSize" type="System.Boolean, mscorlib">
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt</value>
+  </data>
+  <data name="&gt;&gt;applyFontToAll.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pieLabelOutsideCheck.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;regularChoice2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="xAxisMajorGridStyle.Items2" xml:space="preserve">
     <value>Dot</value>
@@ -1259,7 +1538,7 @@
     <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;seriesPage.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;underlineChoice2.Name" xml:space="preserve">
     <value>underlineChoice2</value>
@@ -1267,8 +1546,11 @@
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="cancel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>568, 9</value>
+  <data name="seriesPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1282,17 +1564,11 @@
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 16</value>
   </data>
-  <data name="&gt;&gt;textSize2.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="generalPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 312</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Chart</value>
-  </data>
-  <data name="&gt;&gt;italicChoice1.Name" xml:space="preserve">
-    <value>italicChoice1</value>
-  </data>
-  <data name="&gt;&gt;regularChoice1.Name" xml:space="preserve">
-    <value>regularChoice1</value>
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1303,17 +1579,26 @@
   <data name="xAxisMinorGridStyle.Items1" xml:space="preserve">
     <value>Dash</value>
   </data>
+  <data name="legendPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
   <data name="&gt;&gt;underlineChoice1.Name" xml:space="preserve">
     <value>underlineChoice1</value>
   </data>
-  <data name="&gt;&gt;yAxisMinorGridStyle.Parent" xml:space="preserve">
-    <value>groupBox4</value>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>generalPage</value>
+  </data>
+  <data name="showGrid.Text" xml:space="preserve">
+    <value>Show grid</value>
+  </data>
+  <data name="&gt;&gt;showLegend.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;underlineChoice2.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="&gt;&gt;chartTitleBox.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="showXAxisMinorGrid.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 20</value>
@@ -1324,8 +1609,8 @@
   <data name="italicChoice1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="textSize1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;showYAxisMajorGrid.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="italicChoice1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1339,17 +1624,20 @@
   <data name="showYAxisMajorGrid.Text" xml:space="preserve">
     <value>Show major grid</value>
   </data>
-  <data name="&gt;&gt;seriesPage.Parent" xml:space="preserve">
-    <value>tabControl</value>
+  <data name="boldChoice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 33</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>ChartStyleDialog</value>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;showGrid.Parent" xml:space="preserve">
     <value>gridPage</value>
   </data>
-  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;textSize5.Name" xml:space="preserve">
+    <value>textSize5</value>
+  </data>
+  <data name="titlesPage.Text" xml:space="preserve">
+    <value>Titles</value>
   </data>
   <data name="&gt;&gt;xAxisMinorGridStyle.Name" xml:space="preserve">
     <value>xAxisMinorGridStyle</value>
@@ -1363,6 +1651,9 @@
   <data name="&gt;&gt;panel2.Name" xml:space="preserve">
     <value>panel2</value>
   </data>
+  <data name="&gt;&gt;textSize5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="regularChoice1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1372,8 +1663,14 @@
   <data name="italicChoice2.Text" xml:space="preserve">
     <value>I</value>
   </data>
+  <data name="&gt;&gt;legendPage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="underlineChoice2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;seriesPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
   </data>
   <data name="apply.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -1384,6 +1681,12 @@
   <data name="gridPage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 25</value>
   </data>
+  <data name="showYAxisMinorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="chartTitleOnTop.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1393,8 +1696,8 @@
   <data name="regularChoice1.Location" type="System.Drawing.Point, System.Drawing">
     <value>382, 32</value>
   </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>Y axis</value>
+  <data name="&gt;&gt;regularChoice1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="seriesPage.Text" xml:space="preserve">
     <value>Series</value>
@@ -1405,8 +1708,8 @@
   <data name="italicChoice2.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 30</value>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Y axis tilte:</value>
   </data>
   <data name="showYAxisMajorGrid.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1436,19 +1739,25 @@
     <value>22, 33</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;showYAxisMinorGrid.Name" xml:space="preserve">
-    <value>showYAxisMinorGrid</value>
+  <data name="chartTitleOnTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 20</value>
   </data>
   <data name="boldChoice3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="gridPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>647, 301</value>
+    <value>647, 312</value>
+  </data>
+  <data name="&gt;&gt;xAxisMajorGridStyle.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Legend text size:</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -1456,38 +1765,56 @@
   <data name="&gt;&gt;panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;xAxisMajorGridStyle.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 16</value>
   </data>
   <data name="showGrid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 20</value>
+    <value>8, 20</value>
   </data>
-  <data name="boldChoice3.Text" xml:space="preserve">
-    <value>B</value>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Location on chart</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 16</value>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 157</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 30</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="showXAxisMinorGrid.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;showGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="textSize1.Location" type="System.Drawing.Point, System.Drawing">
     <value>475, 43</value>
   </data>
-  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="fontFamiliesBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 24</value>
   </data>
-  <data name="&gt;&gt;seriesGridView.Type" xml:space="preserve">
-    <value>CatlabuhApp.UI.Main.UC.SeriesGridView, CatlabuhApp, Version=0.4.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;boldChoice2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textSize5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>121, 53</value>
   </data>
   <data name="showXAxisMinorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="underlineChoice1.Location" type="System.Drawing.Point, System.Drawing">
     <value>447, 32</value>
+  </data>
+  <data name="textSize5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 22</value>
   </data>
   <data name="&gt;&gt;yAxisMajorGridStyle.Name" xml:space="preserve">
     <value>yAxisMajorGridStyle</value>
@@ -1501,8 +1828,8 @@
   <data name="showXAxisMajorGrid.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
-    <value>colorDialog</value>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;regularChoice1.Parent" xml:space="preserve">
     <value>groupBox2</value>
@@ -1510,23 +1837,41 @@
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
   </data>
-  <data name="underlineChoice3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="showXAxisMinorGrid.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleRight</value>
   </data>
-  <data name="&gt;&gt;regularChoice2.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="underlineChoice3.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
   </data>
-  <data name="&gt;&gt;textSize2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;titlesPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
   </data>
-  <data name="yAxisMajorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 24</value>
+  <data name="&gt;&gt;chartTitleOnTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="showXAxisMajorGrid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chartTitleOnTop.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;regularChoice1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>655, 381</value>
+    <value>655, 392</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Text size of inscriptions:</value>
   </data>
   <data name="xAxisMinorGridStyle.Items2" xml:space="preserve">
     <value>Dot</value>
@@ -1534,50 +1879,65 @@
   <data name="&gt;&gt;apply.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="showXAxisMajorGrid.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="textSize4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 62</value>
   </data>
   <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 146</value>
+    <value>8, 146</value>
   </data>
-  <data name="seriesGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>641, 290</value>
+  <data name="&gt;&gt;legendPage.Parent" xml:space="preserve">
+    <value>tabControl</value>
   </data>
   <data name="showGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="textSize2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 22</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Setup chart style</value>
+  </data>
+  <data name="&gt;&gt;showYAxisMinorGrid.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>gridPage</value>
+  </data>
+  <data name="&gt;&gt;generalPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textSize3.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;boldChoice2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;showGrid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pieLabelOutsideCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 20</value>
   </data>
   <data name="showGrid.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
   <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>groupBox4</value>
+  <data name="textSize2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 22</value>
   </data>
   <data name="yAxisTitleBox.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;seriesGridView.Name" xml:space="preserve">
-    <value>seriesGridView</value>
+  <data name="&gt;&gt;textSize4.Name" xml:space="preserve">
+    <value>textSize4</value>
   </data>
-  <data name="&gt;&gt;genralPage.Name" xml:space="preserve">
-    <value>genralPage</value>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="applyFontToAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 63</value>
   </data>
   <data name="&gt;&gt;regularChoice3.Name" xml:space="preserve">
     <value>regularChoice3</value>
@@ -1585,14 +1945,20 @@
   <data name="underlineChoice3.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>generalPage</value>
+  </data>
+  <data name="yAxisMinorGridStyle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 24</value>
+  </data>
   <data name="showYAxisMinorGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;italicChoice3.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 23</value>
   </data>
   <data name="&gt;&gt;regularChoice3.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1602,6 +1968,9 @@
   </data>
   <data name="boldChoice2.CheckAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;apply.Name" xml:space="preserve">
+    <value>apply</value>
   </data>
   <data name="underlineChoice2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Underline</value>
@@ -1615,14 +1984,11 @@
   <data name="&gt;&gt;gridPage.Parent" xml:space="preserve">
     <value>tabControl</value>
   </data>
-  <data name="&gt;&gt;genralPage.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;apply.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="textSize1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 22</value>
+  <data name="regularChoice2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 33</value>
   </data>
   <data name="&gt;&gt;yAxisTitleBox.Parent" xml:space="preserve">
     <value>panel2</value>
@@ -1642,6 +2008,9 @@
   <data name="&gt;&gt;italicChoice3.Name" xml:space="preserve">
     <value>italicChoice3</value>
   </data>
+  <data name="fontFamiliesBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1654,17 +2023,17 @@
   <data name="&gt;&gt;regularChoice3.Parent" xml:space="preserve">
     <value>panel2</value>
   </data>
-  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 60</value>
+  <data name="chartTitleOnTop.Text" xml:space="preserve">
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;showGrid.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="apply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;cancel.Name" xml:space="preserve">
-    <value>cancel</value>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
   <data name="&gt;&gt;xAxisMinorGridStyle.Parent" xml:space="preserve">
     <value>groupBox3</value>
@@ -1672,11 +2041,11 @@
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="seriesGridView.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt</value>
+  <data name="&gt;&gt;applyFontToAll.Name" xml:space="preserve">
+    <value>applyFontToAll</value>
   </data>
-  <data name="&gt;&gt;italicChoice1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;chartTitleOnTop.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="boldChoice1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1690,14 +2059,14 @@
   <data name="apply.Text" xml:space="preserve">
     <value>Apply</value>
   </data>
-  <data name="genralPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>647, 301</value>
+  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
+    <value>colorDialog</value>
   </data>
   <data name="yAxisMajorGridStyle.Items" xml:space="preserve">
     <value>Solid</value>
   </data>
-  <data name="&gt;&gt;showYAxisMajorGrid.Name" xml:space="preserve">
-    <value>showYAxisMajorGrid</value>
+  <data name="yAxisMinorGridStyle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 56</value>
   </data>
   <data name="gridPage.Text" xml:space="preserve">
     <value>Grid</value>
@@ -1713,5 +2082,8 @@
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
+  </metadata>
+  <metadata name="label4.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
   </metadata>
 </root>

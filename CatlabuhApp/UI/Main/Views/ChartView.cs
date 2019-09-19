@@ -4,6 +4,7 @@ using CatlabuhApp.UI.Support.Setups;
 using CatlabuhAppSupportHelp.UI.Help;
 using System;
 using System.ComponentModel;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
@@ -51,12 +52,14 @@ namespace CatlabuhApp.UI.Main.Views
 
                 csd.Series = chart.Series;
                 csd.SetSeriesGridViewRows();
+                csd.SetPropertiesToDefault();
             }
         }
 
         private void CreateNewPieChart_Click(object sender, EventArgs e)
         {
             csd.HideControlsForPieChart(true);
+            csd.SetPropertiesToDefault();
 
             PieChartSetup pcs = new PieChartSetup(DataAccess);
             pcs.ShowDialog();
@@ -88,18 +91,42 @@ namespace CatlabuhApp.UI.Main.Views
                 {
                     chart.Titles[0].Text = csd.ChartTitle.Text;
                     chart.Titles[0].Font = csd.ChartTitle.Font;
-
-                    if (!csd.IsPieChart)
+                    chart.Titles[0].Docking = csd.ChartTitle.Docking;
+                    
+                    if (csd.IsPieChart)
                     {
+                        chart.Legends[1].Enabled = csd.IsLegendEnable;
+                        chart.Legends[1].Font = new Font(csd.FontFamilyOnChart, csd.LegendTextSize);
+                        chart.Legends[1].TitleFont = new Font(csd.FontFamilyOnChart, csd.LegendTextSize, FontStyle.Bold);
+
+                        for (int i = 0; i < chart.Series.Count; i++)
+                        {
+                            for (int j = 0; j < chart.Series[i].Points.Count; j++)
+                            {
+                                chart.Series[i].Points[j].CustomProperties = csd.IsPieLabelOutside ?
+                                "PieLabelStyle=Outside,LabelsRadialLineSize=0.25" : "PieLabelStyle=Inside";
+                            }
+                        }
+                    }
+                    else
+                    {
+                        chart.Legends[0].Enabled = csd.IsLegendEnable;
+                        chart.Legends[0].Font = new Font(csd.FontFamilyOnChart, csd.LegendTextSize);
+
+                        chart.ChartAreas[0].AxisX.LabelStyle.Font = new Font(csd.FontFamilyOnChart, csd.TextSizeOfInscriptions);
+                        chart.ChartAreas[0].AxisY.LabelStyle.Font = new Font(csd.FontFamilyOnChart, csd.TextSizeOfInscriptions);
+                       
                         chart.ChartAreas[0].AxisX.Title = csd.XAxisTitle.Text;
-                        chart.ChartAreas[0].AxisX.TitleFont = csd.XAxisTitle.Font;
                         chart.ChartAreas[0].AxisY.Title = csd.YAxisTitle.Text;
+
+                        chart.ChartAreas[0].AxisX.TitleFont = csd.XAxisTitle.Font;
                         chart.ChartAreas[0].AxisY.TitleFont = csd.YAxisTitle.Font;
 
                         chart.ChartAreas[0].AxisX.MajorGrid.Enabled = csd.IsShowXAxisMajorGrid;
                         chart.ChartAreas[0].AxisX.MinorGrid.Enabled = csd.IsShowXAxisMinorGrid;
                         chart.ChartAreas[0].AxisY.MajorGrid.Enabled = csd.IsShowYAxisMajorGrid;
                         chart.ChartAreas[0].AxisY.MinorGrid.Enabled = csd.IsShowYAxisMinorGrid;
+
                         chart.ChartAreas[0].AxisX.MajorGrid.LineDashStyle = csd.XAxisMajorGridLineDashStyle;
                         chart.ChartAreas[0].AxisX.MinorGrid.LineDashStyle = csd.XAxisMinorGridLineDashStyle;
                         chart.ChartAreas[0].AxisY.MajorGrid.LineDashStyle = csd.YAxisMajorGridLineDashStyle;
@@ -186,7 +213,7 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void ChartView_HelpRequested(object sender, HelpEventArgs hlpevent)
         {
-            new HelpForm("createChartText", "chartSetupText", "pieChartSetupText", "viewChartText", "styleChartText", "saveChartText", "exportChartText").Show();
+            new HelpForm("createChartText", "chartSetupText", "pieChartSetupText", "viewChartText", "styleChartText", "saveChartText").Show();
         }
       
     }

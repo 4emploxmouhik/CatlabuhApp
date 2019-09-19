@@ -50,8 +50,6 @@
             this.colorPanel7 = new System.Windows.Forms.Panel();
             this.colorPanel3 = new System.Windows.Forms.Panel();
             this.vgBox = new System.Windows.Forms.CheckBox();
-            this.dltVniBox = new System.Windows.Forms.CheckBox();
-            this.colorPanel6 = new System.Windows.Forms.Panel();
             this.vdrBox = new System.Windows.Forms.CheckBox();
             this.vdPlusBox = new System.Windows.Forms.CheckBox();
             this.colorPanel4 = new System.Windows.Forms.Panel();
@@ -174,8 +172,6 @@
             this.tabPage1.Controls.Add(this.colorPanel7);
             this.tabPage1.Controls.Add(this.colorPanel3);
             this.tabPage1.Controls.Add(this.vgBox);
-            this.tabPage1.Controls.Add(this.dltVniBox);
-            this.tabPage1.Controls.Add(this.colorPanel6);
             this.tabPage1.Controls.Add(this.vdrBox);
             this.tabPage1.Controls.Add(this.vdPlusBox);
             this.tabPage1.Controls.Add(this.colorPanel4);
@@ -187,7 +183,7 @@
             // 
             // colorPanel8
             // 
-            this.colorPanel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.colorPanel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(227)))), ((int)(((byte)(130)))));
             this.colorPanel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel8, "colorPanel8");
             this.colorPanel8.Name = "colorPanel8";
@@ -206,7 +202,7 @@
             // 
             // colorPanel1
             // 
-            this.colorPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(163)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.colorPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(140)))), ((int)(((byte)(240)))));
             this.colorPanel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel1, "colorPanel1");
             this.colorPanel1.Name = "colorPanel1";
@@ -225,7 +221,7 @@
             // 
             // colorPanel2
             // 
-            this.colorPanel2.BackColor = System.Drawing.Color.Red;
+            this.colorPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(180)))), ((int)(((byte)(65)))));
             this.colorPanel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel2, "colorPanel2");
             this.colorPanel2.Name = "colorPanel2";
@@ -254,7 +250,7 @@
             // 
             // colorPanel7
             // 
-            this.colorPanel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.colorPanel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(59)))), ((int)(((byte)(105)))));
             this.colorPanel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel7, "colorPanel7");
             this.colorPanel7.Name = "colorPanel7";
@@ -263,7 +259,7 @@
             // 
             // colorPanel3
             // 
-            this.colorPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(63)))), ((int)(((byte)(63)))));
+            this.colorPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(64)))), ((int)(((byte)(10)))));
             this.colorPanel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel3, "colorPanel3");
             this.colorPanel3.Name = "colorPanel3";
@@ -279,25 +275,6 @@
             this.vgBox.Tag = "Vg";
             this.vgBox.UseVisualStyleBackColor = true;
             this.vgBox.Click += new System.EventHandler(this.CheckBox_Click);
-            // 
-            // dltVniBox
-            // 
-            resources.ApplyResources(this.dltVniBox, "dltVniBox");
-            this.dltVniBox.Checked = true;
-            this.dltVniBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.dltVniBox.Name = "dltVniBox";
-            this.dltVniBox.Tag = "dlt_Vni";
-            this.dltVniBox.UseVisualStyleBackColor = true;
-            this.dltVniBox.Click += new System.EventHandler(this.CheckBox_Click);
-            // 
-            // colorPanel6
-            // 
-            this.colorPanel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(23)))), ((int)(((byte)(23)))));
-            this.colorPanel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            resources.ApplyResources(this.colorPanel6, "colorPanel6");
-            this.colorPanel6.Name = "colorPanel6";
-            this.colorPanel6.Tag = "avr_H";
-            this.colorPanel6.DoubleClick += new System.EventHandler(this.ColorPanel_DoubleClick);
             // 
             // vdrBox
             // 
@@ -321,7 +298,7 @@
             // 
             // colorPanel4
             // 
-            this.colorPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.colorPanel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(100)))), ((int)(((byte)(146)))));
             this.colorPanel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel4, "colorPanel4");
             this.colorPanel4.Name = "colorPanel4";
@@ -330,7 +307,7 @@
             // 
             // colorPanel5
             // 
-            this.colorPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.colorPanel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.colorPanel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel5, "colorPanel5");
             this.colorPanel5.Name = "colorPanel5";
@@ -359,7 +336,7 @@
             // 
             // colorPanel9
             // 
-            this.colorPanel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(163)))));
+            this.colorPanel9.BackColor = System.Drawing.Color.Sienna;
             this.colorPanel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel9, "colorPanel9");
             this.colorPanel9.Name = "colorPanel9";
@@ -368,7 +345,7 @@
             // 
             // colorPanel14
             // 
-            this.colorPanel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(255)))));
+            this.colorPanel14.BackColor = System.Drawing.Color.SandyBrown;
             this.colorPanel14.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel14, "colorPanel14");
             this.colorPanel14.Name = "colorPanel14";
@@ -407,7 +384,7 @@
             // 
             // colorPanel13
             // 
-            this.colorPanel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(200)))));
+            this.colorPanel13.BackColor = System.Drawing.Color.Brown;
             this.colorPanel13.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel13, "colorPanel13");
             this.colorPanel13.Name = "colorPanel13";
@@ -416,7 +393,7 @@
             // 
             // colorPanel10
             // 
-            this.colorPanel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.colorPanel10.BackColor = System.Drawing.Color.Chocolate;
             this.colorPanel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel10, "colorPanel10");
             this.colorPanel10.Name = "colorPanel10";
@@ -435,7 +412,7 @@
             // 
             // colorPanel11
             // 
-            this.colorPanel11.BackColor = System.Drawing.Color.Blue;
+            this.colorPanel11.BackColor = System.Drawing.Color.DarkRed;
             this.colorPanel11.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel11, "colorPanel11");
             this.colorPanel11.Name = "colorPanel11";
@@ -464,7 +441,7 @@
             // 
             // colorPanel12
             // 
-            this.colorPanel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(255)))));
+            this.colorPanel12.BackColor = System.Drawing.Color.Peru;
             this.colorPanel12.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel12, "colorPanel12");
             this.colorPanel12.Name = "colorPanel12";
@@ -505,7 +482,7 @@
             // 
             // colorPanel15
             // 
-            this.colorPanel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(93)))), ((int)(((byte)(0)))));
+            this.colorPanel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.colorPanel15.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel15, "colorPanel15");
             this.colorPanel15.Name = "colorPanel15";
@@ -524,7 +501,7 @@
             // 
             // colorPanel16
             // 
-            this.colorPanel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(209)))), ((int)(((byte)(0)))));
+            this.colorPanel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.colorPanel16.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel16, "colorPanel16");
             this.colorPanel16.Name = "colorPanel16";
@@ -543,7 +520,7 @@
             // 
             // colorPanel21
             // 
-            this.colorPanel21.BackColor = System.Drawing.Color.Lime;
+            this.colorPanel21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.colorPanel21.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel21, "colorPanel21");
             this.colorPanel21.Name = "colorPanel21";
@@ -552,7 +529,7 @@
             // 
             // colorPanel17
             // 
-            this.colorPanel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(140)))), ((int)(((byte)(0)))));
+            this.colorPanel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.colorPanel17.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel17, "colorPanel17");
             this.colorPanel17.Name = "colorPanel17";
@@ -581,7 +558,7 @@
             // 
             // colorPanel20
             // 
-            this.colorPanel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(116)))), ((int)(((byte)(0)))));
+            this.colorPanel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.colorPanel20.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel20, "colorPanel20");
             this.colorPanel20.Name = "colorPanel20";
@@ -610,7 +587,7 @@
             // 
             // colorPanel18
             // 
-            this.colorPanel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(232)))), ((int)(((byte)(0)))));
+            this.colorPanel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.colorPanel18.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel18, "colorPanel18");
             this.colorPanel18.Name = "colorPanel18";
@@ -619,7 +596,7 @@
             // 
             // colorPanel19
             // 
-            this.colorPanel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(186)))), ((int)(((byte)(0)))));
+            this.colorPanel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.colorPanel19.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel19, "colorPanel19");
             this.colorPanel19.Name = "colorPanel19";
@@ -644,7 +621,7 @@
             // 
             // colorPanel25
             // 
-            this.colorPanel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(232)))), ((int)(((byte)(0)))));
+            this.colorPanel25.BackColor = System.Drawing.Color.CadetBlue;
             this.colorPanel25.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel25, "colorPanel25");
             this.colorPanel25.Name = "colorPanel25";
@@ -663,7 +640,7 @@
             // 
             // colorPanel22
             // 
-            this.colorPanel22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(186)))), ((int)(((byte)(0)))));
+            this.colorPanel22.BackColor = System.Drawing.Color.SeaGreen;
             this.colorPanel22.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel22, "colorPanel22");
             this.colorPanel22.Name = "colorPanel22";
@@ -682,7 +659,7 @@
             // 
             // colorPanel23
             // 
-            this.colorPanel23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(92)))));
+            this.colorPanel23.BackColor = System.Drawing.Color.MediumAquamarine;
             this.colorPanel23.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel23, "colorPanel23");
             this.colorPanel23.Name = "colorPanel23";
@@ -701,7 +678,7 @@
             // 
             // colorPanel24
             // 
-            this.colorPanel24.BackColor = System.Drawing.Color.Yellow;
+            this.colorPanel24.BackColor = System.Drawing.Color.SteelBlue;
             this.colorPanel24.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             resources.ApplyResources(this.colorPanel24, "colorPanel24");
             this.colorPanel24.Name = "colorPanel24";
@@ -800,9 +777,7 @@
         private System.Windows.Forms.CheckBox vbBox;
         private System.Windows.Forms.CheckBox vdPlusBox;
         private System.Windows.Forms.Panel colorPanel3;
-        private System.Windows.Forms.Panel colorPanel6;
         private System.Windows.Forms.CheckBox vgBox;
-        private System.Windows.Forms.CheckBox dltVniBox;
         private System.Windows.Forms.Panel colorPanel4;
         private System.Windows.Forms.Panel colorPanel5;
         private System.Windows.Forms.CheckBox vdrBox;

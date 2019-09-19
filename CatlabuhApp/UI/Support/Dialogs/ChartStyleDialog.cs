@@ -1,6 +1,8 @@
 ﻿using CatlabuhApp.UI.Main.Views;
 using System;
+using System.Collections.Generic;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using static CatlabuhApp.UI.Main.UC.SeriesGridView;
@@ -9,53 +11,57 @@ namespace CatlabuhApp.UI.Support.Dialogs
 {
     public partial class ChartStyleDialog : Form
     {
-        private ChartView parent;
         public struct Title
         {
             public string Text { get; set; }
             public Font Font { get; set; }
+            public Docking Docking { get; set; }
 
             public override string ToString()
             {
-                return $"Text: {Text}\nFont: {Font.ToString()} {Font.Style.ToString()}\n";
+                return $"Text: {Text}\nFont: {Font.ToString()} {Font.Style.ToString()}\nDocking: {Docking}\n";
             }
         }
         public bool IsPieChart { get; set; } = false;
 
         #region General
-        public Title ChartTitle
+        public FontFamily FontFamilyOnChart => new FontFamily(fontFamiliesBox.SelectedItem.ToString());
+
+        public int TextSizeOfInscriptions => (int)textSize4.Value;
+
+        public bool IsApplyFontToAll => applyFontToAll.Checked;
+
+        public bool IsPieLabelOutside => pieLabelOutsideCheck.Checked;
+        
+        #endregion
+        #region Titles
+        public Title ChartTitle => new Title()
         {
-            get
-            {
-                return new Title()
-                {
-                    Text = chartTitleBox.Text,
-                    Font = new Font(Font.FontFamily, (float)textSize1.Value, GetFontStyle(regularChoice1, boldChoice1, italicChoice1, underlineChoice1))
-                };
-            }
-        }
-        public Title XAxisTitle
+            Text = chartTitleBox.Text,
+            Font = new Font(
+                FontFamilyOnChart, 
+                (float)(!IsApplyFontToAll ? textSize1.Value : TextSizeOfInscriptions), 
+                GetFontStyle(regularChoice1, boldChoice1, italicChoice1, underlineChoice1)),
+            Docking = chartTitleOnTop.Checked ? Docking.Top : Docking.Bottom
+        };
+
+        public Title XAxisTitle => new Title()
         {
-            get
-            {
-                return new Title()
-                {
-                    Text = xAxisTitleBox.Text,
-                    Font = new Font(Font.FontFamily, (float)textSize2.Value, GetFontStyle(regularChoice2, boldChoice2, italicChoice2, underlineChoice2))
-                };
-            }
-        }
-        public Title YAxisTitle
+            Text = xAxisTitleBox.Text,
+            Font = new Font(
+                FontFamilyOnChart,
+                (float)(!IsApplyFontToAll ? textSize2.Value : TextSizeOfInscriptions), 
+                GetFontStyle(regularChoice2, boldChoice2, italicChoice2, underlineChoice2))
+        };
+
+        public Title YAxisTitle => new Title()
         {
-            get
-            {
-                return new Title()
-                {
-                    Text = yAxisTitleBox.Text,
-                    Font = new Font(Font.FontFamily, (float)textSize3.Value, GetFontStyle(regularChoice3, boldChoice3, italicChoice3, underlineChoice3))
-                };
-            }
-        }
+            Text = yAxisTitleBox.Text,
+            Font = new Font(
+                FontFamilyOnChart,
+                (float)(!IsApplyFontToAll ? textSize3.Value : TextSizeOfInscriptions), 
+                GetFontStyle(regularChoice3, boldChoice3, italicChoice3, underlineChoice3))
+        };
 
         #endregion
         #region Grid
@@ -72,6 +78,12 @@ namespace CatlabuhApp.UI.Support.Dialogs
         public ChartDashStyle YAxisMinorGridLineDashStyle { get => GetLineStyle(yAxisMinorGridStyle); }
 
         #endregion
+        #region Legend
+        public bool IsLegendEnable => showLegend.Checked;
+
+        public int LegendTextSize => !IsApplyFontToAll ? (int)textSize5.Value : TextSizeOfInscriptions;
+
+        #endregion
 
         public SeriesCollection Series { get; set; }
         
@@ -80,17 +92,8 @@ namespace CatlabuhApp.UI.Support.Dialogs
             Main.Forms.MainForm.GetCultureInfo();
             InitializeComponent();
 
-            textSize1.Value = 12;
-            textSize2.Value = 10;
-            textSize3.Value = 10;
-
-            xAxisMajorGridStyle.SelectedIndex = 0;
-            yAxisMajorGridStyle.SelectedIndex = 0;
-        }
-
-        public ChartStyleDialog(ChartView parent)
-        {
-            this.parent = parent;
+            SetFontFamilyItems();
+            SetPropertiesToDefault();
         }
 
         public void SetSeriesGridViewRows()
@@ -251,7 +254,7 @@ namespace CatlabuhApp.UI.Support.Dialogs
                 groupBox1.Enabled = false;
                 groupBox3.Enabled = false;
                 groupBox4.Enabled = false;
-                seriesGridView.Visible = false;
+                //seriesGridView.Visible = false;
                 showGrid.Enabled = false;
             }
             else
@@ -259,9 +262,58 @@ namespace CatlabuhApp.UI.Support.Dialogs
                 groupBox1.Enabled = true;
                 groupBox3.Enabled = true;
                 groupBox4.Enabled = true;
-                seriesGridView.Visible = true;
+                //seriesGridView.Visible = true;
                 showGrid.Enabled = true;
             }
+        }
+
+        private void SetFontFamilyItems()
+        {
+            InstalledFontCollection installedFontCollection = new InstalledFontCollection();
+            FontFamily[] fontFamilies = installedFontCollection.Families;
+            List<string> fontFamilesNames = new List<string>();
+
+            foreach (var entry in fontFamilies)
+            {
+                fontFamilesNames.Add(entry.Name);
+            }
+
+            fontFamiliesBox.Items.AddRange(fontFamilesNames.ToArray());
+            fontFamiliesBox.SelectedItem = fontFamiliesBox.Items[107];
+        }
+
+        public void SetPropertiesToDefault()
+        {
+            textSize1.Value = 16;
+            textSize2.Value = 14;
+            textSize3.Value = 14;
+            textSize4.Value = 14;
+            textSize5.Value = 10;
+
+            xAxisMajorGridStyle.SelectedIndex = 0;
+            yAxisMajorGridStyle.SelectedIndex = 0;
+
+            fontFamiliesBox.SelectedItem = fontFamiliesBox.Items[107];
+
+            applyFontToAll.Checked = false;
+
+            showLegend.Checked = true;
+            
+            showGrid.Checked = true;
+            showXAxisMajorGrid.Checked = true;
+            showYAxisMajorGrid.Checked = true;
+            showXAxisMinorGrid.Checked = false;
+            showYAxisMinorGrid.Checked = false;
+
+            regularChoice1.Checked = true;
+            regularChoice2.Checked = true;
+            regularChoice3.Checked = true;
+
+            chartTitleOnTop.Checked = true;
+
+            pieLabelOutsideCheck.Checked = false;
+
+            chartTitleBox.Clear();
         }
     }
 }

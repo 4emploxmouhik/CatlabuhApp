@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 namespace CatlabuhApp.UI.Main.Views
 {
@@ -71,7 +72,9 @@ namespace CatlabuhApp.UI.Main.Views
             double[,] table_3_2 = DataAccess.GetTableData<double>("IADOfGroundwaterInflow", 12, tablesColumnName);
             double[] coefficients = DataAccess.GetColumnData<double>("SELECT CoefficientValue FROM Coefficients").ToArray();
 
-            SetPPercentPageStyle();
+            SetGammaDistributionGridStyle(1, pPercentGrid, pPercentChart);
+            SetGammaDistributionGridStyle(2, kpPercentGrid, kpPercentChart);
+
             SetFHGridStyle();
             SetToolTips();
 
@@ -85,27 +88,29 @@ namespace CatlabuhApp.UI.Main.Views
                     table_3_2Boxes[k].Tag = tablesColumnName[i];
                 }
             }
-            for (int i = 0; i < coefficientsBoxes.Count; i++)
+
+            for (int i = 0, k = 0; i < coefficientsBoxes.Count; i++)
             {
-                coefficientsBoxes[i].Text = coefficients[i].ToString();
+                if (i == 7 || i == 34)
+                {
+                    k++;
+                }
+
+                coefficientsBoxes[i].Text = coefficients[i + k].ToString();
+
+                this.coefficients.Add( new Item()
+                {
+                    TextBox = coefficientsBoxes[i],
+                    TableName = "Coefficients",
+                    ColumnName = "CoefficientValue",
+                    IDColumnName = "CoefficientID",
+                    ID = (i + k + 1).ToString()
+                });
             }
+
             for (int i = 0; i < 71; i++)
             {
                 FHChart.Series[0].Points.AddXY(FHGrid.Rows[i].Cells[0].Value, FHGrid.Rows[i].Cells[1].Value);
-            }
-
-            for (int i = 0; i < coefficientsBoxes.Count; i++)
-            {
-                this.coefficients.Add(
-                    new Item()
-                    {
-                        TextBox = coefficientsBoxes[i],
-                        TableName = "Coefficients",
-                        ColumnName = "CoefficientValue",
-                        IDColumnName = "CoefficientID",
-                        ID = (i + 1).ToString()
-                    }
-                );
             }
 
             bool isFirstTable = true;
@@ -182,31 +187,6 @@ namespace CatlabuhApp.UI.Main.Views
             }
         }
 
-        private void SetPPercentPageStyle()
-        {
-            chartsTabControl.TabPages[0].Text = "P(p%)";
-            pPercentChart.ChartAreas[0].AxisX.Title = "p%";
-            pPercentChart.ChartAreas[0].AxisY.Title = "P";
-
-            pPercentGrid.DataSource = DataAccess.GetTableView("SELECT Xp AS[P], Percent AS[p%], PointID FROM GammaDistribution");
-            pPercentGrid.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            pPercentGrid.Columns[0].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            pPercentGrid.Columns[0].Tag = "Xp";
-            pPercentGrid.Columns[0].SortMode = DataGridViewColumnSortMode.NotSortable;
-            pPercentGrid.Columns[1].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            pPercentGrid.Columns[1].Tag = "Percent";
-            pPercentGrid.Columns[1].SortMode = DataGridViewColumnSortMode.NotSortable;
-            pPercentGrid.Columns[2].Visible = false;
-            pPercentGrid.DataError += DataGridView_DataError;
-
-            for (int i = 0; i < 106; i++)
-            {
-                pPercentChart.Series[0].Points.AddXY(pPercentGrid.Rows[i].Cells[1].Value, pPercentGrid.Rows[i].Cells[0].Value);
-            }
-
-            pPercentChart.Series[0].LegendText = "P(p%)";
-        }
-
         private void SetFHGridStyle()
         {
             string avrHView;
@@ -221,7 +201,7 @@ namespace CatlabuhApp.UI.Main.Views
                     break;
             }
 
-            chartsTabControl.TabPages[1].Text = $"F({avrHView})";
+            chartsTabControl.TabPages[0].Text = $"F({avrHView})";
             FHChart.Series[0].LegendText = $"F({avrHView})";
             FHChart.ChartAreas[0].AxisX.Title = "F";
             FHChart.ChartAreas[0].AxisY.Title = avrHView;
@@ -238,6 +218,31 @@ namespace CatlabuhApp.UI.Main.Views
             FHGrid.Columns[1].SortMode = DataGridViewColumnSortMode.NotSortable;
             FHGrid.Columns[2].Visible = false;
             FHGrid.DataError += DataGridView_DataError;
+        }
+
+        private void SetGammaDistributionGridStyle(int tabPageIndex, DataGridView gridView, Chart chart)
+        {
+            chartsTabControl.TabPages[tabPageIndex].Text = tabPageIndex == 1 ? "P(p%)" : "kp(p%)";
+            chart.ChartAreas[0].AxisX.Title = "p%";
+            chart.ChartAreas[0].AxisY.Title = tabPageIndex == 1 ? "P" : "kp";
+
+            gridView.DataSource = DataAccess.GetTableView($"SELECT {(tabPageIndex == 1 ? "Xp AS[P]" : "kp")}, Percent AS[p%], PointID FROM GammaDistribution");
+            gridView.DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            gridView.Columns[0].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            gridView.Columns[0].Tag = tabPageIndex == 1 ? "Xp" : "kp";
+            gridView.Columns[0].SortMode = DataGridViewColumnSortMode.NotSortable;
+            gridView.Columns[1].HeaderCell.Style.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            gridView.Columns[1].Tag = "Percent";
+            gridView.Columns[1].SortMode = DataGridViewColumnSortMode.NotSortable;
+            gridView.Columns[2].Visible = false;
+            gridView.DataError += DataGridView_DataError;
+
+            for (int i = 0; i < 106; i++)
+            {
+                chart.Series[0].Points.AddXY(gridView.Rows[i].Cells[1].Value, gridView.Rows[i].Cells[0].Value);
+            }
+
+            chart.Series[0].LegendText = tabPageIndex == 1 ? "P(p%)" : "kp(p%)";
         }
 
         private void SetToolTips()
@@ -275,7 +280,7 @@ namespace CatlabuhApp.UI.Main.Views
         #region Фиксация изменения в элементах настройки расчёта
         private void ChartsTabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
-            isFHChartPage = !isFHChartPage;
+            isFHChartPage = chartsTabControl.SelectedIndex == 0 ? true : false;
         }
 
         private void CoefficientBox_TextChanged(object sender, EventArgs e)
@@ -293,19 +298,21 @@ namespace CatlabuhApp.UI.Main.Views
 
         private void DataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
+            DataGridView someGridView = (DataGridView)sender;
+
             if (isInitialized)
             {
                 Item item = new Item()
                 {
                     TableName = isFHChartPage ? "DependenceOfAvrHToF" : "GammaDistribution",
-                    ColumnName = (isFHChartPage ? FHGrid.Columns[e.ColumnIndex].Tag : pPercentGrid.Columns[e.ColumnIndex].Tag).ToString(),
+                    ColumnName = someGridView.Columns[e.ColumnIndex].Tag.ToString(),
                     IDColumnName = "PointID",
-                    ID = (isFHChartPage ? FHGrid.Rows[e.RowIndex].Cells[2].Value : pPercentGrid.Rows[e.RowIndex].Cells[2].Value).ToString(),
-                    Value = (isFHChartPage ? FHGrid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value : pPercentGrid.Rows[e.RowIndex].Cells[e.ColumnIndex].Value).ToString(),
+                    ID = someGridView.Rows[e.RowIndex].Cells[2].Value.ToString(),
+                    Value = someGridView.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString(),
                     IsChanged = true
                 };
 
-                itemsToSaveInGrid.Add(item); Console.WriteLine(item.ToString());
+                itemsToSaveInGrid.Add(item);
                 isItemsChanged = true;
             }
         }

@@ -28,10 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.Label label4;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ChartStyleDialog));
             this.tabControl = new System.Windows.Forms.TabControl();
-            this.genralPage = new System.Windows.Forms.TabPage();
+            this.generalPage = new System.Windows.Forms.TabPage();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.pieLabelOutsideCheck = new System.Windows.Forms.CheckBox();
+            this.applyFontToAll = new System.Windows.Forms.CheckBox();
+            this.fontFamiliesBox = new System.Windows.Forms.ComboBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textSize4 = new System.Windows.Forms.NumericUpDown();
+            this.titlesPage = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.chartTitleOnBottom = new System.Windows.Forms.RadioButton();
+            this.chartTitleOnTop = new System.Windows.Forms.RadioButton();
             this.regularChoice1 = new System.Windows.Forms.RadioButton();
             this.underlineChoice1 = new System.Windows.Forms.RadioButton();
             this.italicChoice1 = new System.Windows.Forms.RadioButton();
@@ -73,13 +84,22 @@
             this.showGrid = new System.Windows.Forms.CheckBox();
             this.seriesPage = new System.Windows.Forms.TabPage();
             this.seriesGridView = new CatlabuhApp.UI.Main.UC.SeriesGridView();
+            this.legendPage = new System.Windows.Forms.TabPage();
+            this.showLegend = new System.Windows.Forms.CheckBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textSize5 = new System.Windows.Forms.NumericUpDown();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cancel = new System.Windows.Forms.Button();
             this.apply = new System.Windows.Forms.Button();
             this.colorDialog = new System.Windows.Forms.ColorDialog();
+            label4 = new System.Windows.Forms.Label();
             this.tabControl.SuspendLayout();
-            this.genralPage.SuspendLayout();
+            this.generalPage.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textSize4)).BeginInit();
+            this.titlesPage.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textSize1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -89,29 +109,87 @@
             this.groupBox4.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.seriesPage.SuspendLayout();
+            this.legendPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textSize5)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // label4
+            // 
+            resources.ApplyResources(label4, "label4");
+            label4.Name = "label4";
             // 
             // tabControl
             // 
             resources.ApplyResources(this.tabControl, "tabControl");
-            this.tabControl.Controls.Add(this.genralPage);
+            this.tabControl.Controls.Add(this.generalPage);
+            this.tabControl.Controls.Add(this.titlesPage);
             this.tabControl.Controls.Add(this.gridPage);
             this.tabControl.Controls.Add(this.seriesPage);
+            this.tabControl.Controls.Add(this.legendPage);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
             // 
-            // genralPage
+            // generalPage
             // 
-            resources.ApplyResources(this.genralPage, "genralPage");
-            this.genralPage.BackColor = System.Drawing.SystemColors.Control;
-            this.genralPage.Controls.Add(this.groupBox2);
-            this.genralPage.Controls.Add(this.groupBox1);
-            this.genralPage.Name = "genralPage";
+            resources.ApplyResources(this.generalPage, "generalPage");
+            this.generalPage.BackColor = System.Drawing.SystemColors.Control;
+            this.generalPage.Controls.Add(this.groupBox6);
+            this.generalPage.Controls.Add(this.applyFontToAll);
+            this.generalPage.Controls.Add(this.fontFamiliesBox);
+            this.generalPage.Controls.Add(this.label9);
+            this.generalPage.Controls.Add(label4);
+            this.generalPage.Controls.Add(this.textSize4);
+            this.generalPage.Name = "generalPage";
+            // 
+            // groupBox6
+            // 
+            resources.ApplyResources(this.groupBox6, "groupBox6");
+            this.groupBox6.Controls.Add(this.pieLabelOutsideCheck);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.TabStop = false;
+            // 
+            // pieLabelOutsideCheck
+            // 
+            resources.ApplyResources(this.pieLabelOutsideCheck, "pieLabelOutsideCheck");
+            this.pieLabelOutsideCheck.Name = "pieLabelOutsideCheck";
+            this.pieLabelOutsideCheck.UseVisualStyleBackColor = true;
+            // 
+            // applyFontToAll
+            // 
+            resources.ApplyResources(this.applyFontToAll, "applyFontToAll");
+            this.applyFontToAll.Name = "applyFontToAll";
+            this.applyFontToAll.UseVisualStyleBackColor = true;
+            // 
+            // fontFamiliesBox
+            // 
+            resources.ApplyResources(this.fontFamiliesBox, "fontFamiliesBox");
+            this.fontFamiliesBox.FormattingEnabled = true;
+            this.fontFamiliesBox.Name = "fontFamiliesBox";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.Name = "label9";
+            // 
+            // textSize4
+            // 
+            resources.ApplyResources(this.textSize4, "textSize4");
+            this.textSize4.Name = "textSize4";
+            this.textSize4.Tag = "chart";
+            // 
+            // titlesPage
+            // 
+            resources.ApplyResources(this.titlesPage, "titlesPage");
+            this.titlesPage.BackColor = System.Drawing.SystemColors.Control;
+            this.titlesPage.Controls.Add(this.groupBox2);
+            this.titlesPage.Controls.Add(this.groupBox1);
+            this.titlesPage.Name = "titlesPage";
             // 
             // groupBox2
             // 
             resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Controls.Add(this.groupBox5);
             this.groupBox2.Controls.Add(this.regularChoice1);
             this.groupBox2.Controls.Add(this.underlineChoice1);
             this.groupBox2.Controls.Add(this.italicChoice1);
@@ -121,6 +199,28 @@
             this.groupBox2.Controls.Add(this.textSize1);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
+            // 
+            // groupBox5
+            // 
+            resources.ApplyResources(this.groupBox5, "groupBox5");
+            this.groupBox5.Controls.Add(this.chartTitleOnBottom);
+            this.groupBox5.Controls.Add(this.chartTitleOnTop);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.TabStop = false;
+            // 
+            // chartTitleOnBottom
+            // 
+            resources.ApplyResources(this.chartTitleOnBottom, "chartTitleOnBottom");
+            this.chartTitleOnBottom.Name = "chartTitleOnBottom";
+            this.chartTitleOnBottom.UseVisualStyleBackColor = true;
+            // 
+            // chartTitleOnTop
+            // 
+            resources.ApplyResources(this.chartTitleOnTop, "chartTitleOnTop");
+            this.chartTitleOnTop.Checked = true;
+            this.chartTitleOnTop.Name = "chartTitleOnTop";
+            this.chartTitleOnTop.TabStop = true;
+            this.chartTitleOnTop.UseVisualStyleBackColor = true;
             // 
             // regularChoice1
             // 
@@ -417,11 +517,39 @@
             this.seriesPage.BackColor = System.Drawing.SystemColors.Control;
             this.seriesPage.Controls.Add(this.seriesGridView);
             this.seriesPage.Name = "seriesPage";
-            // 
+            //
             // seriesGridView
             // 
             resources.ApplyResources(this.seriesGridView, "seriesGridView");
             this.seriesGridView.Name = "seriesGridView";
+            // 
+            // legendPage
+            // 
+            resources.ApplyResources(this.legendPage, "legendPage");
+            this.legendPage.BackColor = System.Drawing.SystemColors.Control;
+            this.legendPage.Controls.Add(this.showLegend);
+            this.legendPage.Controls.Add(this.label10);
+            this.legendPage.Controls.Add(this.textSize5);
+            this.legendPage.Name = "legendPage";
+            // 
+            // showLegend
+            // 
+            resources.ApplyResources(this.showLegend, "showLegend");
+            this.showLegend.Checked = true;
+            this.showLegend.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.showLegend.Name = "showLegend";
+            this.showLegend.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.Name = "label10";
+            // 
+            // textSize5
+            // 
+            resources.ApplyResources(this.textSize5, "textSize5");
+            this.textSize5.Name = "textSize5";
+            this.textSize5.Tag = "chart";
             // 
             // panel1
             // 
@@ -456,9 +584,16 @@
             this.Name = "ChartStyleDialog";
             this.ShowInTaskbar = false;
             this.tabControl.ResumeLayout(false);
-            this.genralPage.ResumeLayout(false);
+            this.generalPage.ResumeLayout(false);
+            this.generalPage.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textSize4)).EndInit();
+            this.titlesPage.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textSize1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -472,7 +607,10 @@
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            this.legendPage.ResumeLayout(false);
             this.seriesPage.ResumeLayout(false);
+            this.legendPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.textSize5)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -481,7 +619,7 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabControl;
-        private System.Windows.Forms.TabPage genralPage;
+        private System.Windows.Forms.TabPage titlesPage;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button apply;
         private System.Windows.Forms.Button cancel;
@@ -528,5 +666,19 @@
         private System.Windows.Forms.ColorDialog colorDialog;
         private System.Windows.Forms.TabPage seriesPage;
         private Main.UC.SeriesGridView seriesGridView;
+        private System.Windows.Forms.TabPage generalPage;
+        private System.Windows.Forms.ComboBox fontFamiliesBox;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.NumericUpDown textSize4;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.RadioButton chartTitleOnBottom;
+        private System.Windows.Forms.RadioButton chartTitleOnTop;
+        private System.Windows.Forms.CheckBox applyFontToAll;
+        private System.Windows.Forms.TabPage legendPage;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.NumericUpDown textSize5;
+        private System.Windows.Forms.CheckBox showLegend;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.CheckBox pieLabelOutsideCheck;
     }
 }

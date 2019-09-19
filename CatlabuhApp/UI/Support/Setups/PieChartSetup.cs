@@ -38,7 +38,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
             wbppColorPanels = new Panel[]
             {
-                colorPanel1, colorPanel2, colorPanel3, colorPanel4, colorPanel5, colorPanel6, colorPanel7, colorPanel8
+                colorPanel1, colorPanel2, colorPanel3, colorPanel4, colorPanel5, /*colorPanel6,*/ colorPanel7, colorPanel8
             };
             wbcpColorPanels = new Panel[]
             {
@@ -70,7 +70,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
             List<CheckBox> checkBoxes = new List<CheckBox>();
             checkBoxes.AddRange(new[] {
-                vpBox, vrBox, vbBox, vgBox, vdrBox, dltVniBox, vdPlusBox, vozPlusBox, 
+                vpBox, vrBox, vbBox, vgBox, vdrBox, /*dltVniBox,*/ vdPlusBox, vozPlusBox, 
                 veBox, vtrBox, vfBox, vzBox, vdMinusBox, vozMinusBox,
                 cpBox, crBox, cbBox, cgBox, cdrBox, cdPlusBox, cozPlusBox,
                 cfBox, czBox, cdMinusBox, cozMinusBox
@@ -186,7 +186,7 @@ namespace CatlabuhApp.UI.Support.Setups
 
         private void Remove_Click(object sender, EventArgs e)
         {
-            if (partsListBox.Items.Count > 0 || partsListBox.SelectedIndex != -1)
+            if (partsListBox.SelectedIndex != -1)
             {
                 for (int i = 0; i < tabControl.TabPages.Count; i++)
                 {

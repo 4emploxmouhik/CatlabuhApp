@@ -121,17 +121,29 @@
   <data name="languageBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>79, 153</value>
   </data>
+  <data name="languageBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 16</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Мова:</value>
   </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="callFolderBrowser4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>739, 112</value>
+    <value>739, 86</value>
+  </data>
+  <data name="callFolderBrowser4.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="imgChartsPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>339, 114</value>
+    <value>339, 88</value>
+  </data>
+  <data name="imgChartsPathBox.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>306, 16</value>
@@ -139,11 +151,20 @@
   <data name="label4.Text" xml:space="preserve">
     <value>Шлях до папки з файлами зображень діаграм:</value>
   </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="callFolderBrowser3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>739, 86</value>
+    <value>739, 112</value>
+  </data>
+  <data name="callFolderBrowser3.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="xlChartsPathBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>339, 88</value>
+    <value>339, 114</value>
+  </data>
+  <data name="xlChartsPathBox.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>271, 16</value>
@@ -151,11 +172,20 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Шлях до папки з файлами графіків Excel:</value>
   </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="callFolderBrowser2.Location" type="System.Drawing.Point, System.Drawing">
     <value>739, 60</value>
   </data>
+  <data name="callFolderBrowser2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="xlCalcPathBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>339, 62</value>
+  </data>
+  <data name="xlCalcPathBox.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>297, 16</value>
@@ -163,8 +193,8 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Шлях до папки з файлами розрахунків Excel:</value>
   </data>
-  <data name="generalPage.Text" xml:space="preserve">
-    <value>Загальні налаштування</value>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 16</value>
@@ -172,11 +202,26 @@
   <data name="label29.Text" xml:space="preserve">
     <value>Шлях до файлу БД SQLite:</value>
   </data>
-  <data name="calculationPage.Text" xml:space="preserve">
-    <value>Налаштування розрахунку</value>
+  <data name="label29.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="table_3_2Group.Text" xml:space="preserve">
-    <value>Внутрішньорічний розподіл припливу ґрунтових вод</value>
+  <data name="dbPathBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="callOpenFileDialog.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="generalPage.Text" xml:space="preserve">
+    <value>Загальні налаштування</value>
+  </data>
+  <data name="generalPage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label19.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 106</value>
@@ -187,6 +232,9 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Маловодний</value>
   </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label84.Location" type="System.Drawing.Point, System.Drawing">
     <value>712, 30</value>
   </data>
@@ -195,6 +243,9 @@
   </data>
   <data name="label84.Text" xml:space="preserve">
     <value>Груд.</value>
+  </data>
+  <data name="label84.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 80</value>
@@ -205,11 +256,20 @@
   <data name="label6.Text" xml:space="preserve">
     <value>Середньоводний</value>
   </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 16</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Багатоводний</value>
+  </data>
+  <data name="label7.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label85.Location" type="System.Drawing.Point, System.Drawing">
     <value>653, 30</value>
@@ -220,6 +280,15 @@
   <data name="label85.Text" xml:space="preserve">
     <value>Листоп.</value>
   </data>
+  <data name="label85.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label86.Location" type="System.Drawing.Point, System.Drawing">
     <value>608, 30</value>
   </data>
@@ -228,6 +297,18 @@
   </data>
   <data name="label86.Text" xml:space="preserve">
     <value>Жовт.</value>
+  </data>
+  <data name="label86.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox5.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label87.Location" type="System.Drawing.Point, System.Drawing">
     <value>562, 30</value>
@@ -238,6 +319,12 @@
   <data name="label87.Text" xml:space="preserve">
     <value>Вер.</value>
   </data>
+  <data name="label87.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label88.Location" type="System.Drawing.Point, System.Drawing">
     <value>507, 30</value>
   </data>
@@ -246,6 +333,18 @@
   </data>
   <data name="label88.Text" xml:space="preserve">
     <value>Серп.</value>
+  </data>
+  <data name="label88.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox3.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label89.Location" type="System.Drawing.Point, System.Drawing">
     <value>460, 30</value>
@@ -256,6 +355,12 @@
   <data name="label89.Text" xml:space="preserve">
     <value>Лип.</value>
   </data>
+  <data name="label89.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label90.Location" type="System.Drawing.Point, System.Drawing">
     <value>405, 30</value>
   </data>
@@ -264,6 +369,15 @@
   </data>
   <data name="label90.Text" xml:space="preserve">
     <value>Черв.</value>
+  </data>
+  <data name="label90.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox5.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label91.Location" type="System.Drawing.Point, System.Drawing">
     <value>354, 30</value>
@@ -274,6 +388,12 @@
   <data name="label91.Text" xml:space="preserve">
     <value>Трав.</value>
   </data>
+  <data name="label91.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label92.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 30</value>
   </data>
@@ -282,6 +402,12 @@
   </data>
   <data name="label92.Text" xml:space="preserve">
     <value>Квіт.</value>
+  </data>
+  <data name="label92.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox3.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label93.Location" type="System.Drawing.Point, System.Drawing">
     <value>248, 30</value>
@@ -292,6 +418,12 @@
   <data name="label93.Text" xml:space="preserve">
     <value>Берез.</value>
   </data>
+  <data name="label93.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label94.Location" type="System.Drawing.Point, System.Drawing">
     <value>205, 30</value>
   </data>
@@ -300,6 +432,12 @@
   </data>
   <data name="label94.Text" xml:space="preserve">
     <value>Лют.</value>
+  </data>
+  <data name="label94.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label95.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 30</value>
@@ -310,8 +448,89 @@
   <data name="label95.Text" xml:space="preserve">
     <value>Січ.</value>
   </data>
-  <data name="table_3_1Group.Text" xml:space="preserve">
-    <value>Внутрішньорічний розподіл поверхневого стоку</value>
+  <data name="label95.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2ItemBox0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_2Group.Text" xml:space="preserve">
+    <value>Внутрішньорічний розподіл припливу ґрунтових вод</value>
+  </data>
+  <data name="table_3_2Group.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label59.Location" type="System.Drawing.Point, System.Drawing">
     <value>712, 30</value>
@@ -322,6 +541,12 @@
   <data name="label59.Text" xml:space="preserve">
     <value>Груд.</value>
   </data>
+  <data name="label59.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label60.Location" type="System.Drawing.Point, System.Drawing">
     <value>653, 30</value>
   </data>
@@ -330,6 +555,12 @@
   </data>
   <data name="label60.Text" xml:space="preserve">
     <value>Листоп.</value>
+  </data>
+  <data name="label60.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox10.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label61.Location" type="System.Drawing.Point, System.Drawing">
     <value>608, 30</value>
@@ -340,6 +571,12 @@
   <data name="label61.Text" xml:space="preserve">
     <value>Жовт.</value>
   </data>
+  <data name="label61.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label62.Location" type="System.Drawing.Point, System.Drawing">
     <value>562, 30</value>
   </data>
@@ -348,6 +585,12 @@
   </data>
   <data name="label62.Text" xml:space="preserve">
     <value>Вер.</value>
+  </data>
+  <data name="label62.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox8.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label63.Location" type="System.Drawing.Point, System.Drawing">
     <value>507, 30</value>
@@ -358,6 +601,12 @@
   <data name="label63.Text" xml:space="preserve">
     <value>Серп.</value>
   </data>
+  <data name="label63.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label74.Location" type="System.Drawing.Point, System.Drawing">
     <value>460, 30</value>
   </data>
@@ -366,6 +615,12 @@
   </data>
   <data name="label74.Text" xml:space="preserve">
     <value>Лип.</value>
+  </data>
+  <data name="label74.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox6.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label75.Location" type="System.Drawing.Point, System.Drawing">
     <value>405, 30</value>
@@ -376,6 +631,12 @@
   <data name="label75.Text" xml:space="preserve">
     <value>Черв.</value>
   </data>
+  <data name="label75.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label76.Location" type="System.Drawing.Point, System.Drawing">
     <value>354, 30</value>
   </data>
@@ -384,6 +645,12 @@
   </data>
   <data name="label76.Text" xml:space="preserve">
     <value>Трав.</value>
+  </data>
+  <data name="label76.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox4.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 30</value>
@@ -394,6 +661,12 @@
   <data name="label77.Text" xml:space="preserve">
     <value>Квіт.</value>
   </data>
+  <data name="label77.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label78.Location" type="System.Drawing.Point, System.Drawing">
     <value>248, 30</value>
   </data>
@@ -402,6 +675,12 @@
   </data>
   <data name="label78.Text" xml:space="preserve">
     <value>Берез.</value>
+  </data>
+  <data name="label78.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox2.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label79.Location" type="System.Drawing.Point, System.Drawing">
     <value>205, 30</value>
@@ -412,6 +691,12 @@
   <data name="label79.Text" xml:space="preserve">
     <value>Лют.</value>
   </data>
+  <data name="label79.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label80.Location" type="System.Drawing.Point, System.Drawing">
     <value>157, 30</value>
   </data>
@@ -420,6 +705,9 @@
   </data>
   <data name="label80.Text" xml:space="preserve">
     <value>Січ.</value>
+  </data>
+  <data name="label80.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label81.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 106</value>
@@ -430,6 +718,9 @@
   <data name="label81.Text" xml:space="preserve">
     <value>Маловодний</value>
   </data>
+  <data name="label81.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label82.Location" type="System.Drawing.Point, System.Drawing">
     <value>23, 80</value>
   </data>
@@ -439,17 +730,155 @@
   <data name="label82.Text" xml:space="preserve">
     <value>Середньоводний</value>
   </data>
+  <data name="label82.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1ItemBox0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 16</value>
   </data>
   <data name="label83.Text" xml:space="preserve">
     <value>Багатоводний</value>
   </data>
+  <data name="label83.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="table_3_1Group.Text" xml:space="preserve">
+    <value>Внутрішньорічний розподіл поверхневого стоку</value>
+  </data>
+  <data name="table_3_1Group.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox89.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label50.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox91.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label51.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label52.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox92.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label53.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="SBCFunctionsPart.Text" xml:space="preserve">
     <value>Сольовий баланс витратна частина</value>
   </data>
-  <data name="WBCFunctionsPart.Text" xml:space="preserve">
-    <value>Водний баланс витратна частина</value>
+  <data name="SBCFunctionsPart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label18.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label16.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label64.Location" type="System.Drawing.Point, System.Drawing">
     <value>363, 30</value>
@@ -460,6 +889,12 @@
   <data name="label64.Text" xml:space="preserve">
     <value>Жовт.</value>
   </data>
+  <data name="label64.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label65.Location" type="System.Drawing.Point, System.Drawing">
     <value>317, 30</value>
   </data>
@@ -468,6 +903,12 @@
   </data>
   <data name="label65.Text" xml:space="preserve">
     <value>Вер.</value>
+  </data>
+  <data name="label65.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox18.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label66.Location" type="System.Drawing.Point, System.Drawing">
     <value>262, 30</value>
@@ -478,6 +919,12 @@
   <data name="label66.Text" xml:space="preserve">
     <value>Серп.</value>
   </data>
+  <data name="label66.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label67.Location" type="System.Drawing.Point, System.Drawing">
     <value>215, 30</value>
   </data>
@@ -486,6 +933,12 @@
   </data>
   <data name="label67.Text" xml:space="preserve">
     <value>Лип.</value>
+  </data>
+  <data name="label67.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox16.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label68.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 30</value>
@@ -496,6 +949,12 @@
   <data name="label68.Text" xml:space="preserve">
     <value>Черв.</value>
   </data>
+  <data name="label68.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox15.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label69.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 30</value>
   </data>
@@ -504,6 +963,12 @@
   </data>
   <data name="label69.Text" xml:space="preserve">
     <value>Трав.</value>
+  </data>
+  <data name="label69.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox14.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label70.Location" type="System.Drawing.Point, System.Drawing">
     <value>62, 30</value>
@@ -514,17 +979,296 @@
   <data name="label70.Text" xml:space="preserve">
     <value>Квіт.</value>
   </data>
+  <data name="label70.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label71.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label72.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox110.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox30.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox29.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="textBox122.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox23.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox21.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox19.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox13.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label73.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="label58.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 136</value>
+  </data>
+  <data name="label58.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label57.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label55.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label56.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label54.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label48.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label49.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WBCFunctionsPart.Text" xml:space="preserve">
+    <value>Водний баланс витратна частина</value>
+  </data>
+  <data name="WBCFunctionsPart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox36.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label97.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label47.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label46.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label42.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label43.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label45.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label44.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox37.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label96.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="SBPFunctionsPart.Text" xml:space="preserve">
     <value>Сольовий баланс прибуткова частина</value>
   </data>
-  <data name="WBPFunctionsPart.Text" xml:space="preserve">
-    <value>Водний баланс прибуткова частина</value>
+  <data name="SBPFunctionsPart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label37.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label27.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label26.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label25.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label41.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label38.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label39.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label40.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox34.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 33</value>
+  </data>
+  <data name="label32.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label36.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label31.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label35.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label33.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label34.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="coefficientBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WBPFunctionsPart.Text" xml:space="preserve">
+    <value>Водний баланс прибуткова частина</value>
+  </data>
+  <data name="WBPFunctionsPart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FHChart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FHGrid.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pPercentChart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pPercentGrid.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kpPercentChart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="kpPercentGrid.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartsTabControl.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="calculationPage.Text" xml:space="preserve">
+    <value>Налаштування розрахунку</value>
+  </data>
+  <data name="calculationPage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="apply.Location" type="System.Drawing.Point, System.Drawing">
     <value>1292, 0</value>
@@ -534,5 +1278,14 @@
   </data>
   <data name="apply.Text" xml:space="preserve">
     <value>Застосувати</value>
+  </data>
+  <data name="apply.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="footerPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>

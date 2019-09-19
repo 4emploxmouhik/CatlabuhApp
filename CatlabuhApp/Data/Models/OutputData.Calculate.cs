@@ -284,7 +284,7 @@ namespace CatlabuhApp.Data.Models
                 c1[i] = (i == 0) ? w1[0] * s1[0] : c2[i - 1];
 
                 sp[i] = coefficients[7];
-                sr[i] = coefficients[8];
+                sr[i] = coefficients[36] * Math.Exp(coefficients[37] * vr[i]); //coefficients[8];
                 sb[i] = sr[i] * coefficients[9];
                 sg[i] = coefficients[10];
                 sdr[i] = coefficients[11];
@@ -303,7 +303,7 @@ namespace CatlabuhApp.Data.Models
 
                 sf[i] = s1[i];
                 sz[i] = s1[i];
-                sdMinus[i] = s1[i];
+                sdMinus[i] = s1[i] * coefficients[38];
                 sozMinus[i] = s1[i];
 
                 cf[i] = vf[i] * sf[i];
@@ -361,9 +361,16 @@ namespace CatlabuhApp.Data.Models
             {
                 throw new ArgumentNullException("DataAccess is null.");
             }
+            
             // get input data => S1, S2 and other
             s1 = DataAccess.GetColumnData<double>($"SELECT S1 FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
-            s2 = DataAccess.GetColumnData<double>($"SELECT S2 FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
+            //s2 = DataAccess.GetColumnData<double>($"SELECT S2 FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
+
+            for (int i = 0; i < s1.Length - 1; i++)
+            {
+                s2[i] = s1[i + 1];
+            }
+            s2[s1.Length - 1] = DataAccess.GetCellData<double>($"SELECT S2 FROM OutputData WHERE YearName = {yearOfCalculation} AND MonthID = 12");
 
             vp = DataAccess.GetColumnData<double>($"SELECT Vp FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
             vr = DataAccess.GetColumnData<double>($"SELECT Vr FROM OutputData WHERE YearName = {yearOfCalculation} LIMIT 12").ToArray();
@@ -390,6 +397,7 @@ namespace CatlabuhApp.Data.Models
                 if (i < 12)
                 {
                     sql += "UPDATE OutputData SET " +
+                        $"S2 = {s2[i]}, " +
                         $"Sp = {sp[i]}, Sr = {sr[i]}, Sb = {sb[i]}, Sg = {sg[i]}, Sdr = {sdr[i]}, SD_plus = {sdPlus[i]}, Soz_plus = {sozPlus[i]}, " +
                         $"C1 = {c1[i]}, C2 = {c2[i]}, Cp = {cp[i]}, Cr = {cr[i]}, Cb = {cb[i]}, Cg = {cg[i]}, Cdr = {cdr[i]}, " +
                         $"CD_plus = {cdPlus[i]}, Coz_plus = {cozPlus[i]}, EpCi_plus = {epciPlus[i]}, Sf = {sf[i]}, Sz = {sz[i]}, " +
@@ -458,6 +466,7 @@ namespace CatlabuhApp.Data.Models
                 cg[i] = Math.Round(cg[i], 2);
                 cdr[i] = Math.Round(cdr[i], 2);
                 cdPlus[i] = Math.Round(cdPlus[i], 2);
+                cozPlus[i] = Math.Round(cozPlus[i], 2);
                 epciPlus[i] = Math.Round(epciPlus[i], 2);
                 sf[i] = Math.Round(sf[i], 2);
                 sz[i] = Math.Round(sz[i], 2);
@@ -466,6 +475,7 @@ namespace CatlabuhApp.Data.Models
                 cf[i] = Math.Round(cf[i], 2);
                 cz[i] = Math.Round(cz[i], 2);
                 cdMinus[i] = Math.Round(cdMinus[i], 2);
+                cozMinus[i] = Math.Round(cozMinus[i], 2);
                 epciMinus[i] = Math.Round(epciMinus[i], 2);
 
                 if (i < 5)

@@ -286,7 +286,7 @@
     <value>Сумма расходной части, 10^6 т.</value>
   </data>
   <data name="EpCi_minusDescription_UA" xml:space="preserve">
-    <value>Сума прихідної частини, 10^6 т.</value>
+    <value>Сума витратної частини, 10^6 т.</value>
   </data>
   <data name="EpCi_plusDescription_EN" xml:space="preserve">
     <value>The sum of the revenue part, 10^6 t.</value>

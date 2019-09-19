@@ -249,16 +249,16 @@ namespace CatlabuhApp.UI.Support.Setups
             }
 
             XAxisItemsBox.Clear();
-            int i = 0;
 
             foreach (var entry in XAxisItems)
             {
-                if (monthsBoxes[i].Tag.Equals(entry))
+                for (int i = 0; i < monthsBoxes.Count; i++)
                 {
-                    XAxisItemsBox.Text += monthsBoxes[i].Text + " ";
+                    if (monthsBoxes[i].Tag.Equals(entry))
+                    {
+                        XAxisItemsBox.Text += monthsBoxes[i].Text + " ";
+                    }
                 }
-
-                i++;
             }
         }
 

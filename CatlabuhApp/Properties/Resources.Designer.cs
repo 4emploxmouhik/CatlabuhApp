@@ -705,7 +705,7 @@ namespace CatlabuhApp.Properties {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Сума прихідної частини, 10^6 т..
+        ///   Ищет локализованную строку, похожую на Сума витратної частини, 10^6 т..
         /// </summary>
         internal static string EpCi_minusDescription_UA {
             get {
